@@ -252,9 +252,20 @@ async function fetchReport() {
 function cleanCitations(text) {
   if (!text) return ''
   return text
-    .replace(/##begin_quote##\s*/g, '"')
-    .replace(/\s*##end_quote##/g, '"')
-    .replace(/\s*\[(?:文档|Document)\s*\d+(?:\s*,\s*\d+)*\]/g, '')
+    // Remove entire quoted blocks that contain raw table data (pipes)
+    .replace(/##begin_quote##\s*[\s\S]*?\s*##end_quote##/g, (match) => {
+      const inner = match.replace(/##begin_quote##\s*/, '').replace(/\s*##end_quote##/, '').trim()
+      // If it looks like raw table data (multiple pipes), remove entirely
+      if ((inner.match(/\|/g) || []).length >= 3) return ''
+      // Otherwise keep the content without markers
+      return inner
+    })
+    // Remove document references like [文档 1], [Document 2, 6], [文档1]
+    .replace(/\s*\[(?:文档|Document)\s*\d+(?:\s*[,，]\s*\d+)*\s*\]/g, '')
+    // Clean up leftover double spaces / leading punctuation
+    .replace(/  +/g, ' ')
+    .replace(/。\s*。/g, '。')
+    .trim()
 }
 
 function buildMarkdownFromResult(data) {
