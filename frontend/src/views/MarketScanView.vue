@@ -3,7 +3,7 @@
     <!-- Page Header -->
     <div class="flex justify-between items-start gap-4 flex-wrap">
       <div>
-        <h1 class="text-2xl font-headline font-bold text-on-surface tracking-tight">Market Scanner</h1>
+        <h1 class="text-2xl font-headline font-bold text-on-surface tracking-tight">Polymarket Scanner</h1>
         <p class="mt-1 text-sm text-on-surface-variant">Find mispriced Polymarket contracts</p>
       </div>
       <button
