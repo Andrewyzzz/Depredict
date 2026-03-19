@@ -3,77 +3,75 @@
     <div v-if="error" class="p-4 bg-error-container/20 border border-error/20 rounded-xl text-error text-sm">{{ error }}</div>
 
     <!-- Hero Performance Section -->
-    <section class="grid grid-cols-1 lg:grid-cols-10 gap-6">
+    <section class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4">
       <!-- Model Edge Hero -->
-      <div class="lg:col-span-3 flex flex-col justify-center p-8 glass-panel rounded-xl">
+      <div class="col-span-2 md:col-span-4 lg:col-span-2 flex flex-col justify-center p-6 glass-panel rounded-xl">
         <span class="micro-label text-on-surface-variant mb-2">Model Edge</span>
         <div
-          class="text-5xl lg:text-6xl font-headline font-bold tabular-nums"
+          class="text-4xl lg:text-5xl font-headline font-bold tabular-nums"
           :class="dashEdge > 0 ? 'text-secondary glow-secondary' : dashEdge < 0 ? 'text-tertiary glow-tertiary' : 'text-on-surface-variant'"
         >
           {{ dashEdge != null ? (dashEdge >= 0 ? '+' : '') + dashEdge.toFixed(4) : '--' }}
         </div>
-        <p class="text-on-surface-variant text-sm mt-4">
-          {{ dashEdge != null ? (dashEdge > 0 ? 'Aggregate advantage over prediction markets.' : 'Market currently outperforming model.') : 'Need resolved predictions to calculate.' }}
+        <p class="text-on-surface-variant text-xs mt-2">
+          {{ dashEdge != null ? (dashEdge > 0 ? 'Advantage over markets' : 'Market outperforming') : 'Need resolved data' }}
         </p>
       </div>
-      <!-- Stat Cards -->
-      <div class="lg:col-span-7 grid grid-cols-2 md:grid-cols-3 gap-4">
-        <div class="p-6 bg-surface-container-low rounded-xl border border-outline-variant/10">
-          <span class="micro-label text-on-surface-variant">Total Predictions</span>
-          <div class="text-3xl font-headline font-bold mt-1 tabular-nums">{{ allPredictions.length }}</div>
+      <!-- Stat Cards (compact) -->
+      <div class="p-4 bg-surface-container-low rounded-xl border border-outline-variant/10">
+        <span class="micro-label text-on-surface-variant">Total</span>
+        <div class="text-2xl font-headline font-bold mt-1 tabular-nums">{{ allPredictions.length }}</div>
+      </div>
+      <div class="p-4 bg-surface-container-low rounded-xl border border-outline-variant/10">
+        <span class="micro-label text-on-surface-variant">Resolved</span>
+        <div class="text-2xl font-headline font-bold mt-1 tabular-nums text-primary">{{ resolvedPredictions.length }}</div>
+      </div>
+      <div class="p-4 bg-surface-container-low rounded-xl border border-outline-variant/10">
+        <span class="micro-label text-on-surface-variant">Win Rate</span>
+        <div class="text-2xl font-headline font-bold mt-1 tabular-nums" :class="winRate > 50 ? 'text-secondary' : ''">
+          {{ winRate != null ? winRate.toFixed(1) + '%' : '--' }}
         </div>
-        <div class="p-6 bg-surface-container-low rounded-xl border border-outline-variant/10">
-          <span class="micro-label text-on-surface-variant">Resolved</span>
-          <div class="text-3xl font-headline font-bold mt-1 tabular-nums text-primary">{{ resolvedPredictions.length }}</div>
-        </div>
-        <div class="p-6 bg-surface-container-low rounded-xl border border-outline-variant/10">
-          <span class="micro-label text-on-surface-variant">Pending</span>
-          <div class="text-3xl font-headline font-bold mt-1 tabular-nums">{{ pendingPredictions.length }}</div>
-        </div>
-        <div class="p-6 bg-surface-container-low rounded-xl border border-outline-variant/10">
-          <span class="micro-label text-on-surface-variant">Win Rate</span>
-          <div class="text-3xl font-headline font-bold mt-1 tabular-nums" :class="winRate > 50 ? 'text-secondary' : ''">
-            {{ winRate != null ? winRate.toFixed(1) + '%' : '--' }}
-          </div>
-        </div>
-        <div class="p-6 bg-surface-container-low rounded-xl border border-outline-variant/10">
-          <span class="micro-label text-on-surface-variant">Model Brier</span>
-          <div class="text-3xl font-headline font-bold mt-1 tabular-nums">{{ dashModelBrier != null ? dashModelBrier.toFixed(4) : '--' }}</div>
-        </div>
-        <div class="p-6 bg-surface-container-low rounded-xl border border-outline-variant/10">
-          <span class="micro-label text-on-surface-variant">Market Brier</span>
-          <div class="text-3xl font-headline font-bold mt-1 tabular-nums">{{ dashMarketBrier != null ? dashMarketBrier.toFixed(4) : '--' }}</div>
-        </div>
+      </div>
+      <div class="p-4 bg-surface-container-low rounded-xl border border-outline-variant/10">
+        <span class="micro-label text-on-surface-variant">Model Brier</span>
+        <div class="text-2xl font-headline font-bold mt-1 tabular-nums">{{ dashModelBrier != null ? dashModelBrier.toFixed(4) : '--' }}</div>
+      </div>
+      <div class="p-4 bg-surface-container-low rounded-xl border border-outline-variant/10">
+        <span class="micro-label text-on-surface-variant">Market Brier</span>
+        <div class="text-2xl font-headline font-bold mt-1 tabular-nums">{{ dashMarketBrier != null ? dashMarketBrier.toFixed(4) : '--' }}</div>
       </div>
     </section>
 
     <!-- Visualization Row -->
-    <section class="grid grid-cols-1 lg:grid-cols-2 gap-6" v-if="calibrationData.labels.length || brierByMethod.length">
-      <!-- Calibration Plot -->
-      <div class="p-6 bg-surface-container rounded-xl" v-if="calibrationData.labels.length">
-        <h3 class="font-headline font-bold text-lg mb-6 flex items-center gap-2">
-          <span class="material-symbols-outlined text-primary">analytics</span>
+    <section class="grid grid-cols-1 lg:grid-cols-12 gap-6" v-if="calibrationData.labels.length || allBrierByMethod.length">
+      <!-- Calibration Plot (square) -->
+      <div class="lg:col-span-5 p-6 bg-surface-container rounded-xl" v-if="calibrationData.labels.length">
+        <h3 class="font-headline font-bold text-sm uppercase tracking-wider mb-4 flex items-center gap-2 text-on-surface-variant">
+          <span class="material-symbols-outlined text-primary text-lg">analytics</span>
           Calibration Plot
         </h3>
-        <div class="h-64">
+        <div class="w-full" style="aspect-ratio: 1 / 1;">
           <Line :data="calibrationChartData" :options="calibrationChartOptions" />
         </div>
       </div>
       <!-- Brier by Method -->
-      <div class="p-6 bg-surface-container rounded-xl" v-if="brierByMethod.length">
-        <h3 class="font-headline font-bold text-lg mb-6 flex items-center gap-2">
-          <span class="material-symbols-outlined text-primary">bar_chart</span>
+      <div class="lg:col-span-7 p-6 bg-surface-container rounded-xl" v-if="allBrierByMethod.length">
+        <h3 class="font-headline font-bold text-sm uppercase tracking-wider mb-4 flex items-center gap-2 text-on-surface-variant">
+          <span class="material-symbols-outlined text-primary text-lg">bar_chart</span>
           Brier Score by Method
         </h3>
-        <div class="space-y-5">
-          <div v-for="m in sortedBrierMethods" :key="m.method" class="space-y-1.5">
+        <div class="space-y-4">
+          <div v-for="m in sortedAllBrierMethods" :key="m.method" class="space-y-1">
             <div class="flex justify-between text-xs font-label uppercase tracking-wider text-on-surface-variant">
               <span>{{ m.method }}</span>
-              <span class="tabular-nums">{{ m.score.toFixed(4) }}</span>
+              <span class="tabular-nums font-bold" :class="m.isBest ? 'text-secondary' : ''">{{ m.score.toFixed(4) }}</span>
             </div>
-            <div class="h-2.5 w-full bg-surface-container-highest rounded-full overflow-hidden">
-              <div class="h-full bg-gradient-to-r from-primary to-primary-container rounded-full transition-all duration-500" :style="{ width: brierBarWidth(m.score) }"></div>
+            <div class="h-2 w-full bg-surface-container-highest rounded-full overflow-hidden">
+              <div
+                class="h-full rounded-full transition-all duration-500"
+                :class="m.isMarket ? 'bg-tertiary/60' : 'bg-gradient-to-r from-primary to-primary-container'"
+                :style="{ width: brierBarWidth(m.score) }"
+              ></div>
             </div>
           </div>
         </div>
@@ -364,10 +362,61 @@ function fmtDate(iso) {
 }
 function goToReport(p) { if (p.taskId) router.push(`/report/${p.taskId}`) }
 
-/* ── Brier bar width ── */
-const sortedBrierMethods = computed(() => [...brierByMethod.value].sort((a, b) => a.score - b.score))
+/* ── Brier by Method (from prospective data) ── */
+const allBrierByMethod = computed(() => {
+  const resolved = resolvedPredictions.value.filter(p => p.resolved && p.outcome != null)
+  if (!resolved.length) return brierByMethod.value // fallback to old calibration API
+
+  // Compute brier per mechanism from prospective all_mechanisms
+  const methodScores = {}
+  for (const pred of prospectiveAll.value) {
+    if (pred.status !== 'resolved' || pred.resolution == null || !pred.all_mechanisms) continue
+    const outcome = pred.resolution ? 1.0 : 0.0
+    for (const [method, prob] of Object.entries(pred.all_mechanisms)) {
+      if (prob == null) continue
+      if (!methodScores[method]) methodScores[method] = []
+      methodScores[method].push((prob / 100 - outcome) ** 2)
+    }
+  }
+
+  // Also add market baseline
+  const marketScores = []
+  for (const pred of prospectiveAll.value) {
+    if (pred.status !== 'resolved' || pred.resolution == null || pred.market_price_at_prediction == null) continue
+    const outcome = pred.resolution ? 1.0 : 0.0
+    marketScores.push((pred.market_price_at_prediction - outcome) ** 2)
+  }
+
+  const result = []
+  for (const [method, scores] of Object.entries(methodScores)) {
+    const avg = scores.reduce((s, v) => s + v, 0) / scores.length
+    result.push({
+      method: method.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase()),
+      score: avg,
+      isMarket: false,
+    })
+  }
+  if (marketScores.length) {
+    const avg = marketScores.reduce((s, v) => s + v, 0) / marketScores.length
+    result.push({ method: 'Market Price', score: avg, isMarket: true })
+  }
+
+  // If no prospective data, fallback
+  if (!result.length) return brierByMethod.value
+
+  // Mark best
+  const bestScore = Math.min(...result.filter(m => !m.isMarket).map(m => m.score))
+  for (const m of result) {
+    m.isBest = !m.isMarket && m.score === bestScore
+  }
+  return result
+})
+
+const sortedAllBrierMethods = computed(() => [...allBrierByMethod.value].sort((a, b) => a.score - b.score))
+
 function brierBarWidth(score) {
-  const max = brierByMethod.value.length ? Math.max(...brierByMethod.value.map(m => m.score)) : 0.5
+  const items = allBrierByMethod.value.length ? allBrierByMethod.value : brierByMethod.value
+  const max = items.length ? Math.max(...items.map(m => m.score)) : 0.5
   return Math.min((score / max) * 100, 100) + '%'
 }
 
@@ -412,11 +461,25 @@ const calibrationChartData = computed(() => ({
 }))
 
 const calibrationChartOptions = {
-  responsive: true, maintainAspectRatio: false,
-  plugins: { legend: { position: 'bottom', labels: { color: '#c2c6d6', padding: 16, usePointStyle: true } } },
+  responsive: true,
+  maintainAspectRatio: true,
+  aspectRatio: 1,
+  plugins: {
+    legend: { position: 'bottom', labels: { color: '#c2c6d6', padding: 16, usePointStyle: true, font: { size: 11 } } },
+  },
   scales: {
-    x: { title: { display: true, text: 'Predicted Probability', color: '#c2c6d6', font: { weight: '600', size: 11 } }, grid: { color: 'rgba(66,71,84,0.2)' }, ticks: { color: '#8c909f' } },
-    y: { title: { display: true, text: 'Actual Frequency', color: '#c2c6d6', font: { weight: '600', size: 11 } }, min: 0, max: 1, grid: { color: 'rgba(66,71,84,0.2)' }, ticks: { color: '#8c909f' } },
+    x: {
+      title: { display: true, text: 'Predicted Probability', color: '#c2c6d6', font: { weight: '600', size: 11 } },
+      min: 0, max: 1,
+      grid: { color: 'rgba(66,71,84,0.15)' },
+      ticks: { color: '#8c909f', stepSize: 0.2, font: { size: 10 } },
+    },
+    y: {
+      title: { display: true, text: 'Actual Frequency', color: '#c2c6d6', font: { weight: '600', size: 11 } },
+      min: 0, max: 1,
+      grid: { color: 'rgba(66,71,84,0.15)' },
+      ticks: { color: '#8c909f', stepSize: 0.2, font: { size: 10 } },
+    },
   },
 }
 
