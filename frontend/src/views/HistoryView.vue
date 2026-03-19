@@ -43,30 +43,30 @@
     </section>
 
     <!-- Visualization Row -->
-    <section class="grid grid-cols-1 lg:grid-cols-12 gap-6" v-if="calibrationData.labels.length || allBrierByMethod.length">
-      <!-- Calibration Plot (square) -->
-      <div class="lg:col-span-5 p-6 bg-surface-container rounded-xl" v-if="calibrationData.labels.length">
+    <section class="flex flex-col lg:flex-row gap-6" v-if="calibrationData.labels.length || allBrierByMethod.length">
+      <!-- Calibration Plot (square, fixed size) -->
+      <div class="p-6 bg-surface-container rounded-xl shrink-0" v-if="calibrationData.labels.length" style="width: 480px; max-width: 100%;">
         <h3 class="font-headline font-bold text-sm uppercase tracking-wider mb-4 flex items-center gap-2 text-on-surface-variant">
           <span class="material-symbols-outlined text-primary text-lg">analytics</span>
           Calibration Plot
         </h3>
-        <div class="w-full" style="aspect-ratio: 1 / 1;">
-          <Line :data="calibrationChartData" :options="calibrationChartOptions" />
+        <div style="position: relative; width: 100%; aspect-ratio: 1 / 1;">
+          <Line :data="calibrationChartData" :options="calibrationChartOptions" style="position: absolute; inset: 0;" />
         </div>
       </div>
-      <!-- Brier by Method -->
-      <div class="lg:col-span-7 p-6 bg-surface-container rounded-xl" v-if="allBrierByMethod.length">
+      <!-- Brier by Method (fills remaining) -->
+      <div class="flex-1 min-w-0 p-6 bg-surface-container rounded-xl" v-if="allBrierByMethod.length">
         <h3 class="font-headline font-bold text-sm uppercase tracking-wider mb-4 flex items-center gap-2 text-on-surface-variant">
           <span class="material-symbols-outlined text-primary text-lg">bar_chart</span>
           Brier Score by Method
         </h3>
-        <div class="space-y-4">
+        <div class="space-y-3">
           <div v-for="m in sortedAllBrierMethods" :key="m.method" class="space-y-1">
             <div class="flex justify-between text-xs font-label uppercase tracking-wider text-on-surface-variant">
               <span>{{ m.method }}</span>
               <span class="tabular-nums font-bold" :class="m.isBest ? 'text-secondary' : ''">{{ m.score.toFixed(4) }}</span>
             </div>
-            <div class="h-2 w-full bg-surface-container-highest rounded-full overflow-hidden">
+            <div class="h-1.5 w-full bg-surface-container-highest rounded-full overflow-hidden">
               <div
                 class="h-full rounded-full transition-all duration-500"
                 :class="m.isMarket ? 'bg-tertiary/60' : 'bg-gradient-to-r from-primary to-primary-container'"
@@ -452,33 +452,43 @@ const calibrationData = computed(() => {
   return { labels, predicted: labels.map(l => parseFloat(l)), actual: labels.map(l => buckets[l].sum / buckets[l].count) }
 })
 
-const calibrationChartData = computed(() => ({
-  labels: calibrationData.value.labels,
-  datasets: [
-    { label: 'Perfect', data: calibrationData.value.predicted, borderColor: '#424754', borderDash: [6, 4], borderWidth: 2, pointRadius: 0, fill: false },
-    { label: 'Model', data: calibrationData.value.actual, borderColor: '#4d8eff', borderWidth: 2.5, pointRadius: 6, pointBackgroundColor: '#4d8eff', pointBorderColor: '#111317', pointBorderWidth: 2, fill: false },
-  ],
-}))
+const calibrationChartData = computed(() => {
+  const predicted = calibrationData.value.predicted
+  const actual = calibrationData.value.actual
+  // Use {x, y} point format for linear scales
+  const perfectPoints = [{ x: 0, y: 0 }, { x: 1, y: 1 }]
+  const modelPoints = predicted.map((p, i) => ({ x: p, y: actual[i] }))
+
+  return {
+    datasets: [
+      { label: 'Perfect', data: perfectPoints, borderColor: '#424754', borderDash: [6, 4], borderWidth: 2, pointRadius: 0, fill: false },
+      { label: 'Model', data: modelPoints, borderColor: '#4d8eff', borderWidth: 2.5, pointRadius: 6, pointBackgroundColor: '#4d8eff', pointBorderColor: '#111317', pointBorderWidth: 2, fill: false, showLine: true },
+    ],
+  }
+})
 
 const calibrationChartOptions = {
   responsive: true,
   maintainAspectRatio: true,
   aspectRatio: 1,
+  layout: { padding: { top: 4, right: 4, bottom: 0, left: 0 } },
   plugins: {
-    legend: { position: 'bottom', labels: { color: '#c2c6d6', padding: 16, usePointStyle: true, font: { size: 11 } } },
+    legend: { position: 'bottom', labels: { color: '#c2c6d6', padding: 12, usePointStyle: true, font: { size: 11 } } },
   },
   scales: {
     x: {
+      type: 'linear',
       title: { display: true, text: 'Predicted Probability', color: '#c2c6d6', font: { weight: '600', size: 11 } },
       min: 0, max: 1,
       grid: { color: 'rgba(66,71,84,0.15)' },
-      ticks: { color: '#8c909f', stepSize: 0.2, font: { size: 10 } },
+      ticks: { color: '#8c909f', stepSize: 0.2, font: { size: 10 }, callback: (v) => v.toFixed(1) },
     },
     y: {
+      type: 'linear',
       title: { display: true, text: 'Actual Frequency', color: '#c2c6d6', font: { weight: '600', size: 11 } },
       min: 0, max: 1,
       grid: { color: 'rgba(66,71,84,0.15)' },
-      ticks: { color: '#8c909f', stepSize: 0.2, font: { size: 10 } },
+      ticks: { color: '#8c909f', stepSize: 0.2, font: { size: 10 }, callback: (v) => v.toFixed(1) },
     },
   },
 }
