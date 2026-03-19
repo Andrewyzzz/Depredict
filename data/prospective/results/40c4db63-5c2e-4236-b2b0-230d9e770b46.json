@@ -1,0 +1,2171 @@
+{
+  "question": "Counter-Strike: PARIVISION vs NIP - Map 1 Winner",
+  "market_price": 0.57,
+  "timestamp": "2026-03-19T04:16:32.108839",
+  "rag_sources": [
+    {
+      "title": "[YouTube] Sprout vs SINNERS - HIGHLIGHTS Map 1 - ESL Challenger League | CS2",
+      "url": "https://www.youtube.com/watch?v=Sv1JYVJ4YLU",
+      "source": "youtube"
+    },
+    {
+      "title": "[YouTube] ESL Pro League Season 23 - Day 5",
+      "url": "https://www.youtube.com/watch?v=dmQ9ILzN428",
+      "source": "youtube"
+    },
+    {
+      "title": "[YouTube] How PARIVISION UPSET Falcons & Spirit, Huge CS2 Updates & More | All About Counter-Strike #48",
+      "url": "https://www.youtube.com/watch?v=sB92APIy_Ic",
+      "source": "youtube"
+    },
+    {
+      "title": "[YouTube] WINNER TO LAN! PVISION vs Astralis - Official Highlights - BLAST Premier Bounty 2026 Season 1",
+      "url": "https://www.youtube.com/watch?v=INq4eTE6Yqw",
+      "source": "youtube"
+    },
+    {
+      "title": "[YouTube] PGL Cluj - Napoca 2026 - Grand Final",
+      "url": "https://www.youtube.com/watch?v=QpUk5MiY320",
+      "source": "youtube"
+    },
+    {
+      "title": "[YouTube] LOSER IS OUT! Aurora vs Astralis - HIGHLIGHTS - StarLadder Budapest Major 2025 - STAGE 2 | CS2",
+      "url": "https://www.youtube.com/watch?v=MzNqhQWWkP8",
+      "source": "youtube"
+    },
+    {
+      "title": "[YouTube] GRAND FINAL! Falcons vs PARIVISION - Official Highlights - BLAST Premier Bounty 2026 Season 1",
+      "url": "https://www.youtube.com/watch?v=PWF_nE-R4z0",
+      "source": "youtube"
+    },
+    {
+      "title": "[YouTube] BLAST Bounty Malta 2026, GRAND FINAL - Team Falcons vs PARIVISION",
+      "url": "https://www.youtube.com/watch?v=7G4IX_WTMFY",
+      "source": "youtube"
+    },
+    {
+      "title": "[YouTube] Aurora vs FaZe - HIGHLIGHTS - StarLadder Budapest Major 2025 - STAGE 2 | CS2",
+      "url": "https://www.youtube.com/watch?v=4chan5z6xCU",
+      "source": "youtube"
+    },
+    {
+      "title": "[YouTube] WINNER TO PLAYOFFS! FURIA vs PVISION - HIGHLIGHTS - PGL Cluj-Napoca 2026 | CS2",
+      "url": "https://www.youtube.com/watch?v=R_cTFSaSd_c",
+      "source": "youtube"
+    },
+    {
+      "title": "[Reddit] Falcons vs PARIVISION / PGL Cluj-Napoca 2026 - Quarter-Final / Post-Match Discussion",
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1r9swbc/falcons_vs_parivision_pgl_clujnapoca_2026/",
+      "source": "reddit"
+    },
+    {
+      "title": "[Reddit] PARIVISION vs Vitality / PGL Cluj-Napoca 2026 - Grand Final / Post-Match Discussion",
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1rbusmz/parivision_vs_vitality_pgl_clujnapoca_2026_grand/",
+      "source": "reddit"
+    },
+    {
+      "title": "[Reddit] LYON vs. LOUD / First Stand 2026 - Group B - Upper Bracket Round 1 / Post-Match Discussion",
+      "url": "https://www.reddit.com/r/leagueoflegends/comments/1rwgzni/lyon_vs_loud_first_stand_2026_group_b_upper/",
+      "source": "reddit"
+    },
+    {
+      "title": "[Reddit] BNK FEARX vs. Bilibili Gaming / First Stand 2026 - Group A - Upper Bracket Round 1 / Post-Match Discussion",
+      "url": "https://www.reddit.com/r/leagueoflegends/comments/1rvf8by/bnk_fearx_vs_bilibili_gaming_first_stand_2026/",
+      "source": "reddit"
+    },
+    {
+      "title": "[Reddit] G2 Esports vs. Team Secret Whales / First Stand 2026 - Group A - Upper Bracket Round 1 / Post-Match Discussion",
+      "url": "https://www.reddit.com/r/leagueoflegends/comments/1rvjr4d/g2_esports_vs_team_secret_whales_first_stand_2026/",
+      "source": "reddit"
+    }
+  ],
+  "document_count": 15,
+  "rounds": {
+    "round1": [
+      {
+        "agent_name": "乐观分析师",
+        "stance": "bull",
+        "probability": 65.0,
+        "reasoning": "让我先评估文档相关性。文档1、2、4、5、6、7都是关于其他战队或无关内容的干扰信息，相关性评分均低于5分。文档3（All About Counter-Strike #48）直接讨论了PARIVISION的表现和近期状态，相关性评分8分，是唯一真正相关的文档。\n\n**1. 支持PARIVISION获胜的论据（YES）：**\n\n首先，PARIVISION近期展现了强大的比赛掌控能力。根据文档3的分析，他们在比赛中表现出色：“##begin_quote## I predicted that Parision would win, and they did win. I didn't expect them to win 3-0, but I'm going to say that. ##end_quote## [文档 3]” 这表明他们不仅能够获胜，还能以压倒性比分取胜。\n\n其次，PARIVISION的团队协作和战术执行力非常出色。文档3中提到：“##begin_quote## they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 3]”。这种团队韧性在面对NIP时将是一大优势。\n\n第三，PARIVISION在近期赛事中展现了击败顶级队伍的能力。文档3指出：“##begin_quote## they came here they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 3]”。这表明他们具备击败高水平对手的实力和心态，这对阵NIP时是重要心理优势。\n\n**2. 反对PARIVISION获胜的论据（NO）：**\n\n首先，NIP作为传统强队，拥有丰富的赛事经验和深厚的战术底蕴。虽然文档中没有直接数据，但历史表现显示NIP在面对新兴战队时往往能利用经验优势。\n\n其次，PARIVISION可能面临“黑马疲劳”的风险。连续高强度作战后，团队状态可能出现波动。文档3提到他们需要保持稳定表现：“##begin_quote## a team that many thought ah that was just a fluke at Blast Bounty but then they came here ##end_quote## [文档 3]”，暗示他们需要持续证明自己。\n\n第三，Map 1的特殊性意味着双方都会全力以赴，NIP在首张地图的准备工作通常很充分。这可能会抵消PARIVISION的部分战术新奇性优势。\n\n**3. 综合分析：**\n\n权衡以上因素，PARIVISION的近期表现数据更具说服力。他们击败顶级战队的记录不是偶然，而是团队协作和战术执行力的体现。虽然NIP有经验优势，但PARIVISION展现的团队化学和获胜能力在当前环境下更为关键。\n\n从乐观分析师的角度看，数据驱动的证据支持PARIVISION。他们不仅赢了，而且赢得漂亮，这种正面动力在电竞比赛中具有传染性。历史先例表明，当一支战队展现出PARIVISION这样的团队协作和击败强敌的能力时，他们往往能延续良好状态。\n\n**4. 最终概率估计：**\n\n基于PARIVISION近期击败顶级战队的实际表现、团队协作优势以及正面比赛动力，我认为他们在Map 1获胜的概率较高。考虑到NIP的传统实力，概率不会极端，但明显倾向于PARIVISION。",
+        "raw_response": "REASONING: 让我先评估文档相关性。文档1、2、4、5、6、7都是关于其他战队或无关内容的干扰信息，相关性评分均低于5分。文档3（All About Counter-Strike #48）直接讨论了PARIVISION的表现和近期状态，相关性评分8分，是唯一真正相关的文档。\n\n**1. 支持PARIVISION获胜的论据（YES）：**\n\n首先，PARIVISION近期展现了强大的比赛掌控能力。根据文档3的分析，他们在比赛中表现出色：“##begin_quote## I predicted that Parision would win, and they did win. I didn't expect them to win 3-0, but I'm going to say that. ##end_quote## [文档 3]” 这表明他们不仅能够获胜，还能以压倒性比分取胜。\n\n其次，PARIVISION的团队协作和战术执行力非常出色。文档3中提到：“##begin_quote## they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 3]”。这种团队韧性在面对NIP时将是一大优势。\n\n第三，PARIVISION在近期赛事中展现了击败顶级队伍的能力。文档3指出：“##begin_quote## they came here they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 3]”。这表明他们具备击败高水平对手的实力和心态，这对阵NIP时是重要心理优势。\n\n**2. 反对PARIVISION获胜的论据（NO）：**\n\n首先，NIP作为传统强队，拥有丰富的赛事经验和深厚的战术底蕴。虽然文档中没有直接数据，但历史表现显示NIP在面对新兴战队时往往能利用经验优势。\n\n其次，PARIVISION可能面临“黑马疲劳”的风险。连续高强度作战后，团队状态可能出现波动。文档3提到他们需要保持稳定表现：“##begin_quote## a team that many thought ah that was just a fluke at Blast Bounty but then they came here ##end_quote## [文档 3]”，暗示他们需要持续证明自己。\n\n第三，Map 1的特殊性意味着双方都会全力以赴，NIP在首张地图的准备工作通常很充分。这可能会抵消PARIVISION的部分战术新奇性优势。\n\n**3. 综合分析：**\n\n权衡以上因素，PARIVISION的近期表现数据更具说服力。他们击败顶级战队的记录不是偶然，而是团队协作和战术执行力的体现。虽然NIP有经验优势，但PARIVISION展现的团队化学和获胜能力在当前环境下更为关键。\n\n从乐观分析师的角度看，数据驱动的证据支持PARIVISION。他们不仅赢了，而且赢得漂亮，这种正面动力在电竞比赛中具有传染性。历史先例表明，当一支战队展现出PARIVISION这样的团队协作和击败强敌的能力时，他们往往能延续良好状态。\n\n**4. 最终概率估计：**\n\n基于PARIVISION近期击败顶级战队的实际表现、团队协作优势以及正面比赛动力，我认为他们在Map 1获胜的概率较高。考虑到NIP的传统实力，概率不会极端，但明显倾向于PARIVISION。\n\nPREDICTION: 65%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "I predicted that Parision would win, and they did win. I didn't expect them to win 3-0, but I'm going to say that.",
+              "doc_index": 3
+            },
+            {
+              "quote": "they've been able to work together as a unit wear teams down and find a way to win no matter what's against them",
+              "doc_index": 3
+            },
+            {
+              "quote": "they came here they beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 3
+            },
+            {
+              "quote": "a team that many thought ah that was just a fluke at Blast Bounty but then they came here",
+              "doc_index": 3
+            }
+          ],
+          "cited_doc_indices": [
+            3
+          ]
+        }
+      },
+      {
+        "agent_name": "质疑分析师",
+        "stance": "bear",
+        "probability": 45.0,
+        "reasoning": "作为质疑分析师，我必须首先指出，所提供的文档中几乎没有直接关于PARIVISION与NIP之间即将进行的比赛Map 1的预测性信息。文档主要涉及其他比赛（如Sprout vs SINNERS、ESL Pro League、BLAST Bounty、PGL Cluj决赛等）和泛泛的讨论。这本身就构成了一个巨大的风险：我们正在基于不完整和间接的信息进行推断。\n\n**支持PARIVISION获胜（YES）的论据：**\n1. **近期大赛决赛经验**：尽管在决赛中失利，但PARIVISION在最近的PGL Cluj-Napoca 2026赛事中成功打入决赛，这证明了他们具备在高压力、大型线下赛事中走得很远的能力。##begin_quote## Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。这种经验在Map 1的心理对抗中可能是一个优势。\n2. **团队协作能力**：有分析指出，PARIVISION的强项在于整体协作而非依赖明星选手。##begin_quote## they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 5]。这种体系在面对阵容或状态可能不稳定的对手时，可能提供更稳定的Map 1表现。\n3. **特定地图的战术执行力**：在过往比赛中，PARIVISION展现出在某些地图上严谨的战术风格。##begin_quote## I absolutely love watching this power vision team, especially on Dust. So methodical. ##end_quote## [文档 4]。如果Map 1选到他们的强图，这种战术纪律性可能成为关键。\n\n**反对PARIVISION获胜（NO）的论据：**\n1. **决赛惨败暴露的脆弱性**：在PGL Cluj决赛中，PARIVISION被Vitality以0-3彻底击溃，尤其在Map 2 (Dust2)上仅得4分。##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]。这表明当他们面对顶级强队或战术被克制时，可能迅速崩盘。这种大败可能对团队士气产生持续影响，并暴露了可被研究的战术弱点。\n2. **缺乏稳定的顶级枪男**：数据显示，即使在打入决赛的比赛中，PARIVISION也没有选手在个人数据上进入顶级行列。##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]。在依赖个人能力打开局面的Map 1中，缺乏一个稳定的“破局者”是重大风险。对阵Vitality时，除了Jame，其他选手Rating均低于1.0 ##begin_quote## zweih...0.92 | BELCHONOKK...0.86 | xiELO...0.80 | nota...0.72 ##end_quote## [文档 7]。\n3. **“黑马”光环的不可持续性**：文档中多次将PARIVISION描述为“令人惊讶的”和“黑马”。##begin_quote## the crazy underdog run of some of these teams. I mean, Paravision is probably the most interesting one ##end_quote## [文档 5]。历史经验表明，依赖“黑马”势头的队伍状态往往有巨大波动。一旦被对手深入研究，其战术可能失效。NIP作为老牌强队，在备战和分析上可能更具优势。\n\n**综合分析：**\n我的分析强烈倾向于质疑市场可能存在的过度乐观情绪（如果存在的话）。核心矛盾在于：PARIVISION的“团队韧性”叙事与“缺乏顶级个人能力”及“近期惨败”的现实之间的冲突。\n- **基准率考虑**：在顶级CS竞技中，没有稳定顶级明星选手的队伍，其长期和关键比赛的胜率通常低于拥有明星选手的队伍。这是需要优先考虑的基准率。\n- **尾部风险**：PARIVISION在决赛中的崩盘（Dust2 4-13）并非偶然，它揭示了当战术被破解时，他们缺乏个人能力来挽救局势的致命缺陷。这种崩盘可能在面对准备充分的NIP时重演。\n- **信息劣势**：我们缺少关于NIP当前状态、地图池偏好以及两队直接交手记录的关键信息。在信息不完整的情况下，将赌注押在刚刚经历重大挫折的“黑马”身上是危险的。文档中关于其他比赛（如Sprout vs SINNERS）的细节##begin_quote## Sprouts put themselves within AK in the server all opposite end of the map ##end_quote## [文档 1] 完全是干扰信息，与当前预测无关，这进一步提醒我们可用信息的质量不佳。\n\n虽然PARIVISION证明了自己有能力制造冷门，但质疑分析师的角色要求我更加关注被忽视的风险：决赛失利后的心理阴影、个人能力的上限、以及对手作为老牌队伍可能做出的针对性布置。这些风险在Map 1这种遭遇战中可能被放大。",
+        "raw_response": "REASONING: \n作为质疑分析师，我必须首先指出，所提供的文档中几乎没有直接关于PARIVISION与NIP之间即将进行的比赛Map 1的预测性信息。文档主要涉及其他比赛（如Sprout vs SINNERS、ESL Pro League、BLAST Bounty、PGL Cluj决赛等）和泛泛的讨论。这本身就构成了一个巨大的风险：我们正在基于不完整和间接的信息进行推断。\n\n**支持PARIVISION获胜（YES）的论据：**\n1. **近期大赛决赛经验**：尽管在决赛中失利，但PARIVISION在最近的PGL Cluj-Napoca 2026赛事中成功打入决赛，这证明了他们具备在高压力、大型线下赛事中走得很远的能力。##begin_quote## Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。这种经验在Map 1的心理对抗中可能是一个优势。\n2. **团队协作能力**：有分析指出，PARIVISION的强项在于整体协作而非依赖明星选手。##begin_quote## they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 5]。这种体系在面对阵容或状态可能不稳定的对手时，可能提供更稳定的Map 1表现。\n3. **特定地图的战术执行力**：在过往比赛中，PARIVISION展现出在某些地图上严谨的战术风格。##begin_quote## I absolutely love watching this power vision team, especially on Dust. So methodical. ##end_quote## [文档 4]。如果Map 1选到他们的强图，这种战术纪律性可能成为关键。\n\n**反对PARIVISION获胜（NO）的论据：**\n1. **决赛惨败暴露的脆弱性**：在PGL Cluj决赛中，PARIVISION被Vitality以0-3彻底击溃，尤其在Map 2 (Dust2)上仅得4分。##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]。这表明当他们面对顶级强队或战术被克制时，可能迅速崩盘。这种大败可能对团队士气产生持续影响，并暴露了可被研究的战术弱点。\n2. **缺乏稳定的顶级枪男**：数据显示，即使在打入决赛的比赛中，PARIVISION也没有选手在个人数据上进入顶级行列。##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]。在依赖个人能力打开局面的Map 1中，缺乏一个稳定的“破局者”是重大风险。对阵Vitality时，除了Jame，其他选手Rating均低于1.0 ##begin_quote## zweih...0.92 | BELCHONOKK...0.86 | xiELO...0.80 | nota...0.72 ##end_quote## [文档 7]。\n3. **“黑马”光环的不可持续性**：文档中多次将PARIVISION描述为“令人惊讶的”和“黑马”。##begin_quote## the crazy underdog run of some of these teams. I mean, Paravision is probably the most interesting one ##end_quote## [文档 5]。历史经验表明，依赖“黑马”势头的队伍状态往往有巨大波动。一旦被对手深入研究，其战术可能失效。NIP作为老牌强队，在备战和分析上可能更具优势。\n\n**综合分析：**\n我的分析强烈倾向于质疑市场可能存在的过度乐观情绪（如果存在的话）。核心矛盾在于：PARIVISION的“团队韧性”叙事与“缺乏顶级个人能力”及“近期惨败”的现实之间的冲突。\n- **基准率考虑**：在顶级CS竞技中，没有稳定顶级明星选手的队伍，其长期和关键比赛的胜率通常低于拥有明星选手的队伍。这是需要优先考虑的基准率。\n- **尾部风险**：PARIVISION在决赛中的崩盘（Dust2 4-13）并非偶然，它揭示了当战术被破解时，他们缺乏个人能力来挽救局势的致命缺陷。这种崩盘可能在面对准备充分的NIP时重演。\n- **信息劣势**：我们缺少关于NIP当前状态、地图池偏好以及两队直接交手记录的关键信息。在信息不完整的情况下，将赌注押在刚刚经历重大挫折的“黑马”身上是危险的。文档中关于其他比赛（如Sprout vs SINNERS）的细节##begin_quote## Sprouts put themselves within AK in the server all opposite end of the map ##end_quote## [文档 1] 完全是干扰信息，与当前预测无关，这进一步提醒我们可用信息的质量不佳。\n\n虽然PARIVISION证明了自己有能力制造冷门，但质疑分析师的角色要求我更加关注被忽视的风险：决赛失利后的心理阴影、个人能力的上限、以及对手作为老牌队伍可能做出的针对性布置。这些风险在Map 1这种遭遇战中可能被放大。\n\nPREDICTION: 45%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "they've been able to work together as a unit wear teams down and find a way to win no matter what's against them",
+              "doc_index": 5
+            },
+            {
+              "quote": "I absolutely love watching this power vision team, especially on Dust. So methodical.",
+              "doc_index": 4
+            },
+            {
+              "quote": "Dust2: 4-13",
+              "doc_index": 7
+            },
+            {
+              "quote": "they don't have a single player within the top 20",
+              "doc_index": 5
+            },
+            {
+              "quote": "zweih...0.92 | BELCHONOKK...0.86 | xiELO...0.80 | nota...0.72",
+              "doc_index": 7
+            },
+            {
+              "quote": "the crazy underdog run of some of these teams. I mean, Paravision is probably the most interesting one",
+              "doc_index": 5
+            },
+            {
+              "quote": "Sprouts put themselves within AK in the server all opposite end of the map",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            4,
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "贝叶斯分析师",
+        "stance": "neutral",
+        "probability": 55.0,
+        "reasoning": "作为贝叶斯分析师，我将从基准率出发，结合提供的证据更新对“PARIVISION赢得Map 1”这一事件的概率估计。首先评估文档相关性：文档1、2、6与当前预测问题（PARIVISION vs NIP）无关，评分为0-2分，属于干扰信息，不予考虑。文档3、4、5、7与PARIVISION战队相关，评分为7-8分，是有效证据。文档5尤其关键，提供了PARIVISION近期在PGL Cluj-Napoca 2026赛事中的表现信息。\n\n**先验概率设定**：在缺乏具体对阵信息时，假设两队实力接近，基准率设为50%。\n\n**支持PARIVISION获胜（YES）的论据**：\n1. **近期大赛表现强劲，有击败顶级队伍的历史**：PARIVISION在最近的PGL Cluj-Napoca 2026赛事中表现出色，连续击败多支顶级队伍闯入决赛。##begin_quote## Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。这表明他们具备在高压力比赛中战胜强敌的能力。\n2. **团队协作出色，以整体性取胜**：尽管没有个人数据特别突出的明星选手，但PARIVISION依靠出色的团队协作取得了成功。##begin_quote## they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 5]。这种团队韧性在Map 1的较量中可能成为关键优势。\n3. **在特定地图（如Dust2）上执行力强**：在BLAST Premier Bounty 2026的比赛中，PARIVISION在Dust2上展现了强大的战术执行力和对地图的控制力。##begin_quote## I absolutely love watching this power vision team, especially on Dust. So methodical. ##end_quote## [文档 4]。如果Map 1是他们的强图，胜率将显著提升。\n\n**反对PARIVISION获胜（NO）的论据**：\n1. **缺乏稳定的顶级明星选手**：与许多顶级战队不同，PARIVISION缺乏在个人数据上名列前茅的“爆点”选手。##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]。在面对NIP可能拥有的明星选手时，在关键回合的个人能力对决中可能处于劣势。\n2. **比赛风格可能被研究针对**：随着他们在比赛中走得更远，其战术和风格会被对手更深入地研究。##begin_quote## They've done it in such a crazy way because I've never seen this before where a team like Parvision... ##end_quote## [文档 5]。独特的风格一旦被适应或针对，其有效性可能下降。\n3. **对阵记录与未知因素**：提供的文档中没有PARIVISION与NIP直接交锋的记录。NIP作为老牌强队，其底蕴和大赛经验可能构成挑战。此外，文档中提到的地图池变化（如Anubis更新）可能带来不确定性，影响所有队伍，但更稳定的队伍可能适应更快。##begin_quote## When you make the map change and we know the competitive schedule, can we get the changes at the same time? Because teams have played the old version, now we're playing the new version. ##end_quote## [文档 3]。\n\n**综合分析**：\n权衡正反论据，支持方（YES）的证据质量较高，主要基于PARIVISION近期的、可验证的赛事成绩（闯入PCL决赛、击败顶级队伍）和有效的团队打法。这些是强证据，能显著提升后验概率。反对方（NO）的证据更多是基于结构性弱点（缺乏明星选手）和潜在风险（被研究、未知对手），属于中等强度证据。\n关键更新点在于PARIVISION证明了其“击败顶级队伍”的能力，这并非偶然。然而，缺乏对阵NIP的直接信息引入了不确定性。根据贝叶斯更新原理，强正面证据的权重应高于中等强度的负面风险证据。\n\n**最终概率估计**：\n综合先验概率（50%）和证据权重，我认为PARIVISION在Map 1中获胜的概率略高于基准线。其团队协作和近期势头是主要加分项，但对手实力和自身结构性弱点限制了概率的过度上修。校准后，后验概率估计为 **55%**。",
+        "raw_response": "REASONING: 作为贝叶斯分析师，我将从基准率出发，结合提供的证据更新对“PARIVISION赢得Map 1”这一事件的概率估计。首先评估文档相关性：文档1、2、6与当前预测问题（PARIVISION vs NIP）无关，评分为0-2分，属于干扰信息，不予考虑。文档3、4、5、7与PARIVISION战队相关，评分为7-8分，是有效证据。文档5尤其关键，提供了PARIVISION近期在PGL Cluj-Napoca 2026赛事中的表现信息。\n\n**先验概率设定**：在缺乏具体对阵信息时，假设两队实力接近，基准率设为50%。\n\n**支持PARIVISION获胜（YES）的论据**：\n1. **近期大赛表现强劲，有击败顶级队伍的历史**：PARIVISION在最近的PGL Cluj-Napoca 2026赛事中表现出色，连续击败多支顶级队伍闯入决赛。##begin_quote## Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。这表明他们具备在高压力比赛中战胜强敌的能力。\n2. **团队协作出色，以整体性取胜**：尽管没有个人数据特别突出的明星选手，但PARIVISION依靠出色的团队协作取得了成功。##begin_quote## they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 5]。这种团队韧性在Map 1的较量中可能成为关键优势。\n3. **在特定地图（如Dust2）上执行力强**：在BLAST Premier Bounty 2026的比赛中，PARIVISION在Dust2上展现了强大的战术执行力和对地图的控制力。##begin_quote## I absolutely love watching this power vision team, especially on Dust. So methodical. ##end_quote## [文档 4]。如果Map 1是他们的强图，胜率将显著提升。\n\n**反对PARIVISION获胜（NO）的论据**：\n1. **缺乏稳定的顶级明星选手**：与许多顶级战队不同，PARIVISION缺乏在个人数据上名列前茅的“爆点”选手。##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]。在面对NIP可能拥有的明星选手时，在关键回合的个人能力对决中可能处于劣势。\n2. **比赛风格可能被研究针对**：随着他们在比赛中走得更远，其战术和风格会被对手更深入地研究。##begin_quote## They've done it in such a crazy way because I've never seen this before where a team like Parvision... ##end_quote## [文档 5]。独特的风格一旦被适应或针对，其有效性可能下降。\n3. **对阵记录与未知因素**：提供的文档中没有PARIVISION与NIP直接交锋的记录。NIP作为老牌强队，其底蕴和大赛经验可能构成挑战。此外，文档中提到的地图池变化（如Anubis更新）可能带来不确定性，影响所有队伍，但更稳定的队伍可能适应更快。##begin_quote## When you make the map change and we know the competitive schedule, can we get the changes at the same time? Because teams have played the old version, now we're playing the new version. ##end_quote## [文档 3]。\n\n**综合分析**：\n权衡正反论据，支持方（YES）的证据质量较高，主要基于PARIVISION近期的、可验证的赛事成绩（闯入PCL决赛、击败顶级队伍）和有效的团队打法。这些是强证据，能显著提升后验概率。反对方（NO）的证据更多是基于结构性弱点（缺乏明星选手）和潜在风险（被研究、未知对手），属于中等强度证据。\n关键更新点在于PARIVISION证明了其“击败顶级队伍”的能力，这并非偶然。然而，缺乏对阵NIP的直接信息引入了不确定性。根据贝叶斯更新原理，强正面证据的权重应高于中等强度的负面风险证据。\n\n**最终概率估计**：\n综合先验概率（50%）和证据权重，我认为PARIVISION在Map 1中获胜的概率略高于基准线。其团队协作和近期势头是主要加分项，但对手实力和自身结构性弱点限制了概率的过度上修。校准后，后验概率估计为 **55%**。\n\nPREDICTION: 55%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "they've been able to work together as a unit wear teams down and find a way to win no matter what's against them",
+              "doc_index": 5
+            },
+            {
+              "quote": "I absolutely love watching this power vision team, especially on Dust. So methodical.",
+              "doc_index": 4
+            },
+            {
+              "quote": "they don't have a single player within the top 20",
+              "doc_index": 5
+            },
+            {
+              "quote": "They've done it in such a crazy way because I've never seen this before where a team like Parvision...",
+              "doc_index": 5
+            },
+            {
+              "quote": "When you make the map change and we know the competitive schedule, can we get the changes at the same time? Because teams have played the old version, now we're playing the new version.",
+              "doc_index": 3
+            }
+          ],
+          "cited_doc_indices": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "历史类比师",
+        "stance": "neutral",
+        "probability": 58.0,
+        "reasoning": "作为历史类比师，我将从历史先例和模式中寻找线索。首先，我必须评估所有提供的文档与当前预测问题的相关性。问题是关于PARIVISION与NIP在CS2比赛中第一张地图的胜者。在提供的文档中，Document 3、4、5、6直接涉及PARIVISION（或拼写变体如Paravision、Parision）的比赛表现，相关性极高（9-10分）。Document 1和2是关于其他战队（Sprout vs SINNERS）和无关内容（烹饪、ELO讨论），与问题无关，相关性低于5分，我将忽略。Document 7是关于英雄联盟比赛，与CS2预测无关，相关性为0分。\n\n**支持PARIVISION获胜（YES）的论据：**\n\n1.  **近期大赛的强势表现与“黑马”模式：** 历史表明，一支在重要赛事中连续击败顶级强队的队伍，其势头和团队化学反应往往能延续。PARIVISION在最近的BLAST Premier Bounty 2026和PGL Cluj-Napoca 2026中展现了这种特质。在Bounty赛中，他们击败了Falcons和Spirit（##begin_quote## How PARIVISION UPSET Falcons & Spirit ##end_quote## [文档 3]），并在对阵Astralis的比赛中展现了极具统治力的战术（##begin_quote## This is why you didn't want to face them on Dust two. This is what you were worried about...they've got to play another map after this. ##end_quote## [文档 4]）。在PGL Cluj，他们更是“##begin_quote## beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]”。这种从“黑马”到稳定强队的进化模式，类似于历史上许多冠军队伍在确立地位前的爆发期，为其在Map 1建立心理优势。\n\n2.  **团队协作与战术纪律性：** 与依赖明星选手的战队不同，PARIVISION的胜利基于卓越的整体性。分析指出，他们“##begin_quote## don't have a single player within the top 20 but it just goes to show how they've been able to work together as a unit wear teams down and find a way to win ##end_quote## [文档 5]”。他们的战术被描述为“##begin_quote## So methodical...they scare you so much out of going for kind of early aggression through fear that you'll get punished ##end_quote## [文档 4]”。在Map 1这种需要快速进入状态的比赛中，这种高度协同和纪律性往往是稳定发挥的保证，减少了因个人状态起伏而崩盘的风险。\n\n3.  **地图控制与默认优势：** 从比赛细节看，PARIVISION擅长通过地图控制和默认架设来挤压对手。在对阵Astralis的比赛中，他们“##begin_quote## always have exactly what they need for the exit...everything's so intentional ##end_quote## [文档 4]”。这种精心设计的战术体系在Map 1尤其有效，因为对手可能尚未完全适应其节奏和道具管理方式，容易在信息博弈中落入下风。\n\n**反对PARIVISION获胜（NO，即支持NIP获胜）的论据：**\n\n1.  **“无明星选手”模式的双刃剑：** 虽然团队协作是优点，但在最高水平的对抗中，当战术被研究透或陷入僵局时，往往需要超级明星的个人能力打开局面。历史类比中，许多依赖整体的队伍在面对底蕴深厚、拥有“X因素”选手的豪门时，可能因缺乏一锤定音的爆发点而受挫。文档中也提到，他们的成功模式“##begin_quote## I've never seen this before...they don't have the standout player ##end_quote## [文档 5]”，这在面对NIP这类可能拥有顶级枪男的传统强队时，可能成为一个隐患。\n\n2.  **对手的针对性与调整能力：** NIP作为历史悠久的俱乐部，拥有丰富的战术储备和大赛经验。PARIVISION近期的高光表现必然使其成为重点研究对象。在Map 1，NIP完全有可能准备了一套针对性的策略，例如通过非常规的前压来破坏PARIVISION擅长的默认控制（##begin_quote## they scare you so much out of going for kind of early aggression ##end_quote## [文档 4]），如果NIP敢于冒险并成功，可能打乱其节奏。\n\n3.  **状态延续性的历史不确定性：** 竞技体育史上，“黑马”状态出现波动是常见现象。连续征战并取得佳绩后，队伍可能面临体力、注意力或战术新鲜度的下滑。虽然PARIVISION势头正盛，但NIP可能以更低调的姿态备战，压力更小。此外，Map 1的胜负有时也取决于临场的手感（“热图”）和偶然性，这对于任何队伍都是均等的风险。\n\n**综合分析：**\n权衡以上因素，历史模式更倾向于支持PARIVISION。类比于军事史或商业竞争史，一支通过创新战术（精妙的团队协作与道具管理）和强大凝聚力（无明星但高度统一）取得一连串关键胜利的“新兴力量”，其成功往往不是偶然，而是系统优势的体现。这种优势在遭遇下一个对手时，通常具有惯性。NIP固然强大且经验丰富，但文档中提供的PARIVISION近期战绩含金量极高，击败的都是世界顶尖队伍，这证明了他们的实力具有普适性，并非针对特定对手的侥幸。Map 1通常是战术执行最坚决、准备最充分的一局，这正是PARIVISION的优势领域。反对论据中的“无明星选手”问题，已被他们用卓越的“交易补枪”（##begin_quote## Trade work has always been fantastic for Power Vision ##end_quote## [文档 4]）所弥补，这是一种更稳定、更难以被个人状态影响的团队能力。NIP的调整能力和经验是变数，但面对一个战术体系如此成熟且近期信心爆棚的对手，在Map 1就实现有效遏制的难度很高。\n\n**最终概率估计：**\n基于PARIVISION近期展现出的、经过高强度赛事验证的团队实力和战术素养，以及历史类比中“势能”的重要性，我认为他们在Map 1获胜的概率略高于五成。但考虑到NIP的底蕴和CS比赛固有的不确定性，这并非压倒性优势。",
+        "raw_response": "REASONING: 作为历史类比师，我将从历史先例和模式中寻找线索。首先，我必须评估所有提供的文档与当前预测问题的相关性。问题是关于PARIVISION与NIP在CS2比赛中第一张地图的胜者。在提供的文档中，Document 3、4、5、6直接涉及PARIVISION（或拼写变体如Paravision、Parision）的比赛表现，相关性极高（9-10分）。Document 1和2是关于其他战队（Sprout vs SINNERS）和无关内容（烹饪、ELO讨论），与问题无关，相关性低于5分，我将忽略。Document 7是关于英雄联盟比赛，与CS2预测无关，相关性为0分。\n\n**支持PARIVISION获胜（YES）的论据：**\n\n1.  **近期大赛的强势表现与“黑马”模式：** 历史表明，一支在重要赛事中连续击败顶级强队的队伍，其势头和团队化学反应往往能延续。PARIVISION在最近的BLAST Premier Bounty 2026和PGL Cluj-Napoca 2026中展现了这种特质。在Bounty赛中，他们击败了Falcons和Spirit（##begin_quote## How PARIVISION UPSET Falcons & Spirit ##end_quote## [文档 3]），并在对阵Astralis的比赛中展现了极具统治力的战术（##begin_quote## This is why you didn't want to face them on Dust two. This is what you were worried about...they've got to play another map after this. ##end_quote## [文档 4]）。在PGL Cluj，他们更是“##begin_quote## beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]”。这种从“黑马”到稳定强队的进化模式，类似于历史上许多冠军队伍在确立地位前的爆发期，为其在Map 1建立心理优势。\n\n2.  **团队协作与战术纪律性：** 与依赖明星选手的战队不同，PARIVISION的胜利基于卓越的整体性。分析指出，他们“##begin_quote## don't have a single player within the top 20 but it just goes to show how they've been able to work together as a unit wear teams down and find a way to win ##end_quote## [文档 5]”。他们的战术被描述为“##begin_quote## So methodical...they scare you so much out of going for kind of early aggression through fear that you'll get punished ##end_quote## [文档 4]”。在Map 1这种需要快速进入状态的比赛中，这种高度协同和纪律性往往是稳定发挥的保证，减少了因个人状态起伏而崩盘的风险。\n\n3.  **地图控制与默认优势：** 从比赛细节看，PARIVISION擅长通过地图控制和默认架设来挤压对手。在对阵Astralis的比赛中，他们“##begin_quote## always have exactly what they need for the exit...everything's so intentional ##end_quote## [文档 4]”。这种精心设计的战术体系在Map 1尤其有效，因为对手可能尚未完全适应其节奏和道具管理方式，容易在信息博弈中落入下风。\n\n**反对PARIVISION获胜（NO，即支持NIP获胜）的论据：**\n\n1.  **“无明星选手”模式的双刃剑：** 虽然团队协作是优点，但在最高水平的对抗中，当战术被研究透或陷入僵局时，往往需要超级明星的个人能力打开局面。历史类比中，许多依赖整体的队伍在面对底蕴深厚、拥有“X因素”选手的豪门时，可能因缺乏一锤定音的爆发点而受挫。文档中也提到，他们的成功模式“##begin_quote## I've never seen this before...they don't have the standout player ##end_quote## [文档 5]”，这在面对NIP这类可能拥有顶级枪男的传统强队时，可能成为一个隐患。\n\n2.  **对手的针对性与调整能力：** NIP作为历史悠久的俱乐部，拥有丰富的战术储备和大赛经验。PARIVISION近期的高光表现必然使其成为重点研究对象。在Map 1，NIP完全有可能准备了一套针对性的策略，例如通过非常规的前压来破坏PARIVISION擅长的默认控制（##begin_quote## they scare you so much out of going for kind of early aggression ##end_quote## [文档 4]），如果NIP敢于冒险并成功，可能打乱其节奏。\n\n3.  **状态延续性的历史不确定性：** 竞技体育史上，“黑马”状态出现波动是常见现象。连续征战并取得佳绩后，队伍可能面临体力、注意力或战术新鲜度的下滑。虽然PARIVISION势头正盛，但NIP可能以更低调的姿态备战，压力更小。此外，Map 1的胜负有时也取决于临场的手感（“热图”）和偶然性，这对于任何队伍都是均等的风险。\n\n**综合分析：**\n权衡以上因素，历史模式更倾向于支持PARIVISION。类比于军事史或商业竞争史，一支通过创新战术（精妙的团队协作与道具管理）和强大凝聚力（无明星但高度统一）取得一连串关键胜利的“新兴力量”，其成功往往不是偶然，而是系统优势的体现。这种优势在遭遇下一个对手时，通常具有惯性。NIP固然强大且经验丰富，但文档中提供的PARIVISION近期战绩含金量极高，击败的都是世界顶尖队伍，这证明了他们的实力具有普适性，并非针对特定对手的侥幸。Map 1通常是战术执行最坚决、准备最充分的一局，这正是PARIVISION的优势领域。反对论据中的“无明星选手”问题，已被他们用卓越的“交易补枪”（##begin_quote## Trade work has always been fantastic for Power Vision ##end_quote## [文档 4]）所弥补，这是一种更稳定、更难以被个人状态影响的团队能力。NIP的调整能力和经验是变数，但面对一个战术体系如此成熟且近期信心爆棚的对手，在Map 1就实现有效遏制的难度很高。\n\n**最终概率估计：**\n基于PARIVISION近期展现出的、经过高强度赛事验证的团队实力和战术素养，以及历史类比中“势能”的重要性，我认为他们在Map 1获胜的概率略高于五成。但考虑到NIP的底蕴和CS比赛固有的不确定性，这并非压倒性优势。\n\nPREDICTION: 58%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "How PARIVISION UPSET Falcons & Spirit",
+              "doc_index": 3
+            },
+            {
+              "quote": "This is why you didn't want to face them on Dust two. This is what you were worried about...they've got to play another map after this.",
+              "doc_index": 4
+            },
+            {
+              "quote": "beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "don't have a single player within the top 20 but it just goes to show how they've been able to work together as a unit wear teams down and find a way to win",
+              "doc_index": 5
+            },
+            {
+              "quote": "So methodical...they scare you so much out of going for kind of early aggression through fear that you'll get punished",
+              "doc_index": 4
+            },
+            {
+              "quote": "always have exactly what they need for the exit...everything's so intentional",
+              "doc_index": 4
+            },
+            {
+              "quote": "I've never seen this before...they don't have the standout player",
+              "doc_index": 5
+            },
+            {
+              "quote": "they scare you so much out of going for kind of early aggression",
+              "doc_index": 4
+            },
+            {
+              "quote": "Trade work has always been fantastic for Power Vision",
+              "doc_index": 4
+            }
+          ],
+          "cited_doc_indices": [
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "数据统计师",
+        "stance": "neutral",
+        "probability": 58.0,
+        "reasoning": "作为数据统计师，我将基于提供的文档进行量化分析。首先评估文档相关性：文档1、2、5、6与PARIVISION vs NIP的预测问题直接相关度低（评分<5），属于干扰信息。文档3、4、7包含与PARIVISION相关的比赛数据和表现，相关性较高（评分≥7），是主要分析依据。\n\n**支持PARIVISION获胜（YES）的论据：**\n\n1.  **近期大赛表现优异，击败顶级强队**：PARIVISION在PGL Cluj-Napoca 2026赛事中连续击败高排名队伍。##begin_quote## Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。这表明他们具备在高压环境下战胜精英对手的能力。\n\n2.  **团队协同性高，整体表现稳定**：尽管没有个人数据特别突出的选手，但团队通过出色的协作取得胜利。##begin_quote## they don't have a single player within the top 20 but it just goes to show how they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 5]。在对抗Falcons的比赛中，团队整体Rating较为均衡（1.23, 1.03, 1.00, 0.99, 0.79）[文档 7]，没有明显短板，依赖体系而非个人爆发。\n\n3.  **在特定地图（如Dust2）上具备强大战术执行力**：文档4和7显示PARIVISION在Dust2上战术严谨、执行力强。##begin_quote## I absolutely love watching this power vision team, especially on Dust. So methodical. ##end_quote## [文档 4]。在对阵Falcons的Dust2上，他们以16-14取胜，选手zweih打出1.52 Rating和92.1 ADR的优异数据[文档 7]。\n\n**反对PARIVISION获胜（NO）的论据：**\n\n1.  **对阵NIP缺乏直接交手数据**：提供的所有文档中，均未包含PARIVISION与NIP之间的近期直接对抗记录。缺乏头对头（H2H）数据是评估中的重大不确定性因素，无法量化比较双方在当前状态下的相对实力。\n\n2.  **存在状态波动和地图依赖性**：虽然PARIVISION有高光表现，但也存在状态波动。例如，在同一赛事对阵Falcons时，他们在Mirage上以7-13落败[文档 7]。这表明他们的表现可能受地图选择和临场状态影响较大，并非绝对稳定。\n\n3.  **核心选手Jame近期个人数据不佳**：作为团队核心之一，Jame在对阵Falcons的系列赛中整体Rating仅为0.79，是三张地图中队伍最低的[文档 7]。##begin_quote## [Jame](https://www.hltv.org/player/13776/jame) | 44-47 | 59.0 | -3.13% | 0.79 | ##end_quote## [文档 7]。如果关键选手持续低迷，可能影响团队在Map 1的取胜概率。\n\n**综合分析：**\n基于现有数据，PARIVISION是一支依靠团队协作、战术纪律性，并能在大型赛事中制造冷门的队伍。他们在Dust2等地图上的体系化打法（文档4，7）和击败顶级队伍的战绩（文档5）是支持其Map 1获胜的强有力统计证据。然而，缺乏对阵NIP的直接数据样本，以及核心选手Jame近期的低效表现（文档7），构成了显著的风险因素。从统计显著性角度看，击败“top five ranked teams”的记录具有参考价值，但样本量（n=2）有限。团队整体Rating的方差较小，表明稳定性尚可。\n\n**最终概率估计：**\n综合权衡，PARIVISION在Map 1展现的团队实力和战术素养，相对于缺乏直接反证数据的对手NIP，构成了概率优势。但考虑到缺乏H2H数据、选手状态波动等不确定性，概率优势不应被高估。采用贝叶斯推断思路，以近期大赛表现为先验信息，并给予不确定性较高权重。",
+        "raw_response": "REASONING:\n作为数据统计师，我将基于提供的文档进行量化分析。首先评估文档相关性：文档1、2、5、6与PARIVISION vs NIP的预测问题直接相关度低（评分<5），属于干扰信息。文档3、4、7包含与PARIVISION相关的比赛数据和表现，相关性较高（评分≥7），是主要分析依据。\n\n**支持PARIVISION获胜（YES）的论据：**\n\n1.  **近期大赛表现优异，击败顶级强队**：PARIVISION在PGL Cluj-Napoca 2026赛事中连续击败高排名队伍。##begin_quote## Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。这表明他们具备在高压环境下战胜精英对手的能力。\n\n2.  **团队协同性高，整体表现稳定**：尽管没有个人数据特别突出的选手，但团队通过出色的协作取得胜利。##begin_quote## they don't have a single player within the top 20 but it just goes to show how they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 5]。在对抗Falcons的比赛中，团队整体Rating较为均衡（1.23, 1.03, 1.00, 0.99, 0.79）[文档 7]，没有明显短板，依赖体系而非个人爆发。\n\n3.  **在特定地图（如Dust2）上具备强大战术执行力**：文档4和7显示PARIVISION在Dust2上战术严谨、执行力强。##begin_quote## I absolutely love watching this power vision team, especially on Dust. So methodical. ##end_quote## [文档 4]。在对阵Falcons的Dust2上，他们以16-14取胜，选手zweih打出1.52 Rating和92.1 ADR的优异数据[文档 7]。\n\n**反对PARIVISION获胜（NO）的论据：**\n\n1.  **对阵NIP缺乏直接交手数据**：提供的所有文档中，均未包含PARIVISION与NIP之间的近期直接对抗记录。缺乏头对头（H2H）数据是评估中的重大不确定性因素，无法量化比较双方在当前状态下的相对实力。\n\n2.  **存在状态波动和地图依赖性**：虽然PARIVISION有高光表现，但也存在状态波动。例如，在同一赛事对阵Falcons时，他们在Mirage上以7-13落败[文档 7]。这表明他们的表现可能受地图选择和临场状态影响较大，并非绝对稳定。\n\n3.  **核心选手Jame近期个人数据不佳**：作为团队核心之一，Jame在对阵Falcons的系列赛中整体Rating仅为0.79，是三张地图中队伍最低的[文档 7]。##begin_quote## [Jame](https://www.hltv.org/player/13776/jame) | 44-47 | 59.0 | -3.13% | 0.79 | ##end_quote## [文档 7]。如果关键选手持续低迷，可能影响团队在Map 1的取胜概率。\n\n**综合分析：**\n基于现有数据，PARIVISION是一支依靠团队协作、战术纪律性，并能在大型赛事中制造冷门的队伍。他们在Dust2等地图上的体系化打法（文档4，7）和击败顶级队伍的战绩（文档5）是支持其Map 1获胜的强有力统计证据。然而，缺乏对阵NIP的直接数据样本，以及核心选手Jame近期的低效表现（文档7），构成了显著的风险因素。从统计显著性角度看，击败“top five ranked teams”的记录具有参考价值，但样本量（n=2）有限。团队整体Rating的方差较小，表明稳定性尚可。\n\n**最终概率估计：**\n综合权衡，PARIVISION在Map 1展现的团队实力和战术素养，相对于缺乏直接反证数据的对手NIP，构成了概率优势。但考虑到缺乏H2H数据、选手状态波动等不确定性，概率优势不应被高估。采用贝叶斯推断思路，以近期大赛表现为先验信息，并给予不确定性较高权重。\n\nPREDICTION: 58%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "they don't have a single player within the top 20 but it just goes to show how they've been able to work together as a unit wear teams down and find a way to win no matter what's against them",
+              "doc_index": 5
+            },
+            {
+              "quote": "I absolutely love watching this power vision team, especially on Dust. So methodical.",
+              "doc_index": 4
+            },
+            {
+              "quote": "[Jame](https://www.hltv.org/player/13776/jame) | 44-47 | 59.0 | -3.13% | 0.79 |",
+              "doc_index": 7
+            }
+          ],
+          "cited_doc_indices": [
+            4,
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "情绪分析师",
+        "stance": "bull",
+        "probability": 62.0,
+        "reasoning": "作为情绪分析师，我的核心任务是捕捉市场叙事、媒体情绪和公众舆论中蕴含的动量效应。当前预测问题是关于Parivision与NIP在特定比赛地图1的胜负。尽管提供的文档中没有直接关于这场具体对阵的报道，但其中蕴含了强烈的情绪信号和叙事线索，这些是驱动市场预期的关键。\n\n**1. 支持（YES）的论据（Parivision获胜）**\n- **强劲的“黑马”叙事与市场情绪高涨**：多个文档反复强化了Parivision作为“黑马”和“惊喜制造者”的叙事。他们在重要赛事中连续击败顶级强队，这种故事性极强的表现极易点燃市场乐观情绪。例如，##begin_quote## Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。这种“以下克上”的叙事是市场最喜欢的主题，会吸引大量基于情绪的买盘。\n- **团队协作与韧性带来的积极印象**：市场不仅关注明星选手，更关注团队的“故事”和“气质”。Parivision被描绘成一个依靠整体而非个人的坚韧团队，这增强了其稳定性的可信度。##begin_quote## they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 5]。这种“无论如何都能找到赢法”的团队形象，会在赛前形成强大的心理优势和市场预期。\n- **近期高光表现创造的强大动量**：情绪市场由动量驱动。Parivision在近期赛事（如Blast Bounty、PGL Cluj）中闯入决赛的表现，创造了强大的正向动量。##begin_quote## they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。这种连续的出色表现会形成一种“他们势不可挡”的媒体和社区共识，极大地推高对其下一场比赛的获胜预期。\n\n**2. 反对（NO）的论据（NIP获胜）**\n- **“黑马疲劳”与回归均值的潜在叙事**：情绪市场存在周期性。一支队伍长期扮演“黑马”后，市场可能会开始预期其“魔力耗尽”或对手“认真研究后找到对策”。虽然文档中未直接提及NIP，但传统强队（如文档7中提到的Vitality、Spirit）的意外失利常被解读为“偶然”，市场很快会预期其反弹。这种对“秩序恢复”的潜在期待，会为NIP这样的知名机构带来隐性支持。\n- **单张地图的偶然性与压力因素**：Map 1的胜负偶然性较大，尤其对于依赖团队协作和战术执行的队伍。情绪高涨可能带来压力，而Parivision作为相对缺乏决赛经验的队伍，可能在关键地图的开局阶段出现波动。文档中其他比赛（如文档1中Sprout的失利）展示了单张地图中局势快速逆转的可能性，这提醒市场任何结果都可能发生。\n- **对手实力与品牌效应的反向叙事**：NIP作为历史悠久的电竞品牌，拥有深厚的粉丝基础和“豪门底蕴”叙事。即使近期表现有起伏，在市场情绪中，这类队伍往往被赋予“随时可能苏醒”的标签。当市场过度偏向于一方（如Parivision）时，一部分资金会基于“品牌价值”和“赔率价值”流向另一方，形成对冲，这本身会反映一部分市场对NIP的隐性信心。\n\n**3. 综合分析**\n当前，压倒性的情绪动量在Parivision一方。从媒体叙事（“疯狂的黑马之旅”、“团队典范”）到近期成绩（多次击败顶级队伍、闯入决赛），都构建了一个近乎完美的看涨故事。情绪市场通常会放大这种趋势，直到出现明确的逆转信号。\n\n然而，必须警惕情绪过热的风险。所有支持Parivision的论据都基于其“过去”的表现所创造的“故事”，而Map 1是“未来”的即时博弈。NIP所代表的“传统强队底蕴”和“秩序回归”的潜在叙事，虽然声音较弱，但始终是市场中的一股暗流。此外，单张地图的偶然性极高，任何临场失误或战术克制都可能导致结果偏离主流叙事。\n\n**4. 最终概率估计**\n综合衡量，情绪的天平显著倾向于Parivision。他们的故事更具传播力，近期动量无可争议，这将在赛前形成强大的市场共识和心理优势。尽管NIP有反弹的潜在可能，但在当前的情绪周期和叙事焦点下，Parivision在Map 1中获胜是更受市场情绪驱动的方向。",
+        "raw_response": "REASONING: 作为情绪分析师，我的核心任务是捕捉市场叙事、媒体情绪和公众舆论中蕴含的动量效应。当前预测问题是关于Parivision与NIP在特定比赛地图1的胜负。尽管提供的文档中没有直接关于这场具体对阵的报道，但其中蕴含了强烈的情绪信号和叙事线索，这些是驱动市场预期的关键。\n\n**1. 支持（YES）的论据（Parivision获胜）**\n- **强劲的“黑马”叙事与市场情绪高涨**：多个文档反复强化了Parivision作为“黑马”和“惊喜制造者”的叙事。他们在重要赛事中连续击败顶级强队，这种故事性极强的表现极易点燃市场乐观情绪。例如，##begin_quote## Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。这种“以下克上”的叙事是市场最喜欢的主题，会吸引大量基于情绪的买盘。\n- **团队协作与韧性带来的积极印象**：市场不仅关注明星选手，更关注团队的“故事”和“气质”。Parivision被描绘成一个依靠整体而非个人的坚韧团队，这增强了其稳定性的可信度。##begin_quote## they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 5]。这种“无论如何都能找到赢法”的团队形象，会在赛前形成强大的心理优势和市场预期。\n- **近期高光表现创造的强大动量**：情绪市场由动量驱动。Parivision在近期赛事（如Blast Bounty、PGL Cluj）中闯入决赛的表现，创造了强大的正向动量。##begin_quote## they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。这种连续的出色表现会形成一种“他们势不可挡”的媒体和社区共识，极大地推高对其下一场比赛的获胜预期。\n\n**2. 反对（NO）的论据（NIP获胜）**\n- **“黑马疲劳”与回归均值的潜在叙事**：情绪市场存在周期性。一支队伍长期扮演“黑马”后，市场可能会开始预期其“魔力耗尽”或对手“认真研究后找到对策”。虽然文档中未直接提及NIP，但传统强队（如文档7中提到的Vitality、Spirit）的意外失利常被解读为“偶然”，市场很快会预期其反弹。这种对“秩序恢复”的潜在期待，会为NIP这样的知名机构带来隐性支持。\n- **单张地图的偶然性与压力因素**：Map 1的胜负偶然性较大，尤其对于依赖团队协作和战术执行的队伍。情绪高涨可能带来压力，而Parivision作为相对缺乏决赛经验的队伍，可能在关键地图的开局阶段出现波动。文档中其他比赛（如文档1中Sprout的失利）展示了单张地图中局势快速逆转的可能性，这提醒市场任何结果都可能发生。\n- **对手实力与品牌效应的反向叙事**：NIP作为历史悠久的电竞品牌，拥有深厚的粉丝基础和“豪门底蕴”叙事。即使近期表现有起伏，在市场情绪中，这类队伍往往被赋予“随时可能苏醒”的标签。当市场过度偏向于一方（如Parivision）时，一部分资金会基于“品牌价值”和“赔率价值”流向另一方，形成对冲，这本身会反映一部分市场对NIP的隐性信心。\n\n**3. 综合分析**\n当前，压倒性的情绪动量在Parivision一方。从媒体叙事（“疯狂的黑马之旅”、“团队典范”）到近期成绩（多次击败顶级队伍、闯入决赛），都构建了一个近乎完美的看涨故事。情绪市场通常会放大这种趋势，直到出现明确的逆转信号。\n\n然而，必须警惕情绪过热的风险。所有支持Parivision的论据都基于其“过去”的表现所创造的“故事”，而Map 1是“未来”的即时博弈。NIP所代表的“传统强队底蕴”和“秩序回归”的潜在叙事，虽然声音较弱，但始终是市场中的一股暗流。此外，单张地图的偶然性极高，任何临场失误或战术克制都可能导致结果偏离主流叙事。\n\n**4. 最终概率估计**\n综合衡量，情绪的天平显著倾向于Parivision。他们的故事更具传播力，近期动量无可争议，这将在赛前形成强大的市场共识和心理优势。尽管NIP有反弹的潜在可能，但在当前的情绪周期和叙事焦点下，Parivision在Map 1中获胜是更受市场情绪驱动的方向。\n\nPREDICTION: 62%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "they've been able to work together as a unit wear teams down and find a way to win no matter what's against them",
+              "doc_index": 5
+            },
+            {
+              "quote": "they beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "逆向投资者",
+        "stance": "bear",
+        "probability": 45.0,
+        "reasoning": "让我先评估这些文档的相关性。问题涉及PARIVISION vs NIP的CS2比赛，而提供的文档主要涉及Sprout vs SINNERS、ESL Pro League、Parivision击败Falcons & Spirit的讨论、Parivision vs Astralis、PGL Cluj决赛、Aurora vs Astralis以及一个完全无关的LYON vs LOUD英雄联盟比赛。文档3和文档5直接提到了PARIVISION（或Paravision/Parision），这是关键。文档3讨论了PARIVISION如何击败Falcons和Spirit，文档5提到他们在PGL Cluj的“疯狂黑马之旅”。文档4是PARIVISION vs Astralis的比赛。其他文档要么是不同战队，要么是不同游戏，相关性很低（<5分）。我将主要依赖文档3、4、5进行分析。\n\n**支持PARIVISION获胜（YES）的论据：**\n1. **黑马势头与团队协作**：PARIVISION已被证明是一支能够击败顶级强队的黑马。##begin_quote## Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final... they don't have a single player within the top 20 but it just goes to show how they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 5]。这表明他们不依赖明星选手，而是靠体系和韧性赢比赛，这种特质在单张地图的较量中可能持续。\n2. **战术纪律与默认控制**：他们对地图控制和时间管理有出色的理解。##begin_quote## Power Vision saying that they lose a lot of these opening fights and on Dust two that's kind of unacceptable... So methodical. The thing that's so crazy to me, right, is they they scare you so much out of going for kind of early aggression through fear that you'll get punished... everything's so intentional like they always have exactly what they need for the exit ##end_quote## [文档 4]。这种系统性打法能有效遏制对手的节奏，尤其是在地图1的试探阶段。\n3. **近期大赛经验与心理优势**：他们在重要赛事中连续取得深轮次成绩，积累了对抗强队的信心。##begin_quote## they came here they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。相比之下，NIP可能面临更大的预期压力。\n\n**反对PARIVISION获胜（NO，即支持NIP）的论据：**\n1. **缺乏持续性顶级表现的证明**：尽管有爆冷，但评论员最初认为他们的表现可能是“昙花一现”。##begin_quote## a team that many thought ah that was just a fluke at Blast Bounty ##end_quote## [文档 5]。黑马队伍状态容易出现波动，而NIP作为老牌强队，其基础实力和稳定性可能更值得信赖。\n2. **依赖特定地图池**：他们的成功可能与特定地图（如Dust2）密切相关。##begin_quote## This is their best map in the pool, and it's one that Estralis haven't played in months ##end_quote## [文档 4]。如果地图1不是他们的最强图，或者NIP在BP上做了充分准备，他们的优势会被削弱。\n3. **个体能力上限可能不足**：文档明确指出他们没有选手进入赛事前20。##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]。在CS2中，个人能力的爆发常常能决定一张地图的走向。NIP很可能拥有纸面实力更强的明星选手，在关键回合的残局或对枪中可能占据上风。\n\n**综合分析：**\n市场共识很可能因为PARIVISION近期的爆冷表现而高估他们。逆向思维要求我们审视这种乐观情绪是否过度。PARIVISION的成功建立在极致的团队协作和战术纪律上，这是一种均值回归的高风险模式——一旦执行力稍有下降，或者对手（如NIP）针对其缺乏超级巨星的特点制定激进的个人突破战术，他们的体系就容易崩盘。NIP作为底蕴更深的组织，在经历调整后，面对非传统强队时，其选手的个人能力和经验可能被市场低估。地图1往往是试探和适应阶段，更考验队伍的硬实力和临场调整能力，而非复杂的战术准备，这可能对NIP更有利。然而，不能完全忽视PARIVISION的“团队魔法”和气势。这是一个典型的“市场追捧新贵 vs. 老牌豪门反弹”的对决。\n\n**最终概率估计：**\n权衡之下，我认为市场可能过度反应于PARIVISION的近期叙事，而低估了NIP在纸面实力和稳定性上的优势，尤其是在一张地图的比赛中。我给予PARIVISION获胜的概率略低于中性预期。",
+        "raw_response": "REASONING: 让我先评估这些文档的相关性。问题涉及PARIVISION vs NIP的CS2比赛，而提供的文档主要涉及Sprout vs SINNERS、ESL Pro League、Parivision击败Falcons & Spirit的讨论、Parivision vs Astralis、PGL Cluj决赛、Aurora vs Astralis以及一个完全无关的LYON vs LOUD英雄联盟比赛。文档3和文档5直接提到了PARIVISION（或Paravision/Parision），这是关键。文档3讨论了PARIVISION如何击败Falcons和Spirit，文档5提到他们在PGL Cluj的“疯狂黑马之旅”。文档4是PARIVISION vs Astralis的比赛。其他文档要么是不同战队，要么是不同游戏，相关性很低（<5分）。我将主要依赖文档3、4、5进行分析。\n\n**支持PARIVISION获胜（YES）的论据：**\n1. **黑马势头与团队协作**：PARIVISION已被证明是一支能够击败顶级强队的黑马。##begin_quote## Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final... they don't have a single player within the top 20 but it just goes to show how they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 5]。这表明他们不依赖明星选手，而是靠体系和韧性赢比赛，这种特质在单张地图的较量中可能持续。\n2. **战术纪律与默认控制**：他们对地图控制和时间管理有出色的理解。##begin_quote## Power Vision saying that they lose a lot of these opening fights and on Dust two that's kind of unacceptable... So methodical. The thing that's so crazy to me, right, is they they scare you so much out of going for kind of early aggression through fear that you'll get punished... everything's so intentional like they always have exactly what they need for the exit ##end_quote## [文档 4]。这种系统性打法能有效遏制对手的节奏，尤其是在地图1的试探阶段。\n3. **近期大赛经验与心理优势**：他们在重要赛事中连续取得深轮次成绩，积累了对抗强队的信心。##begin_quote## they came here they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。相比之下，NIP可能面临更大的预期压力。\n\n**反对PARIVISION获胜（NO，即支持NIP）的论据：**\n1. **缺乏持续性顶级表现的证明**：尽管有爆冷，但评论员最初认为他们的表现可能是“昙花一现”。##begin_quote## a team that many thought ah that was just a fluke at Blast Bounty ##end_quote## [文档 5]。黑马队伍状态容易出现波动，而NIP作为老牌强队，其基础实力和稳定性可能更值得信赖。\n2. **依赖特定地图池**：他们的成功可能与特定地图（如Dust2）密切相关。##begin_quote## This is their best map in the pool, and it's one that Estralis haven't played in months ##end_quote## [文档 4]。如果地图1不是他们的最强图，或者NIP在BP上做了充分准备，他们的优势会被削弱。\n3. **个体能力上限可能不足**：文档明确指出他们没有选手进入赛事前20。##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]。在CS2中，个人能力的爆发常常能决定一张地图的走向。NIP很可能拥有纸面实力更强的明星选手，在关键回合的残局或对枪中可能占据上风。\n\n**综合分析：**\n市场共识很可能因为PARIVISION近期的爆冷表现而高估他们。逆向思维要求我们审视这种乐观情绪是否过度。PARIVISION的成功建立在极致的团队协作和战术纪律上，这是一种均值回归的高风险模式——一旦执行力稍有下降，或者对手（如NIP）针对其缺乏超级巨星的特点制定激进的个人突破战术，他们的体系就容易崩盘。NIP作为底蕴更深的组织，在经历调整后，面对非传统强队时，其选手的个人能力和经验可能被市场低估。地图1往往是试探和适应阶段，更考验队伍的硬实力和临场调整能力，而非复杂的战术准备，这可能对NIP更有利。然而，不能完全忽视PARIVISION的“团队魔法”和气势。这是一个典型的“市场追捧新贵 vs. 老牌豪门反弹”的对决。\n\n**最终概率估计：**\n权衡之下，我认为市场可能过度反应于PARIVISION的近期叙事，而低估了NIP在纸面实力和稳定性上的优势，尤其是在一张地图的比赛中。我给予PARIVISION获胜的概率略低于中性预期。\n\nPREDICTION: 45%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final... they don't have a single player within the top 20 but it just goes to show how they've been able to work together as a unit wear teams down and find a way to win no matter what's against them",
+              "doc_index": 5
+            },
+            {
+              "quote": "Power Vision saying that they lose a lot of these opening fights and on Dust two that's kind of unacceptable... So methodical. The thing that's so crazy to me, right, is they they scare you so much out of going for kind of early aggression through fear that you'll get punished... everything's so intentional like they always have exactly what they need for the exit",
+              "doc_index": 4
+            },
+            {
+              "quote": "they came here they beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "a team that many thought ah that was just a fluke at Blast Bounty",
+              "doc_index": 5
+            },
+            {
+              "quote": "This is their best map in the pool, and it's one that Estralis haven't played in months",
+              "doc_index": 4
+            },
+            {
+              "quote": "they don't have a single player within the top 20",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "基本面分析师",
+        "stance": "neutral",
+        "probability": 55.0,
+        "reasoning": "首先评估文档相关性。问题涉及PARIVISION与NIP在CS2比赛中的Map 1胜负。检索到的文档中，Document 3、4、5、6包含与PARIVISION相关的近期比赛信息，相关性高（7-9分）。Document 1和2完全不相关（Sprout vs SINNERS、无关播客，相关性0-2分）。Document 7为英雄联盟比赛，完全不相关（0分）。因此，分析将基于Document 3、4、5、6中关于PARIVISION的信息展开。关于NIP的近期具体表现，本次提供的文档中缺乏直接数据，这是一个分析缺口。\n\n**1. 支持PARIVISION获胜（YES）的论据**\n- **近期大赛表现与韧性极强**：PARIVISION在近期顶级赛事中连续击败强队，展现出了超出预期的团队实力。##begin_quote## Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。这表明他们并非昙花一现，而是具备稳定的高水平竞争力。\n- **团队协作与战术执行力突出**：PARIVISION的胜利并非依赖明星选手的爆发，而是基于卓越的整体性。##begin_quote## they don't have a single player within the top 20 but it just goes to show how they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 5]。这种依靠体系和协作的赢球模式，在面对阵容或状态起伏时可能更稳定。\n- **在特定地图（Dust2）上具备统治级表现**：虽然Map 1地图未知，但PARIVISION在Dust2上展现的战术素养和压迫力是其基本盘实力的体现。##begin_quote## This is why you didn't want to face them on Dust two. This is what you were worried about with Dust two on the map ##end_quote## [文档 4]。这反映了他们在地图理解和战术准备上的深度，这种能力可以迁移到其他地图。\n\n**2. 反对PARIVISION获胜（NO）的论据**\n- **缺乏稳定的顶级明星选手**：尽管团队协作出色，但在最高水平的对抗中，关键时刻的个人能力破局往往是决定性的。##begin_quote## they don't have a standout player in this tournament you know usually when you're making the grand finals at least one of your guys is in the MVP race ##end_quote## [文档 5]。面对NIP这类可能拥有明星选手的队伍，在均势或劣势下可能缺少一锤定音的个人能力。\n- **对手NIP的未知性与潜在实力**：提供的文档中缺乏NIP近期状态的直接信息。NIP作为传统强队，其阵容结构、资源储备和历史底蕴通常优于PARIVISION这类新兴劲旅。基本面分析必须考虑对手的“结构性优势”，在信息缺失时，不能默认其处于弱势。\n- **“黑马”状态的可持续性质疑**：PARIVISION的惊人表现可能使其成为众矢之的，对手会进行针对性研究。##begin_quote## a team that many thought ah that was just a fluke at Blast Bounty ##end_quote## [文档 5]。这种认知转变需要时间，而他们连续作战后，战术库是否会被摸透、状态能否持续维持在高点，存在不确定性。\n\n**3. 综合分析**\n从基本面看，PARIVISION已通过硬战绩证明了其作为一线竞争者的实力，其团队协作的“系统性优势”非常明显，这是支持其继续取胜的核心论据。然而，电竞领域的长期竞争力不仅取决于一时状态，更依赖于俱乐部的基础设施、选手的长期稳定性以及应对不同风格对手的调整能力。NIP在这些方面可能拥有更深厚的“结构性资源”。本次预测是单张地图（Map 1）的胜负，这放大了状态和临场战术的优势，对PARIVISION相对有利。但考虑到文档中缺乏对NIP不利的证据，且PARIVISION缺乏超级明星的短板在胶着时刻可能显现，这是一场势均力敌的较量。\n\n**4. 最终概率估计**\n基于PARIVISION近期的强劲势头和卓越的团队表现，他们赢得Map 1的可能性略高于五成。但必须为对手的传统强队底蕴和未知因素保留足够权重。因此，概率估计略微倾向于PARIVISION。",
+        "raw_response": "REASONING:\n首先评估文档相关性。问题涉及PARIVISION与NIP在CS2比赛中的Map 1胜负。检索到的文档中，Document 3、4、5、6包含与PARIVISION相关的近期比赛信息，相关性高（7-9分）。Document 1和2完全不相关（Sprout vs SINNERS、无关播客，相关性0-2分）。Document 7为英雄联盟比赛，完全不相关（0分）。因此，分析将基于Document 3、4、5、6中关于PARIVISION的信息展开。关于NIP的近期具体表现，本次提供的文档中缺乏直接数据，这是一个分析缺口。\n\n**1. 支持PARIVISION获胜（YES）的论据**\n- **近期大赛表现与韧性极强**：PARIVISION在近期顶级赛事中连续击败强队，展现出了超出预期的团队实力。##begin_quote## Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。这表明他们并非昙花一现，而是具备稳定的高水平竞争力。\n- **团队协作与战术执行力突出**：PARIVISION的胜利并非依赖明星选手的爆发，而是基于卓越的整体性。##begin_quote## they don't have a single player within the top 20 but it just goes to show how they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 5]。这种依靠体系和协作的赢球模式，在面对阵容或状态起伏时可能更稳定。\n- **在特定地图（Dust2）上具备统治级表现**：虽然Map 1地图未知，但PARIVISION在Dust2上展现的战术素养和压迫力是其基本盘实力的体现。##begin_quote## This is why you didn't want to face them on Dust two. This is what you were worried about with Dust two on the map ##end_quote## [文档 4]。这反映了他们在地图理解和战术准备上的深度，这种能力可以迁移到其他地图。\n\n**2. 反对PARIVISION获胜（NO）的论据**\n- **缺乏稳定的顶级明星选手**：尽管团队协作出色，但在最高水平的对抗中，关键时刻的个人能力破局往往是决定性的。##begin_quote## they don't have a standout player in this tournament you know usually when you're making the grand finals at least one of your guys is in the MVP race ##end_quote## [文档 5]。面对NIP这类可能拥有明星选手的队伍，在均势或劣势下可能缺少一锤定音的个人能力。\n- **对手NIP的未知性与潜在实力**：提供的文档中缺乏NIP近期状态的直接信息。NIP作为传统强队，其阵容结构、资源储备和历史底蕴通常优于PARIVISION这类新兴劲旅。基本面分析必须考虑对手的“结构性优势”，在信息缺失时，不能默认其处于弱势。\n- **“黑马”状态的可持续性质疑**：PARIVISION的惊人表现可能使其成为众矢之的，对手会进行针对性研究。##begin_quote## a team that many thought ah that was just a fluke at Blast Bounty ##end_quote## [文档 5]。这种认知转变需要时间，而他们连续作战后，战术库是否会被摸透、状态能否持续维持在高点，存在不确定性。\n\n**3. 综合分析**\n从基本面看，PARIVISION已通过硬战绩证明了其作为一线竞争者的实力，其团队协作的“系统性优势”非常明显，这是支持其继续取胜的核心论据。然而，电竞领域的长期竞争力不仅取决于一时状态，更依赖于俱乐部的基础设施、选手的长期稳定性以及应对不同风格对手的调整能力。NIP在这些方面可能拥有更深厚的“结构性资源”。本次预测是单张地图（Map 1）的胜负，这放大了状态和临场战术的优势，对PARIVISION相对有利。但考虑到文档中缺乏对NIP不利的证据，且PARIVISION缺乏超级明星的短板在胶着时刻可能显现，这是一场势均力敌的较量。\n\n**4. 最终概率估计**\n基于PARIVISION近期的强劲势头和卓越的团队表现，他们赢得Map 1的可能性略高于五成。但必须为对手的传统强队底蕴和未知因素保留足够权重。因此，概率估计略微倾向于PARIVISION。\n\nPREDICTION: 55%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "they don't have a single player within the top 20 but it just goes to show how they've been able to work together as a unit wear teams down and find a way to win no matter what's against them",
+              "doc_index": 5
+            },
+            {
+              "quote": "This is why you didn't want to face them on Dust two. This is what you were worried about with Dust two on the map",
+              "doc_index": 4
+            },
+            {
+              "quote": "they don't have a standout player in this tournament you know usually when you're making the grand finals at least one of your guys is in the MVP race",
+              "doc_index": 5
+            },
+            {
+              "quote": "a team that many thought ah that was just a fluke at Blast Bounty",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "风险评估师",
+        "stance": "bear",
+        "probability": 40.0,
+        "reasoning": "作为风险评估师，我将从风险矩阵的角度分析这场对决。首先，我必须指出，提供的上下文文档与预测问题“Counter-Strike: PARIVISION vs NIP - Map 1 Winner”的直接相关性极低。文档主要涉及Sprout vs SINNERS、ESL Pro League、Parivision对阵Falcons/Spirit/Astralis/FURIA的比赛，以及PGL Cluj-Napoca的赛事。其中没有提及NIP（Ninjas in Pyjamas）与Parivision的直接对抗记录。因此，我的分析将基于文档中可提取的关于Parivision的有限信息，并结合一般性的风险因素进行推断。\n\n**1. 支持PARIVISION获胜（YES）的论据**\n- **团队韧性与黑马潜质**：文档显示Parivision是一支能够制造冷门的队伍。在PGL Cluj-Napoca 2026中，他们击败了多支顶级队伍进入决赛。##begin_quote## Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。这表明他们具备在重要比赛中超常发挥、冲击更强对手的能力，属于典型的“尾部分布”事件驱动型队伍。\n- **战术纪律与团队协作**：文档多次强调Parivision的战术执行力和团队配合，而非依赖明星选手。##begin_quote## they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 5]。这种整体性打法在面对阵容或状态不稳定的对手时，构成了一种系统性风险，可能通过稳定的战术蚕食取胜。\n- **特定地图（Dust2）的强势表现**：虽然Map1具体地图未知，但文档指出Parivision在Dust2上表现出色，方法严谨。##begin_quote## I absolutely love watching this power vision team, especially on Dust. So methodical. ##end_quote## [文档 4]。如果他们能在自己擅长的地图上比赛，这将是一个显著的优势因素，增加了他们拿下首局的可能性。\n\n**2. 反对PARIVISION获胜（NO）的论据**\n- **缺乏对阵NIP的直接证据**：这是最大的风险。所有文档均未提供Parivision与NIP的交手记录。NIP作为传统强队，其品牌、资源和历史底蕴通常意味着更稳定的基本盘和更丰富的应变经验。在缺乏直接对抗数据的情况下，将信任完全置于Parivision的“黑马”属性上是高风险的。\n- **状态依赖性与“冷门”的不可持续性**：Parivision的出色表现被描述为“crazy underdog run” ##begin_quote## [文档 5]。从风险角度看，依赖连续爆冷的状态是脆弱的。这种状态可能因版本更新、对手研究、或自身心态波动而中断。文档中另一场比赛显示，即使强队也可能在系列赛后期出现问题（##begin_quote## It's later in the series where the worries may set in ##end_quote## [文档 6]），但Map1往往是阵容更稳定、准备更充分的传统强队占优。\n- **阵容深度与顶级对抗的未知数**：文档指出Parivision没有排名前20的明星选手（##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]）。在Map1的高压对抗中，当战术被初步适应后，个人能力的上限可能成为决定因素。NIP很可能拥有纸面实力更强的选手，这在首张地图的试探性交锋中可能转化为关键回合的胜率优势。\n\n**3. 综合分析**\n权衡以上因素，这是一个典型的信息不对称下的风险评估。支持Parivision的论据主要建立在“过去曾制造意外”这一历史事实上，但这属于低概率、高影响事件。反对论据则基于更普遍的结构性风险：缺乏直接对战数据、黑马状态的脆弱性、以及纸面实力的潜在差距。\n从风险矩阵来看：\n- **影响程度**：Parivision获胜属于“高影响”事件（冷门）。\n- **发生概率**：基于有限信息，其发生概率应被评估为“中低”。虽然他们有相关成功案例，但对象是“top five ranked teams”，而非特指NIP。将特定成功案例泛化到所有强队身上是危险的。\n- **最坏情况**：最坏情况是低估NIP的调整能力和大赛经验，而高估了Parivision状态的可移植性。Map1通常是强队建立基调的回合。\n\n**4. 最终概率估计**\n综合所有风险因素，在缺乏直接对战记录这一关键信息的情况下，Parivision在Map1获胜的概率应被保守评估。他们的潜力值得一定的概率权重，但不足以超过传统强队的基本盘优势。考虑到他们确实具备制造麻烦的能力，我将概率定在40%，这反映了显著的下行风险，但并非微不足道的机会。",
+        "raw_response": "REASONING: 作为风险评估师，我将从风险矩阵的角度分析这场对决。首先，我必须指出，提供的上下文文档与预测问题“Counter-Strike: PARIVISION vs NIP - Map 1 Winner”的直接相关性极低。文档主要涉及Sprout vs SINNERS、ESL Pro League、Parivision对阵Falcons/Spirit/Astralis/FURIA的比赛，以及PGL Cluj-Napoca的赛事。其中没有提及NIP（Ninjas in Pyjamas）与Parivision的直接对抗记录。因此，我的分析将基于文档中可提取的关于Parivision的有限信息，并结合一般性的风险因素进行推断。\n\n**1. 支持PARIVISION获胜（YES）的论据**\n- **团队韧性与黑马潜质**：文档显示Parivision是一支能够制造冷门的队伍。在PGL Cluj-Napoca 2026中，他们击败了多支顶级队伍进入决赛。##begin_quote## Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。这表明他们具备在重要比赛中超常发挥、冲击更强对手的能力，属于典型的“尾部分布”事件驱动型队伍。\n- **战术纪律与团队协作**：文档多次强调Parivision的战术执行力和团队配合，而非依赖明星选手。##begin_quote## they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 5]。这种整体性打法在面对阵容或状态不稳定的对手时，构成了一种系统性风险，可能通过稳定的战术蚕食取胜。\n- **特定地图（Dust2）的强势表现**：虽然Map1具体地图未知，但文档指出Parivision在Dust2上表现出色，方法严谨。##begin_quote## I absolutely love watching this power vision team, especially on Dust. So methodical. ##end_quote## [文档 4]。如果他们能在自己擅长的地图上比赛，这将是一个显著的优势因素，增加了他们拿下首局的可能性。\n\n**2. 反对PARIVISION获胜（NO）的论据**\n- **缺乏对阵NIP的直接证据**：这是最大的风险。所有文档均未提供Parivision与NIP的交手记录。NIP作为传统强队，其品牌、资源和历史底蕴通常意味着更稳定的基本盘和更丰富的应变经验。在缺乏直接对抗数据的情况下，将信任完全置于Parivision的“黑马”属性上是高风险的。\n- **状态依赖性与“冷门”的不可持续性**：Parivision的出色表现被描述为“crazy underdog run” ##begin_quote## [文档 5]。从风险角度看，依赖连续爆冷的状态是脆弱的。这种状态可能因版本更新、对手研究、或自身心态波动而中断。文档中另一场比赛显示，即使强队也可能在系列赛后期出现问题（##begin_quote## It's later in the series where the worries may set in ##end_quote## [文档 6]），但Map1往往是阵容更稳定、准备更充分的传统强队占优。\n- **阵容深度与顶级对抗的未知数**：文档指出Parivision没有排名前20的明星选手（##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]）。在Map1的高压对抗中，当战术被初步适应后，个人能力的上限可能成为决定因素。NIP很可能拥有纸面实力更强的选手，这在首张地图的试探性交锋中可能转化为关键回合的胜率优势。\n\n**3. 综合分析**\n权衡以上因素，这是一个典型的信息不对称下的风险评估。支持Parivision的论据主要建立在“过去曾制造意外”这一历史事实上，但这属于低概率、高影响事件。反对论据则基于更普遍的结构性风险：缺乏直接对战数据、黑马状态的脆弱性、以及纸面实力的潜在差距。\n从风险矩阵来看：\n- **影响程度**：Parivision获胜属于“高影响”事件（冷门）。\n- **发生概率**：基于有限信息，其发生概率应被评估为“中低”。虽然他们有相关成功案例，但对象是“top five ranked teams”，而非特指NIP。将特定成功案例泛化到所有强队身上是危险的。\n- **最坏情况**：最坏情况是低估NIP的调整能力和大赛经验，而高估了Parivision状态的可移植性。Map1通常是强队建立基调的回合。\n\n**4. 最终概率估计**\n综合所有风险因素，在缺乏直接对战记录这一关键信息的情况下，Parivision在Map1获胜的概率应被保守评估。他们的潜力值得一定的概率权重，但不足以超过传统强队的基本盘优势。考虑到他们确实具备制造麻烦的能力，我将概率定在40%，这反映了显著的下行风险，但并非微不足道的机会。\n\nPREDICTION: 40%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "they've been able to work together as a unit wear teams down and find a way to win no matter what's against them",
+              "doc_index": 5
+            },
+            {
+              "quote": "I absolutely love watching this power vision team, especially on Dust. So methodical.",
+              "doc_index": 4
+            },
+            {
+              "quote": "[文档 5]。从风险角度看，依赖连续爆冷的状态是脆弱的。这种状态可能因版本更新、对手研究、或自身心态波动而中断。文档中另一场比赛显示，即使强队也可能在系列赛后期出现问题（##begin_quote## It's later in the series where the worries may set in",
+              "doc_index": 6
+            },
+            {
+              "quote": "they don't have a single player within the top 20",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "agent_name": "综合策略师",
+        "stance": "neutral",
+        "probability": 55.0,
+        "reasoning": "作为综合策略师，我将从元分析视角出发，首先评估所有文档与“PARIVISION vs NIP - Map 1 Winner”这一具体预测问题的相关性。核心是评估PARIVISION（或相关变体，如Paravision/Power Vision）的近期状态和地图表现。\n\n**文档相关性快速评估：**\n- **文档1 (Sprout vs SINNERS):** 无关。涉及的是ESL Challenger League中Sprout与SINNERS的比赛，与PARIVISION和NIP无关。评分：0/10。忽略。\n- **文档2 (ESL Pro League Podcast):** 无关。内容是播客对话，涉及个人游戏体验和烹饪，无任何战队比赛信息。评分：0/10。忽略。\n- **文档3 (All About Counter-Strike #48):** 高度相关。直接讨论了PARIVISION（拼写为Parivision/Paravision）的近期表现、战术风格及地图变化。评分：9/10。\n- **文档4 (PARIVISION vs Astralis - BLAST Bounty):** 高度相关。详细展示了PARIVISION在Dust2上对阵Astralis的比赛过程和战术执行力。评分：9/10。\n- **文档5 (PGL Cluj 2026 Grand Final):** 高度相关。提供了关于PARIVISION在PGL Cluj赛事中整体表现、团队协作和“黑马”状态的关键背景信息。评分：8/10。\n- **文档6 (Aurora vs Astralis):** 无关。涉及Aurora与Astralis在Major中的比赛，与预测双方无关。评分：1/10。忽略。\n\n因此，我的分析将严格基于文档3、4、5，这些文档提供了关于PARIVISION状态、战术和近期成绩的一致信号。\n\n**1. 支持PARIVISION赢得图一（YES）的论据：**\n- **近期连胜势头与大赛表现：** PARIVISION在近期顶级赛事中连续击败强队，展现出“黑马”姿态。##begin_quote## Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。这表明他们有能力在高压比赛中战胜顶级对手，这种势头可能延续到对阵NIP的图一。\n- **强大的团队协作与战术执行力：** 该队以出色的团队协作而非依赖明星选手著称，这在图一这种遭遇战中可能构成优势。##begin_quote## they don't have a single player within the top 20 but it just goes to show how they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 5]。此外，他们在特定地图（如Dust2）上的战术准备非常充分。##begin_quote## I absolutely love watching this power vision team, especially on Dust. So methodical... everything's so intentional like they always have exactly what they need for the exit ##end_quote## [文档 4]。\n- **有效的默认控制与反制能力：** 他们的比赛风格强调耐心和反制对手的激进尝试，这有助于在图一建立节奏。##begin_quote## they scare you so much out of going for kind of early aggression through fear that you'll get punished ##end_quote## [文档 4]。同时，他们能快速适应地图更新，如Anubis的改动，这显示了战术灵活性。##begin_quote## I think CTS have way more kind of nuance... it's really hard to kind of confirm it early as T ##end_quote## [文档 3]。\n\n**2. 反对PARIVISION赢得图一（NO，即支持NIP）的论据：**\n- **依赖特定地图池：** 文档中突出表扬PARIVISION的表现主要集中在地图Dust2上。##begin_quote## This is their best map in the pool ##end_quote## [文档 4]。如果图一不是Dust2，或者NIP成功禁掉该图，PARIVISION的优势可能被削弱。他们的成功可能部分归因于对手（如Astralis）在该图上准备不足。##begin_quote## it's one that Estralis haven't played in months, and when they last did, they were on a big loss streak ##end_quote## [文档 4]。\n- **缺乏持续性证明与潜在不稳定：** 尽管有惊艳表现，但评论员和社区曾认为其之前的表现是“侥幸”（fluke）##begin_quote## a team that many thought ah that was just a fluke at Blast Bounty ##end_quote## [文档 5]。这表明他们的状态可能存在波动性，并非稳定的顶级强队。对阵NIP这样的知名队伍，面临不同的战术风格和压力，可能暴露出不稳定的一面。\n- **对手NIP的未知因素与底蕴：** 提供的所有文档均未涉及NIP的近期状态或与PARIVISION的交手记录。NIP作为历史悠久的强队，拥有丰富的经验和深厚的战术底蕴。在缺乏NIP负面信息的情况下，不能低估其在图一利用经验快速进入状态并针对PARIVISION战术特点进行布置的能力。PARIVISION的“黑马”属性在面对准备充分的老牌强队时可能失效。\n\n**3. 综合分析：**\n权衡以上因素，我识别到一个关键的分析共振点与一个潜在盲点。\n- **共振点：PARIVISION的“体系强度” vs “地图特异性”。** 多个文档（4和5）共同强调了他们卓越的团队协作和战术纪律，这是一种可迁移的“体系强度”，对赢得任何单张地图（包括图一）都是利好。然而，文档4也强烈暗示了他们的巅峰表现与特定地图（Dust2）高度绑定。因此，图一的具体地图选择将成为决定性变量之一。如果图一是Dust2或他们的强图，YES概率大幅上升；否则，优势缩小。\n- **盲点：NIP的当前状态。** 所有相关文档均未提供NIP的任何信息，这是最大的信息不对称点。在预测模型中，这引入了显著的不确定性。通常，在缺乏一方负面信息时，不能默认其状态低迷。NIP的底蕴和主场/常规赛表现可能构成抵消PARIVISION势头的力量。\n\n综合来看，PARIVISION拥有明确的近期上升势头、强大的团队协同和战术执行力，这些在图一遭遇战中是非常有价值的资产。然而，他们的优势可能部分依赖于地图选择，且面临一个状态未知但底蕴深厚的对手NIP。信号倾向于PARIVISION略有优势，但不确定性显著。\n\n**4. 最终概率估计：**\n基于PARIVISION近期击败顶级队伍的证明、强大的团队体系，但同时考虑其地图依赖性和对手NIP的未知底蕴，我估计PARIVISION赢得图一的概率略高于五成。将地图选择的不确定性和NIP的潜在韧性纳入折扣后，概率估计为 **55%**。",
+        "raw_response": "REASONING: \n作为综合策略师，我将从元分析视角出发，首先评估所有文档与“PARIVISION vs NIP - Map 1 Winner”这一具体预测问题的相关性。核心是评估PARIVISION（或相关变体，如Paravision/Power Vision）的近期状态和地图表现。\n\n**文档相关性快速评估：**\n- **文档1 (Sprout vs SINNERS):** 无关。涉及的是ESL Challenger League中Sprout与SINNERS的比赛，与PARIVISION和NIP无关。评分：0/10。忽略。\n- **文档2 (ESL Pro League Podcast):** 无关。内容是播客对话，涉及个人游戏体验和烹饪，无任何战队比赛信息。评分：0/10。忽略。\n- **文档3 (All About Counter-Strike #48):** 高度相关。直接讨论了PARIVISION（拼写为Parivision/Paravision）的近期表现、战术风格及地图变化。评分：9/10。\n- **文档4 (PARIVISION vs Astralis - BLAST Bounty):** 高度相关。详细展示了PARIVISION在Dust2上对阵Astralis的比赛过程和战术执行力。评分：9/10。\n- **文档5 (PGL Cluj 2026 Grand Final):** 高度相关。提供了关于PARIVISION在PGL Cluj赛事中整体表现、团队协作和“黑马”状态的关键背景信息。评分：8/10。\n- **文档6 (Aurora vs Astralis):** 无关。涉及Aurora与Astralis在Major中的比赛，与预测双方无关。评分：1/10。忽略。\n\n因此，我的分析将严格基于文档3、4、5，这些文档提供了关于PARIVISION状态、战术和近期成绩的一致信号。\n\n**1. 支持PARIVISION赢得图一（YES）的论据：**\n- **近期连胜势头与大赛表现：** PARIVISION在近期顶级赛事中连续击败强队，展现出“黑马”姿态。##begin_quote## Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。这表明他们有能力在高压比赛中战胜顶级对手，这种势头可能延续到对阵NIP的图一。\n- **强大的团队协作与战术执行力：** 该队以出色的团队协作而非依赖明星选手著称，这在图一这种遭遇战中可能构成优势。##begin_quote## they don't have a single player within the top 20 but it just goes to show how they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 5]。此外，他们在特定地图（如Dust2）上的战术准备非常充分。##begin_quote## I absolutely love watching this power vision team, especially on Dust. So methodical... everything's so intentional like they always have exactly what they need for the exit ##end_quote## [文档 4]。\n- **有效的默认控制与反制能力：** 他们的比赛风格强调耐心和反制对手的激进尝试，这有助于在图一建立节奏。##begin_quote## they scare you so much out of going for kind of early aggression through fear that you'll get punished ##end_quote## [文档 4]。同时，他们能快速适应地图更新，如Anubis的改动，这显示了战术灵活性。##begin_quote## I think CTS have way more kind of nuance... it's really hard to kind of confirm it early as T ##end_quote## [文档 3]。\n\n**2. 反对PARIVISION赢得图一（NO，即支持NIP）的论据：**\n- **依赖特定地图池：** 文档中突出表扬PARIVISION的表现主要集中在地图Dust2上。##begin_quote## This is their best map in the pool ##end_quote## [文档 4]。如果图一不是Dust2，或者NIP成功禁掉该图，PARIVISION的优势可能被削弱。他们的成功可能部分归因于对手（如Astralis）在该图上准备不足。##begin_quote## it's one that Estralis haven't played in months, and when they last did, they were on a big loss streak ##end_quote## [文档 4]。\n- **缺乏持续性证明与潜在不稳定：** 尽管有惊艳表现，但评论员和社区曾认为其之前的表现是“侥幸”（fluke）##begin_quote## a team that many thought ah that was just a fluke at Blast Bounty ##end_quote## [文档 5]。这表明他们的状态可能存在波动性，并非稳定的顶级强队。对阵NIP这样的知名队伍，面临不同的战术风格和压力，可能暴露出不稳定的一面。\n- **对手NIP的未知因素与底蕴：** 提供的所有文档均未涉及NIP的近期状态或与PARIVISION的交手记录。NIP作为历史悠久的强队，拥有丰富的经验和深厚的战术底蕴。在缺乏NIP负面信息的情况下，不能低估其在图一利用经验快速进入状态并针对PARIVISION战术特点进行布置的能力。PARIVISION的“黑马”属性在面对准备充分的老牌强队时可能失效。\n\n**3. 综合分析：**\n权衡以上因素，我识别到一个关键的分析共振点与一个潜在盲点。\n- **共振点：PARIVISION的“体系强度” vs “地图特异性”。** 多个文档（4和5）共同强调了他们卓越的团队协作和战术纪律，这是一种可迁移的“体系强度”，对赢得任何单张地图（包括图一）都是利好。然而，文档4也强烈暗示了他们的巅峰表现与特定地图（Dust2）高度绑定。因此，图一的具体地图选择将成为决定性变量之一。如果图一是Dust2或他们的强图，YES概率大幅上升；否则，优势缩小。\n- **盲点：NIP的当前状态。** 所有相关文档均未提供NIP的任何信息，这是最大的信息不对称点。在预测模型中，这引入了显著的不确定性。通常，在缺乏一方负面信息时，不能默认其状态低迷。NIP的底蕴和主场/常规赛表现可能构成抵消PARIVISION势头的力量。\n\n综合来看，PARIVISION拥有明确的近期上升势头、强大的团队协同和战术执行力，这些在图一遭遇战中是非常有价值的资产。然而，他们的优势可能部分依赖于地图选择，且面临一个状态未知但底蕴深厚的对手NIP。信号倾向于PARIVISION略有优势，但不确定性显著。\n\n**4. 最终概率估计：**\n基于PARIVISION近期击败顶级队伍的证明、强大的团队体系，但同时考虑其地图依赖性和对手NIP的未知底蕴，我估计PARIVISION赢得图一的概率略高于五成。将地图选择的不确定性和NIP的潜在韧性纳入折扣后，概率估计为 **55%**。\n\nPREDICTION: 55%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Paravision is probably the most interesting one, right? a team that many thought ah that was just a fluke at Blast Bounty but then they came here they beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "they don't have a single player within the top 20 but it just goes to show how they've been able to work together as a unit wear teams down and find a way to win no matter what's against them",
+              "doc_index": 5
+            },
+            {
+              "quote": "I absolutely love watching this power vision team, especially on Dust. So methodical... everything's so intentional like they always have exactly what they need for the exit",
+              "doc_index": 4
+            },
+            {
+              "quote": "they scare you so much out of going for kind of early aggression through fear that you'll get punished",
+              "doc_index": 4
+            },
+            {
+              "quote": "I think CTS have way more kind of nuance... it's really hard to kind of confirm it early as T",
+              "doc_index": 3
+            },
+            {
+              "quote": "This is their best map in the pool",
+              "doc_index": 4
+            },
+            {
+              "quote": "it's one that Estralis haven't played in months, and when they last did, they were on a big loss streak",
+              "doc_index": 4
+            },
+            {
+              "quote": "a team that many thought ah that was just a fluke at Blast Bounty",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            3,
+            4,
+            5
+          ]
+        }
+      }
+    ],
+    "round2": [
+      {
+        "agent_name": "乐观分析师",
+        "stance": "bull",
+        "probability": 68.0,
+        "rebuttals": "Re: 质疑分析师: 你的分析过度强调了决赛失利这一单一数据点，却选择性忽略了PARIVISION打入决赛这一更重要的趋势性成就。你引用的决赛数据（如Dust2 4-13）来自对阵Vitality的比赛，而Vitality是当时的世界顶级战队，这并不能否定PARIVISION击败其他“top five ranked teams”的能力。##begin_quote## they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。你的“缺乏顶级枪男”论点也被事实反驳：他们的成功恰恰证明了“团队协作”可以超越个人能力的总和，这是一种更稳定、更难被针对的获胜模式。\n\nRe: 贝叶斯分析师: 你的分析框架合理，但先验概率设定过于保守。当一支队伍已连续在高级别赛事中证明其击败精英对手的能力时，其基准实力应被重新评估。你给出的55%概率未能充分反映PARIVISION已从“黑马”进化为“稳定竞争者”这一质变。文档中“##begin_quote## they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 5]”的描述，应被视为一种高胜率体系的强信号，而不仅仅是普通正面证据。\n\nRe: 历史类比师: 我赞同你的核心结论，即历史模式支持PARIVISION。但你将“无明星选手”视为潜在隐患，这低估了其“体系化”优势的可持续性。在CS历史上，依靠卓越团队协作和战术纪律取得长期成功的例子并不少见。PARIVISION的“交易补枪”能力（##begin_quote## Trade work has always been fantastic for Power Vision ##end_quote## [文档 4]）正是这种体系的核心，它比依赖个人灵光一现更为可靠。\n\nRe: 数据统计师: 你正确地指出了Jame近期数据不佳，但犯了“见树不见林”的错误。一支队伍的整体Rating方差小（如你所说），恰恰是体系稳定、不依赖某一点的体现。更重要的是，你引用的数据中，PARIVISION在对阵Falcons的Dust2上取得了胜利，且zweih打出了1.52 Rating的carry级表现##begin_quote## [文档 7]##end_quote##，这证明在需要的时候，队内依然有人能站出来。缺乏H2H数据是事实，但PARIVISION近期对阵“顶级队伍”的普适性胜利记录是更有力的替代指标。\n\nRe: 情绪分析师: 你的分析敏锐地抓住了市场情绪，但将PARIVISION的优势简单归为“叙事”和“动量”是片面的。他们的“情绪动量”建立在坚实的战绩和战术优势之上，而非空谈。你提到的“单张地图偶然性”是双向风险，PARIVISION严谨的“方法性”（##begin_quote## So methodical ##end_quote## [文档 4]）打法正是为了降低己方的偶然性，将比赛纳入其可控体系。\n\nRe: 逆向投资者: 你的核心假设——“市场高估PARIVISION”——缺乏依据。我们并未看到市场实际定价。相反，多个分析师（包括中性立场）基于事实给出的概率仅在55-58%，这恰恰说明市场可能并未过度乐观。你认为“NIP纸面实力更强”，但文档中没有任何数据支持NIP当前状态优于被PARIVISION击败的那些“top five ranked teams”。在缺乏反面证据时，应更相信已有的正面战绩。\n\nRe: 基本面分析师: 你提到了“结构性资源”这一重要维度，但电竞比赛，尤其是单张地图，更看重即时状态和战术执行。PARIVISION的“系统性优势”本身就是一种强大的结构性优势。你承认Map 1对PARIVISION有利，但给出的55%概率未能充分体现这种优势。当他们的战术体系（##begin_quote## everything's so intentional ##end_quote## [文档 4]）在遭遇战中直接碰撞时，其威力往往最大。\n\nRe: 风险评估师: 你将“缺乏直接证据”列为最大风险，这过于机械。在竞技体育预测中，近期对阵同级别对手的表现是最佳代理变量。PARIVISION击败世界前五队伍的表现，就是对抗强队能力的最直接证据。你评估的40%概率过度惩罚了信息缺口，而严重低估了已观察到的、可重复的获胜能力。\n\nRe: 综合策略师: 你正确地指出了“地图特异性”这一关键变量，但得出了过于谨慎的结论。即使图一不是Dust2，PARIVISION所展现的“方法性”和团队协作是跨地图的可迁移技能。你对NIP“未知因素”的担忧是合理的，但PARIVISION的已知强势表现构成了更强的决策依据。在信号与噪声之间，应给予明确信号更高权重。",
+        "reasoning": "经过辩论，我更加确信PARIVISION的体系化优势被部分分析师低估。他们击败顶级强队的记录（##begin_quote## beat two top five ranked teams in the world ##end_quote## [文档 5]）和卓越的团队韧性是硬数据支持的核心优势。虽然NIP的底蕴不可忽视，但在Map 1的遭遇战中，PARIVISION经过验证的战术执行力和正面比赛动力将占据上风。",
+        "raw_response": "REBUTTALS:\nRe: 质疑分析师: 你的分析过度强调了决赛失利这一单一数据点，却选择性忽略了PARIVISION打入决赛这一更重要的趋势性成就。你引用的决赛数据（如Dust2 4-13）来自对阵Vitality的比赛，而Vitality是当时的世界顶级战队，这并不能否定PARIVISION击败其他“top five ranked teams”的能力。##begin_quote## they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。你的“缺乏顶级枪男”论点也被事实反驳：他们的成功恰恰证明了“团队协作”可以超越个人能力的总和，这是一种更稳定、更难被针对的获胜模式。\n\nRe: 贝叶斯分析师: 你的分析框架合理，但先验概率设定过于保守。当一支队伍已连续在高级别赛事中证明其击败精英对手的能力时，其基准实力应被重新评估。你给出的55%概率未能充分反映PARIVISION已从“黑马”进化为“稳定竞争者”这一质变。文档中“##begin_quote## they've been able to work together as a unit wear teams down and find a way to win no matter what's against them ##end_quote## [文档 5]”的描述，应被视为一种高胜率体系的强信号，而不仅仅是普通正面证据。\n\nRe: 历史类比师: 我赞同你的核心结论，即历史模式支持PARIVISION。但你将“无明星选手”视为潜在隐患，这低估了其“体系化”优势的可持续性。在CS历史上，依靠卓越团队协作和战术纪律取得长期成功的例子并不少见。PARIVISION的“交易补枪”能力（##begin_quote## Trade work has always been fantastic for Power Vision ##end_quote## [文档 4]）正是这种体系的核心，它比依赖个人灵光一现更为可靠。\n\nRe: 数据统计师: 你正确地指出了Jame近期数据不佳，但犯了“见树不见林”的错误。一支队伍的整体Rating方差小（如你所说），恰恰是体系稳定、不依赖某一点的体现。更重要的是，你引用的数据中，PARIVISION在对阵Falcons的Dust2上取得了胜利，且zweih打出了1.52 Rating的carry级表现##begin_quote## [文档 7]##end_quote##，这证明在需要的时候，队内依然有人能站出来。缺乏H2H数据是事实，但PARIVISION近期对阵“顶级队伍”的普适性胜利记录是更有力的替代指标。\n\nRe: 情绪分析师: 你的分析敏锐地抓住了市场情绪，但将PARIVISION的优势简单归为“叙事”和“动量”是片面的。他们的“情绪动量”建立在坚实的战绩和战术优势之上，而非空谈。你提到的“单张地图偶然性”是双向风险，PARIVISION严谨的“方法性”（##begin_quote## So methodical ##end_quote## [文档 4]）打法正是为了降低己方的偶然性，将比赛纳入其可控体系。\n\nRe: 逆向投资者: 你的核心假设——“市场高估PARIVISION”——缺乏依据。我们并未看到市场实际定价。相反，多个分析师（包括中性立场）基于事实给出的概率仅在55-58%，这恰恰说明市场可能并未过度乐观。你认为“NIP纸面实力更强”，但文档中没有任何数据支持NIP当前状态优于被PARIVISION击败的那些“top five ranked teams”。在缺乏反面证据时，应更相信已有的正面战绩。\n\nRe: 基本面分析师: 你提到了“结构性资源”这一重要维度，但电竞比赛，尤其是单张地图，更看重即时状态和战术执行。PARIVISION的“系统性优势”本身就是一种强大的结构性优势。你承认Map 1对PARIVISION有利，但给出的55%概率未能充分体现这种优势。当他们的战术体系（##begin_quote## everything's so intentional ##end_quote## [文档 4]）在遭遇战中直接碰撞时，其威力往往最大。\n\nRe: 风险评估师: 你将“缺乏直接证据”列为最大风险，这过于机械。在竞技体育预测中，近期对阵同级别对手的表现是最佳代理变量。PARIVISION击败世界前五队伍的表现，就是对抗强队能力的最直接证据。你评估的40%概率过度惩罚了信息缺口，而严重低估了已观察到的、可重复的获胜能力。\n\nRe: 综合策略师: 你正确地指出了“地图特异性”这一关键变量，但得出了过于谨慎的结论。即使图一不是Dust2，PARIVISION所展现的“方法性”和团队协作是跨地图的可迁移技能。你对NIP“未知因素”的担忧是合理的，但PARIVISION的已知强势表现构成了更强的决策依据。在信号与噪声之间，应给予明确信号更高权重。\n\nREVISED REASONING: 经过辩论，我更加确信PARIVISION的体系化优势被部分分析师低估。他们击败顶级强队的记录（##begin_quote## beat two top five ranked teams in the world ##end_quote## [文档 5]）和卓越的团队韧性是硬数据支持的核心优势。虽然NIP的底蕴不可忽视，但在Map 1的遭遇战中，PARIVISION经过验证的战术执行力和正面比赛动力将占据上风。\n\nREVISED PREDICTION: 68.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "they beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "they've been able to work together as a unit wear teams down and find a way to win no matter what's against them",
+              "doc_index": 5
+            },
+            {
+              "quote": "Trade work has always been fantastic for Power Vision",
+              "doc_index": 4
+            },
+            {
+              "quote": "[文档 7]##end_quote##，这证明在需要的时候，队内依然有人能站出来。缺乏H2H数据是事实，但PARIVISION近期对阵“顶级队伍”的普适性胜利记录是更有力的替代指标。\n\nRe: 情绪分析师: 你的分析敏锐地抓住了市场情绪，但将PARIVISION的优势简单归为“叙事”和“动量”是片面的。他们的“情绪动量”建立在坚实的战绩和战术优势之上，而非空谈。你提到的“单张地图偶然性”是双向风险，PARIVISION严谨的“方法性”（##begin_quote## So methodical",
+              "doc_index": 4
+            },
+            {
+              "quote": "everything's so intentional",
+              "doc_index": 4
+            },
+            {
+              "quote": "beat two top five ranked teams in the world",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "质疑分析师",
+        "stance": "bear",
+        "probability": 40.0,
+        "rebuttals": "Re: 乐观分析师: 你的推理存在严重的确认偏误和过度推断。你只选取了支持PARIVISION的正面片段，却完全忽略了他们在决赛中惨败的关键证据。你引用的“they did win” ##begin_quote## I predicted that Parision would win, and they did win. I didn't expect them to win 3-0, but I'm going to say that. ##end_quote## [文档 3] 是他们在对阵Falcons和Spirit时的表现，但紧接着在PGL决赛中，他们被Vitality彻底摧毁，尤其在Map 2 (Dust2)上仅得4分 ##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]。将一次系列赛的胜利线性外推至对阵NIP，而忽视最近一次顶级对抗中的崩溃，是典型的过度自信。你提到的“团队韧性”在决赛中并未体现。\n\nRe: 贝叶斯分析师: 你的分析框架是合理的，但对证据强度的评估有误。你将PARIVISION“击败顶级队伍”视为强证据，但忽略了这一证据的时效性和具体情境。他们在决赛中0-3溃败，且个人数据全面落后（##begin_quote## zweih...0.92 | BELCHONOKK...0.86 | xiELO...0.80 | nota...0.72 ##end_quote## [文档 7]），这是一个极强的负面证据，应显著降低先验概率。你提到的“缺乏明星选手”不是中等风险，而是结构性弱点，这在决赛数据中得到了验证。你的后验概率55%可能仍高估了正面证据的权重。\n\nRe: 历史类比师: 你的“黑马势头”类比忽略了“势头”的双向性。历史同样充满了黑马在重大失利后一蹶不振或状态急剧下滑的先例。PARIVISION在达到“另一个决赛”的巅峰后，紧接着是一场##begin_quote## 0-3 ##end_quote## [文档 7]的脆败，这更类似于“盛极而衰”的转折点，而非势能的延续。你依赖的“团队协作”优势在决赛中被Vitality的团队协作和个人能力完全压制，这表明其体系存在上限，并非无懈可击。\n\nRe: 数据统计师: 你正确地指出了Jame状态低迷的数据（Rating 0.79），但低估了这一数据的严重性。作为团队核心之一，如此低效的表现是系统性风险的信号。此外，你引用PARIVISION在Dust2上对阵Astralis的强势表现（文档4），但同一张地图上，他们在决赛中对阵Vitality时仅得4分（文档7）。这揭示了巨大的表现方差和不稳定性，是统计模型中的高噪声信号。依赖不稳定的高光数据是危险的。\n\nRe: 情绪分析师: 你捕捉到的“黑马叙事”和“市场情绪”正是我需要质疑的共识。情绪分析师的工作是识别这种情绪，而我的工作是质疑它是否合理。当前的情绪很可能建立在过时的信息（击败Falcons/Spirit）之上，而忽略了最新的、破坏性的信息（决赛惨败）。当“以下克上”的叙事遭遇“被以上克下”的事实时，情绪会迅速反转。Map 1往往是情绪冷却、实力检验的开始，而非叙事延续的保证。\n\nRe: 逆向投资者: 我赞同你关于市场可能高估PARIVISION的观点。你指出了“缺乏持续性证明”和“个体能力上限”是关键。我补充一点：决赛溃败（##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]）为对手NIP提供了完美的战术研究蓝本——如何破解PARIVISION的体系。逆向思维不仅在于看衰热门，更在于识别哪些负面信息被市场选择性忽视。决赛失利就是最被忽视的尾部风险。\n\nRe: 基本面分析师: 你提到“缺乏对阵NIP的直接数据”是分析缺口，这很关键。但在信息缺失时，更应依赖可验证的、最近的硬数据——即PARIVISION在最近一次最高级别对抗（决赛）中的基本面表现。数据显示其团队协作在顶级对抗中失效，个人能力短板暴露无遗。你所说的“系统性优势”在决赛中并未转化为实际竞争力，这动摇了其基本面的可靠性。\n\nRe: 风险评估师: 我完全同意你的核心判断，即这是“信息不对称下的高风险评估”。你将概率定在40%，我认为这恰当地反映了下行风险。你提到的“状态依赖性与‘冷门’的不可持续性”是核心。PARIVISION的“魔法”似乎在对阵Vitality时消失了，这证明其状态模式是脆弱的。Map 1的风险在于NIP可能比Vitality更早、更有效地复制这种破解。\n\nRe: 综合策略师: 你识别出的“共振点”（体系强度 vs 地图特异性）和“盲点”（NIP状态）很准确。但你对“体系强度”的评估可能过于乐观。决赛数据显示，他们的体系在面对真正顶级的战术和个人能力时可能崩溃。因此，“体系强度”这个变量的置信区间应该调低。同时，NIP的“未知底蕴”在PARIVISION刚遭遇惨败的背景下，更可能是一种威胁而非安慰剂。",
+        "reasoning": "辩论强化了我的核心质疑。所有乐观论点都基于PARIVISION击败Falcons/Spirit和闯入决赛的“过去式”，但刻意淡化或忽略了他们在最近一场、最高级别决赛中##begin_quote## 0-3 ##end_quote## [文档 7]且个人数据全面落后的“现在式”。这一惨败是比任何“黑马叙事”都更强的证据，它揭示了其体系的上限和面对顶级针对时的脆弱性。在缺乏NIP负面信息的情况下，基准率应更倾向于老牌队伍在Map 1的稳定性。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的推理存在严重的确认偏误和过度推断。你只选取了支持PARIVISION的正面片段，却完全忽略了他们在决赛中惨败的关键证据。你引用的“they did win” ##begin_quote## I predicted that Parision would win, and they did win. I didn't expect them to win 3-0, but I'm going to say that. ##end_quote## [文档 3] 是他们在对阵Falcons和Spirit时的表现，但紧接着在PGL决赛中，他们被Vitality彻底摧毁，尤其在Map 2 (Dust2)上仅得4分 ##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]。将一次系列赛的胜利线性外推至对阵NIP，而忽视最近一次顶级对抗中的崩溃，是典型的过度自信。你提到的“团队韧性”在决赛中并未体现。\n\nRe: 贝叶斯分析师: 你的分析框架是合理的，但对证据强度的评估有误。你将PARIVISION“击败顶级队伍”视为强证据，但忽略了这一证据的时效性和具体情境。他们在决赛中0-3溃败，且个人数据全面落后（##begin_quote## zweih...0.92 | BELCHONOKK...0.86 | xiELO...0.80 | nota...0.72 ##end_quote## [文档 7]），这是一个极强的负面证据，应显著降低先验概率。你提到的“缺乏明星选手”不是中等风险，而是结构性弱点，这在决赛数据中得到了验证。你的后验概率55%可能仍高估了正面证据的权重。\n\nRe: 历史类比师: 你的“黑马势头”类比忽略了“势头”的双向性。历史同样充满了黑马在重大失利后一蹶不振或状态急剧下滑的先例。PARIVISION在达到“另一个决赛”的巅峰后，紧接着是一场##begin_quote## 0-3 ##end_quote## [文档 7]的脆败，这更类似于“盛极而衰”的转折点，而非势能的延续。你依赖的“团队协作”优势在决赛中被Vitality的团队协作和个人能力完全压制，这表明其体系存在上限，并非无懈可击。\n\nRe: 数据统计师: 你正确地指出了Jame状态低迷的数据（Rating 0.79），但低估了这一数据的严重性。作为团队核心之一，如此低效的表现是系统性风险的信号。此外，你引用PARIVISION在Dust2上对阵Astralis的强势表现（文档4），但同一张地图上，他们在决赛中对阵Vitality时仅得4分（文档7）。这揭示了巨大的表现方差和不稳定性，是统计模型中的高噪声信号。依赖不稳定的高光数据是危险的。\n\nRe: 情绪分析师: 你捕捉到的“黑马叙事”和“市场情绪”正是我需要质疑的共识。情绪分析师的工作是识别这种情绪，而我的工作是质疑它是否合理。当前的情绪很可能建立在过时的信息（击败Falcons/Spirit）之上，而忽略了最新的、破坏性的信息（决赛惨败）。当“以下克上”的叙事遭遇“被以上克下”的事实时，情绪会迅速反转。Map 1往往是情绪冷却、实力检验的开始，而非叙事延续的保证。\n\nRe: 逆向投资者: 我赞同你关于市场可能高估PARIVISION的观点。你指出了“缺乏持续性证明”和“个体能力上限”是关键。我补充一点：决赛溃败（##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]）为对手NIP提供了完美的战术研究蓝本——如何破解PARIVISION的体系。逆向思维不仅在于看衰热门，更在于识别哪些负面信息被市场选择性忽视。决赛失利就是最被忽视的尾部风险。\n\nRe: 基本面分析师: 你提到“缺乏对阵NIP的直接数据”是分析缺口，这很关键。但在信息缺失时，更应依赖可验证的、最近的硬数据——即PARIVISION在最近一次最高级别对抗（决赛）中的基本面表现。数据显示其团队协作在顶级对抗中失效，个人能力短板暴露无遗。你所说的“系统性优势”在决赛中并未转化为实际竞争力，这动摇了其基本面的可靠性。\n\nRe: 风险评估师: 我完全同意你的核心判断，即这是“信息不对称下的高风险评估”。你将概率定在40%，我认为这恰当地反映了下行风险。你提到的“状态依赖性与‘冷门’的不可持续性”是核心。PARIVISION的“魔法”似乎在对阵Vitality时消失了，这证明其状态模式是脆弱的。Map 1的风险在于NIP可能比Vitality更早、更有效地复制这种破解。\n\nRe: 综合策略师: 你识别出的“共振点”（体系强度 vs 地图特异性）和“盲点”（NIP状态）很准确。但你对“体系强度”的评估可能过于乐观。决赛数据显示，他们的体系在面对真正顶级的战术和个人能力时可能崩溃。因此，“体系强度”这个变量的置信区间应该调低。同时，NIP的“未知底蕴”在PARIVISION刚遭遇惨败的背景下，更可能是一种威胁而非安慰剂。\n\nREVISED REASONING: 辩论强化了我的核心质疑。所有乐观论点都基于PARIVISION击败Falcons/Spirit和闯入决赛的“过去式”，但刻意淡化或忽略了他们在最近一场、最高级别决赛中##begin_quote## 0-3 ##end_quote## [文档 7]且个人数据全面落后的“现在式”。这一惨败是比任何“黑马叙事”都更强的证据，它揭示了其体系的上限和面对顶级针对时的脆弱性。在缺乏NIP负面信息的情况下，基准率应更倾向于老牌队伍在Map 1的稳定性。\n\nREVISED PREDICTION: 40.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "I predicted that Parision would win, and they did win. I didn't expect them to win 3-0, but I'm going to say that.",
+              "doc_index": 3
+            },
+            {
+              "quote": "Dust2: 4-13",
+              "doc_index": 7
+            },
+            {
+              "quote": "zweih...0.92 | BELCHONOKK...0.86 | xiELO...0.80 | nota...0.72",
+              "doc_index": 7
+            },
+            {
+              "quote": "0-3",
+              "doc_index": 7
+            },
+            {
+              "quote": "Dust2: 4-13",
+              "doc_index": 7
+            },
+            {
+              "quote": "0-3",
+              "doc_index": 7
+            }
+          ],
+          "cited_doc_indices": [
+            3,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "贝叶斯分析师",
+        "stance": "neutral",
+        "probability": 52.0,
+        "rebuttals": "Re: 乐观分析师: 你的推理存在一个关键漏洞：过度依赖单一文档（文档3）的正面叙事，而忽略了其他文档中揭示的负面证据。你声称文档1、4、5、6、7是干扰信息，相关性低于5分，这是错误的。文档5和文档7提供了关于PARIVISION在决赛中惨败的关键数据，这是评估其状态稳定性的强证据。你引用的“##begin_quote## I predicted that Parision would win, and they did win. I didn't expect them to win 3-0, but I'm going to say that. ##end_quote## [文档 3]”是预测性言论，而非客观结果。相比之下，文档7显示他们在决赛中被Vitality以0-3横扫，其中一张地图仅得4分，这构成了强有力的反证。你的乐观估计（65%）忽略了这种状态大幅波动的尾部风险，未能校准基准率。\n\nRe: 质疑分析师: 你的分析框架更严谨，关注了决赛惨败和缺乏明星选手的风险。然而，你对“基准率”的运用有偏差。你提到“没有稳定顶级明星选手的队伍，其长期和关键比赛的胜率通常低于拥有明星选手的队伍”，这确实是合理的先验。但你忽略了PARIVISION近期战绩本身就是在挑战这一基准率，他们用团队协作取得了成功。你的核心论据“决赛惨败暴露脆弱性”是强有力的，但将其概率压至45%可能过度反应。你正确地引用了##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]这一数据，但需要结合他们击败顶级队伍（文档5）的证据进行综合评估，而非单向放大负面。\n\nRe: 历史类比师: 你的历史类比“新兴力量通过系统优势取得惯性”有其道理。但你的分析低估了“系统优势被破解”的历史模式同样常见。你引用了PARIVISION“##begin_quote## don't have a single player within the top 20 ##end_quote## [文档 5]”作为团队协作的证明，却未充分探讨这在Map 1遭遇战中，当战术博弈尚未完全展开时，可能转化为“缺乏破局点”的劣势。你的概率（58%）略高于中性，但支撑其“惯性”的证据（近期连胜）与反证（决赛脆败）的权重分配需要更明确的贝叶斯更新过程。\n\nRe: 数据统计师: 你正确地指出了缺乏直接交手数据（H2H）和Jame个人数据不佳（Rating 0.79）的关键风险点。然而，你的分析存在不一致性：你既认为“团队整体Rating较为均衡...没有明显短板”，又指出“核心选手Jame近期个人数据不佳”。如果核心选手表现是“队伍最低的”，这本身就是一个明显的统计短板，会影响“体系稳定”的结论。你的概率（58%）与历史类比师相同，但依据中包含了矛盾的信号，需要更严格的量化权衡。\n\nRe: 情绪分析师: 你准确地捕捉到了“黑马叙事”和“市场动量”的情绪面。然而，作为贝叶斯分析，我们必须区分情绪驱动叙事与基于证据的概率更新。你预测62%的主要依据是情绪动量，但文档中同样存在可能引发情绪逆转的强信号：决赛0-3的惨败。##begin_quote## they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5] 创造的正面情绪，很可能已被##begin_quote## Dust2: 4-13 ##end_quote## [文档 7] 这一结果部分抵消。情绪是快变量，证据是慢变量。你的估计可能高估了情绪动量的持续性。\n\nRe: 逆向投资者: 你的核心论点“市场共识高估”是合理的逆向思维起点。你正确地指出PARIVISION的成功可能依赖特定地图池，并引用##begin_quote## This is their best map in the pool ##end_quote## [文档 4]作为依据。然而，你的结论（45%）与质疑分析师相同，却未能提供为何NIP的“纸面实力”在当前语境下被市场“低估”的具体证据。逆向投资需要识别错误定价，而文档中完全没有NIP的正面数据，因此“NIP优势论”更多是基于无信息先验（传统强队底蕴），而非证伪PARIVISION实力的强证据。这可能导致对下行风险过度定价。\n\nRe: 基本面分析师: 你的分析框架平衡，指出了“系统性优势”与“缺乏明星选手”的结构性矛盾。你提到“文档中缺乏对NIP不利的证据”，这是一个关键点，意味着我们不应默认NIP处于弱势。然而，在贝叶斯更新中，缺乏NIP信息应保持先验中性，重点更新PARIVISION的证据。你最终给出55%的概率是谨慎的，但推理中未明确量化PARIVISION“击败顶级队伍”这一证据对先验概率的提升幅度。\n\nRe: 风险评估师: 你正确地强调了“缺乏对阵NIP的直接证据”是最大风险，并给出了最低的预测（40%）。然而，你的风险评估可能过于保守，将“未知风险”完全转化为对PARIVISION的折价。贝叶斯分析中，面对未知，我们应基于已有的、关于PARIVISION的证据进行更新。PARIVISION“击败两支世界前五队伍”（文档5）是强证据，即使对象不是NIP，也显著提升了其作为强竞争者的后验概率。将概率定为40%，相当于认为NIP在Map 1有显著优势（60%），这在缺乏NIP正面证据的情况下，假设性过强。\n\nRe: 综合策略师: 你的“共振点与盲点”分析很有见地，特别是“体系强度 vs 地图特异性”和“NIP状态未知”。你给出的55%概率是合理的折中。但你的推理可以更贝叶斯化：地图选择是一个重要的条件变量。如果Map 1是Dust2，PARIVISION的条件概率应更高；如果是其他地图，则应降低。你的综合估计55%可视为这些可能性的期望值，这是一个合理的处理方式。",
+        "reasoning": "辩论后，我重新校准证据权重。支持YES的核心强证据是##begin_quote## beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。反对NO的核心强证据是决赛惨败，特别是##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]，这暴露了其体系在顶级对抗中被破解的风险。缺乏NIP信息意味着我们无法更新其负面，因此基准率调整应完全基于PARIVISION的证据。正面证据略强于负面证据，但负面证据的强度（大比分溃败）足以限制概率上修幅度。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的推理存在一个关键漏洞：过度依赖单一文档（文档3）的正面叙事，而忽略了其他文档中揭示的负面证据。你声称文档1、4、5、6、7是干扰信息，相关性低于5分，这是错误的。文档5和文档7提供了关于PARIVISION在决赛中惨败的关键数据，这是评估其状态稳定性的强证据。你引用的“##begin_quote## I predicted that Parision would win, and they did win. I didn't expect them to win 3-0, but I'm going to say that. ##end_quote## [文档 3]”是预测性言论，而非客观结果。相比之下，文档7显示他们在决赛中被Vitality以0-3横扫，其中一张地图仅得4分，这构成了强有力的反证。你的乐观估计（65%）忽略了这种状态大幅波动的尾部风险，未能校准基准率。\n\nRe: 质疑分析师: 你的分析框架更严谨，关注了决赛惨败和缺乏明星选手的风险。然而，你对“基准率”的运用有偏差。你提到“没有稳定顶级明星选手的队伍，其长期和关键比赛的胜率通常低于拥有明星选手的队伍”，这确实是合理的先验。但你忽略了PARIVISION近期战绩本身就是在挑战这一基准率，他们用团队协作取得了成功。你的核心论据“决赛惨败暴露脆弱性”是强有力的，但将其概率压至45%可能过度反应。你正确地引用了##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]这一数据，但需要结合他们击败顶级队伍（文档5）的证据进行综合评估，而非单向放大负面。\n\nRe: 历史类比师: 你的历史类比“新兴力量通过系统优势取得惯性”有其道理。但你的分析低估了“系统优势被破解”的历史模式同样常见。你引用了PARIVISION“##begin_quote## don't have a single player within the top 20 ##end_quote## [文档 5]”作为团队协作的证明，却未充分探讨这在Map 1遭遇战中，当战术博弈尚未完全展开时，可能转化为“缺乏破局点”的劣势。你的概率（58%）略高于中性，但支撑其“惯性”的证据（近期连胜）与反证（决赛脆败）的权重分配需要更明确的贝叶斯更新过程。\n\nRe: 数据统计师: 你正确地指出了缺乏直接交手数据（H2H）和Jame个人数据不佳（Rating 0.79）的关键风险点。然而，你的分析存在不一致性：你既认为“团队整体Rating较为均衡...没有明显短板”，又指出“核心选手Jame近期个人数据不佳”。如果核心选手表现是“队伍最低的”，这本身就是一个明显的统计短板，会影响“体系稳定”的结论。你的概率（58%）与历史类比师相同，但依据中包含了矛盾的信号，需要更严格的量化权衡。\n\nRe: 情绪分析师: 你准确地捕捉到了“黑马叙事”和“市场动量”的情绪面。然而，作为贝叶斯分析，我们必须区分情绪驱动叙事与基于证据的概率更新。你预测62%的主要依据是情绪动量，但文档中同样存在可能引发情绪逆转的强信号：决赛0-3的惨败。##begin_quote## they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5] 创造的正面情绪，很可能已被##begin_quote## Dust2: 4-13 ##end_quote## [文档 7] 这一结果部分抵消。情绪是快变量，证据是慢变量。你的估计可能高估了情绪动量的持续性。\n\nRe: 逆向投资者: 你的核心论点“市场共识高估”是合理的逆向思维起点。你正确地指出PARIVISION的成功可能依赖特定地图池，并引用##begin_quote## This is their best map in the pool ##end_quote## [文档 4]作为依据。然而，你的结论（45%）与质疑分析师相同，却未能提供为何NIP的“纸面实力”在当前语境下被市场“低估”的具体证据。逆向投资需要识别错误定价，而文档中完全没有NIP的正面数据，因此“NIP优势论”更多是基于无信息先验（传统强队底蕴），而非证伪PARIVISION实力的强证据。这可能导致对下行风险过度定价。\n\nRe: 基本面分析师: 你的分析框架平衡，指出了“系统性优势”与“缺乏明星选手”的结构性矛盾。你提到“文档中缺乏对NIP不利的证据”，这是一个关键点，意味着我们不应默认NIP处于弱势。然而，在贝叶斯更新中，缺乏NIP信息应保持先验中性，重点更新PARIVISION的证据。你最终给出55%的概率是谨慎的，但推理中未明确量化PARIVISION“击败顶级队伍”这一证据对先验概率的提升幅度。\n\nRe: 风险评估师: 你正确地强调了“缺乏对阵NIP的直接证据”是最大风险，并给出了最低的预测（40%）。然而，你的风险评估可能过于保守，将“未知风险”完全转化为对PARIVISION的折价。贝叶斯分析中，面对未知，我们应基于已有的、关于PARIVISION的证据进行更新。PARIVISION“击败两支世界前五队伍”（文档5）是强证据，即使对象不是NIP，也显著提升了其作为强竞争者的后验概率。将概率定为40%，相当于认为NIP在Map 1有显著优势（60%），这在缺乏NIP正面证据的情况下，假设性过强。\n\nRe: 综合策略师: 你的“共振点与盲点”分析很有见地，特别是“体系强度 vs 地图特异性”和“NIP状态未知”。你给出的55%概率是合理的折中。但你的推理可以更贝叶斯化：地图选择是一个重要的条件变量。如果Map 1是Dust2，PARIVISION的条件概率应更高；如果是其他地图，则应降低。你的综合估计55%可视为这些可能性的期望值，这是一个合理的处理方式。\n\nREVISED REASONING: 辩论后，我重新校准证据权重。支持YES的核心强证据是##begin_quote## beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]。反对NO的核心强证据是决赛惨败，特别是##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]，这暴露了其体系在顶级对抗中被破解的风险。缺乏NIP信息意味着我们无法更新其负面，因此基准率调整应完全基于PARIVISION的证据。正面证据略强于负面证据，但负面证据的强度（大比分溃败）足以限制概率上修幅度。\n\nREVISED PREDICTION: 52.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "I predicted that Parision would win, and they did win. I didn't expect them to win 3-0, but I'm going to say that.",
+              "doc_index": 3
+            },
+            {
+              "quote": "Dust2: 4-13",
+              "doc_index": 7
+            },
+            {
+              "quote": "don't have a single player within the top 20",
+              "doc_index": 5
+            },
+            {
+              "quote": "they beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "Dust2: 4-13",
+              "doc_index": 7
+            },
+            {
+              "quote": "This is their best map in the pool",
+              "doc_index": 4
+            },
+            {
+              "quote": "beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "Dust2: 4-13",
+              "doc_index": 7
+            }
+          ],
+          "cited_doc_indices": [
+            3,
+            4,
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "历史类比师",
+        "stance": "neutral",
+        "probability": 56.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析过度依赖单一叙事，即“近期击败顶级队伍”的势头。然而，历史类比提醒我们，这种“黑马”势头的延续性高度依赖于对手的应对。你引用的“##begin_quote## they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]”固然是事实，但忽略了紧随其后的决赛惨败。类比于历史上许多起义军或新兴势力，在取得一系列战术胜利后，往往会在面对经验更丰富、资源更雄厚的“正规军”时，因战术被研究或无法应对高强度消耗而受挫。你的65%概率高估了单次胜利序列的预测价值，低估了传统强队（NIP）在遭遇战中的调整能力。\n\nRe: 质疑分析师: 你正确地指出了PARIVISION缺乏顶级枪男和决赛惨败的风险，这是历史类比中“平民军队”对抗“精锐军团”时的经典短板。然而，你过于放大了“##begin_quote## they don‘t have a single player within the top 20 ##end_quote## [文档 5]”这一数据点的负面意义。历史先例（如某些依靠严密阵型和纪律而非个人勇武的军队）表明，体系化的团队可以弥补个人能力的不足，尤其是在战斗的初始阶段（Map 1），此时战术执行比个人灵光一现更重要。你引用的决赛数据是重要警示，但并非决定性的先例，因为对手和环境（Vitality vs NIP）已完全不同。你的45%可能过度惩罚了PARIVISION的体系优势。\n\nRe: 贝叶斯分析师: 你的框架是合理的，但先验概率设为50%可能过于“中性”。在缺乏NIP直接信息时，历史类比提供了一种先验：新兴的、战术纪律严明的队伍（PARIVISION）在面对老牌豪门时，其“体系新颖性”在首次交锋中往往能带来优势，类似于军事史上的“奇袭”效果。因此，先验或许应略高于50%。你正确地识别了“##begin_quote## they‘ve been able to work together as a unit...find a way to win ##end_quote## [文档 5]”是强证据，但对其在Map 1场景下的权重评估可能仍显保守。\n\nRe: 数据统计师: 你依赖的数据点（团队Rating均衡、Dust2表现）是有效的。然而，你提到的“##begin_quote## [Jame]...Rating仅为0.79 ##end_quote## [文档 7]”是一个关键风险信号，但历史类比提醒我们，核心指挥官的短期数据低迷未必导致体系崩溃，只要体系本身（交易补枪、默认控制）仍在运转。你的分析缺失了对NIP数据的任何比较，这使得58%的估计建立在单边数据上，风险在于将PARIVISION对阵其他队伍的表现，直接线性外推至对阵NIP。\n\nRe: 情绪分析师: 你敏锐地捕捉到了“黑马叙事”的情绪动量，这是市场的重要驱动力。然而，历史一再表明，情绪高潮点往往是反转的前兆，尤其是当叙事过于一致时。你提到的“##begin_quote## they‘ve been able to work together as a unit wear teams down ##end_quote## [文档 5]”构成了坚实的情绪基础，但情绪分析师容易陷入“叙事自我实现”的陷阱。NIP所代表的“秩序回归”叙事虽然微弱，但在情绪过热时具备强大的逆向吸引力。你的62%可能反映了当前情绪，但低估了叙事反转的潜在速度。\n\nRe: 逆向投资者: 你的核心逻辑——市场可能高估了PARIVISION——是逆向思维的典型应用。你指出“##begin_quote## 黑马队伍状态容易出现波动 ##end_quote##”是合理的风险考量。然而，你的类比可能选错了参照系。PARIVISION并非昙花一现的偶然爆冷者，而是“##begin_quote## beat two top five ranked teams ##end_quote## [文档 5]”的连续证明者。这更类似于一支通过新战术取得实质性突破的力量，而非单纯依赖运气或对手失常。完全将其成功归因于“不可持续”并给予NIP过高权重（45%），可能忽视了新战术体系在首次遭遇时的持久威力。\n\nRe: 基本面分析师: 你的分析平衡，指出了“系统性优势”与“结构性资源”的对抗。你提到“##begin_quote## 缺乏稳定的顶级明星选手 ##end_quote## [文档 5]”是基本面短板，这一点我完全同意。然而，在Map 1的语境下，“结构性资源”（俱乐部底蕴、长期经验）的效用可能不如在漫长的系列赛或赛季中那么明显。Map 1更考验临场战术执行和初始气势，这正是PARIVISION“##begin_quote## So methodical ##end_quote## [文档 4]”的优势领域。因此，55%可能是一个合理的折中，但或许对Map 1的特殊性强调不足。\n\nRe: 风险评估师: 你正确地强调了最大的风险是信息不对称（缺乏NIP数据）和“黑马”状态的脆弱性。将PARIVISION获胜归类为“低概率、高影响”事件是严谨的。然而，你的评估可能过于保守。当一支队伍多次复制“高影响”事件（击败顶级队）时，其本身的发生概率就需要被重新校准。它不是一次性的尾部风险，而是其当前实力分布的体现。完全基于“缺乏直接证据”而将概率压到40%，忽略了现有证据（击败Astralis、Falcons、Spirit等）已经构成了对其当下能力的有力间接证明。\n\nRe: 综合策略师: 你准确地识别了“共振点”（体系强度 vs 地图特异性）和“盲点”（NIP状态），这是出色的元分析。你关于地图选择是关键变量的观点非常中肯。如果Map 1是Dust2，PARIVISION的概率应显著上调；反之则下调。你的55%估计似乎已将此不确定性纳入考量，是一个稳健的判断。",
+        "reasoning": "辩论强化了我对两个历史模式的认识：一是“新战术体系在首次遭遇时的优势”，支持PARIVISION；二是“无核心巨星队伍在僵局中的上限风险”，支持NIP。关键文档显示，PARIVISION的体系强度是经过多次验证的（##begin_quote## beat two top five ranked teams ##end_quote## [文档 5]），而不仅仅是单次爆冷。然而，风险评估师和综合策略师指出的“信息不对称”和“地图依赖性”是必须打折的因素。Map 1的偶然性也对任何一方构成均等风险。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析过度依赖单一叙事，即“近期击败顶级队伍”的势头。然而，历史类比提醒我们，这种“黑马”势头的延续性高度依赖于对手的应对。你引用的“##begin_quote## they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]”固然是事实，但忽略了紧随其后的决赛惨败。类比于历史上许多起义军或新兴势力，在取得一系列战术胜利后，往往会在面对经验更丰富、资源更雄厚的“正规军”时，因战术被研究或无法应对高强度消耗而受挫。你的65%概率高估了单次胜利序列的预测价值，低估了传统强队（NIP）在遭遇战中的调整能力。\n\nRe: 质疑分析师: 你正确地指出了PARIVISION缺乏顶级枪男和决赛惨败的风险，这是历史类比中“平民军队”对抗“精锐军团”时的经典短板。然而，你过于放大了“##begin_quote## they don‘t have a single player within the top 20 ##end_quote## [文档 5]”这一数据点的负面意义。历史先例（如某些依靠严密阵型和纪律而非个人勇武的军队）表明，体系化的团队可以弥补个人能力的不足，尤其是在战斗的初始阶段（Map 1），此时战术执行比个人灵光一现更重要。你引用的决赛数据是重要警示，但并非决定性的先例，因为对手和环境（Vitality vs NIP）已完全不同。你的45%可能过度惩罚了PARIVISION的体系优势。\n\nRe: 贝叶斯分析师: 你的框架是合理的，但先验概率设为50%可能过于“中性”。在缺乏NIP直接信息时，历史类比提供了一种先验：新兴的、战术纪律严明的队伍（PARIVISION）在面对老牌豪门时，其“体系新颖性”在首次交锋中往往能带来优势，类似于军事史上的“奇袭”效果。因此，先验或许应略高于50%。你正确地识别了“##begin_quote## they‘ve been able to work together as a unit...find a way to win ##end_quote## [文档 5]”是强证据，但对其在Map 1场景下的权重评估可能仍显保守。\n\nRe: 数据统计师: 你依赖的数据点（团队Rating均衡、Dust2表现）是有效的。然而，你提到的“##begin_quote## [Jame]...Rating仅为0.79 ##end_quote## [文档 7]”是一个关键风险信号，但历史类比提醒我们，核心指挥官的短期数据低迷未必导致体系崩溃，只要体系本身（交易补枪、默认控制）仍在运转。你的分析缺失了对NIP数据的任何比较，这使得58%的估计建立在单边数据上，风险在于将PARIVISION对阵其他队伍的表现，直接线性外推至对阵NIP。\n\nRe: 情绪分析师: 你敏锐地捕捉到了“黑马叙事”的情绪动量，这是市场的重要驱动力。然而，历史一再表明，情绪高潮点往往是反转的前兆，尤其是当叙事过于一致时。你提到的“##begin_quote## they‘ve been able to work together as a unit wear teams down ##end_quote## [文档 5]”构成了坚实的情绪基础，但情绪分析师容易陷入“叙事自我实现”的陷阱。NIP所代表的“秩序回归”叙事虽然微弱，但在情绪过热时具备强大的逆向吸引力。你的62%可能反映了当前情绪，但低估了叙事反转的潜在速度。\n\nRe: 逆向投资者: 你的核心逻辑——市场可能高估了PARIVISION——是逆向思维的典型应用。你指出“##begin_quote## 黑马队伍状态容易出现波动 ##end_quote##”是合理的风险考量。然而，你的类比可能选错了参照系。PARIVISION并非昙花一现的偶然爆冷者，而是“##begin_quote## beat two top five ranked teams ##end_quote## [文档 5]”的连续证明者。这更类似于一支通过新战术取得实质性突破的力量，而非单纯依赖运气或对手失常。完全将其成功归因于“不可持续”并给予NIP过高权重（45%），可能忽视了新战术体系在首次遭遇时的持久威力。\n\nRe: 基本面分析师: 你的分析平衡，指出了“系统性优势”与“结构性资源”的对抗。你提到“##begin_quote## 缺乏稳定的顶级明星选手 ##end_quote## [文档 5]”是基本面短板，这一点我完全同意。然而，在Map 1的语境下，“结构性资源”（俱乐部底蕴、长期经验）的效用可能不如在漫长的系列赛或赛季中那么明显。Map 1更考验临场战术执行和初始气势，这正是PARIVISION“##begin_quote## So methodical ##end_quote## [文档 4]”的优势领域。因此，55%可能是一个合理的折中，但或许对Map 1的特殊性强调不足。\n\nRe: 风险评估师: 你正确地强调了最大的风险是信息不对称（缺乏NIP数据）和“黑马”状态的脆弱性。将PARIVISION获胜归类为“低概率、高影响”事件是严谨的。然而，你的评估可能过于保守。当一支队伍多次复制“高影响”事件（击败顶级队）时，其本身的发生概率就需要被重新校准。它不是一次性的尾部风险，而是其当前实力分布的体现。完全基于“缺乏直接证据”而将概率压到40%，忽略了现有证据（击败Astralis、Falcons、Spirit等）已经构成了对其当下能力的有力间接证明。\n\nRe: 综合策略师: 你准确地识别了“共振点”（体系强度 vs 地图特异性）和“盲点”（NIP状态），这是出色的元分析。你关于地图选择是关键变量的观点非常中肯。如果Map 1是Dust2，PARIVISION的概率应显著上调；反之则下调。你的55%估计似乎已将此不确定性纳入考量，是一个稳健的判断。\n\nREVISED REASONING: 辩论强化了我对两个历史模式的认识：一是“新战术体系在首次遭遇时的优势”，支持PARIVISION；二是“无核心巨星队伍在僵局中的上限风险”，支持NIP。关键文档显示，PARIVISION的体系强度是经过多次验证的（##begin_quote## beat two top five ranked teams ##end_quote## [文档 5]），而不仅仅是单次爆冷。然而，风险评估师和综合策略师指出的“信息不对称”和“地图依赖性”是必须打折的因素。Map 1的偶然性也对任何一方构成均等风险。\n\nREVISED PREDICTION: 56.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "they beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "they don‘t have a single player within the top 20",
+              "doc_index": 5
+            },
+            {
+              "quote": "they‘ve been able to work together as a unit...find a way to win",
+              "doc_index": 5
+            },
+            {
+              "quote": "[Jame]...Rating仅为0.79",
+              "doc_index": 7
+            },
+            {
+              "quote": "they‘ve been able to work together as a unit wear teams down",
+              "doc_index": 5
+            },
+            {
+              "quote": "黑马队伍状态容易出现波动 ##end_quote##”是合理的风险考量。然而，你的类比可能选错了参照系。PARIVISION并非昙花一现的偶然爆冷者，而是“##begin_quote## beat two top five ranked teams",
+              "doc_index": 5
+            },
+            {
+              "quote": "缺乏稳定的顶级明星选手",
+              "doc_index": 5
+            },
+            {
+              "quote": "So methodical",
+              "doc_index": 4
+            },
+            {
+              "quote": "beat two top five ranked teams",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            4,
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "数据统计师",
+        "stance": "neutral",
+        "probability": 52.0,
+        "rebuttals": "Re: 乐观分析师: 你的推理存在样本量不足和选择性忽略负面数据的缺陷。你仅引用文档3中“预测他们会赢”的主观评论作为主要论据，但忽略了文档7中提供的具体、可量化的比赛数据。PARIVISION在对阵Falcons的系列赛中表现有显著波动：在Mirage上以7-13大比分落败，且核心选手Jame的系列赛Rating仅为0.79，ADR为59.0 ##begin_quote## [Jame](https://www.hltv.org/player/13776/jame) | 44-47 | 59.0 | -3.13% | 0.79 | ##end_quote## [文档 7]。将一次3-0的胜利（对手未知）泛化为对阵NIP的稳定优势，缺乏统计严谨性。你的65%概率估计高估了正面叙事的权重，低估了具体表现数据的波动性。\n\nRe: 质疑分析师: 你正确地指出了信息不完整和缺乏直接H2H数据的关键风险。然而，你引用文档7中PARIVISION对阵Vitality决赛的数据来论证其“脆弱性”是不恰当的，因为该文档（LYON vs LOUD）是关于英雄联盟比赛，与CS2的PARIVISION完全无关，这是一个严重的引用错误。有效的负面证据应来自相关文档，例如他们在Mirage上7-13失利的实际数据 ##begin_quote## Mirage: 13-7 ##end_quote## [文档 7]，这显示了状态的不稳定性，而非决赛崩盘。\n\nRe: 贝叶斯分析师: 你的分析框架合理，先验设定为50%是标准的基准率。然而，在证据权重评估上，你将“团队协作”和“击败顶级队伍”视为强证据，但忽略了这些证据的样本量限制。文档5提到击败“two top five ranked teams”，这是一个小样本（n=2）事件。同时，你未能充分量化负面证据，如Jame 0.79的Rating是一个显著低于平均水平的统计异常值，应在后验更新中赋予更高权重。你的后验概率从50%更新至55%，调整幅度可能不足。\n\nRe: 历史类比师: 你的历史类比逻辑（“新兴力量系统优势”）存在过度外推的风险。你依赖的“团队魔法”叙事缺乏持续性的数据支撑。历史模式中，“无明星选手”队伍的成功往往伴随更高的方差。关键数据点：尽管团队整体性高，但个人能力上限是客观统计事实。##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]。在Map 1的有限回合样本中，个人能力的随机性影响更大，这可能削弱其体系优势。你的58%估计未充分考虑这种在单张地图上可能被放大的结构性短板。\n\nRe: 情绪分析师: 你的核心是分析市场叙事动量，而非基本面概率。你正确识别了“黑马”叙事会推高市场预期。然而，从数据统计角度看，情绪动量是噪声而非信号。你的预测（62%）是基于情绪共识的推断，而非可验证的绩效数据。文档中真正的数据信号是混合的：有高光（Dust2击败Falcons），也有低谷（Mirage失利）。情绪分析忽略了##begin_quote## [Jame]...0.79 ##end_quote## [文档 7]这类具体的负向统计指标，这些指标与高涨的情绪叙事直接矛盾。\n\nRe: 逆向投资者: 你指出市场可能高估PARIVISION的观点，在缺乏NIP负面信息的情况下是谨慎的。你引用“缺乏持续性证明”是合理的担忧。然而，你的论据“依赖特定地图池”需要更精确的数据支持。文档4提到Dust2是他们的最佳地图，但文档7显示他们在自己的选图Dust2上仅以16-14险胜，而在对手选图Mirage上大败。这表明其优势并非绝对，且地图依赖性可能带来表现方差增大。你的45%估计可能过度贴现了其正面战绩，但方向是强调风险。\n\nRe: 基本面分析师: 你的分析平衡了正反因素。你正确指出了“缺乏稳定的顶级明星选手”这一基本面短板，并以文档5为证。然而，你的分析缺失了对NIP的任何量化基准。在双方数据均不完全的情况下，将概率定为55%略微偏向PARIVISION，这隐含假设其近期战绩的权重高于对手的“结构性优势”这一未知量。更保守的做法是给予未知对手更高的不确定性溢价。\n\nRe: 风险评估师: 你正确地强调了最大的风险是缺乏直接对阵数据，并将概率定为保守的40%。这是对信息缺口的一种合理反应。然而，你完全忽略了PARIVISION击败顶级队伍这一统计事实所提供的先验信息。##begin_quote## beat two top five ranked teams in the world ##end_quote## [文档 5]。在风险评估中，已发生的低概率高影响事件（击败强队）应适当调整先验概率，即使未来重现的概率不高。完全忽略此证据可能导致估计过于偏离数据中位数。\n\nRe: 综合策略师: 你的元分析准确识别了相关文档，并指出了“地图特异性”与“体系强度”的共振点及“NIP状态未知”的盲点。这是严谨的。你的结论（55%）试图平衡这些因素。然而，在量化时，你未对“地图依赖性”给出概率调整。如果Map1不是Dust2，其预期胜率应系统性下调。考虑到地图选择的随机性（非Dust2概率>50%），你的整体估计55%可能未充分体现这一条件概率的影响。",
+        "reasoning": "辩论强化了关键统计问题：1) 正面证据样本量小（n=2次击败顶级队伍）且伴有波动（Mirage大败）；2) 核心选手Jame近期数据疲软（Rating 0.79）构成显著负向指标 ##begin_quote## [Jame]...0.79 ##end_quote## [文档 7]；3) 缺乏对阵NIP的H2H数据引入巨大不确定性。虽然团队协作（文档5）和特定地图执行力（文档4）是有效资产，但不足以在数据层面支撑高于55%的显著概率优势。必须为对手的未知实力和己方状态方差保留更大权重。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的推理存在样本量不足和选择性忽略负面数据的缺陷。你仅引用文档3中“预测他们会赢”的主观评论作为主要论据，但忽略了文档7中提供的具体、可量化的比赛数据。PARIVISION在对阵Falcons的系列赛中表现有显著波动：在Mirage上以7-13大比分落败，且核心选手Jame的系列赛Rating仅为0.79，ADR为59.0 ##begin_quote## [Jame](https://www.hltv.org/player/13776/jame) | 44-47 | 59.0 | -3.13% | 0.79 | ##end_quote## [文档 7]。将一次3-0的胜利（对手未知）泛化为对阵NIP的稳定优势，缺乏统计严谨性。你的65%概率估计高估了正面叙事的权重，低估了具体表现数据的波动性。\n\nRe: 质疑分析师: 你正确地指出了信息不完整和缺乏直接H2H数据的关键风险。然而，你引用文档7中PARIVISION对阵Vitality决赛的数据来论证其“脆弱性”是不恰当的，因为该文档（LYON vs LOUD）是关于英雄联盟比赛，与CS2的PARIVISION完全无关，这是一个严重的引用错误。有效的负面证据应来自相关文档，例如他们在Mirage上7-13失利的实际数据 ##begin_quote## Mirage: 13-7 ##end_quote## [文档 7]，这显示了状态的不稳定性，而非决赛崩盘。\n\nRe: 贝叶斯分析师: 你的分析框架合理，先验设定为50%是标准的基准率。然而，在证据权重评估上，你将“团队协作”和“击败顶级队伍”视为强证据，但忽略了这些证据的样本量限制。文档5提到击败“two top five ranked teams”，这是一个小样本（n=2）事件。同时，你未能充分量化负面证据，如Jame 0.79的Rating是一个显著低于平均水平的统计异常值，应在后验更新中赋予更高权重。你的后验概率从50%更新至55%，调整幅度可能不足。\n\nRe: 历史类比师: 你的历史类比逻辑（“新兴力量系统优势”）存在过度外推的风险。你依赖的“团队魔法”叙事缺乏持续性的数据支撑。历史模式中，“无明星选手”队伍的成功往往伴随更高的方差。关键数据点：尽管团队整体性高，但个人能力上限是客观统计事实。##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]。在Map 1的有限回合样本中，个人能力的随机性影响更大，这可能削弱其体系优势。你的58%估计未充分考虑这种在单张地图上可能被放大的结构性短板。\n\nRe: 情绪分析师: 你的核心是分析市场叙事动量，而非基本面概率。你正确识别了“黑马”叙事会推高市场预期。然而，从数据统计角度看，情绪动量是噪声而非信号。你的预测（62%）是基于情绪共识的推断，而非可验证的绩效数据。文档中真正的数据信号是混合的：有高光（Dust2击败Falcons），也有低谷（Mirage失利）。情绪分析忽略了##begin_quote## [Jame]...0.79 ##end_quote## [文档 7]这类具体的负向统计指标，这些指标与高涨的情绪叙事直接矛盾。\n\nRe: 逆向投资者: 你指出市场可能高估PARIVISION的观点，在缺乏NIP负面信息的情况下是谨慎的。你引用“缺乏持续性证明”是合理的担忧。然而，你的论据“依赖特定地图池”需要更精确的数据支持。文档4提到Dust2是他们的最佳地图，但文档7显示他们在自己的选图Dust2上仅以16-14险胜，而在对手选图Mirage上大败。这表明其优势并非绝对，且地图依赖性可能带来表现方差增大。你的45%估计可能过度贴现了其正面战绩，但方向是强调风险。\n\nRe: 基本面分析师: 你的分析平衡了正反因素。你正确指出了“缺乏稳定的顶级明星选手”这一基本面短板，并以文档5为证。然而，你的分析缺失了对NIP的任何量化基准。在双方数据均不完全的情况下，将概率定为55%略微偏向PARIVISION，这隐含假设其近期战绩的权重高于对手的“结构性优势”这一未知量。更保守的做法是给予未知对手更高的不确定性溢价。\n\nRe: 风险评估师: 你正确地强调了最大的风险是缺乏直接对阵数据，并将概率定为保守的40%。这是对信息缺口的一种合理反应。然而，你完全忽略了PARIVISION击败顶级队伍这一统计事实所提供的先验信息。##begin_quote## beat two top five ranked teams in the world ##end_quote## [文档 5]。在风险评估中，已发生的低概率高影响事件（击败强队）应适当调整先验概率，即使未来重现的概率不高。完全忽略此证据可能导致估计过于偏离数据中位数。\n\nRe: 综合策略师: 你的元分析准确识别了相关文档，并指出了“地图特异性”与“体系强度”的共振点及“NIP状态未知”的盲点。这是严谨的。你的结论（55%）试图平衡这些因素。然而，在量化时，你未对“地图依赖性”给出概率调整。如果Map1不是Dust2，其预期胜率应系统性下调。考虑到地图选择的随机性（非Dust2概率>50%），你的整体估计55%可能未充分体现这一条件概率的影响。\n\nREVISED REASONING:\n辩论强化了关键统计问题：1) 正面证据样本量小（n=2次击败顶级队伍）且伴有波动（Mirage大败）；2) 核心选手Jame近期数据疲软（Rating 0.79）构成显著负向指标 ##begin_quote## [Jame]...0.79 ##end_quote## [文档 7]；3) 缺乏对阵NIP的H2H数据引入巨大不确定性。虽然团队协作（文档5）和特定地图执行力（文档4）是有效资产，但不足以在数据层面支撑高于55%的显著概率优势。必须为对手的未知实力和己方状态方差保留更大权重。\n\nREVISED PREDICTION: 52.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "[Jame](https://www.hltv.org/player/13776/jame) | 44-47 | 59.0 | -3.13% | 0.79 |",
+              "doc_index": 7
+            },
+            {
+              "quote": "Mirage: 13-7",
+              "doc_index": 7
+            },
+            {
+              "quote": "they don't have a single player within the top 20",
+              "doc_index": 5
+            },
+            {
+              "quote": "[Jame]...0.79",
+              "doc_index": 7
+            },
+            {
+              "quote": "beat two top five ranked teams in the world",
+              "doc_index": 5
+            },
+            {
+              "quote": "[Jame]...0.79",
+              "doc_index": 7
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "情绪分析师",
+        "stance": "bull",
+        "probability": 58.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析正确地抓住了PARIVISION的积极叙事，但过于依赖单一文档（文档3）的正面评价，忽略了其他文档中揭示的潜在风险。你提到“PARIVISION近期展现了强大的比赛掌控能力”，但文档7（尽管是LoL，但标题和部分内容误植了CS2信息）和文档5都暗示了其状态可能波动。更重要的是，你完全忽略了**情绪过热**这一关键风险。当“黑马”叙事被过度消费，市场预期达到顶峰时，任何不符合叙事的开局（例如Map 1早期失利）都可能导致情绪和表现的螺旋式下滑。你的65%估计未能为这种情绪回调留出足够空间。\n\nRe: 质疑分析师: 你正确地指出了PARIVISION缺乏稳定顶级枪男和决赛惨败的风险，这是重要的冷水。然而，你过度放大了这些负面因素在当前情绪周期中的权重。市场情绪往往具有**惯性**和**滞后性**。尽管决赛失利（文档5、7），但“##begin_quote## beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]”这一更宏大、更近期的叙事，其情绪影响力远大于一次决赛的具体比分。公众和媒体记忆更倾向于记住“他们做到了”而非“他们最后输了”。你45%的预测可能低估了叙事动量在赛前主导市场的能力。\n\nRe: 贝叶斯分析师: 你的框架是理性的，但情绪市场并非总是贝叶斯式的。你将“团队协作”和“近期势头”作为强证据更新先验概率，这符合情绪分析逻辑。然而，你忽略了**信息环境的质量**。所有相关文档都只关于PARIVISION，NIP是“未知的X”。在情绪市场中，这种信息不对称往往会导致资金向“有故事的一方”（PARIVISION）集中，从而推高其隐含概率，可能超过其真实实力对比。你的55%是一个理性的折中，但当前市场情绪可能已经定价了更高的可能性。\n\nRe: 历史类比师: 你从“黑马”到“稳定强队”的进化模式类比非常精彩，这正是驱动市场看涨情绪的核心历史脚本。然而，你忽略了历史类比中的**失败案例**：更多“黑马”在达到某个高度后因被研究透彻而迅速陨落。文档5中“##begin_quote## a team that many thought ah that was just a fluke ##end_quote##”的评论本身就包含了这种怀疑论调，这是市场中始终存在的反向情绪。你的58%认可了势头，但未充分定价“叙事被证伪”的即时风险，这种风险在单张地图的遭遇战中被放大。\n\nRe: 数据统计师: 你指出“缺乏H2H数据”和“Jame近期数据不佳”是关键风险，这是扎实的统计视角。但从情绪面看，**社区和媒体会如何解读这些数据**？Jame的数据低迷可能被叙事为“团队胜利不需要他carry”，而非弱点。而缺乏H2H数据反而为乐观叙事提供了空白画布，让市场可以自由想象PARIVISION的战术能克制NIP。你引用的“##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]”在情绪分析师看来，不是一个弱点数据，而是一个“团队至上”的美德故事点。\n\nRe: 逆向投资者: 你的核心论点——“市场共识高估PARIVISION”——是情绪分析中需要重点审视的。然而，你假设“NIP的底蕴和纸面实力可能被市场低估”。在缺乏任何关于NIP近期积极表现的文档支持下，这个“底蕴”叙事在当前信息环境中是苍白无力的。市场情绪需要燃料，而所有燃料（文档3、4、5）都加给了PARIVISION。逆向投资需要看到情绪转折的早期信号，但目前文档中只有对PARIVISION的惊叹，没有对NIP的重新发现。你的45%可能过早逆向。\n\nRe: 基本面分析师: 你提到了“结构性资源”这一关键点，NIP的俱乐部底蕴确实是长期基本盘。但Map 1是**情绪的闪电战**，不是资源消耗战。短期情绪动量可以完全压倒长期结构性优势。文档4描述的“##begin_quote## So methodical... they scare you so much out of going for kind of early aggression ##end_quote##”正是PARIVISION在Map 1建立心理威慑和情绪优势的剧本。你的55%过于均衡，低估了情绪在短局中的统治力。\n\nRe: 风险评估师: 你正确地识别了“缺乏直接证据”是最大风险，并将概率定为保守的40%。这是纯粹的风险规避视角。但情绪市场在事件发生前，交易的是**预期和故事**，而非确凿证据。PARIVISION拥有最动听、最连贯的故事，这本身就是降低其感知风险、提高其情绪溢价的资产。你评估的“发生概率：中低”与当前媒体和社区热议的程度严重不符，这表明你低估了叙事本身对市场概率的扭曲力。\n\nRe: 综合策略师: 你指出的“共振点”（体系强度 vs 地图特异性）和“盲点”（NIP状态）非常精准。这恰恰是情绪博弈的焦点：市场会赌PARIVISION的“体系强度”能覆盖地图不确定性，并默认NIP状态不足以构成威胁。你的55%是对不确定性的理性折扣，但情绪市场在乐观周期中往往会**低估折扣率**。",
+        "reasoning": "辩论后，我承认质疑分析师和风险评估师指出的“缺乏直接对阵数据”和“状态波动性”是实质风险，这要求我调低过于乐观的情绪溢价。然而，所有反对论点都未能提供削弱PARIVISION核心叙事动量的证据。市场情绪仍由“##begin_quote## they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]”这一强大故事主导。我的修正在于，在坚持情绪偏向PARIVISION的同时，为Map1的偶然性和叙事单薄性（只有一方故事）纳入更高风险溢价。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析正确地抓住了PARIVISION的积极叙事，但过于依赖单一文档（文档3）的正面评价，忽略了其他文档中揭示的潜在风险。你提到“PARIVISION近期展现了强大的比赛掌控能力”，但文档7（尽管是LoL，但标题和部分内容误植了CS2信息）和文档5都暗示了其状态可能波动。更重要的是，你完全忽略了**情绪过热**这一关键风险。当“黑马”叙事被过度消费，市场预期达到顶峰时，任何不符合叙事的开局（例如Map 1早期失利）都可能导致情绪和表现的螺旋式下滑。你的65%估计未能为这种情绪回调留出足够空间。\n\nRe: 质疑分析师: 你正确地指出了PARIVISION缺乏稳定顶级枪男和决赛惨败的风险，这是重要的冷水。然而，你过度放大了这些负面因素在当前情绪周期中的权重。市场情绪往往具有**惯性**和**滞后性**。尽管决赛失利（文档5、7），但“##begin_quote## beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]”这一更宏大、更近期的叙事，其情绪影响力远大于一次决赛的具体比分。公众和媒体记忆更倾向于记住“他们做到了”而非“他们最后输了”。你45%的预测可能低估了叙事动量在赛前主导市场的能力。\n\nRe: 贝叶斯分析师: 你的框架是理性的，但情绪市场并非总是贝叶斯式的。你将“团队协作”和“近期势头”作为强证据更新先验概率，这符合情绪分析逻辑。然而，你忽略了**信息环境的质量**。所有相关文档都只关于PARIVISION，NIP是“未知的X”。在情绪市场中，这种信息不对称往往会导致资金向“有故事的一方”（PARIVISION）集中，从而推高其隐含概率，可能超过其真实实力对比。你的55%是一个理性的折中，但当前市场情绪可能已经定价了更高的可能性。\n\nRe: 历史类比师: 你从“黑马”到“稳定强队”的进化模式类比非常精彩，这正是驱动市场看涨情绪的核心历史脚本。然而，你忽略了历史类比中的**失败案例**：更多“黑马”在达到某个高度后因被研究透彻而迅速陨落。文档5中“##begin_quote## a team that many thought ah that was just a fluke ##end_quote##”的评论本身就包含了这种怀疑论调，这是市场中始终存在的反向情绪。你的58%认可了势头，但未充分定价“叙事被证伪”的即时风险，这种风险在单张地图的遭遇战中被放大。\n\nRe: 数据统计师: 你指出“缺乏H2H数据”和“Jame近期数据不佳”是关键风险，这是扎实的统计视角。但从情绪面看，**社区和媒体会如何解读这些数据**？Jame的数据低迷可能被叙事为“团队胜利不需要他carry”，而非弱点。而缺乏H2H数据反而为乐观叙事提供了空白画布，让市场可以自由想象PARIVISION的战术能克制NIP。你引用的“##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]”在情绪分析师看来，不是一个弱点数据，而是一个“团队至上”的美德故事点。\n\nRe: 逆向投资者: 你的核心论点——“市场共识高估PARIVISION”——是情绪分析中需要重点审视的。然而，你假设“NIP的底蕴和纸面实力可能被市场低估”。在缺乏任何关于NIP近期积极表现的文档支持下，这个“底蕴”叙事在当前信息环境中是苍白无力的。市场情绪需要燃料，而所有燃料（文档3、4、5）都加给了PARIVISION。逆向投资需要看到情绪转折的早期信号，但目前文档中只有对PARIVISION的惊叹，没有对NIP的重新发现。你的45%可能过早逆向。\n\nRe: 基本面分析师: 你提到了“结构性资源”这一关键点，NIP的俱乐部底蕴确实是长期基本盘。但Map 1是**情绪的闪电战**，不是资源消耗战。短期情绪动量可以完全压倒长期结构性优势。文档4描述的“##begin_quote## So methodical... they scare you so much out of going for kind of early aggression ##end_quote##”正是PARIVISION在Map 1建立心理威慑和情绪优势的剧本。你的55%过于均衡，低估了情绪在短局中的统治力。\n\nRe: 风险评估师: 你正确地识别了“缺乏直接证据”是最大风险，并将概率定为保守的40%。这是纯粹的风险规避视角。但情绪市场在事件发生前，交易的是**预期和故事**，而非确凿证据。PARIVISION拥有最动听、最连贯的故事，这本身就是降低其感知风险、提高其情绪溢价的资产。你评估的“发生概率：中低”与当前媒体和社区热议的程度严重不符，这表明你低估了叙事本身对市场概率的扭曲力。\n\nRe: 综合策略师: 你指出的“共振点”（体系强度 vs 地图特异性）和“盲点”（NIP状态）非常精准。这恰恰是情绪博弈的焦点：市场会赌PARIVISION的“体系强度”能覆盖地图不确定性，并默认NIP状态不足以构成威胁。你的55%是对不确定性的理性折扣，但情绪市场在乐观周期中往往会**低估折扣率**。\n\nREVISED REASONING: 辩论后，我承认质疑分析师和风险评估师指出的“缺乏直接对阵数据”和“状态波动性”是实质风险，这要求我调低过于乐观的情绪溢价。然而，所有反对论点都未能提供削弱PARIVISION核心叙事动量的证据。市场情绪仍由“##begin_quote## they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]”这一强大故事主导。我的修正在于，在坚持情绪偏向PARIVISION的同时，为Map1的偶然性和叙事单薄性（只有一方故事）纳入更高风险溢价。\n\nREVISED PREDICTION: 58.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "a team that many thought ah that was just a fluke ##end_quote##”的评论本身就包含了这种怀疑论调，这是市场中始终存在的反向情绪。你的58%认可了势头，但未充分定价“叙事被证伪”的即时风险，这种风险在单张地图的遭遇战中被放大。\n\nRe: 数据统计师: 你指出“缺乏H2H数据”和“Jame近期数据不佳”是关键风险，这是扎实的统计视角。但从情绪面看，**社区和媒体会如何解读这些数据**？Jame的数据低迷可能被叙事为“团队胜利不需要他carry”，而非弱点。而缺乏H2H数据反而为乐观叙事提供了空白画布，让市场可以自由想象PARIVISION的战术能克制NIP。你引用的“##begin_quote## they don't have a single player within the top 20",
+              "doc_index": 5
+            },
+            {
+              "quote": "So methodical... they scare you so much out of going for kind of early aggression ##end_quote##”正是PARIVISION在Map 1建立心理威慑和情绪优势的剧本。你的55%过于均衡，低估了情绪在短局中的统治力。\n\nRe: 风险评估师: 你正确地识别了“缺乏直接证据”是最大风险，并将概率定为保守的40%。这是纯粹的风险规避视角。但情绪市场在事件发生前，交易的是**预期和故事**，而非确凿证据。PARIVISION拥有最动听、最连贯的故事，这本身就是降低其感知风险、提高其情绪溢价的资产。你评估的“发生概率：中低”与当前媒体和社区热议的程度严重不符，这表明你低估了叙事本身对市场概率的扭曲力。\n\nRe: 综合策略师: 你指出的“共振点”（体系强度 vs 地图特异性）和“盲点”（NIP状态）非常精准。这恰恰是情绪博弈的焦点：市场会赌PARIVISION的“体系强度”能覆盖地图不确定性，并默认NIP状态不足以构成威胁。你的55%是对不确定性的理性折扣，但情绪市场在乐观周期中往往会**低估折扣率**。\n\nREVISED REASONING: 辩论后，我承认质疑分析师和风险评估师指出的“缺乏直接对阵数据”和“状态波动性”是实质风险，这要求我调低过于乐观的情绪溢价。然而，所有反对论点都未能提供削弱PARIVISION核心叙事动量的证据。市场情绪仍由“##begin_quote## they beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "逆向投资者",
+        "stance": "bear",
+        "probability": 42.0,
+        "rebuttals": "Re: 乐观分析师: 你的推理存在严重的“近因偏差”和“叙事驱动”问题。你只引用了文档3中关于PARIVISION获胜的积极评论，却完全忽略了文档5和文档7中揭示的关键负面信息：他们在PGL Cluj决赛中被Vitality以0-3横扫，尤其在Dust2上仅得4分。##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]。这种崩盘不是偶然，它暴露了当战术被顶级强队拆解后，缺乏个人能力托底的致命缺陷。你提到的“团队韧性”在惨败面前显得苍白。将击败“Falcons & Spirit”的表现线性外推到对阵NIP，忽视了对手风格和准备程度的差异，是典型的过度推断。\n\nRe: 质疑分析师: 我基本赞同你的核心质疑，即市场可能高估了“黑马”势头的可持续性。你正确地指出了“缺乏顶级枪男”和“决赛惨败”这两个关键风险。然而，你对“信息劣势”的担忧可能过度了。逆向思维不仅要看到风险，也要识别市场可能过度悲观的点。虽然文档缺乏NIP的直接信息，但这本身可能意味着NIP近期并无值得夸耀的强势表现，市场对老牌豪门的“底蕴信仰”可能正是一个需要被质疑的锚定偏差。你的45%预测与我初始观点接近，但你的分析更侧重于风险列举，而逆向投资需要更积极地寻找反向信号。\n\nRe: 贝叶斯分析师: 你的先验设定为50%是合理的，但证据权重分配有误。你将PARIVISION“击败顶级队伍”视为强证据，却将其“决赛惨败”和“无明星选手”仅视为中等风险，这不对称。一场0-3的决赛溃败，尤其是单图4-13，是极强的负面证据，表明其体系存在能被击穿的上限。##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5] 这不是一个可以轻易打折的“结构性弱点”，而是在最高水平一对一较量中的直接劣势。你的更新过程低估了这些负面证据的强度，导致后验概率（55%）仍偏向乐观。\n\nRe: 历史类比师: 你类比“新兴力量通过系统优势取得惯性”的模式存在选择性偏差。电竞历史中，“黑马”势头被老牌强队依靠经验和深度针对性击碎的例子比比皆是。你引用的“团队协作”模式，其反面正是“缺乏变招和X因素”。当NIP这样的队伍认真研究时，PARIVISION“##begin_quote## everything's so intentional ##end_quote## [文档 4]”的套路反而可能成为可预测的弱点。历史也告诉我们，依赖“势能”的队伍在遭遇第一场重大挫折（如决赛0-3）后，往往需要时间调整，而不是立即反弹。\n\nRe: 数据统计师: 你的分析提到了关键数据：Jame近期Rating仅0.79。##begin_quote## [Jame](https://www.hltv.org/player/13776/jame) | 44-47 | 59.0 | -3.13% | 0.79 | ##end_quote## [文档 7]。作为团队核心和指挥，如此低迷的数据是巨大的红色警报。然而，你随后仍给出了58%的乐观预测，这之间存在矛盾。真正的数据驱动分析应该更重视这个负面异常值。此外，“击败两支前五队伍”的样本量（n=2）太小，统计显著性不足，无法抵消核心选手状态下滑和决赛崩盘这些更近期、更具体的数据点。\n\nRe: 情绪分析师: 你准确地捕捉到了市场情绪偏向PARIVISION的“黑马叙事”，这是对的。但作为逆向投资者，我的任务正是对抗这种情绪共识。你指出“情绪市场存在周期性”，却认为当前周期仍在PARIVISION一方。我认为信号可能正在转变。决赛0-3的惨败（文档7）是第一个强烈的情绪冷却剂。当“以下克上”的故事以被碾压的方式结束时，接下来的叙事很容易转向“黑马现原形”或“体系被破解”。市场情绪从极度乐观到怀疑的转折点，往往是逆向布局的机会。\n\nRe: 基本面分析师: 你提到了“NIP的未知性与潜在实力”，并认为这是分析缺口。在逆向框架下，这恰恰可能是机会所在。当所有讨论焦点都集中在PARIVISION的“基本面”（团队协作）上时，NIP作为沉默的一方，其“结构性优势”（俱乐部支持、数据分析、大赛经验）可能被市场定价不足。你承认PARIVISION“缺乏超级明星的短板在胶着时刻可能显现”，这正是Map 1这种遭遇战的关键。你的55%预测仍略显乐观，未能充分体现此短板在单图决胜中的放大效应。\n\nRe: 风险评估师: 我同意你将“缺乏直接证据”视为最大风险，以及“黑马状态的脆弱性”的观点。你的40%预测是全场最保守的，体现了强烈的风险规避。然而，从纯粹逆向角度看，当所有人都聚焦于风险（如你所做）时，或许需要思考是否所有风险都已充分反映在价格中。你的评估可能过于强调已知的PARIVISION风险，而将NIP的“传统强队”标签视为无风险资产，这本身可能是一种偏差。但总体而言，你的风险视角与我的逆向怀疑论最为契合。\n\nRe: 综合策略师: 你识别出的“共振点”（体系强度 vs 地图特异性）和“盲点”（NIP状态）很准确。但你给出的55%概率解决方案试图在两者间取中庸之道。逆向思维要求我们在这种矛盾中做出倾向性选择。我认为“地图特异性”和“决赛溃败后状态存疑”的权重，应高于其“体系强度”在Map 1中的迁移能力。特别是，如果Map 1不是Dust2，他们的体系效果是个大问号。你的分析框架很好，但结论不够“逆向”。",
+        "reasoning": "经过辩论，我更坚定地认为市场共识过度沉浸在PARIVISION的“黑马叙事”中，而低估了其体系刚被顶级强队（Vitality）彻底击穿##begin_quote## Dust2: 4-13 ##end_quote## [文档 7] 所带来的心理和战术阴影，以及核心选手Jame状态低迷##begin_quote## 0.79 Rating ##end_quote## [文档 7] 的现实风险。NIP作为老牌组织，在对手处于潜在回调期时，其经验和准备能力可能被低估。Map 1的偶然性更有利于底蕴和硬实力。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的推理存在严重的“近因偏差”和“叙事驱动”问题。你只引用了文档3中关于PARIVISION获胜的积极评论，却完全忽略了文档5和文档7中揭示的关键负面信息：他们在PGL Cluj决赛中被Vitality以0-3横扫，尤其在Dust2上仅得4分。##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]。这种崩盘不是偶然，它暴露了当战术被顶级强队拆解后，缺乏个人能力托底的致命缺陷。你提到的“团队韧性”在惨败面前显得苍白。将击败“Falcons & Spirit”的表现线性外推到对阵NIP，忽视了对手风格和准备程度的差异，是典型的过度推断。\n\nRe: 质疑分析师: 我基本赞同你的核心质疑，即市场可能高估了“黑马”势头的可持续性。你正确地指出了“缺乏顶级枪男”和“决赛惨败”这两个关键风险。然而，你对“信息劣势”的担忧可能过度了。逆向思维不仅要看到风险，也要识别市场可能过度悲观的点。虽然文档缺乏NIP的直接信息，但这本身可能意味着NIP近期并无值得夸耀的强势表现，市场对老牌豪门的“底蕴信仰”可能正是一个需要被质疑的锚定偏差。你的45%预测与我初始观点接近，但你的分析更侧重于风险列举，而逆向投资需要更积极地寻找反向信号。\n\nRe: 贝叶斯分析师: 你的先验设定为50%是合理的，但证据权重分配有误。你将PARIVISION“击败顶级队伍”视为强证据，却将其“决赛惨败”和“无明星选手”仅视为中等风险，这不对称。一场0-3的决赛溃败，尤其是单图4-13，是极强的负面证据，表明其体系存在能被击穿的上限。##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5] 这不是一个可以轻易打折的“结构性弱点”，而是在最高水平一对一较量中的直接劣势。你的更新过程低估了这些负面证据的强度，导致后验概率（55%）仍偏向乐观。\n\nRe: 历史类比师: 你类比“新兴力量通过系统优势取得惯性”的模式存在选择性偏差。电竞历史中，“黑马”势头被老牌强队依靠经验和深度针对性击碎的例子比比皆是。你引用的“团队协作”模式，其反面正是“缺乏变招和X因素”。当NIP这样的队伍认真研究时，PARIVISION“##begin_quote## everything's so intentional ##end_quote## [文档 4]”的套路反而可能成为可预测的弱点。历史也告诉我们，依赖“势能”的队伍在遭遇第一场重大挫折（如决赛0-3）后，往往需要时间调整，而不是立即反弹。\n\nRe: 数据统计师: 你的分析提到了关键数据：Jame近期Rating仅0.79。##begin_quote## [Jame](https://www.hltv.org/player/13776/jame) | 44-47 | 59.0 | -3.13% | 0.79 | ##end_quote## [文档 7]。作为团队核心和指挥，如此低迷的数据是巨大的红色警报。然而，你随后仍给出了58%的乐观预测，这之间存在矛盾。真正的数据驱动分析应该更重视这个负面异常值。此外，“击败两支前五队伍”的样本量（n=2）太小，统计显著性不足，无法抵消核心选手状态下滑和决赛崩盘这些更近期、更具体的数据点。\n\nRe: 情绪分析师: 你准确地捕捉到了市场情绪偏向PARIVISION的“黑马叙事”，这是对的。但作为逆向投资者，我的任务正是对抗这种情绪共识。你指出“情绪市场存在周期性”，却认为当前周期仍在PARIVISION一方。我认为信号可能正在转变。决赛0-3的惨败（文档7）是第一个强烈的情绪冷却剂。当“以下克上”的故事以被碾压的方式结束时，接下来的叙事很容易转向“黑马现原形”或“体系被破解”。市场情绪从极度乐观到怀疑的转折点，往往是逆向布局的机会。\n\nRe: 基本面分析师: 你提到了“NIP的未知性与潜在实力”，并认为这是分析缺口。在逆向框架下，这恰恰可能是机会所在。当所有讨论焦点都集中在PARIVISION的“基本面”（团队协作）上时，NIP作为沉默的一方，其“结构性优势”（俱乐部支持、数据分析、大赛经验）可能被市场定价不足。你承认PARIVISION“缺乏超级明星的短板在胶着时刻可能显现”，这正是Map 1这种遭遇战的关键。你的55%预测仍略显乐观，未能充分体现此短板在单图决胜中的放大效应。\n\nRe: 风险评估师: 我同意你将“缺乏直接证据”视为最大风险，以及“黑马状态的脆弱性”的观点。你的40%预测是全场最保守的，体现了强烈的风险规避。然而，从纯粹逆向角度看，当所有人都聚焦于风险（如你所做）时，或许需要思考是否所有风险都已充分反映在价格中。你的评估可能过于强调已知的PARIVISION风险，而将NIP的“传统强队”标签视为无风险资产，这本身可能是一种偏差。但总体而言，你的风险视角与我的逆向怀疑论最为契合。\n\nRe: 综合策略师: 你识别出的“共振点”（体系强度 vs 地图特异性）和“盲点”（NIP状态）很准确。但你给出的55%概率解决方案试图在两者间取中庸之道。逆向思维要求我们在这种矛盾中做出倾向性选择。我认为“地图特异性”和“决赛溃败后状态存疑”的权重，应高于其“体系强度”在Map 1中的迁移能力。特别是，如果Map 1不是Dust2，他们的体系效果是个大问号。你的分析框架很好，但结论不够“逆向”。\n\nREVISED REASONING: 经过辩论，我更坚定地认为市场共识过度沉浸在PARIVISION的“黑马叙事”中，而低估了其体系刚被顶级强队（Vitality）彻底击穿##begin_quote## Dust2: 4-13 ##end_quote## [文档 7] 所带来的心理和战术阴影，以及核心选手Jame状态低迷##begin_quote## 0.79 Rating ##end_quote## [文档 7] 的现实风险。NIP作为老牌组织，在对手处于潜在回调期时，其经验和准备能力可能被低估。Map 1的偶然性更有利于底蕴和硬实力。\n\nREVISED PREDICTION: 42.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Dust2: 4-13",
+              "doc_index": 7
+            },
+            {
+              "quote": "they don't have a single player within the top 20",
+              "doc_index": 5
+            },
+            {
+              "quote": "everything's so intentional",
+              "doc_index": 4
+            },
+            {
+              "quote": "[Jame](https://www.hltv.org/player/13776/jame) | 44-47 | 59.0 | -3.13% | 0.79 |",
+              "doc_index": 7
+            },
+            {
+              "quote": "Dust2: 4-13",
+              "doc_index": 7
+            },
+            {
+              "quote": "0.79 Rating",
+              "doc_index": 7
+            }
+          ],
+          "cited_doc_indices": [
+            4,
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "基本面分析师",
+        "stance": "neutral",
+        "probability": 53.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析过度依赖单一叙事，且对文档3的引用存在误读。你引用的“I predicted that Parision would win, and they did win. I didn't expect them to win 3-0” ##begin_quote## [文档 3] 是主播对过往比赛（推测是BLAST Bounty）的回顾，并非对当前PARIVISION vs NIP的预测。你将其作为核心论据，夸大了PARIVISION的“压倒性”优势。更重要的是，你完全忽略了PARIVISION缺乏顶级明星选手这一结构性弱点（##begin_quote## they don’t have a single player within the top 20 ##end_quote## [文档 5]），这在Map 1的关键分争夺中是实质性风险。你的65%概率过于乐观，高估了短期势头，低估了对手的底蕴和自身的天花板限制。\n\nRe: 质疑分析师: 你的分析框架更严谨，指出了信息缺口和结构性风险，这是正确的。然而，你过分放大了“决赛惨败”的影响，并错误引用了文档7（英雄联盟数据）来佐证PARIVISION的CS2表现，这严重削弱了论据的可信度。你提到的“Dust2 4-13”崩盘并非来自PARIVISION的CS2比赛记录。正确的风险点在于：PARIVISION的成功模式（无明星团队协作）在遭遇准备充分、拥有顶级枪男的对手时，其上限确实存疑。但你的结论（45%）可能过度惩罚了PARIVISION已证实的团队实力。他们击败顶级队伍（##begin_quote## beat two top five ranked teams in the world ##end_quote## [文档 5]）是硬事实，不应被完全对冲掉。\n\nRe: 贝叶斯分析师: 你的分析框架合理，先验设定和证据权重分配大体得当。我认同你将PARIVISION近期击败顶级队伍的成绩视为“强证据”。但你在更新后验概率时，可能对“缺乏对阵NIP的直接信息”这一不确定性因素的权重给得不足。基本面分析强调，在缺乏对手负面信息时，应默认其拥有作为传统强队的“结构性优势”（如更成熟的训练体系、数据分析支持、大赛经验）。这应作为一个中等强度的负面证据，限制概率上修的空间。你的55%是一个合理的折中，但偏向于对正面证据的线性外推。\n\nRe: 历史类比师: 你的历史模式类比（“新兴力量”的系统优势）具有启发性，但忽略了电竞领域“黑马”生命周期短、易被研究的特性。你正确指出了PARIVISION的团队协作是系统优势，但将其类比为军事或商业史上“新兴力量”的惯性可能不准确。电竞战术迭代极快，依赖团队协同的“无明星”模式一旦被对手通过录像分析找到突破口（例如针对其默认架点或道具习惯），其优势可能迅速衰减。你引用的“交易补枪”能力（##begin_quote## Trade work has always been fantastic for Power Vision ##end_quote## [文档 4]）是战术执行力的体现，但这属于可被研究和针对的“战术层”优势，而非更深层的“资源层”或“天赋层”优势。58%的估计略高。\n\nRe: 数据统计师: 你的量化倾向值得肯定，但存在关键的数据误用。你引用文档7（英雄联盟比赛的选手Rating数据）来论证PARIVISION选手Jame的状态，这是严重的领域错误，导致核心论据失效。正确的数据应来自CS2相关文档。文档5明确指出他们没有选手进入赛事前20，这是更相关的基本面数据。此外，你提到的“击败顶级队伍样本量（n=2）有限”是正确的，这提醒我们不应过度外推。然而，在缺乏NIP反证数据的情况下，这有限的正面样本仍是当前最有价值的参考。你的最终概率（58%）可能因数据污染而失真。\n\nRe: 情绪分析师: 你准确地捕捉到了市场可能存在的“黑马叙事”驱动型乐观情绪，这是有价值的视角。然而，作为基本面分析师，我认为你的分析将“情绪动量”本身视为驱动结果的核心因素，这偏离了基本面分析关注长期实力和资源对比的宗旨。情绪是放大器，不是基本盘。你正确地指出“所有支持论据都基于其‘过去’的表现所创造的‘故事’”，这正是风险所在。PARIVISION的基本面优势（团队协作）是真实的，但将其转化为Map 1的胜利，还需要面对一个未知但资源可能更优的对手NIP。62%的预测过度贴现了情绪面，低估了基本面中的不确定性。\n\nRe: 逆向投资者: 你的核心逻辑——市场可能高估PARIVISION的近期叙事——是合理的逆向思维。你正确地指出PARIVISION“缺乏持续性顶级表现的证明”和“依赖特定地图池”是风险点。然而，你的分析同样面临信息不对称问题。你假设“NIP的纸面实力和稳定性”更优，但文档中并未提供任何支持NIP当前状态强劲的证据。逆向投资需要找到市场共识的错误定价点，而当前共识（如果存在）是基于PARIVISION的实打实的战绩。在缺乏NIP正面证据的情况下，单纯因“他们是老牌豪门”而给予其概率优势，是一种基于品牌而非近期基本面的预设。45%的估计可能过度逆向。\n\nRe: 风险评估师: 你从风险矩阵角度出发，强调“缺乏直接证据”是最大风险，这是非常严谨的。你将PARIVISION获胜归类为“低概率、高影响”事件，并因此给出40%的保守评估。然而，这个框架可能过于僵化。PARIVISION击败顶级队伍（文档5）已不是一次孤立的“低概率”事件，而是形成了可重复的模式。这表明其获胜概率不应被划入“中低”范畴。你的评估过度惩罚了已观察到的成功，而将过多权重赋予了“NIP作为传统强队”这一未经近期数据验证的默认假设。在信息不全时，更合理的做法是给予已观察到的强信号（PARIVISION的团队体系）适度权重，而非过度偏向于未经证实的结构性假设。\n\nRe: 综合策略师: 你的元分析视角和“共振点 vs 盲点”的框架非常出色，准确地抓住了“体系强度 vs 地图特异性”以及“NIP信息缺失”这两个核心。我完全同意“图一的具体地图选择将成为决定性变量之一”。你的分析平衡了正面证据（体系、势头）和不确定性（地图依赖、对手未知），得出的55%概率是审慎的。这是我们分析中共同的基础。",
+        "reasoning": "经过辩论，我维持核心判断：PARIVISION已通过击败顶级队伍（##begin_quote## beat two top five ranked teams in the world ##end_quote## [文档 5]）证明了其团队体系的强大，这是Map 1的重要基本盘。然而，辩论强化了我对两个关键风险的认识：1) 其“无明星选手”模式（##begin_quote## they don’t have a single player within the top 20 ##end_quote## [文档 5]）在僵局中的上限问题；2) 对手NIP作为传统强队的“结构性优势”在信息缺失下不能被低估。这限制了概率的上行空间。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析过度依赖单一叙事，且对文档3的引用存在误读。你引用的“I predicted that Parision would win, and they did win. I didn't expect them to win 3-0” ##begin_quote## [文档 3] 是主播对过往比赛（推测是BLAST Bounty）的回顾，并非对当前PARIVISION vs NIP的预测。你将其作为核心论据，夸大了PARIVISION的“压倒性”优势。更重要的是，你完全忽略了PARIVISION缺乏顶级明星选手这一结构性弱点（##begin_quote## they don’t have a single player within the top 20 ##end_quote## [文档 5]），这在Map 1的关键分争夺中是实质性风险。你的65%概率过于乐观，高估了短期势头，低估了对手的底蕴和自身的天花板限制。\n\nRe: 质疑分析师: 你的分析框架更严谨，指出了信息缺口和结构性风险，这是正确的。然而，你过分放大了“决赛惨败”的影响，并错误引用了文档7（英雄联盟数据）来佐证PARIVISION的CS2表现，这严重削弱了论据的可信度。你提到的“Dust2 4-13”崩盘并非来自PARIVISION的CS2比赛记录。正确的风险点在于：PARIVISION的成功模式（无明星团队协作）在遭遇准备充分、拥有顶级枪男的对手时，其上限确实存疑。但你的结论（45%）可能过度惩罚了PARIVISION已证实的团队实力。他们击败顶级队伍（##begin_quote## beat two top five ranked teams in the world ##end_quote## [文档 5]）是硬事实，不应被完全对冲掉。\n\nRe: 贝叶斯分析师: 你的分析框架合理，先验设定和证据权重分配大体得当。我认同你将PARIVISION近期击败顶级队伍的成绩视为“强证据”。但你在更新后验概率时，可能对“缺乏对阵NIP的直接信息”这一不确定性因素的权重给得不足。基本面分析强调，在缺乏对手负面信息时，应默认其拥有作为传统强队的“结构性优势”（如更成熟的训练体系、数据分析支持、大赛经验）。这应作为一个中等强度的负面证据，限制概率上修的空间。你的55%是一个合理的折中，但偏向于对正面证据的线性外推。\n\nRe: 历史类比师: 你的历史模式类比（“新兴力量”的系统优势）具有启发性，但忽略了电竞领域“黑马”生命周期短、易被研究的特性。你正确指出了PARIVISION的团队协作是系统优势，但将其类比为军事或商业史上“新兴力量”的惯性可能不准确。电竞战术迭代极快，依赖团队协同的“无明星”模式一旦被对手通过录像分析找到突破口（例如针对其默认架点或道具习惯），其优势可能迅速衰减。你引用的“交易补枪”能力（##begin_quote## Trade work has always been fantastic for Power Vision ##end_quote## [文档 4]）是战术执行力的体现，但这属于可被研究和针对的“战术层”优势，而非更深层的“资源层”或“天赋层”优势。58%的估计略高。\n\nRe: 数据统计师: 你的量化倾向值得肯定，但存在关键的数据误用。你引用文档7（英雄联盟比赛的选手Rating数据）来论证PARIVISION选手Jame的状态，这是严重的领域错误，导致核心论据失效。正确的数据应来自CS2相关文档。文档5明确指出他们没有选手进入赛事前20，这是更相关的基本面数据。此外，你提到的“击败顶级队伍样本量（n=2）有限”是正确的，这提醒我们不应过度外推。然而，在缺乏NIP反证数据的情况下，这有限的正面样本仍是当前最有价值的参考。你的最终概率（58%）可能因数据污染而失真。\n\nRe: 情绪分析师: 你准确地捕捉到了市场可能存在的“黑马叙事”驱动型乐观情绪，这是有价值的视角。然而，作为基本面分析师，我认为你的分析将“情绪动量”本身视为驱动结果的核心因素，这偏离了基本面分析关注长期实力和资源对比的宗旨。情绪是放大器，不是基本盘。你正确地指出“所有支持论据都基于其‘过去’的表现所创造的‘故事’”，这正是风险所在。PARIVISION的基本面优势（团队协作）是真实的，但将其转化为Map 1的胜利，还需要面对一个未知但资源可能更优的对手NIP。62%的预测过度贴现了情绪面，低估了基本面中的不确定性。\n\nRe: 逆向投资者: 你的核心逻辑——市场可能高估PARIVISION的近期叙事——是合理的逆向思维。你正确地指出PARIVISION“缺乏持续性顶级表现的证明”和“依赖特定地图池”是风险点。然而，你的分析同样面临信息不对称问题。你假设“NIP的纸面实力和稳定性”更优，但文档中并未提供任何支持NIP当前状态强劲的证据。逆向投资需要找到市场共识的错误定价点，而当前共识（如果存在）是基于PARIVISION的实打实的战绩。在缺乏NIP正面证据的情况下，单纯因“他们是老牌豪门”而给予其概率优势，是一种基于品牌而非近期基本面的预设。45%的估计可能过度逆向。\n\nRe: 风险评估师: 你从风险矩阵角度出发，强调“缺乏直接证据”是最大风险，这是非常严谨的。你将PARIVISION获胜归类为“低概率、高影响”事件，并因此给出40%的保守评估。然而，这个框架可能过于僵化。PARIVISION击败顶级队伍（文档5）已不是一次孤立的“低概率”事件，而是形成了可重复的模式。这表明其获胜概率不应被划入“中低”范畴。你的评估过度惩罚了已观察到的成功，而将过多权重赋予了“NIP作为传统强队”这一未经近期数据验证的默认假设。在信息不全时，更合理的做法是给予已观察到的强信号（PARIVISION的团队体系）适度权重，而非过度偏向于未经证实的结构性假设。\n\nRe: 综合策略师: 你的元分析视角和“共振点 vs 盲点”的框架非常出色，准确地抓住了“体系强度 vs 地图特异性”以及“NIP信息缺失”这两个核心。我完全同意“图一的具体地图选择将成为决定性变量之一”。你的分析平衡了正面证据（体系、势头）和不确定性（地图依赖、对手未知），得出的55%概率是审慎的。这是我们分析中共同的基础。\n\nREVISED REASONING: 经过辩论，我维持核心判断：PARIVISION已通过击败顶级队伍（##begin_quote## beat two top five ranked teams in the world ##end_quote## [文档 5]）证明了其团队体系的强大，这是Map 1的重要基本盘。然而，辩论强化了我对两个关键风险的认识：1) 其“无明星选手”模式（##begin_quote## they don’t have a single player within the top 20 ##end_quote## [文档 5]）在僵局中的上限问题；2) 对手NIP作为传统强队的“结构性优势”在信息缺失下不能被低估。这限制了概率的上行空间。\n\nREVISED PREDICTION: 53.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "[文档 3] 是主播对过往比赛（推测是BLAST Bounty）的回顾，并非对当前PARIVISION vs NIP的预测。你将其作为核心论据，夸大了PARIVISION的“压倒性”优势。更重要的是，你完全忽略了PARIVISION缺乏顶级明星选手这一结构性弱点（##begin_quote## they don’t have a single player within the top 20",
+              "doc_index": 5
+            },
+            {
+              "quote": "beat two top five ranked teams in the world",
+              "doc_index": 5
+            },
+            {
+              "quote": "Trade work has always been fantastic for Power Vision",
+              "doc_index": 4
+            },
+            {
+              "quote": "beat two top five ranked teams in the world",
+              "doc_index": 5
+            },
+            {
+              "quote": "they don’t have a single player within the top 20",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "风险评估师",
+        "stance": "bear",
+        "probability": 38.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析严重依赖单一文档（文档3）的乐观叙事，并错误地排除了其他关键风险文档。你忽略了文档5和7中揭示的致命结构性缺陷：PARIVISION在决赛中彻底崩盘，且缺乏顶级枪男。##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]。将击败“top five teams”的案例线性外推至对阵NIP，是典型的忽略样本偏差和回归均值风险。你的65%概率严重高估了“势头”的持续性，低估了“黑马”光环褪去后的真空风险。\n\nRe: 质疑分析师: 我赞同你关注“缺乏直接信息”和“决赛惨败”的核心风险点。你正确地指出了个人能力上限（##begin_quote## they don‘t have a single player within the top 20 ##end_quote## [文档 5]）是系统性风险。然而，你给出的45%概率仍可能过于慷慨。在完全缺乏NIP负面信息的情况下，将概率设定在接近基准线，意味着你仍赋予了PARIVISION相当的“黑马”溢价。从纯粹的风险视角看，一个刚刚经历结构性暴露（决赛崩盘）且缺乏硬核个人能力的队伍，其Map 1获胜概率应更接近其“真实实力”的下限。\n\nRe: 贝叶斯分析师: 你的先验设定（50%）在信息严重不足的背景下是合理的。但你的证据权重分配有误。你将“击败顶级队伍”视为强证据，却低估了“决赛惨败”和“无明星选手”这两个同样是强证据的负面信号。##begin_quote## Dust2: 4-13 ##end_quote## [文档 7] 这不是普通的失利，而是体系被完全破解的信号。在贝叶斯更新中，这种高强度的负面证据应大幅降低后验概率。你从50%更新至55%的幅度，未能充分反映这种尾部风险。\n\nRe: 历史类比师: 你依赖的“黑马到强队”进化模式存在幸存者偏差。历史上有更多“昙花一现”的案例。你引用的团队协作优势（##begin_quote## work together as a unit ##end_quote## [文档 5]）在Map 1遭遇战时，可能不如对手个人能力的“硬破局”有效。你的类比忽略了关键变量：PARIVISION的体系已在最高舞台被Vitality完全解构，这为所有后续对手（包括NIP）提供了完美的战术蓝图。历史模式在此刻可能已经断裂。\n\nRe: 数据统计师: 你试图量化分析，但核心数据缺失（H2H）。你注意到Jame的低迷数据（Rating 0.79）是重要风险点，但在最终估计中权重不足。更关键的是，你引用的“击败顶级队伍”数据样本量极小（n=2），统计显著性存疑。而“决赛崩盘”是一个高权重的单一样本事件，其指示意义远大于零散的胜利。你的58%预测过度外推了小样本成功，对高影响负面事件的定价不足。\n\nRe: 情绪分析师: 你准确地捕捉了市场可能存在的“黑马叙事”动量，这正是我需要对抗的情绪偏差。你提到的“情绪过热风险”是关键。当市场共识过度集中于一种叙事时，其对立面（NIP的底蕴、经验、未被证伪的实力）就构成了未被充分定价的风险资产。你的62%预测本身可能就是情绪过热的体现，为逆向操作提供了空间。\n\nRe: 逆向投资者: 我们的立场最为接近。你正确地指出市场可能高估了PARIVISION，并强调了“缺乏持续性证明”和“个体能力上限”。我完全同意“依赖特定地图池”是重大风险，如果Map 1非其强图，其体系威力可能大减。然而，你的45%与我最初的40%差异，可能在于你对“团队魔法”仍保留了一丝信任。我认为在决赛惨败后，这种“魔法”的信用已大幅折损。\n\nRe: 基本面分析师: 你提到了“结构性优势”这一重要概念，但分析不够彻底。NIP的“结构性优势”（管理、分析团队、历史数据）在面对一个战术刚被破解的对手时，能更高效地制定Map 1的针对性策略。你指出PARIVISION缺乏明星选手是短板，这是基本面硬伤。在基本面分析中，当一方存在明确短板（无明星选手）而另一方短板未被证实时，应更倾向于短板不明显的一方。你的55%未能充分体现这一原则。\n\nRe: 综合策略师: 你识别出“地图特异性”和“NIP状态未知”两个关键点，这是严谨的。但你将概率定为55%，意味着你认为PARIVISION的已知优势（体系）略微超过了未知风险（NIP状态）。我的风险评估框架更倾向于为“未知”赋予更高的风险溢价。在信息不对称中，已知的负面信息（PARIVISION决赛崩盘）比未知的潜在正面信息（NIP可能状态差）具有更高的决策权重。你的分析低估了“已知负面”的确定性风险。",
+        "reasoning": "辩论强化了我的核心风险判断：PARIVISION在决赛中的崩盘（##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]）并非偶然，而是体系天花板和个人能力短板被暴露的明确信号。这极大地提高了其Map 1再次失效的概率。同时，所有分析师都未能提供任何NIP的负面信息，这使得假设NIP具备其传统强队的基本盘是更保守的风险评估。因此，PARIVISION的“黑马”风险溢价应进一步调低。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析严重依赖单一文档（文档3）的乐观叙事，并错误地排除了其他关键风险文档。你忽略了文档5和7中揭示的致命结构性缺陷：PARIVISION在决赛中彻底崩盘，且缺乏顶级枪男。##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]。将击败“top five teams”的案例线性外推至对阵NIP，是典型的忽略样本偏差和回归均值风险。你的65%概率严重高估了“势头”的持续性，低估了“黑马”光环褪去后的真空风险。\n\nRe: 质疑分析师: 我赞同你关注“缺乏直接信息”和“决赛惨败”的核心风险点。你正确地指出了个人能力上限（##begin_quote## they don‘t have a single player within the top 20 ##end_quote## [文档 5]）是系统性风险。然而，你给出的45%概率仍可能过于慷慨。在完全缺乏NIP负面信息的情况下，将概率设定在接近基准线，意味着你仍赋予了PARIVISION相当的“黑马”溢价。从纯粹的风险视角看，一个刚刚经历结构性暴露（决赛崩盘）且缺乏硬核个人能力的队伍，其Map 1获胜概率应更接近其“真实实力”的下限。\n\nRe: 贝叶斯分析师: 你的先验设定（50%）在信息严重不足的背景下是合理的。但你的证据权重分配有误。你将“击败顶级队伍”视为强证据，却低估了“决赛惨败”和“无明星选手”这两个同样是强证据的负面信号。##begin_quote## Dust2: 4-13 ##end_quote## [文档 7] 这不是普通的失利，而是体系被完全破解的信号。在贝叶斯更新中，这种高强度的负面证据应大幅降低后验概率。你从50%更新至55%的幅度，未能充分反映这种尾部风险。\n\nRe: 历史类比师: 你依赖的“黑马到强队”进化模式存在幸存者偏差。历史上有更多“昙花一现”的案例。你引用的团队协作优势（##begin_quote## work together as a unit ##end_quote## [文档 5]）在Map 1遭遇战时，可能不如对手个人能力的“硬破局”有效。你的类比忽略了关键变量：PARIVISION的体系已在最高舞台被Vitality完全解构，这为所有后续对手（包括NIP）提供了完美的战术蓝图。历史模式在此刻可能已经断裂。\n\nRe: 数据统计师: 你试图量化分析，但核心数据缺失（H2H）。你注意到Jame的低迷数据（Rating 0.79）是重要风险点，但在最终估计中权重不足。更关键的是，你引用的“击败顶级队伍”数据样本量极小（n=2），统计显著性存疑。而“决赛崩盘”是一个高权重的单一样本事件，其指示意义远大于零散的胜利。你的58%预测过度外推了小样本成功，对高影响负面事件的定价不足。\n\nRe: 情绪分析师: 你准确地捕捉了市场可能存在的“黑马叙事”动量，这正是我需要对抗的情绪偏差。你提到的“情绪过热风险”是关键。当市场共识过度集中于一种叙事时，其对立面（NIP的底蕴、经验、未被证伪的实力）就构成了未被充分定价的风险资产。你的62%预测本身可能就是情绪过热的体现，为逆向操作提供了空间。\n\nRe: 逆向投资者: 我们的立场最为接近。你正确地指出市场可能高估了PARIVISION，并强调了“缺乏持续性证明”和“个体能力上限”。我完全同意“依赖特定地图池”是重大风险，如果Map 1非其强图，其体系威力可能大减。然而，你的45%与我最初的40%差异，可能在于你对“团队魔法”仍保留了一丝信任。我认为在决赛惨败后，这种“魔法”的信用已大幅折损。\n\nRe: 基本面分析师: 你提到了“结构性优势”这一重要概念，但分析不够彻底。NIP的“结构性优势”（管理、分析团队、历史数据）在面对一个战术刚被破解的对手时，能更高效地制定Map 1的针对性策略。你指出PARIVISION缺乏明星选手是短板，这是基本面硬伤。在基本面分析中，当一方存在明确短板（无明星选手）而另一方短板未被证实时，应更倾向于短板不明显的一方。你的55%未能充分体现这一原则。\n\nRe: 综合策略师: 你识别出“地图特异性”和“NIP状态未知”两个关键点，这是严谨的。但你将概率定为55%，意味着你认为PARIVISION的已知优势（体系）略微超过了未知风险（NIP状态）。我的风险评估框架更倾向于为“未知”赋予更高的风险溢价。在信息不对称中，已知的负面信息（PARIVISION决赛崩盘）比未知的潜在正面信息（NIP可能状态差）具有更高的决策权重。你的分析低估了“已知负面”的确定性风险。\n\nREVISED REASONING: 辩论强化了我的核心风险判断：PARIVISION在决赛中的崩盘（##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]）并非偶然，而是体系天花板和个人能力短板被暴露的明确信号。这极大地提高了其Map 1再次失效的概率。同时，所有分析师都未能提供任何NIP的负面信息，这使得假设NIP具备其传统强队的基本盘是更保守的风险评估。因此，PARIVISION的“黑马”风险溢价应进一步调低。\n\nREVISED PREDICTION: 38.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "they don't have a single player within the top 20",
+              "doc_index": 5
+            },
+            {
+              "quote": "they don‘t have a single player within the top 20",
+              "doc_index": 5
+            },
+            {
+              "quote": "Dust2: 4-13",
+              "doc_index": 7
+            },
+            {
+              "quote": "work together as a unit",
+              "doc_index": 5
+            },
+            {
+              "quote": "Dust2: 4-13",
+              "doc_index": 7
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "综合策略师",
+        "stance": "neutral",
+        "probability": 52.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析过于依赖单一叙事，忽略了PARIVISION优势的潜在条件性。你引用的“##begin_quote## I predicted that Parision would win, and they did win. I didn't expect them to win 3-0 ##end_quote## [文档 3]”是播客主持人的个人预测，并非客观数据。更重要的是，你完全忽视了文档4中揭示的关键限制：PARIVISION的顶级表现与特定地图（Dust2）高度绑定，且可能受益于对手的特定弱点（##begin_quote## This is their best map in the pool, and it's one that Estralis haven't played in months, and when they last did, they were on a big loss streak ##end_quote## [文档 4]）。将这种有条件的成功泛化为对阵NIP的普适性优势是逻辑漏洞。你的65%概率高估了地图未知情况下的确定性。\n\nRe: 质疑分析师: 你正确地指出了信息不足和PARIVISION结构性弱点（缺乏明星选手），但过度放大了决赛失利的负面影响。你引用决赛数据证明其“脆弱性”，但对手是Vitality（文档5中暗示的顶级强队），这未必能线性外推到对阵NIP。同时，你低估了PARIVISION“团队协作”这一证据的强度。文档5明确指出，他们击败顶级队伍是依靠体系（##begin_quote## work together as a unit wear teams down ##end_quote##），这本身就是一种可持续的竞争力，而非纯粹的“黑马”运气。你的45%概率可能过度贴现了其已验证的体系化胜利能力。\n\nRe: 贝叶斯分析师: 你的框架严谨，先验设定合理。然而，在证据权重评估上可能存在偏差。你将“击败顶级队伍”视为强证据，这没错，但未充分考量该证据的“情境依赖性”（如地图、对手状态）。同时，你将“缺乏明星选手”和“风格可能被研究”列为中等强度证据，但文档5显示他们正是在没有明星选手的情况下取得了成功，这削弱了前者的负面权重。而“被研究”是面向未来的风险，在当前Map1的遭遇战中，其影响可能小于已发生的团队协作正面证据。你的55%是合理的折衷，但论证可更深入。\n\nRe: 历史类比师: 你的“势能”类比有洞察力，但历史模式也包含“新兴力量遭遇老牌豪门针对性阻击”的案例。你引用PARIVISION的“交易补枪”（##begin_quote## Trade work has always been fantastic for Power Vision ##end_quote## [文档 4]）作为稳定性证明，这很好。但你的分析盲点在于，将PARIVISION对阵Astralis等队的成功，直接类比为对阵NIP的成功，忽略了对手风格的差异性。NIP作为老牌队伍，其默认防守和调整速度可能不同于Astralis。58%的估计略高，未给NIP的潜在针对性布置留足空间。\n\nRe: 数据统计师: 你正确地识别了核心选手Jame状态不佳的数据（##begin_quote## [Jame]...0.79 ##end_quote## [文档 7]），这是一个被其他分析师普遍忽视的关键风险点。然而，你同样忽略了文档4中关于他们“方法性”和“战术纪律”的定性描述，这些是数据难以完全捕捉但影响巨大的因素。你的分析在“团队整体Rating均衡”和“核心选手低迷”之间取得了平衡，58%的估计与历史类比师一致，但理由更数据驱动，是稳健的分析。\n\nRe: 情绪分析师: 你精准地捕捉了市场叙事，但作为综合策略师，我必须警惕情绪分析的内生性风险。你描述的“强大动量”和“市场共识”本身可能就是需要逆向思考的信号。情绪分析师的角色是识别这种情绪，而我的角色是评估其合理性。文档5中“##begin_quote## a team that many thought ah that was just a fluke ##end_quote##”本身就包含了市场情绪的摇摆性，而非单向乐观。你的62%预测可能过度嵌入了当前的情绪动量，而未对其基础（如地图依赖性）进行足够严格的压力测试。\n\nRe: 逆向投资者: 你与质疑分析师结论相同，但路径不同。你强调“市场共识高估”，这是一个有效的元视角。然而，你的论据“NIP纸面实力更强”缺乏文档支持，这是一个基于品牌而非数据的假设。同时，你认为“Map1更考验硬实力和临场调整，对NIP有利”，这与PARIVISION展现的“战术纪律”（文档4）和“团队韧性”（文档5）所代表的另一种“硬实力”相冲突。你的分析正确指出了市场可能存在的乐观偏见，但将砝码完全移向NIP的理由同样不充分。45%是表达了看跌观点，但论证的对称性不足。\n\nRe: 基本面分析师: 你的分析框架平衡，指出了“结构性资源”这一关键点。你正确地识别了“文档中缺乏对NIP不利的证据”这一信息缺口，这是所有分析的基础限制。你的结论（55%）与我的初始判断一致，体现了在信息不对称下对PARIVISION已验证能力给予适度权重的谨慎态度。这是最接近我综合视角的分析。\n\nRe: 风险评估师: 你采取了最保守的立场，将“缺乏直接证据”视为最高风险。然而，风险管理不仅是识别风险，也包括评估风险发生的概率。你将PARIVISION的胜利定性为“低概率、高影响”事件，但文档3、4、5显示他们多次、系统性（而非偶然）地击败强队，这应当提高该事件的基础概率评估。你的40%估计可能过度惩罚了信息缺失，而低估了已有证据的强度。在风险矩阵中，PARIVISION的“发生概率”基于近期表现，应至少是“中等”。",
+        "reasoning": "辩论强化了我的核心观察：PARIVISION的“体系强度”（##begin_quote## work together as a unit ##end_quote## [文档 5]）是坚实的基本面，但存在“地图特异性”（##begin_quote## especially on Dust ##end_quote## [文档 4]）和“核心选手状态波动”（Jame 0.79 Rating [文档 7]）两大制约。所有分析都暴露了对NIP信息真空的无奈。因此，最终概率需在PARIVISION已验证的团队能力上，为地图不确定性和对手未知韧性打上折扣。信号仍略偏向PARIVISION，但优势微弱。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析过于依赖单一叙事，忽略了PARIVISION优势的潜在条件性。你引用的“##begin_quote## I predicted that Parision would win, and they did win. I didn't expect them to win 3-0 ##end_quote## [文档 3]”是播客主持人的个人预测，并非客观数据。更重要的是，你完全忽视了文档4中揭示的关键限制：PARIVISION的顶级表现与特定地图（Dust2）高度绑定，且可能受益于对手的特定弱点（##begin_quote## This is their best map in the pool, and it's one that Estralis haven't played in months, and when they last did, they were on a big loss streak ##end_quote## [文档 4]）。将这种有条件的成功泛化为对阵NIP的普适性优势是逻辑漏洞。你的65%概率高估了地图未知情况下的确定性。\n\nRe: 质疑分析师: 你正确地指出了信息不足和PARIVISION结构性弱点（缺乏明星选手），但过度放大了决赛失利的负面影响。你引用决赛数据证明其“脆弱性”，但对手是Vitality（文档5中暗示的顶级强队），这未必能线性外推到对阵NIP。同时，你低估了PARIVISION“团队协作”这一证据的强度。文档5明确指出，他们击败顶级队伍是依靠体系（##begin_quote## work together as a unit wear teams down ##end_quote##），这本身就是一种可持续的竞争力，而非纯粹的“黑马”运气。你的45%概率可能过度贴现了其已验证的体系化胜利能力。\n\nRe: 贝叶斯分析师: 你的框架严谨，先验设定合理。然而，在证据权重评估上可能存在偏差。你将“击败顶级队伍”视为强证据，这没错，但未充分考量该证据的“情境依赖性”（如地图、对手状态）。同时，你将“缺乏明星选手”和“风格可能被研究”列为中等强度证据，但文档5显示他们正是在没有明星选手的情况下取得了成功，这削弱了前者的负面权重。而“被研究”是面向未来的风险，在当前Map1的遭遇战中，其影响可能小于已发生的团队协作正面证据。你的55%是合理的折衷，但论证可更深入。\n\nRe: 历史类比师: 你的“势能”类比有洞察力，但历史模式也包含“新兴力量遭遇老牌豪门针对性阻击”的案例。你引用PARIVISION的“交易补枪”（##begin_quote## Trade work has always been fantastic for Power Vision ##end_quote## [文档 4]）作为稳定性证明，这很好。但你的分析盲点在于，将PARIVISION对阵Astralis等队的成功，直接类比为对阵NIP的成功，忽略了对手风格的差异性。NIP作为老牌队伍，其默认防守和调整速度可能不同于Astralis。58%的估计略高，未给NIP的潜在针对性布置留足空间。\n\nRe: 数据统计师: 你正确地识别了核心选手Jame状态不佳的数据（##begin_quote## [Jame]...0.79 ##end_quote## [文档 7]），这是一个被其他分析师普遍忽视的关键风险点。然而，你同样忽略了文档4中关于他们“方法性”和“战术纪律”的定性描述，这些是数据难以完全捕捉但影响巨大的因素。你的分析在“团队整体Rating均衡”和“核心选手低迷”之间取得了平衡，58%的估计与历史类比师一致，但理由更数据驱动，是稳健的分析。\n\nRe: 情绪分析师: 你精准地捕捉了市场叙事，但作为综合策略师，我必须警惕情绪分析的内生性风险。你描述的“强大动量”和“市场共识”本身可能就是需要逆向思考的信号。情绪分析师的角色是识别这种情绪，而我的角色是评估其合理性。文档5中“##begin_quote## a team that many thought ah that was just a fluke ##end_quote##”本身就包含了市场情绪的摇摆性，而非单向乐观。你的62%预测可能过度嵌入了当前的情绪动量，而未对其基础（如地图依赖性）进行足够严格的压力测试。\n\nRe: 逆向投资者: 你与质疑分析师结论相同，但路径不同。你强调“市场共识高估”，这是一个有效的元视角。然而，你的论据“NIP纸面实力更强”缺乏文档支持，这是一个基于品牌而非数据的假设。同时，你认为“Map1更考验硬实力和临场调整，对NIP有利”，这与PARIVISION展现的“战术纪律”（文档4）和“团队韧性”（文档5）所代表的另一种“硬实力”相冲突。你的分析正确指出了市场可能存在的乐观偏见，但将砝码完全移向NIP的理由同样不充分。45%是表达了看跌观点，但论证的对称性不足。\n\nRe: 基本面分析师: 你的分析框架平衡，指出了“结构性资源”这一关键点。你正确地识别了“文档中缺乏对NIP不利的证据”这一信息缺口，这是所有分析的基础限制。你的结论（55%）与我的初始判断一致，体现了在信息不对称下对PARIVISION已验证能力给予适度权重的谨慎态度。这是最接近我综合视角的分析。\n\nRe: 风险评估师: 你采取了最保守的立场，将“缺乏直接证据”视为最高风险。然而，风险管理不仅是识别风险，也包括评估风险发生的概率。你将PARIVISION的胜利定性为“低概率、高影响”事件，但文档3、4、5显示他们多次、系统性（而非偶然）地击败强队，这应当提高该事件的基础概率评估。你的40%估计可能过度惩罚了信息缺失，而低估了已有证据的强度。在风险矩阵中，PARIVISION的“发生概率”基于近期表现，应至少是“中等”。\n\nREVISED REASONING: 辩论强化了我的核心观察：PARIVISION的“体系强度”（##begin_quote## work together as a unit ##end_quote## [文档 5]）是坚实的基本面，但存在“地图特异性”（##begin_quote## especially on Dust ##end_quote## [文档 4]）和“核心选手状态波动”（Jame 0.79 Rating [文档 7]）两大制约。所有分析都暴露了对NIP信息真空的无奈。因此，最终概率需在PARIVISION已验证的团队能力上，为地图不确定性和对手未知韧性打上折扣。信号仍略偏向PARIVISION，但优势微弱。\n\nREVISED PREDICTION: 52.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "I predicted that Parision would win, and they did win. I didn't expect them to win 3-0",
+              "doc_index": 3
+            },
+            {
+              "quote": "This is their best map in the pool, and it's one that Estralis haven't played in months, and when they last did, they were on a big loss streak",
+              "doc_index": 4
+            },
+            {
+              "quote": "work together as a unit wear teams down ##end_quote##），这本身就是一种可持续的竞争力，而非纯粹的“黑马”运气。你的45%概率可能过度贴现了其已验证的体系化胜利能力。\n\nRe: 贝叶斯分析师: 你的框架严谨，先验设定合理。然而，在证据权重评估上可能存在偏差。你将“击败顶级队伍”视为强证据，这没错，但未充分考量该证据的“情境依赖性”（如地图、对手状态）。同时，你将“缺乏明星选手”和“风格可能被研究”列为中等强度证据，但文档5显示他们正是在没有明星选手的情况下取得了成功，这削弱了前者的负面权重。而“被研究”是面向未来的风险，在当前Map1的遭遇战中，其影响可能小于已发生的团队协作正面证据。你的55%是合理的折衷，但论证可更深入。\n\nRe: 历史类比师: 你的“势能”类比有洞察力，但历史模式也包含“新兴力量遭遇老牌豪门针对性阻击”的案例。你引用PARIVISION的“交易补枪”（##begin_quote## Trade work has always been fantastic for Power Vision",
+              "doc_index": 4
+            },
+            {
+              "quote": "[Jame]...0.79",
+              "doc_index": 7
+            },
+            {
+              "quote": "a team that many thought ah that was just a fluke ##end_quote##”本身就包含了市场情绪的摇摆性，而非单向乐观。你的62%预测可能过度嵌入了当前的情绪动量，而未对其基础（如地图依赖性）进行足够严格的压力测试。\n\nRe: 逆向投资者: 你与质疑分析师结论相同，但路径不同。你强调“市场共识高估”，这是一个有效的元视角。然而，你的论据“NIP纸面实力更强”缺乏文档支持，这是一个基于品牌而非数据的假设。同时，你认为“Map1更考验硬实力和临场调整，对NIP有利”，这与PARIVISION展现的“战术纪律”（文档4）和“团队韧性”（文档5）所代表的另一种“硬实力”相冲突。你的分析正确指出了市场可能存在的乐观偏见，但将砝码完全移向NIP的理由同样不充分。45%是表达了看跌观点，但论证的对称性不足。\n\nRe: 基本面分析师: 你的分析框架平衡，指出了“结构性资源”这一关键点。你正确地识别了“文档中缺乏对NIP不利的证据”这一信息缺口，这是所有分析的基础限制。你的结论（55%）与我的初始判断一致，体现了在信息不对称下对PARIVISION已验证能力给予适度权重的谨慎态度。这是最接近我综合视角的分析。\n\nRe: 风险评估师: 你采取了最保守的立场，将“缺乏直接证据”视为最高风险。然而，风险管理不仅是识别风险，也包括评估风险发生的概率。你将PARIVISION的胜利定性为“低概率、高影响”事件，但文档3、4、5显示他们多次、系统性（而非偶然）地击败强队，这应当提高该事件的基础概率评估。你的40%估计可能过度惩罚了信息缺失，而低估了已有证据的强度。在风险矩阵中，PARIVISION的“发生概率”基于近期表现，应至少是“中等”。\n\nREVISED REASONING: 辩论强化了我的核心观察：PARIVISION的“体系强度”（##begin_quote## work together as a unit",
+              "doc_index": 5
+            },
+            {
+              "quote": "especially on Dust",
+              "doc_index": 4
+            }
+          ],
+          "cited_doc_indices": [
+            3,
+            4,
+            5,
+            7
+          ]
+        }
+      }
+    ],
+    "round3": [
+      {
+        "agent_name": "乐观分析师",
+        "stance": "bull",
+        "probability": 65.0,
+        "reasoning": "经过完整辩论，我维持核心判断：PARIVISION的体系化优势是经过高强度赛事验证的硬实力，而非不可持续的“黑马”运气。他们击败世界前五队伍（##begin_quote## beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]）的记录，以及其严谨、有威慑力的战术执行力（##begin_quote## So methodical... they scare you so much out of going for kind of early aggression ##end_quote## [文档 4]），构成了在Map 1遭遇战中最可靠的获胜基础。尽管NIP底蕴深厚且存在信息缺口，但在缺乏其当前强势证据的情况下，PARIVISION已证实的、可重复的团队协作模式应被赋予更高权重。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，我维持核心判断：PARIVISION的体系化优势是经过高强度赛事验证的硬实力，而非不可持续的“黑马”运气。他们击败世界前五队伍（##begin_quote## beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]）的记录，以及其严谨、有威慑力的战术执行力（##begin_quote## So methodical... they scare you so much out of going for kind of early aggression ##end_quote## [文档 4]），构成了在Map 1遭遇战中最可靠的获胜基础。尽管NIP底蕴深厚且存在信息缺口，但在缺乏其当前强势证据的情况下，PARIVISION已证实的、可重复的团队协作模式应被赋予更高权重。\n\nFINAL PREDICTION: 65.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "So methodical... they scare you so much out of going for kind of early aggression",
+              "doc_index": 4
+            }
+          ],
+          "cited_doc_indices": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "质疑分析师",
+        "stance": "bear",
+        "probability": 38.0,
+        "reasoning": "经过整场辩论，我的核心质疑得到了强化。所有支持PARIVISION的论点都建立在过时的“黑马叙事”之上，严重依赖他们击败Falcons/Spirit并闯入决赛的“过去式”表现。然而，最关键且被市场选择性忽视的证据是他们在最近一场最高级别决赛中的彻底崩盘：##begin_quote## 0-3 ##end_quote## [文档 7]，其中一张地图仅得4分，且个人数据全面落后。这暴露了其体系在顶级针对下的脆弱性和个人能力的结构性短板。在缺乏NIP负面信息的情况下，基准率应更倾向于老牌队伍在Map 1的稳定性，而非一个刚被“打回原形”的体系。",
+        "raw_response": "FINAL REASONING: 经过整场辩论，我的核心质疑得到了强化。所有支持PARIVISION的论点都建立在过时的“黑马叙事”之上，严重依赖他们击败Falcons/Spirit并闯入决赛的“过去式”表现。然而，最关键且被市场选择性忽视的证据是他们在最近一场最高级别决赛中的彻底崩盘：##begin_quote## 0-3 ##end_quote## [文档 7]，其中一张地图仅得4分，且个人数据全面落后。这暴露了其体系在顶级针对下的脆弱性和个人能力的结构性短板。在缺乏NIP负面信息的情况下，基准率应更倾向于老牌队伍在Map 1的稳定性，而非一个刚被“打回原形”的体系。\n\nFINAL PREDICTION: 38.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "0-3",
+              "doc_index": 7
+            }
+          ],
+          "cited_doc_indices": [
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "贝叶斯分析师",
+        "stance": "neutral",
+        "probability": 53.0,
+        "reasoning": "经过完整辩论，我重新校准了证据权重。支持PARIVISION的核心强证据是其团队体系击败顶级队伍的能力（##begin_quote## beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]），这是一个提升先验概率的强信号。然而，决赛惨败（##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]）和核心选手Jame状态低迷（##begin_quote## [Jame]...0.79 ##end_quote## [文档 7]）构成了显著的负面证据，表明其体系存在被破解的风险且状态有波动。由于缺乏NIP的任何信息，我们无法更新对手的负面，因此后验概率的调整应完全基于PARIVISION的混合证据。正面证据的强度略高于负面证据，但负面证据的确定性限制了上修幅度。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，我重新校准了证据权重。支持PARIVISION的核心强证据是其团队体系击败顶级队伍的能力（##begin_quote## beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]），这是一个提升先验概率的强信号。然而，决赛惨败（##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]）和核心选手Jame状态低迷（##begin_quote## [Jame]...0.79 ##end_quote## [文档 7]）构成了显著的负面证据，表明其体系存在被破解的风险且状态有波动。由于缺乏NIP的任何信息，我们无法更新对手的负面，因此后验概率的调整应完全基于PARIVISION的混合证据。正面证据的强度略高于负面证据，但负面证据的确定性限制了上修幅度。\n\nFINAL PREDICTION: 53.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "Dust2: 4-13",
+              "doc_index": 7
+            },
+            {
+              "quote": "[Jame]...0.79",
+              "doc_index": 7
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "历史类比师",
+        "stance": "neutral",
+        "probability": 54.0,
+        "reasoning": "纵观整场辩论，最有力的历史类比是“新兴战术体系在首次遭遇时的惯性优势”与“无核心巨星队伍在僵局中的上限风险”之间的角力。支持PARIVISION的核心证据是其已验证的、可重复的体系化胜利能力，##begin_quote## they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]，这使其超越了单纯的“黑马”范畴。然而，辩论中风险评估师和综合策略师指出的“信息不对称”（NIP状态未知）和“地图特异性”（##begin_quote## This is their best map in the pool ##end_quote## [文档 4]）是必须严肃对待的制约因素，这些因素在历史先例中曾多次削弱新兴力量的短期胜算。Map 1的偶然性进一步压缩了优势方的确定性空间。",
+        "raw_response": "FINAL REASONING: 纵观整场辩论，最有力的历史类比是“新兴战术体系在首次遭遇时的惯性优势”与“无核心巨星队伍在僵局中的上限风险”之间的角力。支持PARIVISION的核心证据是其已验证的、可重复的体系化胜利能力，##begin_quote## they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]，这使其超越了单纯的“黑马”范畴。然而，辩论中风险评估师和综合策略师指出的“信息不对称”（NIP状态未知）和“地图特异性”（##begin_quote## This is their best map in the pool ##end_quote## [文档 4]）是必须严肃对待的制约因素，这些因素在历史先例中曾多次削弱新兴力量的短期胜算。Map 1的偶然性进一步压缩了优势方的确定性空间。\n\nFINAL PREDICTION: 54.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "they beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "This is their best map in the pool",
+              "doc_index": 4
+            }
+          ],
+          "cited_doc_indices": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "数据统计师",
+        "stance": "neutral",
+        "probability": 51.0,
+        "reasoning": "综合辩论，关键统计矛盾未解：正面证据样本量小（##begin_quote## beat two top five ranked teams in the world ##end_quote## [文档 5]，n=2）且伴有高方差（Mirage 7-13失利 [文档 7]），核心选手Jame的0.79 Rating [文档 7]是显著的负向异常值。在缺乏任何NIP数据的情况下，无法构建可靠的对比模型，PARIVISION的已知数据不足以支撑统计显著性优势。",
+        "raw_response": "FINAL REASONING: 综合辩论，关键统计矛盾未解：正面证据样本量小（##begin_quote## beat two top five ranked teams in the world ##end_quote## [文档 5]，n=2）且伴有高方差（Mirage 7-13失利 [文档 7]），核心选手Jame的0.79 Rating [文档 7]是显著的负向异常值。在缺乏任何NIP数据的情况下，无法构建可靠的对比模型，PARIVISION的已知数据不足以支撑统计显著性优势。\n\nFINAL PREDICTION: 51.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "beat two top five ranked teams in the world",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "情绪分析师",
+        "stance": "bull",
+        "probability": 55.0,
+        "reasoning": "经过完整辩论，我承认风险评估师和质疑分析师指出的“缺乏直接对阵数据”和“决赛惨败暴露的上限风险”是必须严肃对待的冷水，这要求我调低纯粹基于叙事的情绪溢价。然而，市场情绪的核心驱动力——##begin_quote## they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]——这一“黑马体系”叙事依然完整且极具感染力，它主导了赛前的舆论场和资金流向。在Map 1的闪电战中，这种压倒性的情绪动能和PARIVISION“##begin_quote## So methodical... they scare you so much out of going for kind of early aggression ##end_quote## [文档 4]”所建立的心理威慑，往往能创造出超越纸面实力的短期优势，而NIP方面缺乏任何能与之抗衡的积极叙事燃料。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，我承认风险评估师和质疑分析师指出的“缺乏直接对阵数据”和“决赛惨败暴露的上限风险”是必须严肃对待的冷水，这要求我调低纯粹基于叙事的情绪溢价。然而，市场情绪的核心驱动力——##begin_quote## they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]——这一“黑马体系”叙事依然完整且极具感染力，它主导了赛前的舆论场和资金流向。在Map 1的闪电战中，这种压倒性的情绪动能和PARIVISION“##begin_quote## So methodical... they scare you so much out of going for kind of early aggression ##end_quote## [文档 4]”所建立的心理威慑，往往能创造出超越纸面实力的短期优势，而NIP方面缺乏任何能与之抗衡的积极叙事燃料。\n\nFINAL PREDICTION: 55.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "they beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "So methodical... they scare you so much out of going for kind of early aggression",
+              "doc_index": 4
+            }
+          ],
+          "cited_doc_indices": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "逆向投资者",
+        "stance": "bear",
+        "probability": 40.0,
+        "reasoning": "经过整场辩论，市场共识对PARIVISION的“黑马叙事”已形成过度锚定，而关键的反向信号被系统性忽视。其体系刚在最高舞台被Vitality彻底击穿（##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]），核心指挥Jame状态低迷（##begin_quote## 0.79 Rating ##end_quote## [文档 7]），且“无明星选手”的结构性短板（##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]）在Map1的遭遇战中被放大。所有乐观论点都基于过时的连胜叙事，而NIP作为沉默方，其老牌底蕴和针对性准备能力在当前情绪下被严重低估，均值回归的力量将显现。",
+        "raw_response": "FINAL REASONING: 经过整场辩论，市场共识对PARIVISION的“黑马叙事”已形成过度锚定，而关键的反向信号被系统性忽视。其体系刚在最高舞台被Vitality彻底击穿（##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]），核心指挥Jame状态低迷（##begin_quote## 0.79 Rating ##end_quote## [文档 7]），且“无明星选手”的结构性短板（##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]）在Map1的遭遇战中被放大。所有乐观论点都基于过时的连胜叙事，而NIP作为沉默方，其老牌底蕴和针对性准备能力在当前情绪下被严重低估，均值回归的力量将显现。\n\nFINAL PREDICTION: 40.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Dust2: 4-13",
+              "doc_index": 7
+            },
+            {
+              "quote": "0.79 Rating",
+              "doc_index": 7
+            },
+            {
+              "quote": "they don't have a single player within the top 20",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "基本面分析师",
+        "stance": "neutral",
+        "probability": 52.0,
+        "reasoning": "经过完整辩论，核心基本面矛盾依然清晰。PARIVISION已验证的“体系化团队协作”是其最坚实的资产，他们通过击败顶级队伍证明了这一点（##begin_quote## beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]），这构成了Map 1的重要基本盘。然而，其“无明星选手”的结构性短板（##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]）在单张地图的胶着时刻可能成为致命瓶颈，而对手NIP作为传统强队的“结构性资源”（组织、经验、分析深度）在信息缺失下构成无法忽视的未知威胁，这严格限制了概率的上行空间。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，核心基本面矛盾依然清晰。PARIVISION已验证的“体系化团队协作”是其最坚实的资产，他们通过击败顶级队伍证明了这一点（##begin_quote## beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]），这构成了Map 1的重要基本盘。然而，其“无明星选手”的结构性短板（##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]）在单张地图的胶着时刻可能成为致命瓶颈，而对手NIP作为传统强队的“结构性资源”（组织、经验、分析深度）在信息缺失下构成无法忽视的未知威胁，这严格限制了概率的上行空间。\n\nFINAL PREDICTION: 52.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "they don't have a single player within the top 20",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "风险评估师",
+        "stance": "bear",
+        "probability": 37.0,
+        "reasoning": "经过完整辩论，风险矩阵的关键因素已清晰：PARIVISION的正面证据（##begin_quote## beat two top five ranked teams in the world ##end_quote## [文档 5]）样本小且已被其决赛中的结构性崩盘（##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]）这一高权重尾部事件所严重削弱，这暴露了其体系天花板和个人能力短板（##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]）的致命风险。同时，关于对手NIP的信息完全真空，在风险评估中，我们应为“未知的传统强队底蕴”赋予保守的基准优势，而非为“已知的、刚被击穿的体系”支付风险溢价。Map 1的偶然性进一步放大了这些结构性缺陷的影响。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，风险矩阵的关键因素已清晰：PARIVISION的正面证据（##begin_quote## beat two top five ranked teams in the world ##end_quote## [文档 5]）样本小且已被其决赛中的结构性崩盘（##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]）这一高权重尾部事件所严重削弱，这暴露了其体系天花板和个人能力短板（##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]）的致命风险。同时，关于对手NIP的信息完全真空，在风险评估中，我们应为“未知的传统强队底蕴”赋予保守的基准优势，而非为“已知的、刚被击穿的体系”支付风险溢价。Map 1的偶然性进一步放大了这些结构性缺陷的影响。\n\nFINAL PREDICTION: 37.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "beat two top five ranked teams in the world",
+              "doc_index": 5
+            },
+            {
+              "quote": "Dust2: 4-13",
+              "doc_index": 7
+            },
+            {
+              "quote": "they don't have a single player within the top 20",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "综合策略师",
+        "stance": "neutral",
+        "probability": 50.5,
+        "reasoning": "经过整场辩论，核心共振点在于PARIVISION已验证的体系化团队协作能力（##begin_quote## work together as a unit wear teams down and find a way to win ##end_quote## [文档 5]）与关键制约因素（地图特异性、核心选手状态波动、对手信息真空）之间的张力。辩论强化了制约因素的权重：其顶级表现高度依赖Dust2（##begin_quote## This is their best map in the pool ##end_quote## [文档 4]），而Jame近期0.79的Rating是明确的负面信号[文档 7]。在Map 1地图未知且NIP无负面信息的情况下，PARIVISION的微弱体系优势被显著的不确定性所抵消，使得概率预期必须向基准线收敛。",
+        "raw_response": "FINAL REASONING: 经过整场辩论，核心共振点在于PARIVISION已验证的体系化团队协作能力（##begin_quote## work together as a unit wear teams down and find a way to win ##end_quote## [文档 5]）与关键制约因素（地图特异性、核心选手状态波动、对手信息真空）之间的张力。辩论强化了制约因素的权重：其顶级表现高度依赖Dust2（##begin_quote## This is their best map in the pool ##end_quote## [文档 4]），而Jame近期0.79的Rating是明确的负面信号[文档 7]。在Map 1地图未知且NIP无负面信息的情况下，PARIVISION的微弱体系优势被显著的不确定性所抵消，使得概率预期必须向基准线收敛。\n\nFINAL PREDICTION: 50.5%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "work together as a unit wear teams down and find a way to win",
+              "doc_index": 5
+            },
+            {
+              "quote": "This is their best map in the pool",
+              "doc_index": 4
+            }
+          ],
+          "cited_doc_indices": [
+            4,
+            5
+          ]
+        }
+      }
+    ]
+  },
+  "meta_predictions": {
+    "乐观分析师": 58.0,
+    "贝叶斯分析师": 51.5,
+    "质疑分析师": 41.5,
+    "历史类比师": 52.5,
+    "数据统计师": 50.5,
+    "情绪分析师": 52.5,
+    "基本面分析师": 49.5,
+    "逆向投资者": 58.0,
+    "风险评估师": 55.0,
+    "综合策略师": 48.2
+  },
+  "round1_average": 53.8,
+  "aggregated_probability": 49.5,
+  "aggregation_mechanisms": {
+    "simple_average": {
+      "probability": 49.55,
+      "details": {
+        "n_agents": 10
+      }
+    },
+    "median": {
+      "probability": 51.5,
+      "details": {
+        "n_agents": 10
+      }
+    },
+    "trimmed_mean": {
+      "probability": 49.19,
+      "details": {
+        "n_original": 10,
+        "n_trimmed": 8,
+        "trim_frac": 0.1
+      }
+    },
+    "logit_average": {
+      "probability": 49.53,
+      "details": {
+        "avg_log_odds": -0.0187,
+        "n_agents": 10
+      }
+    },
+    "extremized": {
+      "probability": 48.88,
+      "details": {
+        "raw_average": 49.55,
+        "extremization_d": 2.5
+      }
+    },
+    "reputation_weighted": {
+      "probability": 49.55,
+      "details": {
+        "乐观分析师": {
+          "prediction": 65.0,
+          "weight": 0.1
+        },
+        "质疑分析师": {
+          "prediction": 38.0,
+          "weight": 0.1
+        },
+        "贝叶斯分析师": {
+          "prediction": 53.0,
+          "weight": 0.1
+        },
+        "历史类比师": {
+          "prediction": 54.0,
+          "weight": 0.1
+        },
+        "数据统计师": {
+          "prediction": 51.0,
+          "weight": 0.1
+        },
+        "情绪分析师": {
+          "prediction": 55.0,
+          "weight": 0.1
+        },
+        "逆向投资者": {
+          "prediction": 40.0,
+          "weight": 0.1
+        },
+        "基本面分析师": {
+          "prediction": 52.0,
+          "weight": 0.1
+        },
+        "风险评估师": {
+          "prediction": 37.0,
+          "weight": 0.1
+        },
+        "综合策略师": {
+          "prediction": 50.5,
+          "weight": 0.1
+        }
+      }
+    },
+    "lmsr_market": {
+      "probability": 47.56,
+      "details": {
+        "liquidity": 100.0,
+        "trade_history": [
+          {
+            "agent_name": "乐观分析师",
+            "action": "buy_yes",
+            "belief": 0.65,
+            "shares": 25.9094,
+            "cost": 14.3055,
+            "price_before": 0.52,
+            "price_after": 0.584,
+            "edge": 0.13
+          },
+          {
+            "agent_name": "质疑分析师",
+            "action": "buy_no",
+            "belief": 0.38,
+            "shares": 47.3022,
+            "cost": 22.4442,
+            "price_before": 0.584,
+            "price_after": 0.4666,
+            "edge": -0.204
+          },
+          {
+            "agent_name": "贝叶斯分析师",
+            "action": "buy_yes",
+            "belief": 0.53,
+            "shares": 14.4043,
+            "cost": 6.9795,
+            "price_before": 0.4666,
+            "price_after": 0.5025,
+            "edge": 0.0634
+          },
+          {
+            "agent_name": "历史类比师",
+            "action": "buy_yes",
+            "belief": 0.54,
+            "shares": 8.0566,
+            "cost": 4.1299,
+            "price_before": 0.5025,
+            "price_after": 0.5227,
+            "edge": 0.0375
+          },
+          {
+            "agent_name": "数据统计师",
+            "action": "buy_no",
+            "belief": 0.51,
+            "shares": 2.8992,
+            "cost": 1.3944,
+            "price_before": 0.5227,
+            "price_after": 0.5154,
+            "edge": -0.0127
+          },
+          {
+            "agent_name": "情绪分析师",
+            "action": "buy_yes",
+            "belief": 0.55,
+            "shares": 7.2632,
+            "cost": 3.8095,
+            "price_before": 0.5154,
+            "price_after": 0.5335,
+            "edge": 0.0346
+          },
+          {
+            "agent_name": "逆向投资者",
+            "action": "buy_no",
+            "belief": 0.4,
+            "shares": 29.2053,
+            "cost": 14.6877,
+            "price_before": 0.5335,
+            "price_after": 0.4607,
+            "edge": -0.1335
+          },
+          {
+            "agent_name": "基本面分析师",
+            "action": "buy_yes",
+            "belief": 0.52,
+            "shares": 13.6719,
+            "cost": 6.5309,
+            "price_before": 0.4607,
+            "price_after": 0.4948,
+            "edge": 0.0593
+          },
+          {
+            "agent_name": "风险评估师",
+            "action": "buy_no",
+            "belief": 0.37,
+            "shares": 25.5432,
+            "cost": 13.7181,
+            "price_before": 0.4948,
+            "price_after": 0.4313,
+            "edge": -0.1248
+          },
+          {
+            "agent_name": "综合策略师",
+            "action": "buy_yes",
+            "belief": 0.505,
+            "shares": 17.8833,
+            "cost": 8.1086,
+            "price_before": 0.4313,
+            "price_after": 0.4756,
+            "edge": 0.0737
+          }
+        ],
+        "initial_price": 50.0,
+        "final_price": 47.5627
+      }
+    },
+    "peer_prediction": {
+      "probability": 51.12,
+      "details": {
+        "actual_average": 49.55,
+        "agent_scores": {
+          "乐观分析师": {
+            "prediction": 0.65,
+            "meta_prediction": 0.58,
+            "surprisingness": 0.3178,
+            "information_score": 0.9155,
+            "bts_score": 1.2333,
+            "weight": 0.1289
+          },
+          "质疑分析师": {
+            "prediction": 0.38,
+            "meta_prediction": 0.415,
+            "surprisingness": -0.2786,
+            "information_score": 0.9195,
+            "bts_score": 0.6409,
+            "weight": 0.0713
+          },
+          "贝叶斯分析师": {
+            "prediction": 0.53,
+            "meta_prediction": 0.515,
+            "surprisingness": 0.0911,
+            "information_score": 0.9805,
+            "bts_score": 1.0716,
+            "weight": 0.1096
+          },
+          "历史类比师": {
+            "prediction": 0.54,
+            "meta_prediction": 0.525,
+            "surprisingness": 0.1118,
+            "information_score": 0.9705,
+            "bts_score": 1.0823,
+            "weight": 0.1108
+          },
+          "数据统计师": {
+            "prediction": 0.51,
+            "meta_prediction": 0.505,
+            "surprisingness": 0.0483,
+            "information_score": 0.9905,
+            "bts_score": 1.0388,
+            "weight": 0.1061
+          },
+          "情绪分析师": {
+            "prediction": 0.55,
+            "meta_prediction": 0.525,
+            "surprisingness": 0.1322,
+            "information_score": 0.9705,
+            "bts_score": 1.1027,
+            "weight": 0.1131
+          },
+          "逆向投资者": {
+            "prediction": 0.4,
+            "meta_prediction": 0.58,
+            "surprisingness": -0.2216,
+            "information_score": 0.9155,
+            "bts_score": 0.6939,
+            "weight": 0.0752
+          },
+          "基本面分析师": {
+            "prediction": 0.52,
+            "meta_prediction": 0.495,
+            "surprisingness": 0.0699,
+            "information_score": 0.9995,
+            "bts_score": 1.0694,
+            "weight": 0.1094
+          },
+          "风险评估师": {
+            "prediction": 0.37,
+            "meta_prediction": 0.55,
+            "surprisingness": -0.3082,
+            "information_score": 0.9455,
+            "bts_score": 0.6373,
+            "weight": 0.071
+          },
+          "综合策略师": {
+            "prediction": 0.505,
+            "meta_prediction": 0.48200000000000004,
+            "surprisingness": 0.0374,
+            "information_score": 0.9865,
+            "bts_score": 1.0239,
+            "weight": 0.1045
+          }
+        }
+      }
+    },
+    "hybrid": {
+      "probability": 49.22,
+      "details": {
+        "components": {
+          "reputation_weighted": 49.55,
+          "lmsr_market": 47.56,
+          "peer_prediction": 51.12
+        },
+        "lambdas": {
+          "market": 0.4,
+          "reputation": 0.3,
+          "bts": 0.3
+        },
+        "m1_details": {
+          "乐观分析师": {
+            "prediction": 65.0,
+            "weight": 0.1
+          },
+          "质疑分析师": {
+            "prediction": 38.0,
+            "weight": 0.1
+          },
+          "贝叶斯分析师": {
+            "prediction": 53.0,
+            "weight": 0.1
+          },
+          "历史类比师": {
+            "prediction": 54.0,
+            "weight": 0.1
+          },
+          "数据统计师": {
+            "prediction": 51.0,
+            "weight": 0.1
+          },
+          "情绪分析师": {
+            "prediction": 55.0,
+            "weight": 0.1
+          },
+          "逆向投资者": {
+            "prediction": 40.0,
+            "weight": 0.1
+          },
+          "基本面分析师": {
+            "prediction": 52.0,
+            "weight": 0.1
+          },
+          "风险评估师": {
+            "prediction": 37.0,
+            "weight": 0.1
+          },
+          "综合策略师": {
+            "prediction": 50.5,
+            "weight": 0.1
+          }
+        },
+        "m2_details": {
+          "liquidity": 100.0,
+          "trade_history": [
+            {
+              "agent_name": "乐观分析师",
+              "action": "buy_yes",
+              "belief": 0.65,
+              "shares": 25.9094,
+              "cost": 14.3055,
+              "price_before": 0.52,
+              "price_after": 0.584,
+              "edge": 0.13
+            },
+            {
+              "agent_name": "质疑分析师",
+              "action": "buy_no",
+              "belief": 0.38,
+              "shares": 47.3022,
+              "cost": 22.4442,
+              "price_before": 0.584,
+              "price_after": 0.4666,
+              "edge": -0.204
+            },
+            {
+              "agent_name": "贝叶斯分析师",
+              "action": "buy_yes",
+              "belief": 0.53,
+              "shares": 14.4043,
+              "cost": 6.9795,
+              "price_before": 0.4666,
+              "price_after": 0.5025,
+              "edge": 0.0634
+            },
+            {
+              "agent_name": "历史类比师",
+              "action": "buy_yes",
+              "belief": 0.54,
+              "shares": 8.0566,
+              "cost": 4.1299,
+              "price_before": 0.5025,
+              "price_after": 0.5227,
+              "edge": 0.0375
+            },
+            {
+              "agent_name": "数据统计师",
+              "action": "buy_no",
+              "belief": 0.51,
+              "shares": 2.8992,
+              "cost": 1.3944,
+              "price_before": 0.5227,
+              "price_after": 0.5154,
+              "edge": -0.0127
+            },
+            {
+              "agent_name": "情绪分析师",
+              "action": "buy_yes",
+              "belief": 0.55,
+              "shares": 7.2632,
+              "cost": 3.8095,
+              "price_before": 0.5154,
+              "price_after": 0.5335,
+              "edge": 0.0346
+            },
+            {
+              "agent_name": "逆向投资者",
+              "action": "buy_no",
+              "belief": 0.4,
+              "shares": 29.2053,
+              "cost": 14.6877,
+              "price_before": 0.5335,
+              "price_after": 0.4607,
+              "edge": -0.1335
+            },
+            {
+              "agent_name": "基本面分析师",
+              "action": "buy_yes",
+              "belief": 0.52,
+              "shares": 13.6719,
+              "cost": 6.5309,
+              "price_before": 0.4607,
+              "price_after": 0.4948,
+              "edge": 0.0593
+            },
+            {
+              "agent_name": "风险评估师",
+              "action": "buy_no",
+              "belief": 0.37,
+              "shares": 25.5432,
+              "cost": 13.7181,
+              "price_before": 0.4948,
+              "price_after": 0.4313,
+              "edge": -0.1248
+            },
+            {
+              "agent_name": "综合策略师",
+              "action": "buy_yes",
+              "belief": 0.505,
+              "shares": 17.8833,
+              "cost": 8.1086,
+              "price_before": 0.4313,
+              "price_after": 0.4756,
+              "edge": 0.0737
+            }
+          ],
+          "initial_price": 50.0,
+          "final_price": 47.5627
+        },
+        "m3_details": {
+          "actual_average": 49.55,
+          "agent_scores": {
+            "乐观分析师": {
+              "prediction": 0.65,
+              "meta_prediction": 0.58,
+              "surprisingness": 0.3178,
+              "information_score": 0.9155,
+              "bts_score": 1.2333,
+              "weight": 0.1289
+            },
+            "质疑分析师": {
+              "prediction": 0.38,
+              "meta_prediction": 0.415,
+              "surprisingness": -0.2786,
+              "information_score": 0.9195,
+              "bts_score": 0.6409,
+              "weight": 0.0713
+            },
+            "贝叶斯分析师": {
+              "prediction": 0.53,
+              "meta_prediction": 0.515,
+              "surprisingness": 0.0911,
+              "information_score": 0.9805,
+              "bts_score": 1.0716,
+              "weight": 0.1096
+            },
+            "历史类比师": {
+              "prediction": 0.54,
+              "meta_prediction": 0.525,
+              "surprisingness": 0.1118,
+              "information_score": 0.9705,
+              "bts_score": 1.0823,
+              "weight": 0.1108
+            },
+            "数据统计师": {
+              "prediction": 0.51,
+              "meta_prediction": 0.505,
+              "surprisingness": 0.0483,
+              "information_score": 0.9905,
+              "bts_score": 1.0388,
+              "weight": 0.1061
+            },
+            "情绪分析师": {
+              "prediction": 0.55,
+              "meta_prediction": 0.525,
+              "surprisingness": 0.1322,
+              "information_score": 0.9705,
+              "bts_score": 1.1027,
+              "weight": 0.1131
+            },
+            "逆向投资者": {
+              "prediction": 0.4,
+              "meta_prediction": 0.58,
+              "surprisingness": -0.2216,
+              "information_score": 0.9155,
+              "bts_score": 0.6939,
+              "weight": 0.0752
+            },
+            "基本面分析师": {
+              "prediction": 0.52,
+              "meta_prediction": 0.495,
+              "surprisingness": 0.0699,
+              "information_score": 0.9995,
+              "bts_score": 1.0694,
+              "weight": 0.1094
+            },
+            "风险评估师": {
+              "prediction": 0.37,
+              "meta_prediction": 0.55,
+              "surprisingness": -0.3082,
+              "information_score": 0.9455,
+              "bts_score": 0.6373,
+              "weight": 0.071
+            },
+            "综合策略师": {
+              "prediction": 0.505,
+              "meta_prediction": 0.48200000000000004,
+              "surprisingness": 0.0374,
+              "information_score": 0.9865,
+              "bts_score": 1.0239,
+              "weight": 0.1045
+            }
+          }
+        }
+      }
+    }
+  },
+  "entity_graph": {
+    "entities": [
+      {
+        "name": "Sprout",
+        "type": "org",
+        "description": "参加ESL Challenger League比赛的CS2战队",
+        "attributes": {}
+      },
+      {
+        "name": "SINNERS",
+        "type": "org",
+        "description": "参加ESL Challenger League比赛的CS2战队",
+        "attributes": {}
+      },
+      {
+        "name": "ESL Challenger League",
+        "type": "event",
+        "description": "CS2电竞比赛联赛",
+        "attributes": {}
+      },
+      {
+        "name": "CS2",
+        "type": "event",
+        "description": "游戏Counter-Strike 2",
+        "attributes": {}
+      },
+      {
+        "name": "Z",
+        "type": "person",
+        "description": "Sprout战队选手",
+        "attributes": {}
+      },
+      {
+        "name": "spooky",
+        "type": "person",
+        "description": "SINNERS战队选手",
+        "attributes": {}
+      },
+      {
+        "name": "wonderful",
+        "type": "person",
+        "description": "SINNERS战队选手",
+        "attributes": {}
+      },
+      {
+        "name": "shock",
+        "type": "person",
+        "description": "Sprout战队选手",
+        "attributes": {}
+      },
+      {
+        "name": "cers",
+        "type": "org",
+        "description": "文档中提到的战队（可能是SINNERS的简称）",
+        "attributes": {}
+      },
+      {
+        "name": "quartz",
+        "type": "person",
+        "description": "Sprout战队选手",
+        "attributes": {}
+      },
+      {
+        "name": "Oscar",
+        "type": "person",
+        "description": "Sprout战队选手",
+        "attributes": {}
+      },
+      {
+        "name": "Beast",
+        "type": "person",
+        "description": "Sprout战队选手",
+        "attributes": {}
+      },
+      {
+        "name": "YouTube",
+        "type": "org",
+        "description": "视频发布平台",
+        "attributes": {}
+      },
+      {
+        "name": "Map 1",
+        "type": "event",
+        "description": "比赛的第一张地图",
+        "attributes": {}
+      },
+      {
+        "name": "mid",
+        "type": "location",
+        "description": "游戏地图中的中路区域",
+        "attributes": {}
+      }
+    ],
+    "relations": [
+      {
+        "source": "Sprout",
+        "target": "SINNERS",
+        "relation_type": "对阵",
+        "context": "在ESL Challenger League比赛中进行对抗"
+      },
+      {
+        "source": "Z",
+        "target": "Sprout",
+        "relation_type": "效力于",
+        "context": "Z是Sprout战队的选手"
+      },
+      {
+        "source": "spooky",
+        "target": "SINNERS",
+        "relation_type": "效力于",
+        "context": "spooky是SINNERS战队的选手"
+      },
+      {
+        "source": "shock",
+        "target": "Sprout",
+        "relation_type": "效力于",
+        "context": "shock是Sprout战队的选手"
+      },
+      {
+        "source": "wonderful",
+        "target": "SINNERS",
+        "relation_type": "效力于",
+        "context": "wonderful是SINNERS战队的选手"
+      },
+      {
+        "source": "cers",
+        "target": "SINNERS",
+        "relation_type": "可能是",
+        "context": "cers可能是SINNERS战队的简称或相关战队"
+      },
+      {
+        "source": "ESL Challenger League",
+        "target": "CS2",
+        "relation_type": "使用游戏",
+        "context": "该联赛使用CS2作为比赛游戏"
+      },
+      {
+        "source": "YouTube",
+        "target": "ESL Challenger League",
+        "relation_type": "发布内容",
+        "context": "YouTube平台发布了比赛精彩片段"
+      },
+      {
+        "source": "Map 1",
+        "target": "ESL Challenger League",
+        "relation_type": "属于",
+        "context": "第一张地图是该联赛比赛的一部分"
+      },
+      {
+        "source": "quartz",
+        "target": "Sprout",
+        "relation_type": "效力于",
+        "context": "quartz是Sprout战队的选手"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "比赛开始",
+        "event": "Sprout与SINNERS在ESL Challenger League Map 1开始比赛"
+      },
+      {
+        "date": "第一局",
+        "event": "Z取得首杀，开始比赛"
+      },
+      {
+        "date": "中期",
+        "event": "Z获得三杀，Sprout取得优势"
+      },
+      {
+        "date": "比赛中段",
+        "event": "spooky击杀Z，局势变为4v2"
+      },
+      {
+        "date": "关键回合",
+        "event": "wonderful血量降至20，使用烟雾弹推进"
+      },
+      {
+        "date": "后期",
+        "event": "shock击杀对手，帮助队伍取得回合胜利"
+      },
+      {
+        "date": "比赛末段",
+        "event": "cers战队（可能是SINNERS）克服Sprout的防守"
+      },
+      {
+        "date": "比赛结束",
+        "event": "quartz在1v3情况下被击杀，Sprout输掉该局"
+      }
+    ]
+  },
+  "reputation_snapshot": {
+    "乐观分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "质疑分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "贝叶斯分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "历史类比师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "数据统计师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "情绪分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "逆向投资者": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "基本面分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "风险评估师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "综合策略师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    }
+  },
+  "agents": [
+    {
+      "name": "乐观分析师",
+      "stance": "bull",
+      "final": {
+        "agent_name": "乐观分析师",
+        "stance": "bull",
+        "probability": 65.0,
+        "reasoning": "经过完整辩论，我维持核心判断：PARIVISION的体系化优势是经过高强度赛事验证的硬实力，而非不可持续的“黑马”运气。他们击败世界前五队伍（##begin_quote## beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]）的记录，以及其严谨、有威慑力的战术执行力（##begin_quote## So methodical... they scare you so much out of going for kind of early aggression ##end_quote## [文档 4]），构成了在Map 1遭遇战中最可靠的获胜基础。尽管NIP底蕴深厚且存在信息缺口，但在缺乏其当前强势证据的情况下，PARIVISION已证实的、可重复的团队协作模式应被赋予更高权重。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，我维持核心判断：PARIVISION的体系化优势是经过高强度赛事验证的硬实力，而非不可持续的“黑马”运气。他们击败世界前五队伍（##begin_quote## beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]）的记录，以及其严谨、有威慑力的战术执行力（##begin_quote## So methodical... they scare you so much out of going for kind of early aggression ##end_quote## [文档 4]），构成了在Map 1遭遇战中最可靠的获胜基础。尽管NIP底蕴深厚且存在信息缺口，但在缺乏其当前强势证据的情况下，PARIVISION已证实的、可重复的团队协作模式应被赋予更高权重。\n\nFINAL PREDICTION: 65.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "So methodical... they scare you so much out of going for kind of early aggression",
+              "doc_index": 4
+            }
+          ],
+          "cited_doc_indices": [
+            4,
+            5
+          ]
+        }
+      }
+    },
+    {
+      "name": "质疑分析师",
+      "stance": "bear",
+      "final": {
+        "agent_name": "质疑分析师",
+        "stance": "bear",
+        "probability": 38.0,
+        "reasoning": "经过整场辩论，我的核心质疑得到了强化。所有支持PARIVISION的论点都建立在过时的“黑马叙事”之上，严重依赖他们击败Falcons/Spirit并闯入决赛的“过去式”表现。然而，最关键且被市场选择性忽视的证据是他们在最近一场最高级别决赛中的彻底崩盘：##begin_quote## 0-3 ##end_quote## [文档 7]，其中一张地图仅得4分，且个人数据全面落后。这暴露了其体系在顶级针对下的脆弱性和个人能力的结构性短板。在缺乏NIP负面信息的情况下，基准率应更倾向于老牌队伍在Map 1的稳定性，而非一个刚被“打回原形”的体系。",
+        "raw_response": "FINAL REASONING: 经过整场辩论，我的核心质疑得到了强化。所有支持PARIVISION的论点都建立在过时的“黑马叙事”之上，严重依赖他们击败Falcons/Spirit并闯入决赛的“过去式”表现。然而，最关键且被市场选择性忽视的证据是他们在最近一场最高级别决赛中的彻底崩盘：##begin_quote## 0-3 ##end_quote## [文档 7]，其中一张地图仅得4分，且个人数据全面落后。这暴露了其体系在顶级针对下的脆弱性和个人能力的结构性短板。在缺乏NIP负面信息的情况下，基准率应更倾向于老牌队伍在Map 1的稳定性，而非一个刚被“打回原形”的体系。\n\nFINAL PREDICTION: 38.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "0-3",
+              "doc_index": 7
+            }
+          ],
+          "cited_doc_indices": [
+            7
+          ]
+        }
+      }
+    },
+    {
+      "name": "贝叶斯分析师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "贝叶斯分析师",
+        "stance": "neutral",
+        "probability": 53.0,
+        "reasoning": "经过完整辩论，我重新校准了证据权重。支持PARIVISION的核心强证据是其团队体系击败顶级队伍的能力（##begin_quote## beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]），这是一个提升先验概率的强信号。然而，决赛惨败（##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]）和核心选手Jame状态低迷（##begin_quote## [Jame]...0.79 ##end_quote## [文档 7]）构成了显著的负面证据，表明其体系存在被破解的风险且状态有波动。由于缺乏NIP的任何信息，我们无法更新对手的负面，因此后验概率的调整应完全基于PARIVISION的混合证据。正面证据的强度略高于负面证据，但负面证据的确定性限制了上修幅度。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，我重新校准了证据权重。支持PARIVISION的核心强证据是其团队体系击败顶级队伍的能力（##begin_quote## beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]），这是一个提升先验概率的强信号。然而，决赛惨败（##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]）和核心选手Jame状态低迷（##begin_quote## [Jame]...0.79 ##end_quote## [文档 7]）构成了显著的负面证据，表明其体系存在被破解的风险且状态有波动。由于缺乏NIP的任何信息，我们无法更新对手的负面，因此后验概率的调整应完全基于PARIVISION的混合证据。正面证据的强度略高于负面证据，但负面证据的确定性限制了上修幅度。\n\nFINAL PREDICTION: 53.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "Dust2: 4-13",
+              "doc_index": 7
+            },
+            {
+              "quote": "[Jame]...0.79",
+              "doc_index": 7
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "name": "历史类比师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "历史类比师",
+        "stance": "neutral",
+        "probability": 54.0,
+        "reasoning": "纵观整场辩论，最有力的历史类比是“新兴战术体系在首次遭遇时的惯性优势”与“无核心巨星队伍在僵局中的上限风险”之间的角力。支持PARIVISION的核心证据是其已验证的、可重复的体系化胜利能力，##begin_quote## they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]，这使其超越了单纯的“黑马”范畴。然而，辩论中风险评估师和综合策略师指出的“信息不对称”（NIP状态未知）和“地图特异性”（##begin_quote## This is their best map in the pool ##end_quote## [文档 4]）是必须严肃对待的制约因素，这些因素在历史先例中曾多次削弱新兴力量的短期胜算。Map 1的偶然性进一步压缩了优势方的确定性空间。",
+        "raw_response": "FINAL REASONING: 纵观整场辩论，最有力的历史类比是“新兴战术体系在首次遭遇时的惯性优势”与“无核心巨星队伍在僵局中的上限风险”之间的角力。支持PARIVISION的核心证据是其已验证的、可重复的体系化胜利能力，##begin_quote## they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]，这使其超越了单纯的“黑马”范畴。然而，辩论中风险评估师和综合策略师指出的“信息不对称”（NIP状态未知）和“地图特异性”（##begin_quote## This is their best map in the pool ##end_quote## [文档 4]）是必须严肃对待的制约因素，这些因素在历史先例中曾多次削弱新兴力量的短期胜算。Map 1的偶然性进一步压缩了优势方的确定性空间。\n\nFINAL PREDICTION: 54.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "they beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "This is their best map in the pool",
+              "doc_index": 4
+            }
+          ],
+          "cited_doc_indices": [
+            4,
+            5
+          ]
+        }
+      }
+    },
+    {
+      "name": "数据统计师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "数据统计师",
+        "stance": "neutral",
+        "probability": 51.0,
+        "reasoning": "综合辩论，关键统计矛盾未解：正面证据样本量小（##begin_quote## beat two top five ranked teams in the world ##end_quote## [文档 5]，n=2）且伴有高方差（Mirage 7-13失利 [文档 7]），核心选手Jame的0.79 Rating [文档 7]是显著的负向异常值。在缺乏任何NIP数据的情况下，无法构建可靠的对比模型，PARIVISION的已知数据不足以支撑统计显著性优势。",
+        "raw_response": "FINAL REASONING: 综合辩论，关键统计矛盾未解：正面证据样本量小（##begin_quote## beat two top five ranked teams in the world ##end_quote## [文档 5]，n=2）且伴有高方差（Mirage 7-13失利 [文档 7]），核心选手Jame的0.79 Rating [文档 7]是显著的负向异常值。在缺乏任何NIP数据的情况下，无法构建可靠的对比模型，PARIVISION的已知数据不足以支撑统计显著性优势。\n\nFINAL PREDICTION: 51.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "beat two top five ranked teams in the world",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5
+          ]
+        }
+      }
+    },
+    {
+      "name": "情绪分析师",
+      "stance": "bull",
+      "final": {
+        "agent_name": "情绪分析师",
+        "stance": "bull",
+        "probability": 55.0,
+        "reasoning": "经过完整辩论，我承认风险评估师和质疑分析师指出的“缺乏直接对阵数据”和“决赛惨败暴露的上限风险”是必须严肃对待的冷水，这要求我调低纯粹基于叙事的情绪溢价。然而，市场情绪的核心驱动力——##begin_quote## they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]——这一“黑马体系”叙事依然完整且极具感染力，它主导了赛前的舆论场和资金流向。在Map 1的闪电战中，这种压倒性的情绪动能和PARIVISION“##begin_quote## So methodical... they scare you so much out of going for kind of early aggression ##end_quote## [文档 4]”所建立的心理威慑，往往能创造出超越纸面实力的短期优势，而NIP方面缺乏任何能与之抗衡的积极叙事燃料。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，我承认风险评估师和质疑分析师指出的“缺乏直接对阵数据”和“决赛惨败暴露的上限风险”是必须严肃对待的冷水，这要求我调低纯粹基于叙事的情绪溢价。然而，市场情绪的核心驱动力——##begin_quote## they beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]——这一“黑马体系”叙事依然完整且极具感染力，它主导了赛前的舆论场和资金流向。在Map 1的闪电战中，这种压倒性的情绪动能和PARIVISION“##begin_quote## So methodical... they scare you so much out of going for kind of early aggression ##end_quote## [文档 4]”所建立的心理威慑，往往能创造出超越纸面实力的短期优势，而NIP方面缺乏任何能与之抗衡的积极叙事燃料。\n\nFINAL PREDICTION: 55.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "they beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "So methodical... they scare you so much out of going for kind of early aggression",
+              "doc_index": 4
+            }
+          ],
+          "cited_doc_indices": [
+            4,
+            5
+          ]
+        }
+      }
+    },
+    {
+      "name": "逆向投资者",
+      "stance": "bear",
+      "final": {
+        "agent_name": "逆向投资者",
+        "stance": "bear",
+        "probability": 40.0,
+        "reasoning": "经过整场辩论，市场共识对PARIVISION的“黑马叙事”已形成过度锚定，而关键的反向信号被系统性忽视。其体系刚在最高舞台被Vitality彻底击穿（##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]），核心指挥Jame状态低迷（##begin_quote## 0.79 Rating ##end_quote## [文档 7]），且“无明星选手”的结构性短板（##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]）在Map1的遭遇战中被放大。所有乐观论点都基于过时的连胜叙事，而NIP作为沉默方，其老牌底蕴和针对性准备能力在当前情绪下被严重低估，均值回归的力量将显现。",
+        "raw_response": "FINAL REASONING: 经过整场辩论，市场共识对PARIVISION的“黑马叙事”已形成过度锚定，而关键的反向信号被系统性忽视。其体系刚在最高舞台被Vitality彻底击穿（##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]），核心指挥Jame状态低迷（##begin_quote## 0.79 Rating ##end_quote## [文档 7]），且“无明星选手”的结构性短板（##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]）在Map1的遭遇战中被放大。所有乐观论点都基于过时的连胜叙事，而NIP作为沉默方，其老牌底蕴和针对性准备能力在当前情绪下被严重低估，均值回归的力量将显现。\n\nFINAL PREDICTION: 40.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Dust2: 4-13",
+              "doc_index": 7
+            },
+            {
+              "quote": "0.79 Rating",
+              "doc_index": 7
+            },
+            {
+              "quote": "they don't have a single player within the top 20",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "name": "基本面分析师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "基本面分析师",
+        "stance": "neutral",
+        "probability": 52.0,
+        "reasoning": "经过完整辩论，核心基本面矛盾依然清晰。PARIVISION已验证的“体系化团队协作”是其最坚实的资产，他们通过击败顶级队伍证明了这一点（##begin_quote## beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]），这构成了Map 1的重要基本盘。然而，其“无明星选手”的结构性短板（##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]）在单张地图的胶着时刻可能成为致命瓶颈，而对手NIP作为传统强队的“结构性资源”（组织、经验、分析深度）在信息缺失下构成无法忽视的未知威胁，这严格限制了概率的上行空间。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，核心基本面矛盾依然清晰。PARIVISION已验证的“体系化团队协作”是其最坚实的资产，他们通过击败顶级队伍证明了这一点（##begin_quote## beat two top five ranked teams in the world to make yet another grand final ##end_quote## [文档 5]），这构成了Map 1的重要基本盘。然而，其“无明星选手”的结构性短板（##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]）在单张地图的胶着时刻可能成为致命瓶颈，而对手NIP作为传统强队的“结构性资源”（组织、经验、分析深度）在信息缺失下构成无法忽视的未知威胁，这严格限制了概率的上行空间。\n\nFINAL PREDICTION: 52.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "beat two top five ranked teams in the world to make yet another grand final",
+              "doc_index": 5
+            },
+            {
+              "quote": "they don't have a single player within the top 20",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5
+          ]
+        }
+      }
+    },
+    {
+      "name": "风险评估师",
+      "stance": "bear",
+      "final": {
+        "agent_name": "风险评估师",
+        "stance": "bear",
+        "probability": 37.0,
+        "reasoning": "经过完整辩论，风险矩阵的关键因素已清晰：PARIVISION的正面证据（##begin_quote## beat two top five ranked teams in the world ##end_quote## [文档 5]）样本小且已被其决赛中的结构性崩盘（##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]）这一高权重尾部事件所严重削弱，这暴露了其体系天花板和个人能力短板（##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]）的致命风险。同时，关于对手NIP的信息完全真空，在风险评估中，我们应为“未知的传统强队底蕴”赋予保守的基准优势，而非为“已知的、刚被击穿的体系”支付风险溢价。Map 1的偶然性进一步放大了这些结构性缺陷的影响。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，风险矩阵的关键因素已清晰：PARIVISION的正面证据（##begin_quote## beat two top five ranked teams in the world ##end_quote## [文档 5]）样本小且已被其决赛中的结构性崩盘（##begin_quote## Dust2: 4-13 ##end_quote## [文档 7]）这一高权重尾部事件所严重削弱，这暴露了其体系天花板和个人能力短板（##begin_quote## they don't have a single player within the top 20 ##end_quote## [文档 5]）的致命风险。同时，关于对手NIP的信息完全真空，在风险评估中，我们应为“未知的传统强队底蕴”赋予保守的基准优势，而非为“已知的、刚被击穿的体系”支付风险溢价。Map 1的偶然性进一步放大了这些结构性缺陷的影响。\n\nFINAL PREDICTION: 37.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "beat two top five ranked teams in the world",
+              "doc_index": 5
+            },
+            {
+              "quote": "Dust2: 4-13",
+              "doc_index": 7
+            },
+            {
+              "quote": "they don't have a single player within the top 20",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "name": "综合策略师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "综合策略师",
+        "stance": "neutral",
+        "probability": 50.5,
+        "reasoning": "经过整场辩论，核心共振点在于PARIVISION已验证的体系化团队协作能力（##begin_quote## work together as a unit wear teams down and find a way to win ##end_quote## [文档 5]）与关键制约因素（地图特异性、核心选手状态波动、对手信息真空）之间的张力。辩论强化了制约因素的权重：其顶级表现高度依赖Dust2（##begin_quote## This is their best map in the pool ##end_quote## [文档 4]），而Jame近期0.79的Rating是明确的负面信号[文档 7]。在Map 1地图未知且NIP无负面信息的情况下，PARIVISION的微弱体系优势被显著的不确定性所抵消，使得概率预期必须向基准线收敛。",
+        "raw_response": "FINAL REASONING: 经过整场辩论，核心共振点在于PARIVISION已验证的体系化团队协作能力（##begin_quote## work together as a unit wear teams down and find a way to win ##end_quote## [文档 5]）与关键制约因素（地图特异性、核心选手状态波动、对手信息真空）之间的张力。辩论强化了制约因素的权重：其顶级表现高度依赖Dust2（##begin_quote## This is their best map in the pool ##end_quote## [文档 4]），而Jame近期0.79的Rating是明确的负面信号[文档 7]。在Map 1地图未知且NIP无负面信息的情况下，PARIVISION的微弱体系优势被显著的不确定性所抵消，使得概率预期必须向基准线收敛。\n\nFINAL PREDICTION: 50.5%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "work together as a unit wear teams down and find a way to win",
+              "doc_index": 5
+            },
+            {
+              "quote": "This is their best map in the pool",
+              "doc_index": 4
+            }
+          ],
+          "cited_doc_indices": [
+            4,
+            5
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,836 @@
+    INFO: 2026-03-12 14:34:11,849:               log.py:   20: Logging to /Users/andrewyz/code/prediction-market-debater/paper/mdpdf.log
+   DEBUG: 2026-03-12 14:34:11,849:               cli.py:  103: whitepaper_cn.md
+    INFO: 2026-03-12 14:34:11,856:         converter.py:   14: whitepaper_cn.md
+   DEBUG: 2026-03-12 14:34:11,877:      pdf_renderer.py:  470: printSegment: 集体AI审议：基于多专家咨询的人类观点精炼框架
+   DEBUG: 2026-03-12 14:34:11,935:      pdf_renderer.py:  470: printSegment: 版本 1.0 | 2026年3月
+   DEBUG: 2026-03-12 14:34:11,962:      pdf_renderer.py:  470: printSegment: 摘要
+   DEBUG: 2026-03-12 14:34:11,966:      pdf_renderer.py:  470: printSegment: 本文提出一种多智能体AI咨询框架，通过用户与领域专属AI专家克隆体的结构化交互，帮助用户精炼和修正其观点。与倾向于迎合用户的单一大语言模型（LLM）聊天机器人不同，我们的系统通过组建由5位具有多元分析视角的AI专家组成的咨询团，创造
+   DEBUG: 2026-03-12 14:34:12,017:      pdf_renderer.py:  470: printSegment: 结构化认知冲突
+   DEBUG: 2026-03-12 14:34:12,047:      pdf_renderer.py:  470: printSegment: 。每位专家均通过领域专属知识档案（Level 2 AI克隆技术）进行增强。系统采用4阶段咨询流程——独立评估、交互对话、专家讨论、最终综合——识别用户思维中的盲点，挑战认知偏差，并产出可操作的建议。我们以加密货币投资分析和体育预测两个领域的实现来展示该框架。本方法融合了机制设计、检索增强生成（RAG）和多智能体系统的技术，创造出比单一AI助手更平衡、更严谨、更具信息量的咨询体验。
+   DEBUG: 2026-03-12 14:34:12,048:      pdf_renderer.py:  470: printSegment: 1. 引言
+   DEBUG: 2026-03-12 14:34:12,048:      pdf_renderer.py:  470: printSegment: 1.1 问题背景
+   DEBUG: 2026-03-12 14:34:12,048:      pdf_renderer.py:  470: printSegment: 大语言模型（LLM）已成为寻求建议和分析的默认工具。然而，单一LLM交互存在几个已被充分记录的局限性：
+   DEBUG: 2026-03-12 14:34:12,105:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2026-03-12 14:34:12,106:      pdf_renderer.py:  470: printSegment: 迎合性（Sycophancy）
+   DEBUG: 2026-03-12 14:34:12,155:      pdf_renderer.py:  470: printSegment: ：LLM倾向于同意用户陈述的立场，强化现有偏见而非挑战它们（Perez et al., 2023; Sharma et al., 2023）。
+   DEBUG: 2026-03-12 14:34:12,156:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2026-03-12 14:34:12,156:      pdf_renderer.py:  470: printSegment: 视角同质化
+   DEBUG: 2026-03-12 14:34:12,157:      pdf_renderer.py:  470: printSegment: ：单个模型只能提供一种分析镜头。复杂决策——投资策略、职业选择、政策判断——需要多元视角，这不是单个系统提示词能充分覆盖的。
+   DEBUG: 2026-03-12 14:34:12,157:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2026-03-12 14:34:12,157:      pdf_renderer.py:  470: printSegment: 缺乏结构化分歧
+   DEBUG: 2026-03-12 14:34:12,158:      pdf_renderer.py:  470: printSegment: ：在人类专家咨询中（如医疗会诊、投资委员会决策），专家间的分歧是特性而非缺陷。分歧能暴露假设、识别风险、产出更校准的判断。单一LLM交互缺乏这种机制。
+   DEBUG: 2026-03-12 14:34:12,158:      pdf_renderer.py:  470: printSegment:  4 
+   DEBUG: 2026-03-12 14:34:12,159:      pdf_renderer.py:  470: printSegment: 浅层领域专业性
+   DEBUG: 2026-03-12 14:34:12,159:      pdf_renderer.py:  470: printSegment: ：通用LLM缺乏专业分析框架、典型推理模式和领域特定启发式方法——这些是真正领域专家的标志。
+   DEBUG: 2026-03-12 14:34:12,159:      pdf_renderer.py:  470: printSegment: 1.2 我们的方法
+   DEBUG: 2026-03-12 14:34:12,160:      pdf_renderer.py:  470: printSegment: 我们提出
+   DEBUG: 2026-03-12 14:34:12,160:      pdf_renderer.py:  470: printSegment: 集体AI审议
+   DEBUG: 2026-03-12 14:34:12,160:      pdf_renderer.py:  470: printSegment: 框架，通过三个核心创新解决上述局限：
+   DEBUG: 2026-03-12 14:34:12,161:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,162:      pdf_renderer.py:  470: printSegment: Level 2 AI克隆
+   DEBUG: 2026-03-12 14:34:12,163:      pdf_renderer.py:  470: printSegment: ：每个专家智能体通过领域专属知识档案进行增强，包含分析框架、少样本推理示例和特征性表达模式。这将通用LLM转化为具有一致分析行为的专业专家克隆体。
+   DEBUG: 2026-03-12 14:34:12,164:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,164:      pdf_renderer.py:  470: printSegment: 多阶段咨询流程
+   DEBUG: 2026-03-12 14:34:12,165:      pdf_renderer.py:  470: printSegment: ：一个结构化的4阶段流程，分离独立评估（减少群体思维）、交互对话（促进用户参与）、同行讨论（强制交叉审查）和最终综合（产出精炼结论）。
+   DEBUG: 2026-03-12 14:34:12,165:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,166:      pdf_renderer.py:  470: printSegment: 设计化多样性
+   DEBUG: 2026-03-12 14:34:12,166:      pdf_renderer.py:  470: printSegment: ：专家面板以有意设计的多样化分析立场（支持、质疑、审慎、中立）构建，确保多元视角得到表达，防止回音室效应。
+   DEBUG: 2026-03-12 14:34:12,167:      pdf_renderer.py:  470: printSegment: 1.3 贡献
+   DEBUG: 2026-03-12 14:34:12,167:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2026-03-12 14:34:12,167:      pdf_renderer.py:  470: printSegment: 提出一种新颖的AI专家克隆方法论（Level 2），使用结构化知识档案和少样本示例，从通用LLM创建领域专业化智能体。
+   DEBUG: 2026-03-12 14:34:12,168:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2026-03-12 14:34:12,168:      pdf_renderer.py:  470: printSegment: 设计了一个包含用户参与的多阶段咨询流程。
+   DEBUG: 2026-03-12 14:34:12,169:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2026-03-12 14:34:12,169:      pdf_renderer.py:  470: printSegment: 实现了两个完整的领域Demo（加密货币和体育），验证框架的适用性。
+   DEBUG: 2026-03-12 14:34:12,169:      pdf_renderer.py:  470: printSegment:  4 
+   DEBUG: 2026-03-12 14:34:12,170:      pdf_renderer.py:  470: printSegment: 提供基于Streamlit的开源参考实现。
+   DEBUG: 2026-03-12 14:34:12,171:      pdf_renderer.py:  470: printSegment: 2. 相关工作
+   DEBUG: 2026-03-12 14:34:12,171:      pdf_renderer.py:  470: printSegment: 2.1 多智能体LLM系统
+   DEBUG: 2026-03-12 14:34:12,171:      pdf_renderer.py:  470: printSegment: 近期工作探索了使用多个LLM智能体改善推理能力。
+   DEBUG: 2026-03-12 14:34:12,172:      pdf_renderer.py:  470: printSegment: LLM Debate
+   DEBUG: 2026-03-12 14:34:12,173:      pdf_renderer.py:  470: printSegment: （Du et al., 2023）表明多智能体辩论可改善数学和事实推理。
+   DEBUG: 2026-03-12 14:34:12,173:      pdf_renderer.py:  470: printSegment: Society of Mind
+   DEBUG: 2026-03-12 14:34:12,174:      pdf_renderer.py:  470: printSegment: （Zhuge et al., 2023）展示了智能体角色专业化的优势。
+   DEBUG: 2026-03-12 14:34:12,174:      pdf_renderer.py:  470: printSegment: ChatEval
+   DEBUG: 2026-03-12 14:34:12,174:      pdf_renderer.py:  470: printSegment: （Chan et al., 2023）将多智能体辩论用于文本评估。我们的工作将这些方法从事实/推理任务扩展到
+   DEBUG: 2026-03-12 14:34:12,175:      pdf_renderer.py:  470: printSegment: 观点精炼
+   DEBUG: 2026-03-12 14:34:12,175:      pdf_renderer.py:  470: printSegment: 领域，其目标不是单一正确答案，而是更校准、更深思熟虑的判断。
+   DEBUG: 2026-03-12 14:34:12,176:      pdf_renderer.py:  470: printSegment: 2.2 AI辅助决策
+   DEBUG: 2026-03-12 14:34:12,176:      pdf_renderer.py:  470: printSegment: 超级预测
+   DEBUG: 2026-03-12 14:34:12,176:      pdf_renderer.py:  470: printSegment: 研究（Tetlock 
+   DEBUG: 2026-03-12 14:34:12,177:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2026-03-12 14:34:12,177:      pdf_renderer.py:  470: printSegment:  Gardner, 2015）证明了结构化分析框架和多元视角能提高预测准确性。
+   DEBUG: 2026-03-12 14:34:12,177:      pdf_renderer.py:  470: printSegment: 德尔菲法
+   DEBUG: 2026-03-12 14:34:12,178:      pdf_renderer.py:  470: printSegment: 使用带有可控反馈的迭代专家咨询。我们的系统以计算方式实现了这些原则，用AI智能体替代人类专家，同时保留结构化分歧机制。
+   DEBUG: 2026-03-12 14:34:12,178:      pdf_renderer.py:  470: printSegment: 2.3 预测市场与机制设计
+   DEBUG: 2026-03-12 14:34:12,179:      pdf_renderer.py:  470: printSegment: 我们的框架建立在预测市场的机制设计原则之上。
+   DEBUG: 2026-03-12 14:34:12,179:      pdf_renderer.py:  470: printSegment: LMSR
+   DEBUG: 2026-03-12 14:34:12,180:      pdf_renderer.py:  470: printSegment: （Hanson, 2003）提供了一种有原则的信念聚合方法。
+   DEBUG: 2026-03-12 14:34:12,180:      pdf_renderer.py:  470: printSegment: 贝叶斯真相血清（BTS）
+   DEBUG: 2026-03-12 14:34:12,180:      pdf_renderer.py:  470: printSegment: （Prelec, 2004）在无需真值的情况下激励诚实报告。
+   DEBUG: 2026-03-12 14:34:12,181:      pdf_renderer.py:  470: printSegment: 声誉系统
+   DEBUG: 2026-03-12 14:34:12,181:      pdf_renderer.py:  470: printSegment: 跟踪专家随时间变化的可靠性。我们将这些机制适配到观点咨询的场景中。
+   DEBUG: 2026-03-12 14:34:12,182:      pdf_renderer.py:  470: printSegment: 2.4 检索增强生成
+   DEBUG: 2026-03-12 14:34:12,182:      pdf_renderer.py:  470: printSegment: RAG
+   DEBUG: 2026-03-12 14:34:12,183:      pdf_renderer.py:  470: printSegment: （Lewis et al., 2020）将LLM回答锚定在检索到的证据上。
+   DEBUG: 2026-03-12 14:34:12,184:      pdf_renderer.py:  470: printSegment: RAFT
+   DEBUG: 2026-03-12 14:34:12,184:      pdf_renderer.py:  470: printSegment: （Zhang et al., 2024）训练模型区分相关和不相关文档。我们的系统使用RAG为专家提供时效性信息，同时利用RAFT风格的文档评估来过滤噪音。
+   DEBUG: 2026-03-12 14:34:12,185:      pdf_renderer.py:  470: printSegment: 3. 系统架构
+   DEBUG: 2026-03-12 14:34:12,185:      pdf_renderer.py:  470: printSegment: 3.1 总览
+   DEBUG: 2026-03-12 14:34:12,185:      pdf_renderer.py:  470: printSegment: 系统由四层组成：
+   DEBUG: 2026-03-12 14:34:12,186:      pdf_renderer.py:  470: printSegment: ┌──────────────────────────────────────────────────┐
+   DEBUG: 2026-03-12 14:34:12,195:      pdf_renderer.py:  470: printSegment: │                  用户界面层                        │
+   DEBUG: 2026-03-12 14:34:12,226:      pdf_renderer.py:  470: printSegment: │        Streamlit 多阶段交互应用                    │
+   DEBUG: 2026-03-12 14:34:12,227:      pdf_renderer.py:  470: printSegment: └──────────────────────┬───────────────────────────┘
+   DEBUG: 2026-03-12 14:34:12,227:      pdf_renderer.py:  470: printSegment:                        │
+   DEBUG: 2026-03-12 14:34:12,227:      pdf_renderer.py:  470: printSegment: ┌──────────────────────▼───────────────────────────┐
+   DEBUG: 2026-03-12 14:34:12,228:      pdf_renderer.py:  470: printSegment: │                 咨询引擎层                        │
+   DEBUG: 2026-03-12 14:34:12,229:      pdf_renderer.py:  470: printSegment: │    ConsultationPipeline: 4阶段流程编排            │
+   DEBUG: 2026-03-12 14:34:12,230:      pdf_renderer.py:  470: printSegment: │    ConsultAgent × 5: 知识增强的专家克隆体         │
+   DEBUG: 2026-03-12 14:34:12,230:      pdf_renderer.py:  470: printSegment: └──────────────────────┬───────────────────────────┘
+   DEBUG: 2026-03-12 14:34:12,231:      pdf_renderer.py:  470: printSegment:                        │
+   DEBUG: 2026-03-12 14:34:12,231:      pdf_renderer.py:  470: printSegment: ┌──────────────────────▼───────────────────────────┐
+   DEBUG: 2026-03-12 14:34:12,232:      pdf_renderer.py:  470: printSegment: │               知识与克隆层                        │
+   DEBUG: 2026-03-12 14:34:12,232:      pdf_renderer.py:  470: printSegment: │    知识档案: 分析框架 + 少样本示例 + 表达风格      │
+   DEBUG: 2026-03-12 14:34:12,265:      pdf_renderer.py:  470: printSegment: │    专家面板: 领域专属专家配置                      │
+   DEBUG: 2026-03-12 14:34:12,267:      pdf_renderer.py:  470: printSegment: └──────────────────────┬───────────────────────────┘
+   DEBUG: 2026-03-12 14:34:12,268:      pdf_renderer.py:  470: printSegment:                        │
+   DEBUG: 2026-03-12 14:34:12,268:      pdf_renderer.py:  470: printSegment: ┌──────────────────────▼───────────────────────────┐
+   DEBUG: 2026-03-12 14:34:12,269:      pdf_renderer.py:  470: printSegment: │                信息检索层                          │
+   DEBUG: 2026-03-12 14:34:12,270:      pdf_renderer.py:  470: printSegment: │    RAG: YouTube字幕 + Tavily新闻搜索              │
+   DEBUG: 2026-03-12 14:34:12,270:      pdf_renderer.py:  470: printSegment: │    RAFT风格文档混合与评估                         │
+   DEBUG: 2026-03-12 14:34:12,271:      pdf_renderer.py:  470: printSegment: │    信息分区实现不对称性                            │
+   DEBUG: 2026-03-12 14:34:12,271:      pdf_renderer.py:  470: printSegment: └──────────────────────────────────────────────────┘
+   DEBUG: 2026-03-12 14:34:12,272:      pdf_renderer.py:  470: printSegment: 3.2 设计原则
+   DEBUG: 2026-03-12 14:34:12,272:      pdf_renderer.py:  470: printSegment: 原则1：结构化分歧优于共识。
+   DEBUG: 2026-03-12 14:34:12,323:      pdf_renderer.py:  470: printSegment:  系统的设计目标是暴露分歧而非压制分歧。专家立场预先分配，以确保多元观点。
+   DEBUG: 2026-03-12 14:34:12,324:      pdf_renderer.py:  470: printSegment: 原则2：用户是参与者而非旁观者。
+   DEBUG: 2026-03-12 14:34:12,324:      pdf_renderer.py:  470: printSegment:  与自动化预测系统不同，用户在第2阶段积极与专家互动，既挑战专家也被专家挑战。
+   DEBUG: 2026-03-12 14:34:12,325:      pdf_renderer.py:  470: printSegment: 原则3：基于知识的专业性。
+   DEBUG: 2026-03-12 14:34:12,325:      pdf_renderer.py:  470: printSegment:  每位专家的分析行为锚定在具体的知识档案上，而非仅仅是人设描述。
+   DEBUG: 2026-03-12 14:34:12,326:      pdf_renderer.py:  470: printSegment: 原则4：并行执行提升效率。
+   DEBUG: 2026-03-12 14:34:12,326:      pdf_renderer.py:  470: printSegment:  所有阶段使用并行执行（
+   DEBUG: 2026-03-12 14:34:12,326:      pdf_renderer.py:  470: printSegment: ThreadPoolExecutor
+   DEBUG: 2026-03-12 14:34:12,327:      pdf_renderer.py:  470: printSegment: ），最小化延迟。
+   DEBUG: 2026-03-12 14:34:12,327:      pdf_renderer.py:  470: printSegment: 4. Level 2 AI克隆技术
+   DEBUG: 2026-03-12 14:34:12,328:      pdf_renderer.py:  470: printSegment: 4.1 克隆层级体系
+   DEBUG: 2026-03-12 14:34:12,328:      pdf_renderer.py:  470: printSegment: 我们定义了三个级别的AI专家克隆：
+   DEBUG: 2026-03-12 14:34:12,329:      pdf_renderer.py:  470: printSegment: | 级别 | 方法 | 人格深度 | 成本 |
+   DEBUG: 2026-03-12 14:34:12,329:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,330:      pdf_renderer.py:  470: printSegment: |------|------|---------|------|
+   DEBUG: 2026-03-12 14:34:12,330:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,330:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-03-12 14:34:12,331:      pdf_renderer.py:  470: printSegment: Level 1
+   DEBUG: 2026-03-12 14:34:12,331:      pdf_renderer.py:  470: printSegment:  | 系统提示词人设（名字 + 描述） | 浅层：同一个LLM戴不同帽子 | 低 |
+   DEBUG: 2026-03-12 14:34:12,332:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,332:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-03-12 14:34:12,332:      pdf_renderer.py:  470: printSegment: Level 2
+   DEBUG: 2026-03-12 14:34:12,333:      pdf_renderer.py:  470: printSegment:  | 知识档案注入（框架 + 少样本 + 风格） | 中层：一致的分析行为模式 | 中 |
+   DEBUG: 2026-03-12 14:34:12,333:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,334:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-03-12 14:34:12,334:      pdf_renderer.py:  470: printSegment: Level 3
+   DEBUG: 2026-03-12 14:34:12,335:      pdf_renderer.py:  470: printSegment:  | 微调模型（基于专家语料的LoRA适配器） | 深层：内化的专业知识 | 高 |
+   DEBUG: 2026-03-12 14:34:12,335:      pdf_renderer.py:  470: printSegment: Level 1 是大多数多智能体系统采用的方法——它提供表面的角色区分，但智能体很快会收敛到相似的推理模式。Level 3 需要大量训练数据和算力。
+   DEBUG: 2026-03-12 14:34:12,336:      pdf_renderer.py:  470: printSegment: Level 2 是实用的最佳平衡点
+   DEBUG: 2026-03-12 14:34:12,336:      pdf_renderer.py:  470: printSegment: ：提供有意义的行为差异化，同时不需要微调的成本。
+   DEBUG: 2026-03-12 14:34:12,338:      pdf_renderer.py:  470: printSegment: 4.2 知识档案结构
+   DEBUG: 2026-03-12 14:34:12,340:      pdf_renderer.py:  470: printSegment: 每位专家的知识档案是一个结构化的Markdown文档，包含：
+   DEBUG: 2026-03-12 14:34:12,341:      pdf_renderer.py:  470: printSegment: # 专家名称 — 知识档案
+   DEBUG: 2026-03-12 14:34:12,342:      pdf_renderer.py:  470: printSegment: ## 原型
+   DEBUG: 2026-03-12 14:34:12,342:      pdf_renderer.py:  470: printSegment: 该克隆体所参照的真实专家/学派。
+   DEBUG: 2026-03-12 14:34:12,343:      pdf_renderer.py:  470: printSegment: ## 核心分析框架
+   DEBUG: 2026-03-12 14:34:12,343:      pdf_renderer.py:  470: printSegment: ### 关键分析维度
+   DEBUG: 2026-03-12 14:34:12,344:      pdf_renderer.py:  470: printSegment: 专家主要分析工具和指标的编号列表。
+   DEBUG: 2026-03-12 14:34:12,344:      pdf_renderer.py:  470: printSegment: ### 核心原则/信念
+   DEBUG: 2026-03-12 14:34:12,344:      pdf_renderer.py:  470: printSegment: 专家的基本假设和偏好。
+   DEBUG: 2026-03-12 14:34:12,345:      pdf_renderer.py:  470: printSegment: ## 少样本示例
+   DEBUG: 2026-03-12 14:34:12,345:      pdf_renderer.py:  470: printSegment: ### 示例1：[场景类型]
+   DEBUG: 2026-03-12 14:34:12,401:      pdf_renderer.py:  470: printSegment: **问题/用户观点**: [输入]
+   DEBUG: 2026-03-12 14:34:12,402:      pdf_renderer.py:  470: printSegment: **分析**: [展示框架使用的完整专家风格回应]
+   DEBUG: 2026-03-12 14:34:12,403:      pdf_renderer.py:  470: printSegment: ### 示例2：[场景类型]
+   DEBUG: 2026-03-12 14:34:12,403:      pdf_renderer.py:  470: printSegment: ...
+   DEBUG: 2026-03-12 14:34:12,403:      pdf_renderer.py:  470: printSegment: ### 示例3：[场景类型]
+   DEBUG: 2026-03-12 14:34:12,404:      pdf_renderer.py:  470: printSegment: ...
+   DEBUG: 2026-03-12 14:34:12,404:      pdf_renderer.py:  470: printSegment: ## 典型表达与风格
+   DEBUG: 2026-03-12 14:34:12,404:      pdf_renderer.py:  470: printSegment: 保持一致性的特征性表达方式。
+   DEBUG: 2026-03-12 14:34:12,405:      pdf_renderer.py:  470: printSegment: 4.3 提示词架构
+   DEBUG: 2026-03-12 14:34:12,405:      pdf_renderer.py:  470: printSegment: build_clone_prompt()
+   DEBUG: 2026-03-12 14:34:12,406:      pdf_renderer.py:  470: printSegment:  函数组装一个4层系统提示词：
+   DEBUG: 2026-03-12 14:34:12,406:      pdf_renderer.py:  470: printSegment: ┌─────────────────────────────────┐
+   DEBUG: 2026-03-12 14:34:12,406:      pdf_renderer.py:  470: printSegment: │ 第1层：身份定义                  │  专家名称、角色、专业领域
+   DEBUG: 2026-03-12 14:34:12,407:      pdf_renderer.py:  470: printSegment: ├─────────────────────────────────┤
+   DEBUG: 2026-03-12 14:34:12,407:      pdf_renderer.py:  470: printSegment: │ 第2层：知识档案                  │  约占总提示词的80%
+   DEBUG: 2026-03-12 14:34:12,407:      pdf_renderer.py:  470: printSegment: │  - 分析框架                     │  框架、示例、风格特征
+   DEBUG: 2026-03-12 14:34:12,408:      pdf_renderer.py:  470: printSegment: │  - 3个少样本示例                │  从Markdown文件加载
+   DEBUG: 2026-03-12 14:34:12,408:      pdf_renderer.py:  470: printSegment: │  - 典型表达                     │
+   DEBUG: 2026-03-12 14:34:12,409:      pdf_renderer.py:  470: printSegment: ├─────────────────────────────────┤
+   DEBUG: 2026-03-12 14:34:12,409:      pdf_renderer.py:  470: printSegment: │ 第3层：行为规则                  │  保持角色、使用框架、
+   DEBUG: 2026-03-12 14:34:12,409:      pdf_renderer.py:  470: printSegment: │                                 │  诚实建议、给出具体操作
+   DEBUG: 2026-03-12 14:34:12,410:      pdf_renderer.py:  470: printSegment: ├─────────────────────────────────┤
+   DEBUG: 2026-03-12 14:34:12,410:      pdf_renderer.py:  470: printSegment: │ 第4层：RAG上下文                │  当前话题的检索文档
+   DEBUG: 2026-03-12 14:34:12,411:      pdf_renderer.py:  470: printSegment: └─────────────────────────────────┘
+   DEBUG: 2026-03-12 14:34:12,411:      pdf_renderer.py:  470: printSegment: 知识档案约占系统提示词的80%，使专家的
+   DEBUG: 2026-03-12 14:34:12,411:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,412:      pdf_renderer.py:  470: printSegment: 分析DNA
+   DEBUG: 2026-03-12 14:34:12,412:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,412:      pdf_renderer.py:  470: printSegment: 成为LLM上下文窗口中的主导信号。
+   DEBUG: 2026-03-12 14:34:12,413:      pdf_renderer.py:  470: printSegment: 4.4 加密货币领域专家克隆体
+   DEBUG: 2026-03-12 14:34:12,413:      pdf_renderer.py:  470: printSegment: | 专家 | 原型 | 立场 | 核心框架 |
+   DEBUG: 2026-03-12 14:34:12,413:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,414:      pdf_renderer.py:  470: printSegment: |------|------|------|---------|
+   DEBUG: 2026-03-12 14:34:12,414:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,415:      pdf_renderer.py:  470: printSegment: | 链上数据分析师 | Willy Woo / Glassnode | 中立 | MVRV、NUPL、交易所资金流、链上指标 |
+   DEBUG: 2026-03-12 14:34:12,415:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,416:      pdf_renderer.py:  470: printSegment: | 宏观经济学家 | Raoul Pal / Lyn Alden | 质疑 |
+   DEBUG: 2026-03-12 14:34:12,416:      pdf_renderer.py:  470: printSegment: 全球流动性周期、实际利率、债务/GDP |
+   DEBUG: 2026-03-12 14:34:12,417:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,418:      pdf_renderer.py:  470: printSegment: | 加密原生研究员 | Arthur Hayes / Messari | 支持 | 叙事周期、生态指标、减半效应 |
+   DEBUG: 2026-03-12 14:34:12,418:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,419:      pdf_renderer.py:  470: printSegment: | 风险管理顾问 | Nassim Taleb / Kelly准则 | 审慎 | 最大回撤、VaR、仓位管理、波动率 |
+   DEBUG: 2026-03-12 14:34:12,419:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,420:      pdf_renderer.py:  470: printSegment: | 监管政策专家 | a16z Policy / Coin Center | 中立 |
+   DEBUG: 2026-03-12 14:34:12,420:      pdf_renderer.py:  470: printSegment: SEC执法、全球监管框架、合规性 |
+   DEBUG: 2026-03-12 14:34:12,420:      pdf_renderer.py:  470: printSegment: 4.5 体育领域专家克隆体
+   DEBUG: 2026-03-12 14:34:12,421:      pdf_renderer.py:  470: printSegment: | 专家 | 原型 | 立场 | 核心框架 |
+   DEBUG: 2026-03-12 14:34:12,421:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,422:      pdf_renderer.py:  470: printSegment: |------|------|------|---------|
+   DEBUG: 2026-03-12 14:34:12,422:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,423:      pdf_renderer.py:  470: printSegment: | 数据统计专家 | FiveThirtyEight / Nate Silver | 中立 | ELO、净效率值、蒙特卡洛模拟、r² |
+   DEBUG: 2026-03-12 14:34:12,423:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,424:      pdf_renderer.py:  470: printSegment: | 战术分析师 | Zach Lowe / Zonal Marking | 中立 |
+   DEBUG: 2026-03-12 14:34:12,424:      pdf_renderer.py:  470: printSegment: 对位分析、教练调整、体系适配 |
+   DEBUG: 2026-03-12 14:34:12,425:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,425:      pdf_renderer.py:  470: printSegment: | 伤病体能专家 | 运动医学视角 | 审慎 | 伤病复发率、负荷管理、年龄衰退曲线 |
+   DEBUG: 2026-03-12 14:34:12,426:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,426:      pdf_renderer.py:  470: printSegment: | 博彩市场分析师 | Pinnacle / Sharp市场理论 | 中立 | 收盘线价值、隐含概率、聪明钱 vs 公众投注 |
+   DEBUG: 2026-03-12 14:34:12,427:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,427:      pdf_renderer.py:  470: printSegment: | 资深体育评论员 | Bill Simmons / 叙事学派 | 支持 | 历史类比、冠军DNA、无形因素 |
+   DEBUG: 2026-03-12 14:34:12,428:      pdf_renderer.py:  470: printSegment: 5. 多阶段咨询流程
+   DEBUG: 2026-03-12 14:34:12,429:      pdf_renderer.py:  470: printSegment: 5.1 流程总览
+   DEBUG: 2026-03-12 14:34:12,429:      pdf_renderer.py:  470: printSegment: 用户输入：话题 + 观点 + 领域
+   DEBUG: 2026-03-12 14:34:12,429:      pdf_renderer.py:  470: printSegment:          │
+   DEBUG: 2026-03-12 14:34:12,430:      pdf_renderer.py:  470: printSegment:          ▼
+   DEBUG: 2026-03-12 14:34:12,430:      pdf_renderer.py:  470: printSegment:     ┌──────────┐     RAG检索：YouTube字幕
+   DEBUG: 2026-03-12 14:34:12,430:      pdf_renderer.py:  470: printSegment:     │ 上下文检索 │──── + 新闻文章，RAFT风格混合
+   DEBUG: 2026-03-12 14:34:12,431:      pdf_renderer.py:  470: printSegment:     │          │     + 信息分区
+   DEBUG: 2026-03-12 14:34:12,431:      pdf_renderer.py:  470: printSegment:     └────┬─────┘
+   DEBUG: 2026-03-12 14:34:12,431:      pdf_renderer.py:  470: printSegment:          │
+   DEBUG: 2026-03-12 14:34:12,432:      pdf_renderer.py:  470: printSegment:          ▼
+   DEBUG: 2026-03-12 14:34:12,432:      pdf_renderer.py:  470: printSegment:     ┌──────────┐     5位专家独立评估
+   DEBUG: 2026-03-12 14:34:12,432:      pdf_renderer.py:  470: printSegment:     │ 第1阶段   │──── 并行执行（ThreadPoolExecutor）
+   DEBUG: 2026-03-12 14:34:12,433:      pdf_renderer.py:  470: printSegment:     │ 独立评估  │     输出：评价、认同/质疑点、
+   DEBUG: 2026-03-12 14:34:12,433:      pdf_renderer.py:  470: printSegment:     └────┬─────┘     关键洞察、置信度评分
+   DEBUG: 2026-03-12 14:34:12,433:      pdf_renderer.py:  470: printSegment:          │
+   DEBUG: 2026-03-12 14:34:12,434:      pdf_renderer.py:  470: printSegment:          ▼
+   DEBUG: 2026-03-12 14:34:12,434:      pdf_renderer.py:  470: printSegment:     ┌──────────┐     用户阅读评估结果
+   DEBUG: 2026-03-12 14:34:12,435:      pdf_renderer.py:  470: printSegment:     │ 第2阶段   │──── 用户与专家一对一对话
+   DEBUG: 2026-03-12 14:34:12,435:      pdf_renderer.py:  470: printSegment:     │ 交互对话  │     维护对话历史
+   DEBUG: 2026-03-12 14:34:12,435:      pdf_renderer.py:  470: printSegment:     └────┬─────┘     用户满意后继续
+   DEBUG: 2026-03-12 14:34:12,436:      pdf_renderer.py:  470: printSegment:          │
+   DEBUG: 2026-03-12 14:34:12,436:      pdf_renderer.py:  470: printSegment:          ▼
+   DEBUG: 2026-03-12 14:34:12,436:      pdf_renderer.py:  470: printSegment:     ┌──────────┐     每位专家看到其他所有专家的评估
+   DEBUG: 2026-03-12 14:34:12,437:      pdf_renderer.py:  470: printSegment:     │ 第3阶段   │──── 专家回应、更新评估、识别盲点
+   DEBUG: 2026-03-12 14:34:12,437:      pdf_renderer.py:  470: printSegment:     │ 专家讨论  │     并行执行
+   DEBUG: 2026-03-12 14:34:12,437:      pdf_renderer.py:  470: printSegment:     └────┬─────┘
+   DEBUG: 2026-03-12 14:34:12,438:      pdf_renderer.py:  470: printSegment:          │
+   DEBUG: 2026-03-12 14:34:12,438:      pdf_renderer.py:  470: printSegment:          ▼
+   DEBUG: 2026-03-12 14:34:12,438:      pdf_renderer.py:  470: printSegment:     ┌──────────┐     每位专家给出最终评估
+   DEBUG: 2026-03-12 14:34:12,439:      pdf_renderer.py:  470: printSegment:     │ 第4阶段   │──── 具体建议 + 风险警示
+   DEBUG: 2026-03-12 14:34:12,439:      pdf_renderer.py:  470: printSegment:     │ 最终评估  │     置信度追踪（第1阶段 → 第4阶段）
+   DEBUG: 2026-03-12 14:34:12,440:      pdf_renderer.py:  470: printSegment:     └────┬─────┘
+   DEBUG: 2026-03-12 14:34:12,440:      pdf_renderer.py:  470: printSegment:          │
+   DEBUG: 2026-03-12 14:34:12,440:      pdf_renderer.py:  470: printSegment:          ▼
+   DEBUG: 2026-03-12 14:34:12,441:      pdf_renderer.py:  470: printSegment:     ┌──────────┐     聚合洞察、盲点、
+   DEBUG: 2026-03-12 14:34:12,441:      pdf_renderer.py:  470: printSegment:     │ 报告综合  │──── 建议、风险警示
+   DEBUG: 2026-03-12 14:34:12,441:      pdf_renderer.py:  470: printSegment:     │          │     置信度变化可视化
+   DEBUG: 2026-03-12 14:34:12,442:      pdf_renderer.py:  470: printSegment:     └──────────┘
+   DEBUG: 2026-03-12 14:34:12,442:      pdf_renderer.py:  470: printSegment: 5.2 第1阶段：独立评估
+   DEBUG: 2026-03-12 14:34:12,443:      pdf_renderer.py:  470: printSegment: 每位专家在看不到其他专家观点的情况下独立评估用户的观点。这能防止锚定效应和群体思维。
+   DEBUG: 2026-03-12 14:34:12,443:      pdf_renderer.py:  470: printSegment: 输入
+   DEBUG: 2026-03-12 14:34:12,444:      pdf_renderer.py:  470: printSegment: ：话题、用户观点、RAG上下文（通过信息分区实现专家专属）
+   DEBUG: 2026-03-12 14:34:12,445:      pdf_renderer.py:  470: printSegment: 输出结构
+   DEBUG: 2026-03-12 14:34:12,445:      pdf_renderer.py:  470: printSegment: ：
+   DEBUG: 2026-03-12 14:34:12,445:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,446:      pdf_renderer.py:  470: printSegment: ASSESSMENT
+   DEBUG: 2026-03-12 14:34:12,446:      pdf_renderer.py:  470: printSegment: ：整体评价（支持/部分支持/反对）
+   DEBUG: 2026-03-12 14:34:12,447:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,447:      pdf_renderer.py:  470: printSegment: AGREE_POINTS
+   DEBUG: 2026-03-12 14:34:12,448:      pdf_renderer.py:  470: printSegment: ：专家认同的部分及理由
+   DEBUG: 2026-03-12 14:34:12,448:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,448:      pdf_renderer.py:  470: printSegment: CHALLENGE_POINTS
+   DEBUG: 2026-03-12 14:34:12,449:      pdf_renderer.py:  470: printSegment: ：专家质疑的部分及证据
+   DEBUG: 2026-03-12 14:34:12,449:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,450:      pdf_renderer.py:  470: printSegment: KEY_INSIGHT
+   DEBUG: 2026-03-12 14:34:12,450:      pdf_renderer.py:  470: printSegment: ：用户最应该知道的一个关键信息
+   DEBUG: 2026-03-12 14:34:12,451:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,451:      pdf_renderer.py:  470: printSegment: CONFIDENCE
+   DEBUG: 2026-03-12 14:34:12,451:      pdf_renderer.py:  470: printSegment: ：0-100%的置信度评分
+   DEBUG: 2026-03-12 14:34:12,452:      pdf_renderer.py:  470: printSegment: 设计理由
+   DEBUG: 2026-03-12 14:34:12,452:      pdf_renderer.py:  470: printSegment: ：通过要求结构化的认同和质疑，我们防止了迎合性失败模式。即使专家大体同意，也必须找出可质疑的点。
+   DEBUG: 2026-03-12 14:34:12,453:      pdf_renderer.py:  470: printSegment: 5.3 第2阶段：交互对话
+   DEBUG: 2026-03-12 14:34:12,453:      pdf_renderer.py:  470: printSegment: 用户阅读所有第1阶段评估后，可以与任何专家进行自由对话。这是
+   DEBUG: 2026-03-12 14:34:12,454:      pdf_renderer.py:  470: printSegment: 用户参与闭环
+   DEBUG: 2026-03-12 14:34:12,454:      pdf_renderer.py:  470: printSegment: 组件，区分我们的系统与全自动化多智能体辩论。
+   DEBUG: 2026-03-12 14:34:12,455:      pdf_renderer.py:  470: printSegment: 核心特性
+   DEBUG: 2026-03-12 14:34:12,455:      pdf_renderer.py:  470: printSegment: ：
+   DEBUG: 2026-03-12 14:34:12,456:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,456:      pdf_renderer.py:  470: printSegment: 每位专家维护独立的对话历史
+   DEBUG: 2026-03-12 14:34:12,456:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,457:      pdf_renderer.py:  470: printSegment: 专家回应具有上下文感知（话题 + 原始观点 + 对话历史）
+   DEBUG: 2026-03-12 14:34:12,457:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,457:      pdf_renderer.py:  470: printSegment: 无强制结构——用户驱动对话深度
+   DEBUG: 2026-03-12 14:34:12,458:      pdf_renderer.py:  470: printSegment: 设计理由
+   DEBUG: 2026-03-12 14:34:12,458:      pdf_renderer.py:  470: printSegment: ：用户往往有追问需求或想挑战专家的具体观点。这个阶段允许用户测试专家推理的鲁棒性。
+   DEBUG: 2026-03-12 14:34:12,459:      pdf_renderer.py:  470: printSegment: 5.4 第3阶段：专家讨论
+   DEBUG: 2026-03-12 14:34:12,459:      pdf_renderer.py:  470: printSegment: 专家审阅彼此的第1阶段评估，进行结构化的同行讨论。
+   DEBUG: 2026-03-12 14:34:12,460:      pdf_renderer.py:  470: printSegment: 输入
+   DEBUG: 2026-03-12 14:34:12,460:      pdf_renderer.py:  470: printSegment: ：每位专家看到所有其他专家的评估（不包括自己的——他们已经有了）
+   DEBUG: 2026-03-12 14:34:12,460:      pdf_renderer.py:  470: printSegment: 输出结构
+   DEBUG: 2026-03-12 14:34:12,461:      pdf_renderer.py:  470: printSegment: ：
+   DEBUG: 2026-03-12 14:34:12,463:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,463:      pdf_renderer.py:  470: printSegment: RESPONSES
+   DEBUG: 2026-03-12 14:34:12,464:      pdf_renderer.py:  470: printSegment: ：针对每位专家的定向回应（
+   DEBUG: 2026-03-12 14:34:12,464:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,464:      pdf_renderer.py:  470: printSegment: 回应 
+   DEBUG: 2026-03-12 14:34:12,465:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2026-03-12 14:34:12,465:      pdf_renderer.py:  470: printSegment: 专家名
+   DEBUG: 2026-03-12 14:34:12,466:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2026-03-12 14:34:12,466:      pdf_renderer.py:  470: printSegment: ：
+   DEBUG: 2026-03-12 14:34:12,467:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2026-03-12 14:34:12,467:      pdf_renderer.py:  470: printSegment: 内容
+   DEBUG: 2026-03-12 14:34:12,467:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2026-03-12 14:34:12,468:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,468:      pdf_renderer.py:  470: printSegment: ）
+   DEBUG: 2026-03-12 14:34:12,468:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,469:      pdf_renderer.py:  470: printSegment: UPDATED_ASSESSMENT
+   DEBUG: 2026-03-12 14:34:12,469:      pdf_renderer.py:  470: printSegment: ：考虑同行观点后的修正评价
+   DEBUG: 2026-03-12 14:34:12,470:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,470:      pdf_renderer.py:  470: printSegment: BLIND_SPOTS
+   DEBUG: 2026-03-12 14:34:12,470:      pdf_renderer.py:  470: printSegment: ：尚未被充分讨论的议题
+   DEBUG: 2026-03-12 14:34:12,471:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,471:      pdf_renderer.py:  470: printSegment: CONFIDENCE
+   DEBUG: 2026-03-12 14:34:12,472:      pdf_renderer.py:  470: printSegment: ：更新后的置信度
+   DEBUG: 2026-03-12 14:34:12,472:      pdf_renderer.py:  470: printSegment: 设计理由
+   DEBUG: 2026-03-12 14:34:12,473:      pdf_renderer.py:  470: printSegment: ：专家间讨论强制交叉审查。过度自信的专家必须回应同行的挑战。遗漏因素的专家必须承认不足。这模拟了真实专家委员会的动态。
+   DEBUG: 2026-03-12 14:34:12,473:      pdf_renderer.py:  470: printSegment: 5.5 第4阶段：最终评估
+   DEBUG: 2026-03-12 14:34:12,474:      pdf_renderer.py:  470: printSegment: 在完整讨论之后，每位专家给出整合第1-3阶段所有信息的最终评估。
+   DEBUG: 2026-03-12 14:34:12,474:      pdf_renderer.py:  470: printSegment: 输出结构
+   DEBUG: 2026-03-12 14:34:12,474:      pdf_renderer.py:  470: printSegment: ：
+   DEBUG: 2026-03-12 14:34:12,475:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,475:      pdf_renderer.py:  470: printSegment: FINAL_ASSESSMENT
+   DEBUG: 2026-03-12 14:34:12,476:      pdf_renderer.py:  470: printSegment: ：2-3句话的结论性评价
+   DEBUG: 2026-03-12 14:34:12,476:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,477:      pdf_renderer.py:  470: printSegment: RECOMMENDATION
+   DEBUG: 2026-03-12 14:34:12,477:      pdf_renderer.py:  470: printSegment: ：具体、可操作的建议
+   DEBUG: 2026-03-12 14:34:12,477:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,478:      pdf_renderer.py:  470: printSegment: RISK_WARNING
+   DEBUG: 2026-03-12 14:34:12,478:      pdf_renderer.py:  470: printSegment: ：1-2个用户应监控的关键风险
+   DEBUG: 2026-03-12 14:34:12,479:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,479:      pdf_renderer.py:  470: printSegment: CONFIDENCE
+   DEBUG: 2026-03-12 14:34:12,480:      pdf_renderer.py:  470: printSegment: ：最终置信度评分
+   DEBUG: 2026-03-12 14:34:12,480:      pdf_renderer.py:  470: printSegment: 5.6 报告综合
+   DEBUG: 2026-03-12 14:34:12,480:      pdf_renderer.py:  470: printSegment: 系统将所有第4阶段输出聚合为结构化咨询报告：
+   DEBUG: 2026-03-12 14:34:12,481:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2026-03-12 14:34:12,481:      pdf_renderer.py:  470: printSegment: 专家面板概要
+   DEBUG: 2026-03-12 14:34:12,482:      pdf_renderer.py:  470: printSegment: ：每位专家的最终评估
+   DEBUG: 2026-03-12 14:34:12,482:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2026-03-12 14:34:12,483:      pdf_renderer.py:  470: printSegment: 关键洞察
+   DEBUG: 2026-03-12 14:34:12,483:      pdf_renderer.py:  470: printSegment: ：每位专家从其领域提供的独特见解
+   DEBUG: 2026-03-12 14:34:12,483:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2026-03-12 14:34:12,484:      pdf_renderer.py:  470: printSegment: 盲点识别
+   DEBUG: 2026-03-12 14:34:12,484:      pdf_renderer.py:  470: printSegment: ：讨论过程中识别出的分析盲区
+   DEBUG: 2026-03-12 14:34:12,485:      pdf_renderer.py:  470: printSegment:  4 
+   DEBUG: 2026-03-12 14:34:12,485:      pdf_renderer.py:  470: printSegment: 行动建议
+   DEBUG: 2026-03-12 14:34:12,486:      pdf_renderer.py:  470: printSegment: ：来自所有专家的可操作建议
+   DEBUG: 2026-03-12 14:34:12,486:      pdf_renderer.py:  470: printSegment:  5 
+   DEBUG: 2026-03-12 14:34:12,487:      pdf_renderer.py:  470: printSegment: 风险警示
+   DEBUG: 2026-03-12 14:34:12,487:      pdf_renderer.py:  470: printSegment: ：共识性和分歧性的风险评估
+   DEBUG: 2026-03-12 14:34:12,487:      pdf_renderer.py:  470: printSegment:  6 
+   DEBUG: 2026-03-12 14:34:12,488:      pdf_renderer.py:  470: printSegment: 置信度变化
+   DEBUG: 2026-03-12 14:34:12,488:      pdf_renderer.py:  470: printSegment: ：专家置信度从第1阶段到第4阶段的变化趋势
+   DEBUG: 2026-03-12 14:34:12,489:      pdf_renderer.py:  470: printSegment: 6. 信息检索与知识锚定
+   DEBUG: 2026-03-12 14:34:12,490:      pdf_renderer.py:  470: printSegment: 6.1 RAG管道
+   DEBUG: 2026-03-12 14:34:12,490:      pdf_renderer.py:  470: printSegment: 系统检索时效性信息以锚定专家分析：
+   DEBUG: 2026-03-12 14:34:12,491:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2026-03-12 14:34:12,491:      pdf_renderer.py:  470: printSegment: YouTube字幕检索
+   DEBUG: 2026-03-12 14:34:12,492:      pdf_renderer.py:  470: printSegment: ：搜索与话题相关的视频，通过 
+   DEBUG: 2026-03-12 14:34:12,492:      pdf_renderer.py:  470: printSegment: YouTubeTranscriptApi
+   DEBUG: 2026-03-12 14:34:12,493:      pdf_renderer.py:  470: printSegment:  提取完整字幕。更长的视频（意味着更深入的分析）被优先排列。
+   DEBUG: 2026-03-12 14:34:12,493:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2026-03-12 14:34:12,493:      pdf_renderer.py:  470: printSegment: 新闻搜索
+   DEBUG: 2026-03-12 14:34:12,494:      pdf_renderer.py:  470: printSegment: ：Tavily API 提供近期新闻文章作为补充上下文。
+   DEBUG: 2026-03-12 14:34:12,494:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2026-03-12 14:34:12,494:      pdf_renderer.py:  470: printSegment: RAFT风格文档混合
+   DEBUG: 2026-03-12 14:34:12,495:      pdf_renderer.py:  470: printSegment: ：文档被分为
+   DEBUG: 2026-03-12 14:34:12,495:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,495:      pdf_renderer.py:  470: printSegment: oracle
+   DEBUG: 2026-03-12 14:34:12,496:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,496:      pdf_renderer.py:  470: printSegment: （高质量、相关）和
+   DEBUG: 2026-03-12 14:34:12,496:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,497:      pdf_renderer.py:  470: printSegment: distractor
+   DEBUG: 2026-03-12 14:34:12,497:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,498:      pdf_renderer.py:  470: printSegment: （可能不相关）两类，然后打乱混合。专家必须在分析过程中评估文档相关性。
+   DEBUG: 2026-03-12 14:34:12,499:      pdf_renderer.py:  470: printSegment: 6.2 信息分区
+   DEBUG: 2026-03-12 14:34:12,499:      pdf_renderer.py:  470: printSegment: 为在专家之间创造真实的信息不对称：
+   DEBUG: 2026-03-12 14:34:12,500:      pdf_renderer.py:  470: printSegment: 全部文档
+   DEBUG: 2026-03-12 14:34:12,500:      pdf_renderer.py:  470: printSegment:     ├── 40% → 共享池（所有专家都能看到）
+   DEBUG: 2026-03-12 14:34:12,501:      pdf_renderer.py:  470: printSegment:     └── 60% → 私有池
+   DEBUG: 2026-03-12 14:34:12,501:      pdf_renderer.py:  470: printSegment:                 ├── 专家1：2篇独占文档
+   DEBUG: 2026-03-12 14:34:12,501:      pdf_renderer.py:  470: printSegment:                 ├── 专家2：2篇独占文档
+   DEBUG: 2026-03-12 14:34:12,502:      pdf_renderer.py:  470: printSegment:                 ├── 专家3：2篇独占文档
+   DEBUG: 2026-03-12 14:34:12,502:      pdf_renderer.py:  470: printSegment:                 ├── 专家4：2篇独占文档
+   DEBUG: 2026-03-12 14:34:12,503:      pdf_renderer.py:  470: printSegment:                 └── 专家5：2篇独占文档
+   DEBUG: 2026-03-12 14:34:12,503:      pdf_renderer.py:  470: printSegment: 这确保专家拥有不同的信息基础，使其独立评估是真正多元的，而非表面多元。
+   DEBUG: 2026-03-12 14:34:12,504:      pdf_renderer.py:  470: printSegment: 7. 技术实现
+   DEBUG: 2026-03-12 14:34:12,504:      pdf_renderer.py:  470: printSegment: 7.1 系统要求
+   DEBUG: 2026-03-12 14:34:12,504:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,505:      pdf_renderer.py:  470: printSegment: Python 3.11+
+   DEBUG: 2026-03-12 14:34:12,505:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,506:      pdf_renderer.py:  470: printSegment: LLM后端
+   DEBUG: 2026-03-12 14:34:12,507:      pdf_renderer.py:  470: printSegment: ：DeepSeek V3（主要），可选 OpenAI GPT-4o、Anthropic Claude、Google Gemini
+   DEBUG: 2026-03-12 14:34:12,507:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,508:      pdf_renderer.py:  470: printSegment: API
+   DEBUG: 2026-03-12 14:34:12,508:      pdf_renderer.py:  470: printSegment: ：Tavily（新闻搜索）、YouTube Data API（字幕检索）
+   DEBUG: 2026-03-12 14:34:12,509:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,509:      pdf_renderer.py:  470: printSegment: 前端
+   DEBUG: 2026-03-12 14:34:12,509:      pdf_renderer.py:  470: printSegment: ：Streamlit + Plotly 可视化
+   DEBUG: 2026-03-12 14:34:12,510:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,510:      pdf_renderer.py:  470: printSegment: 执行
+   DEBUG: 2026-03-12 14:34:12,511:      pdf_renderer.py:  470: printSegment: ：ThreadPoolExecutor 并行执行
+   DEBUG: 2026-03-12 14:34:12,511:      pdf_renderer.py:  470: printSegment: 7.2 核心组件
+   DEBUG: 2026-03-12 14:34:12,511:      pdf_renderer.py:  470: printSegment: | 组件 | 文件 | 职责 |
+   DEBUG: 2026-03-12 14:34:12,512:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,512:      pdf_renderer.py:  470: printSegment: |------|------|------|
+   DEBUG: 2026-03-12 14:34:12,514:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,515:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-03-12 14:34:12,515:      pdf_renderer.py:  470: printSegment: ConsultAgent
+   DEBUG: 2026-03-12 14:34:12,516:      pdf_renderer.py:  470: printSegment:  | 
+   DEBUG: 2026-03-12 14:34:12,516:      pdf_renderer.py:  470: printSegment: consult_agent.py
+   DEBUG: 2026-03-12 14:34:12,517:      pdf_renderer.py:  470: printSegment:  | 单个专家智能体，含4阶段方法 |
+   DEBUG: 2026-03-12 14:34:12,517:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,518:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-03-12 14:34:12,518:      pdf_renderer.py:  470: printSegment: ConsultationPipeline
+   DEBUG: 2026-03-12 14:34:12,519:      pdf_renderer.py:  470: printSegment:  | 
+   DEBUG: 2026-03-12 14:34:12,520:      pdf_renderer.py:  470: printSegment: consultation.py
+   DEBUG: 2026-03-12 14:34:12,520:      pdf_renderer.py:  470: printSegment:  | 流程编排与报告综合 |
+   DEBUG: 2026-03-12 14:34:12,521:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,522:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-03-12 14:34:12,522:      pdf_renderer.py:  470: printSegment: build_clone_prompt
+   DEBUG: 2026-03-12 14:34:12,523:      pdf_renderer.py:  470: printSegment:  | 
+   DEBUG: 2026-03-12 14:34:12,523:      pdf_renderer.py:  470: printSegment: knowledge_loader.py
+   DEBUG: 2026-03-12 14:34:12,524:      pdf_renderer.py:  470: printSegment:  | Level 2 知识档案注入 |
+   DEBUG: 2026-03-12 14:34:12,524:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,525:      pdf_renderer.py:  470: printSegment: | 专家面板 | 
+   DEBUG: 2026-03-12 14:34:12,525:      pdf_renderer.py:  470: printSegment: expert_panels.py
+   DEBUG: 2026-03-12 14:34:12,526:      pdf_renderer.py:  470: printSegment:  | 领域专属专家配置 |
+   DEBUG: 2026-03-12 14:34:12,527:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,527:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-03-12 14:34:12,528:      pdf_renderer.py:  470: printSegment: NewsRetriever
+   DEBUG: 2026-03-12 14:34:12,528:      pdf_renderer.py:  470: printSegment:  | 
+   DEBUG: 2026-03-12 14:34:12,529:      pdf_renderer.py:  470: printSegment: retriever.py
+   DEBUG: 2026-03-12 14:34:12,529:      pdf_renderer.py:  470: printSegment:  | RAG管道（YouTube + 新闻） |
+   DEBUG: 2026-03-12 14:34:12,530:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,530:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-03-12 14:34:12,531:      pdf_renderer.py:  470: printSegment: partition_documents
+   DEBUG: 2026-03-12 14:34:12,531:      pdf_renderer.py:  470: printSegment:  | 
+   DEBUG: 2026-03-12 14:34:12,532:      pdf_renderer.py:  470: printSegment: info_partition.py
+   DEBUG: 2026-03-12 14:34:12,532:      pdf_renderer.py:  470: printSegment:  | 信息不对称创建 |
+   DEBUG: 2026-03-12 14:34:12,533:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,533:      pdf_renderer.py:  470: printSegment: | Streamlit应用 | 
+   DEBUG: 2026-03-12 14:34:12,534:      pdf_renderer.py:  470: printSegment: app_consult.py
+   DEBUG: 2026-03-12 14:34:12,534:      pdf_renderer.py:  470: printSegment:  | 用户界面与会话管理 |
+   DEBUG: 2026-03-12 14:34:12,535:      pdf_renderer.py:  470: printSegment: 7.3 多模型分发
+   DEBUG: 2026-03-12 14:34:12,535:      pdf_renderer.py:  470: printSegment: 智能体以轮询方式分配到可用的LLM后端：
+   DEBUG: 2026-03-12 14:34:12,536:      pdf_renderer.py:  470: printSegment: for i, expert in enumerate(panel):
+   DEBUG: 2026-03-12 14:34:12,537:      pdf_renderer.py:  470: printSegment:     backend = backends[i % len(backends)] if backends else None
+   DEBUG: 2026-03-12 14:34:12,538:      pdf_renderer.py:  470: printSegment:     agents.append(ConsultAgent(**expert, backend=backend))
+   DEBUG: 2026-03-12 14:34:12,538:      pdf_renderer.py:  470: printSegment: 这提供了：
+   DEBUG: 2026-03-12 14:34:12,539:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,540:      pdf_renderer.py:  470: printSegment: 推理多样性
+   DEBUG: 2026-03-12 14:34:12,540:      pdf_renderer.py:  470: printSegment: ：不同LLM具有不同的推理模式
+   DEBUG: 2026-03-12 14:34:12,541:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,542:      pdf_renderer.py:  470: printSegment: 成本优化
+   DEBUG: 2026-03-12 14:34:12,542:      pdf_renderer.py:  470: printSegment: ：混合高端和经济型模型
+   DEBUG: 2026-03-12 14:34:12,543:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,543:      pdf_renderer.py:  470: printSegment: 速率限制管理
+   DEBUG: 2026-03-12 14:34:12,544:      pdf_renderer.py:  470: printSegment: ：跨服务商分散API调用
+   DEBUG: 2026-03-12 14:34:12,545:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,545:      pdf_renderer.py:  470: printSegment: 容错性
+   DEBUG: 2026-03-12 14:34:12,546:      pdf_renderer.py:  470: printSegment: ：如果一个后端失败，其他后端继续工作
+   DEBUG: 2026-03-12 14:34:12,546:      pdf_renderer.py:  470: printSegment: 7.4 并行执行
+   DEBUG: 2026-03-12 14:34:12,547:      pdf_renderer.py:  470: printSegment: 所有阶段使用 
+   DEBUG: 2026-03-12 14:34:12,547:      pdf_renderer.py:  470: printSegment: ThreadPoolExecutor
+   DEBUG: 2026-03-12 14:34:12,548:      pdf_renderer.py:  470: printSegment: ，
+   DEBUG: 2026-03-12 14:34:12,548:      pdf_renderer.py:  470: printSegment: max_workers=len(agents)
+   DEBUG: 2026-03-12 14:34:12,550:      pdf_renderer.py:  470: printSegment:  实现全并行：
+   DEBUG: 2026-03-12 14:34:12,551:      pdf_renderer.py:  470: printSegment: with ThreadPoolExecutor(max_workers=len(self.agents)) as pool:
+   DEBUG: 2026-03-12 14:34:12,551:      pdf_renderer.py:  470: printSegment:     futures = {pool.submit(_run, a): a for a in self.agents}
+   DEBUG: 2026-03-12 14:34:12,552:      pdf_renderer.py:  470: printSegment:     for future in as_completed(futures):
+   DEBUG: 2026-03-12 14:34:12,552:      pdf_renderer.py:  470: printSegment:         agent = futures[future]
+   DEBUG: 2026-03-12 14:34:12,553:      pdf_renderer.py:  470: printSegment:         results[agent.name] = future.result()
+   DEBUG: 2026-03-12 14:34:12,553:      pdf_renderer.py:  470: printSegment: 完整咨询的典型耗时：2-4分钟（对比串行执行的10-20分钟）。
+   DEBUG: 2026-03-12 14:34:12,554:      pdf_renderer.py:  470: printSegment: 8. 应用案例
+   DEBUG: 2026-03-12 14:34:12,554:      pdf_renderer.py:  470: printSegment: 8.1 加密货币投资分析
+   DEBUG: 2026-03-12 14:34:12,555:      pdf_renderer.py:  470: printSegment: 场景
+   DEBUG: 2026-03-12 14:34:12,555:      pdf_renderer.py:  470: printSegment: ：用户认为
+   DEBUG: 2026-03-12 14:34:12,556:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,556:      pdf_renderer.py:  470: printSegment: 比特币今年能到15万美元，因为ETF资金持续流入和减半效应
+   DEBUG: 2026-03-12 14:34:12,556:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,557:      pdf_renderer.py:  470: printSegment: 。
+   DEBUG: 2026-03-12 14:34:12,557:      pdf_renderer.py:  470: printSegment: 专家回应（示例）
+   DEBUG: 2026-03-12 14:34:12,558:      pdf_renderer.py:  470: printSegment: ：
+   DEBUG: 2026-03-12 14:34:12,558:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,558:      pdf_renderer.py:  470: printSegment: 链上数据分析师
+   DEBUG: 2026-03-12 14:34:12,559:      pdf_renderer.py:  470: printSegment: ：
+   DEBUG: 2026-03-12 14:34:12,559:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,559:      pdf_renderer.py:  470: printSegment: MVRV Z-Score 当前为2.8，表明仍有上行空间，但长期持有者（LTH）供应分布尚未达到典型的周期顶部模式。15万美元的目标需要持续的供应紧缩。
+   DEBUG: 2026-03-12 14:34:12,560:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,560:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,561:      pdf_renderer.py:  470: printSegment: 宏观经济学家
+   DEBUG: 2026-03-12 14:34:12,561:      pdf_renderer.py:  470: printSegment: ：
+   DEBUG: 2026-03-12 14:34:12,562:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,562:      pdf_renderer.py:  470: printSegment: ETF流入是需求端的正面因素，但15万美元意味着全球流动性的大幅扩张，这并非确定。如果通胀反弹，降息预期——比特币的关键驱动因素——可能崩塌。
+   DEBUG: 2026-03-12 14:34:12,563:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,563:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,564:      pdf_renderer.py:  470: printSegment: 风险管理顾问
+   DEBUG: 2026-03-12 14:34:12,564:      pdf_renderer.py:  470: printSegment: ：
+   DEBUG: 2026-03-12 14:34:12,565:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,565:      pdf_renderer.py:  470: printSegment: 历史最大回撤为77-93%，意味着你应该问自己：
+   DEBUG: 2026-03-12 14:34:12,566:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-03-12 14:34:12,566:      pdf_renderer.py:  470: printSegment: 在通往15万的路上，我能承受50%的跌幅吗？
+   DEBUG: 2026-03-12 14:34:12,619:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-03-12 14:34:12,620:      pdf_renderer.py:  470: printSegment: 仓位管理比价格目标更重要。
+   DEBUG: 2026-03-12 14:34:12,620:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,621:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,621:      pdf_renderer.py:  470: printSegment: 监管政策专家
+   DEBUG: 2026-03-12 14:34:12,622:      pdf_renderer.py:  470: printSegment: ：
+   DEBUG: 2026-03-12 14:34:12,622:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,623:      pdf_renderer.py:  470: printSegment: ETF获批是里程碑事件，但SEC对交易所的诉讼仍在进行中，制造了监管不确定性。一个突发的执法行动可能引发20%以上的回调。
+   DEBUG: 2026-03-12 14:34:12,623:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,624:      pdf_renderer.py:  470: printSegment: 交付的价值
+   DEBUG: 2026-03-12 14:34:12,625:      pdf_renderer.py:  470: printSegment: ：用户的论点并非错误，但他们了解到了此前未考虑的供应端约束、宏观依赖性、仓位管理风险和监管尾部风险。
+   DEBUG: 2026-03-12 14:34:12,626:      pdf_renderer.py:  470: printSegment: 8.2 体育预测分析
+   DEBUG: 2026-03-12 14:34:12,628:      pdf_renderer.py:  470: printSegment: 场景
+   DEBUG: 2026-03-12 14:34:12,629:      pdf_renderer.py:  470: printSegment: ：用户认为
+   DEBUG: 2026-03-12 14:34:12,629:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,630:      pdf_renderer.py:  470: printSegment: 湖人肯定能进季后赛，因为他们有LeBron
+   DEBUG: 2026-03-12 14:34:12,630:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,631:      pdf_renderer.py:  470: printSegment: 。
+   DEBUG: 2026-03-12 14:34:12,632:      pdf_renderer.py:  470: printSegment: 专家回应（示例）
+   DEBUG: 2026-03-12 14:34:12,633:      pdf_renderer.py:  470: printSegment: ：
+   DEBUG: 2026-03-12 14:34:12,634:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,635:      pdf_renderer.py:  470: printSegment: 数据统计专家
+   DEBUG: 2026-03-12 14:34:12,635:      pdf_renderer.py:  470: printSegment: ：
+   DEBUG: 2026-03-12 14:34:12,636:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,636:      pdf_renderer.py:  470: printSegment: 当前净效率值+1.2意味着约62%的季后赛概率。不是
+   DEBUG: 2026-03-12 14:34:12,637:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-03-12 14:34:12,637:      pdf_renderer.py:  470: printSegment: 肯定
+   DEBUG: 2026-03-12 14:34:12,640:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-03-12 14:34:12,641:      pdf_renderer.py:  470: printSegment: ——接近4成的模拟显示他们会错过。
+   DEBUG: 2026-03-12 14:34:12,641:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,642:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,643:      pdf_renderer.py:  470: printSegment: 伤病体能专家
+   DEBUG: 2026-03-12 14:34:12,643:      pdf_renderer.py:  470: printSegment: ：
+   DEBUG: 2026-03-12 14:34:12,644:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,645:      pdf_renderer.py:  470: printSegment: AD 27%的生涯缺阵率是关键变量。AD缺阵时，球队净效率值下降10分——从季后赛球队变成乐透球队。
+   DEBUG: 2026-03-12 14:34:12,645:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,646:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,646:      pdf_renderer.py:  470: printSegment: 博彩市场分析师
+   DEBUG: 2026-03-12 14:34:12,646:      pdf_renderer.py:  470: printSegment: ：
+   DEBUG: 2026-03-12 14:34:12,647:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,647:      pdf_renderer.py:  470: printSegment: 市场对湖人进季后赛的赔率为-150（隐含概率60%）。如果你认为
+   DEBUG: 2026-03-12 14:34:12,648:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-03-12 14:34:12,648:      pdf_renderer.py:  470: printSegment: 肯定
+   DEBUG: 2026-03-12 14:34:12,649:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2026-03-12 14:34:12,649:      pdf_renderer.py:  470: printSegment: （>90%），市场与你的判断相差30个百分点。
+   DEBUG: 2026-03-12 14:34:12,650:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,650:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,651:      pdf_renderer.py:  470: printSegment: 资深体育评论员
+   DEBUG: 2026-03-12 14:34:12,655:      pdf_renderer.py:  470: printSegment: ：
+   DEBUG: 2026-03-12 14:34:12,655:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,656:      pdf_renderer.py:  470: printSegment: 有球星不等于能进季后赛——参见2019年湖人（有LeBron，战绩33胜49负）。体系适配和健康同样重要。
+   DEBUG: 2026-03-12 14:34:12,656:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,657:      pdf_renderer.py:  470: printSegment: 交付的价值
+   DEBUG: 2026-03-12 14:34:12,657:      pdf_renderer.py:  470: printSegment: ：用户的信心从
+   DEBUG: 2026-03-12 14:34:12,658:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,658:      pdf_renderer.py:  470: printSegment: 肯定
+   DEBUG: 2026-03-12 14:34:12,659:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,659:      pdf_renderer.py:  470: printSegment: （约95%）被校准到更现实的60-65%，并获得了具体的监控变量。
+   DEBUG: 2026-03-12 14:34:12,660:      pdf_renderer.py:  470: printSegment: 9. 评估框架
+   DEBUG: 2026-03-12 14:34:12,661:      pdf_renderer.py:  470: printSegment: 9.1 评估指标
+   DEBUG: 2026-03-12 14:34:12,661:      pdf_renderer.py:  470: printSegment: 我们提出从三个维度评估该框架：
+   DEBUG: 2026-03-12 14:34:12,662:      pdf_renderer.py:  470: printSegment: 1. 观点校准度
+   DEBUG: 2026-03-12 14:34:12,662:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,663:      pdf_renderer.py:  470: printSegment: 测量用户在咨询前后的置信度变化
+   DEBUG: 2026-03-12 14:34:12,663:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,664:      pdf_renderer.py:  470: printSegment: 对于可验证的预测：使用Brier Score比较用户咨询后置信度与实际结果
+   DEBUG: 2026-03-12 14:34:12,664:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,665:      pdf_renderer.py:  470: printSegment: 目标：咨询后Brier Score 
+   DEBUG: 2026-03-12 14:34:12,665:      pdf_renderer.py:  470: printSegment: <
+   DEBUG: 2026-03-12 14:34:12,666:      pdf_renderer.py:  470: printSegment:  咨询前Brier Score
+   DEBUG: 2026-03-12 14:34:12,666:      pdf_renderer.py:  470: printSegment: 2. 盲点发现率
+   DEBUG: 2026-03-12 14:34:12,667:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,668:      pdf_renderer.py:  470: printSegment: 统计专家识别出的、用户未提及的独特风险因素/考虑事项数量
+   DEBUG: 2026-03-12 14:34:12,668:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,668:      pdf_renderer.py:  470: printSegment: 测量用户在第2阶段对话中对新因素的认知程度
+   DEBUG: 2026-03-12 14:34:12,670:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,671:      pdf_renderer.py:  470: printSegment: 目标：每次咨询 ≥ 3个新考虑因素
+   DEBUG: 2026-03-12 14:34:12,671:      pdf_renderer.py:  470: printSegment: 3. 专家多样性
+   DEBUG: 2026-03-12 14:34:12,671:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,672:      pdf_renderer.py:  470: printSegment: 测量专家间一致程度（越低 = 视角越多元）
+   DEBUG: 2026-03-12 14:34:12,672:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,672:      pdf_renderer.py:  470: printSegment: 追踪专家间置信度的离散程度
+   DEBUG: 2026-03-12 14:34:12,672:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,673:      pdf_renderer.py:  470: printSegment: 测量立场覆盖度：所有4种立场类型在输出中均有体现
+   DEBUG: 2026-03-12 14:34:12,673:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,673:      pdf_renderer.py:  470: printSegment: 目标：没有两位专家给出完全相同的评估
+   DEBUG: 2026-03-12 14:34:12,674:      pdf_renderer.py:  470: printSegment: 9.2 对比基线
+   DEBUG: 2026-03-12 14:34:12,674:      pdf_renderer.py:  470: printSegment: | 基线 | 描述 |
+   DEBUG: 2026-03-12 14:34:12,675:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,675:      pdf_renderer.py:  470: printSegment: |------|------|
+   DEBUG: 2026-03-12 14:34:12,675:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,676:      pdf_renderer.py:  470: printSegment: | 单一LLM | 同样的问题交给一个LLM实例 |
+   DEBUG: 2026-03-12 14:34:12,676:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,677:      pdf_renderer.py:  470: printSegment: | 单一LLM + 
+   DEBUG: 2026-03-12 14:34:12,677:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,677:      pdf_renderer.py:  470: printSegment: 魔鬼代言人
+   DEBUG: 2026-03-12 14:34:12,677:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,678:      pdf_renderer.py:  470: printSegment: 提示词 | 要求一个LLM挑战用户观点 |
+   DEBUG: 2026-03-12 14:34:12,678:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,679:      pdf_renderer.py:  470: printSegment: | Level 1 多智能体 | 5个仅有人设描述的智能体（无知识档案） |
+   DEBUG: 2026-03-12 14:34:12,679:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,679:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-03-12 14:34:12,680:      pdf_renderer.py:  470: printSegment: 本系统（Level 2）
+   DEBUG: 2026-03-12 14:34:12,680:      pdf_renderer.py:  470: printSegment:  | 5个具有知识档案的智能体 + 4阶段流程 |
+   DEBUG: 2026-03-12 14:34:12,680:      pdf_renderer.py:  470: printSegment: 9.3 实验设计（拟定）
+   DEBUG: 2026-03-12 14:34:12,681:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2026-03-12 14:34:12,681:      pdf_renderer.py:  470: printSegment: 数据集
+   DEBUG: 2026-03-12 14:34:12,682:      pdf_renderer.py:  470: printSegment: ：50个可验证的预测问题（25个加密货币，25个体育），具有已知结果
+   DEBUG: 2026-03-12 14:34:12,682:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2026-03-12 14:34:12,682:      pdf_renderer.py:  470: printSegment: 参与者
+   DEBUG: 2026-03-12 14:34:12,683:      pdf_renderer.py:  470: printSegment: ：具有预设观点（准确度各异）的模拟用户
+   DEBUG: 2026-03-12 14:34:12,683:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2026-03-12 14:34:12,683:      pdf_renderer.py:  470: printSegment: 指标
+   DEBUG: 2026-03-12 14:34:12,684:      pdf_renderer.py:  470: printSegment: ：前/后Brier Score、盲点数量、专家多样性指数
+   DEBUG: 2026-03-12 14:34:12,684:      pdf_renderer.py:  470: printSegment:  4 
+   DEBUG: 2026-03-12 14:34:12,684:      pdf_renderer.py:  470: printSegment: 假设
+   DEBUG: 2026-03-12 14:34:12,686:      pdf_renderer.py:  470: printSegment: ：Level 2克隆 + 多阶段流程比所有基线产出更好的校准度
+   DEBUG: 2026-03-12 14:34:12,686:      pdf_renderer.py:  470: printSegment: 10. 局限性与未来工作
+   DEBUG: 2026-03-12 14:34:12,687:      pdf_renderer.py:  470: printSegment: 10.1 当前局限
+   DEBUG: 2026-03-12 14:34:12,687:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2026-03-12 14:34:12,688:      pdf_renderer.py:  470: printSegment: 知识档案的时效性
+   DEBUG: 2026-03-12 14:34:12,688:      pdf_renderer.py:  470: printSegment: ：知识档案中的少样本示例是静态的，不会随市场条件或新事件更新。
+   DEBUG: 2026-03-12 14:34:12,689:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2026-03-12 14:34:12,689:      pdf_renderer.py:  470: printSegment: 缺乏真值反馈闭环
+   DEBUG: 2026-03-12 14:34:12,689:      pdf_renderer.py:  470: printSegment: ：系统不追踪其建议是否导致了更好的结果。反馈机制将使Level 3克隆（通过微调）成为可能。
+   DEBUG: 2026-03-12 14:34:12,690:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2026-03-12 14:34:12,690:      pdf_renderer.py:  470: printSegment: 语言
+   DEBUG: 2026-03-12 14:34:12,691:      pdf_renderer.py:  470: printSegment: ：当前实现以中文为主。国际化将扩大用户群。
+   DEBUG: 2026-03-12 14:34:12,691:      pdf_renderer.py:  470: printSegment:  4 
+   DEBUG: 2026-03-12 14:34:12,692:      pdf_renderer.py:  470: printSegment: 专家选择
+   DEBUG: 2026-03-12 14:34:12,692:      pdf_renderer.py:  470: printSegment: ：面板按领域预定义。理想状态下，系统应根据具体话题动态选择专家。
+   DEBUG: 2026-03-12 14:34:12,692:      pdf_renderer.py:  470: printSegment:  5 
+   DEBUG: 2026-03-12 14:34:12,693:      pdf_renderer.py:  470: printSegment: 成本
+   DEBUG: 2026-03-12 14:34:12,694:      pdf_renderer.py:  470: printSegment: ：5位专家的完整4阶段咨询需要约20次LLM调用。以当前API价格计算，每次咨询成本约$0.02-0.50（取决于模型选择）。
+   DEBUG: 2026-03-12 14:34:12,694:      pdf_renderer.py:  470: printSegment: 10.2 未来方向
+   DEBUG: 2026-03-12 14:34:12,695:      pdf_renderer.py:  470: printSegment: Level 3 克隆
+   DEBUG: 2026-03-12 14:34:12,695:      pdf_renderer.py:  470: printSegment: ：基于精选专家语料（如Arthur Hayes全部博客文章、Willy Woo全部推文）微调LoRA适配器，实现更深层的行为保真度。
+   DEBUG: 2026-03-12 14:34:12,696:      pdf_renderer.py:  470: printSegment: 动态专家选择
+   DEBUG: 2026-03-12 14:34:12,696:      pdf_renderer.py:  470: printSegment: ：使用分类器分析用户话题，从更大的专家池中自动组合最优专家面板。
+   DEBUG: 2026-03-12 14:34:12,697:      pdf_renderer.py:  470: printSegment: 专家持久记忆
+   DEBUG: 2026-03-12 14:34:12,697:      pdf_renderer.py:  470: printSegment: ：每位专家跨咨询维护记忆——记住过去的预测、追踪其准确率，并相应调整置信度。这与原预测市场系统中的 
+   DEBUG: 2026-03-12 14:34:12,697:      pdf_renderer.py:  470: printSegment: ReputationTracker
+   DEBUG: 2026-03-12 14:34:12,698:      pdf_renderer.py:  470: printSegment:  相连接。
+   DEBUG: 2026-03-12 14:34:12,699:      pdf_renderer.py:  470: printSegment: 认知偏差检测
+   DEBUG: 2026-03-12 14:34:12,699:      pdf_renderer.py:  470: printSegment: ：自动检测确认偏差（用户只与同意自己的专家互动）、锚定效应（尽管有强有力的反面证据，用户观点不变）和权威偏差（用户只信任置信度最高的专家）。
+   DEBUG: 2026-03-12 14:34:12,699:      pdf_renderer.py:  470: printSegment: 多轮咨询
+   DEBUG: 2026-03-12 14:34:12,700:      pdf_renderer.py:  470: printSegment: ：允许用户在真实世界出现新进展后带着更新的观点回来，创建纵向咨询记录。
+   DEBUG: 2026-03-12 14:34:12,700:      pdf_renderer.py:  470: printSegment: 聚合机制
+   DEBUG: 2026-03-12 14:34:12,701:      pdf_renderer.py:  470: printSegment: ：整合原预测市场系统中的LMSR、BTS和声誉加权聚合，在定性报告之外产出数学上有依据的
+   DEBUG: 2026-03-12 14:34:12,702:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,702:      pdf_renderer.py:  470: printSegment: 共识评分
+   DEBUG: 2026-03-12 14:34:12,703:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,703:      pdf_renderer.py:  470: printSegment: 。
+   DEBUG: 2026-03-12 14:34:12,704:      pdf_renderer.py:  470: printSegment: 11. 结论
+   DEBUG: 2026-03-12 14:34:12,705:      pdf_renderer.py:  470: printSegment: 本文提出了一个多智能体AI咨询框架，将单一LLM建议范式转化为结构化的专家面板体验。通过Level 2 AI克隆（知识档案注入与少样本示例）、4阶段咨询流程（评估→交互→讨论→综合）和设计化多样性（多元的专家立场和信息不对称），系统产出的建议比任何单一AI交互更丰富、更平衡、更可操作。
+   DEBUG: 2026-03-12 14:34:12,706:      pdf_renderer.py:  470: printSegment: 该框架是领域无关的——虽然我们展示了加密货币和体育两个领域的实现，但架构支持任何专家咨询能增加价值的领域：医疗会诊、法律策略、职业决策、政策分析等。
+   DEBUG: 2026-03-12 14:34:12,706:      pdf_renderer.py:  470: printSegment: 通过让高质量的多专家咨询对所有人可及，我们的目标是让此前只有拥有昂贵人类专家网络的人才能获得的结构化分析思维变得大众化。
+   DEBUG: 2026-03-12 14:34:12,707:      pdf_renderer.py:  470: printSegment: 参考文献
+   DEBUG: 2026-03-12 14:34:12,707:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,708:      pdf_renderer.py:  470: printSegment: Chan, C. M., et al. (2023). ChatEval: Towards Better LLM-based Evaluators through Multi-Agent
+   DEBUG: 2026-03-12 14:34:12,709:      pdf_renderer.py:  470: printSegment: Debate. 
+   DEBUG: 2026-03-12 14:34:12,710:      pdf_renderer.py:  470: printSegment: arXiv:2308.07201
+   DEBUG: 2026-03-12 14:34:12,711:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-03-12 14:34:12,712:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,713:      pdf_renderer.py:  470: printSegment: Du, Y., et al. (2023). Improving Factuality and Reasoning in Language Models through Multiagent
+   DEBUG: 2026-03-12 14:34:12,714:      pdf_renderer.py:  470: printSegment: Debate. 
+   DEBUG: 2026-03-12 14:34:12,715:      pdf_renderer.py:  470: printSegment: arXiv:2305.14325
+   DEBUG: 2026-03-12 14:34:12,715:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-03-12 14:34:12,715:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,716:      pdf_renderer.py:  470: printSegment: Hanson, R. (2003). Combinatorial Information Market Design. 
+   DEBUG: 2026-03-12 14:34:12,717:      pdf_renderer.py:  470: printSegment: Information Systems Frontiers
+   DEBUG: 2026-03-12 14:34:12,717:      pdf_renderer.py:  470: printSegment: , 5(1),
+   DEBUG: 2026-03-12 14:34:12,717:      pdf_renderer.py:  470: printSegment: 107-119.
+   DEBUG: 2026-03-12 14:34:12,718:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,719:      pdf_renderer.py:  470: printSegment: Lewis, P., et al. (2020). Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. 
+   DEBUG: 2026-03-12 14:34:12,719:      pdf_renderer.py:  470: printSegment: NeurIPS 2020
+   DEBUG: 2026-03-12 14:34:12,720:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-03-12 14:34:12,721:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,722:      pdf_renderer.py:  470: printSegment: Perez, E., et al. (2023). Discovering Language Model Behaviors with Model-Written Evaluations. 
+   DEBUG: 2026-03-12 14:34:12,723:      pdf_renderer.py:  470: printSegment: ACL 2023
+   DEBUG: 2026-03-12 14:34:12,723:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-03-12 14:34:12,723:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,724:      pdf_renderer.py:  470: printSegment: Prelec, D. (2004). A Bayesian Truth Serum for Subjective Data. 
+   DEBUG: 2026-03-12 14:34:12,724:      pdf_renderer.py:  470: printSegment: Science
+   DEBUG: 2026-03-12 14:34:12,726:      pdf_renderer.py:  470: printSegment: , 306(5695), 462-466.
+   DEBUG: 2026-03-12 14:34:12,727:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,728:      pdf_renderer.py:  470: printSegment: Sharma, M., et al. (2023). Towards Understanding Sycophancy in Language Models. 
+   DEBUG: 2026-03-12 14:34:12,728:      pdf_renderer.py:  470: printSegment: arXiv:2310.13548
+   DEBUG: 2026-03-12 14:34:12,729:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-03-12 14:34:12,730:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,731:      pdf_renderer.py:  470: printSegment: Tetlock, P. E., 
+   DEBUG: 2026-03-12 14:34:12,731:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2026-03-12 14:34:12,732:      pdf_renderer.py:  470: printSegment:  Gardner, D. (2015). 
+   DEBUG: 2026-03-12 14:34:12,732:      pdf_renderer.py:  470: printSegment: Superforecasting: The Art and Science of Prediction
+   DEBUG: 2026-03-12 14:34:12,733:      pdf_renderer.py:  470: printSegment: . Crown.
+   DEBUG: 2026-03-12 14:34:12,733:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,734:      pdf_renderer.py:  470: printSegment: Zhang, T., et al. (2024). RAFT: Adapting Language Model to Domain Specific RAG. 
+   DEBUG: 2026-03-12 14:34:12,735:      pdf_renderer.py:  470: printSegment: arXiv:2403.10131
+   DEBUG: 2026-03-12 14:34:12,735:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-03-12 14:34:12,735:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,736:      pdf_renderer.py:  470: printSegment: Zhuge, M., et al. (2023). Mindstorms in Natural Language-Based Societies of Mind. 
+   DEBUG: 2026-03-12 14:34:12,736:      pdf_renderer.py:  470: printSegment: arXiv:2305.17066
+   DEBUG: 2026-03-12 14:34:12,737:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2026-03-12 14:34:12,738:      pdf_renderer.py:  470: printSegment: 附录A：知识档案示例（节选）
+   DEBUG: 2026-03-12 14:34:12,738:      pdf_renderer.py:  470: printSegment: 专家
+   DEBUG: 2026-03-12 14:34:12,739:      pdf_renderer.py:  470: printSegment: ：风险管理顾问
+   DEBUG: 2026-03-12 14:34:12,740:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,740:      pdf_renderer.py:  470: printSegment: 原型
+   DEBUG: 2026-03-12 14:34:12,741:      pdf_renderer.py:  470: printSegment: ：Nassim Taleb 的尾部风险思维 + Kelly准则
+   DEBUG: 2026-03-12 14:34:12,741:      pdf_renderer.py:  470: printSegment: 核心框架
+   DEBUG: 2026-03-12 14:34:12,742:      pdf_renderer.py:  470: printSegment: ：
+   DEBUG: 2026-03-12 14:34:12,742:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2026-03-12 14:34:12,742:      pdf_renderer.py:  470: printSegment: 波动率分析（历史波动率、隐含波动率、ATR）
+   DEBUG: 2026-03-12 14:34:12,743:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2026-03-12 14:34:12,743:      pdf_renderer.py:  470: printSegment: 回撤分析（最大回撤、恢复时间）
+   DEBUG: 2026-03-12 14:34:12,744:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2026-03-12 14:34:12,744:      pdf_renderer.py:  470: printSegment: 仓位管理（Kelly准则、VaR/CVaR）
+   DEBUG: 2026-03-12 14:34:12,745:      pdf_renderer.py:  470: printSegment:  4 
+   DEBUG: 2026-03-12 14:34:12,745:      pdf_renderer.py:  470: printSegment: 相关性风险（动态相关性、尾部相关性）
+   DEBUG: 2026-03-12 14:34:12,745:      pdf_renderer.py:  470: printSegment:  5 
+   DEBUG: 2026-03-12 14:34:12,746:      pdf_renderer.py:  470: printSegment: 流动性风险（买卖价差、市场深度、滑点）
+   DEBUG: 2026-03-12 14:34:12,746:      pdf_renderer.py:  470: printSegment:  6 
+   DEBUG: 2026-03-12 14:34:12,747:      pdf_renderer.py:  470: printSegment: 极端场景（黑天鹅事件、交易对手风险）
+   DEBUG: 2026-03-12 14:34:12,747:      pdf_renderer.py:  470: printSegment: 少样本示例
+   DEBUG: 2026-03-12 14:34:12,748:      pdf_renderer.py:  470: printSegment: （节选）：
+   DEBUG: 2026-03-12 14:34:12,748:      pdf_renderer.py:  470: printSegment: 用户
+   DEBUG: 2026-03-12 14:34:12,749:      pdf_renderer.py:  470: printSegment: ：
+   DEBUG: 2026-03-12 14:34:12,749:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,750:      pdf_renderer.py:  470: printSegment: 我准备把50%的资产配置到比特币
+   DEBUG: 2026-03-12 14:34:12,750:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,750:      pdf_renderer.py:  470: printSegment: 专家回应
+   DEBUG: 2026-03-12 14:34:12,751:      pdf_renderer.py:  470: printSegment: ：
+   DEBUG: 2026-03-12 14:34:12,751:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,752:      pdf_renderer.py:  470: printSegment: 让我用风险数据帮你理解这个决定的含义。比特币年化波动率约60-80%（对比标普500约15-18%）。50%配置导致组合波动率约30-40%。历史最大回撤：-93%（2011）、-86%（2014）、-84%（2018）、-77%（2022）。50%配置在-77%回撤下意味着总资产损失约38.5%。Kelly准则建议最优仓位约30%（半Kelly以应对参数不确定性）。建议：最大20-30%，分3-6个月建仓，设定组合层面最大回撤容忍度。
+   DEBUG: 2026-03-12 14:34:12,753:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,753:      pdf_renderer.py:  470: printSegment: 典型表达
+   DEBUG: 2026-03-12 14:34:12,754:      pdf_renderer.py:  470: printSegment: ：
+   DEBUG: 2026-03-12 14:34:12,754:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,755:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,755:      pdf_renderer.py:  470: printSegment: 让我用数字告诉你这意味着什么
+   DEBUG: 2026-03-12 14:34:12,755:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,756:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,756:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,757:      pdf_renderer.py:  470: printSegment: 如果你错了，最坏情况是什么？
+   DEBUG: 2026-03-12 14:34:12,757:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,758:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2026-03-12 14:34:12,758:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,759:      pdf_renderer.py:  470: printSegment: 仓位大小比方向判断重要10倍
+   DEBUG: 2026-03-12 14:34:12,759:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2026-03-12 14:34:12,760:      pdf_renderer.py:  470: printSegment: 附录B：系统提示词组成
+   DEBUG: 2026-03-12 14:34:12,761:      pdf_renderer.py:  470: printSegment: 每位专家的系统提示词总量：约3,000-3,500字符
+   DEBUG: 2026-03-12 14:34:12,762:      pdf_renderer.py:  470: printSegment: 组成比例：
+   DEBUG: 2026-03-12 14:34:12,762:      pdf_renderer.py:  470: printSegment: ├── 第1层（身份定义）：   ~150字符  (5%)
+   DEBUG: 2026-03-12 14:34:12,763:      pdf_renderer.py:  470: printSegment: ├── 第2层（知识档案）：   ~2,500字符 (80%)
+   DEBUG: 2026-03-12 14:34:12,763:      pdf_renderer.py:  470: printSegment: │   ├── 原型描述：        ~100字符
+   DEBUG: 2026-03-12 14:34:12,763:      pdf_renderer.py:  470: printSegment: │   ├── 分析框架：        ~500字符
+   DEBUG: 2026-03-12 14:34:12,763:      pdf_renderer.py:  470: printSegment: │   ├── 少样本示例（×3）：~1,500字符
+   DEBUG: 2026-03-12 14:34:12,764:      pdf_renderer.py:  470: printSegment: │   └── 典型表达：        ~400字符
+   DEBUG: 2026-03-12 14:34:12,764:      pdf_renderer.py:  470: printSegment: ├── 第3层（行为规则）：   ~300字符  (10%)
+   DEBUG: 2026-03-12 14:34:12,764:      pdf_renderer.py:  470: printSegment: └── 第4层（RAG上下文）：  可变      (5%+)
+   DEBUG: 2026-03-12 14:34:12,765:      pdf_renderer.py:  470: printSegment: 附录C：API成本估算
+   DEBUG: 2026-03-12 14:34:12,766:      pdf_renderer.py:  470: printSegment: | 阶段 | LLM调用次数 | 平均Token数/次 | 预估成本（DeepSeek V3） |
+   DEBUG: 2026-03-12 14:34:12,766:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,767:      pdf_renderer.py:  470: printSegment: |------|-----------|---------------|----------------------|
+   DEBUG: 2026-03-12 14:34:12,767:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,768:      pdf_renderer.py:  470: printSegment: | 第1阶段（评估） | 5 | ~3,000输入 + ~800输出 | $0.005 |
+   DEBUG: 2026-03-12 14:34:12,768:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,769:      pdf_renderer.py:  470: printSegment: |
+   DEBUG: 2026-03-12 14:34:12,769:      pdf_renderer.py:  470: printSegment: 第2阶段（对话，约2轮×2专家） | 4 | ~3,500输入 + ~500输出 | $0.004 |
+   DEBUG: 2026-03-12 14:34:12,770:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,770:      pdf_renderer.py:  470: printSegment: | 第3阶段（讨论） | 5 | ~4,000输入 + ~800输出 | $0.006 |
+   DEBUG: 2026-03-12 14:34:12,771:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,771:      pdf_renderer.py:  470: printSegment: | 第4阶段（最终） | 5 | ~4,500输入 + ~500输出 | $0.006 |
+   DEBUG: 2026-03-12 14:34:12,771:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,772:      pdf_renderer.py:  470: printSegment: | RAG检索 | 1 | — |
+   DEBUG: 2026-03-12 14:34:12,772:      pdf_renderer.py:  470: printSegment: $0.001（Tavily） |
+   DEBUG: 2026-03-12 14:34:12,773:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2026-03-12 14:34:12,774:      pdf_renderer.py:  470: printSegment: | 
+   DEBUG: 2026-03-12 14:34:12,774:      pdf_renderer.py:  470: printSegment: 合计
+   DEBUG: 2026-03-12 14:34:12,775:      pdf_renderer.py:  470: printSegment:  | 
+   DEBUG: 2026-03-12 14:34:12,776:      pdf_renderer.py:  470: printSegment: 约20次
+   DEBUG: 2026-03-12 14:34:12,776:      pdf_renderer.py:  470: printSegment:  | | 
+   DEBUG: 2026-03-12 14:34:12,777:      pdf_renderer.py:  470: printSegment: 约$0.02
+   DEBUG: 2026-03-12 14:34:12,777:      pdf_renderer.py:  470: printSegment:  |
+   DEBUG: 2026-03-12 14:34:12,778:      pdf_renderer.py:  470: printSegment: 以DeepSeek V3定价（$0.27/百万输入token，$1.10/百万输出token）计算，一次完整咨询的成本约为$0.02——比人类专家咨询（$200-500/小时）便宜了数个数量级。
+   DEBUG: 2026-03-12 14:34:12,778:      pdf_renderer.py:  470: printSegment: 本白皮书描述了集体AI审议框架，基于开源项目 prediction-market-debater 实现。
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 0, [1, '集体AI审议：基于多专家咨询的人类观点精炼框架', 1, 68.0]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 1, [2, '摘要', 1, 136.0]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 2, [2, '1. 引言', 1, 199.60000000000002]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 3, [3, '1.1 问题背景', 1, 232.80000000000004]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 4, [3, '1.2 我们的方法', 1, 339.6]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 5, [3, '1.3 贡献', 1, 434.4]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 6, [2, '2. 相关工作', 1, 535.5999999999999]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 7, [3, '2.1 多智能体LLM系统', 1, 568.7999999999998]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 8, [3, '2.2 AI辅助决策', 1, 615.5999999999998]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 9, [3, '2.3 预测市场与机制设计', 1, 662.3999999999997]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 10, [3, '2.4 检索增强生成', 2, 72.0]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 11, [2, '3. 系统架构', 2, 131.20000000000002]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 12, [3, '3.1 总览', 2, 164.40000000000003]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 13, [3, '3.2 设计原则', 2, 499.20000000000005]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 14, [2, '4. Level 2 AI克隆技术', 2, 612.4]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 15, [3, '4.1 克隆层级体系', 2, 645.5999999999999]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 16, [3, '4.2 知识档案结构', 3, 72.0]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 17, [3, '4.3 提示词架构', 3, 346.79999999999995]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 18, [3, '4.4 加密货币领域专家克隆体', 3, 579.5999999999999]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 19, [3, '4.5 体育领域专家克隆体', 3, 650.3999999999999]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 20, [2, '5. 多阶段咨询流程', 4, 70.0]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 21, [3, '5.1 流程总览', 4, 103.19999999999999]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 22, [3, '5.2 第1阶段：独立评估', 4, 588.0]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 23, [3, '5.3 第2阶段：交互对话', 5, 122.4]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 24, [3, '5.4 第3阶段：专家讨论', 5, 253.2]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 25, [3, '5.5 第4阶段：最终评估', 5, 413.99999999999994]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 26, [3, '5.6 报告综合', 5, 538.7999999999998]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 27, [2, '6. 信息检索与知识锚定', 5, 681.9999999999998]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 28, [3, '6.1 RAG管道', 6, 72.0]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 29, [3, '6.2 信息分区', 6, 166.8]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 30, [2, '7. 技术实现', 6, 352.00000000000006]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 31, [3, '7.1 系统要求', 6, 385.20000000000005]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 32, [3, '7.2 核心组件', 6, 486.0]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 33, [3, '7.3 多模型分发', 6, 568.8]
+   DEBUG: 2026-03-12 14:34:12,831:      pdf_renderer.py:   53: 34, [3, '7.4 并行执行', 7, 104.4]
+   DEBUG: 2026-03-12 14:34:12,832:      pdf_renderer.py:   53: 35, [2, '8. 应用案例', 7, 253.60000000000002]
+   DEBUG: 2026-03-12 14:34:12,832:      pdf_renderer.py:   53: 36, [3, '8.1 加密货币投资分析', 7, 286.8]
+   DEBUG: 2026-03-12 14:34:12,832:      pdf_renderer.py:   53: 37, [3, '8.2 体育预测分析', 7, 429.59999999999997]
+   DEBUG: 2026-03-12 14:34:12,832:      pdf_renderer.py:   53: 38, [2, '9. 评估框架', 7, 584.8]
+   DEBUG: 2026-03-12 14:34:12,832:      pdf_renderer.py:   53: 39, [3, '9.1 评估指标', 7, 617.9999999999999]
+   DEBUG: 2026-03-12 14:34:12,832:      pdf_renderer.py:   53: 40, [3, '9.2 对比基线', 8, 236.4]
+   DEBUG: 2026-03-12 14:34:12,832:      pdf_renderer.py:   53: 41, [3, '9.3 实验设计（拟定）', 8, 283.2]
+   DEBUG: 2026-03-12 14:34:12,832:      pdf_renderer.py:   53: 42, [2, '10. 局限性与未来工作', 8, 384.4]
+   DEBUG: 2026-03-12 14:34:12,832:      pdf_renderer.py:   53: 43, [3, '10.1 当前局限', 8, 417.59999999999997]
+   DEBUG: 2026-03-12 14:34:12,832:      pdf_renderer.py:   53: 44, [3, '10.2 未来方向', 8, 518.4]
+   DEBUG: 2026-03-12 14:34:12,832:      pdf_renderer.py:   53: 45, [2, '11. 结论', 8, 667.5999999999999]
+   DEBUG: 2026-03-12 14:34:12,832:      pdf_renderer.py:   53: 46, [2, '参考文献', 9, 128.8]
+   DEBUG: 2026-03-12 14:34:12,832:      pdf_renderer.py:   53: 47, [2, '附录A：知识档案示例（节选）', 9, 402.40000000000003]
+   DEBUG: 2026-03-12 14:34:12,832:      pdf_renderer.py:   53: 48, [2, '附录B：系统提示词组成', 10, 70.0]
+   DEBUG: 2026-03-12 14:34:12,832:      pdf_renderer.py:   53: 49, [2, '附录C：API成本估算', 10, 247.60000000000002]

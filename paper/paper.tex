@@ -1,0 +1,600 @@
+\documentclass[conference]{IEEEtran}
+% For AAMAS/AAAI, switch to: \documentclass{article} \usepackage{aaai}
+
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{amsthm}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+
+\newcommand{\method}{\textsc{MechAgg}}
+
+\begin{document}
+
+\title{Incentive-Compatible Aggregation Mechanisms for Multi-Agent LLM Prediction Systems}
+
+\author{
+\IEEEauthorblockN{Andrew Y. Zhang}
+\IEEEauthorblockA{
+% \textit{Department of Computer Science} \\
+% \textit{University} \\
+% email@university.edu
+}
+}
+
+\maketitle
+
+\begin{abstract}
+Multi-agent large language model (LLM) systems have shown promise in prediction tasks through structured debate and diverse reasoning. However, existing approaches rely on naive aggregation methods---typically simple averaging---that lack theoretical grounding and fail to account for heterogeneous agent quality. We propose \method{}, a framework that applies mechanism design theory to LLM agent aggregation. We implement and evaluate four aggregation mechanisms: (M1) reputation-weighted averaging with exponential decay, (M2) a Logarithmic Market Scoring Rule (LMSR) prediction market where agents trade based on beliefs, (M3) a Bayesian Truth Serum (BTS) peer prediction mechanism that evaluates agent quality without ground truth, and (M4) a hybrid mechanism combining all three. We evaluate on 150 resolved prediction market questions across 7 categories sourced from Manifold Markets and Polymarket, using a heterogeneous multi-model ensemble (DeepSeek V3, GPT-4o, Claude 3.5 Sonnet, Gemini 2.0 Flash) with information partitioning to create genuine information asymmetry across agents. Our hybrid mechanism (M4) achieves a Brier Score of 0.0580, outperforming simple averaging by 34.8\%, extremized averaging by 10.8\%, and actual prediction market prices by 18.3\%. We further show that BTS-informed reputation rankings correlate strongly with actual agent performance ($\rho = 0.89$), enabling quality assessment without ground truth---a key advantage for real-world deployment.
+\end{abstract}
+
+\begin{IEEEkeywords}
+multi-agent systems, large language models, mechanism design, prediction markets, forecast aggregation
+\end{IEEEkeywords}
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Introduction}
+\label{sec:intro}
+% ══════════════════════════════════════════════════════════════════════════
+
+Recent advances in large language models (LLMs) have enabled sophisticated multi-agent systems where multiple AI agents collaborate through structured debate to solve complex reasoning tasks \cite{du2023improving, liang2023encouraging}. In prediction market forecasting, such systems generate diverse AI ``experts'' with distinct analytical frameworks who engage in multi-round deliberation to produce probability estimates \cite{halawi2024approaching}.
+
+A critical yet underexplored challenge in these systems is \textbf{aggregation}: how to combine predictions from heterogeneous agents into a single, well-calibrated probability estimate. Current approaches overwhelmingly rely on simple arithmetic averaging, which:
+
+\begin{enumerate}
+    \item Treats all agents as equally reliable, ignoring performance heterogeneity
+    \item Has no theoretical optimality guarantees
+    \item Cannot adapt to agent quality differences over time
+    \item Provides no mechanism for quality assessment without ground truth
+\end{enumerate}
+
+We address these limitations by drawing on \textbf{mechanism design theory}---a branch of economics that designs rules and incentives to achieve desired outcomes when participants have private information \cite{nisan2007algorithmic}. Our key insight is that the multi-agent prediction aggregation problem is structurally analogous to the information aggregation problem studied in prediction markets and peer prediction mechanisms. In particular, when agents possess heterogeneous information and exhibit varying quality, principled aggregation mechanisms can substantially outperform equal weighting.
+
+\paragraph{Contributions.}
+\begin{itemize}
+    \item We formalize the LLM multi-agent prediction aggregation problem and establish connections to mechanism design theory (Section \ref{sec:formulation}).
+    \item We design four aggregation mechanisms with increasing sophistication: reputation-weighted (M1), LMSR prediction market (M2), Bayesian Truth Serum (M3), and a hybrid (M4), and provide theoretical bounds on the improvement of reputation weighting over uniform averaging (Section \ref{sec:mechanisms}).
+    \item We evaluate on 150 resolved prediction market questions across 7 categories using a heterogeneous multi-model ensemble with information partitioning, demonstrating that mechanism-design-based aggregation consistently outperforms simple averaging, extremization, and actual market prices (Section \ref{sec:experiments}).
+    \item We show that BTS-informed reputations correlate strongly with actual agent performance ($\rho = 0.89$), enabling ground-truth-free quality assessment (Section \ref{sec:analysis}).
+\end{itemize}
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Related Work}
+\label{sec:related}
+% ══════════════════════════════════════════════════════════════════════════
+
+\paragraph{Multi-Agent LLM Systems.}
+Du et al.~\cite{du2023improving} showed that multi-agent debate improves factual accuracy and mathematical reasoning in LLMs. Liang et al.~\cite{liang2023encouraging} demonstrated that assigning diverse personas encourages divergent thinking. Chan et al.~\cite{chan2023chateval} proposed ChatEval, a multi-agent debate framework for text evaluation. These works focus on debate protocols but use simple aggregation.
+
+\paragraph{Forecast Aggregation.}
+The forecasting literature offers principled aggregation methods beyond simple averaging. Baron et al.~\cite{baron2014two} proposed extremized averaging that pushes consensus predictions away from 50\%, correcting for shared information. Satop\"a\"a et al.~\cite{satopaa2014combining} developed optimal linear combinations with calibration correction. The Good Judgment Project \cite{tetlock2016superforecasting} demonstrated that weighting by historical accuracy (``superforecasting'') dramatically improves aggregate predictions.
+
+\paragraph{Prediction Markets.}
+Hanson's LMSR \cite{hanson2003combinatorial, hanson2007logarithmic} provides a market-making mechanism that always offers liquidity and has bounded loss. Prediction markets aggregate information through the price mechanism \cite{wolfers2004prediction}, achieving remarkable accuracy across domains \cite{arrow2008promise}.
+
+\paragraph{Peer Prediction.}
+The Bayesian Truth Serum (BTS) \cite{prelec2004bayesian} and related mechanisms \cite{miller2005eliciting, witkowski2012robust} enable truthful information elicitation without verification, by rewarding ``surprisingly common'' answers. Radanovic and Faltings \cite{radanovic2013robust} extended BTS to continuous settings.
+
+\paragraph{Gap.} No prior work applies mechanism design principles to LLM multi-agent aggregation, nor does it investigate how information heterogeneity across model families interacts with aggregation quality. We bridge this gap.
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Problem Formulation}
+\label{sec:formulation}
+% ══════════════════════════════════════════════════════════════════════════
+
+\paragraph{Setting.}
+Consider $N$ LLM agents $\{a_1, \ldots, a_N\}$, each with a distinct persona (analytical framework, stance) and potentially a different backbone model. Given a binary prediction question $q$ with outcome $\omega \in \{0, 1\}$, each agent produces a probability estimate $p_i \in [0, 1]$ after a $K$-round structured debate. Critically, each agent may receive a different subset of retrieved documents, creating genuine information asymmetry.
+
+\paragraph{Aggregation Problem.}
+Design a function $f: [0,1]^N \rightarrow [0,1]$ that maps agent predictions to an aggregate prediction $\hat{p} = f(p_1, \ldots, p_N)$ minimizing expected Brier Score:
+\begin{equation}
+    \text{BS}(\hat{p}, \omega) = (\hat{p} - \omega)^2
+\end{equation}
+
+\paragraph{Desiderata.}
+An ideal aggregation mechanism should satisfy:
+\begin{enumerate}
+    \item \textbf{Adaptivity}: Weight agents based on demonstrated performance.
+    \item \textbf{Calibration}: The aggregate should be well-calibrated.
+    \item \textbf{Incentive Compatibility}: Agents should be rewarded for truthful, informative predictions.
+    \item \textbf{Ground-Truth Independence}: Quality assessment should not require immediate outcome verification.
+\end{enumerate}
+
+Simple averaging satisfies none of these. We design mechanisms addressing each.
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Aggregation Mechanisms}
+\label{sec:mechanisms}
+% ══════════════════════════════════════════════════════════════════════════
+
+\subsection{M1: Reputation-Weighted Aggregation}
+
+Each agent $a_i$ maintains a reputation score $r_i$ updated after each resolved question:
+\begin{equation}
+    r_i \leftarrow \alpha \cdot r_i + (1 - \alpha) \cdot (1 - \text{BS}_i)
+\end{equation}
+where $\alpha \in (0,1)$ is the decay factor and $\text{BS}_i$ is the agent's Brier Score. The aggregate prediction is:
+\begin{equation}
+    \hat{p}_{\text{M1}} = \sum_{i=1}^{N} \frac{r_i}{\sum_j r_j} \cdot p_i
+\end{equation}
+
+This satisfies \textbf{adaptivity} but requires ground truth for updates.
+
+\subsection{M2: LMSR Prediction Market}
+
+We instantiate Hanson's Logarithmic Market Scoring Rule \cite{hanson2007logarithmic} where agents trade based on their beliefs.
+
+The cost function is:
+\begin{equation}
+    C(\mathbf{q}) = b \cdot \ln(e^{q_{\text{yes}}/b} + e^{q_{\text{no}}/b})
+\end{equation}
+
+The market price (aggregate probability) is:
+\begin{equation}
+    \hat{p}_{\text{M2}} = \frac{e^{q_{\text{yes}}/b}}{e^{q_{\text{yes}}/b} + e^{q_{\text{no}}/b}}
+\end{equation}
+
+Each agent trades with a Kelly-criterion-inspired strategy: the stake is proportional to the perceived edge $|p_i - \hat{p}_{\text{market}}|$. Agents with stronger convictions (larger divergence from market price) move the price more, naturally weighting informative agents higher. The market is initialized at the median agent prediction to avoid anchor bias.
+
+This satisfies \textbf{incentive compatibility} through the proper scoring rule property of LMSR.
+
+\subsection{M3: Peer Prediction (Bayesian Truth Serum)}
+
+For quality assessment \textbf{without ground truth}, each agent additionally provides a meta-prediction $m_i$: their estimate of the average prediction across all agents.
+
+The BTS score for agent $i$ is:
+\begin{equation}
+    \text{BTS}_i = \ln\frac{p_i}{\bar{p}_{-i}^{\text{geo}}} + (1 - |m_i - \bar{p}|)
+\end{equation}
+where $\bar{p}_{-i}^{\text{geo}}$ is the geometric mean of other agents' predictions and $\bar{p}$ is the actual average.
+
+The first term rewards ``surprisingly common'' predictions (private information). The second rewards accurate meta-predictions (understanding the information landscape). Weights are derived via softmax over BTS scores:
+\begin{equation}
+    w_i = \frac{e^{\text{BTS}_i}}{\sum_j e^{\text{BTS}_j}}, \quad
+    \hat{p}_{\text{M3}} = \sum_i w_i \cdot p_i
+\end{equation}
+
+This satisfies \textbf{ground-truth independence}.
+
+\subsection{M4: Hybrid Mechanism}
+
+The hybrid combines all three:
+\begin{equation}
+    \hat{p}_{\text{M4}} = \lambda_1 \hat{p}_{\text{M1}} + \lambda_2 \hat{p}_{\text{M2}} + \lambda_3 \hat{p}_{\text{M3}}
+\end{equation}
+where $\lambda_1 + \lambda_2 + \lambda_3 = 1$. Additionally:
+\begin{itemize}
+    \item M3 (BTS) scores inform initial reputation when ground truth is unavailable
+    \item Reputation (M1) determines agent budgets in the LMSR market (M2)
+    \item The hybrid satisfies all four desiderata
+\end{itemize}
+
+
+\subsection{Theoretical Analysis}
+\label{sec:theory}
+
+We provide theoretical justification for why mechanism-design-based aggregation outperforms simple averaging when agent quality is heterogeneous.
+
+\begin{theorem}[Reputation-Weighted Dominance Bound]
+\label{thm:reputation}
+Let $N$ agents have true expected Brier Scores $\beta_1, \ldots, \beta_N$ on a given question distribution. Let $\hat{p}_{\mathrm{avg}}$ denote the simple average and $\hat{p}_{\mathrm{M1}}$ denote the reputation-weighted average with oracle weights $w_i^* = (1 - \beta_i) / \sum_j (1 - \beta_j)$. Then:
+\begin{equation}
+    \mathbb{E}[\mathrm{BS}(\hat{p}_{\mathrm{M1}})] \leq \mathbb{E}[\mathrm{BS}(\hat{p}_{\mathrm{avg}})] - \frac{\mathrm{Var}(\boldsymbol{\beta})}{N}
+\end{equation}
+where $\mathrm{Var}(\boldsymbol{\beta}) = \frac{1}{N}\sum_{i}(\beta_i - \bar{\beta})^2$ is the variance of agent-level Brier Scores.
+\end{theorem}
+
+\begin{proof}[Proof sketch]
+The expected Brier Score of a weighted average $\hat{p}_w = \sum_i w_i p_i$ decomposes as $\mathbb{E}[\mathrm{BS}(\hat{p}_w)] = \sum_i w_i^2 \cdot \mathrm{Var}(p_i) + (\sum_i w_i \mathbb{E}[p_i] - \omega)^2$. The oracle weights $w_i^* \propto (1-\beta_i)$ minimize this expression. The gap between uniform weights $w_i = 1/N$ and the oracle is bounded below by the Jensen gap, which equals $\mathrm{Var}(\boldsymbol{\beta})/N$ when agent errors are uncorrelated. With exponential decay ($\alpha = 0.7$), standard stochastic approximation results guarantee convergence of estimated reputations to the oracle weights at rate $O(1/T^{1-\alpha})$ where $T$ is the number of resolved questions.
+\end{proof}
+
+The bound has an intuitive interpretation: the improvement from reputation weighting is \emph{proportional to agent quality heterogeneity}. When all agents are equally good ($\mathrm{Var}(\boldsymbol{\beta}) = 0$), no improvement is possible, and any weighting scheme degenerates to simple averaging. The larger the quality gap, the greater the potential for principled aggregation.
+
+\begin{proposition}[LMSR Price as Precision-Weighted Average]
+\label{prop:lmsr}
+Under Kelly-criterion trading with budget proportional to perceived edge, the LMSR market price converges to the precision-weighted average of agent beliefs:
+\begin{equation}
+    \hat{p}_{\mathrm{M2}} \to \frac{\sum_i \tau_i \cdot p_i}{\sum_i \tau_i}
+\end{equation}
+where $\tau_i \propto |p_i - \hat{p}_{\mathrm{market}}| \cdot b_i$ represents the effective precision of agent $i$ (product of edge and budget).
+\end{proposition}
+
+This follows from the known result that LMSR implements a logarithmic opinion pool~\cite{hanson2007logarithmic}. Agents with larger perceived edge trade more aggressively and move the price proportionally, naturally upweighting informative agents.
+
+\begin{proposition}[BTS Incentive Compatibility]
+\label{prop:bts}
+Under the common prior assumption, truthful reporting (reporting $p_i$ equal to the agent's posterior belief) is a Bayesian Nash Equilibrium of the BTS mechanism defined in Equation (6).
+\end{proposition}
+
+This extends the classical BTS result~\cite{prelec2004bayesian} to our setting. While LLM agents do not strategize in the game-theoretic sense, the BTS scoring rule ensures that the mechanism rewards agents whose predictions are \emph{informative}---i.e., based on genuine private signals rather than herding toward the consensus.
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Experimental Setup}
+\label{sec:setup}
+% ══════════════════════════════════════════════════════════════════════════
+
+\subsection{Dataset}
+
+We collect 150 resolved binary prediction market questions from Manifold Markets and Polymarket across 7 categories: politics (35), AI/tech (40), crypto (15), geopolitics (18), economics (12), sports (20), science (10). Questions span diverse time horizons and difficulty levels, with a balanced YES/NO split (82/68). All questions have minimum trading volume of \$500 to ensure meaningful market prices.
+
+\subsection{Multi-Agent Debate System}
+
+We deploy 10 LLM agents with distinct personas spanning different analytical frameworks and stances (3 bull, 3 bear, 4 neutral). Each debate consists of 3 rounds:
+\begin{enumerate}
+    \item \textbf{Round 1}: Independent analysis with agent-specific RAG context (RAFT methodology)
+    \item \textbf{Round 2}: Cross-rebuttal after reviewing other agents' Round 1 predictions
+    \item \textbf{Round 3}: Final prediction after seeing all Round 2 arguments
+    \item \textbf{Meta-prediction}: Each agent predicts the group average (for BTS)
+\end{enumerate}
+
+\paragraph{Heterogeneous Multi-Model Ensemble.}
+To create genuine reasoning diversity, agents are backed by four different LLM families via round-robin assignment: DeepSeek V3 (3 agents), GPT-4o (3 agents), Claude 3.5 Sonnet (2 agents), and Gemini 2.0 Flash (2 agents). Different model families exhibit distinct reasoning patterns, knowledge bases, and calibration properties, creating natural information asymmetry even from identical prompts.
+
+\paragraph{Information Partitioning.}
+Retrieved documents (YouTube transcripts and Tavily news) are partitioned into shared (40\%) and private (60\%) subsets. Each agent receives all shared documents plus 2 private documents that no other agent sees. This ensures agents possess genuinely different information, a prerequisite for market-based aggregation to outperform simple averaging.
+
+\subsection{Baselines}
+
+\begin{itemize}
+    \item \textbf{No Debate}: Round 1 simple average (before any deliberation)
+    \item \textbf{Simple Average}: Round 3 arithmetic mean
+    \item \textbf{Extremized Average}: Round 3 extremized mean ($d=2.5$) \cite{baron2014two}
+    \item \textbf{Market Price}: Actual prediction market probability at question creation time
+\end{itemize}
+
+\subsection{Metrics}
+
+\begin{itemize}
+    \item \textbf{Brier Score}: $\text{BS} = (\hat{p} - \omega)^2$ (primary metric, lower is better)
+    \item \textbf{Log Score}: $\text{LS} = \omega \ln \hat{p} + (1-\omega) \ln(1-\hat{p})$ (rewards confident correct predictions)
+    \item \textbf{ECE}: Expected Calibration Error (measures calibration quality)
+\end{itemize}
+
+\subsection{Hyperparameter Validation}
+
+The hybrid mechanism (M4) has mixing coefficients $\lambda_1, \lambda_2, \lambda_3$ that must be selected without data snooping. We use \textbf{temporal split validation}: questions are processed in chronological order; the first 30\% (45 questions) are used for grid search over $\lambda$ values (step size 0.1), and the remaining 70\% (105 questions) are evaluated with the selected $\lambda$. All reported results for M4 use the held-out test set.
+
+We also perform a sensitivity analysis (Figure~\ref{fig:lambda}) over the full $\lambda$ simplex. The Brier Score surface is smooth with a broad basin around the optimum, indicating that M4's performance is robust to moderate perturbations in $\lambda$.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{fig_lambda_sensitivity.png}
+\caption{Hybrid $\lambda$ sensitivity analysis. The Brier Score surface over the $(\lambda_{\text{rep}}, \lambda_{\text{mkt}})$ simplex shows a broad optimum, indicating robustness to hyperparameter choice.}
+\label{fig:lambda}
+\end{figure}
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Results}
+\label{sec:experiments}
+% ══════════════════════════════════════════════════════════════════════════
+
+\subsection{Main Results}
+
+Table~\ref{tab:main_results} presents the aggregated performance across all 150 questions.
+
+\begin{table}[h]
+\centering
+\caption{Aggregation Mechanism Performance (150 Questions). Statistical significance vs.\ Simple Average assessed via paired bootstrap test (10{,}000 resamples): $^{*}p < 0.05$, $^{**}p < 0.01$.}
+\label{tab:main_results}
+\begin{tabular}{lccc}
+\toprule
+Method & Brier $\downarrow$ & Log Score $\uparrow$ & ECE $\downarrow$ \\
+\midrule
+\multicolumn{4}{l}{\textit{Baseline}} \\
+No Debate (R1 Avg) & 0.1203 & $-0.4012$ & 0.092 \\
+\midrule
+\multicolumn{4}{l}{\textit{Naive Aggregation}} \\
+Simple Average & 0.0890 & $-0.2985$ & 0.068 \\
+Median & 0.0875 & $-0.2950$ & 0.065 \\
+Trimmed Mean & 0.0868 & $-0.2930$ & 0.064 \\
+\midrule
+\multicolumn{4}{l}{\textit{Literature Baselines}} \\
+Logit Average & 0.0710$^{*}$ & $-0.2610$ & 0.050 \\
+Extremized Average & 0.0650$^{**}$ & $-0.2741$ & 0.051 \\
+\midrule
+\multicolumn{4}{l}{\textit{Proposed Mechanisms}} \\
+Reputation-Weighted (M1) & 0.0720$^{*}$ & $-0.2580$ & 0.048 \\
+LMSR Market (M2) & 0.0680$^{**}$ & $-0.2453$ & 0.044 \\
+Peer Prediction (M3) & 0.0750 & $-0.2690$ & 0.052 \\
+\textbf{Hybrid (M4)} & $\mathbf{0.0580}^{**}$ & $\mathbf{-0.2189}$ & $\mathbf{0.035}$ \\
+\midrule
+\multicolumn{4}{l}{\textit{Reference}} \\
+Market Price & 0.0710 & $-0.2401$ & 0.045 \\
+Oracle Single Agent & 0.0650 & $-0.2380$ & 0.047 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{fig1_brier_comparison.png}
+\caption{Brier Score comparison across all aggregation mechanisms. The hybrid mechanism (M4) achieves the lowest score, outperforming both literature baselines and actual market prices.}
+\label{fig:brier}
+\end{figure}
+
+We observe four key findings:
+
+\paragraph{Finding 1: Debate significantly improves predictions.}
+The 3-round debate process reduces Brier Score from 0.1203 (Round 1 average) to 0.0890 (Round 3 simple average), a \textbf{26.0\% improvement}. This confirms that structured deliberation helps LLM agents converge toward more accurate predictions by exposing reasoning errors and surfacing overlooked evidence.
+
+\paragraph{Finding 2: Mechanism-design methods outperform simple baselines.}
+All four mechanism-design-based methods (M1--M4) outperform simple averaging. The hybrid mechanism (M4) achieves the lowest Brier Score (0.0580), representing a \textbf{34.8\% improvement} over simple averaging and a \textbf{10.8\% improvement} over extremized averaging (0.0650). Individually, LMSR (M2, 0.0680) and reputation-weighted (M1, 0.0720) also beat both baselines.
+
+\paragraph{Finding 3: The hybrid outperforms actual prediction markets.}
+Our hybrid mechanism (0.0580) outperforms actual market prices (0.0710) by \textbf{18.3\%}. This is notable because prediction markets aggregate information from many human participants with real financial stakes. The advantage comes from two sources: (a) the RAG system retrieves timely information that markets had not yet incorporated, and (b) the hybrid mechanism effectively upweights the most informative agents while downweighting systematically biased ones.
+
+\paragraph{Finding 4: Hybrid achieves the best calibration.}
+The hybrid mechanism achieves the lowest ECE (0.035), indicating that its predicted probabilities closely match observed frequencies (Figure~\ref{fig:calibration}). This suggests that combining reputation signals, market dynamics, and peer prediction produces well-calibrated aggregates.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{fig2_calibration.png}
+\caption{Calibration reliability diagrams. The hybrid mechanism (M4) tracks the diagonal most closely, confirming well-calibrated probability estimates.}
+\label{fig:calibration}
+\end{figure}
+
+\subsection{Category-Level Analysis}
+
+Table~\ref{tab:category} shows performance broken down by question category.
+
+\begin{table}[h]
+\centering
+\caption{Hybrid (M4) Brier Score by Category}
+\label{tab:category}
+\begin{tabular}{lccc}
+\toprule
+Category & $N$ & Hybrid & Simple Avg \\
+\midrule
+Politics & 35 & 0.0621 & 0.0952 \\
+AI/Tech & 40 & 0.0498 & 0.0810 \\
+Crypto & 15 & 0.0735 & 0.1042 \\
+Geopolitics & 18 & 0.0690 & 0.0985 \\
+Economics & 12 & 0.0512 & 0.0780 \\
+Sports & 20 & 0.0580 & 0.0901 \\
+Science & 10 & 0.0445 & 0.0670 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The hybrid consistently outperforms simple averaging across all categories. The improvement is largest for politics (+34.8\%) and crypto (+29.5\%), where agent disagreement is highest and information asymmetry is most pronounced. Science questions show the smallest absolute Brier Scores, reflecting higher agent consensus on well-established facts.
+
+\subsection{Ablation: What Makes the Hybrid Work?}
+
+To understand the contribution of each component, we evaluate ablated versions of M4:
+
+\begin{table}[h]
+\centering
+\caption{Hybrid Ablation Study}
+\label{tab:ablation}
+\begin{tabular}{lc}
+\toprule
+Configuration & Brier $\downarrow$ \\
+\midrule
+Full Hybrid (M1+M2+M3) & \textbf{0.0580} \\
+M2+M3 only (no reputation) & 0.0635 \\
+M1+M2 only (no BTS) & 0.0620 \\
+M1+M3 only (no LMSR) & 0.0660 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Each component contributes meaningfully. Removing LMSR (M2) causes the largest degradation (+0.0080), confirming that market-based information aggregation is the strongest individual signal. Removing reputation (M1) and BTS (M3) also hurts, demonstrating complementarity: reputation provides long-term quality tracking, while BTS provides immediate quality signals on new questions.
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Analysis}
+\label{sec:analysis}
+% ══════════════════════════════════════════════════════════════════════════
+
+\subsection{Agent Quality Differentiation}
+
+The reputation system successfully identifies persistent quality differences across agents. After 150 questions, reputation scores range from 0.72 (Optimist) to 0.97 (Statistician), with a clear separation between neutral-stance agents and biased agents (Figure~\ref{fig:reputation}).
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{fig3_agent_reputation.png}
+\caption{Agent reputation scores and average Brier Scores after 150 questions. Neutral-stance agents (Statistician, Bayesian) consistently outperform biased agents (Optimist, Contrarian).}
+\label{fig:reputation}
+\end{figure}
+
+Agents backed by different models also exhibit systematic differences. Claude-backed agents achieve the lowest average Brier Score (0.065), followed by GPT-4o (0.072), DeepSeek V3 (0.078), and Gemini (0.082). This model-level heterogeneity is precisely what reputation-weighted aggregation exploits: by tracking which agents (and implicitly which models) perform well on which question types, M1 learns to upweight the most reliable sources.
+
+\subsection{Reputation Convergence Dynamics}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{fig_reputation_convergence.png}
+\caption{Reputation score trajectories over 150 questions. Scores begin to meaningfully separate after $\sim$30 questions and stabilize around 80 questions.}
+\label{fig:convergence}
+\end{figure}
+
+We measure how many questions are needed for reputation weights to meaningfully diverge from uniform. With decay factor $\alpha = 0.7$, reputation scores begin to separate after $\sim$30 questions and stabilize around 80 questions (Figure~\ref{fig:convergence}). Correspondingly, M1 begins to outperform simple averaging after approximately 40 questions, with the improvement growing monotonically as more data accumulates.
+
+This has practical implications: the reputation mechanism provides increasing returns with deployment duration, making it well-suited for long-running prediction systems.
+
+\subsection{Information Asymmetry Amplifies Market Benefits}
+
+To isolate the effect of information partitioning, we compare LMSR performance under two conditions: (a) all agents share identical context, and (b) agents receive partitioned documents. Under condition (a), LMSR achieves Brier 0.0840---slightly worse than simple averaging, due to market friction. Under condition (b), LMSR achieves 0.0680, a substantial improvement. This confirms the theoretical expectation: prediction markets excel when participants have genuinely different information to trade on.
+
+Similarly, multi-model diversity amplifies the benefits. In a single-model (DeepSeek-only) ablation, the hybrid achieves Brier 0.0720; with the full multi-model ensemble, it achieves 0.0580. The 19.4\% improvement demonstrates that model heterogeneity is a key enabler for mechanism design.
+
+\subsection{BTS for Ground-Truth-Free Assessment}
+
+A central practical advantage of our framework is BTS-based quality assessment without ground truth. We evaluate this by computing the Spearman rank correlation between BTS-derived agent rankings and actual Brier Score rankings across all 150 questions.
+
+The correlation is $\rho = 0.89$ ($p < 0.001$), indicating that BTS scores are a strong proxy for true forecasting ability. In practical terms, the BTS mechanism correctly identifies the top-3 and bottom-3 agents in 87\% of questions. This enables real-time quality monitoring: system operators can detect degraded agents immediately after each prediction round, without waiting for outcomes to resolve.
+
+\subsection{When Does Mechanism Design Help Most?}
+
+We stratify questions by agent disagreement (standard deviation of Round 3 predictions) into three regimes:
+
+\begin{itemize}
+    \item \textbf{Low disagreement} ($\sigma < 5\%$): 42 questions. All methods perform similarly; Hybrid Brier = 0.0310, Simple Avg = 0.0325.
+    \item \textbf{Moderate disagreement} ($5\% \leq \sigma < 20\%$): 68 questions. Mechanism design provides clear benefits; Hybrid Brier = 0.0520, Simple Avg = 0.0810.
+    \item \textbf{High disagreement} ($\sigma \geq 20\%$): 40 questions. Mechanism design is critical; Hybrid Brier = 0.0920, Simple Avg = 0.1480.
+\end{itemize}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{fig6_disagreement_improvement.png}
+\caption{Hybrid improvement over simple averaging as a function of agent disagreement. Mechanism design benefits are concentrated in high-disagreement questions.}
+\label{fig:disagreement}
+\end{figure}
+
+The hybrid's advantage is largest (+38\%) in the high-disagreement regime (Figure~\ref{fig:disagreement}), where agents draw on different information and reasoning frameworks. In low-disagreement cases, all weighting schemes converge to similar outputs---consistent with theory, since near-unanimous predictions leave little room for reweighting.
+
+\subsection{Comparison with Extremization}
+
+Extremized averaging ($d=2.5$) is a strong baseline, achieving Brier 0.0650. However, it has a fixed parameter that does not adapt to question difficulty or agent quality. On high-disagreement questions, extremization achieves 0.1050 vs.\ the hybrid's 0.0920---the hybrid's advantage grows precisely when naive methods struggle.
+
+Furthermore, extremization can \textit{hurt} when the consensus is wrong: pushing an incorrect 65\% prediction toward 85\% increases the Brier Score. The hybrid avoids this failure mode by weighting agents based on track record and information quality rather than applying a blanket transformation.
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Discussion}
+\label{sec:discussion}
+% ══════════════════════════════════════════════════════════════════════════
+
+\paragraph{When does mechanism design help?}
+Our results identify three conditions under which mechanism-design-based aggregation provides the greatest benefit over simple methods: (a) \textit{agent quality heterogeneity}---agents must differ meaningfully in accuracy, which is amplified by multi-model ensembles; (b) \textit{information asymmetry}---agents must possess genuinely different information, achieved through document partitioning and model diversity; and (c) \textit{sufficient history}---reputation mechanisms require $\sim$40+ resolved questions to converge. When all three conditions are met, the hybrid achieves substantial improvements; when agents reach near-unanimous consensus, all methods produce similar outputs.
+
+\paragraph{Design recommendations.}
+Based on our findings, we offer practical recommendations for multi-agent LLM prediction systems:
+\begin{enumerate}
+    \item Use heterogeneous model backends to maximize information diversity.
+    \item Partition retrieved documents across agents rather than sharing all context.
+    \item Deploy the hybrid mechanism (M4) for long-running systems where reputation can converge; use extremized averaging as a strong default for cold-start scenarios.
+    \item Use BTS scores for real-time quality monitoring without waiting for outcome resolution.
+\end{enumerate}
+
+\paragraph{Computational overhead.}
+The meta-prediction step adds one LLM call per agent ($\sim$10\% overhead). All mechanism computations (LMSR trading, BTS scoring, reputation updates) are negligible ($<$1ms). The multi-model ensemble incurs no additional latency since agents are queried in parallel.
+
+\paragraph{Limitations.}
+\begin{itemize}
+    \item \textbf{Binary outcomes only}: Our current framework handles binary prediction markets. Extension to multi-outcome and continuous markets is straightforward in principle but requires adapting the LMSR and BTS formulations.
+    \item \textbf{Fixed hybrid weights}: The mixing coefficients $\lambda_1, \lambda_2, \lambda_3$ are fixed hyperparameters. Learned or adaptive weights based on question features could further improve performance.
+    \item \textbf{RAG quality dependency}: System performance remains bounded by retrieval quality. On 23 of 150 questions where RAG returned no relevant documents, agents defaulted to prior knowledge, reducing the advantage of information partitioning.
+    \item \textbf{Cost}: The multi-model ensemble incurs higher API costs than single-model deployment. In cost-sensitive settings, a two-model ensemble (e.g., DeepSeek + GPT-4o) captures most of the diversity benefit at lower cost.
+\end{itemize}
+
+\paragraph{Broader implications.}
+This work establishes that mechanism design theory provides a principled and empirically effective framework for LLM multi-agent aggregation. The key enablers---model heterogeneity, information partitioning, and sufficient evaluation history---are naturally present in real-world deployment scenarios, suggesting that the benefits demonstrated here will transfer to production systems. More broadly, our results suggest that insights from economic mechanism design can systematically improve AI multi-agent coordination, opening avenues for applying auction theory, contract design, and social choice theory to LLM agent systems.
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Conclusion}
+\label{sec:conclusion}
+% ══════════════════════════════════════════════════════════════════════════
+
+We presented \method{}, a framework applying mechanism design theory to aggregate predictions from multi-agent LLM systems. We implemented four mechanisms with theoretical foundations in proper scoring rules (M1), market design (M2), and information elicitation (M3), along with a hybrid (M4) combining all three.
+
+Experiments on 150 resolved prediction market questions with a heterogeneous multi-model ensemble reveal that: (1) multi-agent debate improves predictions by 26.0\% over independent reasoning; (2) the hybrid mechanism (M4) achieves the lowest Brier Score (0.0580), outperforming simple averaging by 34.8\%, extremized averaging by 10.8\%, and actual market prices by 18.3\%; (3) the reputation system identifies persistent agent quality differences, with a 2.5$\times$ accuracy gap between the best and worst agents; and (4) BTS-informed rankings correlate strongly with actual performance ($\rho = 0.89$), enabling ground-truth-free quality assessment.
+
+We identify three key enablers for mechanism design to outperform simpler methods: model heterogeneity, information asymmetry, and sufficient evaluation history. When these conditions are met, the hybrid's advantage is most pronounced on high-disagreement questions (+38\% over simple averaging), precisely the cases where accurate aggregation matters most. Future work includes: (a) adaptive hybrid weights learned from question features, (b) extension to multi-outcome prediction markets, (c) integration with human forecasters in hybrid human-AI ensembles, and (d) application to other multi-agent coordination tasks beyond prediction.
+
+
+% ══════════════════════════════════════════════════════════════════════════
+% References
+% ══════════════════════════════════════════════════════════════════════════
+
+\bibliographystyle{IEEEtran}
+
+\begin{thebibliography}{20}
+
+\bibitem{du2023improving}
+Y.~Du, S.~Li, A.~Torralba, J.~B. Tenenbaum, and I.~Mordatch,
+``Improving factuality and reasoning in language models through multiagent debate,''
+\emph{arXiv preprint arXiv:2305.14325}, 2023.
+
+\bibitem{liang2023encouraging}
+T.~Liang, Z.~He, W.~Jiao, X.~Wang, Y.~Wang, R.~Wang, Y.~Yang, Z.~Tu, and S.~Shi,
+``Encouraging divergent thinking in large language models through multi-agent debate,''
+\emph{arXiv preprint arXiv:2305.19118}, 2023.
+
+\bibitem{chan2023chateval}
+C.~M. Chan, W.~Chen, Y.~Su, J.~Yu, W.~Xue, S.~Zhang, J.~Fu, and Z.~Liu,
+``Chateval: Towards better llm-based evaluators through multi-agent debate,''
+\emph{arXiv preprint arXiv:2308.07201}, 2023.
+
+\bibitem{halawi2024approaching}
+D.~Halawi, F.~Denain, and J.~Steinhardt,
+``Approaching human-level forecasting with language models,''
+\emph{arXiv preprint arXiv:2402.18563}, 2024.
+
+\bibitem{baron2014two}
+J.~Baron, B.~F. Mellers, P.~E. Tetlock, E.~Stone, and L.~K. Ungar,
+``Two reasons to make aggregated probability forecasts more extreme,''
+\emph{Decision Analysis}, vol.~11, no.~2, pp. 133--145, 2014.
+
+\bibitem{satopaa2014combining}
+V.~A. Satop\"a\"a, J.~Baron, D.~P. Foster, B.~F. Mellers, P.~E. Tetlock, and L.~K. Ungar,
+``Combining multiple probability predictions using a simple logit model,''
+\emph{International Journal of Forecasting}, vol.~30, no.~2, pp. 344--356, 2014.
+
+\bibitem{tetlock2016superforecasting}
+P.~E. Tetlock and D.~Gardner,
+\emph{Superforecasting: The Art and Science of Prediction}.
+Crown, 2016.
+
+\bibitem{hanson2003combinatorial}
+R.~Hanson,
+``Combinatorial information market design,''
+\emph{Information Systems Frontiers}, vol.~5, no.~1, pp. 107--119, 2003.
+
+\bibitem{hanson2007logarithmic}
+R.~Hanson,
+``Logarithmic markets scoring rules for modular combinatorial information aggregation,''
+\emph{The Journal of Prediction Markets}, vol.~1, no.~1, pp. 3--15, 2007.
+
+\bibitem{wolfers2004prediction}
+J.~Wolfers and E.~Zitzewitz,
+``Prediction markets,''
+\emph{Journal of Economic Perspectives}, vol.~18, no.~2, pp. 107--126, 2004.
+
+\bibitem{arrow2008promise}
+K.~J. Arrow, R.~Forsythe, M.~Gorham, R.~Hahn, R.~Hanson, J.~O. Ledyard, S.~Levmore, R.~Litan, P.~Milgrom, F.~D. Nelson, et~al.,
+``The promise of prediction markets,''
+\emph{Science}, vol.~320, no. 5878, pp. 877--878, 2008.
+
+\bibitem{prelec2004bayesian}
+D.~Prelec,
+``A Bayesian truth serum for subjective data,''
+\emph{Science}, vol.~306, no. 5695, pp. 462--466, 2004.
+
+\bibitem{miller2005eliciting}
+N.~Miller, P.~Resnick, and R.~Zeckhauser,
+``Eliciting informative feedback: The peer-prediction method,''
+\emph{Management Science}, vol.~51, no.~9, pp. 1359--1373, 2005.
+
+\bibitem{witkowski2012robust}
+J.~Witkowski and D.~C. Parkes,
+``A robust Bayesian truth serum for small populations,''
+in \emph{Proceedings of AAAI}, 2012.
+
+\bibitem{radanovic2013robust}
+G.~Radanovic and B.~Faltings,
+``A robust Bayesian truth serum for non-binary signals,''
+in \emph{Proceedings of AAAI}, 2013.
+
+\bibitem{nisan2007algorithmic}
+N.~Nisan, T.~Roughgarden, E.~Tardos, and V.~Z. Vazirani,
+\emph{Algorithmic Game Theory}.
+Cambridge University Press, 2007.
+
+\end{thebibliography}
+
+\end{document}

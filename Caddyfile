@@ -1,0 +1,9 @@
+# Replace YOUR_DOMAIN with your actual domain, e.g. depredict.com
+# Caddy will auto-provision HTTPS via Let's Encrypt
+{$DOMAIN:localhost} {
+    # Proxy everything to the frontend nginx
+    reverse_proxy frontend:3000
+
+    # Encode responses
+    encode gzip zstd
+}

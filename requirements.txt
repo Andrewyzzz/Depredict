@@ -1,0 +1,11 @@
+openai
+tavily-python
+streamlit
+pandas
+plotly
+python-dotenv
+yt-dlp
+youtube-transcript-api
+matplotlib
+numpy
+scipy

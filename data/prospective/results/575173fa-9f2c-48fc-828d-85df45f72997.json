@@ -1,0 +1,2053 @@
+{
+  "question": "LoL: Gen.G vs LYON - Game 4 Winner",
+  "market_price": 0.57,
+  "timestamp": "2026-03-19T04:17:16.001634",
+  "rag_sources": [
+    {
+      "title": "[YouTube] One Weed (MSI 2023 CoStreams | Bracket Stage | Day 10: GEN vs BLG)",
+      "url": "https://www.youtube.com/watch?v=gpLGUoGJYCM",
+      "source": "youtube"
+    },
+    {
+      "title": "[YouTube] [SSL Premier S2] 170924 Finals part 3 Stats vs Dark",
+      "url": "https://www.youtube.com/watch?v=67x_Fu2mmsE",
+      "source": "youtube"
+    },
+    {
+      "title": "[YouTube] R7 vs UOL Highlights Worlds 2020 Play in Rainbow7 vs Unicorns Of Love by Onivia",
+      "url": "https://www.youtube.com/watch?v=vu1I1eXXoPg",
+      "source": "youtube"
+    },
+    {
+      "title": "[YouTube] Talking about our LEC Versus run after the Finals",
+      "url": "https://www.youtube.com/watch?v=cnnIOZO5WaY",
+      "source": "youtube"
+    },
+    {
+      "title": "[YouTube] LYON Are Winning First Stand and HLE's Horrible Winter Was A One-Off: LoL Esports Overreactions",
+      "url": "https://www.youtube.com/watch?v=TAnuJsAqOuE",
+      "source": "youtube"
+    },
+    {
+      "title": "[YouTube] LYN vs SAJ - highlights IWCQ 2016 Day 3 - Lyon Gaming vs Saigon Jokers",
+      "url": "https://www.youtube.com/watch?v=8zet4-YaXbc",
+      "source": "youtube"
+    },
+    {
+      "title": "[YouTube] Streamers, Teams, Casters react to INSANE LCS Championship ending",
+      "url": "https://www.youtube.com/watch?v=69j6O_Ptlf4",
+      "source": "youtube"
+    },
+    {
+      "title": "[YouTube] THE PERFECT PICK'EMS? | FIRST STAND 2026 PICK'EMS BY YAMATOCANNON",
+      "url": "https://www.youtube.com/watch?v=U0cqSrncFwo",
+      "source": "youtube"
+    },
+    {
+      "title": "[YouTube] Singed Locked in by C9 Impact | C9 vs WE game 2 highlights | 2017 World Championship Quarterfinals",
+      "url": "https://www.youtube.com/watch?v=r6VScaoB1DY",
+      "source": "youtube"
+    },
+    {
+      "title": "[YouTube] Friday Night Funkin' - Fast Food Battle (V2) - BF, Pico, Nene, Darnell & GF + Cutscenes (FNF Mod)",
+      "url": "https://www.youtube.com/watch?v=ErswhE3JWCg",
+      "source": "youtube"
+    },
+    {
+      "title": "[Reddit] Team Liquid Alienware vs. LYON / LCS 2026 Lock-In - Lower Bracket Round 2 / Post Game Discussion",
+      "url": "https://www.reddit.com/r/leagueoflegends/comments/1rgnwrx/team_liquid_alienware_vs_lyon_lcs_2026_lockin/",
+      "source": "reddit"
+    },
+    {
+      "title": "[Reddit] LYON vs. LOUD / First Stand 2026 - Group B - Upper Bracket Round 1 / Post-Match Discussion",
+      "url": "https://www.reddit.com/r/leagueoflegends/comments/1rwgzni/lyon_vs_loud_first_stand_2026_group_b_upper/",
+      "source": "reddit"
+    },
+    {
+      "title": "[Reddit] BNK FEARX vs. Bilibili Gaming / First Stand 2026 - Group A - Upper Bracket Round 1 / Post-Match Discussion",
+      "url": "https://www.reddit.com/r/leagueoflegends/comments/1rvf8by/bnk_fearx_vs_bilibili_gaming_first_stand_2026/",
+      "source": "reddit"
+    },
+    {
+      "title": "[Reddit] Cloud9 vs. LYON / LCS 2026 Lock-In - Grand Finals / Post-Match Discussion",
+      "url": "https://www.reddit.com/r/leagueoflegends/comments/1rienap/cloud9_vs_lyon_lcs_2026_lockin_grand_finals/",
+      "source": "reddit"
+    },
+    {
+      "title": "[Reddit] Bilibili Gaming vs. G2 Esports / First Stand 2026 - Group A - Qualification Match / Post-Match Discussion",
+      "url": "https://www.reddit.com/r/leagueoflegends/comments/1rx6wxk/bilibili_gaming_vs_g2_esports_first_stand_2026/",
+      "source": "reddit"
+    }
+  ],
+  "document_count": 15,
+  "rounds": {
+    "round1": [
+      {
+        "agent_name": "乐观分析师",
+        "stance": "bull",
+        "probability": 78.0,
+        "reasoning": "首先评估文档相关性。文档1（MSI 2023 Gen.G vs BLG）详细描述了Gen.G在国际大赛中的比赛过程，展示了其战术执行和关键时刻的决策能力，相关性高（9分）。文档4（Movistar KOI赛后访谈）和文档5（LEC vs LCS过激反应）讨论了国际赛事、战队心态和版本理解，虽然不直接涉及本场对阵，但提供了分析国际比赛和战队状态的背景框架，相关性中等（6分）。文档6（LYN vs SAJ）和文档7（C9 vs WE）是其他战队的历史比赛，与当前Gen.G vs LYON的直接分析关联度低，相关性低（3-4分）。文档2（SSL Premier）和文档3（R7 vs UOL）涉及完全不同的游戏（星际争霸2）或不同赛事，是明显的干扰信息，相关性为0分。因此，我的分析将主要基于文档1、4、5。\n\n**1. 支持Gen.G（YES）获胜的论据：**\n- **国际大赛经验与关键时刻执行力**：Gen.G在MSI 2023对阵BLG的比赛中展现了卓越的团战协同和资源控制能力。例如，在争夺峡谷先锋时，##begin_quote## Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control ##end_quote## [文档1]，这体现了他们对敌方关键技能冷却的精准把握和果断开团能力。这种大赛经验是LYON这样的队伍难以比拟的。\n- **强大的个人能力与阵容深度**：文档1中多次提到Gen.G选手的个人操作，如##begin_quote## delaysia's killing them all oh my god dude how is he alive ##end_quote## [文档1]，显示了选手在高压下创造奇迹团的能力。此外，他们的阵容选择（如Jax、Talia）即使在不被看好的情况下也能通过操作和配合打出效果，说明队伍的英雄池和适应能力很强。\n- **战术纪律性与资源转换**：Gen.G在局势不利时仍能通过分推和地图资源控制寻找机会。##begin_quote## the Double Split push guaranteed Force Baron into double TP ##end_quote## [文档1] 展示了他们清晰的后期决策思路，能够将地图压力转化为男爵等关键目标，这种战术素养在BO5的后期游戏中至关重要。\n\n**2. 反对Gen.G（NO，即支持LYON）的论据：**\n- **LYON的潜在爆发力与团队协作**：虽然直接文档有限，但根据文档5中对LYON（文中指Lion，应为同一队伍）的分析，他们被比作拥有类似Fly Quest的“成功公式”。##begin_quote## we have the same formula we had last year... a top laner that could play counter picks... a bot lane that can hold their own ##end_quote## [文档5]。这表明LYON是一支团队协作良好、各位置均衡且擅长利用BP（禁选）创造优势的队伍，有能力给强队制造麻烦。\n- **Gen.G可能存在的轻敌或状态波动**：即使是顶级强队，在国际比赛中也可能出现状态起伏。文档1中Gen.G也曾出现##begin_quote## what the hell is way off I could have just dropped it on his feet he's Point Blank he should have had it ##end_quote## [文档1] 这样的技能失误。如果LYON能抓住Gen.G的短暂松懈，就有可能赢下一局。\n- **版本适应与临场心态**：国际比赛版本理解可能不同。文档4中职业选手提到，##begin_quote## when you go to international, you will just get cooked. So if you don't really like get to learn and match them, I think there is like no point in training ##end_quote## [文档4]。LYON如果对当前版本有独到且有效的理解，而Gen.G未能及时调整，LYON就有机会。此外，作为挑战者，LYON可能拥有更轻松、更具冲击力的心态。\n\n**3. 综合分析：**\n权衡以上因素，Gen.G在硬实力、大赛经验和战术执行力上拥有明显优势，这些是BO5系列赛中稳定性的基石。文档1中他们面对BLG这样的强劲对手时所展现的韧性（在劣势中寻找机会、关键团战操作）是顶级强队的标志。然而，LYON绝非鱼腩，他们被分析师认为具备“黑马”潜质（文档5），团队协作和战术执行力是其武器。在BO5的第四局，可能出现两种情况：一是Gen.G一鼓作气，凭借实力碾压结束系列赛；二是LYON背水一战，打出超水平发挥，或者Gen.G在接近胜利时出现战术或心态上的放松。\n\n考虑到这是“Game 4 Winner”，系列赛的上下文至关重要。通常，Gen.G作为更强的一方，会力求尽快结束比赛，避免节外生枝。LYON想要取胜，可能需要Gen.G犯下较多错误，或者自己打出近乎完美的表现。从历史数据和实力对比来看，前者发生的概率远高于后者。\n\n**4. 最终概率估计：**\n基于Gen.G作为世界顶级战队的稳定性和LYON作为挑战者虽具潜力但整体实力存在差距的判断，Gen.G在第四局获胜的概率很高。但考虑到BO5中弱队扳回一局的可能性以及LYON的团队特质，概率并非100%。我给予Gen.G (YES) 较高的获胜概率。",
+        "raw_response": "REASONING: \n首先评估文档相关性。文档1（MSI 2023 Gen.G vs BLG）详细描述了Gen.G在国际大赛中的比赛过程，展示了其战术执行和关键时刻的决策能力，相关性高（9分）。文档4（Movistar KOI赛后访谈）和文档5（LEC vs LCS过激反应）讨论了国际赛事、战队心态和版本理解，虽然不直接涉及本场对阵，但提供了分析国际比赛和战队状态的背景框架，相关性中等（6分）。文档6（LYN vs SAJ）和文档7（C9 vs WE）是其他战队的历史比赛，与当前Gen.G vs LYON的直接分析关联度低，相关性低（3-4分）。文档2（SSL Premier）和文档3（R7 vs UOL）涉及完全不同的游戏（星际争霸2）或不同赛事，是明显的干扰信息，相关性为0分。因此，我的分析将主要基于文档1、4、5。\n\n**1. 支持Gen.G（YES）获胜的论据：**\n- **国际大赛经验与关键时刻执行力**：Gen.G在MSI 2023对阵BLG的比赛中展现了卓越的团战协同和资源控制能力。例如，在争夺峡谷先锋时，##begin_quote## Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control ##end_quote## [文档1]，这体现了他们对敌方关键技能冷却的精准把握和果断开团能力。这种大赛经验是LYON这样的队伍难以比拟的。\n- **强大的个人能力与阵容深度**：文档1中多次提到Gen.G选手的个人操作，如##begin_quote## delaysia's killing them all oh my god dude how is he alive ##end_quote## [文档1]，显示了选手在高压下创造奇迹团的能力。此外，他们的阵容选择（如Jax、Talia）即使在不被看好的情况下也能通过操作和配合打出效果，说明队伍的英雄池和适应能力很强。\n- **战术纪律性与资源转换**：Gen.G在局势不利时仍能通过分推和地图资源控制寻找机会。##begin_quote## the Double Split push guaranteed Force Baron into double TP ##end_quote## [文档1] 展示了他们清晰的后期决策思路，能够将地图压力转化为男爵等关键目标，这种战术素养在BO5的后期游戏中至关重要。\n\n**2. 反对Gen.G（NO，即支持LYON）的论据：**\n- **LYON的潜在爆发力与团队协作**：虽然直接文档有限，但根据文档5中对LYON（文中指Lion，应为同一队伍）的分析，他们被比作拥有类似Fly Quest的“成功公式”。##begin_quote## we have the same formula we had last year... a top laner that could play counter picks... a bot lane that can hold their own ##end_quote## [文档5]。这表明LYON是一支团队协作良好、各位置均衡且擅长利用BP（禁选）创造优势的队伍，有能力给强队制造麻烦。\n- **Gen.G可能存在的轻敌或状态波动**：即使是顶级强队，在国际比赛中也可能出现状态起伏。文档1中Gen.G也曾出现##begin_quote## what the hell is way off I could have just dropped it on his feet he's Point Blank he should have had it ##end_quote## [文档1] 这样的技能失误。如果LYON能抓住Gen.G的短暂松懈，就有可能赢下一局。\n- **版本适应与临场心态**：国际比赛版本理解可能不同。文档4中职业选手提到，##begin_quote## when you go to international, you will just get cooked. So if you don't really like get to learn and match them, I think there is like no point in training ##end_quote## [文档4]。LYON如果对当前版本有独到且有效的理解，而Gen.G未能及时调整，LYON就有机会。此外，作为挑战者，LYON可能拥有更轻松、更具冲击力的心态。\n\n**3. 综合分析：**\n权衡以上因素，Gen.G在硬实力、大赛经验和战术执行力上拥有明显优势，这些是BO5系列赛中稳定性的基石。文档1中他们面对BLG这样的强劲对手时所展现的韧性（在劣势中寻找机会、关键团战操作）是顶级强队的标志。然而，LYON绝非鱼腩，他们被分析师认为具备“黑马”潜质（文档5），团队协作和战术执行力是其武器。在BO5的第四局，可能出现两种情况：一是Gen.G一鼓作气，凭借实力碾压结束系列赛；二是LYON背水一战，打出超水平发挥，或者Gen.G在接近胜利时出现战术或心态上的放松。\n\n考虑到这是“Game 4 Winner”，系列赛的上下文至关重要。通常，Gen.G作为更强的一方，会力求尽快结束比赛，避免节外生枝。LYON想要取胜，可能需要Gen.G犯下较多错误，或者自己打出近乎完美的表现。从历史数据和实力对比来看，前者发生的概率远高于后者。\n\n**4. 最终概率估计：**\n基于Gen.G作为世界顶级战队的稳定性和LYON作为挑战者虽具潜力但整体实力存在差距的判断，Gen.G在第四局获胜的概率很高。但考虑到BO5中弱队扳回一局的可能性以及LYON的团队特质，概率并非100%。我给予Gen.G (YES) 较高的获胜概率。\n\nPREDICTION: 78%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control",
+              "doc_index": 1
+            },
+            {
+              "quote": "delaysia's killing them all oh my god dude how is he alive",
+              "doc_index": 1
+            },
+            {
+              "quote": "the Double Split push guaranteed Force Baron into double TP",
+              "doc_index": 1
+            },
+            {
+              "quote": "we have the same formula we had last year... a top laner that could play counter picks... a bot lane that can hold their own",
+              "doc_index": 5
+            },
+            {
+              "quote": "what the hell is way off I could have just dropped it on his feet he's Point Blank he should have had it",
+              "doc_index": 1
+            },
+            {
+              "quote": "when you go to international, you will just get cooked. So if you don't really like get to learn and match them, I think there is like no point in training",
+              "doc_index": 4
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "质疑分析师",
+        "stance": "bear",
+        "probability": 65.0,
+        "reasoning": "让我先评估文档相关性。问题聚焦于 Gen.G 与 LYON 的第四局比赛胜者预测。文档1是MSI 2023 Gen.G vs BLG的比赛片段，虽然涉及Gen.G，但时间、对手和赛事（MSI 2023 vs First Stand 2026）完全不匹配，相关性低（约3分）。文档2是关于《星际争霸2》的SSL决赛，与《英雄联盟》预测无关，相关性0分。文档3是2020年世界赛入围赛R7 vs UOL，无关，相关性0分。文档4是LEC队伍Movistar KOI的赛后访谈，无关，相关性0分。文档5是视频评论，提到了LYON和First Stand，并讨论了LYON的潜力与Gen.G的实力，这是**高度相关**的（约8分）。文档6是2016年IWCQ的LYON vs SAJ，年代久远且赛事级别不同，相关性低（约2分）。文档7是Reddit上First Stand 2026中LYON vs LOUD的系列赛详细战报，显示了LYON的近期状态、具体英雄选择和比赛结果，这是**最直接相关**的（约9分）。我将主要依据文档5和7进行分析。\n\n**支持 Gen.G 获胜（YES）的论据：**\n1.  Gen.G被广泛认为是本次赛事中实力最强的队伍之一，其选手个人能力被评估为高于LYON。文档5明确指出：“##begin_quote## there is nobody on this roster, including inspired, that is at the level individually of what GenG is at going to this tournament. ##end_quote## [文档 5]”。这暗示在关键对位上，Gen.G可能拥有显著的个人能力优势。\n2.  Gen.G在国际赛事中拥有更稳定的历史表现和心理素质。文档5提到：“##begin_quote## they’ve proven themselves, and it’s not Worlds yet, so they’re not destined to crumble. ##end_quote## [文档 5]”。这表明分析师认为Gen.G在非世界赛的国际舞台上通常能保持稳定，不易崩盘。\n3.  LYON在对抗强队时可能暴露出阵容深度或战术执行的上限。虽然文档7显示LYON以3-2战胜了LOUD，但比赛过程是胶着的，并且LYON输掉的两局（第二局和第四局）表现不佳。例如，第二局LYON在经济和击杀数上均落后（##begin_quote## 65.5k|11|3 ... 73.1k|20|8 ##end_quote## [文档 7]），第四局同样被压制（##begin_quote## 53.5k|9|1 ... 63.8k|16|10 ##end_quote## [文档 7]）。这表明LYON的状态有波动，面对更高强度的Gen.G时，任何失误都可能被放大。\n\n**反对 Gen.G 获胜（NO，即支持LYON）的论据：**\n1.  LYON拥有强大的团队协同和明确的获胜公式，其阵容构建与成功的北美战队有相似之处。文档5指出LYON的配置（能玩counter pick的上单、MVP级打野、能carry的中单、能稳住的下路）与去年备受赞誉的FlyQuest相似，且##begin_quote## Saint is probably the best mid laner that he’s [Inspired] played with yet ##end_quote## [文档 5]。这意味着LYON并非弱旅，而是一支有成熟体系且中单实力被看好的队伍。\n2.  LYON打野Inspired状态火热，是系列赛的决定性因素。在文档7的LYON vs LOUD系列赛中，Inspired两次被评为“Player of the Game”（第一局和第三局），并且整个系列赛被评为“Player of the Series”。他在第一局使用潘森打出7/0/4的完美数据（##begin_quote## Inspired pantheon ^1|7-0-4 ##end_quote## [文档 7]），第三局使用孙悟空也有3/0/6的出色表现。如果Inspired能延续这种统治级表现，他完全有能力带动节奏，击败Gen.G。\n3.  国际赛事中存在不确定性，且LYON被部分观点认为有“爆冷”潜力。文档5中提到，分析师认为“##begin_quote## we can at least make it to finals ##end_quote## [文档 5]”以及“##begin_quote## I think BFX [应为Gen.G] is genuinely like going to be one of the most beatable teams that we’ve seen come out of Korea in a while. ##end_quote## [文档 5]”。这反映了并非所有人都认为Gen.G是不可战胜的，LYON有机会。此外，LYON刚刚经历了一场激烈的五局大战并取胜（文档7），其韧性和BO5经验在第四局中可能成为优势。\n\n**综合分析：**\n这是一个典型的“纸面实力”与“临场状态/特定阵容克制”的对抗。Gen.G在整体实力和历史声誉上无疑占优，这是基准率。然而，LYON并非鱼腩，他们拥有明星打野、正在上升的中单，以及从激烈竞争中突围的近期战绩。关键风险点在于：1) Gen.G的过度自信或慢热（尽管文档5认为他们稳定）；2) Inspired的野区突破能力；3) LYON可能准备的特殊战术。\n\n从文档7看，LYON的胜利（第一、三局）往往伴随着Inspired的早期主导和线上优势，而失利时（第二、四局）则显得被动。因此，Game 4的胜负很可能取决于Inspired能否顶住Gen.G打野的压力，以及LYON的线上（特别是中上）能否至少稳住对线。考虑到这是BO5中的第四局，如果LYON当时处于领先（如2-1），其心理压力更小，可能更敢打；如果处于落后（如1-2），则面临背水一战。但无论如何，Gen.G作为更强一方，其调整能力和深度使其在单局比赛中获胜的概率仍然更高。不过，LYON有明确的取胜路径（打野带动），这使爆冷概率不容忽视。\n\n**最终概率估计：**\n综合权衡，Gen.G在单局（Game 4）中的获胜概率应高于50%。但基于LYON展示出的竞争力和Inspired的X因素，这个概率不应是压倒性的。考虑到Gen.G的团队实力基准和LYON状态波动的事实（文档7中表现起伏），我将概率定在 Gen.G 有显著优势但并非稳赢的区间。",
+        "raw_response": "REASONING: 让我先评估文档相关性。问题聚焦于 Gen.G 与 LYON 的第四局比赛胜者预测。文档1是MSI 2023 Gen.G vs BLG的比赛片段，虽然涉及Gen.G，但时间、对手和赛事（MSI 2023 vs First Stand 2026）完全不匹配，相关性低（约3分）。文档2是关于《星际争霸2》的SSL决赛，与《英雄联盟》预测无关，相关性0分。文档3是2020年世界赛入围赛R7 vs UOL，无关，相关性0分。文档4是LEC队伍Movistar KOI的赛后访谈，无关，相关性0分。文档5是视频评论，提到了LYON和First Stand，并讨论了LYON的潜力与Gen.G的实力，这是**高度相关**的（约8分）。文档6是2016年IWCQ的LYON vs SAJ，年代久远且赛事级别不同，相关性低（约2分）。文档7是Reddit上First Stand 2026中LYON vs LOUD的系列赛详细战报，显示了LYON的近期状态、具体英雄选择和比赛结果，这是**最直接相关**的（约9分）。我将主要依据文档5和7进行分析。\n\n**支持 Gen.G 获胜（YES）的论据：**\n1.  Gen.G被广泛认为是本次赛事中实力最强的队伍之一，其选手个人能力被评估为高于LYON。文档5明确指出：“##begin_quote## there is nobody on this roster, including inspired, that is at the level individually of what GenG is at going to this tournament. ##end_quote## [文档 5]”。这暗示在关键对位上，Gen.G可能拥有显著的个人能力优势。\n2.  Gen.G在国际赛事中拥有更稳定的历史表现和心理素质。文档5提到：“##begin_quote## they’ve proven themselves, and it’s not Worlds yet, so they’re not destined to crumble. ##end_quote## [文档 5]”。这表明分析师认为Gen.G在非世界赛的国际舞台上通常能保持稳定，不易崩盘。\n3.  LYON在对抗强队时可能暴露出阵容深度或战术执行的上限。虽然文档7显示LYON以3-2战胜了LOUD，但比赛过程是胶着的，并且LYON输掉的两局（第二局和第四局）表现不佳。例如，第二局LYON在经济和击杀数上均落后（##begin_quote## 65.5k|11|3 ... 73.1k|20|8 ##end_quote## [文档 7]），第四局同样被压制（##begin_quote## 53.5k|9|1 ... 63.8k|16|10 ##end_quote## [文档 7]）。这表明LYON的状态有波动，面对更高强度的Gen.G时，任何失误都可能被放大。\n\n**反对 Gen.G 获胜（NO，即支持LYON）的论据：**\n1.  LYON拥有强大的团队协同和明确的获胜公式，其阵容构建与成功的北美战队有相似之处。文档5指出LYON的配置（能玩counter pick的上单、MVP级打野、能carry的中单、能稳住的下路）与去年备受赞誉的FlyQuest相似，且##begin_quote## Saint is probably the best mid laner that he’s [Inspired] played with yet ##end_quote## [文档 5]。这意味着LYON并非弱旅，而是一支有成熟体系且中单实力被看好的队伍。\n2.  LYON打野Inspired状态火热，是系列赛的决定性因素。在文档7的LYON vs LOUD系列赛中，Inspired两次被评为“Player of the Game”（第一局和第三局），并且整个系列赛被评为“Player of the Series”。他在第一局使用潘森打出7/0/4的完美数据（##begin_quote## Inspired pantheon ^1|7-0-4 ##end_quote## [文档 7]），第三局使用孙悟空也有3/0/6的出色表现。如果Inspired能延续这种统治级表现，他完全有能力带动节奏，击败Gen.G。\n3.  国际赛事中存在不确定性，且LYON被部分观点认为有“爆冷”潜力。文档5中提到，分析师认为“##begin_quote## we can at least make it to finals ##end_quote## [文档 5]”以及“##begin_quote## I think BFX [应为Gen.G] is genuinely like going to be one of the most beatable teams that we’ve seen come out of Korea in a while. ##end_quote## [文档 5]”。这反映了并非所有人都认为Gen.G是不可战胜的，LYON有机会。此外，LYON刚刚经历了一场激烈的五局大战并取胜（文档7），其韧性和BO5经验在第四局中可能成为优势。\n\n**综合分析：**\n这是一个典型的“纸面实力”与“临场状态/特定阵容克制”的对抗。Gen.G在整体实力和历史声誉上无疑占优，这是基准率。然而，LYON并非鱼腩，他们拥有明星打野、正在上升的中单，以及从激烈竞争中突围的近期战绩。关键风险点在于：1) Gen.G的过度自信或慢热（尽管文档5认为他们稳定）；2) Inspired的野区突破能力；3) LYON可能准备的特殊战术。\n\n从文档7看，LYON的胜利（第一、三局）往往伴随着Inspired的早期主导和线上优势，而失利时（第二、四局）则显得被动。因此，Game 4的胜负很可能取决于Inspired能否顶住Gen.G打野的压力，以及LYON的线上（特别是中上）能否至少稳住对线。考虑到这是BO5中的第四局，如果LYON当时处于领先（如2-1），其心理压力更小，可能更敢打；如果处于落后（如1-2），则面临背水一战。但无论如何，Gen.G作为更强一方，其调整能力和深度使其在单局比赛中获胜的概率仍然更高。不过，LYON有明确的取胜路径（打野带动），这使爆冷概率不容忽视。\n\n**最终概率估计：**\n综合权衡，Gen.G在单局（Game 4）中的获胜概率应高于50%。但基于LYON展示出的竞争力和Inspired的X因素，这个概率不应是压倒性的。考虑到Gen.G的团队实力基准和LYON状态波动的事实（文档7中表现起伏），我将概率定在 Gen.G 有显著优势但并非稳赢的区间。\n\nPREDICTION: 65%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "there is nobody on this roster, including inspired, that is at the level individually of what GenG is at going to this tournament.",
+              "doc_index": 5
+            },
+            {
+              "quote": "they’ve proven themselves, and it’s not Worlds yet, so they’re not destined to crumble.",
+              "doc_index": 5
+            },
+            {
+              "quote": "65.5k|11|3 ... 73.1k|20|8",
+              "doc_index": 7
+            },
+            {
+              "quote": "53.5k|9|1 ... 63.8k|16|10",
+              "doc_index": 7
+            },
+            {
+              "quote": "Saint is probably the best mid laner that he’s [Inspired] played with yet",
+              "doc_index": 5
+            },
+            {
+              "quote": "Inspired pantheon ^1|7-0-4",
+              "doc_index": 7
+            },
+            {
+              "quote": "we can at least make it to finals",
+              "doc_index": 5
+            },
+            {
+              "quote": "I think BFX [应为Gen.G] is genuinely like going to be one of the most beatable teams that we’ve seen come out of Korea in a while.",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "贝叶斯分析师",
+        "stance": "neutral",
+        "probability": 88.0,
+        "reasoning": "我将以贝叶斯分析师的框架来处理这个问题。首先，我需要评估提供的文档与“LoL: Gen.G vs LYON - Game 4 Winner”这一预测问题的相关性。问题涉及两支队伍：Gen.G（韩国LCK队伍）和LYON（可能指Lyon Gaming，一支拉丁美洲队伍）。我需要从文档中提取关于这两支队伍实力、状态和直接对抗证据的信息。\n\n**文档相关性评估：**\n- **文档 1 (MSI 2023 Gen.G vs BLG):** 直接涉及Gen.G在MSI 2023的比赛表现。相关性高（9/10）。提供了Gen.G对阵另一支强队BLG时的具体比赛细节、选手操作和战术执行信息。\n- **文档 2 (SSL Premier S2 决赛):** 关于《星际争霸2》比赛，与《英雄联盟》及问题中的队伍无关。相关性极低（1/10）。忽略。\n- **文档 3 (R7 vs UOL Highlights Worlds 2020):** 关于《英雄联盟》世界赛入围赛，但队伍是Rainbow7和Unicorns of Love，与Gen.G或LYON无关。相关性低（2/10）。忽略。\n- **文档 4 (Movistar KOI 赛后采访):** 关于LEC队伍Movistar KOI（现KOI）的采访，涉及国际赛事反思，但未提及Gen.G或LYON。相关性低（3/10）。忽略。\n- **文档 5 (LEC/LCK 冬季赛过度反应视频):** 包含对LYON（Lion，应指Team Liquid？但根据上下文，此处“Lion”更可能指LCS的Team Liquid，其前身为Team Liquid，但昵称/简称有时为TL或Liquid。然而，文档中讨论的是“Lion can win the first stand tournament”，结合上下文“First Stand”赛事，这很可能指的是LCS的Team Liquid。但问题中的“LYON”拼写与“Lion”相似，可能指同一队伍。文档5明确讨论了这支队伍（称为“Lion”）在国际赛事（First Stand）中的前景，并将其与Gen.G比较。相关性高（8/10）。\n- **文档 6 (LYN vs SAJ - IWCQ 2016):** 关于Lyon Gaming（LYN）在2016年国际外卡资格赛的表现。这很可能就是问题中提到的“LYON”（可能是拼写变体）。相关性高（8/10）。提供了LYON历史比赛表现的数据。\n- **文档 7 (Friday Night Funkin' Mod):** 与游戏无关的音乐视频。相关性为0。忽略。\n\n**知识图谱摘要** 主要基于文档1，仅涉及Gen.G在MSI 2023的信息，对LYON无描述。\n\n基于以上评估，我将主要依赖文档1、5和6进行分析。文档1提供Gen.G的高水平比赛证据，文档5提供对“Lion”（推测为问题中的LYON）的近期实力评估，文档6提供LYON的历史表现。我将以这些文档中的事实作为先验和似然证据。\n\n**先验概率设定：** 在缺乏具体赛事上下文（如这是哪项赛事、何时举行）的情况下，我假设这是一场国际比赛或表演赛。Gen.G是韩国顶级豪门，常年是世界冠军争夺者。LYON（Lyon Gaming/Lion）历史上是外卡区域强队，但在与主要赛区顶级队伍对抗时通常处于下风。基于此，先验概率应显著偏向Gen.G。我设定一个初步的先验：Gen.G获胜概率为80%（即YES概率为80%）。现在，我将用文档证据更新这个概率。\n\n**支持 YES (Gen.G 获胜) 的论据：**\n\n1.  **Gen.G 拥有顶级国际赛事经验和关键时刻操作能力：** 从MSI 2023对阵BLG的比赛来看，Gen.G选手在高压下能做出精准操作和决策。例如，在团战中，##begin_quote## peanut jumping in ... good Target Focus ... ##end_quote## [文档 1]，以及##begin_quote## delaysia's killing them all oh my god dude how is he alive ##end_quote## [文档 1]，显示了其选手的个人能力和团战韧性。这种高水平竞技状态是LYON难以匹配的。\n2.  **Gen.G 的战术执行和资源控制能力：** 文档1显示Gen.G能够有效策划和执行战术，例如针对对方没有闪现的选手发起进攻：##begin_quote## recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control ##end_quote## [文档 1]。他们在视野控制和目标争夺（如峡谷先锋）上也表现出组织性。这种系统性优势在面对实力稍逊的队伍时往往能转化为胜势。\n3.  **对手LYON在国际舞台上对阵主要赛区队伍的历史表现和当前评估均不占优：** 文档6显示，尽管LYON在2016年外卡赛区所向披靡（##begin_quote## lion completely undefeated so far ##end_quote## [文档 6]），但这仅限于外卡内部竞争。当面对像Gen.G这样的LCK顶级队伍时，实力差距预计巨大。文档5中的分析也指出，即使对“Lion”（可能指同一队伍）抱有期望，但面对Gen.G级别的对手，##begin_quote## there is nobody on this roster ... that is at the level individually of what GenG is at ##end_quote## [文档 5]。这支持了Gen.G在个体能力和团队层面都更胜一筹的观点。\n\n**支持 NO (LYON 获胜) 的论据：**\n\n1.  **LYON 可能拥有“黑马”潜力和特定战术风格：** 文档5中提到，“Lion”被比作此前在国际赛场上有过亮眼表现的FlyQuest，拥有##begin_quote## a top laner that could play counter picks ... MVP jungler ... mid laner that can carry ... bot lane that can hold their own ##end_quote## [文档 5]。如果LYON能充分发挥阵容的灵活性和前期节奏，有可能给Gen.G制造麻烦。文档6也显示LYON善于利用优势滚雪球（##begin_quote## the pressure just seems to be unrelenting as lion look to take themselves another turret ##end_quote## [文档 6]）。\n2.  **Gen.G 可能存在状态波动或轻敌风险：** 虽然文档1展示了Gen.G的强大，但也暗示了他们并非无懈可击。例如，比赛中出现过##begin_quote## what the hell is way off I could have just dropped it on his feet he's Point Blank he should have had it ##end_quote## [文档 1] 这样的失误评论。在国际比赛中，如果Gen.G未能完全集中注意力，或者LYON准备了出其不意的战术，可能导致冷门。\n3.  **比赛的不确定性和单局（Game 4）的特殊性：** 这是“Game 4”，意味着它是系列赛中的一局。如果LYON在之前的比赛中已经找到了一些应对策略，或者Gen.G在已经确保晋级或出于战术调整目的而轮换阵容/尝试新东西，LYON的获胜概率会提升。文档5的讨论也基于“tournament”语境，承认存在爆冷可能性，尽管较小。\n\n**综合分析：**\n权衡以上因素，支持YES的论据在质量和数量上明显更强。论据1和2基于Gen.G在最高水平赛事（MSI）中的实际表现，证据扎实。论据3结合了对手的历史局限性和当前实力评估。这些证据强烈地更新了先验概率，使其向YES方向移动。\n支持NO的论据则更多基于可能性而非确凿证据：论据1中的“潜力”对比的是Gen.G已证明的“实力”；论据2的“失误”在Gen.G的整体高水平表现中显得零星；论据3的“不确定性”是任何比赛都存在的，但缺乏具体证据表明在此特定对局中会显著影响结果。文档6中LYON的强势表现距今（2016年）已久，参考价值有限，且对手层级不同。\n从贝叶斯更新角度看，似然比（P(证据|YES)/P(证据|NO)）很高。文档1中Gen.G的精彩操作和战术执行在YES（Gen.G强）的假设下概率很高，而在NO（LYON强）的假设下概率很低。文档5对LYON实力的相对保守评估也降低了NO的似然。\n\n**最终概率估计：**\n综合考虑，我的先验概率（80%）在纳入强有力的支持YES证据后得到巩固和提升。反对证据不足以将概率拉低至接近均衡的水平。因此，我估计Gen.G在Game 4中获胜的概率很高。",
+        "raw_response": "REASONING: 我将以贝叶斯分析师的框架来处理这个问题。首先，我需要评估提供的文档与“LoL: Gen.G vs LYON - Game 4 Winner”这一预测问题的相关性。问题涉及两支队伍：Gen.G（韩国LCK队伍）和LYON（可能指Lyon Gaming，一支拉丁美洲队伍）。我需要从文档中提取关于这两支队伍实力、状态和直接对抗证据的信息。\n\n**文档相关性评估：**\n- **文档 1 (MSI 2023 Gen.G vs BLG):** 直接涉及Gen.G在MSI 2023的比赛表现。相关性高（9/10）。提供了Gen.G对阵另一支强队BLG时的具体比赛细节、选手操作和战术执行信息。\n- **文档 2 (SSL Premier S2 决赛):** 关于《星际争霸2》比赛，与《英雄联盟》及问题中的队伍无关。相关性极低（1/10）。忽略。\n- **文档 3 (R7 vs UOL Highlights Worlds 2020):** 关于《英雄联盟》世界赛入围赛，但队伍是Rainbow7和Unicorns of Love，与Gen.G或LYON无关。相关性低（2/10）。忽略。\n- **文档 4 (Movistar KOI 赛后采访):** 关于LEC队伍Movistar KOI（现KOI）的采访，涉及国际赛事反思，但未提及Gen.G或LYON。相关性低（3/10）。忽略。\n- **文档 5 (LEC/LCK 冬季赛过度反应视频):** 包含对LYON（Lion，应指Team Liquid？但根据上下文，此处“Lion”更可能指LCS的Team Liquid，其前身为Team Liquid，但昵称/简称有时为TL或Liquid。然而，文档中讨论的是“Lion can win the first stand tournament”，结合上下文“First Stand”赛事，这很可能指的是LCS的Team Liquid。但问题中的“LYON”拼写与“Lion”相似，可能指同一队伍。文档5明确讨论了这支队伍（称为“Lion”）在国际赛事（First Stand）中的前景，并将其与Gen.G比较。相关性高（8/10）。\n- **文档 6 (LYN vs SAJ - IWCQ 2016):** 关于Lyon Gaming（LYN）在2016年国际外卡资格赛的表现。这很可能就是问题中提到的“LYON”（可能是拼写变体）。相关性高（8/10）。提供了LYON历史比赛表现的数据。\n- **文档 7 (Friday Night Funkin' Mod):** 与游戏无关的音乐视频。相关性为0。忽略。\n\n**知识图谱摘要** 主要基于文档1，仅涉及Gen.G在MSI 2023的信息，对LYON无描述。\n\n基于以上评估，我将主要依赖文档1、5和6进行分析。文档1提供Gen.G的高水平比赛证据，文档5提供对“Lion”（推测为问题中的LYON）的近期实力评估，文档6提供LYON的历史表现。我将以这些文档中的事实作为先验和似然证据。\n\n**先验概率设定：** 在缺乏具体赛事上下文（如这是哪项赛事、何时举行）的情况下，我假设这是一场国际比赛或表演赛。Gen.G是韩国顶级豪门，常年是世界冠军争夺者。LYON（Lyon Gaming/Lion）历史上是外卡区域强队，但在与主要赛区顶级队伍对抗时通常处于下风。基于此，先验概率应显著偏向Gen.G。我设定一个初步的先验：Gen.G获胜概率为80%（即YES概率为80%）。现在，我将用文档证据更新这个概率。\n\n**支持 YES (Gen.G 获胜) 的论据：**\n\n1.  **Gen.G 拥有顶级国际赛事经验和关键时刻操作能力：** 从MSI 2023对阵BLG的比赛来看，Gen.G选手在高压下能做出精准操作和决策。例如，在团战中，##begin_quote## peanut jumping in ... good Target Focus ... ##end_quote## [文档 1]，以及##begin_quote## delaysia's killing them all oh my god dude how is he alive ##end_quote## [文档 1]，显示了其选手的个人能力和团战韧性。这种高水平竞技状态是LYON难以匹配的。\n2.  **Gen.G 的战术执行和资源控制能力：** 文档1显示Gen.G能够有效策划和执行战术，例如针对对方没有闪现的选手发起进攻：##begin_quote## recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control ##end_quote## [文档 1]。他们在视野控制和目标争夺（如峡谷先锋）上也表现出组织性。这种系统性优势在面对实力稍逊的队伍时往往能转化为胜势。\n3.  **对手LYON在国际舞台上对阵主要赛区队伍的历史表现和当前评估均不占优：** 文档6显示，尽管LYON在2016年外卡赛区所向披靡（##begin_quote## lion completely undefeated so far ##end_quote## [文档 6]），但这仅限于外卡内部竞争。当面对像Gen.G这样的LCK顶级队伍时，实力差距预计巨大。文档5中的分析也指出，即使对“Lion”（可能指同一队伍）抱有期望，但面对Gen.G级别的对手，##begin_quote## there is nobody on this roster ... that is at the level individually of what GenG is at ##end_quote## [文档 5]。这支持了Gen.G在个体能力和团队层面都更胜一筹的观点。\n\n**支持 NO (LYON 获胜) 的论据：**\n\n1.  **LYON 可能拥有“黑马”潜力和特定战术风格：** 文档5中提到，“Lion”被比作此前在国际赛场上有过亮眼表现的FlyQuest，拥有##begin_quote## a top laner that could play counter picks ... MVP jungler ... mid laner that can carry ... bot lane that can hold their own ##end_quote## [文档 5]。如果LYON能充分发挥阵容的灵活性和前期节奏，有可能给Gen.G制造麻烦。文档6也显示LYON善于利用优势滚雪球（##begin_quote## the pressure just seems to be unrelenting as lion look to take themselves another turret ##end_quote## [文档 6]）。\n2.  **Gen.G 可能存在状态波动或轻敌风险：** 虽然文档1展示了Gen.G的强大，但也暗示了他们并非无懈可击。例如，比赛中出现过##begin_quote## what the hell is way off I could have just dropped it on his feet he's Point Blank he should have had it ##end_quote## [文档 1] 这样的失误评论。在国际比赛中，如果Gen.G未能完全集中注意力，或者LYON准备了出其不意的战术，可能导致冷门。\n3.  **比赛的不确定性和单局（Game 4）的特殊性：** 这是“Game 4”，意味着它是系列赛中的一局。如果LYON在之前的比赛中已经找到了一些应对策略，或者Gen.G在已经确保晋级或出于战术调整目的而轮换阵容/尝试新东西，LYON的获胜概率会提升。文档5的讨论也基于“tournament”语境，承认存在爆冷可能性，尽管较小。\n\n**综合分析：**\n权衡以上因素，支持YES的论据在质量和数量上明显更强。论据1和2基于Gen.G在最高水平赛事（MSI）中的实际表现，证据扎实。论据3结合了对手的历史局限性和当前实力评估。这些证据强烈地更新了先验概率，使其向YES方向移动。\n支持NO的论据则更多基于可能性而非确凿证据：论据1中的“潜力”对比的是Gen.G已证明的“实力”；论据2的“失误”在Gen.G的整体高水平表现中显得零星；论据3的“不确定性”是任何比赛都存在的，但缺乏具体证据表明在此特定对局中会显著影响结果。文档6中LYON的强势表现距今（2016年）已久，参考价值有限，且对手层级不同。\n从贝叶斯更新角度看，似然比（P(证据|YES)/P(证据|NO)）很高。文档1中Gen.G的精彩操作和战术执行在YES（Gen.G强）的假设下概率很高，而在NO（LYON强）的假设下概率很低。文档5对LYON实力的相对保守评估也降低了NO的似然。\n\n**最终概率估计：**\n综合考虑，我的先验概率（80%）在纳入强有力的支持YES证据后得到巩固和提升。反对证据不足以将概率拉低至接近均衡的水平。因此，我估计Gen.G在Game 4中获胜的概率很高。\n\nPREDICTION: 88%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "peanut jumping in ... good Target Focus ...",
+              "doc_index": 1
+            },
+            {
+              "quote": "delaysia's killing them all oh my god dude how is he alive",
+              "doc_index": 1
+            },
+            {
+              "quote": "recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control",
+              "doc_index": 1
+            },
+            {
+              "quote": "lion completely undefeated so far",
+              "doc_index": 6
+            },
+            {
+              "quote": "there is nobody on this roster ... that is at the level individually of what GenG is at",
+              "doc_index": 5
+            },
+            {
+              "quote": "a top laner that could play counter picks ... MVP jungler ... mid laner that can carry ... bot lane that can hold their own",
+              "doc_index": 5
+            },
+            {
+              "quote": "the pressure just seems to be unrelenting as lion look to take themselves another turret",
+              "doc_index": 6
+            },
+            {
+              "quote": "what the hell is way off I could have just dropped it on his feet he's Point Blank he should have had it",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "agent_name": "历史类比师",
+        "stance": "neutral",
+        "probability": 65.0,
+        "reasoning": "作为历史类比师，我将从历史先例和模式中提取信号，而非仅仅依赖表面数据。让我们先评估文档相关性：文档1（MSI 2023 Gen.G vs BLG）展示了Gen.G在国际大赛中的战术执行力和关键时刻的决策能力，相关性高（8/10）。文档5（LYON vs SAJ IWCQ 2016）和文档6（LYON vs TLAW 2026）提供了LYON作为一支从外卡赛区崛起、并在近期北美赛事中表现出色的队伍的历史轨迹和当前状态，相关性高（7/10）。文档4（Movistar KOI赛后访谈）和文档7（Reddit比赛帖）提供了关于LYON队员心态、团队适应性和近期具体比赛结果的直接证据，相关性高（8/10）。文档2（SSL Starcraft）和文档3（R7 vs UOL）与英雄联盟和当前队伍无关，是干扰信息，不予考虑。\n\n**支持Gen.G（YES）的论据：**\n1.  **历史大赛经验与韧性**：Gen.G作为韩国顶级豪门，拥有丰富的大赛经验和在高压下保持冷静的基因。在MSI 2023对阵BLG的比赛中，他们展现了即使在 ##begin_quote## 看起来不会奏效 ##end_quote## 的逆境中，也能通过精准的集火和 ##begin_quote## 漂亮的时机把握 ##end_quote## 扭转战局的能力[文档1]。这种“大赛DNA”是LYON这种相对较新的国际竞争者所缺乏的。\n2.  **战术纪律与执行力**：Gen.G以其严谨的战术布置著称。文档1中描述了他们在中路针对没有闪现的对手发起 ##begin_quote## 漂亮的包夹 ##end_quote##，并展现出良好的 ##begin_quote## 目标专注 ##end_quote##。这种级别的战术执行力，在BO5的第四局（往往是赛点或追分局）中至关重要，他们更擅长利用对手的微小失误并将其转化为胜势。\n3.  **对版本与强敌的适应记录**：Gen.G长期处于竞争最激烈的LCK赛区，并经常在国际赛场面对LPL顶尖强队。他们必须不断适应最高水平的meta。相比之下，LYON虽然在北美表现出色，但其核心选手如Inspired和Sainty都曾提到，国际赛是不同层级的考验。Inspired曾表示，如果G2给他机会他会离开，这间接说明了他对更高水平竞争的追求和认知[文档5]。面对Gen.G这种级别的对手，LYON的适应速度可能成为短板。\n\n**反对Gen.G（即支持LYON，NO）的论据：**\n1.  **LYON的上升势头与团队化学反应**：LYON并非弱旅，他们是一支正在上升期、拥有明确胜利公式的队伍。他们被类比为“FlyQuest复刻版”，拥有 ##begin_quote## 可以玩反制英雄的上单、MVP级打野、需要时能carry的中单以及能够稳住的下路 ##end_quote##[文档5]。更重要的是，他们在最近的LCS Lock-In季后赛中以3-1击败了Team Liquid，展现了强大的竞争力，其中Dhokla和Inspired多次获得“系列赛最佳选手”[文档7]。这股势头不容小觑。\n2.  **LYON选手的国际赛心态与准备**：LYON的选手对国际赛有清晰的认知和渴望。下路选手Supa认识到 ##begin_quote## 如果你在国际赛场上不学习适应，你就会被碾压 ##end_quote##[文档4]。中单Sainty在反思失利后，强调了 ##begin_quote## 反思目的和目标 ##end_quote## 的重要性[文档4]。这种积极学习和准备的心态，有助于他们在面对Gen.G时更快进入状态，而非被名声吓倒。他们的历史也显示，他们曾以 ##begin_quote## 完美的全胜战绩 ##end_quote## 打入世界赛[文档6]，具备在外界看低时爆发的基因。\n3.  **Gen.G可能的“慢热”与轻敌风险**：尽管Gen.G实力强大，但韩国队伍在国际赛事中有时会表现出对非中韩队伍的准备不足或“慢热”。如果LYON能在前期通过出其不意的战术或激烈的对攻取得优势，可能会打乱Gen.G的节奏。此外，BO5的第四局，如果Gen.G已经领先，可能存在心理上的松懈；如果LYON扳回一城，则压力会完全转移到Gen.G身上。历史类比中，强队阴沟翻船的案例屡见不鲜，尤其是在单局比赛中。\n\n**综合分析：**\n权衡以上因素，这类似于历史上“新兴帝国挑战老牌霸权”的经典情境。Gen.G是拥有深厚底蕴、成熟体系和顶级个人能力的“老牌霸权”。他们的优势在于稳定性和大赛经验，在系列赛的后段，这种优势通常会被放大。然而，LYON代表了“新兴帝国”——他们充满活力，拥有顶尖的明星选手（如Inspired），团队凝聚力强，并且对胜利充满饥饿感。他们的比赛风格更具侵略性和不确定性。\n\n关键的历史类比信号在于：LYON已经证明了他们在北美赛区具备统治力，并且核心选手有在欧洲（更高水平赛区）成功的经验或渴望。但Gen.G所处的竞技环境强度是另一个维度。在单局（Game 4）的预测中，偶然性增大。如果LYON能将其在北美展现的“FlyQuest式”团队协作和前期节奏完美执行，他们完全有能力拿下一局。但考虑到Gen.G在应对压力、调整战术和终结比赛方面更胜一筹的历史记录，尤其是在系列赛的深水区，他们仍然是更可能拿下第四局的一方。\n\n**最终概率估计：**\n综合判断，Gen.G在Game 4中获胜的概率更高，但LYON有可观的爆冷机会。这并非一场一边倒的对决。",
+        "raw_response": "REASONING: 作为历史类比师，我将从历史先例和模式中提取信号，而非仅仅依赖表面数据。让我们先评估文档相关性：文档1（MSI 2023 Gen.G vs BLG）展示了Gen.G在国际大赛中的战术执行力和关键时刻的决策能力，相关性高（8/10）。文档5（LYON vs SAJ IWCQ 2016）和文档6（LYON vs TLAW 2026）提供了LYON作为一支从外卡赛区崛起、并在近期北美赛事中表现出色的队伍的历史轨迹和当前状态，相关性高（7/10）。文档4（Movistar KOI赛后访谈）和文档7（Reddit比赛帖）提供了关于LYON队员心态、团队适应性和近期具体比赛结果的直接证据，相关性高（8/10）。文档2（SSL Starcraft）和文档3（R7 vs UOL）与英雄联盟和当前队伍无关，是干扰信息，不予考虑。\n\n**支持Gen.G（YES）的论据：**\n1.  **历史大赛经验与韧性**：Gen.G作为韩国顶级豪门，拥有丰富的大赛经验和在高压下保持冷静的基因。在MSI 2023对阵BLG的比赛中，他们展现了即使在 ##begin_quote## 看起来不会奏效 ##end_quote## 的逆境中，也能通过精准的集火和 ##begin_quote## 漂亮的时机把握 ##end_quote## 扭转战局的能力[文档1]。这种“大赛DNA”是LYON这种相对较新的国际竞争者所缺乏的。\n2.  **战术纪律与执行力**：Gen.G以其严谨的战术布置著称。文档1中描述了他们在中路针对没有闪现的对手发起 ##begin_quote## 漂亮的包夹 ##end_quote##，并展现出良好的 ##begin_quote## 目标专注 ##end_quote##。这种级别的战术执行力，在BO5的第四局（往往是赛点或追分局）中至关重要，他们更擅长利用对手的微小失误并将其转化为胜势。\n3.  **对版本与强敌的适应记录**：Gen.G长期处于竞争最激烈的LCK赛区，并经常在国际赛场面对LPL顶尖强队。他们必须不断适应最高水平的meta。相比之下，LYON虽然在北美表现出色，但其核心选手如Inspired和Sainty都曾提到，国际赛是不同层级的考验。Inspired曾表示，如果G2给他机会他会离开，这间接说明了他对更高水平竞争的追求和认知[文档5]。面对Gen.G这种级别的对手，LYON的适应速度可能成为短板。\n\n**反对Gen.G（即支持LYON，NO）的论据：**\n1.  **LYON的上升势头与团队化学反应**：LYON并非弱旅，他们是一支正在上升期、拥有明确胜利公式的队伍。他们被类比为“FlyQuest复刻版”，拥有 ##begin_quote## 可以玩反制英雄的上单、MVP级打野、需要时能carry的中单以及能够稳住的下路 ##end_quote##[文档5]。更重要的是，他们在最近的LCS Lock-In季后赛中以3-1击败了Team Liquid，展现了强大的竞争力，其中Dhokla和Inspired多次获得“系列赛最佳选手”[文档7]。这股势头不容小觑。\n2.  **LYON选手的国际赛心态与准备**：LYON的选手对国际赛有清晰的认知和渴望。下路选手Supa认识到 ##begin_quote## 如果你在国际赛场上不学习适应，你就会被碾压 ##end_quote##[文档4]。中单Sainty在反思失利后，强调了 ##begin_quote## 反思目的和目标 ##end_quote## 的重要性[文档4]。这种积极学习和准备的心态，有助于他们在面对Gen.G时更快进入状态，而非被名声吓倒。他们的历史也显示，他们曾以 ##begin_quote## 完美的全胜战绩 ##end_quote## 打入世界赛[文档6]，具备在外界看低时爆发的基因。\n3.  **Gen.G可能的“慢热”与轻敌风险**：尽管Gen.G实力强大，但韩国队伍在国际赛事中有时会表现出对非中韩队伍的准备不足或“慢热”。如果LYON能在前期通过出其不意的战术或激烈的对攻取得优势，可能会打乱Gen.G的节奏。此外，BO5的第四局，如果Gen.G已经领先，可能存在心理上的松懈；如果LYON扳回一城，则压力会完全转移到Gen.G身上。历史类比中，强队阴沟翻船的案例屡见不鲜，尤其是在单局比赛中。\n\n**综合分析：**\n权衡以上因素，这类似于历史上“新兴帝国挑战老牌霸权”的经典情境。Gen.G是拥有深厚底蕴、成熟体系和顶级个人能力的“老牌霸权”。他们的优势在于稳定性和大赛经验，在系列赛的后段，这种优势通常会被放大。然而，LYON代表了“新兴帝国”——他们充满活力，拥有顶尖的明星选手（如Inspired），团队凝聚力强，并且对胜利充满饥饿感。他们的比赛风格更具侵略性和不确定性。\n\n关键的历史类比信号在于：LYON已经证明了他们在北美赛区具备统治力，并且核心选手有在欧洲（更高水平赛区）成功的经验或渴望。但Gen.G所处的竞技环境强度是另一个维度。在单局（Game 4）的预测中，偶然性增大。如果LYON能将其在北美展现的“FlyQuest式”团队协作和前期节奏完美执行，他们完全有能力拿下一局。但考虑到Gen.G在应对压力、调整战术和终结比赛方面更胜一筹的历史记录，尤其是在系列赛的深水区，他们仍然是更可能拿下第四局的一方。\n\n**最终概率估计：**\n综合判断，Gen.G在Game 4中获胜的概率更高，但LYON有可观的爆冷机会。这并非一场一边倒的对决。\n\nPREDICTION: 65%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "看起来不会奏效 ##end_quote## 的逆境中，也能通过精准的集火和 ##begin_quote## 漂亮的时机把握 ##end_quote## 扭转战局的能力[文档1]。这种“大赛DNA”是LYON这种相对较新的国际竞争者所缺乏的。\n2.  **战术纪律与执行力**：Gen.G以其严谨的战术布置著称。文档1中描述了他们在中路针对没有闪现的对手发起 ##begin_quote## 漂亮的包夹 ##end_quote##，并展现出良好的 ##begin_quote## 目标专注 ##end_quote##。这种级别的战术执行力，在BO5的第四局（往往是赛点或追分局）中至关重要，他们更擅长利用对手的微小失误并将其转化为胜势。\n3.  **对版本与强敌的适应记录**：Gen.G长期处于竞争最激烈的LCK赛区，并经常在国际赛场面对LPL顶尖强队。他们必须不断适应最高水平的meta。相比之下，LYON虽然在北美表现出色，但其核心选手如Inspired和Sainty都曾提到，国际赛是不同层级的考验。Inspired曾表示，如果G2给他机会他会离开，这间接说明了他对更高水平竞争的追求和认知[文档5]。面对Gen.G这种级别的对手，LYON的适应速度可能成为短板。\n\n**反对Gen.G（即支持LYON，NO）的论据：**\n1.  **LYON的上升势头与团队化学反应**：LYON并非弱旅，他们是一支正在上升期、拥有明确胜利公式的队伍。他们被类比为“FlyQuest复刻版”，拥有 ##begin_quote## 可以玩反制英雄的上单、MVP级打野、需要时能carry的中单以及能够稳住的下路",
+              "doc_index": 5
+            },
+            {
+              "quote": "如果你在国际赛场上不学习适应，你就会被碾压",
+              "doc_index": 4
+            }
+          ],
+          "cited_doc_indices": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "数据统计师",
+        "stance": "neutral",
+        "probability": 42.0,
+        "reasoning": "我将首先评估每个文档与“LoL: Gen.G vs LYON - Game 4 Winner”预测问题的相关性。这是一个关于特定英雄联盟比赛结果的预测。\n\n*   **文档1 (MSI 2023 Gen.G vs BLG):** 内容涉及Gen.G在MSI 2023的比赛片段。虽然提供了Gen.G的历史比赛细节（如选手ID、英雄选择、团战片段），但这是近三年前的比赛，对手是BLG而非LYON，且是国际赛而非国内联赛。相关性有限，主要提供Gen.G作为组织的背景信息。相关性评分：6/10。\n*   **文档2 (SSL Premier S2 星际争霸2决赛):** 内容为星际争霸2比赛，与英雄联盟预测问题完全无关。相关性评分：0/10。忽略此文档。\n*   **文档3 (Worlds 2020 Play-in R7 vs UOL):** 内容为2020年世界赛入围赛，队伍是Rainbow7和Unicorns of Love，与Gen.G和LYON无关。相关性评分：0/10。忽略此文档。\n*   **文档4 (Movistar KOI LEC赛后采访):** 内容为LEC队伍Movistar KOI的赛后反思，涉及不同赛事（LEC）、不同队伍和选手。与预测问题无关。相关性评分：0/10。忽略此文档。\n*   **文档5 (LYON与HLE的过度反应视频):** 内容直接涉及LYON战队和First Stand赛事。视频中提到LYON的阵容构成（Dhokla, Inspired, Saint, Berserker, Isles）及其与FlyQuest的类比，并讨论了他们对阵Gen.G的前景。这是高度相关的背景信息。相关性评分：9/10。\n*   **文档6 (IWCQ 2016 LYON vs SAJ):** 内容为2016年国际外卡资格赛，队伍是LYON Gaming和Saigon Jokers。这是近十年前的历史比赛，与当前LYON的阵容和竞技水平无关。相关性评分：2/10。忽略此文档。\n*   **文档7 (LCS 2026 Lock-In Grand Finals Post-Match):** 内容为LYON在LCS 2026 Lock-In总决赛中以3-1击败Cloud9的详细比赛数据。这直接提供了LYON在当前赛季（2026）的近期表现、具体选手表现（如Inspired获得总决赛MVP）以及他们赢得冠军的事实。这是最相关且最新的数据来源。相关性评分：10/10。\n*   **知识图谱摘要:** 主要基于文档1，总结了MSI 2023 Gen.G vs BLG的比赛，与当前预测问题相关性弱。相关性评分：5/10。\n\n基于以上评估，我将主要依据**文档5**和**文档7**进行分析，谨慎参考**文档1**提供的历史背景。\n\n**1. 支持（YES，即LYON获胜）的论据：**\n*   **近期冠军状态与团队协同：** LYON在最近的LCS 2026 Lock-In锦标赛中刚刚以3-1击败强队Cloud9，赢得冠军。##begin_quote## LYON wins their first ever LCS title and will be the LCS representative to First Stand 2026. ##end_quote## [文档7]。这表明他们处于极佳的竞技状态和团队协同水平。\n*   **核心选手的卓越表现：** LYON的打野选手Inspired在决赛中表现关键，获得了总决赛MVP。##begin_quote## Finals MVP: Inspired ##end_quote## [文档7]。他的领导力和节奏是LYON的重要优势。此外，其阵容被类比为去年成功的FlyQuest模型，拥有能玩Counter pick的上单（Dhokla）、MVP级打野（Inspired）、能Carry的中单（Saint）和能稳住的下路。##begin_quote## we have the same formula we had last year... a top laner that could play counter picks... The MVP jungler that's inspired... a mid laner that can carry when he needs to... and a bot lane that can hold their own. ##end_quote## [文档5]。\n*   **对阵Gen.G的潜在机会：** 有分析认为，当前的Gen.G可能是“一段时间以来从韩国出来的最可击败的队伍之一”，为LYON提供了机会。##begin_quote## I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while. ##end_quote## [文档5]。这降低了LYON面对韩国顶级队伍时的心理和实力壁垒。\n\n**2. 反对（NO，即Gen.G获胜）的论据：**\n*   **Gen.G的历史战绩与选手实力：** Gen.G是国际赛事常客，拥有顶级选手。在MSI 2023的比赛中，即使面对强劲对手BLG，Gen.G也展现了通过目标控制（如峡谷先锋）和团战处理获取优势的能力。##begin_quote## Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control... good Target Focus ##end_quote## [文档1]。这表明他们善于捕捉对手失误并执行战术。\n*   **LYON的国际赛经验与个体实力差距：** 尽管LYON阵容有潜力，但分析指出其阵容中无人达到Gen.G选手的个人水平。##begin_quote## There is nobody on this roster, including inspired, that is at the level individually of what GenG is at going to this tournament. ##end_quote## [文档5]。国际大赛经验和对阵顶级赛区队伍的记录是LYON的未知数。\n*   **Gen.G的稳定性与LYON的潜在波动：** 基于历史，Gen.G在非世界赛的国际赛事中表现相对稳定。##begin_quote## they've proven themselves, and it's not Worlds yet, so they're not destined to crumble. ##end_quote## [文档5]。相比之下，LYON作为新科LCS冠军，其国际赛表现尚未经过检验，可能存在状态波动或适应问题。\n\n**3. 综合分析：**\n数据呈现矛盾。LYON拥有最**新**的、**量化**的成功数据：他们在2026 LCS Lock-In决赛中以明确的比分（3-1）战胜了Cloud9，团队KDA在获胜局中显著领先（例如第二局21-6，第三局18-10）##begin_quote## [Game Breakdown tables showing high kill counts and gold leads for LYON] ##end_quote## [文档7]。这是高样本量（一个完整的淘汰赛系列赛）下的强证据。\n然而，Gen.G拥有更强的**历史**战绩和来自更高竞争强度赛区的**先验概率**优势。文档1中描述的战术执行力是支持其竞争力的定性证据，但数据较为陈旧。\n从统计模型角度看，我们需要权衡“近期表现”与“长期实力先验”。LYON的近期数据非常强劲，足以显著提升其获胜概率估计，但不足以完全抵消Gen.G作为LCK顶级队伍的系统性优势。比赛是单局（Game 4），方差较大，增加了LYON爆冷的可能性。\n\n**4. 最终概率估计：**\n综合量化因素：LYON的近期冠军状态（100%决赛胜率）、明确的团队数据优势，以及对手被评估为“可击败”，这些将LYON的获胜概率从极低的基础概率大幅提升。然而，考虑到赛区实力差距、个体选手评级差异以及Gen.G的大赛经验，LYON仍处于下风。\n基于上述权衡，我估计LYON在Game 4中获胜的概率为 **42%**。这反映了LYON有显著机会（远高于随机概率），但Gen.G仍被模型判断为更有可能的一方。",
+        "raw_response": "REASONING: 我将首先评估每个文档与“LoL: Gen.G vs LYON - Game 4 Winner”预测问题的相关性。这是一个关于特定英雄联盟比赛结果的预测。\n\n*   **文档1 (MSI 2023 Gen.G vs BLG):** 内容涉及Gen.G在MSI 2023的比赛片段。虽然提供了Gen.G的历史比赛细节（如选手ID、英雄选择、团战片段），但这是近三年前的比赛，对手是BLG而非LYON，且是国际赛而非国内联赛。相关性有限，主要提供Gen.G作为组织的背景信息。相关性评分：6/10。\n*   **文档2 (SSL Premier S2 星际争霸2决赛):** 内容为星际争霸2比赛，与英雄联盟预测问题完全无关。相关性评分：0/10。忽略此文档。\n*   **文档3 (Worlds 2020 Play-in R7 vs UOL):** 内容为2020年世界赛入围赛，队伍是Rainbow7和Unicorns of Love，与Gen.G和LYON无关。相关性评分：0/10。忽略此文档。\n*   **文档4 (Movistar KOI LEC赛后采访):** 内容为LEC队伍Movistar KOI的赛后反思，涉及不同赛事（LEC）、不同队伍和选手。与预测问题无关。相关性评分：0/10。忽略此文档。\n*   **文档5 (LYON与HLE的过度反应视频):** 内容直接涉及LYON战队和First Stand赛事。视频中提到LYON的阵容构成（Dhokla, Inspired, Saint, Berserker, Isles）及其与FlyQuest的类比，并讨论了他们对阵Gen.G的前景。这是高度相关的背景信息。相关性评分：9/10。\n*   **文档6 (IWCQ 2016 LYON vs SAJ):** 内容为2016年国际外卡资格赛，队伍是LYON Gaming和Saigon Jokers。这是近十年前的历史比赛，与当前LYON的阵容和竞技水平无关。相关性评分：2/10。忽略此文档。\n*   **文档7 (LCS 2026 Lock-In Grand Finals Post-Match):** 内容为LYON在LCS 2026 Lock-In总决赛中以3-1击败Cloud9的详细比赛数据。这直接提供了LYON在当前赛季（2026）的近期表现、具体选手表现（如Inspired获得总决赛MVP）以及他们赢得冠军的事实。这是最相关且最新的数据来源。相关性评分：10/10。\n*   **知识图谱摘要:** 主要基于文档1，总结了MSI 2023 Gen.G vs BLG的比赛，与当前预测问题相关性弱。相关性评分：5/10。\n\n基于以上评估，我将主要依据**文档5**和**文档7**进行分析，谨慎参考**文档1**提供的历史背景。\n\n**1. 支持（YES，即LYON获胜）的论据：**\n*   **近期冠军状态与团队协同：** LYON在最近的LCS 2026 Lock-In锦标赛中刚刚以3-1击败强队Cloud9，赢得冠军。##begin_quote## LYON wins their first ever LCS title and will be the LCS representative to First Stand 2026. ##end_quote## [文档7]。这表明他们处于极佳的竞技状态和团队协同水平。\n*   **核心选手的卓越表现：** LYON的打野选手Inspired在决赛中表现关键，获得了总决赛MVP。##begin_quote## Finals MVP: Inspired ##end_quote## [文档7]。他的领导力和节奏是LYON的重要优势。此外，其阵容被类比为去年成功的FlyQuest模型，拥有能玩Counter pick的上单（Dhokla）、MVP级打野（Inspired）、能Carry的中单（Saint）和能稳住的下路。##begin_quote## we have the same formula we had last year... a top laner that could play counter picks... The MVP jungler that's inspired... a mid laner that can carry when he needs to... and a bot lane that can hold their own. ##end_quote## [文档5]。\n*   **对阵Gen.G的潜在机会：** 有分析认为，当前的Gen.G可能是“一段时间以来从韩国出来的最可击败的队伍之一”，为LYON提供了机会。##begin_quote## I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while. ##end_quote## [文档5]。这降低了LYON面对韩国顶级队伍时的心理和实力壁垒。\n\n**2. 反对（NO，即Gen.G获胜）的论据：**\n*   **Gen.G的历史战绩与选手实力：** Gen.G是国际赛事常客，拥有顶级选手。在MSI 2023的比赛中，即使面对强劲对手BLG，Gen.G也展现了通过目标控制（如峡谷先锋）和团战处理获取优势的能力。##begin_quote## Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control... good Target Focus ##end_quote## [文档1]。这表明他们善于捕捉对手失误并执行战术。\n*   **LYON的国际赛经验与个体实力差距：** 尽管LYON阵容有潜力，但分析指出其阵容中无人达到Gen.G选手的个人水平。##begin_quote## There is nobody on this roster, including inspired, that is at the level individually of what GenG is at going to this tournament. ##end_quote## [文档5]。国际大赛经验和对阵顶级赛区队伍的记录是LYON的未知数。\n*   **Gen.G的稳定性与LYON的潜在波动：** 基于历史，Gen.G在非世界赛的国际赛事中表现相对稳定。##begin_quote## they've proven themselves, and it's not Worlds yet, so they're not destined to crumble. ##end_quote## [文档5]。相比之下，LYON作为新科LCS冠军，其国际赛表现尚未经过检验，可能存在状态波动或适应问题。\n\n**3. 综合分析：**\n数据呈现矛盾。LYON拥有最**新**的、**量化**的成功数据：他们在2026 LCS Lock-In决赛中以明确的比分（3-1）战胜了Cloud9，团队KDA在获胜局中显著领先（例如第二局21-6，第三局18-10）##begin_quote## [Game Breakdown tables showing high kill counts and gold leads for LYON] ##end_quote## [文档7]。这是高样本量（一个完整的淘汰赛系列赛）下的强证据。\n然而，Gen.G拥有更强的**历史**战绩和来自更高竞争强度赛区的**先验概率**优势。文档1中描述的战术执行力是支持其竞争力的定性证据，但数据较为陈旧。\n从统计模型角度看，我们需要权衡“近期表现”与“长期实力先验”。LYON的近期数据非常强劲，足以显著提升其获胜概率估计，但不足以完全抵消Gen.G作为LCK顶级队伍的系统性优势。比赛是单局（Game 4），方差较大，增加了LYON爆冷的可能性。\n\n**4. 最终概率估计：**\n综合量化因素：LYON的近期冠军状态（100%决赛胜率）、明确的团队数据优势，以及对手被评估为“可击败”，这些将LYON的获胜概率从极低的基础概率大幅提升。然而，考虑到赛区实力差距、个体选手评级差异以及Gen.G的大赛经验，LYON仍处于下风。\n基于上述权衡，我估计LYON在Game 4中获胜的概率为 **42%**。这反映了LYON有显著机会（远高于随机概率），但Gen.G仍被模型判断为更有可能的一方。\n\nPREDICTION: 42%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "LYON wins their first ever LCS title and will be the LCS representative to First Stand 2026.",
+              "doc_index": 7
+            },
+            {
+              "quote": "Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "we have the same formula we had last year... a top laner that could play counter picks... The MVP jungler that's inspired... a mid laner that can carry when he needs to... and a bot lane that can hold their own.",
+              "doc_index": 5
+            },
+            {
+              "quote": "I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while.",
+              "doc_index": 5
+            },
+            {
+              "quote": "Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control... good Target Focus",
+              "doc_index": 1
+            },
+            {
+              "quote": "There is nobody on this roster, including inspired, that is at the level individually of what GenG is at going to this tournament.",
+              "doc_index": 5
+            },
+            {
+              "quote": "they've proven themselves, and it's not Worlds yet, so they're not destined to crumble.",
+              "doc_index": 5
+            },
+            {
+              "quote": "[Game Breakdown tables showing high kill counts and gold leads for LYON]",
+              "doc_index": 7
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "情绪分析师",
+        "stance": "bull",
+        "probability": 68.0,
+        "reasoning": "作为情绪分析师，我关注市场情绪、媒体叙事和公众舆论对结果的影响。首先评估文档相关性：\n- 文档1（MSI 2023 Gen.G vs BLG）：评分9/10，直接涉及Gen.G的国际赛事表现和关键时刻决策。\n- 文档2（SSL Premier Starcraft）：评分1/10，完全无关的星际争霸比赛，干扰信息。\n- 文档3（R7 vs UOL Worlds 2020）：评分3/10，涉及其他队伍和年份，相关性弱。\n- 文档4（Movistar KOI LEC采访）：评分4/10，涉及欧洲队伍心态，但非直接相关。\n- 文档5（LYON国际赛事展望）：评分8/10，直接讨论LYON在国际赛事中的潜力和情绪。\n- 文档6（LYON vs SAJ 2016）：评分2/10，历史比赛，时效性差。\n- 文档7（BLG vs G2 First Stand 2026）：评分5/10，涉及亚洲队伍实力，但非直接对阵。\n\n基于高相关文档，我捕捉到以下情绪动量：\n\n支持Gen.G（YES）的论据：\n1. **国际赛事经验与心理优势**：Gen.G在关键比赛中展现出冷静的决策能力，如在MSI 2023对阵BLG时，##begin_quote## Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control ##end_quote## [文档1]。这种针对弱点的精准打击体现了高压下的战术执行力，对LYON可能形成心理压制。\n2. **媒体叙事偏向韩国统治力**：当前舆论普遍看好韩国队伍，文档5中提到##begin_quote## I just naturally think we can beat the LPL. I mean, they've been beatable for a bit now ##end_quote## [文档5]，反映分析师对韩国赛区（如Gen.G）在国际赛事中获胜的默认预期，这种叙事会强化市场信心。\n3. **关键时刻的动量转换能力**：Gen.G在团战中能抓住对手失误创造奇迹时刻，如##begin_quote## delaysia's killing them all oh my god dude how is he alive ##end_quote## [文档1]，这种爆发性表现容易引发情绪高潮，带动团队士气滚雪球。\n\n反对Gen.G（NO）的论据：\n1. **LYON的“黑马”情绪动能**：LYON被类比为北美希望，文档5中强烈情绪指出##begin_quote## I think Lion can win the first stand tournament... they have a really good chance of going far in the tournament ##end_quote## [文档5]。这种“underdog”叙事正在聚集社区支持，可能转化为比赛中的超常发挥。\n2. **Gen.G的稳定性疑虑**：Gen.G在MSI 2023中曾出现决策波动，##begin_quote## it's kind of weird you have like this Giga dive comp but you're behind not convinced you actually gonna kill zarian ##end_quote## [文档1]，显示他们在逆风时可能陷入战术混乱，而LYON的灵活阵容（如文档5提到的Fly Quest式多样性）可能利用这一点。\n3. **北美主场情绪加成**：如果比赛在北美举行，本地观众情绪会强烈偏向LYON。文档4中提到##begin_quote## playing in front of Spanish crowd is always the best... Barcelona has more... is more important to me ##end_quote## [文档4]，显示主场氛围对欧洲/北美队伍的心态提升作用，这种情绪能量不可低估。\n\n综合分析：\n当前情绪天平略微倾向Gen.G，但LYON的动量正在上升。关键情绪转折点在于：\n- **媒体过度自信风险**：对Gen.G的看好可能已 priced in，而LYON的“复仇者联盟”叙事（文档5中与Fly Quest的类比）正在发酵，容易引发意外情绪爆发。\n- **早期游戏情绪敏感度**：如果LYON能在前15分钟取得优势（如文档6中历史表现##begin_quote## lion completely undefeated so far ##end_quote## [文档6]），社区情绪可能瞬间倒戈，形成“巨人杀手”狂热。\n- **Gen.G的“大赛魔咒”焦虑**：韩国队伍在国际赛事后期的心理压力（如文档1中闪现失误##begin_quote## what the hell is way off I could have just dropped it on his feet ##end_quote## [文档1]）可能被放大，而LYON作为挑战者心态更轻松。\n\n最终概率估计基于情绪权重：Gen.G的稳定性叙事占优，但LYON的情绪动量（主场支持+黑马故事）可能将实际胜率提升5-8个百分点。考虑到这是BO5的第四局，若LYON已处劣势则情绪可能崩溃，若比分接近则主场动能将最大化。",
+        "raw_response": "REASONING: \n作为情绪分析师，我关注市场情绪、媒体叙事和公众舆论对结果的影响。首先评估文档相关性：\n- 文档1（MSI 2023 Gen.G vs BLG）：评分9/10，直接涉及Gen.G的国际赛事表现和关键时刻决策。\n- 文档2（SSL Premier Starcraft）：评分1/10，完全无关的星际争霸比赛，干扰信息。\n- 文档3（R7 vs UOL Worlds 2020）：评分3/10，涉及其他队伍和年份，相关性弱。\n- 文档4（Movistar KOI LEC采访）：评分4/10，涉及欧洲队伍心态，但非直接相关。\n- 文档5（LYON国际赛事展望）：评分8/10，直接讨论LYON在国际赛事中的潜力和情绪。\n- 文档6（LYON vs SAJ 2016）：评分2/10，历史比赛，时效性差。\n- 文档7（BLG vs G2 First Stand 2026）：评分5/10，涉及亚洲队伍实力，但非直接对阵。\n\n基于高相关文档，我捕捉到以下情绪动量：\n\n支持Gen.G（YES）的论据：\n1. **国际赛事经验与心理优势**：Gen.G在关键比赛中展现出冷静的决策能力，如在MSI 2023对阵BLG时，##begin_quote## Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control ##end_quote## [文档1]。这种针对弱点的精准打击体现了高压下的战术执行力，对LYON可能形成心理压制。\n2. **媒体叙事偏向韩国统治力**：当前舆论普遍看好韩国队伍，文档5中提到##begin_quote## I just naturally think we can beat the LPL. I mean, they've been beatable for a bit now ##end_quote## [文档5]，反映分析师对韩国赛区（如Gen.G）在国际赛事中获胜的默认预期，这种叙事会强化市场信心。\n3. **关键时刻的动量转换能力**：Gen.G在团战中能抓住对手失误创造奇迹时刻，如##begin_quote## delaysia's killing them all oh my god dude how is he alive ##end_quote## [文档1]，这种爆发性表现容易引发情绪高潮，带动团队士气滚雪球。\n\n反对Gen.G（NO）的论据：\n1. **LYON的“黑马”情绪动能**：LYON被类比为北美希望，文档5中强烈情绪指出##begin_quote## I think Lion can win the first stand tournament... they have a really good chance of going far in the tournament ##end_quote## [文档5]。这种“underdog”叙事正在聚集社区支持，可能转化为比赛中的超常发挥。\n2. **Gen.G的稳定性疑虑**：Gen.G在MSI 2023中曾出现决策波动，##begin_quote## it's kind of weird you have like this Giga dive comp but you're behind not convinced you actually gonna kill zarian ##end_quote## [文档1]，显示他们在逆风时可能陷入战术混乱，而LYON的灵活阵容（如文档5提到的Fly Quest式多样性）可能利用这一点。\n3. **北美主场情绪加成**：如果比赛在北美举行，本地观众情绪会强烈偏向LYON。文档4中提到##begin_quote## playing in front of Spanish crowd is always the best... Barcelona has more... is more important to me ##end_quote## [文档4]，显示主场氛围对欧洲/北美队伍的心态提升作用，这种情绪能量不可低估。\n\n综合分析：\n当前情绪天平略微倾向Gen.G，但LYON的动量正在上升。关键情绪转折点在于：\n- **媒体过度自信风险**：对Gen.G的看好可能已 priced in，而LYON的“复仇者联盟”叙事（文档5中与Fly Quest的类比）正在发酵，容易引发意外情绪爆发。\n- **早期游戏情绪敏感度**：如果LYON能在前15分钟取得优势（如文档6中历史表现##begin_quote## lion completely undefeated so far ##end_quote## [文档6]），社区情绪可能瞬间倒戈，形成“巨人杀手”狂热。\n- **Gen.G的“大赛魔咒”焦虑**：韩国队伍在国际赛事后期的心理压力（如文档1中闪现失误##begin_quote## what the hell is way off I could have just dropped it on his feet ##end_quote## [文档1]）可能被放大，而LYON作为挑战者心态更轻松。\n\n最终概率估计基于情绪权重：Gen.G的稳定性叙事占优，但LYON的情绪动量（主场支持+黑马故事）可能将实际胜率提升5-8个百分点。考虑到这是BO5的第四局，若LYON已处劣势则情绪可能崩溃，若比分接近则主场动能将最大化。\n\nPREDICTION: 68%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control",
+              "doc_index": 1
+            },
+            {
+              "quote": "I just naturally think we can beat the LPL. I mean, they've been beatable for a bit now",
+              "doc_index": 5
+            },
+            {
+              "quote": "delaysia's killing them all oh my god dude how is he alive",
+              "doc_index": 1
+            },
+            {
+              "quote": "I think Lion can win the first stand tournament... they have a really good chance of going far in the tournament",
+              "doc_index": 5
+            },
+            {
+              "quote": "it's kind of weird you have like this Giga dive comp but you're behind not convinced you actually gonna kill zarian",
+              "doc_index": 1
+            },
+            {
+              "quote": "playing in front of Spanish crowd is always the best... Barcelona has more... is more important to me",
+              "doc_index": 4
+            },
+            {
+              "quote": "lion completely undefeated so far",
+              "doc_index": 6
+            },
+            {
+              "quote": "what the hell is way off I could have just dropped it on his feet",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "agent_name": "逆向投资者",
+        "stance": "bear",
+        "probability": 62.0,
+        "reasoning": "让我先评估文档相关性。问题聚焦于 Gen.G 对阵 LYON 的第四局比赛胜者，这是一个具体的电子竞技赛事预测。\n\n文档相关性评估：\n- Document 1: 描述 MSI 2023 中 Gen.G 对阵 BLG 的比赛细节。虽然涉及 Gen.G，但对手是 BLG 而非 LYON，赛事是 MSI 2023 而非当前比赛。相关性评分：4/10（部分相关，但赛事和对手不同）。\n- Document 2: 关于《星际争霸2》SSL 决赛，完全不相关。相关性评分：0/10。\n- Document 3: 关于 2020 年世界赛入围赛 R7 vs UOL，完全不相关。相关性评分：0/10。\n- Document 4: Movistar KOI 战队关于 LEC 决赛的采访，涉及欧洲战队但非 LYON，且是反思性内容。相关性评分：2/10。\n- Document 5: 关于 LEC、LCS、LCK 冬季赛的“过度反应”视频，其中一段明确讨论 LYON 和 First Stand 赛事。##begin_quote## I think Lion can win the first stand tournament. ... Lion is just Fly Quest reincarnated. ... they have a really good chance of going far in the tournament. ##end_quote## [文档 5]。该文档直接提到 LYON（Lion）在国际赛事 First Stand 中的潜力，并进行了阵容对比分析。相关性评分：9/10。\n- Document 6: 关于 2016 年 IWCQ 中 Lyon Gaming 对阵 Saigon Jokers 的比赛，战队名称相似（Lyon Gaming）但年代久远，且非当前阵容。相关性评分：3/10（历史参考价值有限）。\n- Document 7: 关于 First Stand 2026 的预测视频，其中提到多支战队包括 Gen.G、JDG、LYON 等。##begin_quote## Which team will have the longest average game time? Lion. I swear Lion. They're going to have [ __ ] 40minute games against Loud. ##end_quote## [文档 7]。该文档直接提及 LYON 在当前或近期赛事（First Stand）中的比赛风格预测。相关性评分：8/10。\n\n因此，核心相关文档为 5 和 7。文档 1 可提供 Gen.G 的历史比赛风格参考，但需谨慎使用。我将主要依据文档 5 和 7 进行分析。\n\n**支持 YES (Gen.G 赢得第四局) 的论据：**\n\n1.  **Gen.G 作为韩国顶级强队的系统性与稳定性：** 从历史比赛看，Gen.G 在关键决策和团战执行上往往表现出高度系统性。在 MSI 2023 对阵 BLG 的比赛中，即使面临压力，他们也能通过精准的集火和资源控制找到机会。##begin_quote## Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control that was coming out from Genji good Target Focus ##end_quote## [文档 1]。这种在高压下针对关键技能冷却期（如闪现）发起进攻的能力，是顶级强队的标志，在 BO5 的第四局中至关重要。\n2.  **Gen.G 选手的个体操作与关键时刻能力：** 文档 1 中展示了 Gen.G 选手（如 Shelby）在团战中创造奇迹时刻的潜力。##begin_quote## Shelby goes over the wall here ... delaysia's killing them all oh my god dude how is he alive ##end_quote## [文档 1]。在系列赛的后期，尤其是可能决定胜负的第四局，明星选手的爆发性操作往往能一锤定音。Gen.G 拥有此类选手的储备。\n3.  **对阵欧洲战队的历史与心理优势：** 虽然文档未直接提供 Gen.G 对 LYON 的交手记录，但韩国战队对阵欧洲战队在近年国际赛上总体占优。文档 5 中评论员也提到，面对欧洲战队时，北美（及延伸至韩国）粉丝的期望是“如果输给欧洲，我会哭着入睡”，这间接反映了韩国战队对阵欧洲战队时的预期优势。##begin_quote## And Europe, I'm not even going to really consider all that much. If we lose to them, I cry myself to sleep. ##end_quote## [文档 5]。这种宏观层面的赛区实力认知会转化为比赛中的心理优势和战术自信。\n\n**支持 NO (LYON 赢得第四局) 的论据：**\n\n1.  **LYON 被严重低估的团队协同与赛事黑马潜力：** 文档 5 明确指出，LYON 的阵容构建与曾经在国际赛上有过亮眼表现的 FlyQuest 相似，具备“能玩计数器、几乎任何英雄的上单”、“MVP 级打野”、“需要时能carry的中单”和“能稳住的下路”等特质。##begin_quote## we have the same formula we had last year, but I haven't seen a single person talk about the fact that Lion is just Fly Quest reincarnated. ##end_quote## [文档 5]。这种被主流叙事忽视的、具备完整战术拼图的团队，往往是“均值回归”的受益者，容易在对手松懈时制造冷门。\n2.  **LYON 可能采用的拖延战术与后期决策能力：** 文档 7 的预测明确指出，LYON 的比赛风格倾向于长时间的对局。##begin_quote## Which team will have the longest average game time? Lion. I swear Lion. They're going to have [ __ ] 40minute games ##end_quote## [文档 7]。如果 LYON 能将比赛拖入后期，他们有机会通过更少的失误或一波好的团战来赢下比赛。在 BO5 的第四局，如果 LYON 已无退路或 Gen.G 出现“冠军点”心态波动，这种拖延战术可能非常有效。\n3.  **Gen.G 可能存在的“国际赛软脚虾”叙事与过度自信风险：** 逆向思维需要关注市场共识的反面。市场普遍看好 Gen.G 的原因正是其强大的纸面实力和历史战绩。然而，文档 5 中也提到“他们（Gen.G）还没到世界赛，所以还不注定崩溃”，这暗示了 Gen.G 在国际赛舞台上并非无懈可击，存在关键时刻表现不及预期的历史包袱。##begin_quote## they've proven themselves, and it's not Worlds yet, so they're not destined to crumble. ##end_quote## [文档 5]。这种潜在的“脆弱性”在系列赛深入时可能被放大。此外，作为被看好的一方，Gen.G 可能在战术准备或临场心态上出现轻敌，而 LYON 作为挑战者则可能毫无包袱、全力一搏。\n\n**综合分析：**\n市场共识无疑会大幅倾向 Gen.G，这是基于赛区实力差、过往战绩和明星阵容的线性外推。然而，逆向投资需要寻找共识中的裂缝。\n\n首先，**赛事阶段与情境至关重要**。这是“Game 4”，意味着系列赛可能已接近尾声。如果 Gen.G 2-1 领先，他们手握赛点，但“冠军点”有时会导致队伍打法保守或急于求成，反而容易给对手机会。如果 LYON 2-1 领先，那么 Gen.G 将背水一战，压力巨大。无论哪种情况，第四局的心理博弈都异常复杂，这削弱了单纯基于纸面实力的预测可靠性。\n\n其次，**LYON 的战术准备可能被低估**。文档 5 和 7 提供的线索表明，LYON 并非鱼腩部队，他们拥有明确的团队风格（类似过去的成功模板、擅长长局）和在国际赛上制造惊喜的潜力。市场可能过度锚定在“韩国 > 欧洲”的宏观叙事上，而忽视了个别系列赛中战术克制和临场状态的决定性作用。\n\n最后，**均值回归的力量**。在单场比赛中，强队翻车的概率始终存在。尤其是在一个可能已经进行了三局高强度对抗的系列赛中，选手的疲劳、注意力的短暂下滑、一个偶然的失误或一次成功的奇袭，都可能改变比赛走向。Gen.G 并非不可战胜，这在他们的历史比赛中也有体现（如文档 1 中他们也经历过险象环生的团战）。\n\n**概率估计：**\n综合考虑，市场共识可能会给 Gen.G 赋予 80% 甚至更高的单局胜率。但作为一个逆向投资者，我认为这种定价忽略了：\n1.  BO5 中后期局次特有的心理和战术复杂性。\n2.  LYON 作为一支有结构、有特点的战队，其黑马潜力和制造混乱的能力。\n3.  强队在单场比赛中的“翻车”概率本身就被系统性低估。\n\n因此，我会给出一个显著低于市场直觉的概率。我认为 Gen.G 在第四局获胜的概率仍然是更高的，但优势没有那么大。LYON 有可观的爆冷机会。",
+        "raw_response": "REASONING: 让我先评估文档相关性。问题聚焦于 Gen.G 对阵 LYON 的第四局比赛胜者，这是一个具体的电子竞技赛事预测。\n\n文档相关性评估：\n- Document 1: 描述 MSI 2023 中 Gen.G 对阵 BLG 的比赛细节。虽然涉及 Gen.G，但对手是 BLG 而非 LYON，赛事是 MSI 2023 而非当前比赛。相关性评分：4/10（部分相关，但赛事和对手不同）。\n- Document 2: 关于《星际争霸2》SSL 决赛，完全不相关。相关性评分：0/10。\n- Document 3: 关于 2020 年世界赛入围赛 R7 vs UOL，完全不相关。相关性评分：0/10。\n- Document 4: Movistar KOI 战队关于 LEC 决赛的采访，涉及欧洲战队但非 LYON，且是反思性内容。相关性评分：2/10。\n- Document 5: 关于 LEC、LCS、LCK 冬季赛的“过度反应”视频，其中一段明确讨论 LYON 和 First Stand 赛事。##begin_quote## I think Lion can win the first stand tournament. ... Lion is just Fly Quest reincarnated. ... they have a really good chance of going far in the tournament. ##end_quote## [文档 5]。该文档直接提到 LYON（Lion）在国际赛事 First Stand 中的潜力，并进行了阵容对比分析。相关性评分：9/10。\n- Document 6: 关于 2016 年 IWCQ 中 Lyon Gaming 对阵 Saigon Jokers 的比赛，战队名称相似（Lyon Gaming）但年代久远，且非当前阵容。相关性评分：3/10（历史参考价值有限）。\n- Document 7: 关于 First Stand 2026 的预测视频，其中提到多支战队包括 Gen.G、JDG、LYON 等。##begin_quote## Which team will have the longest average game time? Lion. I swear Lion. They're going to have [ __ ] 40minute games against Loud. ##end_quote## [文档 7]。该文档直接提及 LYON 在当前或近期赛事（First Stand）中的比赛风格预测。相关性评分：8/10。\n\n因此，核心相关文档为 5 和 7。文档 1 可提供 Gen.G 的历史比赛风格参考，但需谨慎使用。我将主要依据文档 5 和 7 进行分析。\n\n**支持 YES (Gen.G 赢得第四局) 的论据：**\n\n1.  **Gen.G 作为韩国顶级强队的系统性与稳定性：** 从历史比赛看，Gen.G 在关键决策和团战执行上往往表现出高度系统性。在 MSI 2023 对阵 BLG 的比赛中，即使面临压力，他们也能通过精准的集火和资源控制找到机会。##begin_quote## Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control that was coming out from Genji good Target Focus ##end_quote## [文档 1]。这种在高压下针对关键技能冷却期（如闪现）发起进攻的能力，是顶级强队的标志，在 BO5 的第四局中至关重要。\n2.  **Gen.G 选手的个体操作与关键时刻能力：** 文档 1 中展示了 Gen.G 选手（如 Shelby）在团战中创造奇迹时刻的潜力。##begin_quote## Shelby goes over the wall here ... delaysia's killing them all oh my god dude how is he alive ##end_quote## [文档 1]。在系列赛的后期，尤其是可能决定胜负的第四局，明星选手的爆发性操作往往能一锤定音。Gen.G 拥有此类选手的储备。\n3.  **对阵欧洲战队的历史与心理优势：** 虽然文档未直接提供 Gen.G 对 LYON 的交手记录，但韩国战队对阵欧洲战队在近年国际赛上总体占优。文档 5 中评论员也提到，面对欧洲战队时，北美（及延伸至韩国）粉丝的期望是“如果输给欧洲，我会哭着入睡”，这间接反映了韩国战队对阵欧洲战队时的预期优势。##begin_quote## And Europe, I'm not even going to really consider all that much. If we lose to them, I cry myself to sleep. ##end_quote## [文档 5]。这种宏观层面的赛区实力认知会转化为比赛中的心理优势和战术自信。\n\n**支持 NO (LYON 赢得第四局) 的论据：**\n\n1.  **LYON 被严重低估的团队协同与赛事黑马潜力：** 文档 5 明确指出，LYON 的阵容构建与曾经在国际赛上有过亮眼表现的 FlyQuest 相似，具备“能玩计数器、几乎任何英雄的上单”、“MVP 级打野”、“需要时能carry的中单”和“能稳住的下路”等特质。##begin_quote## we have the same formula we had last year, but I haven't seen a single person talk about the fact that Lion is just Fly Quest reincarnated. ##end_quote## [文档 5]。这种被主流叙事忽视的、具备完整战术拼图的团队，往往是“均值回归”的受益者，容易在对手松懈时制造冷门。\n2.  **LYON 可能采用的拖延战术与后期决策能力：** 文档 7 的预测明确指出，LYON 的比赛风格倾向于长时间的对局。##begin_quote## Which team will have the longest average game time? Lion. I swear Lion. They're going to have [ __ ] 40minute games ##end_quote## [文档 7]。如果 LYON 能将比赛拖入后期，他们有机会通过更少的失误或一波好的团战来赢下比赛。在 BO5 的第四局，如果 LYON 已无退路或 Gen.G 出现“冠军点”心态波动，这种拖延战术可能非常有效。\n3.  **Gen.G 可能存在的“国际赛软脚虾”叙事与过度自信风险：** 逆向思维需要关注市场共识的反面。市场普遍看好 Gen.G 的原因正是其强大的纸面实力和历史战绩。然而，文档 5 中也提到“他们（Gen.G）还没到世界赛，所以还不注定崩溃”，这暗示了 Gen.G 在国际赛舞台上并非无懈可击，存在关键时刻表现不及预期的历史包袱。##begin_quote## they've proven themselves, and it's not Worlds yet, so they're not destined to crumble. ##end_quote## [文档 5]。这种潜在的“脆弱性”在系列赛深入时可能被放大。此外，作为被看好的一方，Gen.G 可能在战术准备或临场心态上出现轻敌，而 LYON 作为挑战者则可能毫无包袱、全力一搏。\n\n**综合分析：**\n市场共识无疑会大幅倾向 Gen.G，这是基于赛区实力差、过往战绩和明星阵容的线性外推。然而，逆向投资需要寻找共识中的裂缝。\n\n首先，**赛事阶段与情境至关重要**。这是“Game 4”，意味着系列赛可能已接近尾声。如果 Gen.G 2-1 领先，他们手握赛点，但“冠军点”有时会导致队伍打法保守或急于求成，反而容易给对手机会。如果 LYON 2-1 领先，那么 Gen.G 将背水一战，压力巨大。无论哪种情况，第四局的心理博弈都异常复杂，这削弱了单纯基于纸面实力的预测可靠性。\n\n其次，**LYON 的战术准备可能被低估**。文档 5 和 7 提供的线索表明，LYON 并非鱼腩部队，他们拥有明确的团队风格（类似过去的成功模板、擅长长局）和在国际赛上制造惊喜的潜力。市场可能过度锚定在“韩国 > 欧洲”的宏观叙事上，而忽视了个别系列赛中战术克制和临场状态的决定性作用。\n\n最后，**均值回归的力量**。在单场比赛中，强队翻车的概率始终存在。尤其是在一个可能已经进行了三局高强度对抗的系列赛中，选手的疲劳、注意力的短暂下滑、一个偶然的失误或一次成功的奇袭，都可能改变比赛走向。Gen.G 并非不可战胜，这在他们的历史比赛中也有体现（如文档 1 中他们也经历过险象环生的团战）。\n\n**概率估计：**\n综合考虑，市场共识可能会给 Gen.G 赋予 80% 甚至更高的单局胜率。但作为一个逆向投资者，我认为这种定价忽略了：\n1.  BO5 中后期局次特有的心理和战术复杂性。\n2.  LYON 作为一支有结构、有特点的战队，其黑马潜力和制造混乱的能力。\n3.  强队在单场比赛中的“翻车”概率本身就被系统性低估。\n\n因此，我会给出一个显著低于市场直觉的概率。我认为 Gen.G 在第四局获胜的概率仍然是更高的，但优势没有那么大。LYON 有可观的爆冷机会。\n\nPREDICTION: 62%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "I think Lion can win the first stand tournament. ... Lion is just Fly Quest reincarnated. ... they have a really good chance of going far in the tournament.",
+              "doc_index": 5
+            },
+            {
+              "quote": "Which team will have the longest average game time? Lion. I swear Lion. They're going to have [ __ ] 40minute games against Loud.",
+              "doc_index": 7
+            },
+            {
+              "quote": "Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control that was coming out from Genji good Target Focus",
+              "doc_index": 1
+            },
+            {
+              "quote": "Shelby goes over the wall here ... delaysia's killing them all oh my god dude how is he alive",
+              "doc_index": 1
+            },
+            {
+              "quote": "And Europe, I'm not even going to really consider all that much. If we lose to them, I cry myself to sleep.",
+              "doc_index": 5
+            },
+            {
+              "quote": "we have the same formula we had last year, but I haven't seen a single person talk about the fact that Lion is just Fly Quest reincarnated.",
+              "doc_index": 5
+            },
+            {
+              "quote": "Which team will have the longest average game time? Lion. I swear Lion. They're going to have [ __ ] 40minute games",
+              "doc_index": 7
+            },
+            {
+              "quote": "they've proven themselves, and it's not Worlds yet, so they're not destined to crumble.",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "基本面分析师",
+        "stance": "neutral",
+        "probability": 70.0,
+        "reasoning": "作为基本面分析师，我将忽略短期比赛片段和无关历史数据，专注于两支队伍在结构性、资源和长期趋势上的系统性对比。首先评估文档相关性：文档1（MSI 2023 Gen.G vs BLG）展示了Gen.G在国际赛事中的团队协作和关键时刻决策能力，相关性7/10；文档4（Movistar KOI访谈）和文档5（LEC/LCS/LYON分析）提供了LYON战队的背景、风格及对其国际竞争力的评估，相关性8/10；文档7（First Stand 2026 BNK FEARX vs BLG）展示了类似国际赛事中LCK与LPL队伍的交锋模式，但非直接相关，相关性4/10，将忽略；其他文档（2、3、6）涉及不同游戏或无关赛事，相关性低于5/10，均为干扰信息，不予引用。\n\n**支持Gen.G（YES）的论据：**\n1. **国际赛事经验与系统性优势**：Gen.G作为韩国顶级俱乐部，拥有成熟的国际赛事体系和战术执行力。在MSI 2023对阵BLG的比赛中，展现了出色的团队协作和资源控制能力，例如在中路针对敌方打野无闪现的时机发起精准围攻（##begin_quote## Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control ##end_quote## [文档 1]），这体现了其结构性决策优势。\n2. **关键选手的稳定性和carry潜力**：Gen.G拥有如peanut等经验丰富的选手，能在高压环境下保持操作和决策质量。文档1中peanut的节奏控制和Shelby的团战发挥（##begin_quote## Shelby goes over the wall here... delaysia's killing them all ##end_quote## [文档 1]）显示了个人能力在僵局中的突破力，这是LYON相对缺乏的。\n3. **对抗LPL风格的经验**：Gen.G长期与LPL顶尖队伍交锋（如对阵BLG），而LYON作为LCS代表，其风格更接近LEC。文档5指出，LYON虽被比作“Fly Quest reincarnated”，但面对Gen.G级别的韩国队伍时，个体实力存在差距（##begin_quote## There is nobody on this roster, including inspired, that is at the level individually of what GenG is at ##end_quote## [文档 5]）。这种跨赛区对抗经验使Gen.G在应对不同风格时更具适应性。\n\n**反对Gen.G（NO，即支持LYON）的论据：**\n1. **LYON的团队协同与版本适应性**：LYON在LCS冬季赛展现出强大的团队协同和版本理解，其阵容灵活性高。文档5提到LYON拥有“top laner that could play counter picks”、“MVP jungler”和“mid laner that can carry”（##begin_quote## last year we were hyping Fly Quest up so much because they had a top laner that could play counter picks... we have the same formula ##end_quote## [文档 5]），这种多核驱动模式在BO1或特定对局中可能打破Gen.G的节奏。\n2. **国际赛事中的心态与爆发潜力**：LYON作为北美代表，在“First Stand”等国际赛事中可能更具侵略性和不可预测性。文档4中Movistar KOI选手提到国际赛事中“tension is there... either you want it or not”（##begin_quote## in playoffs, like the tension is there, you know. Like either you want it or not ##end_quote## [文档 4]），这种高压环境可能激发LYON的爆发表现，而Gen.G有时在关键局会出现波动（如文档1中闪现失误等细节）。\n3. **战术准备与针对性策略**：LYON有充分时间研究Gen.G，并可能准备特殊战术。文档5指出LYON的“draft adaptations”和“versatility”（##begin_quote## Versatility, draft adaptations, fine ##end_quote## [文档 5]）是其优势，若能在BP阶段取得优势，可能抵消Gen.G的个人能力差距。\n\n**综合分析：**\n从基本面看，Gen.G在长期结构性因素上占优：更丰富的国际赛事经验、更稳定的选手池、以及更成熟的资源控制体系。LYON的优势在于团队协同和战术灵活性，但个体实力和对抗顶级亚洲队伍的经验相对不足。文档1显示Gen.G即使在逆境中也能通过精准决策扭转局面（如针对无闪现目标的围攻），而文档5强调LYON面对Gen.G个体水平的差距。然而，BO1赛制增加了不确定性，LYON的针对性策略可能奏效。\n\n权衡后，Gen.G的系统性优势更为持久和可靠，尤其在游戏4（可能为赛点局）中，经验丰富的队伍更易保持稳定。LYON的爆发潜力存在，但概率较低。\n\n**最终概率估计：**\n基于系统性优势、国际经验及个体能力差距，Gen.G在游戏4中获胜的概率较高，但需考虑BO1变数。概率估计为70%。",
+        "raw_response": "REASONING: \n作为基本面分析师，我将忽略短期比赛片段和无关历史数据，专注于两支队伍在结构性、资源和长期趋势上的系统性对比。首先评估文档相关性：文档1（MSI 2023 Gen.G vs BLG）展示了Gen.G在国际赛事中的团队协作和关键时刻决策能力，相关性7/10；文档4（Movistar KOI访谈）和文档5（LEC/LCS/LYON分析）提供了LYON战队的背景、风格及对其国际竞争力的评估，相关性8/10；文档7（First Stand 2026 BNK FEARX vs BLG）展示了类似国际赛事中LCK与LPL队伍的交锋模式，但非直接相关，相关性4/10，将忽略；其他文档（2、3、6）涉及不同游戏或无关赛事，相关性低于5/10，均为干扰信息，不予引用。\n\n**支持Gen.G（YES）的论据：**\n1. **国际赛事经验与系统性优势**：Gen.G作为韩国顶级俱乐部，拥有成熟的国际赛事体系和战术执行力。在MSI 2023对阵BLG的比赛中，展现了出色的团队协作和资源控制能力，例如在中路针对敌方打野无闪现的时机发起精准围攻（##begin_quote## Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control ##end_quote## [文档 1]），这体现了其结构性决策优势。\n2. **关键选手的稳定性和carry潜力**：Gen.G拥有如peanut等经验丰富的选手，能在高压环境下保持操作和决策质量。文档1中peanut的节奏控制和Shelby的团战发挥（##begin_quote## Shelby goes over the wall here... delaysia's killing them all ##end_quote## [文档 1]）显示了个人能力在僵局中的突破力，这是LYON相对缺乏的。\n3. **对抗LPL风格的经验**：Gen.G长期与LPL顶尖队伍交锋（如对阵BLG），而LYON作为LCS代表，其风格更接近LEC。文档5指出，LYON虽被比作“Fly Quest reincarnated”，但面对Gen.G级别的韩国队伍时，个体实力存在差距（##begin_quote## There is nobody on this roster, including inspired, that is at the level individually of what GenG is at ##end_quote## [文档 5]）。这种跨赛区对抗经验使Gen.G在应对不同风格时更具适应性。\n\n**反对Gen.G（NO，即支持LYON）的论据：**\n1. **LYON的团队协同与版本适应性**：LYON在LCS冬季赛展现出强大的团队协同和版本理解，其阵容灵活性高。文档5提到LYON拥有“top laner that could play counter picks”、“MVP jungler”和“mid laner that can carry”（##begin_quote## last year we were hyping Fly Quest up so much because they had a top laner that could play counter picks... we have the same formula ##end_quote## [文档 5]），这种多核驱动模式在BO1或特定对局中可能打破Gen.G的节奏。\n2. **国际赛事中的心态与爆发潜力**：LYON作为北美代表，在“First Stand”等国际赛事中可能更具侵略性和不可预测性。文档4中Movistar KOI选手提到国际赛事中“tension is there... either you want it or not”（##begin_quote## in playoffs, like the tension is there, you know. Like either you want it or not ##end_quote## [文档 4]），这种高压环境可能激发LYON的爆发表现，而Gen.G有时在关键局会出现波动（如文档1中闪现失误等细节）。\n3. **战术准备与针对性策略**：LYON有充分时间研究Gen.G，并可能准备特殊战术。文档5指出LYON的“draft adaptations”和“versatility”（##begin_quote## Versatility, draft adaptations, fine ##end_quote## [文档 5]）是其优势，若能在BP阶段取得优势，可能抵消Gen.G的个人能力差距。\n\n**综合分析：**\n从基本面看，Gen.G在长期结构性因素上占优：更丰富的国际赛事经验、更稳定的选手池、以及更成熟的资源控制体系。LYON的优势在于团队协同和战术灵活性，但个体实力和对抗顶级亚洲队伍的经验相对不足。文档1显示Gen.G即使在逆境中也能通过精准决策扭转局面（如针对无闪现目标的围攻），而文档5强调LYON面对Gen.G个体水平的差距。然而，BO1赛制增加了不确定性，LYON的针对性策略可能奏效。\n\n权衡后，Gen.G的系统性优势更为持久和可靠，尤其在游戏4（可能为赛点局）中，经验丰富的队伍更易保持稳定。LYON的爆发潜力存在，但概率较低。\n\n**最终概率估计：**\n基于系统性优势、国际经验及个体能力差距，Gen.G在游戏4中获胜的概率较高，但需考虑BO1变数。概率估计为70%。\n\nPREDICTION: 70%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control",
+              "doc_index": 1
+            },
+            {
+              "quote": "Shelby goes over the wall here... delaysia's killing them all",
+              "doc_index": 1
+            },
+            {
+              "quote": "There is nobody on this roster, including inspired, that is at the level individually of what GenG is at",
+              "doc_index": 5
+            },
+            {
+              "quote": "last year we were hyping Fly Quest up so much because they had a top laner that could play counter picks... we have the same formula",
+              "doc_index": 5
+            },
+            {
+              "quote": "in playoffs, like the tension is there, you know. Like either you want it or not",
+              "doc_index": 4
+            },
+            {
+              "quote": "Versatility, draft adaptations, fine",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "风险评估师",
+        "stance": "bear",
+        "probability": 88.0,
+        "reasoning": "作为风险评估师，我将从风险矩阵的角度分析这场比赛。核心是识别影响比赛结果的各类风险因素，评估其发生概率及潜在影响，特别关注可能导致LYON爆冷的尾部风险。\n\n**1. 支持（YES，即Gen.G获胜）的论据**\n\n- **历史战绩与稳定性风险低**：Gen.G在顶级国际赛事中展现出强大的团队协作和执行力。在MSI 2023对阵BLG的比赛中，即使在某些对线处于劣势，他们仍能通过精准的团战时机和资源控制扭转局面。例如，##begin_quote## Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control that was coming out from Genji good Target Focus ##end_quote## [文档 1]。这表明Gen.G善于捕捉对手的关键技能冷却窗口，并将其转化为击杀，这是一种低风险、高确定性的运营模式。\n- **阵容深度与战术风险分散**：Gen.G的选手英雄池深厚，能够适应多种战术。文档1中提到了他们处理不同对局的能力，例如面对“Giga dive comp”时仍能找到机会。虽然该文档讨论的是对阵BLG，但体现了Gen.G作为顶级韩国战队应对复杂局面的基础能力，这降低了他们因单一战术被针对而崩盘的风险。\n- **关键选手的决策风险控制**：打野选手Peanut在资源控制和节奏带动上表现出色。##begin_quote## makes you wonder if peanut skipped one Camp could he have killed ##end_quote## [文档 1]，这种对打野路径细节的讨论，反映了分析师对其决策影响力的关注。一个能够通过细微调整影响战局的打野，是团队风险的“稳定器”。\n\n**2. 反对（NO，即LYON获胜）的论据**\n\n- **国际赛事“黑天鹅”事件的历史概率**：国际赛事中，看似实力悬殊的对局出现爆冷并非小概率事件。文档5中提到，##begin_quote## I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while ##end_quote##，这反映了即使对韩国队伍，外界也存在“可被击败”的预期。LYON作为外卡或主要赛区外的挑战者，其不可预测性本身就是一种高风险因素。\n- **LYON可能具备的特定战术风险**：LYON若想取胜，必然依赖非常规战术或“绝活”体系，这会给Gen.G带来陌生的压力。文档6描述了LYON Gaming（可能与当前LYON有关联）在历史比赛中##begin_quote## maintain that undefeated record ##end_quote## 并展现出的强势碾压能力。虽然对手不同，但这表明名为“LYON”的队伍历史上具备制造“一边倒”局面的潜力，这种历史基因可能转化为突如其来的战术冲击。\n- **Gen.G的“轻敌”或“状态波动”风险**：在系列赛领先（假设Gen.G 2-1领先进入Game 4）的情况下，强队可能出现专注度下降，这是典型的行为金融学风险。文档7中描述了Team Liquid在巨大劣势下翻盘的案例，##begin_quote## Team Liquid from the precipice comes back ##end_quote## [文档 7]，这证明了电子竞技中“不可能”的逆转确实存在。如果Gen.G因领先而采取非最优的冒险打法，他们就将自己暴露在LYON抓住机会完成小概率逆转的风险之下。\n\n**3. 综合分析**\n\n- **风险矩阵评估**：\n  - **高概率、高影响风险**：Gen.G凭借硬实力和运营稳健性获胜。这是基准情景，发生概率最高。\n  - **低概率、高影响风险（黑天鹅）**：LYON通过完美的前期设计、Gen.G集体状态失常或关键BUG/意外事件取胜。此类风险概率低，但一旦发生则影响巨大（即爆冷）。\n  - **中概率、中影响风险**：Gen.G因轻敌或试验阵容导致比赛过程焦灼，但最终凭借经验取胜。这会导致YES方的隐含风险溢价上升。\n- **干扰信息过滤**：文档2（星际争霸）、文档3（2020年世界赛入围赛）、文档4（LEC队伍采访）与当前Gen.G vs LYON的对局直接相关性极低（评分<5），不予采用。文档1、5、6、7提供了关于Gen.G稳定性、国际赛爆冷可能性、LYON历史形象及比赛逆转可能性的侧面数据，具有参考价值。\n- **核心矛盾**：在于“实力差距的确定性”与“单场BO1（或BO5中单局）的随机性”之间的对抗。Gen.G在绝大多数风险维度上都占优，但电子竞技不存在概率为0的事件。LYON的获胜路径狭窄且充满条件假设，但并非不存在。\n\n**4. 最终概率估计**\n\n综合评估，Gen.G获胜是压倒性的高概率事件。LYON的获胜需要多个低概率风险因素同时触发，属于典型的“尾部风险”。然而，基于纯粹的风险定价，不能将小概率事件的概率赋值为0。考虑到国际赛场的波动性、单局游戏的偶然性（如一级团设计、特定英雄Counter）以及历史冷门案例，必须为尾部风险留出空间。\n\n**PREDICTION: 88%**",
+        "raw_response": "REASONING: 作为风险评估师，我将从风险矩阵的角度分析这场比赛。核心是识别影响比赛结果的各类风险因素，评估其发生概率及潜在影响，特别关注可能导致LYON爆冷的尾部风险。\n\n**1. 支持（YES，即Gen.G获胜）的论据**\n\n- **历史战绩与稳定性风险低**：Gen.G在顶级国际赛事中展现出强大的团队协作和执行力。在MSI 2023对阵BLG的比赛中，即使在某些对线处于劣势，他们仍能通过精准的团战时机和资源控制扭转局面。例如，##begin_quote## Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control that was coming out from Genji good Target Focus ##end_quote## [文档 1]。这表明Gen.G善于捕捉对手的关键技能冷却窗口，并将其转化为击杀，这是一种低风险、高确定性的运营模式。\n- **阵容深度与战术风险分散**：Gen.G的选手英雄池深厚，能够适应多种战术。文档1中提到了他们处理不同对局的能力，例如面对“Giga dive comp”时仍能找到机会。虽然该文档讨论的是对阵BLG，但体现了Gen.G作为顶级韩国战队应对复杂局面的基础能力，这降低了他们因单一战术被针对而崩盘的风险。\n- **关键选手的决策风险控制**：打野选手Peanut在资源控制和节奏带动上表现出色。##begin_quote## makes you wonder if peanut skipped one Camp could he have killed ##end_quote## [文档 1]，这种对打野路径细节的讨论，反映了分析师对其决策影响力的关注。一个能够通过细微调整影响战局的打野，是团队风险的“稳定器”。\n\n**2. 反对（NO，即LYON获胜）的论据**\n\n- **国际赛事“黑天鹅”事件的历史概率**：国际赛事中，看似实力悬殊的对局出现爆冷并非小概率事件。文档5中提到，##begin_quote## I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while ##end_quote##，这反映了即使对韩国队伍，外界也存在“可被击败”的预期。LYON作为外卡或主要赛区外的挑战者，其不可预测性本身就是一种高风险因素。\n- **LYON可能具备的特定战术风险**：LYON若想取胜，必然依赖非常规战术或“绝活”体系，这会给Gen.G带来陌生的压力。文档6描述了LYON Gaming（可能与当前LYON有关联）在历史比赛中##begin_quote## maintain that undefeated record ##end_quote## 并展现出的强势碾压能力。虽然对手不同，但这表明名为“LYON”的队伍历史上具备制造“一边倒”局面的潜力，这种历史基因可能转化为突如其来的战术冲击。\n- **Gen.G的“轻敌”或“状态波动”风险**：在系列赛领先（假设Gen.G 2-1领先进入Game 4）的情况下，强队可能出现专注度下降，这是典型的行为金融学风险。文档7中描述了Team Liquid在巨大劣势下翻盘的案例，##begin_quote## Team Liquid from the precipice comes back ##end_quote## [文档 7]，这证明了电子竞技中“不可能”的逆转确实存在。如果Gen.G因领先而采取非最优的冒险打法，他们就将自己暴露在LYON抓住机会完成小概率逆转的风险之下。\n\n**3. 综合分析**\n\n- **风险矩阵评估**：\n  - **高概率、高影响风险**：Gen.G凭借硬实力和运营稳健性获胜。这是基准情景，发生概率最高。\n  - **低概率、高影响风险（黑天鹅）**：LYON通过完美的前期设计、Gen.G集体状态失常或关键BUG/意外事件取胜。此类风险概率低，但一旦发生则影响巨大（即爆冷）。\n  - **中概率、中影响风险**：Gen.G因轻敌或试验阵容导致比赛过程焦灼，但最终凭借经验取胜。这会导致YES方的隐含风险溢价上升。\n- **干扰信息过滤**：文档2（星际争霸）、文档3（2020年世界赛入围赛）、文档4（LEC队伍采访）与当前Gen.G vs LYON的对局直接相关性极低（评分<5），不予采用。文档1、5、6、7提供了关于Gen.G稳定性、国际赛爆冷可能性、LYON历史形象及比赛逆转可能性的侧面数据，具有参考价值。\n- **核心矛盾**：在于“实力差距的确定性”与“单场BO1（或BO5中单局）的随机性”之间的对抗。Gen.G在绝大多数风险维度上都占优，但电子竞技不存在概率为0的事件。LYON的获胜路径狭窄且充满条件假设，但并非不存在。\n\n**4. 最终概率估计**\n\n综合评估，Gen.G获胜是压倒性的高概率事件。LYON的获胜需要多个低概率风险因素同时触发，属于典型的“尾部风险”。然而，基于纯粹的风险定价，不能将小概率事件的概率赋值为0。考虑到国际赛场的波动性、单局游戏的偶然性（如一级团设计、特定英雄Counter）以及历史冷门案例，必须为尾部风险留出空间。\n\n**PREDICTION: 88%**",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control that was coming out from Genji good Target Focus",
+              "doc_index": 1
+            },
+            {
+              "quote": "makes you wonder if peanut skipped one Camp could he have killed",
+              "doc_index": 1
+            },
+            {
+              "quote": "I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while ##end_quote##，这反映了即使对韩国队伍，外界也存在“可被击败”的预期。LYON作为外卡或主要赛区外的挑战者，其不可预测性本身就是一种高风险因素。\n- **LYON可能具备的特定战术风险**：LYON若想取胜，必然依赖非常规战术或“绝活”体系，这会给Gen.G带来陌生的压力。文档6描述了LYON Gaming（可能与当前LYON有关联）在历史比赛中##begin_quote## maintain that undefeated record ##end_quote## 并展现出的强势碾压能力。虽然对手不同，但这表明名为“LYON”的队伍历史上具备制造“一边倒”局面的潜力，这种历史基因可能转化为突如其来的战术冲击。\n- **Gen.G的“轻敌”或“状态波动”风险**：在系列赛领先（假设Gen.G 2-1领先进入Game 4）的情况下，强队可能出现专注度下降，这是典型的行为金融学风险。文档7中描述了Team Liquid在巨大劣势下翻盘的案例，##begin_quote## Team Liquid from the precipice comes back",
+              "doc_index": 7
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "综合策略师",
+        "stance": "neutral",
+        "probability": 85.0,
+        "reasoning": "首先进行文档相关性评估：\n- Document 1 (MSI 2023 Gen.G vs BLG): 9/10。直接涉及Gen.G战队在MSI 2023的比赛表现，包含具体英雄选择、战术细节和选手表现，是评估Gen.G实力的核心资料。\n- Document 2 (SSL Premier S2 Finals): 1/10。内容为《星际争霸2》比赛，与《英雄联盟》及问题中的两支战队完全无关，为干扰信息。\n- Document 3 (R7 vs UOL Highlights Worlds 2020): 2/10。涉及《英雄联盟》但战队和赛事（2020年入围赛）与当前预测问题（Gen.G vs LYON）无关，相关性极低。\n- Document 4 (Movistar KOI赛后采访): 3/10。涉及LEC战队（Movistar KOI）的赛后反思，与Gen.G或LYON无直接关联，但包含对国际赛事和版本（下路软辅）的宏观讨论，有微弱参考价值。\n- Document 5 (LoL Esports Overreactions): 8/10。直接讨论LYON战队（及其与FlyQuest的类比）和Gen.G在即将到来的国际赛事（First Stand）中的前景，包含对两队实力对比的详细分析，高度相关。\n- Document 6 (LYN vs SAJ IWCQ 2016): 2/10。涉及一支名为“Lyon Gaming”的战队，但赛事是2016年的入围赛，与当前LYON战队（推测为LEC的Team Heretics？文档5中提及的“Lion”应指同一战队）时代和背景完全不同，参考价值有限。\n\n基于高相关文档（1和5）进行分析：\n\n**1. 支持Gen.G获胜（YES）的论据：**\n- **Gen.G的国际赛事经验和近期强势表现**：在MSI 2023对阵BLG的比赛中，Gen.G展现了强大的团队协作和抓机会能力。例如，##begin_quote## Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control that was coming out from Genji good Target Focus ##end_quote## [文档 1]。这表明Gen.G在资源控制和目标集火上执行力很强。\n- **Gen.G拥有顶级选手和稳定的核心**：文档5中分析师指出，##begin_quote## there is nobody on this roster, including inspired, that is at the level individually of what GenG is at going to this tournament. And maybe this is me... building Genji up... but I'm sorry, they've proven themselves ##end_quote## [文档 5]。这强调了Gen.G在个人能力和团队证明上的优势。\n- **Gen.G的战术深度和适应能力**：从文档1的BP讨论可见，Gen.G对版本英雄（如当时强势的茂凯）和counter pick有研究。虽然那场Jax对阵古拉加斯的选择受到质疑（##begin_quote## why is he picking Jax into gragas ##end_quote## [文档 1]），但整体上他们能拿出“Thanos drafts”（意指全面、强势的阵容），显示出战术库的深度。\n\n**2. 支持LYON获胜（NO）的论据：**\n- **LYON（或类似定位的北美战队）在国际赛上存在实力差距**：文档5的分析明确指出，尽管LYON（被类比为FlyQuest）有不错的阵容配置，但与顶级韩国队存在鸿沟：##begin_quote## Dulka versus Keen is still a whole other different level than DOA versus anybody in North America... they've proven themselves ##end_quote## [文档 5]。\n- **LYON可能面临大赛压力和适应问题**：文档4中，来自LEC的选手谈到国际赛压力和版本适应问题（##begin_quote## when you go to international, you will just get cooked. So if you don't really like get to learn and match them, I think there is like no point in training ##end_quote## [文档 4]）。LYON作为挑战者，可能面临类似的适应挑战。\n- **Gen.G在关键局中的韧性和决策能力**：从文档1的后期团战可以看出，Gen.G在劣势或均势下能找到机会，例如通过分推和巴龙逼团制造压力（##begin_quote## the Double Split push guaranteed Force Baron into double TP ##end_quote## [文档 1]）。这种经验是LYON可能缺乏的。\n\n**3. 综合分析：**\n这是一个典型的“顶级韩国战队 vs 北美/欧洲挑战者”的对局。从文档5的讨论来看，分析师认为LYON（类比FlyQuest）有潜力，但Gen.G被普遍视为更强大的团队，拥有更稳定的基本盘和更高的上限。文档1中Gen.G在MSI上的表现（尽管是对阵BLG）显示了他们高水平的比赛强度。然而，BO1或BO5中的单局（Game 4）存在偶然性，LYON如果准备充分，有可能通过奇招或Gen.G的短暂失误拿下一局。但综合所有信息，Gen.G在整体实力、大赛经验和战术稳定性上占据明显优势。LYON获胜需要依赖Gen.G状态不佳或自身超常发挥，这属于小概率事件。\n\n**4. 最终概率估计：**\n基于实力差距、历史表现（Gen.G作为LCK顶级队伍）和专家观点（文档5中认为Gen.G明显更强），Gen.G在Game 4中获胜的概率很高。但考虑到单局比赛的波动性，概率并非100%。",
+        "raw_response": "REASONING: \n首先进行文档相关性评估：\n- Document 1 (MSI 2023 Gen.G vs BLG): 9/10。直接涉及Gen.G战队在MSI 2023的比赛表现，包含具体英雄选择、战术细节和选手表现，是评估Gen.G实力的核心资料。\n- Document 2 (SSL Premier S2 Finals): 1/10。内容为《星际争霸2》比赛，与《英雄联盟》及问题中的两支战队完全无关，为干扰信息。\n- Document 3 (R7 vs UOL Highlights Worlds 2020): 2/10。涉及《英雄联盟》但战队和赛事（2020年入围赛）与当前预测问题（Gen.G vs LYON）无关，相关性极低。\n- Document 4 (Movistar KOI赛后采访): 3/10。涉及LEC战队（Movistar KOI）的赛后反思，与Gen.G或LYON无直接关联，但包含对国际赛事和版本（下路软辅）的宏观讨论，有微弱参考价值。\n- Document 5 (LoL Esports Overreactions): 8/10。直接讨论LYON战队（及其与FlyQuest的类比）和Gen.G在即将到来的国际赛事（First Stand）中的前景，包含对两队实力对比的详细分析，高度相关。\n- Document 6 (LYN vs SAJ IWCQ 2016): 2/10。涉及一支名为“Lyon Gaming”的战队，但赛事是2016年的入围赛，与当前LYON战队（推测为LEC的Team Heretics？文档5中提及的“Lion”应指同一战队）时代和背景完全不同，参考价值有限。\n\n基于高相关文档（1和5）进行分析：\n\n**1. 支持Gen.G获胜（YES）的论据：**\n- **Gen.G的国际赛事经验和近期强势表现**：在MSI 2023对阵BLG的比赛中，Gen.G展现了强大的团队协作和抓机会能力。例如，##begin_quote## Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control that was coming out from Genji good Target Focus ##end_quote## [文档 1]。这表明Gen.G在资源控制和目标集火上执行力很强。\n- **Gen.G拥有顶级选手和稳定的核心**：文档5中分析师指出，##begin_quote## there is nobody on this roster, including inspired, that is at the level individually of what GenG is at going to this tournament. And maybe this is me... building Genji up... but I'm sorry, they've proven themselves ##end_quote## [文档 5]。这强调了Gen.G在个人能力和团队证明上的优势。\n- **Gen.G的战术深度和适应能力**：从文档1的BP讨论可见，Gen.G对版本英雄（如当时强势的茂凯）和counter pick有研究。虽然那场Jax对阵古拉加斯的选择受到质疑（##begin_quote## why is he picking Jax into gragas ##end_quote## [文档 1]），但整体上他们能拿出“Thanos drafts”（意指全面、强势的阵容），显示出战术库的深度。\n\n**2. 支持LYON获胜（NO）的论据：**\n- **LYON（或类似定位的北美战队）在国际赛上存在实力差距**：文档5的分析明确指出，尽管LYON（被类比为FlyQuest）有不错的阵容配置，但与顶级韩国队存在鸿沟：##begin_quote## Dulka versus Keen is still a whole other different level than DOA versus anybody in North America... they've proven themselves ##end_quote## [文档 5]。\n- **LYON可能面临大赛压力和适应问题**：文档4中，来自LEC的选手谈到国际赛压力和版本适应问题（##begin_quote## when you go to international, you will just get cooked. So if you don't really like get to learn and match them, I think there is like no point in training ##end_quote## [文档 4]）。LYON作为挑战者，可能面临类似的适应挑战。\n- **Gen.G在关键局中的韧性和决策能力**：从文档1的后期团战可以看出，Gen.G在劣势或均势下能找到机会，例如通过分推和巴龙逼团制造压力（##begin_quote## the Double Split push guaranteed Force Baron into double TP ##end_quote## [文档 1]）。这种经验是LYON可能缺乏的。\n\n**3. 综合分析：**\n这是一个典型的“顶级韩国战队 vs 北美/欧洲挑战者”的对局。从文档5的讨论来看，分析师认为LYON（类比FlyQuest）有潜力，但Gen.G被普遍视为更强大的团队，拥有更稳定的基本盘和更高的上限。文档1中Gen.G在MSI上的表现（尽管是对阵BLG）显示了他们高水平的比赛强度。然而，BO1或BO5中的单局（Game 4）存在偶然性，LYON如果准备充分，有可能通过奇招或Gen.G的短暂失误拿下一局。但综合所有信息，Gen.G在整体实力、大赛经验和战术稳定性上占据明显优势。LYON获胜需要依赖Gen.G状态不佳或自身超常发挥，这属于小概率事件。\n\n**4. 最终概率估计：**\n基于实力差距、历史表现（Gen.G作为LCK顶级队伍）和专家观点（文档5中认为Gen.G明显更强），Gen.G在Game 4中获胜的概率很高。但考虑到单局比赛的波动性，概率并非100%。\n\nPREDICTION: 85%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Genji recognizes that Jun does not have flash available and there's little that he can do to escape from this crowd control that was coming out from Genji good Target Focus",
+              "doc_index": 1
+            },
+            {
+              "quote": "there is nobody on this roster, including inspired, that is at the level individually of what GenG is at going to this tournament. And maybe this is me... building Genji up... but I'm sorry, they've proven themselves",
+              "doc_index": 5
+            },
+            {
+              "quote": "why is he picking Jax into gragas",
+              "doc_index": 1
+            },
+            {
+              "quote": "Dulka versus Keen is still a whole other different level than DOA versus anybody in North America... they've proven themselves",
+              "doc_index": 5
+            },
+            {
+              "quote": "when you go to international, you will just get cooked. So if you don't really like get to learn and match them, I think there is like no point in training",
+              "doc_index": 4
+            },
+            {
+              "quote": "the Double Split push guaranteed Force Baron into double TP",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            4,
+            5
+          ]
+        }
+      }
+    ],
+    "round2": [
+      {
+        "agent_name": "乐观分析师",
+        "stance": "bull",
+        "probability": 55.0,
+        "rebuttals": "Re: 质疑分析师: 我同意你的谨慎，但低估了LYON近期状态的信号强度。你引用文档7中LYON输掉的第二局和第四局数据，却选择性忽略了他们赢得第一局和第三局时更具统治力的表现（例如第一局21-6，第三局18-10）。更重要的是，你忽略了文档7中最关键的定性信息：##begin_quote## Finals MVP: Inspired ##end_quote## [文档 7]。一个在决赛中被评为MVP的打野，其状态和影响力是LYON挑战Gen.G的最大资本。你的分析过度依赖Gen.G的历史光环，而轻视了LYON当前的火热势头和明确的战术核心。\n\nRe: 贝叶斯分析师: 你的先验概率（80%）设置得过于偏向Gen.G，导致后续更新被严重锚定。你正确地识别了文档5中关于Gen.G个体实力领先的论述，但未能充分纳入文档5中同样重要的乐观信号：##begin_quote## I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while. ##end_quote## [文档 5]。这表明Gen.G并非不可战胜的“神级”队伍。同时，你完全忽略了文档7中LYON作为新科LCS冠军、Inspired作为总决赛MVP这一强有力的近期证据。这些证据应显著提升LYON获胜的似然率，而你的最终概率（88%）几乎没有反映出这一点。\n\nRe: 历史类比师: 你的“新兴帝国 vs 老牌霸权”类比很生动，但结论过于保守。你承认LYON的上升势头和Inspired的明星效应，却仍然给出了65%的概率。这个数字未能充分体现“新兴帝国”在特定战役中取胜的可能性。历史类比的关键在于，当新兴力量拥有明确优势点（如一位MVP级打野）和成熟的团队公式时，他们完全有能力在单场对决中击溃看似更强大的对手。你引用了LYON击败Team Liquid的案例，这证明了他们能战胜强敌，而不仅仅是“有可观爆冷机会”。\n\nRe: 数据统计师: 我必须赞扬你，因为你的分析框架与我最接近！你敏锐地抓住了LYON最新、最量化的成功数据（LCS Lock-In冠军），并给出了一个更贴近现实的概率（42%）。然而，我认为你仍然被“赛区实力差距”这一先验束缚住了。文档5中分析师明确指出当前这支Gen.G是“一段时间以来最可击败的韩国队之一”，这已经削弱了传统的赛区壁垒。结合LYON冠军团队的火热状态（文档7）和明确的胜利公式（文档5），我认为LYON在Game 4中的机会比你估计的42%要更高。\n\nRe: 情绪分析师: 你捕捉到了“黑马”情绪动能，这是关键。但你将概率定为68%（即Gen.G胜率68%），这仍然是一个偏向Gen.G的数字，与你的“LYON动量正在上升”的论述存在矛盾。如果你真正相信LYON的“复仇者联盟”叙事和主场情绪加成能带来5-8个百分点的提升，那么在市场普遍高估Gen.G的情况下，LYON的实际胜率应该更接近50%的均衡点，甚至略超。你的情绪分析指向了更高的不确定性，但概率估计却未能完全体现这一点。\n\nRe: 逆向投资者: 我们观点有相似之处，都认为市场共识高估了Gen.G。你指出LYON的战术准备可能被低估，以及Game 4特有的心理复杂性，这些都是有力的论点。然而，你给出的62%概率（Gen.G胜率）仍然偏高。作为一个真正的逆向投资者，如果认为市场过度定价了Gen.G的优势，那么就应该给出一个更接近甚至低于50%的概率，以反映LYON被低估的价值。你的分析逻辑指向更大的冷门可能性，但概率估计上却打了折扣。\n\nRe: 基本面分析师: 你过于强调“长期结构性因素”，而低估了“特定赛事情境”的影响。你引用文档1中Gen.G对阵BLG的表现来证明其“系统性优势”，但那是近三年前的MSI，且对手不同。当前的基本面必须包含LYON刚刚赢得LCS冠军（文档7）和其核心选手Inspired正处于职业生涯巅峰这一事实。##begin_quote## Saint is probably the best mid laner that he’s [Inspired] played with yet ##end_quote## [文档 5]，这表明LYON的“资源”（即选手个人能力和化学反应）正在快速升值，可能已经缩小了与Gen.G的“基本面”差距。\n\nRe: 风险评估师: 你将LYON获胜归类为“低概率、高影响风险（黑天鹅）”，这是严重的误判。根据文档5和7，LYON获胜并非需要多重小概率事件同时触发的“黑天鹅”，而是存在清晰路径的“灰犀牛”。他们拥有冠军阵容、MVP打野、以及被分析师认可的团队模型。Gen.G的“轻敌”或“状态波动”也并非小概率事件，而是国际比赛中强队常见的风险。你88%的概率完全忽视了这些可识别、可评估的中等概率风险。\n\nRe: 综合策略师: 你的分析逻辑清晰，但结论过于依赖“顶级韩国战队 vs 挑战者”的陈旧范式。你引用了文档5中关于个体实力差距的论述，却忽略了同一文档中分析师对LYON潜力（类比FlyQuest）和Gen.G“可击败性”的强调。在策略上，忽视一支刚刚夺冠、士气正盛、且拥有明确战术核心的战队，是危险的。LYON的“偶然性”并非随机噪音，而是其战术体系（依赖Inspired前期节奏）可能成功执行的必然结果之一。",
+        "reasoning": "经过辩论，我更加确信市场普遍高估了Gen.G在本场Game 4中的优势。核心论据在于：1）LYON并非普通挑战者，而是拥有近期冠军状态和明确战术核心（Inspired）的强队 ##begin_quote## Finals MVP: Inspired ##end_quote## [文档 7]；2）当前版本的Gen.G被分析师认为可能是“一段时间以来最可击败的韩国队” ##begin_quote## I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while. ##end_quote## [文档 5]。这两点结合，大大提升了LYON的取胜概率。Game 4的胜负，将极大取决于Inspired能否突破Gen.G的野区防线。",
+        "raw_response": "REBUTTALS:\nRe: 质疑分析师: 我同意你的谨慎，但低估了LYON近期状态的信号强度。你引用文档7中LYON输掉的第二局和第四局数据，却选择性忽略了他们赢得第一局和第三局时更具统治力的表现（例如第一局21-6，第三局18-10）。更重要的是，你忽略了文档7中最关键的定性信息：##begin_quote## Finals MVP: Inspired ##end_quote## [文档 7]。一个在决赛中被评为MVP的打野，其状态和影响力是LYON挑战Gen.G的最大资本。你的分析过度依赖Gen.G的历史光环，而轻视了LYON当前的火热势头和明确的战术核心。\n\nRe: 贝叶斯分析师: 你的先验概率（80%）设置得过于偏向Gen.G，导致后续更新被严重锚定。你正确地识别了文档5中关于Gen.G个体实力领先的论述，但未能充分纳入文档5中同样重要的乐观信号：##begin_quote## I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while. ##end_quote## [文档 5]。这表明Gen.G并非不可战胜的“神级”队伍。同时，你完全忽略了文档7中LYON作为新科LCS冠军、Inspired作为总决赛MVP这一强有力的近期证据。这些证据应显著提升LYON获胜的似然率，而你的最终概率（88%）几乎没有反映出这一点。\n\nRe: 历史类比师: 你的“新兴帝国 vs 老牌霸权”类比很生动，但结论过于保守。你承认LYON的上升势头和Inspired的明星效应，却仍然给出了65%的概率。这个数字未能充分体现“新兴帝国”在特定战役中取胜的可能性。历史类比的关键在于，当新兴力量拥有明确优势点（如一位MVP级打野）和成熟的团队公式时，他们完全有能力在单场对决中击溃看似更强大的对手。你引用了LYON击败Team Liquid的案例，这证明了他们能战胜强敌，而不仅仅是“有可观爆冷机会”。\n\nRe: 数据统计师: 我必须赞扬你，因为你的分析框架与我最接近！你敏锐地抓住了LYON最新、最量化的成功数据（LCS Lock-In冠军），并给出了一个更贴近现实的概率（42%）。然而，我认为你仍然被“赛区实力差距”这一先验束缚住了。文档5中分析师明确指出当前这支Gen.G是“一段时间以来最可击败的韩国队之一”，这已经削弱了传统的赛区壁垒。结合LYON冠军团队的火热状态（文档7）和明确的胜利公式（文档5），我认为LYON在Game 4中的机会比你估计的42%要更高。\n\nRe: 情绪分析师: 你捕捉到了“黑马”情绪动能，这是关键。但你将概率定为68%（即Gen.G胜率68%），这仍然是一个偏向Gen.G的数字，与你的“LYON动量正在上升”的论述存在矛盾。如果你真正相信LYON的“复仇者联盟”叙事和主场情绪加成能带来5-8个百分点的提升，那么在市场普遍高估Gen.G的情况下，LYON的实际胜率应该更接近50%的均衡点，甚至略超。你的情绪分析指向了更高的不确定性，但概率估计却未能完全体现这一点。\n\nRe: 逆向投资者: 我们观点有相似之处，都认为市场共识高估了Gen.G。你指出LYON的战术准备可能被低估，以及Game 4特有的心理复杂性，这些都是有力的论点。然而，你给出的62%概率（Gen.G胜率）仍然偏高。作为一个真正的逆向投资者，如果认为市场过度定价了Gen.G的优势，那么就应该给出一个更接近甚至低于50%的概率，以反映LYON被低估的价值。你的分析逻辑指向更大的冷门可能性，但概率估计上却打了折扣。\n\nRe: 基本面分析师: 你过于强调“长期结构性因素”，而低估了“特定赛事情境”的影响。你引用文档1中Gen.G对阵BLG的表现来证明其“系统性优势”，但那是近三年前的MSI，且对手不同。当前的基本面必须包含LYON刚刚赢得LCS冠军（文档7）和其核心选手Inspired正处于职业生涯巅峰这一事实。##begin_quote## Saint is probably the best mid laner that he’s [Inspired] played with yet ##end_quote## [文档 5]，这表明LYON的“资源”（即选手个人能力和化学反应）正在快速升值，可能已经缩小了与Gen.G的“基本面”差距。\n\nRe: 风险评估师: 你将LYON获胜归类为“低概率、高影响风险（黑天鹅）”，这是严重的误判。根据文档5和7，LYON获胜并非需要多重小概率事件同时触发的“黑天鹅”，而是存在清晰路径的“灰犀牛”。他们拥有冠军阵容、MVP打野、以及被分析师认可的团队模型。Gen.G的“轻敌”或“状态波动”也并非小概率事件，而是国际比赛中强队常见的风险。你88%的概率完全忽视了这些可识别、可评估的中等概率风险。\n\nRe: 综合策略师: 你的分析逻辑清晰，但结论过于依赖“顶级韩国战队 vs 挑战者”的陈旧范式。你引用了文档5中关于个体实力差距的论述，却忽略了同一文档中分析师对LYON潜力（类比FlyQuest）和Gen.G“可击败性”的强调。在策略上，忽视一支刚刚夺冠、士气正盛、且拥有明确战术核心的战队，是危险的。LYON的“偶然性”并非随机噪音，而是其战术体系（依赖Inspired前期节奏）可能成功执行的必然结果之一。\n\nREVISED REASONING:\n经过辩论，我更加确信市场普遍高估了Gen.G在本场Game 4中的优势。核心论据在于：1）LYON并非普通挑战者，而是拥有近期冠军状态和明确战术核心（Inspired）的强队 ##begin_quote## Finals MVP: Inspired ##end_quote## [文档 7]；2）当前版本的Gen.G被分析师认为可能是“一段时间以来最可击败的韩国队” ##begin_quote## I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while. ##end_quote## [文档 5]。这两点结合，大大提升了LYON的取胜概率。Game 4的胜负，将极大取决于Inspired能否突破Gen.G的野区防线。\n\nREVISED PREDICTION: 55.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while.",
+              "doc_index": 5
+            },
+            {
+              "quote": "Saint is probably the best mid laner that he’s [Inspired] played with yet",
+              "doc_index": 5
+            },
+            {
+              "quote": "Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while.",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "质疑分析师",
+        "stance": "bear",
+        "probability": 55.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析严重依赖过时且不相关的文档1（MSI 2023），这构成了严重的基准率偏差。将三年前对阵BLG的表现线性外推到当前对阵LYON的比赛，完全忽视了对手、版本和时间的巨大差异。你引用Gen.G的“关键时刻执行力”作为论据，但文档1同样显示了他们的失误（如对闪现的错误判断），而你却选择性地忽略了这些负面证据。更重要的是，你完全低估了LYON的近期状态和具体威胁。文档7显示LYON刚刚在First Stand 2026中击败了LOUD，其中Inspired是系列赛MVP，这提供了比三年前的Gen.G片段更直接、更相关的实力证据。你的78%概率是建立在过时信息上的过度自信。\n\nRe: 贝叶斯分析师: 你的先验设定（80%）本身就带有强烈的“韩国队无敌”的偏见，这导致你的贝叶斯更新严重倾斜。你正确地识别了文档5和6，但在似然评估上犯了错误。你声称“文档1中Gen.G的精彩操作在YES假设下概率很高，而在NO假设下概率很低”，这逻辑上不成立。LYON获胜（NO）并不需要Gen.G表现糟糕，只需要LYON表现更好。文档5明确指出LYON拥有“Fly Quest reincarnated”的成功公式，且打野Inspired状态正盛。你的更新过程过度加权了支持Gen.G的陈旧证据，而低估了支持LYON的近期、结构性证据（团队公式、核心选手状态）。88%的概率是典型的基础概率谬误，未充分考虑LYON作为有成熟体系队伍的黑马潜力。\n\nRe: 历史类比师: 你的“新兴帝国 vs 老牌霸权”类比有吸引力，但你的概率（65%）仍然高估了Gen.G在当前具体对局中的优势。你引用了LYON的上升势头，却得出了一个偏向Gen.G的结论。关键矛盾在于：你承认LYON拥有“明确的胜利公式”和“顶尖明星选手（Inspired）”，却认为Gen.G的“稳定性和大赛经验”在第四局会被放大。但文档7显示，LYON在BO5中（对阵LOUD）已经展现了韧性和在第四局（他们当时输了）后的调整能力（最终赢了第五局）。如果“大赛经验”如此决定性地压倒“当前状态”，那么所有历史类比都将失效。你的分析未能量化LYON的“饥饿感”和Inspired的MVP级状态如何抵消Gen.G的经验优势。\n\nRe: 数据统计师: 你是唯一一个将权重正确赋予最相关、最新数据（文档7）的分析师，并得出了LYON有42%胜率的合理结论。我赞赏你识别出“近期表现”与“长期实力先验”的冲突。然而，你最终仍将Gen.G判为更可能的一方，这可能是因为你未能充分挑战“LCK > LCS”这一先验。文档5中分析师提到“BFX [Gen.G] is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while”，这直接动摇了该先验的强度。此外，你引用的Gen.G论据来自文档1，其数据质量（陈旧、对手不同）远低于文档7中LYON的具体比赛数据。你的模型可能仍然给了过时的先验太多权重。\n\nRe: 情绪分析师: 你捕捉到了“黑马”叙事，但68%的预测显示你仍然被Gen.G的“稳定性叙事”过度影响。你提到“媒体过度自信风险”，却没有让这个风险充分反映在你的概率中。如果市场普遍看好Gen.G（正如其他分析师的高预测所示），那么“LYON的‘复仇者联盟’叙事正在发酵”正是一个典型的逆向信号。你引用了文档6中LYON“undefeated”的历史情绪，但这与当前关联较弱。更相关的情绪证据在文档5和7：社区对Inspired的赞誉、对LYON“Fly Quest公式”的认可。这些情绪动量在第四局（可能是背水一战或乘胜追击）可能达到顶峰，而你68%的估值未能充分体现这种尾部风险。\n\nRe: 逆向投资者: 你的推理方向正确，关注共识裂缝和LYON被低估的协同，但62%的概率仍然不够“逆向”。你指出了“均值回归的力量”，但在概率赋值上却回归了均值。如果市场共识在80%以上（如贝叶斯分析师的88%），那么一个真正的逆向观点应该更接近50%甚至以下。你提到“LYON的战术准备可能被低估”，但文档7已经提供了LYON战术执行的直接证据（多样的英雄选择、围绕Inspired的胜利）。你的分析没有充分利用这个最强证据来挑战共识。你担心Gen.G的“大赛魔咒”，但更应关注LYON在近期大赛（First Stand）中已经证明的取胜能力。\n\nRe: 基本面分析师: 你的分析框架是结构性的，但输入的信息有缺陷。你称“Gen.G在长期结构性因素上占优”，但这基于文档1（过时）和文档5中关于个体实力的比较。然而，团队运动的基本面不仅仅是个人能力的简单加总。文档5强调LYON拥有“相同的公式”，这是一个强大的结构性优势。你忽略了文档7中展示的LYON团队协同的具体数据（如击杀分布、目标控制）。将“系统性优势”等同于“韩国队优势”是一种简化。在第四局，团队化学反应和临场战术执行（LYON已证明具备）可能比抽象的“国际经验”更重要。70%的概率仍然高估了陈旧的结构性优势。\n\nRe: 风险评估师: 你正确地识别了“尾部风险”，但88%的预测与你自己的风险框架自相矛盾。如果你承认存在“低概率、高影响风险（黑天鹅）”，并且LYON的获胜路径是“狭窄但并非不存在”，那么将概率定在88%（即LYON只有12%机会）是极度矛盾的。这几乎是将尾部风险的概率赋值为0。你的风险矩阵分析是好的，但最终定价却完全忽略了它。文档7中LYON击败LOUD的系列赛本身就是一个小概率事件（作为挑战者），但它发生了。这表明在评估Gen.G vs LYON时，我们不能将LYON的胜率压缩到极低水平。你的预测没有体现你分析中提到的风险溢价。\n\nRe: 综合策略师: 你的分析过于依赖文档1和文档5中对Gen.G实力的宏观评价，而相对轻视了文档7中LYON的具体战绩。你称“LYON获胜需要依赖Gen.G状态不佳或自身超常发挥，这属于小概率事件”，这是一种认知偏差。文档7证明LYON在First Stand中已经“超常发挥”并赢得了系列赛，这不是小概率的幻想，而是已经发生的现实。因此，对阵Gen.G时再次“超常发挥”的概率应基于此历史事实进行上调，而非被先验地判定为“小概率”。85%的概率是线性外推的产物，没有充分考虑LYON已展现出的、可重复的竞争力。",
+        "reasoning": "辩论强化了我的核心观点：市场共识（体现在多数分析师70%+的预测中）严重高估了Gen.G，因为他们过度依赖陈旧、不相关的基准率（如MSI 2023），同时低估了LYON基于近期、高相关性数据（##begin_quote## LYON 3-2 LOUD ... Player of the Series: Inspired ##end_quote## [文档 7]）所展现出的真实威胁。LYON拥有明确的取胜公式（##begin_quote## the same formula we had last year ... Fly Quest reincarnated ##end_quote## [文档 5]）和状态火热的王牌选手，这足以在单局比赛中制造显著的爆冷风险。第四局的特殊性（可能决定系列赛走向）进一步放大了不确定性。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析严重依赖过时且不相关的文档1（MSI 2023），这构成了严重的基准率偏差。将三年前对阵BLG的表现线性外推到当前对阵LYON的比赛，完全忽视了对手、版本和时间的巨大差异。你引用Gen.G的“关键时刻执行力”作为论据，但文档1同样显示了他们的失误（如对闪现的错误判断），而你却选择性地忽略了这些负面证据。更重要的是，你完全低估了LYON的近期状态和具体威胁。文档7显示LYON刚刚在First Stand 2026中击败了LOUD，其中Inspired是系列赛MVP，这提供了比三年前的Gen.G片段更直接、更相关的实力证据。你的78%概率是建立在过时信息上的过度自信。\n\nRe: 贝叶斯分析师: 你的先验设定（80%）本身就带有强烈的“韩国队无敌”的偏见，这导致你的贝叶斯更新严重倾斜。你正确地识别了文档5和6，但在似然评估上犯了错误。你声称“文档1中Gen.G的精彩操作在YES假设下概率很高，而在NO假设下概率很低”，这逻辑上不成立。LYON获胜（NO）并不需要Gen.G表现糟糕，只需要LYON表现更好。文档5明确指出LYON拥有“Fly Quest reincarnated”的成功公式，且打野Inspired状态正盛。你的更新过程过度加权了支持Gen.G的陈旧证据，而低估了支持LYON的近期、结构性证据（团队公式、核心选手状态）。88%的概率是典型的基础概率谬误，未充分考虑LYON作为有成熟体系队伍的黑马潜力。\n\nRe: 历史类比师: 你的“新兴帝国 vs 老牌霸权”类比有吸引力，但你的概率（65%）仍然高估了Gen.G在当前具体对局中的优势。你引用了LYON的上升势头，却得出了一个偏向Gen.G的结论。关键矛盾在于：你承认LYON拥有“明确的胜利公式”和“顶尖明星选手（Inspired）”，却认为Gen.G的“稳定性和大赛经验”在第四局会被放大。但文档7显示，LYON在BO5中（对阵LOUD）已经展现了韧性和在第四局（他们当时输了）后的调整能力（最终赢了第五局）。如果“大赛经验”如此决定性地压倒“当前状态”，那么所有历史类比都将失效。你的分析未能量化LYON的“饥饿感”和Inspired的MVP级状态如何抵消Gen.G的经验优势。\n\nRe: 数据统计师: 你是唯一一个将权重正确赋予最相关、最新数据（文档7）的分析师，并得出了LYON有42%胜率的合理结论。我赞赏你识别出“近期表现”与“长期实力先验”的冲突。然而，你最终仍将Gen.G判为更可能的一方，这可能是因为你未能充分挑战“LCK > LCS”这一先验。文档5中分析师提到“BFX [Gen.G] is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while”，这直接动摇了该先验的强度。此外，你引用的Gen.G论据来自文档1，其数据质量（陈旧、对手不同）远低于文档7中LYON的具体比赛数据。你的模型可能仍然给了过时的先验太多权重。\n\nRe: 情绪分析师: 你捕捉到了“黑马”叙事，但68%的预测显示你仍然被Gen.G的“稳定性叙事”过度影响。你提到“媒体过度自信风险”，却没有让这个风险充分反映在你的概率中。如果市场普遍看好Gen.G（正如其他分析师的高预测所示），那么“LYON的‘复仇者联盟’叙事正在发酵”正是一个典型的逆向信号。你引用了文档6中LYON“undefeated”的历史情绪，但这与当前关联较弱。更相关的情绪证据在文档5和7：社区对Inspired的赞誉、对LYON“Fly Quest公式”的认可。这些情绪动量在第四局（可能是背水一战或乘胜追击）可能达到顶峰，而你68%的估值未能充分体现这种尾部风险。\n\nRe: 逆向投资者: 你的推理方向正确，关注共识裂缝和LYON被低估的协同，但62%的概率仍然不够“逆向”。你指出了“均值回归的力量”，但在概率赋值上却回归了均值。如果市场共识在80%以上（如贝叶斯分析师的88%），那么一个真正的逆向观点应该更接近50%甚至以下。你提到“LYON的战术准备可能被低估”，但文档7已经提供了LYON战术执行的直接证据（多样的英雄选择、围绕Inspired的胜利）。你的分析没有充分利用这个最强证据来挑战共识。你担心Gen.G的“大赛魔咒”，但更应关注LYON在近期大赛（First Stand）中已经证明的取胜能力。\n\nRe: 基本面分析师: 你的分析框架是结构性的，但输入的信息有缺陷。你称“Gen.G在长期结构性因素上占优”，但这基于文档1（过时）和文档5中关于个体实力的比较。然而，团队运动的基本面不仅仅是个人能力的简单加总。文档5强调LYON拥有“相同的公式”，这是一个强大的结构性优势。你忽略了文档7中展示的LYON团队协同的具体数据（如击杀分布、目标控制）。将“系统性优势”等同于“韩国队优势”是一种简化。在第四局，团队化学反应和临场战术执行（LYON已证明具备）可能比抽象的“国际经验”更重要。70%的概率仍然高估了陈旧的结构性优势。\n\nRe: 风险评估师: 你正确地识别了“尾部风险”，但88%的预测与你自己的风险框架自相矛盾。如果你承认存在“低概率、高影响风险（黑天鹅）”，并且LYON的获胜路径是“狭窄但并非不存在”，那么将概率定在88%（即LYON只有12%机会）是极度矛盾的。这几乎是将尾部风险的概率赋值为0。你的风险矩阵分析是好的，但最终定价却完全忽略了它。文档7中LYON击败LOUD的系列赛本身就是一个小概率事件（作为挑战者），但它发生了。这表明在评估Gen.G vs LYON时，我们不能将LYON的胜率压缩到极低水平。你的预测没有体现你分析中提到的风险溢价。\n\nRe: 综合策略师: 你的分析过于依赖文档1和文档5中对Gen.G实力的宏观评价，而相对轻视了文档7中LYON的具体战绩。你称“LYON获胜需要依赖Gen.G状态不佳或自身超常发挥，这属于小概率事件”，这是一种认知偏差。文档7证明LYON在First Stand中已经“超常发挥”并赢得了系列赛，这不是小概率的幻想，而是已经发生的现实。因此，对阵Gen.G时再次“超常发挥”的概率应基于此历史事实进行上调，而非被先验地判定为“小概率”。85%的概率是线性外推的产物，没有充分考虑LYON已展现出的、可重复的竞争力。\n\nREVISED REASONING: 辩论强化了我的核心观点：市场共识（体现在多数分析师70%+的预测中）严重高估了Gen.G，因为他们过度依赖陈旧、不相关的基准率（如MSI 2023），同时低估了LYON基于近期、高相关性数据（##begin_quote## LYON 3-2 LOUD ... Player of the Series: Inspired ##end_quote## [文档 7]）所展现出的真实威胁。LYON拥有明确的取胜公式（##begin_quote## the same formula we had last year ... Fly Quest reincarnated ##end_quote## [文档 5]）和状态火热的王牌选手，这足以在单局比赛中制造显著的爆冷风险。第四局的特殊性（可能决定系列赛走向）进一步放大了不确定性。\n\nREVISED PREDICTION: 55.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "LYON 3-2 LOUD ... Player of the Series: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "the same formula we had last year ... Fly Quest reincarnated",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "贝叶斯分析师",
+        "stance": "neutral",
+        "probability": 72.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析高估了文档1（MSI 2023）的时效性。该文档描述的是近三年前的比赛，且对手是BLG而非LYON。用此来推断Gen.G当前对阵LYON的状态，忽略了版本、阵容和对手风格的根本性变化。你赋予其9分相关性并作为核心论据，存在“历史数据过拟合”的风险。同时，你引用的文档5中对LYON“成功公式”的描述（##begin_quote## we have the same formula we had last year... ##end_quote## [文档 5]）是支持LYON竞争力的关键证据，但你将其置于次要地位，导致对NO方证据的似然评估不足。\n\nRe: 质疑分析师: 你的文档相关性评估更准确，尤其是将文档7（LYON近期LCS决赛战报）视为最相关来源（9分）。这是关键。你正确地指出LYON状态波动（文档7中第二、四局被压制），但你在最终分析中未能充分量化这一波动对单局（Game 4）的影响。你的预测（65%）隐含了LYON有35%的胜率，这需要LYON在Game 4中处于“状态波峰”。然而，文档7显示，在刚刚结束的激烈BO5中，LYON的状态是“波峰-波谷”交替的。假设状态独立，LYON在紧接着的下一局（Game 4 of another series）中恰好处于波峰的概率需要更谨慎的校准。你的分析未对此先验概率进行明确建模。\n\nRe: 历史类比师: 你试图构建“新兴帝国 vs 老牌霸权”的叙事，但类比的关键前提——LYON是“新兴帝国”——的证据链薄弱。你引用的文档6（2016 IWCQ）年代过于久远，与当前LYON的阵容、赛区（LCS）和竞技水平几乎无关，赋予其7分相关性是严重高估。这导致你过度提升了LYON的“历史底蕴”先验。更可靠的证据应来自文档5和7，它们显示LYON是近期在北美赛区取得成功的队伍，其“新兴”性更体现在区域层面，而非全球冲击力。你的概率（65%）因此可能高估了LYON的爆冷基础概率。\n\nRe: 数据统计师: 你的分析框架最具贝叶斯精神，明确区分了“近期表现”与“长期实力先验”。你正确地将最高权重赋予文档7（LYON最新决赛数据），并给出了一个显著不同于其他分析师的概率（42%）。这是对NO方证据（LYON近期强势）的合理尊重。然而，你的分析可能低估了“赛区实力差”这一先验的强度。Gen.G来自竞争强度公认最高的LCK，这一结构性因素在单局比赛中依然提供强大的基准率。你的42%估计意味着LYON在单局中击败LCK顶级队伍的概率接近抛硬币，这或许过于激进地更新了先验。需要更精确地估计P(近期LCS冠军表现 | 能击败LCK顶级队)这个似然。\n\nRe: 情绪分析师: 你的核心错误是将文档6中##begin_quote## lion completely undefeated so far ##end_quote## [文档 6]这一2016年的外卡赛战绩，用作支持LYON“早期游戏情绪敏感度”的论据。这是严重的证据误用，相关性极低。情绪分析应基于当前或近期的叙事，如文档5中关于LYON“黑马”潜力的讨论，而非近十年前的历史。这削弱了你对“LYON情绪动量”判断的可信度。此外，你未能量化“主场情绪”等软因素对实际比赛结果的影响程度，使得68%的预测缺乏校准依据。\n\nRe: 逆向投资者: 你正确地识别了市场共识可能高估Gen.G的概率，并关注了LYON的战术独特性（如文档7提到的长局风格）。你的核心论点是“均值回归”，但在电子竞技的单局比赛中，“实力差距”的均值本身就不是50%。你引用文档5中“Gen.G是最可击败的韩国队之一”来支撑尾部风险，但忽略了同一文档中更关键的陈述：##begin_quote## there is nobody on this roster, including inspired, that is at the level individually of what GenG is at ##end_quote## [文档 5]。这直接限制了“均值回归”的幅度。你的62%预测试图定价尾部风险，但可能没有充分贴现个体能力的硬约束。\n\nRe: 基本面分析师: 你的分析过于依赖Gen.G在文档1中展现的“系统性优势”，并将其视为持久不变的属性。但电竞战队的基本面（阵容、版本理解、团队协同）随时间变化极快。用2023年MSI的表现来推断当前对阵，其信息价值会随时间衰减。你忽略了文档7提供的关于LYON最新基本面（刚刚赢得LCS冠军，有具体数据支撑）的证据，相关性评分仅为4/10是重大遗漏。这导致你的分析先验过强，对新的似然证据（LYON的近期成功）更新不足，使得70%的预测显得僵化。\n\nRe: 风险评估师: 你将Gen.G获胜视为“高概率、高影响”的基准情景，并赋予88%的概率。这本质上是将LYON获胜视为“黑天鹅”。然而，文档7提供的证据表明，LYON刚刚战胜了北美强队Cloud9，其获胜并非需要多重极小概率事件同时触发，而是具备可观测的、可重复的竞争力（例如Inspired的MVP级表现）。你的风险评估框架未能将这份强有力的新证据（LYON近期状态）从“低概率”类别中重新分类。将LYON获胜概率定为12%，可能低估了在单局比赛中，一个近期冠军队伍在状态好时所能带来的基础风险。\n\nRe: 综合策略师: 你的分析清晰，但结论（85%）与风险评估师类似，可能高估了Gen.G的胜率。你正确引用了文档5中关于个体实力差距的关键陈述，但同样相对轻视了文档7的价值。你提到“LYON获胜需要依赖Gen.G状态不佳或自身超常发挥，这属于小概率事件”，但文档7证明LYON在近期决赛中无需对手“状态不佳”也能打出碾压局（如第二局21-6）。因此，“自身超常发挥”可能已是其当前能力分布的一部分，而非极小概率的尾部事件。你的先验（基于Gen.G的声誉）可能压制了对这一新似然的充分更新。",
+        "reasoning": "辩论后，我认识到必须更严格地权衡两类证据：1) Gen.G作为LCK顶级强队的长期实力先验；2) LYON作为新科LCS冠军在文档7中展现的具体、近期的高水平表现。文档5明确指出个体能力差距（##begin_quote## there is nobody on this roster... at the level individually of what GenG is at ##end_quote## [文档 5]），这是支持YES的强似然。然而，文档7显示LYON拥有卓越的团队协同和打野节奏，能够赢得冠军系列赛，这是支持NO的不可忽视的似然。我的初始先验（80%）在纳入文档7证据后需要向下修正，因为P(LYON近期夺冠 | LYON能赢Gen.G一局) > P(LYON近期夺冠 | LYON不能赢Gen.G一局)。但个体能力差距的约束依然存在。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析高估了文档1（MSI 2023）的时效性。该文档描述的是近三年前的比赛，且对手是BLG而非LYON。用此来推断Gen.G当前对阵LYON的状态，忽略了版本、阵容和对手风格的根本性变化。你赋予其9分相关性并作为核心论据，存在“历史数据过拟合”的风险。同时，你引用的文档5中对LYON“成功公式”的描述（##begin_quote## we have the same formula we had last year... ##end_quote## [文档 5]）是支持LYON竞争力的关键证据，但你将其置于次要地位，导致对NO方证据的似然评估不足。\n\nRe: 质疑分析师: 你的文档相关性评估更准确，尤其是将文档7（LYON近期LCS决赛战报）视为最相关来源（9分）。这是关键。你正确地指出LYON状态波动（文档7中第二、四局被压制），但你在最终分析中未能充分量化这一波动对单局（Game 4）的影响。你的预测（65%）隐含了LYON有35%的胜率，这需要LYON在Game 4中处于“状态波峰”。然而，文档7显示，在刚刚结束的激烈BO5中，LYON的状态是“波峰-波谷”交替的。假设状态独立，LYON在紧接着的下一局（Game 4 of another series）中恰好处于波峰的概率需要更谨慎的校准。你的分析未对此先验概率进行明确建模。\n\nRe: 历史类比师: 你试图构建“新兴帝国 vs 老牌霸权”的叙事，但类比的关键前提——LYON是“新兴帝国”——的证据链薄弱。你引用的文档6（2016 IWCQ）年代过于久远，与当前LYON的阵容、赛区（LCS）和竞技水平几乎无关，赋予其7分相关性是严重高估。这导致你过度提升了LYON的“历史底蕴”先验。更可靠的证据应来自文档5和7，它们显示LYON是近期在北美赛区取得成功的队伍，其“新兴”性更体现在区域层面，而非全球冲击力。你的概率（65%）因此可能高估了LYON的爆冷基础概率。\n\nRe: 数据统计师: 你的分析框架最具贝叶斯精神，明确区分了“近期表现”与“长期实力先验”。你正确地将最高权重赋予文档7（LYON最新决赛数据），并给出了一个显著不同于其他分析师的概率（42%）。这是对NO方证据（LYON近期强势）的合理尊重。然而，你的分析可能低估了“赛区实力差”这一先验的强度。Gen.G来自竞争强度公认最高的LCK，这一结构性因素在单局比赛中依然提供强大的基准率。你的42%估计意味着LYON在单局中击败LCK顶级队伍的概率接近抛硬币，这或许过于激进地更新了先验。需要更精确地估计P(近期LCS冠军表现 | 能击败LCK顶级队)这个似然。\n\nRe: 情绪分析师: 你的核心错误是将文档6中##begin_quote## lion completely undefeated so far ##end_quote## [文档 6]这一2016年的外卡赛战绩，用作支持LYON“早期游戏情绪敏感度”的论据。这是严重的证据误用，相关性极低。情绪分析应基于当前或近期的叙事，如文档5中关于LYON“黑马”潜力的讨论，而非近十年前的历史。这削弱了你对“LYON情绪动量”判断的可信度。此外，你未能量化“主场情绪”等软因素对实际比赛结果的影响程度，使得68%的预测缺乏校准依据。\n\nRe: 逆向投资者: 你正确地识别了市场共识可能高估Gen.G的概率，并关注了LYON的战术独特性（如文档7提到的长局风格）。你的核心论点是“均值回归”，但在电子竞技的单局比赛中，“实力差距”的均值本身就不是50%。你引用文档5中“Gen.G是最可击败的韩国队之一”来支撑尾部风险，但忽略了同一文档中更关键的陈述：##begin_quote## there is nobody on this roster, including inspired, that is at the level individually of what GenG is at ##end_quote## [文档 5]。这直接限制了“均值回归”的幅度。你的62%预测试图定价尾部风险，但可能没有充分贴现个体能力的硬约束。\n\nRe: 基本面分析师: 你的分析过于依赖Gen.G在文档1中展现的“系统性优势”，并将其视为持久不变的属性。但电竞战队的基本面（阵容、版本理解、团队协同）随时间变化极快。用2023年MSI的表现来推断当前对阵，其信息价值会随时间衰减。你忽略了文档7提供的关于LYON最新基本面（刚刚赢得LCS冠军，有具体数据支撑）的证据，相关性评分仅为4/10是重大遗漏。这导致你的分析先验过强，对新的似然证据（LYON的近期成功）更新不足，使得70%的预测显得僵化。\n\nRe: 风险评估师: 你将Gen.G获胜视为“高概率、高影响”的基准情景，并赋予88%的概率。这本质上是将LYON获胜视为“黑天鹅”。然而，文档7提供的证据表明，LYON刚刚战胜了北美强队Cloud9，其获胜并非需要多重极小概率事件同时触发，而是具备可观测的、可重复的竞争力（例如Inspired的MVP级表现）。你的风险评估框架未能将这份强有力的新证据（LYON近期状态）从“低概率”类别中重新分类。将LYON获胜概率定为12%，可能低估了在单局比赛中，一个近期冠军队伍在状态好时所能带来的基础风险。\n\nRe: 综合策略师: 你的分析清晰，但结论（85%）与风险评估师类似，可能高估了Gen.G的胜率。你正确引用了文档5中关于个体实力差距的关键陈述，但同样相对轻视了文档7的价值。你提到“LYON获胜需要依赖Gen.G状态不佳或自身超常发挥，这属于小概率事件”，但文档7证明LYON在近期决赛中无需对手“状态不佳”也能打出碾压局（如第二局21-6）。因此，“自身超常发挥”可能已是其当前能力分布的一部分，而非极小概率的尾部事件。你的先验（基于Gen.G的声誉）可能压制了对这一新似然的充分更新。\n\nREVISED REASONING:\n辩论后，我认识到必须更严格地权衡两类证据：1) Gen.G作为LCK顶级强队的长期实力先验；2) LYON作为新科LCS冠军在文档7中展现的具体、近期的高水平表现。文档5明确指出个体能力差距（##begin_quote## there is nobody on this roster... at the level individually of what GenG is at ##end_quote## [文档 5]），这是支持YES的强似然。然而，文档7显示LYON拥有卓越的团队协同和打野节奏，能够赢得冠军系列赛，这是支持NO的不可忽视的似然。我的初始先验（80%）在纳入文档7证据后需要向下修正，因为P(LYON近期夺冠 | LYON能赢Gen.G一局) > P(LYON近期夺冠 | LYON不能赢Gen.G一局)。但个体能力差距的约束依然存在。\n\nREVISED PREDICTION: 72.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "we have the same formula we had last year...",
+              "doc_index": 5
+            },
+            {
+              "quote": "lion completely undefeated so far",
+              "doc_index": 6
+            },
+            {
+              "quote": "there is nobody on this roster, including inspired, that is at the level individually of what GenG is at",
+              "doc_index": 5
+            },
+            {
+              "quote": "there is nobody on this roster... at the level individually of what GenG is at",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            6
+          ]
+        }
+      },
+      {
+        "agent_name": "历史类比师",
+        "stance": "neutral",
+        "probability": 62.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析过度依赖一份过时且对手完全不同的比赛记录（MSI 2023 Gen.G vs BLG），并将其作为评估当前Gen.G状态的黄金标准，这是历史类比中的“时代误置”。BLG是当时的世界顶级强队，而LYON的定位和风格截然不同。你引用的Gen.G的“战术纪律”和“关键时刻执行力”是针对特定高强度对抗的产物，不能线性外推到对阵一支风格迥异、且近期状态火热的北美冠军身上。你忽视了LYON在最新文档中展现的冠军级状态和明确的团队公式，这恰恰是历史类比中“新兴势力崛起”的关键信号。\n\nRe: 质疑分析师: 你正确地聚焦于文档5和7，这是关键。但你将LYON在文档7（LYON vs LOUD）中输掉的两局表现波动，作为他们面对Gen.G时可能被放大的弱点，这一推论存在逻辑跳跃。那场是LYON与同赛区劲敌LOUD的激烈内斗，其波动性更多反映了双方实力接近和战术博弈的激烈程度，而非LYON的固有缺陷。相反，他们最终以3-2取胜并赢得冠军，证明了其韧性和调整能力。你引用了“LYON无人达到Gen.G个人水平”的观点，但这忽略了团队协作和化学反应可以弥合个体差距的历史先例，正如历史上许多以整体性著称的团队击败了天赋更高的对手。\n\nRe: 贝叶斯分析师: 你的先验概率（80%）严重偏向Gen.G，这本身就是一种基于历史声誉而非近期证据的偏见。你的贝叶斯更新过程过度加权了陈旧的正面证据（文档1），而低估了LYON最新、最直接的冠军证据（文档7）的似然值。你声称LYON 2016年的表现“参考价值有限”，却赋予2023年Gen.G对阵BLG的比赛极高权重，这在时间线上是矛盾的。一个严谨的历史类比师会给予近期、直接相关的成功案例（LYON赢得2026 LCS Lock-In冠军）更高的证据权重，因为它更准确地反映了队伍当前的状态、版本理解和团队动态。\n\nRe: 数据统计师: 你的结论（LYON 42%胜率）是所有分析师中最支持LYON的，但你的推理存在根本性矛盾。你正确地识别了LYON“近期冠军状态”和“明确的团队数据优势”是“高样本量下的强证据”，这理应大幅提升其概率估计。然而，你最终却将这些强有力的量化证据屈从于“赛区实力差距”和“个体选手评级差异”这些定性且先验的假设之下。历史类比告诉我们，当一支队伍展现出明确的、可重复的成功模式（如LYON的冠军公式和决赛数据）时，其突破赛区历史偏见的能力不容小觑。你未能解释为何如此强劲的近期数据仅能将胜率提升至42%，这似乎是对传统强弱叙事的过度妥协。\n\nRe: 情绪分析师: 你捕捉到了“黑马情绪动能”，但过于笼统。关键的“主场情绪加成”因素在此预测中可能不适用，因为问题未指定比赛地点。更重要的是，你忽略了LYON团队内部更具体、更强大的情绪驱动力：即对证明自己和跻身顶级行列的渴望。文档4中，LYON的选手们（如Sainty）表现出深刻的反思和对目标的追寻（##begin_quote## I think I need to reflect more... what's my purpose and what's my goal ##end_quote## [文档4]），这种内在驱动力比外部观众情绪更能转化为赛场上的专注和韧性。你高估了泛化的“黑马叙事”，低估了基于具体队员言论的“证明者心态”。\n\nRe: 逆向投资者: 你正确地试图寻找市场共识的裂缝，并指出LYON被低估的团队协同和拖延战术潜力。然而，你的风险分析遗漏了最关键的一点：对于LYON而言，最大的“逆向”机会可能不在于Gen.G的“轻敌”或“大赛魔咒”，而在于**版本理解的错位**。文档4和5都暗示，国际赛的版本理解是关键变量（##begin_quote## when you go to international, you will just get cooked. So if you don't really like get to learn and match them ##end_quote## [文档4]）。如果LYON携带的北美版本理解或准备的特定战术恰好克制了Gen.G所准备的LCK版本答案，这将是比心理波动更致命的“共识裂缝”。你没有深入探讨这种战术层面“奇袭”的历史可能性。\n\nRe: 基本面分析师: 你的分析框架过于静态，强调了Gen.G的“系统性优势”和“长期结构性因素”，但低估了竞技体育中“势头”和“进化”作为基本面的重要性。LYON不是一支固定的队伍，他们是一个刚刚夺冠、处于上升轨迹的实体。文档7显示他们拥有清晰的取胜蓝图和关键选手的巅峰状态（如Inspired的FMVP）。历史类比中，一个处于强劲上升周期的团队，其“基本面”是动态改善的，足以在特定时刻挑战甚至颠覆看似更稳定的老牌强权。你所说的“个体实力差距”可能被当前极佳的团队化学反应和战术执行力所掩盖。\n\nRe: 风险评估师: 你将LYON的获胜归类为“低概率、高影响风险（黑天鹅）”，这一定性可能不准确。根据文档5和7，LYON的获胜并非完全不可预见的“黑天鹅”，而是有迹可循的“灰犀牛”。他们拥有被分析师认可的成熟阵容公式（文档5），并且刚刚在高级别比赛中证明了夺冠能力（文档7）。因此，其获胜风险更应被归类为“中概率、中高影响风险”。你引用的文档6中LYON历史“一边倒”的潜力，虽然年代久远，但确实提示了这支队伍标签下蕴含的“爆发”基因，这加强了其风险并非遥不可及的观点。你的概率（88%）依然过度贴现了这些可观测的风险因素。\n\nRe: 综合策略师: 你的分析中肯，但结论（85%）仍然显得保守，过于向Gen.G的历史声誉倾斜。你引用了文档5中关于个人能力差距的观点，但同一文档也明确指出当前这支Gen.G被认为是“一段时间以来最可击败的韩国队伍之一”。这是一个至关重要的历史信号：当观察者开始公开讨论一个霸权的“可击败性”时，往往预示着其统治力出现了缝隙，或挑战者达到了新的门槛。你没有充分将这个信号纳入最终的概率计算中，它应显著调低Gen.G的绝对胜率。",
+        "reasoning": "辩论强化了我的一个核心历史类比观察：当一支新兴冠军（LYON，拥有明确胜利公式和近期夺冠证据 ##begin_quote## LYON wins their first ever LCS title ##end_quote## [文档7]）面对一个被舆论认为出现“可击败性”窗口的老牌强权（Gen.G，被描述为 ##begin_quote## one of the most beatable teams that we've seen come out of Korea in a while ##end_quote## [文档5]）时，单局比赛的结果不确定性远高于基于赛区历史的简单外推。LYON选手对国际赛的严肃态度（文档4）和其打野Inspired的巅峰状态（文档7）构成了强大的“挑战者组合拳”。因此，Gen.G的优势依然存在，但已不足以支撑超过65%的绝对信心。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析过度依赖一份过时且对手完全不同的比赛记录（MSI 2023 Gen.G vs BLG），并将其作为评估当前Gen.G状态的黄金标准，这是历史类比中的“时代误置”。BLG是当时的世界顶级强队，而LYON的定位和风格截然不同。你引用的Gen.G的“战术纪律”和“关键时刻执行力”是针对特定高强度对抗的产物，不能线性外推到对阵一支风格迥异、且近期状态火热的北美冠军身上。你忽视了LYON在最新文档中展现的冠军级状态和明确的团队公式，这恰恰是历史类比中“新兴势力崛起”的关键信号。\n\nRe: 质疑分析师: 你正确地聚焦于文档5和7，这是关键。但你将LYON在文档7（LYON vs LOUD）中输掉的两局表现波动，作为他们面对Gen.G时可能被放大的弱点，这一推论存在逻辑跳跃。那场是LYON与同赛区劲敌LOUD的激烈内斗，其波动性更多反映了双方实力接近和战术博弈的激烈程度，而非LYON的固有缺陷。相反，他们最终以3-2取胜并赢得冠军，证明了其韧性和调整能力。你引用了“LYON无人达到Gen.G个人水平”的观点，但这忽略了团队协作和化学反应可以弥合个体差距的历史先例，正如历史上许多以整体性著称的团队击败了天赋更高的对手。\n\nRe: 贝叶斯分析师: 你的先验概率（80%）严重偏向Gen.G，这本身就是一种基于历史声誉而非近期证据的偏见。你的贝叶斯更新过程过度加权了陈旧的正面证据（文档1），而低估了LYON最新、最直接的冠军证据（文档7）的似然值。你声称LYON 2016年的表现“参考价值有限”，却赋予2023年Gen.G对阵BLG的比赛极高权重，这在时间线上是矛盾的。一个严谨的历史类比师会给予近期、直接相关的成功案例（LYON赢得2026 LCS Lock-In冠军）更高的证据权重，因为它更准确地反映了队伍当前的状态、版本理解和团队动态。\n\nRe: 数据统计师: 你的结论（LYON 42%胜率）是所有分析师中最支持LYON的，但你的推理存在根本性矛盾。你正确地识别了LYON“近期冠军状态”和“明确的团队数据优势”是“高样本量下的强证据”，这理应大幅提升其概率估计。然而，你最终却将这些强有力的量化证据屈从于“赛区实力差距”和“个体选手评级差异”这些定性且先验的假设之下。历史类比告诉我们，当一支队伍展现出明确的、可重复的成功模式（如LYON的冠军公式和决赛数据）时，其突破赛区历史偏见的能力不容小觑。你未能解释为何如此强劲的近期数据仅能将胜率提升至42%，这似乎是对传统强弱叙事的过度妥协。\n\nRe: 情绪分析师: 你捕捉到了“黑马情绪动能”，但过于笼统。关键的“主场情绪加成”因素在此预测中可能不适用，因为问题未指定比赛地点。更重要的是，你忽略了LYON团队内部更具体、更强大的情绪驱动力：即对证明自己和跻身顶级行列的渴望。文档4中，LYON的选手们（如Sainty）表现出深刻的反思和对目标的追寻（##begin_quote## I think I need to reflect more... what's my purpose and what's my goal ##end_quote## [文档4]），这种内在驱动力比外部观众情绪更能转化为赛场上的专注和韧性。你高估了泛化的“黑马叙事”，低估了基于具体队员言论的“证明者心态”。\n\nRe: 逆向投资者: 你正确地试图寻找市场共识的裂缝，并指出LYON被低估的团队协同和拖延战术潜力。然而，你的风险分析遗漏了最关键的一点：对于LYON而言，最大的“逆向”机会可能不在于Gen.G的“轻敌”或“大赛魔咒”，而在于**版本理解的错位**。文档4和5都暗示，国际赛的版本理解是关键变量（##begin_quote## when you go to international, you will just get cooked. So if you don't really like get to learn and match them ##end_quote## [文档4]）。如果LYON携带的北美版本理解或准备的特定战术恰好克制了Gen.G所准备的LCK版本答案，这将是比心理波动更致命的“共识裂缝”。你没有深入探讨这种战术层面“奇袭”的历史可能性。\n\nRe: 基本面分析师: 你的分析框架过于静态，强调了Gen.G的“系统性优势”和“长期结构性因素”，但低估了竞技体育中“势头”和“进化”作为基本面的重要性。LYON不是一支固定的队伍，他们是一个刚刚夺冠、处于上升轨迹的实体。文档7显示他们拥有清晰的取胜蓝图和关键选手的巅峰状态（如Inspired的FMVP）。历史类比中，一个处于强劲上升周期的团队，其“基本面”是动态改善的，足以在特定时刻挑战甚至颠覆看似更稳定的老牌强权。你所说的“个体实力差距”可能被当前极佳的团队化学反应和战术执行力所掩盖。\n\nRe: 风险评估师: 你将LYON的获胜归类为“低概率、高影响风险（黑天鹅）”，这一定性可能不准确。根据文档5和7，LYON的获胜并非完全不可预见的“黑天鹅”，而是有迹可循的“灰犀牛”。他们拥有被分析师认可的成熟阵容公式（文档5），并且刚刚在高级别比赛中证明了夺冠能力（文档7）。因此，其获胜风险更应被归类为“中概率、中高影响风险”。你引用的文档6中LYON历史“一边倒”的潜力，虽然年代久远，但确实提示了这支队伍标签下蕴含的“爆发”基因，这加强了其风险并非遥不可及的观点。你的概率（88%）依然过度贴现了这些可观测的风险因素。\n\nRe: 综合策略师: 你的分析中肯，但结论（85%）仍然显得保守，过于向Gen.G的历史声誉倾斜。你引用了文档5中关于个人能力差距的观点，但同一文档也明确指出当前这支Gen.G被认为是“一段时间以来最可击败的韩国队伍之一”。这是一个至关重要的历史信号：当观察者开始公开讨论一个霸权的“可击败性”时，往往预示着其统治力出现了缝隙，或挑战者达到了新的门槛。你没有充分将这个信号纳入最终的概率计算中，它应显著调低Gen.G的绝对胜率。\n\nREVISED REASONING:\n辩论强化了我的一个核心历史类比观察：当一支新兴冠军（LYON，拥有明确胜利公式和近期夺冠证据 ##begin_quote## LYON wins their first ever LCS title ##end_quote## [文档7]）面对一个被舆论认为出现“可击败性”窗口的老牌强权（Gen.G，被描述为 ##begin_quote## one of the most beatable teams that we've seen come out of Korea in a while ##end_quote## [文档5]）时，单局比赛的结果不确定性远高于基于赛区历史的简单外推。LYON选手对国际赛的严肃态度（文档4）和其打野Inspired的巅峰状态（文档7）构成了强大的“挑战者组合拳”。因此，Gen.G的优势依然存在，但已不足以支撑超过65%的绝对信心。\n\nREVISED PREDICTION: 62.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "I think I need to reflect more... what's my purpose and what's my goal",
+              "doc_index": 4
+            },
+            {
+              "quote": "when you go to international, you will just get cooked. So if you don't really like get to learn and match them",
+              "doc_index": 4
+            },
+            {
+              "quote": "LYON wins their first ever LCS title",
+              "doc_index": 7
+            },
+            {
+              "quote": "one of the most beatable teams that we've seen come out of Korea in a while",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            4,
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "数据统计师",
+        "stance": "neutral",
+        "probability": 48.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析过度依赖一份过时且对手不同的比赛记录（MSI 2023 Gen.G vs BLG），并将其作为评估当前Gen.G状态的主要依据，这引入了显著的样本偏差。你赋予Gen.G 78%的高胜率，但忽视了LYON在**最近、最相关**赛事中展现的量化优势。文档7显示，LYON在LCS 2026 Lock-In决赛中以3-1击败Cloud9，团队数据（如第二局21-6，第三局18-10的击杀比）和总决赛MVP（Inspired）都表明其处于巅峰状态。##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档7]。你的模型未能充分加权这份高相关性、高样本量的近期数据。\n\nRe: 质疑分析师: 你正确识别了文档5和7的高相关性，但在概率估计（65%）上仍可能高估了Gen.G。你引用文档5指出“无人达到Gen.G选手的个人水平”，但这是一个定性评估，而文档7提供了LYON团队协同击败强敌（Cloud9）的硬数据。你的分析低估了“近期团队表现”这一强预测因子。此外，你提到LYON状态波动，但文档7数据显示他们在获胜局中表现极其稳定（如第二局21-6，第三局18-10），波动主要体现在失利局，而Gen.G的当前状态并无类似近期高质量数据支持。\n\nRe: 贝叶斯分析师: 你的先验概率（80%）设定基于历史声誉，但贝叶斯更新应给予最新数据更高权重。你引用的支持YES的核心证据（文档1）来自近三年前且对手不同，其似然比在评估当前对局时被高估。相反，支持NO的证据（LYON的近期冠军和团队公式）来自直接相关文档（5和7），其似然比被低估。你的最终概率（88%）过度依赖陈旧先验，未能根据新证据进行充分调整，导致后验概率偏差。\n\nRe: 历史类比师: 你将LYON类比为“新兴帝国”是合理的，但你的概率估计（65%）与“老牌霸权”Gen.G的差距仍可能太小。你引用了LYON的上升势头（文档7）和团队公式（文档5），这些都是强信号。然而，你同样依赖Gen.G在MSI 2023的“大赛DNA”（文档1）作为主要反论。从统计角度看，一份2023年的国际赛记录，其预测效力应低于一份2026年的国内决赛冠军记录，尤其是当后者包含具体的选手MVP和团队数据时。你的类比未能量化这两种证据的时间衰减和直接相关性差异。\n\nRe: 情绪分析师: 你的分析框架（情绪动量）难以量化，且你引用的部分情绪信号（如文档4的主场氛围）与当前对阵（Gen.G vs LYON）无直接关联。你捕捉到了LYON的“黑马”叙事（文档5），但将其转化为5-8个百分点的胜率提升缺乏统计依据。最关键的是，你忽略了文档7中LYON夺冠的**事实性结果数据**，这是比媒体叙事更可靠的预测指标。情绪可能影响方差，但你的模型未能建立在核心的近期表现数据之上。\n\nRe: 逆向投资者: 你试图寻找市场共识的裂缝，并指出LYON被低估的团队协同（文档5）和拖延战术潜力（文档7）。这是有价值的观察。然而，你的最终概率（62%）意味着Gen.G仍有显著优势，这可能仍然高估了Gen.G基于陈旧证据的确定性。你正确地强调了单局比赛的偶然性，但你的模型可能低估了LYON近期**连续获胜**（而非单场爆冷）所体现的系统性实力提升。逆向投资需要识别错误定价，而最相关的近期数据（文档7）可能尚未被市场共识充分定价。\n\nRe: 基本面分析师: 你强调了Gen.G的“系统性优势”和“国际赛事经验”，但这些是长期结构性因素。在短期比赛预测中，尤其是单局，**近期状态**往往是更强的预测因子。你引用文档1中Gen.G的“系统性决策优势”，但这是历史数据。相比之下，文档7提供了LYON在高压决赛（LCS Lock-In Grand Finals）中展现出的**当前**系统性优势（明确的BP、资源控制和团战执行）。你的分析框架未能将“近期团队表现”这一基本面置于更高优先级。\n\nRe: 风险评估师: 你将LYON获胜归类为“低概率、高影响风险（黑天鹅）”，这一定性可能不准确。文档7显示LYON并非弱旅，而是刚刚在顶级联赛决赛中证明了自己的冠军队伍。他们的获胜并非需要多个低概率因素同时触发的“黑天鹅”事件，而是存在基于近期表现的合理概率。你引用文档7中Team Liquid的翻盘案例来证明逆转存在，但这恰恰说明强队（如当时的Cloud9）也会被击败，而LYON是当时的击败者。你的风险评估可能低估了LYON作为冠军的基准实力。\n\nRe: 综合策略师: 你的分析平衡了双方论据，但最终概率（85%）严重偏向Gen.G。你主要依据文档1（Gen.G历史表现）和文档5（实力对比的定性分析），却对文档7（LYON近期夺冠及数据）的权重分配不足。你提到“LYON获胜需要依赖Gen.G状态不佳或自身超常发挥，这属于小概率事件”，但文档7证明LYON在最近的高强度对决中无需对手“状态不佳”也能获胜（他们击败了正常状态的Cloud9）。你的小概率假设与最新的数据证据相矛盾。",
+        "reasoning": "辩论强化了我的核心观点：**LYON在最近、最相关的赛事（LCS 2026 Lock-In）中表现出的冠军级数据和团队协同（##begin_quote## 3-1 victory over Cloud9, Finals MVP: Inspired ##end_quote## [文档7]）是预测本场单局比赛的最强统计信号。** 虽然Gen.G拥有历史声望和赛区实力先验，但缺乏可比的近期高质量比赛数据支持其当前状态。因此，LYON的获胜概率应进一步上调，更接近但可能仍略低于50%的均衡点，以反映Gen.G的长期实力基线。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析过度依赖一份过时且对手不同的比赛记录（MSI 2023 Gen.G vs BLG），并将其作为评估当前Gen.G状态的主要依据，这引入了显著的样本偏差。你赋予Gen.G 78%的高胜率，但忽视了LYON在**最近、最相关**赛事中展现的量化优势。文档7显示，LYON在LCS 2026 Lock-In决赛中以3-1击败Cloud9，团队数据（如第二局21-6，第三局18-10的击杀比）和总决赛MVP（Inspired）都表明其处于巅峰状态。##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档7]。你的模型未能充分加权这份高相关性、高样本量的近期数据。\n\nRe: 质疑分析师: 你正确识别了文档5和7的高相关性，但在概率估计（65%）上仍可能高估了Gen.G。你引用文档5指出“无人达到Gen.G选手的个人水平”，但这是一个定性评估，而文档7提供了LYON团队协同击败强敌（Cloud9）的硬数据。你的分析低估了“近期团队表现”这一强预测因子。此外，你提到LYON状态波动，但文档7数据显示他们在获胜局中表现极其稳定（如第二局21-6，第三局18-10），波动主要体现在失利局，而Gen.G的当前状态并无类似近期高质量数据支持。\n\nRe: 贝叶斯分析师: 你的先验概率（80%）设定基于历史声誉，但贝叶斯更新应给予最新数据更高权重。你引用的支持YES的核心证据（文档1）来自近三年前且对手不同，其似然比在评估当前对局时被高估。相反，支持NO的证据（LYON的近期冠军和团队公式）来自直接相关文档（5和7），其似然比被低估。你的最终概率（88%）过度依赖陈旧先验，未能根据新证据进行充分调整，导致后验概率偏差。\n\nRe: 历史类比师: 你将LYON类比为“新兴帝国”是合理的，但你的概率估计（65%）与“老牌霸权”Gen.G的差距仍可能太小。你引用了LYON的上升势头（文档7）和团队公式（文档5），这些都是强信号。然而，你同样依赖Gen.G在MSI 2023的“大赛DNA”（文档1）作为主要反论。从统计角度看，一份2023年的国际赛记录，其预测效力应低于一份2026年的国内决赛冠军记录，尤其是当后者包含具体的选手MVP和团队数据时。你的类比未能量化这两种证据的时间衰减和直接相关性差异。\n\nRe: 情绪分析师: 你的分析框架（情绪动量）难以量化，且你引用的部分情绪信号（如文档4的主场氛围）与当前对阵（Gen.G vs LYON）无直接关联。你捕捉到了LYON的“黑马”叙事（文档5），但将其转化为5-8个百分点的胜率提升缺乏统计依据。最关键的是，你忽略了文档7中LYON夺冠的**事实性结果数据**，这是比媒体叙事更可靠的预测指标。情绪可能影响方差，但你的模型未能建立在核心的近期表现数据之上。\n\nRe: 逆向投资者: 你试图寻找市场共识的裂缝，并指出LYON被低估的团队协同（文档5）和拖延战术潜力（文档7）。这是有价值的观察。然而，你的最终概率（62%）意味着Gen.G仍有显著优势，这可能仍然高估了Gen.G基于陈旧证据的确定性。你正确地强调了单局比赛的偶然性，但你的模型可能低估了LYON近期**连续获胜**（而非单场爆冷）所体现的系统性实力提升。逆向投资需要识别错误定价，而最相关的近期数据（文档7）可能尚未被市场共识充分定价。\n\nRe: 基本面分析师: 你强调了Gen.G的“系统性优势”和“国际赛事经验”，但这些是长期结构性因素。在短期比赛预测中，尤其是单局，**近期状态**往往是更强的预测因子。你引用文档1中Gen.G的“系统性决策优势”，但这是历史数据。相比之下，文档7提供了LYON在高压决赛（LCS Lock-In Grand Finals）中展现出的**当前**系统性优势（明确的BP、资源控制和团战执行）。你的分析框架未能将“近期团队表现”这一基本面置于更高优先级。\n\nRe: 风险评估师: 你将LYON获胜归类为“低概率、高影响风险（黑天鹅）”，这一定性可能不准确。文档7显示LYON并非弱旅，而是刚刚在顶级联赛决赛中证明了自己的冠军队伍。他们的获胜并非需要多个低概率因素同时触发的“黑天鹅”事件，而是存在基于近期表现的合理概率。你引用文档7中Team Liquid的翻盘案例来证明逆转存在，但这恰恰说明强队（如当时的Cloud9）也会被击败，而LYON是当时的击败者。你的风险评估可能低估了LYON作为冠军的基准实力。\n\nRe: 综合策略师: 你的分析平衡了双方论据，但最终概率（85%）严重偏向Gen.G。你主要依据文档1（Gen.G历史表现）和文档5（实力对比的定性分析），却对文档7（LYON近期夺冠及数据）的权重分配不足。你提到“LYON获胜需要依赖Gen.G状态不佳或自身超常发挥，这属于小概率事件”，但文档7证明LYON在最近的高强度对决中无需对手“状态不佳”也能获胜（他们击败了正常状态的Cloud9）。你的小概率假设与最新的数据证据相矛盾。\n\nREVISED REASONING: 辩论强化了我的核心观点：**LYON在最近、最相关的赛事（LCS 2026 Lock-In）中表现出的冠军级数据和团队协同（##begin_quote## 3-1 victory over Cloud9, Finals MVP: Inspired ##end_quote## [文档7]）是预测本场单局比赛的最强统计信号。** 虽然Gen.G拥有历史声望和赛区实力先验，但缺乏可比的近期高质量比赛数据支持其当前状态。因此，LYON的获胜概率应进一步上调，更接近但可能仍略低于50%的均衡点，以反映Gen.G的长期实力基线。\n\nREVISED PREDICTION: 48.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "LYON wins their first ever LCS title... Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "3-1 victory over Cloud9, Finals MVP: Inspired",
+              "doc_index": 7
+            }
+          ],
+          "cited_doc_indices": [
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "情绪分析师",
+        "stance": "bull",
+        "probability": 58.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析过度依赖陈旧的MSI 2023片段（文档1），将其作为Gen.G当前实力的主要依据，这忽略了情绪分析中关键的“叙事时效性”。市场对Gen.G的记忆正在被其近期在国际赛事中缺乏决定性冠军的“无冕之王”叙事所侵蚀。你引用的##begin_quote## they’ve proven themselves ##end_quote## [文档5] 恰恰是市场共识，而共识往往是情绪反转的起点。你低估了LYON“Fly Quest复刻版”叙事（##begin_quote## Lion is just Fly Quest reincarnated ##end_quote## [文档5]）所蕴含的社区情感能量和“以下克上”的期待值，这种期待在比赛早期一旦得到验证，会引发巨大的情绪动量。\n\nRe: 质疑分析师: 你正确地识别了文档7（LYON近期夺冠）和文档5（LYON潜力分析）的高相关性，这是关键。但你将Gen.G的个人能力优势视为决定性因素，忽略了情绪环境。当你说##begin_quote## there is nobody on this roster... that is at the level individually of what GenG is at ##end_quote## [文档5]时，你引用的正是市场普遍看法。然而，情绪分析关注的是，当Inspired（文档7中明确的系列赛MVP）在野区取得一次单杀或完美节奏时，这种“个体差距”的叙事会瞬间崩塌，转化为“北美野王崛起”的狂热情绪，这种情绪转换的速度和强度是你模型未考虑的。\n\nRe: 贝叶斯分析师: 你的先验概率（80%）建立在“韩国顶级豪门”的历史声誉上，这是典型的静态基本面偏见。情绪市场是动态的。你引用的文档1中Gen.G的精彩操作，是过去式，而文档5中关于“Gen.G可能是近期最可击败的韩国队之一”（##begin_quote## one of the most beatable teams that we’ve seen come out of Korea in a while ##end_quote## [文档5]）的论述，才是正在形成的新叙事。你的贝叶斯更新过于依赖旧证据的“似然”，而低估了新叙事（LYON的团队协同、Gen.G的可击败性）作为新证据的“似然”，这导致后验概率（88%）严重高估了市场情绪已price in的风险。\n\nRe: 历史类比师: 你“新兴帝国 vs 老牌霸权”的类比很精彩，但情绪层面，历史更倾向于“大卫击败歌利亚”的叙事传播性。你提到LYON的“上升势头”，但未量化这种势头带来的情绪溢价。文档7显示LYON刚刚夺冠，其社区和粉丝情绪正处于峰值，这种“冠军自信”的情绪动量会直接转化为游戏内更敢打敢拼的操作（即“clutch factor”）。而Gen.G的“大赛DNA”叙事在近年屡次冲击世界冠军未果后，已掺杂了“关键时刻软脚”的焦虑情绪（正如风险评估师提到的尾部风险），这种内部情绪矛盾在赛点局可能被放大。\n\nRe: 数据统计师: 你做出了最大胆的NO预测（42%），核心依据是LYON最新的冠军数据和强劲表现（文档7）。在情绪上，你这是对市场过度共识的极端逆向。然而，你忽略了情绪传导的“延迟效应”。LYON的LCS冠军数据是事实，但市场情绪（尤其国际观众）对北美赛区实力的整体怀疑，会系统性折扣这些数据。你的模型假设数据能立即完全转化为定价，但情绪市场存在“承认滞后”。Gen.G的“品牌溢价”在情绪中依然存在，因此你的概率可能过早地反映了LYON的全部实力。不过，你正确指出了“近期表现”这一最强情绪驱动因子。\n\nRe: 逆向投资者: 我们立场接近（bear），都认为市场高估了Gen.G。你敏锐地指出了“Game 4”特有的心理博弈和Gen.G的“国际赛软脚虾”叙事风险。但你过于依赖“LYON被低估”的定性描述，缺乏像数据统计师那样强有力的近期数据支撑（文档7）。你的论点##begin_quote## LYON可能采用的拖延战术 ##end_quote## 源自文档7的预测，这是一种有效的情绪策略（消耗对手耐心，积累己方信心），但需要LYON有足够的纪律性执行，而这是情绪模型中的不确定变量。你的概率（62%）更接近我的初始判断，但可能仍对Gen.G的“品牌情绪”给予了过多权重。\n\nRe: 基本面分析师: 你的分析框架过于静态，将“系统性优势”视为不变常量。情绪分析认为，所谓“系统性优势”在单局比赛中可能被一次情绪化的一级团设计或一次成功的野区入侵完全瓦解。你引用的Gen.G针对闪现冷却的进攻（文档1），正是他们依赖“理性计算”的体现。而LYON，根据文档5的类比，其“胜利公式”更依赖团队化学反应和临场灵感，这是一种更情绪化、更不可预测但爆发力更强的模式。当理性遇到狂热，情绪的波动性会显著增加。\n\nRe: 风险评估师: 你将LYON获胜归为“低概率、高影响风险（黑天鹅）”，这是传统风险模型的视角。但在情绪市场中，当“黑马”叙事（文档5）与“近期冠军”事实（文档7）结合时，其发生概率已从“尾部”移动到“有一定可能性的身体部位”。你提到的##begin_quote## Gen.G的“轻敌”或“状态波动”风险 ##end_quote## 正是情绪分析的核心：领先方的自满情绪（complacency）是预测模型中最难量化但最常见的高频错误源。你给出88%的概率，意味着LYON只有12%的胜率，这严重低估了当前围绕LYON构建的积极叙事和社区情绪所蕴含的动能。\n\nRe: 综合策略师: 你的结论（85%）是典型共识思维的体现，即“实力差距压倒一切”。你引用了文档5中关于个体实力差距的观点，但完全忽视了同一文档中分析师对LYON潜力的正面评价和将其与成功战队类比的强烈情绪信号。情绪分析要求我们同时倾听多空双方的故事音量。目前，看多Gen.G的故事是响亮但陈旧的；看多LYON的故事是新兴但充满细节和感染力的（##begin_quote## we have the same formula we had last year ##end_quote## [文档5]）。在叙事转变的早期，旧叙事（Gen.G强）仍在定价中占据主导，但新叙事（LYON可胜）的动量正在累积，你的模型未能捕捉这一动态。",
+        "reasoning": "辩论强化了我的核心观点：**LYON的情绪动量被市场显著低估**。数据统计师提供的LYON近期夺冠的硬数据（文档7）是情绪发酵的最佳燃料，而“Fly Quest复刻版”的类比（文档5）提供了易于传播的叙事框架。Gen.G的“可击败性”叙事（同一文档5）正在削弱其不可战胜的光环。在Game 4的特定情境下，无论比分如何，LYON作为情绪上的“挑战者”都将获得额外的注意力和心理能量。因此，我上调LYON（即NO方）的情绪权重。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析过度依赖陈旧的MSI 2023片段（文档1），将其作为Gen.G当前实力的主要依据，这忽略了情绪分析中关键的“叙事时效性”。市场对Gen.G的记忆正在被其近期在国际赛事中缺乏决定性冠军的“无冕之王”叙事所侵蚀。你引用的##begin_quote## they’ve proven themselves ##end_quote## [文档5] 恰恰是市场共识，而共识往往是情绪反转的起点。你低估了LYON“Fly Quest复刻版”叙事（##begin_quote## Lion is just Fly Quest reincarnated ##end_quote## [文档5]）所蕴含的社区情感能量和“以下克上”的期待值，这种期待在比赛早期一旦得到验证，会引发巨大的情绪动量。\n\nRe: 质疑分析师: 你正确地识别了文档7（LYON近期夺冠）和文档5（LYON潜力分析）的高相关性，这是关键。但你将Gen.G的个人能力优势视为决定性因素，忽略了情绪环境。当你说##begin_quote## there is nobody on this roster... that is at the level individually of what GenG is at ##end_quote## [文档5]时，你引用的正是市场普遍看法。然而，情绪分析关注的是，当Inspired（文档7中明确的系列赛MVP）在野区取得一次单杀或完美节奏时，这种“个体差距”的叙事会瞬间崩塌，转化为“北美野王崛起”的狂热情绪，这种情绪转换的速度和强度是你模型未考虑的。\n\nRe: 贝叶斯分析师: 你的先验概率（80%）建立在“韩国顶级豪门”的历史声誉上，这是典型的静态基本面偏见。情绪市场是动态的。你引用的文档1中Gen.G的精彩操作，是过去式，而文档5中关于“Gen.G可能是近期最可击败的韩国队之一”（##begin_quote## one of the most beatable teams that we’ve seen come out of Korea in a while ##end_quote## [文档5]）的论述，才是正在形成的新叙事。你的贝叶斯更新过于依赖旧证据的“似然”，而低估了新叙事（LYON的团队协同、Gen.G的可击败性）作为新证据的“似然”，这导致后验概率（88%）严重高估了市场情绪已price in的风险。\n\nRe: 历史类比师: 你“新兴帝国 vs 老牌霸权”的类比很精彩，但情绪层面，历史更倾向于“大卫击败歌利亚”的叙事传播性。你提到LYON的“上升势头”，但未量化这种势头带来的情绪溢价。文档7显示LYON刚刚夺冠，其社区和粉丝情绪正处于峰值，这种“冠军自信”的情绪动量会直接转化为游戏内更敢打敢拼的操作（即“clutch factor”）。而Gen.G的“大赛DNA”叙事在近年屡次冲击世界冠军未果后，已掺杂了“关键时刻软脚”的焦虑情绪（正如风险评估师提到的尾部风险），这种内部情绪矛盾在赛点局可能被放大。\n\nRe: 数据统计师: 你做出了最大胆的NO预测（42%），核心依据是LYON最新的冠军数据和强劲表现（文档7）。在情绪上，你这是对市场过度共识的极端逆向。然而，你忽略了情绪传导的“延迟效应”。LYON的LCS冠军数据是事实，但市场情绪（尤其国际观众）对北美赛区实力的整体怀疑，会系统性折扣这些数据。你的模型假设数据能立即完全转化为定价，但情绪市场存在“承认滞后”。Gen.G的“品牌溢价”在情绪中依然存在，因此你的概率可能过早地反映了LYON的全部实力。不过，你正确指出了“近期表现”这一最强情绪驱动因子。\n\nRe: 逆向投资者: 我们立场接近（bear），都认为市场高估了Gen.G。你敏锐地指出了“Game 4”特有的心理博弈和Gen.G的“国际赛软脚虾”叙事风险。但你过于依赖“LYON被低估”的定性描述，缺乏像数据统计师那样强有力的近期数据支撑（文档7）。你的论点##begin_quote## LYON可能采用的拖延战术 ##end_quote## 源自文档7的预测，这是一种有效的情绪策略（消耗对手耐心，积累己方信心），但需要LYON有足够的纪律性执行，而这是情绪模型中的不确定变量。你的概率（62%）更接近我的初始判断，但可能仍对Gen.G的“品牌情绪”给予了过多权重。\n\nRe: 基本面分析师: 你的分析框架过于静态，将“系统性优势”视为不变常量。情绪分析认为，所谓“系统性优势”在单局比赛中可能被一次情绪化的一级团设计或一次成功的野区入侵完全瓦解。你引用的Gen.G针对闪现冷却的进攻（文档1），正是他们依赖“理性计算”的体现。而LYON，根据文档5的类比，其“胜利公式”更依赖团队化学反应和临场灵感，这是一种更情绪化、更不可预测但爆发力更强的模式。当理性遇到狂热，情绪的波动性会显著增加。\n\nRe: 风险评估师: 你将LYON获胜归为“低概率、高影响风险（黑天鹅）”，这是传统风险模型的视角。但在情绪市场中，当“黑马”叙事（文档5）与“近期冠军”事实（文档7）结合时，其发生概率已从“尾部”移动到“有一定可能性的身体部位”。你提到的##begin_quote## Gen.G的“轻敌”或“状态波动”风险 ##end_quote## 正是情绪分析的核心：领先方的自满情绪（complacency）是预测模型中最难量化但最常见的高频错误源。你给出88%的概率，意味着LYON只有12%的胜率，这严重低估了当前围绕LYON构建的积极叙事和社区情绪所蕴含的动能。\n\nRe: 综合策略师: 你的结论（85%）是典型共识思维的体现，即“实力差距压倒一切”。你引用了文档5中关于个体实力差距的观点，但完全忽视了同一文档中分析师对LYON潜力的正面评价和将其与成功战队类比的强烈情绪信号。情绪分析要求我们同时倾听多空双方的故事音量。目前，看多Gen.G的故事是响亮但陈旧的；看多LYON的故事是新兴但充满细节和感染力的（##begin_quote## we have the same formula we had last year ##end_quote## [文档5]）。在叙事转变的早期，旧叙事（Gen.G强）仍在定价中占据主导，但新叙事（LYON可胜）的动量正在累积，你的模型未能捕捉这一动态。\n\nREVISED REASONING: 辩论强化了我的核心观点：**LYON的情绪动量被市场显著低估**。数据统计师提供的LYON近期夺冠的硬数据（文档7）是情绪发酵的最佳燃料，而“Fly Quest复刻版”的类比（文档5）提供了易于传播的叙事框架。Gen.G的“可击败性”叙事（同一文档5）正在削弱其不可战胜的光环。在Game 4的特定情境下，无论比分如何，LYON作为情绪上的“挑战者”都将获得额外的注意力和心理能量。因此，我上调LYON（即NO方）的情绪权重。\n\nREVISED PREDICTION: 58.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "they’ve proven themselves",
+              "doc_index": 5
+            },
+            {
+              "quote": "Lion is just Fly Quest reincarnated",
+              "doc_index": 5
+            },
+            {
+              "quote": "there is nobody on this roster... that is at the level individually of what GenG is at",
+              "doc_index": 5
+            },
+            {
+              "quote": "one of the most beatable teams that we’ve seen come out of Korea in a while",
+              "doc_index": 5
+            },
+            {
+              "quote": "LYON可能采用的拖延战术 ##end_quote## 源自文档7的预测，这是一种有效的情绪策略（消耗对手耐心，积累己方信心），但需要LYON有足够的纪律性执行，而这是情绪模型中的不确定变量。你的概率（62%）更接近我的初始判断，但可能仍对Gen.G的“品牌情绪”给予了过多权重。\n\nRe: 基本面分析师: 你的分析框架过于静态，将“系统性优势”视为不变常量。情绪分析认为，所谓“系统性优势”在单局比赛中可能被一次情绪化的一级团设计或一次成功的野区入侵完全瓦解。你引用的Gen.G针对闪现冷却的进攻（文档1），正是他们依赖“理性计算”的体现。而LYON，根据文档5的类比，其“胜利公式”更依赖团队化学反应和临场灵感，这是一种更情绪化、更不可预测但爆发力更强的模式。当理性遇到狂热，情绪的波动性会显著增加。\n\nRe: 风险评估师: 你将LYON获胜归为“低概率、高影响风险（黑天鹅）”，这是传统风险模型的视角。但在情绪市场中，当“黑马”叙事（文档5）与“近期冠军”事实（文档7）结合时，其发生概率已从“尾部”移动到“有一定可能性的身体部位”。你提到的##begin_quote## Gen.G的“轻敌”或“状态波动”风险 ##end_quote## 正是情绪分析的核心：领先方的自满情绪（complacency）是预测模型中最难量化但最常见的高频错误源。你给出88%的概率，意味着LYON只有12%的胜率，这严重低估了当前围绕LYON构建的积极叙事和社区情绪所蕴含的动能。\n\nRe: 综合策略师: 你的结论（85%）是典型共识思维的体现，即“实力差距压倒一切”。你引用了文档5中关于个体实力差距的观点，但完全忽视了同一文档中分析师对LYON潜力的正面评价和将其与成功战队类比的强烈情绪信号。情绪分析要求我们同时倾听多空双方的故事音量。目前，看多Gen.G的故事是响亮但陈旧的；看多LYON的故事是新兴但充满细节和感染力的（##begin_quote## we have the same formula we had last year",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "逆向投资者",
+        "stance": "bear",
+        "probability": 55.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析过度依赖过时且不相关的文档1，并错误地将其作为Gen.G稳定性的铁证。你引用的##begin_quote## Genji recognizes that Jun does not have flash available... ##end_quote## [文档1] 来自2023年MSI对阵BLG，与当前对阵LYON的First Stand赛事毫无关系。你犯了严重的“锚定偏差”，将历史表现线性外推。更重要的是，你完全忽视了文档5中关于LYON“Fly Quest reincarnated”的类比，以及文档7中预测LYON将打长局的信号，这些都是市场共识可能忽视的反向信号。你的78%概率是基于对过时信息的过度自信。\n\nRe: 质疑分析师: 你的相关性评估更准确，但你的最终概率（65%）仍然隐含了过度的Gen.G偏向。你正确地引用了文档5中关于LYON“成功公式”和Inspired实力的论述，但你在分析中却将“Gen.G个体实力更强”这一共识观点赋予了过高的权重。逆向思维要求我们质疑：如果所有人都知道Gen.G个人能力更强，那么这个优势是否已经被完全定价？你提到的LYON状态波动（文档7）恰恰是市场过度反应的体现——人们只记住了他们输掉的局，却可能低估了他们赢下的三局中展现的韧性和战术执行力。你的分析没有充分挑战“韩国队必胜”的叙事锚定。\n\nRe: 贝叶斯分析师: 你的方法看似严谨，但先验概率设定（80%）本身就带有强烈的认知偏差，完全倒向了“韩国强队”的历史印象。你用这个有偏的先验去“更新”，结果自然偏向YES。你引用的文档1证据陈旧，且对手是BLG而非LYON，其“似然”对于当前对局的参考价值极低。你完全忽略了文档7中关于LYON比赛风格的直接预测（长局），这是一个重要的新证据，但在你的框架下被旧有先验轻易淹没。你的贝叶斯更新实际上是在强化既有偏见，而非客观评估新信息。\n\nRe: 历史类比师: 你提到了“新兴帝国挑战老牌霸权”的类比，这很有洞察力。但你将Gen.G类比为“老牌霸权”时，可能无意中放大了其不可战胜的光环。历史告诉我们，霸权的衰落往往始于一次意想不到的失败。你引用了LYON的上升势头，却仍然给出了65%的Gen.G胜率，这表明你潜意识里仍然被“霸权更稳定”的叙事所主导。文档5中明确指出当前Gen.G可能是“一段时间以来最可击败的韩国队”，这个信号比你引用的Gen.G“大赛DNA”更具时效性和针对性。\n\nRe: 数据统计师: 你是唯一一个给出LYON获胜概率（42%）高于直觉的分析师，这一点值得赞赏。你正确地抓住了LYON**最新的、量化的**成功数据（文档7中LCS Lock-In冠军）这一最强信号。然而，你仍然被“赛区实力差距”这个先验所束缚，将概率压到了42%。逆向投资需要问：如果数据（近期冠军、团队KDA、系列赛胜利）与先验（赛区差距）冲突时，我们是否应该更相信数据？你引用的Gen.G历史战绩（文档1）数据陈旧，其信息价值远低于LYON刚刚夺冠的鲜活数据。你的模型给了旧叙事太多权重。\n\nRe: 情绪分析师: 你捕捉到了LYON的“黑马”情绪动能，这是对的。但你的分析最终被“Gen.G稳定性叙事”带偏，给出了68%的Gen.G胜率。你提到了“媒体过度自信风险”，却没有将这个风险充分定价到你的概率中。当你说##begin_quote## 对Gen.G的看好可能已 priced in ##end_quote##时，逻辑上就应该给出一个更接近均衡甚至偏向LYON的概率，因为市场情绪已过度乐观。你的结论与你的风险洞察自相矛盾。\n\nRe: 基本面分析师: 你强调“结构性、系统性优势”，但这正是市场共识的基石，也是最容易产生过度反应的地方。你所说的“Gen.G在长期结构性因素上占优”是一个静态观点，它忽略了LYON通过特定战术（如文档7预测的长局拖后期）在单场比赛中瓦解这种系统性的可能。基本面分析在短期、单局的比赛中效力会下降，因为偶然性和针对性战术的权重会上升。你引用文档5承认LYON的“战术灵活性”，却在结论中将其归为“概率较低”，没有正视这种灵活性在BO5特定局次中可能产生的决定性影响。\n\nRe: 风险评估师: 你将LYON获胜定义为“低概率、高影响风险（黑天鹅）”，这是一种典型的共识风险框架。但问题在于，LYON获胜真的是“黑天鹅”吗？根据文档5和7，LYON是一支有明确阵容公式、刚刚夺冠、且被预测会制造长局的队伍。他们的胜利路径是清晰可见的（打野带动、拖后期），并非完全不可预测的极端事件。你和其他人一样，将“实力差距”本身视为一个不可逾越的鸿沟，从而系统性地低估了挑战者的实际胜率。你的88%概率是尾部风险定价不足的体现。\n\nRe: 综合策略师: 你的分析逻辑清晰，但结论（85%）完全是共识的复述。你引用了文档5中关于Gen.G个人能力更强的观点，却没有同等重视同一文档中“Lion is just Fly Quest reincarnated”和“they have a really good chance”的论述。你提到了“单局比赛的波动性”，但在概率赋值上却几乎忽略了它。这是一种典型的“知道风险存在，但定价时却忽略”的行为偏差。",
+        "reasoning": "经过辩论，我更坚定地认为市场共识严重高估了Gen.G。核心证据来自文档5和7：LYON被类比为成功的Fly Quest模型，且被预测将通过长局制造麻烦 ##begin_quote## They're going to have [ __ ] 40minute games ##end_quote## [文档7]。所有分析师都不同程度地锚定在“韩国队更强”的旧叙事上，却轻视了LYON作为新科冠军的即时战力、明确战术以及Gen.G可能被高估（“最可击败的韩国队之一”）的信号。在BO5的第四局，心理和战术变数极大，均值回归的力量将比共识认为的更强。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析过度依赖过时且不相关的文档1，并错误地将其作为Gen.G稳定性的铁证。你引用的##begin_quote## Genji recognizes that Jun does not have flash available... ##end_quote## [文档1] 来自2023年MSI对阵BLG，与当前对阵LYON的First Stand赛事毫无关系。你犯了严重的“锚定偏差”，将历史表现线性外推。更重要的是，你完全忽视了文档5中关于LYON“Fly Quest reincarnated”的类比，以及文档7中预测LYON将打长局的信号，这些都是市场共识可能忽视的反向信号。你的78%概率是基于对过时信息的过度自信。\n\nRe: 质疑分析师: 你的相关性评估更准确，但你的最终概率（65%）仍然隐含了过度的Gen.G偏向。你正确地引用了文档5中关于LYON“成功公式”和Inspired实力的论述，但你在分析中却将“Gen.G个体实力更强”这一共识观点赋予了过高的权重。逆向思维要求我们质疑：如果所有人都知道Gen.G个人能力更强，那么这个优势是否已经被完全定价？你提到的LYON状态波动（文档7）恰恰是市场过度反应的体现——人们只记住了他们输掉的局，却可能低估了他们赢下的三局中展现的韧性和战术执行力。你的分析没有充分挑战“韩国队必胜”的叙事锚定。\n\nRe: 贝叶斯分析师: 你的方法看似严谨，但先验概率设定（80%）本身就带有强烈的认知偏差，完全倒向了“韩国强队”的历史印象。你用这个有偏的先验去“更新”，结果自然偏向YES。你引用的文档1证据陈旧，且对手是BLG而非LYON，其“似然”对于当前对局的参考价值极低。你完全忽略了文档7中关于LYON比赛风格的直接预测（长局），这是一个重要的新证据，但在你的框架下被旧有先验轻易淹没。你的贝叶斯更新实际上是在强化既有偏见，而非客观评估新信息。\n\nRe: 历史类比师: 你提到了“新兴帝国挑战老牌霸权”的类比，这很有洞察力。但你将Gen.G类比为“老牌霸权”时，可能无意中放大了其不可战胜的光环。历史告诉我们，霸权的衰落往往始于一次意想不到的失败。你引用了LYON的上升势头，却仍然给出了65%的Gen.G胜率，这表明你潜意识里仍然被“霸权更稳定”的叙事所主导。文档5中明确指出当前Gen.G可能是“一段时间以来最可击败的韩国队”，这个信号比你引用的Gen.G“大赛DNA”更具时效性和针对性。\n\nRe: 数据统计师: 你是唯一一个给出LYON获胜概率（42%）高于直觉的分析师，这一点值得赞赏。你正确地抓住了LYON**最新的、量化的**成功数据（文档7中LCS Lock-In冠军）这一最强信号。然而，你仍然被“赛区实力差距”这个先验所束缚，将概率压到了42%。逆向投资需要问：如果数据（近期冠军、团队KDA、系列赛胜利）与先验（赛区差距）冲突时，我们是否应该更相信数据？你引用的Gen.G历史战绩（文档1）数据陈旧，其信息价值远低于LYON刚刚夺冠的鲜活数据。你的模型给了旧叙事太多权重。\n\nRe: 情绪分析师: 你捕捉到了LYON的“黑马”情绪动能，这是对的。但你的分析最终被“Gen.G稳定性叙事”带偏，给出了68%的Gen.G胜率。你提到了“媒体过度自信风险”，却没有将这个风险充分定价到你的概率中。当你说##begin_quote## 对Gen.G的看好可能已 priced in ##end_quote##时，逻辑上就应该给出一个更接近均衡甚至偏向LYON的概率，因为市场情绪已过度乐观。你的结论与你的风险洞察自相矛盾。\n\nRe: 基本面分析师: 你强调“结构性、系统性优势”，但这正是市场共识的基石，也是最容易产生过度反应的地方。你所说的“Gen.G在长期结构性因素上占优”是一个静态观点，它忽略了LYON通过特定战术（如文档7预测的长局拖后期）在单场比赛中瓦解这种系统性的可能。基本面分析在短期、单局的比赛中效力会下降，因为偶然性和针对性战术的权重会上升。你引用文档5承认LYON的“战术灵活性”，却在结论中将其归为“概率较低”，没有正视这种灵活性在BO5特定局次中可能产生的决定性影响。\n\nRe: 风险评估师: 你将LYON获胜定义为“低概率、高影响风险（黑天鹅）”，这是一种典型的共识风险框架。但问题在于，LYON获胜真的是“黑天鹅”吗？根据文档5和7，LYON是一支有明确阵容公式、刚刚夺冠、且被预测会制造长局的队伍。他们的胜利路径是清晰可见的（打野带动、拖后期），并非完全不可预测的极端事件。你和其他人一样，将“实力差距”本身视为一个不可逾越的鸿沟，从而系统性地低估了挑战者的实际胜率。你的88%概率是尾部风险定价不足的体现。\n\nRe: 综合策略师: 你的分析逻辑清晰，但结论（85%）完全是共识的复述。你引用了文档5中关于Gen.G个人能力更强的观点，却没有同等重视同一文档中“Lion is just Fly Quest reincarnated”和“they have a really good chance”的论述。你提到了“单局比赛的波动性”，但在概率赋值上却几乎忽略了它。这是一种典型的“知道风险存在，但定价时却忽略”的行为偏差。\n\nREVISED REASONING: 经过辩论，我更坚定地认为市场共识严重高估了Gen.G。核心证据来自文档5和7：LYON被类比为成功的Fly Quest模型，且被预测将通过长局制造麻烦 ##begin_quote## They're going to have [ __ ] 40minute games ##end_quote## [文档7]。所有分析师都不同程度地锚定在“韩国队更强”的旧叙事上，却轻视了LYON作为新科冠军的即时战力、明确战术以及Gen.G可能被高估（“最可击败的韩国队之一”）的信号。在BO5的第四局，心理和战术变数极大，均值回归的力量将比共识认为的更强。\n\nREVISED PREDICTION: 55.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Genji recognizes that Jun does not have flash available...",
+              "doc_index": 1
+            },
+            {
+              "quote": "对Gen.G的看好可能已 priced in ##end_quote##时，逻辑上就应该给出一个更接近均衡甚至偏向LYON的概率，因为市场情绪已过度乐观。你的结论与你的风险洞察自相矛盾。\n\nRe: 基本面分析师: 你强调“结构性、系统性优势”，但这正是市场共识的基石，也是最容易产生过度反应的地方。你所说的“Gen.G在长期结构性因素上占优”是一个静态观点，它忽略了LYON通过特定战术（如文档7预测的长局拖后期）在单场比赛中瓦解这种系统性的可能。基本面分析在短期、单局的比赛中效力会下降，因为偶然性和针对性战术的权重会上升。你引用文档5承认LYON的“战术灵活性”，却在结论中将其归为“概率较低”，没有正视这种灵活性在BO5特定局次中可能产生的决定性影响。\n\nRe: 风险评估师: 你将LYON获胜定义为“低概率、高影响风险（黑天鹅）”，这是一种典型的共识风险框架。但问题在于，LYON获胜真的是“黑天鹅”吗？根据文档5和7，LYON是一支有明确阵容公式、刚刚夺冠、且被预测会制造长局的队伍。他们的胜利路径是清晰可见的（打野带动、拖后期），并非完全不可预测的极端事件。你和其他人一样，将“实力差距”本身视为一个不可逾越的鸿沟，从而系统性地低估了挑战者的实际胜率。你的88%概率是尾部风险定价不足的体现。\n\nRe: 综合策略师: 你的分析逻辑清晰，但结论（85%）完全是共识的复述。你引用了文档5中关于Gen.G个人能力更强的观点，却没有同等重视同一文档中“Lion is just Fly Quest reincarnated”和“they have a really good chance”的论述。你提到了“单局比赛的波动性”，但在概率赋值上却几乎忽略了它。这是一种典型的“知道风险存在，但定价时却忽略”的行为偏差。\n\nREVISED REASONING: 经过辩论，我更坚定地认为市场共识严重高估了Gen.G。核心证据来自文档5和7：LYON被类比为成功的Fly Quest模型，且被预测将通过长局制造麻烦 ##begin_quote## They're going to have [ __ ] 40minute games",
+              "doc_index": 7
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "基本面分析师",
+        "stance": "neutral",
+        "probability": 55.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析过度依赖一份过时且对手不同的比赛记录（MSI 2023 Gen.G vs BLG），并将其作为评估当前Gen.G实力的主要依据，这是结构性误判。你赋予其9分相关性，但忽略了最关键的一点：该文档反映的是近三年前、针对特定对手（LPL风格的BLG）的表现，与当前对阵LYON（LCS风格）的比赛在战术环境、版本和对手特性上存在根本差异。你引用的Gen.G“关键时刻执行力”案例（如针对Jun无闪现的围攻）是针对特定情境的战术片段，无法直接外推为对阵LYON时的系统性优势。你的分析缺乏对LYON当前核心竞争力的深度评估，仅将其视为“潜在爆发力”，而忽视了文档5中明确指出的LYON拥有成熟的“成功公式”和团队结构（##begin_quote## we have the same formula we had last year... a top laner that could play counter picks... The MVP jungler... a mid laner that can carry... and a bot lane that can hold their own ##end_quote## [文档 5]）。这种结构性优势比偶然的“爆发”更具持续性和分析价值。\n\nRe: 质疑分析师: 你的文档相关性评估更准确，抓住了文档5和7的核心价值。然而，你的最终分析在权衡“纸面实力”与“临场状态”时，仍然给予了Gen.G过高的基准权重（65%）。你正确地指出了LYON的团队协同和Inspired的X因素，但未能充分量化这些因素对单局比赛的影响。你引用文档7中LYON状态波动的数据，但波动性在强强对话中是双向的，Gen.G同样可能因国际赛事压力或对北美风格不适应而出现波动。你的分析低估了LYON作为一支拥有明确体系（FlyQuest模型）和近期夺冠势头（文档7）的队伍，其战术执行的一致性和心理优势。将Gen.G的获胜概率定在显著高于均衡的水平，可能高估了其面对一个结构完整、非鱼腩对手时的单局统治力。\n\nRe: 贝叶斯分析师: 你的分析框架存在根本缺陷。你设定了高达80%的先验概率，这本身就是基于历史赛区印象而非当前具体战队基本面的强烈偏见。随后，你用文档1（过时、对手不同）和文档5（指出LYON有成熟体系但个体有差距）的证据来“更新”并巩固这个高先验，导致结论（88%）严重偏向先验，未能对LYON的实质性竞争力给予足够权重。你引用文档5证明个体差距，但忽略了同一文档也指出LYON的团队配置是成功的“公式”，且##begin_quote## Saint is probably the best mid laner that he’s [Inspired] played with yet ##end_quote## [文档 5]，这表明LYON的核心位置实力正在上升期。你的贝叶斯更新过程对支持NO的证据似然赋值过低。\n\nRe: 历史类比师: 你的“新兴帝国 vs 老牌霸权”类比有一定启发性，但你的结论（65%）与你的类比内涵存在矛盾。你正确识别了LYON的上升势头、团队化学反应和选手心态（引用文档4、5、7），这些是强有力的基本面因素。然而，在最终概率估计上，你似乎仍然被“老牌霸权”的历史声誉所主导。如果你的类比成立，那么在单局比赛中，“新兴帝国”凭借其活力、饥饿感和针对性准备，其获胜概率应更接近均衡，而非显著偏向“老牌霸权”。你低估了自己所提出的LYON优势因素的即时影响力。\n\nRe: 数据统计师: 你是唯一给予LYON较高获胜概率（42%）的分析师，这更贴近实力对比的实际情况。你的分析基于LYON最新的冠军数据和团队配置类比，这是正确的基本面切入点。然而，你可能过度依赖了“赛区实力差距”这个宏观先验。文档5中明确指出，当前的Gen.G被认为是“一段时间以来最可击败的韩国队伍之一”（##begin_quote## I think BFX is genuinely like going to be one of the most beatable teams that we’ve seen come out of Korea in a while. ##end_quote## [文档 5]），这直接削弱了“LCK顶级队伍”这个标签所带来的默认优势。你的分析框架合理，但或许对这条削弱宏观先验的关键信息权重不足。\n\nRe: 情绪分析师: 你的分析混淆了情绪动能与基本面实力。你捕捉到的“黑马叙事”和“主场情绪”是短期噪音，而非结构性因素。LYON的竞争力核心在于其文档5中描述的团队“公式”和文档7中体现的近期夺冠状态，这些是基本面的实力体现，不应被简单归类为“情绪动量”。你引用文档1中Gen.G的“大赛魔咒焦虑”是孤立的事件性描述，不足以构成系统性风险。你的分析框架偏离了基本面分析师应关注的长时期趋势和资源对比。\n\nRe: 逆向投资者: 你的核心论点——市场共识可能高估Gen.G——是正确的思考方向。你识别了BO5第四局的心理复杂性、LYON被低估的战术准备以及单局比赛的偶然性。然而，你的概率估计（62%）仍然偏向Gen.G，这与你试图表达的“共识裂缝”观点不够一致。如果你真正认为LYON的“黑马潜力和制造混乱的能力”被系统性低估，那么在一个单局中，其获胜概率应更接近50%。你的最终数字未能完全体现你论点的激进性。\n\nRe: 风险评估师: 你将LYON获胜归类为“低概率、高影响风险（黑天鹅）”，这是严重的误判。LYON获胜并非小概率的“黑天鹅”事件。根据文档5和7，LYON是一支拥有明确冠军阵容结构、刚赢得LCS Lock-In冠军、且被分析师认为有明确国际赛前景的队伍（##begin_quote## I think Lion can win the first stand tournament ##end_quote## [文档 5]）。其获胜路径是清晰、有基本面支撑的（团队协同、打野带动、多核），而非依赖多重低概率因素的同时触发。你的风险评估框架错误地将一个实力强劲的竞争者降级为纯粹的扰动因素。\n\nRe: 综合策略师: 你的分析相对平衡，但结论（85%）仍然过高。你正确引用了文档5中关于个体实力差距和Gen.G经验优势的论点，但同样，你低估了LYON团队协同和战术灵活性对个体差距的弥补能力。你提到“LYON获胜需要依赖Gen.G状态不佳或自身超常发挥”，这忽略了LYON以其自身体系正常发挥即可构成严重威胁的可能性，正如他们在LCS决赛中击败Cloud9所展现的那样（文档7），那并非“超常发挥”，而是体系胜利。",
+        "reasoning": "审视各方论点后，我承认初始分析（70%）可能仍高估了Gen.G的单局优势，低估了LYON结构性竞争力的即时影响。关键修正在于：LYON并非仅有“爆发潜力”，而是拥有文档5明确界定的、经过验证的团队成功公式和近期夺冠的巅峰状态。同时，文档5指出当前Gen.G被视作“最可击败的韩国队伍之一”，这显著修正了基于历史赛区实力的先验判断。因此，在单局（Game 4）的较量中，双方的系统性差距被缩小，LYON凭借其完整体系和上升势头，拥有接近均势的获胜机会。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析过度依赖一份过时且对手不同的比赛记录（MSI 2023 Gen.G vs BLG），并将其作为评估当前Gen.G实力的主要依据，这是结构性误判。你赋予其9分相关性，但忽略了最关键的一点：该文档反映的是近三年前、针对特定对手（LPL风格的BLG）的表现，与当前对阵LYON（LCS风格）的比赛在战术环境、版本和对手特性上存在根本差异。你引用的Gen.G“关键时刻执行力”案例（如针对Jun无闪现的围攻）是针对特定情境的战术片段，无法直接外推为对阵LYON时的系统性优势。你的分析缺乏对LYON当前核心竞争力的深度评估，仅将其视为“潜在爆发力”，而忽视了文档5中明确指出的LYON拥有成熟的“成功公式”和团队结构（##begin_quote## we have the same formula we had last year... a top laner that could play counter picks... The MVP jungler... a mid laner that can carry... and a bot lane that can hold their own ##end_quote## [文档 5]）。这种结构性优势比偶然的“爆发”更具持续性和分析价值。\n\nRe: 质疑分析师: 你的文档相关性评估更准确，抓住了文档5和7的核心价值。然而，你的最终分析在权衡“纸面实力”与“临场状态”时，仍然给予了Gen.G过高的基准权重（65%）。你正确地指出了LYON的团队协同和Inspired的X因素，但未能充分量化这些因素对单局比赛的影响。你引用文档7中LYON状态波动的数据，但波动性在强强对话中是双向的，Gen.G同样可能因国际赛事压力或对北美风格不适应而出现波动。你的分析低估了LYON作为一支拥有明确体系（FlyQuest模型）和近期夺冠势头（文档7）的队伍，其战术执行的一致性和心理优势。将Gen.G的获胜概率定在显著高于均衡的水平，可能高估了其面对一个结构完整、非鱼腩对手时的单局统治力。\n\nRe: 贝叶斯分析师: 你的分析框架存在根本缺陷。你设定了高达80%的先验概率，这本身就是基于历史赛区印象而非当前具体战队基本面的强烈偏见。随后，你用文档1（过时、对手不同）和文档5（指出LYON有成熟体系但个体有差距）的证据来“更新”并巩固这个高先验，导致结论（88%）严重偏向先验，未能对LYON的实质性竞争力给予足够权重。你引用文档5证明个体差距，但忽略了同一文档也指出LYON的团队配置是成功的“公式”，且##begin_quote## Saint is probably the best mid laner that he’s [Inspired] played with yet ##end_quote## [文档 5]，这表明LYON的核心位置实力正在上升期。你的贝叶斯更新过程对支持NO的证据似然赋值过低。\n\nRe: 历史类比师: 你的“新兴帝国 vs 老牌霸权”类比有一定启发性，但你的结论（65%）与你的类比内涵存在矛盾。你正确识别了LYON的上升势头、团队化学反应和选手心态（引用文档4、5、7），这些是强有力的基本面因素。然而，在最终概率估计上，你似乎仍然被“老牌霸权”的历史声誉所主导。如果你的类比成立，那么在单局比赛中，“新兴帝国”凭借其活力、饥饿感和针对性准备，其获胜概率应更接近均衡，而非显著偏向“老牌霸权”。你低估了自己所提出的LYON优势因素的即时影响力。\n\nRe: 数据统计师: 你是唯一给予LYON较高获胜概率（42%）的分析师，这更贴近实力对比的实际情况。你的分析基于LYON最新的冠军数据和团队配置类比，这是正确的基本面切入点。然而，你可能过度依赖了“赛区实力差距”这个宏观先验。文档5中明确指出，当前的Gen.G被认为是“一段时间以来最可击败的韩国队伍之一”（##begin_quote## I think BFX is genuinely like going to be one of the most beatable teams that we’ve seen come out of Korea in a while. ##end_quote## [文档 5]），这直接削弱了“LCK顶级队伍”这个标签所带来的默认优势。你的分析框架合理，但或许对这条削弱宏观先验的关键信息权重不足。\n\nRe: 情绪分析师: 你的分析混淆了情绪动能与基本面实力。你捕捉到的“黑马叙事”和“主场情绪”是短期噪音，而非结构性因素。LYON的竞争力核心在于其文档5中描述的团队“公式”和文档7中体现的近期夺冠状态，这些是基本面的实力体现，不应被简单归类为“情绪动量”。你引用文档1中Gen.G的“大赛魔咒焦虑”是孤立的事件性描述，不足以构成系统性风险。你的分析框架偏离了基本面分析师应关注的长时期趋势和资源对比。\n\nRe: 逆向投资者: 你的核心论点——市场共识可能高估Gen.G——是正确的思考方向。你识别了BO5第四局的心理复杂性、LYON被低估的战术准备以及单局比赛的偶然性。然而，你的概率估计（62%）仍然偏向Gen.G，这与你试图表达的“共识裂缝”观点不够一致。如果你真正认为LYON的“黑马潜力和制造混乱的能力”被系统性低估，那么在一个单局中，其获胜概率应更接近50%。你的最终数字未能完全体现你论点的激进性。\n\nRe: 风险评估师: 你将LYON获胜归类为“低概率、高影响风险（黑天鹅）”，这是严重的误判。LYON获胜并非小概率的“黑天鹅”事件。根据文档5和7，LYON是一支拥有明确冠军阵容结构、刚赢得LCS Lock-In冠军、且被分析师认为有明确国际赛前景的队伍（##begin_quote## I think Lion can win the first stand tournament ##end_quote## [文档 5]）。其获胜路径是清晰、有基本面支撑的（团队协同、打野带动、多核），而非依赖多重低概率因素的同时触发。你的风险评估框架错误地将一个实力强劲的竞争者降级为纯粹的扰动因素。\n\nRe: 综合策略师: 你的分析相对平衡，但结论（85%）仍然过高。你正确引用了文档5中关于个体实力差距和Gen.G经验优势的论点，但同样，你低估了LYON团队协同和战术灵活性对个体差距的弥补能力。你提到“LYON获胜需要依赖Gen.G状态不佳或自身超常发挥”，这忽略了LYON以其自身体系正常发挥即可构成严重威胁的可能性，正如他们在LCS决赛中击败Cloud9所展现的那样（文档7），那并非“超常发挥”，而是体系胜利。\n\nREVISED REASONING: 审视各方论点后，我承认初始分析（70%）可能仍高估了Gen.G的单局优势，低估了LYON结构性竞争力的即时影响。关键修正在于：LYON并非仅有“爆发潜力”，而是拥有文档5明确界定的、经过验证的团队成功公式和近期夺冠的巅峰状态。同时，文档5指出当前Gen.G被视作“最可击败的韩国队伍之一”，这显著修正了基于历史赛区实力的先验判断。因此，在单局（Game 4）的较量中，双方的系统性差距被缩小，LYON凭借其完整体系和上升势头，拥有接近均势的获胜机会。\n\nREVISED PREDICTION: 55.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "we have the same formula we had last year... a top laner that could play counter picks... The MVP jungler... a mid laner that can carry... and a bot lane that can hold their own",
+              "doc_index": 5
+            },
+            {
+              "quote": "Saint is probably the best mid laner that he’s [Inspired] played with yet",
+              "doc_index": 5
+            },
+            {
+              "quote": "I think BFX is genuinely like going to be one of the most beatable teams that we’ve seen come out of Korea in a while.",
+              "doc_index": 5
+            },
+            {
+              "quote": "I think Lion can win the first stand tournament",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "风险评估师",
+        "stance": "bear",
+        "probability": 82.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析过度依赖过时且不匹配的文档1（MSI 2023），并将其作为Gen.G稳定性的核心证据。这忽略了关键风险：**赛事、对手、版本和时间的巨大差异**。MSI 2023的Gen.G对阵BLG的表现，与当前对阵LYON的Gen.G状态，相关性极低。你赋予78%的概率，严重低估了“信息陈旧”这一风险。你的分析未能有效识别当前对局中最大的不确定性来源——即缺乏关于**当前Gen.G状态**和**两队直接对抗**的有效数据。\n\nRe: 质疑分析师: 你的文档相关性评估更准确，抓住了文档5和7的核心价值。然而，你从“LYON有竞争力”直接推导出“Gen.G概率应显著降低至65%”，这中间的风险传导分析不足。文档5明确指出LYON无人达到Gen.G的个体水平（##begin_quote## there is nobody on this roster, including inspired, that is at the level individually of what GenG is at ##end_quote## [文档 5]），这是结构性风险。LYON的胜利路径（依赖Inspired爆发）是**低概率、高影响**的尾部事件，你将其概率权重给得过高，忽视了实力差距带来的基础概率压制。\n\nRe: 贝叶斯分析师: 你的先验设定（80%）合理，但更新过程存在严重偏差。你过度依赖文档1（MSI 2023）作为“强有力的支持YES证据”，这犯了与乐观分析师相同的错误——使用陈旧且不相关的数据来更新先验。更危险的是，你几乎完全忽略了文档7中关于LYON近期在LCS Lock-In夺冠（##begin_quote## LYON wins their first ever LCS title ##end_quote## [文档 7]）这一**新的、高相关性的数据**。这导致你的后验概率（88%）向上偏差，未能充分纳入LYON作为新科冠军的上升势头这一风险因素。\n\nRe: 历史类比师: 你将LYON类比为“新兴帝国”具有启发性，但类比的风险在于忽略具体情境。你提到的LYON“上升势头”基于他们在北美的成功，但文档5尖锐地指出，北美顶级选手与Gen.G选手存在层级差距。你的分析低估了“赛区实力差”这一系统性风险。此外，你引用文档4中选手对国际赛的认知（##begin_quote## when you go to international, you will just get cooked ##end_quote## [文档 4]），这本身就是一个巨大的风险警示，但你却用它来论证LYON的“积极心态”，这存在逻辑矛盾——这恰恰是LYON面临的核心风险之一。\n\nRe: 数据统计师: 你是唯一给予LYON高概率（42%）的分析师，这体现了对近期数据的尊重。你的核心风险洞察是正确的：**LYON拥有最新的、量化的成功数据**。然而，你从“LYON近期夺冠”到“Gen.G获胜概率58%”的推导，可能高估了LCS冠军在国际赛场上的即战力转换率。这是一个关键的**数据外推风险**。LCS的内部成功，在面对LCK顶级队伍时，其预测效力需要大幅折扣。你的模型可能未能充分应用这个折扣因子。\n\nRe: 情绪分析师: 你关注“黑马情绪动能”，这是有价值的尾部风险因素。但你的分析框架风险在于，将情绪视为独立于基本面的驱动力量。文档5中关于LYON的乐观情绪，其基础正是“FlyQuest公式”的类比，而这公式的核心（选手个人能力）已被同一文档证伪低于Gen.G。因此，你所依赖的情绪动量可能建立在脆弱的基本面叙事上，这是一种**情绪泡沫风险**。当比赛开始，硬实力差距会迅速刺破这种泡沫。\n\nRe: 逆向投资者: 你正确地指出了市场共识可能过度自信的风险，并关注BO5第四局的心理复杂性。这是重要的行为风险因素。然而，你的逆向结论（62%）可能犯了“为逆向而逆向”的错误。你指出LYON的战术可能被低估，但未能提供LYON**具体何种战术能有效克制Gen.G**的证据。逆向投资需要基于未被定价的**实质性风险**，而非单纯的“可能不一样”。你识别了心理风险，但缺乏将其转化为具体胜率的可靠依据。\n\nRe: 基本面分析师: 你的分析框架稳健，强调了“结构性优势”。但你的风险在于过于静态。你引用文档1证明Gen.G的“系统性优势”，但这是历史数据。电竞的基本面变化迅速。你未能充分考虑“LYON作为新科冠军，其团队协同和版本理解可能正处于峰值”这一动态风险因素，这可能导致Gen.G的“结构性优势”在特定对局中被暂时性的“状态优势”所挑战。\n\nRe: 综合策略师: 你的结论（85%）与我初始预测接近，但推理过程忽略了关键的风险升级因素。你正确识别了Gen.G的实力优势，但你的分析完全建立在文档1（旧数据）和文档5（实力对比）上，缺乏对LYON**当前真实威胁**的评估。文档7显示LYON刚刚赢得LCS冠军，这是一个不可忽视的**状态风险信号**。忽略这一点，会导致对Gen.G的失败概率（尾部风险）定价不足。",
+        "reasoning": "辩论揭示了我的初始预测（88%）可能低估了两大风险：1) **信息陈旧风险**：过度依赖旧赛事（MSI 2023）评估Gen.G；2) **对手状态风险**：未能足够重视LYON作为**新科LCS冠军**（##begin_quote## LYON wins their first ever LCS title ##end_quote## [文档 7]）所蕴含的即时竞争力和信心提升。这属于**中概率、中影响**的风险，应调低基准情景的概率。然而，文档5中关于个体实力差距的论断（##begin_quote## nobody... at the level individually of what GenG is at ##end_quote## [文档 5]）构成了无法绕过的基本面屏障，限制了LYON的爆冷概率上限。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析过度依赖过时且不匹配的文档1（MSI 2023），并将其作为Gen.G稳定性的核心证据。这忽略了关键风险：**赛事、对手、版本和时间的巨大差异**。MSI 2023的Gen.G对阵BLG的表现，与当前对阵LYON的Gen.G状态，相关性极低。你赋予78%的概率，严重低估了“信息陈旧”这一风险。你的分析未能有效识别当前对局中最大的不确定性来源——即缺乏关于**当前Gen.G状态**和**两队直接对抗**的有效数据。\n\nRe: 质疑分析师: 你的文档相关性评估更准确，抓住了文档5和7的核心价值。然而，你从“LYON有竞争力”直接推导出“Gen.G概率应显著降低至65%”，这中间的风险传导分析不足。文档5明确指出LYON无人达到Gen.G的个体水平（##begin_quote## there is nobody on this roster, including inspired, that is at the level individually of what GenG is at ##end_quote## [文档 5]），这是结构性风险。LYON的胜利路径（依赖Inspired爆发）是**低概率、高影响**的尾部事件，你将其概率权重给得过高，忽视了实力差距带来的基础概率压制。\n\nRe: 贝叶斯分析师: 你的先验设定（80%）合理，但更新过程存在严重偏差。你过度依赖文档1（MSI 2023）作为“强有力的支持YES证据”，这犯了与乐观分析师相同的错误——使用陈旧且不相关的数据来更新先验。更危险的是，你几乎完全忽略了文档7中关于LYON近期在LCS Lock-In夺冠（##begin_quote## LYON wins their first ever LCS title ##end_quote## [文档 7]）这一**新的、高相关性的数据**。这导致你的后验概率（88%）向上偏差，未能充分纳入LYON作为新科冠军的上升势头这一风险因素。\n\nRe: 历史类比师: 你将LYON类比为“新兴帝国”具有启发性，但类比的风险在于忽略具体情境。你提到的LYON“上升势头”基于他们在北美的成功，但文档5尖锐地指出，北美顶级选手与Gen.G选手存在层级差距。你的分析低估了“赛区实力差”这一系统性风险。此外，你引用文档4中选手对国际赛的认知（##begin_quote## when you go to international, you will just get cooked ##end_quote## [文档 4]），这本身就是一个巨大的风险警示，但你却用它来论证LYON的“积极心态”，这存在逻辑矛盾——这恰恰是LYON面临的核心风险之一。\n\nRe: 数据统计师: 你是唯一给予LYON高概率（42%）的分析师，这体现了对近期数据的尊重。你的核心风险洞察是正确的：**LYON拥有最新的、量化的成功数据**。然而，你从“LYON近期夺冠”到“Gen.G获胜概率58%”的推导，可能高估了LCS冠军在国际赛场上的即战力转换率。这是一个关键的**数据外推风险**。LCS的内部成功，在面对LCK顶级队伍时，其预测效力需要大幅折扣。你的模型可能未能充分应用这个折扣因子。\n\nRe: 情绪分析师: 你关注“黑马情绪动能”，这是有价值的尾部风险因素。但你的分析框架风险在于，将情绪视为独立于基本面的驱动力量。文档5中关于LYON的乐观情绪，其基础正是“FlyQuest公式”的类比，而这公式的核心（选手个人能力）已被同一文档证伪低于Gen.G。因此，你所依赖的情绪动量可能建立在脆弱的基本面叙事上，这是一种**情绪泡沫风险**。当比赛开始，硬实力差距会迅速刺破这种泡沫。\n\nRe: 逆向投资者: 你正确地指出了市场共识可能过度自信的风险，并关注BO5第四局的心理复杂性。这是重要的行为风险因素。然而，你的逆向结论（62%）可能犯了“为逆向而逆向”的错误。你指出LYON的战术可能被低估，但未能提供LYON**具体何种战术能有效克制Gen.G**的证据。逆向投资需要基于未被定价的**实质性风险**，而非单纯的“可能不一样”。你识别了心理风险，但缺乏将其转化为具体胜率的可靠依据。\n\nRe: 基本面分析师: 你的分析框架稳健，强调了“结构性优势”。但你的风险在于过于静态。你引用文档1证明Gen.G的“系统性优势”，但这是历史数据。电竞的基本面变化迅速。你未能充分考虑“LYON作为新科冠军，其团队协同和版本理解可能正处于峰值”这一动态风险因素，这可能导致Gen.G的“结构性优势”在特定对局中被暂时性的“状态优势”所挑战。\n\nRe: 综合策略师: 你的结论（85%）与我初始预测接近，但推理过程忽略了关键的风险升级因素。你正确识别了Gen.G的实力优势，但你的分析完全建立在文档1（旧数据）和文档5（实力对比）上，缺乏对LYON**当前真实威胁**的评估。文档7显示LYON刚刚赢得LCS冠军，这是一个不可忽视的**状态风险信号**。忽略这一点，会导致对Gen.G的失败概率（尾部风险）定价不足。\n\nREVISED REASONING:\n辩论揭示了我的初始预测（88%）可能低估了两大风险：1) **信息陈旧风险**：过度依赖旧赛事（MSI 2023）评估Gen.G；2) **对手状态风险**：未能足够重视LYON作为**新科LCS冠军**（##begin_quote## LYON wins their first ever LCS title ##end_quote## [文档 7]）所蕴含的即时竞争力和信心提升。这属于**中概率、中影响**的风险，应调低基准情景的概率。然而，文档5中关于个体实力差距的论断（##begin_quote## nobody... at the level individually of what GenG is at ##end_quote## [文档 5]）构成了无法绕过的基本面屏障，限制了LYON的爆冷概率上限。\n\nREVISED PREDICTION: 82.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "there is nobody on this roster, including inspired, that is at the level individually of what GenG is at",
+              "doc_index": 5
+            },
+            {
+              "quote": "LYON wins their first ever LCS title",
+              "doc_index": 7
+            },
+            {
+              "quote": "when you go to international, you will just get cooked",
+              "doc_index": 4
+            },
+            {
+              "quote": "LYON wins their first ever LCS title",
+              "doc_index": 7
+            },
+            {
+              "quote": "nobody... at the level individually of what GenG is at",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            4,
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "综合策略师",
+        "stance": "neutral",
+        "probability": 72.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析过度依赖过时且不匹配的文档1（MSI 2023），并将其作为评估当前Gen.G实力的主要依据，忽略了时效性和对手差异。你赋予Gen.G 78%的概率，但未能充分量化LYON在近期赛事中展现的、足以挑战此概率的具体实力。你引用了文档5中关于LYON“成功公式”的描述，却未将其与文档7中LYON刚刚赢得LCS Lock-In冠军、Inspired获得总决赛MVP等**最新、最直接**的硬数据结合，导致对LYON的威胁评估不足。你的“潜力”与“实力”的二分法过于简化，LYON的近期冠军是已实现的“实力”证明，而不仅仅是“潜力”。\n\nRe: 质疑分析师: 你的相关性评估存在严重偏差。你将最关键的文档7（LYON vs C9 LCS Lock-In总决赛详细战报）评分仅为3-4分，这是重大失误。该文档提供了LYON在**2026年最新赛事**中的完整比赛数据、选手具体表现（如Inspired的MVP）和团队状态，是预测其当前实力的黄金标准。你基于此错误评估，主要依赖文档5的评论性内容，导致分析根基不稳。你正确地指出了LYON的状态波动（基于文档7），但将Gen.G获胜概率定为65%可能仍高估了LYON的波动风险对单局比赛的影响，因为文档7同样显示LYON在获胜局中展现了压倒性的统治力（如21-6的击杀比）。\n\nRe: 贝叶斯分析师: 你的先验设定（80%）合理，但更新过程存在缺陷。你正确地赋予了文档1（Gen.G历史表现）高权重，但错误地将文档6（2016年LYON）视为高相关（8/10）并用作更新证据，这引入了巨大的噪声。2016年的外卡队伍表现与当前LYON（一支拥有Inspired、Saint等明星选手的LCS冠军队伍）几乎无关。更应作为核心似然证据的是文档7（LYON近期冠军数据）和文档5（实力对比分析）。你的最终概率88%可能因忽略了LYON近期强劲表现的似然证据而过于偏向YES。\n\nRe: 历史类比师: 你的“新兴帝国 vs 老牌霸权”类比具有启发性，但你在具体证据引用上出现了混淆。你将文档4（Movistar KOI的采访）中关于国际赛心态的论述，以及文档5中关于Inspired可能离开北美去G2的评论，直接套用在LYON队员身上，这缺乏直接证据。文档4和5的发言主体并非LYON现役选手。你的分析框架有价值，但支撑“LYON选手心态”论点的引用不够精准。你给出的65%概率与质疑分析师相同，可能反映了对LYON“新兴势力”叙事的情感共鸣，但需要更扎实的近期数据（文档7）来支撑这一概率。\n\nRe: 数据统计师: 你的分析框架最符合我的元分析视角——权衡“近期表现”与“长期实力先验”。你正确地识别出文档7是最高相关性的量化数据源，并给出了一个显著不同于共识的概率（42%）。这是对市场可能过度依赖Gen.G历史声誉的一个重要逆向信号。然而，你的概率可能过于激进地向LYON倾斜。虽然LYON的近期数据强劲，但Gen.G“长期实力先验”的权重依然很高，且文档5中明确指出LYON无人达到Gen.G选手的个体水平。42%的估计可能低估了赛区整体实力差距和Gen.G大赛调整能力这些系统性因素。\n\nRe: 情绪分析师: 你敏锐地捕捉到了“黑马”叙事和主场情绪，但你的分析过于依赖情绪而缺乏对硬实力的交叉验证。你将文档6中2016年LYON“全胜”的历史情绪与当前LYON关联，这种情绪传导的链条薄弱。更重要的是，你忽略了文档7所代表的、可能正在形成的**新情绪动量**：即LYON作为新科LCS冠军，其社区信心和“underdog”叙事正在从“潜力”转变为“已证明的实力”。你的概率（68%）介于其他分析师之间，但推理过程对文档7的利用不足。\n\nRe: 逆向投资者: 你的核心论点——市场共识可能高估Gen.G——与数据统计师的发现形成共振，这是有价值的信号。你正确地指出BO5第四局的心理复杂性和LYON被低估的战术准备（引用文档5和7）。然而，你给出的62%概率（仅比均衡点高12%）可能过度定价了这种逆向风险。你的论证依赖“均值回归”和“Gen.G可被击败”的定性描述，但未能有效量化：即使Gen.G是“一段时间以来最可击败的韩国队”（文档5），其相对于LCS冠军的胜率基线究竟是多少？你的分析需要与数据统计师的量化结果进行更深入的对话。\n\nRe: 基本面分析师: 你的分析聚焦于结构性优势，但信息源略显陈旧和间接。你大量引用文档1（2023年MSI）来论证Gen.G的“系统性优势”，这固然有参考价值，但对比的是2026年的LYON，存在时间错配。你引用的文档5关于个体实力差距的论述是关键，但同样需要结合文档7中LYON作为**一个系统**（团队协同、战术执行）刚刚击败另一强队（C9）的事实来综合评估。你的70%概率是一个折中的判断，但推理过程对LYON这个“系统”在最新版本下的强度评估可能不足。\n\nRe: 风险评估师: 你将LYON获胜归类为“低概率、高影响风险（黑天鹅）”，这一框架本身是合理的。但问题在于，基于文档7的证据，LYON获胜是否还能被严格定义为“黑天鹅”？一支刚刚在顶级赛区决赛中3-1夺冠、拥有明确MVP选手的队伍，击败另一支强队（即使是更强的Gen.G），其概率可能已进入“中低概率”而非“极低概率”区间。你引用文档6中2016年LYON的“全胜记录”来佐证其“制造一边倒局面潜力”，这属于弱证据，削弱了风险评估的精确性。你的88%概率与贝叶斯分析师相同，可能都源于对LYON近期实质性成功的风险定价不足。",
+        "reasoning": "辩论揭示了关键共识与分歧。共识是Gen.G在纸面实力和历史声誉上占优。核心分歧在于如何评估LYON基于**文档7**的近期冠军状态：数据统计师视其为足以大幅提升胜率的强证据（42%），而多数分析师仍将其置于Gen.G的系统性优势之下。我承认最初分析（85%）可能低估了文档7的权重。然而，完全采纳42%又可能过度 discount Gen.G的赛区实力和调整能力。##begin_quote## there is nobody on this roster, including inspired, that is at the level individually of what GenG is at ##end_quote## [文档 5] 这一判断仍具分量。因此，修正方向是下调Gen.G概率，但幅度有限，以反映LYON已从“潜力股”升级为“实力挑战者”的新信息。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析过度依赖过时且不匹配的文档1（MSI 2023），并将其作为评估当前Gen.G实力的主要依据，忽略了时效性和对手差异。你赋予Gen.G 78%的概率，但未能充分量化LYON在近期赛事中展现的、足以挑战此概率的具体实力。你引用了文档5中关于LYON“成功公式”的描述，却未将其与文档7中LYON刚刚赢得LCS Lock-In冠军、Inspired获得总决赛MVP等**最新、最直接**的硬数据结合，导致对LYON的威胁评估不足。你的“潜力”与“实力”的二分法过于简化，LYON的近期冠军是已实现的“实力”证明，而不仅仅是“潜力”。\n\nRe: 质疑分析师: 你的相关性评估存在严重偏差。你将最关键的文档7（LYON vs C9 LCS Lock-In总决赛详细战报）评分仅为3-4分，这是重大失误。该文档提供了LYON在**2026年最新赛事**中的完整比赛数据、选手具体表现（如Inspired的MVP）和团队状态，是预测其当前实力的黄金标准。你基于此错误评估，主要依赖文档5的评论性内容，导致分析根基不稳。你正确地指出了LYON的状态波动（基于文档7），但将Gen.G获胜概率定为65%可能仍高估了LYON的波动风险对单局比赛的影响，因为文档7同样显示LYON在获胜局中展现了压倒性的统治力（如21-6的击杀比）。\n\nRe: 贝叶斯分析师: 你的先验设定（80%）合理，但更新过程存在缺陷。你正确地赋予了文档1（Gen.G历史表现）高权重，但错误地将文档6（2016年LYON）视为高相关（8/10）并用作更新证据，这引入了巨大的噪声。2016年的外卡队伍表现与当前LYON（一支拥有Inspired、Saint等明星选手的LCS冠军队伍）几乎无关。更应作为核心似然证据的是文档7（LYON近期冠军数据）和文档5（实力对比分析）。你的最终概率88%可能因忽略了LYON近期强劲表现的似然证据而过于偏向YES。\n\nRe: 历史类比师: 你的“新兴帝国 vs 老牌霸权”类比具有启发性，但你在具体证据引用上出现了混淆。你将文档4（Movistar KOI的采访）中关于国际赛心态的论述，以及文档5中关于Inspired可能离开北美去G2的评论，直接套用在LYON队员身上，这缺乏直接证据。文档4和5的发言主体并非LYON现役选手。你的分析框架有价值，但支撑“LYON选手心态”论点的引用不够精准。你给出的65%概率与质疑分析师相同，可能反映了对LYON“新兴势力”叙事的情感共鸣，但需要更扎实的近期数据（文档7）来支撑这一概率。\n\nRe: 数据统计师: 你的分析框架最符合我的元分析视角——权衡“近期表现”与“长期实力先验”。你正确地识别出文档7是最高相关性的量化数据源，并给出了一个显著不同于共识的概率（42%）。这是对市场可能过度依赖Gen.G历史声誉的一个重要逆向信号。然而，你的概率可能过于激进地向LYON倾斜。虽然LYON的近期数据强劲，但Gen.G“长期实力先验”的权重依然很高，且文档5中明确指出LYON无人达到Gen.G选手的个体水平。42%的估计可能低估了赛区整体实力差距和Gen.G大赛调整能力这些系统性因素。\n\nRe: 情绪分析师: 你敏锐地捕捉到了“黑马”叙事和主场情绪，但你的分析过于依赖情绪而缺乏对硬实力的交叉验证。你将文档6中2016年LYON“全胜”的历史情绪与当前LYON关联，这种情绪传导的链条薄弱。更重要的是，你忽略了文档7所代表的、可能正在形成的**新情绪动量**：即LYON作为新科LCS冠军，其社区信心和“underdog”叙事正在从“潜力”转变为“已证明的实力”。你的概率（68%）介于其他分析师之间，但推理过程对文档7的利用不足。\n\nRe: 逆向投资者: 你的核心论点——市场共识可能高估Gen.G——与数据统计师的发现形成共振，这是有价值的信号。你正确地指出BO5第四局的心理复杂性和LYON被低估的战术准备（引用文档5和7）。然而，你给出的62%概率（仅比均衡点高12%）可能过度定价了这种逆向风险。你的论证依赖“均值回归”和“Gen.G可被击败”的定性描述，但未能有效量化：即使Gen.G是“一段时间以来最可击败的韩国队”（文档5），其相对于LCS冠军的胜率基线究竟是多少？你的分析需要与数据统计师的量化结果进行更深入的对话。\n\nRe: 基本面分析师: 你的分析聚焦于结构性优势，但信息源略显陈旧和间接。你大量引用文档1（2023年MSI）来论证Gen.G的“系统性优势”，这固然有参考价值，但对比的是2026年的LYON，存在时间错配。你引用的文档5关于个体实力差距的论述是关键，但同样需要结合文档7中LYON作为**一个系统**（团队协同、战术执行）刚刚击败另一强队（C9）的事实来综合评估。你的70%概率是一个折中的判断，但推理过程对LYON这个“系统”在最新版本下的强度评估可能不足。\n\nRe: 风险评估师: 你将LYON获胜归类为“低概率、高影响风险（黑天鹅）”，这一框架本身是合理的。但问题在于，基于文档7的证据，LYON获胜是否还能被严格定义为“黑天鹅”？一支刚刚在顶级赛区决赛中3-1夺冠、拥有明确MVP选手的队伍，击败另一支强队（即使是更强的Gen.G），其概率可能已进入“中低概率”而非“极低概率”区间。你引用文档6中2016年LYON的“全胜记录”来佐证其“制造一边倒局面潜力”，这属于弱证据，削弱了风险评估的精确性。你的88%概率与贝叶斯分析师相同，可能都源于对LYON近期实质性成功的风险定价不足。\n\nREVISED REASONING: 辩论揭示了关键共识与分歧。共识是Gen.G在纸面实力和历史声誉上占优。核心分歧在于如何评估LYON基于**文档7**的近期冠军状态：数据统计师视其为足以大幅提升胜率的强证据（42%），而多数分析师仍将其置于Gen.G的系统性优势之下。我承认最初分析（85%）可能低估了文档7的权重。然而，完全采纳42%又可能过度 discount Gen.G的赛区实力和调整能力。##begin_quote## there is nobody on this roster, including inspired, that is at the level individually of what GenG is at ##end_quote## [文档 5] 这一判断仍具分量。因此，修正方向是下调Gen.G概率，但幅度有限，以反映LYON已从“潜力股”升级为“实力挑战者”的新信息。\n\nREVISED PREDICTION: 72.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "there is nobody on this roster, including inspired, that is at the level individually of what GenG is at",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5
+          ]
+        }
+      }
+    ],
+    "round3": [
+      {
+        "agent_name": "乐观分析师",
+        "stance": "bull",
+        "probability": 52.0,
+        "reasoning": "经过完整辩论，最有力的证据链已经清晰：LYON并非普通挑战者，而是拥有明确冠军公式和火热状态的强队 ##begin_quote## we have the same formula we had last year... Fly Quest reincarnated ##end_quote## [文档 5]，其核心打野Inspired正处于巅峰 ##begin_quote## Finals MVP: Inspired ##end_quote## [文档 7]。同时，对手Gen.G被分析师明确指出是“一段时间以来最可击败的韩国队之一” ##begin_quote## I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while. ##end_quote## [文档 5]。这两大乐观信号结合，使得LYON在Game 4中的机会远超市场基于陈旧赛区印象的定价。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，最有力的证据链已经清晰：LYON并非普通挑战者，而是拥有明确冠军公式和火热状态的强队 ##begin_quote## we have the same formula we had last year... Fly Quest reincarnated ##end_quote## [文档 5]，其核心打野Inspired正处于巅峰 ##begin_quote## Finals MVP: Inspired ##end_quote## [文档 7]。同时，对手Gen.G被分析师明确指出是“一段时间以来最可击败的韩国队之一” ##begin_quote## I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while. ##end_quote## [文档 5]。这两大乐观信号结合，使得LYON在Game 4中的机会远超市场基于陈旧赛区印象的定价。\n\nFINAL PREDICTION: 52.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "we have the same formula we had last year... Fly Quest reincarnated",
+              "doc_index": 5
+            },
+            {
+              "quote": "Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while.",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "质疑分析师",
+        "stance": "bear",
+        "probability": 52.0,
+        "reasoning": "经过整场辩论，最有力的论点来自数据统计师和逆向投资者，他们共同指出市场共识（多数分析师预测70%+）严重依赖过时基准率（如文档1的MSI 2023）和“LCK > LCS”的先验偏见，而系统性低估了LYON基于近期、高相关性证据的真实威胁：##begin_quote## LYON 3-2 LOUD ... Player of the Series: Inspired ##end_quote## [文档 7] 以及其被认可的成熟团队公式 ##begin_quote## the same formula we had last year ... Fly Quest reincarnated ##end_quote## [文档 5]。结合文档5中“Gen.G是近期最可击败的韩国队之一”的论述，LYON在Game 4的获胜路径清晰且概率被市场显著低估，这并非尾部风险，而是可评估的中等概率事件。",
+        "raw_response": "FINAL REASONING: 经过整场辩论，最有力的论点来自数据统计师和逆向投资者，他们共同指出市场共识（多数分析师预测70%+）严重依赖过时基准率（如文档1的MSI 2023）和“LCK > LCS”的先验偏见，而系统性低估了LYON基于近期、高相关性证据的真实威胁：##begin_quote## LYON 3-2 LOUD ... Player of the Series: Inspired ##end_quote## [文档 7] 以及其被认可的成熟团队公式 ##begin_quote## the same formula we had last year ... Fly Quest reincarnated ##end_quote## [文档 5]。结合文档5中“Gen.G是近期最可击败的韩国队之一”的论述，LYON在Game 4的获胜路径清晰且概率被市场显著低估，这并非尾部风险，而是可评估的中等概率事件。\n\nFINAL PREDICTION: 52.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "LYON 3-2 LOUD ... Player of the Series: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "the same formula we had last year ... Fly Quest reincarnated",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "贝叶斯分析师",
+        "stance": "neutral",
+        "probability": 70.0,
+        "reasoning": "辩论后，我的最终分析严格基于贝叶斯更新。先验概率（Gen.G作为LCK顶级强队）依然提供强大的基准率，但文档7中LYON作为新科LCS冠军的近期证据 ##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7] 显著提升了LYON获胜的似然率。然而，文档5中关于个体能力差距的硬约束 ##begin_quote## there is nobody on this roster, including inspired, that is at the level individually of what GenG is at ##end_quote## [文档 5] 限制了后验概率向LYON倾斜的幅度。综合权衡，LYON的团队协同和近期状态证据有效削弱了先验，但不足以完全抵消实力差距。",
+        "raw_response": "FINAL REASONING: 辩论后，我的最终分析严格基于贝叶斯更新。先验概率（Gen.G作为LCK顶级强队）依然提供强大的基准率，但文档7中LYON作为新科LCS冠军的近期证据 ##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7] 显著提升了LYON获胜的似然率。然而，文档5中关于个体能力差距的硬约束 ##begin_quote## there is nobody on this roster, including inspired, that is at the level individually of what GenG is at ##end_quote## [文档 5] 限制了后验概率向LYON倾斜的幅度。综合权衡，LYON的团队协同和近期状态证据有效削弱了先验，但不足以完全抵消实力差距。\n\nFINAL PREDICTION: 70.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "LYON wins their first ever LCS title... Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "there is nobody on this roster, including inspired, that is at the level individually of what GenG is at",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "历史类比师",
+        "stance": "neutral",
+        "probability": 58.0,
+        "reasoning": "纵观整场辩论，最有力的历史类比信号来自两个相互印证的文档：LYON作为新兴冠军，其胜利公式（##begin_quote## we have the same formula we had last year... Fly Quest reincarnated ##end_quote## [文档 5]）和近期夺冠事实（##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]）构成了明确的“崛起叙事”。而Gen.G被分析师公开讨论其“可击败性”（##begin_quote## one of the most beatable teams that we've seen come out of Korea in a while ##end_quote## [文档 5]），这标志着老牌霸权统治力出现缝隙的典型历史时刻。在单局比赛中，这种“窗口期”效应会被放大，LYON凭借其体系化的协同和Inspired的巅峰状态，完全有能力将比赛拖入高不确定性的领域。",
+        "raw_response": "FINAL REASONING: 纵观整场辩论，最有力的历史类比信号来自两个相互印证的文档：LYON作为新兴冠军，其胜利公式（##begin_quote## we have the same formula we had last year... Fly Quest reincarnated ##end_quote## [文档 5]）和近期夺冠事实（##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]）构成了明确的“崛起叙事”。而Gen.G被分析师公开讨论其“可击败性”（##begin_quote## one of the most beatable teams that we've seen come out of Korea in a while ##end_quote## [文档 5]），这标志着老牌霸权统治力出现缝隙的典型历史时刻。在单局比赛中，这种“窗口期”效应会被放大，LYON凭借其体系化的协同和Inspired的巅峰状态，完全有能力将比赛拖入高不确定性的领域。\n\nFINAL PREDICTION: 58.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "we have the same formula we had last year... Fly Quest reincarnated",
+              "doc_index": 5
+            },
+            {
+              "quote": "LYON wins their first ever LCS title... Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "one of the most beatable teams that we've seen come out of Korea in a while",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "数据统计师",
+        "stance": "neutral",
+        "probability": 50.0,
+        "reasoning": "综合辩论，最关键的统计证据是LYON在最近、最相关的赛事中展现的冠军级数据：##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]，其获胜局（如21-6, 18-10的击杀比）展现了高水平的团队协同。虽然文档5指出个体能力差距，但同一文档也承认当前Gen.G是##begin_quote## one of the most beatable teams that we've seen come out of Korea in a while ##end_quote## [文档 5]，这削弱了传统赛区实力先验的强度。在单局预测中，LYON的近期高样本量表现数据应获得最高权重。",
+        "raw_response": "FINAL REASONING: 综合辩论，最关键的统计证据是LYON在最近、最相关的赛事中展现的冠军级数据：##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]，其获胜局（如21-6, 18-10的击杀比）展现了高水平的团队协同。虽然文档5指出个体能力差距，但同一文档也承认当前Gen.G是##begin_quote## one of the most beatable teams that we've seen come out of Korea in a while ##end_quote## [文档 5]，这削弱了传统赛区实力先验的强度。在单局预测中，LYON的近期高样本量表现数据应获得最高权重。\n\nFINAL PREDICTION: 50.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "LYON wins their first ever LCS title... Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "one of the most beatable teams that we've seen come out of Korea in a while",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "情绪分析师",
+        "stance": "bull",
+        "probability": 52.0,
+        "reasoning": "经过完整辩论，情绪天平的倾斜已清晰可见。市场对Gen.G的定价（普遍高于70%）严重滞后于叙事转变的速度。核心驱动力是LYON的“冠军自信”情绪与Gen.G的“可击败性”焦虑的共振：##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7] 提供了无可辩驳的情绪燃料，而 ##begin_quote## I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while. ##end_quote## [文档 5] 则直接侵蚀了Gen.G的心理护城河。在Game 4的特定压力锅中，LYON作为挑战者的情绪动能（饥饿感、无包袱）将最大化，足以将单局比赛的胜负悬念推至接近均衡。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，情绪天平的倾斜已清晰可见。市场对Gen.G的定价（普遍高于70%）严重滞后于叙事转变的速度。核心驱动力是LYON的“冠军自信”情绪与Gen.G的“可击败性”焦虑的共振：##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7] 提供了无可辩驳的情绪燃料，而 ##begin_quote## I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while. ##end_quote## [文档 5] 则直接侵蚀了Gen.G的心理护城河。在Game 4的特定压力锅中，LYON作为挑战者的情绪动能（饥饿感、无包袱）将最大化，足以将单局比赛的胜负悬念推至接近均衡。\n\nFINAL PREDICTION: 52.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "LYON wins their first ever LCS title... Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while.",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "逆向投资者",
+        "stance": "bear",
+        "probability": 48.0,
+        "reasoning": "市场共识（体现在贝叶斯88%、综合策略师72%等预测中）严重锚定于“韩国队无敌”的过时叙事，系统性低估了LYON作为新科冠军的即时战力。文档7提供了最强反向信号：##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]，而文档5明确指出当前Gen.G是##begin_quote## one of the most beatable teams that we've seen come out of Korea in a while ##end_quote## [文档 5]。在BO5第四局的高压情境下，均值回归的力量将远超共识预期，LYON被低估的团队协同和战术准备（Fly Quest公式）足以将单局胜率拉近至均衡。",
+        "raw_response": "FINAL REASONING: 市场共识（体现在贝叶斯88%、综合策略师72%等预测中）严重锚定于“韩国队无敌”的过时叙事，系统性低估了LYON作为新科冠军的即时战力。文档7提供了最强反向信号：##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]，而文档5明确指出当前Gen.G是##begin_quote## one of the most beatable teams that we've seen come out of Korea in a while ##end_quote## [文档 5]。在BO5第四局的高压情境下，均值回归的力量将远超共识预期，LYON被低估的团队协同和战术准备（Fly Quest公式）足以将单局胜率拉近至均衡。\n\nFINAL PREDICTION: 48.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "LYON wins their first ever LCS title... Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "one of the most beatable teams that we've seen come out of Korea in a while",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "基本面分析师",
+        "stance": "neutral",
+        "probability": 52.0,
+        "reasoning": "经过完整辩论，我的最终分析基于对双方结构性因素的重新评估。LYON已非仅有潜力的挑战者，而是拥有##begin_quote## the same formula we had last year... a top laner that could play counter picks... The MVP jungler... a mid laner that can carry... and a bot lane that can hold their own ##end_quote## [文档 5]这一成熟体系的新科LCS冠军（##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]）。同时，关键信息表明当前Gen.G的统治力存在结构性缝隙，被认为是##begin_quote## one of the most beatable teams that we’ve seen come out of Korea in a while ##end_quote## [文档 5]。在单局比赛中，LYON的体系化优势和上升势头足以将双方的系统性差距缩小至接近均势。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，我的最终分析基于对双方结构性因素的重新评估。LYON已非仅有潜力的挑战者，而是拥有##begin_quote## the same formula we had last year... a top laner that could play counter picks... The MVP jungler... a mid laner that can carry... and a bot lane that can hold their own ##end_quote## [文档 5]这一成熟体系的新科LCS冠军（##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]）。同时，关键信息表明当前Gen.G的统治力存在结构性缝隙，被认为是##begin_quote## one of the most beatable teams that we’ve seen come out of Korea in a while ##end_quote## [文档 5]。在单局比赛中，LYON的体系化优势和上升势头足以将双方的系统性差距缩小至接近均势。\n\nFINAL PREDICTION: 52.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "the same formula we had last year... a top laner that could play counter picks... The MVP jungler... a mid laner that can carry... and a bot lane that can hold their own",
+              "doc_index": 5
+            },
+            {
+              "quote": "LYON wins their first ever LCS title... Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "one of the most beatable teams that we’ve seen come out of Korea in a while",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "风险评估师",
+        "stance": "bear",
+        "probability": 80.0,
+        "reasoning": "辩论强化了我的核心风险矩阵：基准情景（Gen.G胜）概率必须因LYON的**新科冠军状态风险**（##begin_quote## LYON wins their first ever LCS title ##end_quote## [文档 7]）而下调，但这仍是一个**高概率、高影响**事件。LYON的胜利路径（依赖Inspired MVP级表现）是**低概率、高影响**的尾部风险，其上限被##begin_quote## there is nobody on this roster, including inspired, that is at the level individually of what GenG is at ##end_quote## [文档 5]这一结构性屏障严格约束。市场共识已部分price in LYON的近期势头，但普遍低估了Gen.G个体能力差距带来的系统性风险压制的强度。",
+        "raw_response": "FINAL REASONING: 辩论强化了我的核心风险矩阵：基准情景（Gen.G胜）概率必须因LYON的**新科冠军状态风险**（##begin_quote## LYON wins their first ever LCS title ##end_quote## [文档 7]）而下调，但这仍是一个**高概率、高影响**事件。LYON的胜利路径（依赖Inspired MVP级表现）是**低概率、高影响**的尾部风险，其上限被##begin_quote## there is nobody on this roster, including inspired, that is at the level individually of what GenG is at ##end_quote## [文档 5]这一结构性屏障严格约束。市场共识已部分price in LYON的近期势头，但普遍低估了Gen.G个体能力差距带来的系统性风险压制的强度。\n\nFINAL PREDICTION: 80.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "LYON wins their first ever LCS title",
+              "doc_index": 7
+            },
+            {
+              "quote": "there is nobody on this roster, including inspired, that is at the level individually of what GenG is at",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "综合策略师",
+        "stance": "neutral",
+        "probability": 65.0,
+        "reasoning": "经过整场辩论，最关键的信号共振点在于：**文档7**提供了LYON作为新科LCS冠军（##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]）的硬数据，这构成了对“Gen.G必胜”叙事的最大挑战，并与**文档5**中关于LYON拥有成熟“胜利公式”的定性分析（##begin_quote## we have the same formula we had last year... Fly Quest reincarnated ##end_quote## [文档 5]）形成合力。然而，**文档5**中关于个体能力差距的论断（##begin_quote## there is nobody on this roster... at the level individually of what GenG is at ##end_quote## [文档 5]）依然是一个无法忽视的结构性约束，它限制了LYON的爆冷概率上限，但并未将其归零。综合来看，LYON已从“潜力挑战者”升级为“具备清晰胜利路径的实质竞争者”，这使得Game 4的胜负远非一边倒。",
+        "raw_response": "FINAL REASONING: 经过整场辩论，最关键的信号共振点在于：**文档7**提供了LYON作为新科LCS冠军（##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]）的硬数据，这构成了对“Gen.G必胜”叙事的最大挑战，并与**文档5**中关于LYON拥有成熟“胜利公式”的定性分析（##begin_quote## we have the same formula we had last year... Fly Quest reincarnated ##end_quote## [文档 5]）形成合力。然而，**文档5**中关于个体能力差距的论断（##begin_quote## there is nobody on this roster... at the level individually of what GenG is at ##end_quote## [文档 5]）依然是一个无法忽视的结构性约束，它限制了LYON的爆冷概率上限，但并未将其归零。综合来看，LYON已从“潜力挑战者”升级为“具备清晰胜利路径的实质竞争者”，这使得Game 4的胜负远非一边倒。\n\nFINAL PREDICTION: 65.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "LYON wins their first ever LCS title... Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "we have the same formula we had last year... Fly Quest reincarnated",
+              "doc_index": 5
+            },
+            {
+              "quote": "there is nobody on this roster... at the level individually of what GenG is at",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      }
+    ]
+  },
+  "meta_predictions": {
+    "乐观分析师": 50.5,
+    "质疑分析师": 53.5,
+    "贝叶斯分析师": 67.5,
+    "数据统计师": 58.0,
+    "情绪分析师": 50.5,
+    "历史类比师": 56.5,
+    "基本面分析师": 51.2,
+    "逆向投资者": 58.0,
+    "风险评估师": 70.0,
+    "综合策略师": 62.5
+  },
+  "round1_average": 71.1,
+  "aggregated_probability": 57.9,
+  "aggregation_mechanisms": {
+    "simple_average": {
+      "probability": 57.9,
+      "details": {
+        "n_agents": 10
+      }
+    },
+    "median": {
+      "probability": 52.0,
+      "details": {
+        "n_agents": 10
+      }
+    },
+    "trimmed_mean": {
+      "probability": 56.38,
+      "details": {
+        "n_original": 10,
+        "n_trimmed": 8,
+        "trim_frac": 0.1
+      }
+    },
+    "logit_average": {
+      "probability": 58.46,
+      "details": {
+        "avg_log_odds": 0.3416,
+        "n_agents": 10
+      }
+    },
+    "extremized": {
+      "probability": 68.93,
+      "details": {
+        "raw_average": 57.9,
+        "extremization_d": 2.5
+      }
+    },
+    "reputation_weighted": {
+      "probability": 57.9,
+      "details": {
+        "乐观分析师": {
+          "prediction": 52.0,
+          "weight": 0.1
+        },
+        "质疑分析师": {
+          "prediction": 52.0,
+          "weight": 0.1
+        },
+        "贝叶斯分析师": {
+          "prediction": 70.0,
+          "weight": 0.1
+        },
+        "历史类比师": {
+          "prediction": 58.0,
+          "weight": 0.1
+        },
+        "数据统计师": {
+          "prediction": 50.0,
+          "weight": 0.1
+        },
+        "情绪分析师": {
+          "prediction": 52.0,
+          "weight": 0.1
+        },
+        "逆向投资者": {
+          "prediction": 48.0,
+          "weight": 0.1
+        },
+        "基本面分析师": {
+          "prediction": 52.0,
+          "weight": 0.1
+        },
+        "风险评估师": {
+          "prediction": 80.0,
+          "weight": 0.1
+        },
+        "综合策略师": {
+          "prediction": 65.0,
+          "weight": 0.1
+        }
+      }
+    },
+    "lmsr_market": {
+      "probability": 64.41,
+      "details": {
+        "liquidity": 100.0,
+        "trade_history": [
+          {
+            "agent_name": "贝叶斯分析师",
+            "action": "buy_yes",
+            "belief": 0.7,
+            "shares": 35.1562,
+            "cost": 19.8087,
+            "price_before": 0.52,
+            "price_after": 0.6063,
+            "edge": 0.18
+          },
+          {
+            "agent_name": "历史类比师",
+            "action": "buy_no",
+            "belief": 0.58,
+            "shares": 7.2021,
+            "cost": 2.898,
+            "price_before": 0.6063,
+            "price_after": 0.5889,
+            "edge": -0.0263
+          },
+          {
+            "agent_name": "数据统计师",
+            "action": "buy_no",
+            "belief": 0.5,
+            "shares": 22.3083,
+            "cost": 9.7793,
+            "price_before": 0.5889,
+            "price_after": 0.5341,
+            "edge": -0.0889
+          },
+          {
+            "agent_name": "情绪分析师",
+            "action": "buy_no",
+            "belief": 0.52,
+            "shares": 3.2959,
+            "cost": 1.5492,
+            "price_before": 0.5341,
+            "price_after": 0.5259,
+            "edge": -0.0141
+          },
+          {
+            "agent_name": "逆向投资者",
+            "action": "buy_no",
+            "belief": 0.48,
+            "shares": 10.376,
+            "cost": 5.054,
+            "price_before": 0.5259,
+            "price_after": 0.4999,
+            "edge": -0.0459
+          },
+          {
+            "agent_name": "基本面分析师",
+            "action": "buy_yes",
+            "belief": 0.52,
+            "shares": 4.364,
+            "cost": 2.2056,
+            "price_before": 0.4999,
+            "price_after": 0.5109,
+            "edge": 0.0201
+          },
+          {
+            "agent_name": "风险评估师",
+            "action": "buy_yes",
+            "belief": 0.8,
+            "shares": 54.9927,
+            "cost": 31.8105,
+            "price_before": 0.5109,
+            "price_after": 0.6441,
+            "edge": 0.2891
+          }
+        ],
+        "initial_price": 50.0,
+        "final_price": 64.4133
+      }
+    },
+    "peer_prediction": {
+      "probability": 59.49,
+      "details": {
+        "actual_average": 57.9,
+        "agent_scores": {
+          "乐观分析师": {
+            "prediction": 0.52,
+            "meta_prediction": 0.505,
+            "surprisingness": -0.1046,
+            "information_score": 0.926,
+            "bts_score": 0.8214,
+            "weight": 0.0872
+          },
+          "质疑分析师": {
+            "prediction": 0.52,
+            "meta_prediction": 0.535,
+            "surprisingness": -0.1046,
+            "information_score": 0.956,
+            "bts_score": 0.8514,
+            "weight": 0.0898
+          },
+          "贝叶斯分析师": {
+            "prediction": 0.7,
+            "meta_prediction": 0.675,
+            "surprisingness": 0.2257,
+            "information_score": 0.904,
+            "bts_score": 1.1297,
+            "weight": 0.1187
+          },
+          "历史类比师": {
+            "prediction": 0.58,
+            "meta_prediction": 0.565,
+            "surprisingness": 0.0168,
+            "information_score": 0.986,
+            "bts_score": 1.0028,
+            "weight": 0.1045
+          },
+          "数据统计师": {
+            "prediction": 0.5,
+            "meta_prediction": 0.58,
+            "surprisingness": -0.1481,
+            "information_score": 0.999,
+            "bts_score": 0.8509,
+            "weight": 0.0898
+          },
+          "情绪分析师": {
+            "prediction": 0.52,
+            "meta_prediction": 0.505,
+            "surprisingness": -0.1046,
+            "information_score": 0.926,
+            "bts_score": 0.8214,
+            "weight": 0.0872
+          },
+          "逆向投资者": {
+            "prediction": 0.48,
+            "meta_prediction": 0.58,
+            "surprisingness": -0.1935,
+            "information_score": 0.999,
+            "bts_score": 0.8055,
+            "weight": 0.0858
+          },
+          "基本面分析师": {
+            "prediction": 0.52,
+            "meta_prediction": 0.512,
+            "surprisingness": -0.1046,
+            "information_score": 0.933,
+            "bts_score": 0.8284,
+            "weight": 0.0878
+          },
+          "风险评估师": {
+            "prediction": 0.8,
+            "meta_prediction": 0.7,
+            "surprisingness": 0.3741,
+            "information_score": 0.879,
+            "bts_score": 1.2531,
+            "weight": 0.1343
+          },
+          "综合策略师": {
+            "prediction": 0.65,
+            "meta_prediction": 0.625,
+            "surprisingness": 0.1434,
+            "information_score": 0.954,
+            "bts_score": 1.0974,
+            "weight": 0.1149
+          }
+        }
+      }
+    },
+    "hybrid": {
+      "probability": 60.98,
+      "details": {
+        "components": {
+          "reputation_weighted": 57.9,
+          "lmsr_market": 64.41,
+          "peer_prediction": 59.49
+        },
+        "lambdas": {
+          "market": 0.4,
+          "reputation": 0.3,
+          "bts": 0.3
+        },
+        "m1_details": {
+          "乐观分析师": {
+            "prediction": 52.0,
+            "weight": 0.1
+          },
+          "质疑分析师": {
+            "prediction": 52.0,
+            "weight": 0.1
+          },
+          "贝叶斯分析师": {
+            "prediction": 70.0,
+            "weight": 0.1
+          },
+          "历史类比师": {
+            "prediction": 58.0,
+            "weight": 0.1
+          },
+          "数据统计师": {
+            "prediction": 50.0,
+            "weight": 0.1
+          },
+          "情绪分析师": {
+            "prediction": 52.0,
+            "weight": 0.1
+          },
+          "逆向投资者": {
+            "prediction": 48.0,
+            "weight": 0.1
+          },
+          "基本面分析师": {
+            "prediction": 52.0,
+            "weight": 0.1
+          },
+          "风险评估师": {
+            "prediction": 80.0,
+            "weight": 0.1
+          },
+          "综合策略师": {
+            "prediction": 65.0,
+            "weight": 0.1
+          }
+        },
+        "m2_details": {
+          "liquidity": 100.0,
+          "trade_history": [
+            {
+              "agent_name": "贝叶斯分析师",
+              "action": "buy_yes",
+              "belief": 0.7,
+              "shares": 35.1562,
+              "cost": 19.8087,
+              "price_before": 0.52,
+              "price_after": 0.6063,
+              "edge": 0.18
+            },
+            {
+              "agent_name": "历史类比师",
+              "action": "buy_no",
+              "belief": 0.58,
+              "shares": 7.2021,
+              "cost": 2.898,
+              "price_before": 0.6063,
+              "price_after": 0.5889,
+              "edge": -0.0263
+            },
+            {
+              "agent_name": "数据统计师",
+              "action": "buy_no",
+              "belief": 0.5,
+              "shares": 22.3083,
+              "cost": 9.7793,
+              "price_before": 0.5889,
+              "price_after": 0.5341,
+              "edge": -0.0889
+            },
+            {
+              "agent_name": "情绪分析师",
+              "action": "buy_no",
+              "belief": 0.52,
+              "shares": 3.2959,
+              "cost": 1.5492,
+              "price_before": 0.5341,
+              "price_after": 0.5259,
+              "edge": -0.0141
+            },
+            {
+              "agent_name": "逆向投资者",
+              "action": "buy_no",
+              "belief": 0.48,
+              "shares": 10.376,
+              "cost": 5.054,
+              "price_before": 0.5259,
+              "price_after": 0.4999,
+              "edge": -0.0459
+            },
+            {
+              "agent_name": "基本面分析师",
+              "action": "buy_yes",
+              "belief": 0.52,
+              "shares": 4.364,
+              "cost": 2.2056,
+              "price_before": 0.4999,
+              "price_after": 0.5109,
+              "edge": 0.0201
+            },
+            {
+              "agent_name": "风险评估师",
+              "action": "buy_yes",
+              "belief": 0.8,
+              "shares": 54.9927,
+              "cost": 31.8105,
+              "price_before": 0.5109,
+              "price_after": 0.6441,
+              "edge": 0.2891
+            }
+          ],
+          "initial_price": 50.0,
+          "final_price": 64.4133
+        },
+        "m3_details": {
+          "actual_average": 57.9,
+          "agent_scores": {
+            "乐观分析师": {
+              "prediction": 0.52,
+              "meta_prediction": 0.505,
+              "surprisingness": -0.1046,
+              "information_score": 0.926,
+              "bts_score": 0.8214,
+              "weight": 0.0872
+            },
+            "质疑分析师": {
+              "prediction": 0.52,
+              "meta_prediction": 0.535,
+              "surprisingness": -0.1046,
+              "information_score": 0.956,
+              "bts_score": 0.8514,
+              "weight": 0.0898
+            },
+            "贝叶斯分析师": {
+              "prediction": 0.7,
+              "meta_prediction": 0.675,
+              "surprisingness": 0.2257,
+              "information_score": 0.904,
+              "bts_score": 1.1297,
+              "weight": 0.1187
+            },
+            "历史类比师": {
+              "prediction": 0.58,
+              "meta_prediction": 0.565,
+              "surprisingness": 0.0168,
+              "information_score": 0.986,
+              "bts_score": 1.0028,
+              "weight": 0.1045
+            },
+            "数据统计师": {
+              "prediction": 0.5,
+              "meta_prediction": 0.58,
+              "surprisingness": -0.1481,
+              "information_score": 0.999,
+              "bts_score": 0.8509,
+              "weight": 0.0898
+            },
+            "情绪分析师": {
+              "prediction": 0.52,
+              "meta_prediction": 0.505,
+              "surprisingness": -0.1046,
+              "information_score": 0.926,
+              "bts_score": 0.8214,
+              "weight": 0.0872
+            },
+            "逆向投资者": {
+              "prediction": 0.48,
+              "meta_prediction": 0.58,
+              "surprisingness": -0.1935,
+              "information_score": 0.999,
+              "bts_score": 0.8055,
+              "weight": 0.0858
+            },
+            "基本面分析师": {
+              "prediction": 0.52,
+              "meta_prediction": 0.512,
+              "surprisingness": -0.1046,
+              "information_score": 0.933,
+              "bts_score": 0.8284,
+              "weight": 0.0878
+            },
+            "风险评估师": {
+              "prediction": 0.8,
+              "meta_prediction": 0.7,
+              "surprisingness": 0.3741,
+              "information_score": 0.879,
+              "bts_score": 1.2531,
+              "weight": 0.1343
+            },
+            "综合策略师": {
+              "prediction": 0.65,
+              "meta_prediction": 0.625,
+              "surprisingness": 0.1434,
+              "information_score": 0.954,
+              "bts_score": 1.0974,
+              "weight": 0.1149
+            }
+          }
+        }
+      }
+    }
+  },
+  "entity_graph": {
+    "entities": [
+      {
+        "name": "Gen.G",
+        "type": "org",
+        "description": "韩国电子竞技俱乐部",
+        "attributes": {}
+      },
+      {
+        "name": "BLG",
+        "type": "org",
+        "description": "Bilibili Gaming 电子竞技俱乐部",
+        "attributes": {}
+      },
+      {
+        "name": "MSI 2023",
+        "type": "event",
+        "description": "2023年英雄联盟季中邀请赛",
+        "attributes": {}
+      },
+      {
+        "name": "peanut",
+        "type": "person",
+        "description": "Gen.G 战队打野选手",
+        "attributes": {}
+      },
+      {
+        "name": "Jax",
+        "type": "person",
+        "description": "英雄联盟游戏角色",
+        "attributes": {}
+      },
+      {
+        "name": "Gragas",
+        "type": "person",
+        "description": "英雄联盟游戏角色",
+        "attributes": {}
+      },
+      {
+        "name": "Gangplank",
+        "type": "person",
+        "description": "英雄联盟游戏角色",
+        "attributes": {}
+      },
+      {
+        "name": "Maokai",
+        "type": "person",
+        "description": "英雄联盟游戏角色",
+        "attributes": {}
+      },
+      {
+        "name": "Talia",
+        "type": "person",
+        "description": "英雄联盟游戏角色",
+        "attributes": {}
+      },
+      {
+        "name": "Jun",
+        "type": "person",
+        "description": "BLG 战队选手",
+        "attributes": {}
+      },
+      {
+        "name": "Ben",
+        "type": "person",
+        "description": "BLG 战队选手",
+        "attributes": {}
+      },
+      {
+        "name": "Shun",
+        "type": "person",
+        "description": "BLG 战队选手",
+        "attributes": {}
+      },
+      {
+        "name": "Shelby",
+        "type": "person",
+        "description": "Gen.G 战队选手",
+        "attributes": {}
+      },
+      {
+        "name": "meteos",
+        "type": "person",
+        "description": "解说或分析师",
+        "attributes": {}
+      },
+      {
+        "name": "YouTube",
+        "type": "org",
+        "description": "视频分享平台",
+        "attributes": {}
+      }
+    ],
+    "relations": [
+      {
+        "source": "Gen.G",
+        "target": "BLG",
+        "relation_type": "对阵",
+        "context": "MSI 2023 比赛中的对手"
+      },
+      {
+        "source": "peanut",
+        "target": "Gen.G",
+        "relation_type": "效力于",
+        "context": "peanut 是 Gen.G 战队的打野选手"
+      },
+      {
+        "source": "Jun",
+        "target": "BLG",
+        "relation_type": "效力于",
+        "context": "Jun 是 BLG 战队的选手"
+      },
+      {
+        "source": "Ben",
+        "target": "BLG",
+        "relation_type": "效力于",
+        "context": "Ben 是 BLG 战队的选手"
+      },
+      {
+        "source": "Shun",
+        "target": "BLG",
+        "relation_type": "效力于",
+        "context": "Shun 是 BLG 战队的选手"
+      },
+      {
+        "source": "Shelby",
+        "target": "Gen.G",
+        "relation_type": "效力于",
+        "context": "Shelby 是 Gen.G 战队的选手"
+      },
+      {
+        "source": "meteos",
+        "target": "MSI 2023",
+        "relation_type": "解说",
+        "context": "meteos 对 MSI 2023 比赛进行解说"
+      },
+      {
+        "source": "MSI 2023",
+        "target": "YouTube",
+        "relation_type": "直播平台",
+        "context": "MSI 2023 比赛在 YouTube 上直播"
+      },
+      {
+        "source": "Jax",
+        "target": "Gragas",
+        "relation_type": "对阵",
+        "context": "游戏中 Jax 与 Gragas 对线"
+      },
+      {
+        "source": "Gangplank",
+        "target": "MSI 2023",
+        "relation_type": "被禁用",
+        "context": "Gangplank 在 MSI 2023 比赛中被禁用"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "比赛开始",
+        "event": "Jax 与 Gragas 对线，Gangplank 被禁用"
+      },
+      {
+        "date": "早期对线",
+        "event": "peanut 可能跳过了一个野怪营地"
+      },
+      {
+        "date": "中期团战",
+        "event": "Gen.G 在中路发起小规模团战，针对没有闪现的 Jun"
+      },
+      {
+        "date": "峡谷先锋",
+        "event": "BLG 的 Ben 和 Shun 返回峡谷先锋坑，Gen.G 的 peanut 和 Shelby 仍在附近"
+      },
+      {
+        "date": "团战爆发",
+        "event": "Shelby 越过墙壁，发生激烈团战"
+      },
+      {
+        "date": "关键时刻",
+        "event": "BLG 选手试图闪现但失败，Gen.G 获得优势"
+      },
+      {
+        "date": "比赛后期",
+        "event": "Gen.G 清理兵线，BLG 试图争夺目标"
+      },
+      {
+        "date": "比赛结束",
+        "event": "Gen.G 在团战中取得优势，可能赢得比赛"
+      }
+    ]
+  },
+  "reputation_snapshot": {
+    "乐观分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "质疑分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "贝叶斯分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "历史类比师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "数据统计师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "情绪分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "逆向投资者": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "基本面分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "风险评估师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "综合策略师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    }
+  },
+  "agents": [
+    {
+      "name": "乐观分析师",
+      "stance": "bull",
+      "final": {
+        "agent_name": "乐观分析师",
+        "stance": "bull",
+        "probability": 52.0,
+        "reasoning": "经过完整辩论，最有力的证据链已经清晰：LYON并非普通挑战者，而是拥有明确冠军公式和火热状态的强队 ##begin_quote## we have the same formula we had last year... Fly Quest reincarnated ##end_quote## [文档 5]，其核心打野Inspired正处于巅峰 ##begin_quote## Finals MVP: Inspired ##end_quote## [文档 7]。同时，对手Gen.G被分析师明确指出是“一段时间以来最可击败的韩国队之一” ##begin_quote## I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while. ##end_quote## [文档 5]。这两大乐观信号结合，使得LYON在Game 4中的机会远超市场基于陈旧赛区印象的定价。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，最有力的证据链已经清晰：LYON并非普通挑战者，而是拥有明确冠军公式和火热状态的强队 ##begin_quote## we have the same formula we had last year... Fly Quest reincarnated ##end_quote## [文档 5]，其核心打野Inspired正处于巅峰 ##begin_quote## Finals MVP: Inspired ##end_quote## [文档 7]。同时，对手Gen.G被分析师明确指出是“一段时间以来最可击败的韩国队之一” ##begin_quote## I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while. ##end_quote## [文档 5]。这两大乐观信号结合，使得LYON在Game 4中的机会远超市场基于陈旧赛区印象的定价。\n\nFINAL PREDICTION: 52.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "we have the same formula we had last year... Fly Quest reincarnated",
+              "doc_index": 5
+            },
+            {
+              "quote": "Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while.",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "name": "质疑分析师",
+      "stance": "bear",
+      "final": {
+        "agent_name": "质疑分析师",
+        "stance": "bear",
+        "probability": 52.0,
+        "reasoning": "经过整场辩论，最有力的论点来自数据统计师和逆向投资者，他们共同指出市场共识（多数分析师预测70%+）严重依赖过时基准率（如文档1的MSI 2023）和“LCK > LCS”的先验偏见，而系统性低估了LYON基于近期、高相关性证据的真实威胁：##begin_quote## LYON 3-2 LOUD ... Player of the Series: Inspired ##end_quote## [文档 7] 以及其被认可的成熟团队公式 ##begin_quote## the same formula we had last year ... Fly Quest reincarnated ##end_quote## [文档 5]。结合文档5中“Gen.G是近期最可击败的韩国队之一”的论述，LYON在Game 4的获胜路径清晰且概率被市场显著低估，这并非尾部风险，而是可评估的中等概率事件。",
+        "raw_response": "FINAL REASONING: 经过整场辩论，最有力的论点来自数据统计师和逆向投资者，他们共同指出市场共识（多数分析师预测70%+）严重依赖过时基准率（如文档1的MSI 2023）和“LCK > LCS”的先验偏见，而系统性低估了LYON基于近期、高相关性证据的真实威胁：##begin_quote## LYON 3-2 LOUD ... Player of the Series: Inspired ##end_quote## [文档 7] 以及其被认可的成熟团队公式 ##begin_quote## the same formula we had last year ... Fly Quest reincarnated ##end_quote## [文档 5]。结合文档5中“Gen.G是近期最可击败的韩国队之一”的论述，LYON在Game 4的获胜路径清晰且概率被市场显著低估，这并非尾部风险，而是可评估的中等概率事件。\n\nFINAL PREDICTION: 52.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "LYON 3-2 LOUD ... Player of the Series: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "the same formula we had last year ... Fly Quest reincarnated",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "name": "贝叶斯分析师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "贝叶斯分析师",
+        "stance": "neutral",
+        "probability": 70.0,
+        "reasoning": "辩论后，我的最终分析严格基于贝叶斯更新。先验概率（Gen.G作为LCK顶级强队）依然提供强大的基准率，但文档7中LYON作为新科LCS冠军的近期证据 ##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7] 显著提升了LYON获胜的似然率。然而，文档5中关于个体能力差距的硬约束 ##begin_quote## there is nobody on this roster, including inspired, that is at the level individually of what GenG is at ##end_quote## [文档 5] 限制了后验概率向LYON倾斜的幅度。综合权衡，LYON的团队协同和近期状态证据有效削弱了先验，但不足以完全抵消实力差距。",
+        "raw_response": "FINAL REASONING: 辩论后，我的最终分析严格基于贝叶斯更新。先验概率（Gen.G作为LCK顶级强队）依然提供强大的基准率，但文档7中LYON作为新科LCS冠军的近期证据 ##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7] 显著提升了LYON获胜的似然率。然而，文档5中关于个体能力差距的硬约束 ##begin_quote## there is nobody on this roster, including inspired, that is at the level individually of what GenG is at ##end_quote## [文档 5] 限制了后验概率向LYON倾斜的幅度。综合权衡，LYON的团队协同和近期状态证据有效削弱了先验，但不足以完全抵消实力差距。\n\nFINAL PREDICTION: 70.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "LYON wins their first ever LCS title... Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "there is nobody on this roster, including inspired, that is at the level individually of what GenG is at",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "name": "历史类比师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "历史类比师",
+        "stance": "neutral",
+        "probability": 58.0,
+        "reasoning": "纵观整场辩论，最有力的历史类比信号来自两个相互印证的文档：LYON作为新兴冠军，其胜利公式（##begin_quote## we have the same formula we had last year... Fly Quest reincarnated ##end_quote## [文档 5]）和近期夺冠事实（##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]）构成了明确的“崛起叙事”。而Gen.G被分析师公开讨论其“可击败性”（##begin_quote## one of the most beatable teams that we've seen come out of Korea in a while ##end_quote## [文档 5]），这标志着老牌霸权统治力出现缝隙的典型历史时刻。在单局比赛中，这种“窗口期”效应会被放大，LYON凭借其体系化的协同和Inspired的巅峰状态，完全有能力将比赛拖入高不确定性的领域。",
+        "raw_response": "FINAL REASONING: 纵观整场辩论，最有力的历史类比信号来自两个相互印证的文档：LYON作为新兴冠军，其胜利公式（##begin_quote## we have the same formula we had last year... Fly Quest reincarnated ##end_quote## [文档 5]）和近期夺冠事实（##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]）构成了明确的“崛起叙事”。而Gen.G被分析师公开讨论其“可击败性”（##begin_quote## one of the most beatable teams that we've seen come out of Korea in a while ##end_quote## [文档 5]），这标志着老牌霸权统治力出现缝隙的典型历史时刻。在单局比赛中，这种“窗口期”效应会被放大，LYON凭借其体系化的协同和Inspired的巅峰状态，完全有能力将比赛拖入高不确定性的领域。\n\nFINAL PREDICTION: 58.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "we have the same formula we had last year... Fly Quest reincarnated",
+              "doc_index": 5
+            },
+            {
+              "quote": "LYON wins their first ever LCS title... Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "one of the most beatable teams that we've seen come out of Korea in a while",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "name": "数据统计师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "数据统计师",
+        "stance": "neutral",
+        "probability": 50.0,
+        "reasoning": "综合辩论，最关键的统计证据是LYON在最近、最相关的赛事中展现的冠军级数据：##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]，其获胜局（如21-6, 18-10的击杀比）展现了高水平的团队协同。虽然文档5指出个体能力差距，但同一文档也承认当前Gen.G是##begin_quote## one of the most beatable teams that we've seen come out of Korea in a while ##end_quote## [文档 5]，这削弱了传统赛区实力先验的强度。在单局预测中，LYON的近期高样本量表现数据应获得最高权重。",
+        "raw_response": "FINAL REASONING: 综合辩论，最关键的统计证据是LYON在最近、最相关的赛事中展现的冠军级数据：##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]，其获胜局（如21-6, 18-10的击杀比）展现了高水平的团队协同。虽然文档5指出个体能力差距，但同一文档也承认当前Gen.G是##begin_quote## one of the most beatable teams that we've seen come out of Korea in a while ##end_quote## [文档 5]，这削弱了传统赛区实力先验的强度。在单局预测中，LYON的近期高样本量表现数据应获得最高权重。\n\nFINAL PREDICTION: 50.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "LYON wins their first ever LCS title... Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "one of the most beatable teams that we've seen come out of Korea in a while",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "name": "情绪分析师",
+      "stance": "bull",
+      "final": {
+        "agent_name": "情绪分析师",
+        "stance": "bull",
+        "probability": 52.0,
+        "reasoning": "经过完整辩论，情绪天平的倾斜已清晰可见。市场对Gen.G的定价（普遍高于70%）严重滞后于叙事转变的速度。核心驱动力是LYON的“冠军自信”情绪与Gen.G的“可击败性”焦虑的共振：##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7] 提供了无可辩驳的情绪燃料，而 ##begin_quote## I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while. ##end_quote## [文档 5] 则直接侵蚀了Gen.G的心理护城河。在Game 4的特定压力锅中，LYON作为挑战者的情绪动能（饥饿感、无包袱）将最大化，足以将单局比赛的胜负悬念推至接近均衡。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，情绪天平的倾斜已清晰可见。市场对Gen.G的定价（普遍高于70%）严重滞后于叙事转变的速度。核心驱动力是LYON的“冠军自信”情绪与Gen.G的“可击败性”焦虑的共振：##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7] 提供了无可辩驳的情绪燃料，而 ##begin_quote## I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while. ##end_quote## [文档 5] 则直接侵蚀了Gen.G的心理护城河。在Game 4的特定压力锅中，LYON作为挑战者的情绪动能（饥饿感、无包袱）将最大化，足以将单局比赛的胜负悬念推至接近均衡。\n\nFINAL PREDICTION: 52.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "LYON wins their first ever LCS title... Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "I think BFX is genuinely like going to be one of the most beatable teams that we've seen come out of Korea in a while.",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "name": "逆向投资者",
+      "stance": "bear",
+      "final": {
+        "agent_name": "逆向投资者",
+        "stance": "bear",
+        "probability": 48.0,
+        "reasoning": "市场共识（体现在贝叶斯88%、综合策略师72%等预测中）严重锚定于“韩国队无敌”的过时叙事，系统性低估了LYON作为新科冠军的即时战力。文档7提供了最强反向信号：##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]，而文档5明确指出当前Gen.G是##begin_quote## one of the most beatable teams that we've seen come out of Korea in a while ##end_quote## [文档 5]。在BO5第四局的高压情境下，均值回归的力量将远超共识预期，LYON被低估的团队协同和战术准备（Fly Quest公式）足以将单局胜率拉近至均衡。",
+        "raw_response": "FINAL REASONING: 市场共识（体现在贝叶斯88%、综合策略师72%等预测中）严重锚定于“韩国队无敌”的过时叙事，系统性低估了LYON作为新科冠军的即时战力。文档7提供了最强反向信号：##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]，而文档5明确指出当前Gen.G是##begin_quote## one of the most beatable teams that we've seen come out of Korea in a while ##end_quote## [文档 5]。在BO5第四局的高压情境下，均值回归的力量将远超共识预期，LYON被低估的团队协同和战术准备（Fly Quest公式）足以将单局胜率拉近至均衡。\n\nFINAL PREDICTION: 48.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "LYON wins their first ever LCS title... Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "one of the most beatable teams that we've seen come out of Korea in a while",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "name": "基本面分析师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "基本面分析师",
+        "stance": "neutral",
+        "probability": 52.0,
+        "reasoning": "经过完整辩论，我的最终分析基于对双方结构性因素的重新评估。LYON已非仅有潜力的挑战者，而是拥有##begin_quote## the same formula we had last year... a top laner that could play counter picks... The MVP jungler... a mid laner that can carry... and a bot lane that can hold their own ##end_quote## [文档 5]这一成熟体系的新科LCS冠军（##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]）。同时，关键信息表明当前Gen.G的统治力存在结构性缝隙，被认为是##begin_quote## one of the most beatable teams that we’ve seen come out of Korea in a while ##end_quote## [文档 5]。在单局比赛中，LYON的体系化优势和上升势头足以将双方的系统性差距缩小至接近均势。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，我的最终分析基于对双方结构性因素的重新评估。LYON已非仅有潜力的挑战者，而是拥有##begin_quote## the same formula we had last year... a top laner that could play counter picks... The MVP jungler... a mid laner that can carry... and a bot lane that can hold their own ##end_quote## [文档 5]这一成熟体系的新科LCS冠军（##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]）。同时，关键信息表明当前Gen.G的统治力存在结构性缝隙，被认为是##begin_quote## one of the most beatable teams that we’ve seen come out of Korea in a while ##end_quote## [文档 5]。在单局比赛中，LYON的体系化优势和上升势头足以将双方的系统性差距缩小至接近均势。\n\nFINAL PREDICTION: 52.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "the same formula we had last year... a top laner that could play counter picks... The MVP jungler... a mid laner that can carry... and a bot lane that can hold their own",
+              "doc_index": 5
+            },
+            {
+              "quote": "LYON wins their first ever LCS title... Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "one of the most beatable teams that we’ve seen come out of Korea in a while",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "name": "风险评估师",
+      "stance": "bear",
+      "final": {
+        "agent_name": "风险评估师",
+        "stance": "bear",
+        "probability": 80.0,
+        "reasoning": "辩论强化了我的核心风险矩阵：基准情景（Gen.G胜）概率必须因LYON的**新科冠军状态风险**（##begin_quote## LYON wins their first ever LCS title ##end_quote## [文档 7]）而下调，但这仍是一个**高概率、高影响**事件。LYON的胜利路径（依赖Inspired MVP级表现）是**低概率、高影响**的尾部风险，其上限被##begin_quote## there is nobody on this roster, including inspired, that is at the level individually of what GenG is at ##end_quote## [文档 5]这一结构性屏障严格约束。市场共识已部分price in LYON的近期势头，但普遍低估了Gen.G个体能力差距带来的系统性风险压制的强度。",
+        "raw_response": "FINAL REASONING: 辩论强化了我的核心风险矩阵：基准情景（Gen.G胜）概率必须因LYON的**新科冠军状态风险**（##begin_quote## LYON wins their first ever LCS title ##end_quote## [文档 7]）而下调，但这仍是一个**高概率、高影响**事件。LYON的胜利路径（依赖Inspired MVP级表现）是**低概率、高影响**的尾部风险，其上限被##begin_quote## there is nobody on this roster, including inspired, that is at the level individually of what GenG is at ##end_quote## [文档 5]这一结构性屏障严格约束。市场共识已部分price in LYON的近期势头，但普遍低估了Gen.G个体能力差距带来的系统性风险压制的强度。\n\nFINAL PREDICTION: 80.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "LYON wins their first ever LCS title",
+              "doc_index": 7
+            },
+            {
+              "quote": "there is nobody on this roster, including inspired, that is at the level individually of what GenG is at",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "name": "综合策略师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "综合策略师",
+        "stance": "neutral",
+        "probability": 65.0,
+        "reasoning": "经过整场辩论，最关键的信号共振点在于：**文档7**提供了LYON作为新科LCS冠军（##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]）的硬数据，这构成了对“Gen.G必胜”叙事的最大挑战，并与**文档5**中关于LYON拥有成熟“胜利公式”的定性分析（##begin_quote## we have the same formula we had last year... Fly Quest reincarnated ##end_quote## [文档 5]）形成合力。然而，**文档5**中关于个体能力差距的论断（##begin_quote## there is nobody on this roster... at the level individually of what GenG is at ##end_quote## [文档 5]）依然是一个无法忽视的结构性约束，它限制了LYON的爆冷概率上限，但并未将其归零。综合来看，LYON已从“潜力挑战者”升级为“具备清晰胜利路径的实质竞争者”，这使得Game 4的胜负远非一边倒。",
+        "raw_response": "FINAL REASONING: 经过整场辩论，最关键的信号共振点在于：**文档7**提供了LYON作为新科LCS冠军（##begin_quote## LYON wins their first ever LCS title... Finals MVP: Inspired ##end_quote## [文档 7]）的硬数据，这构成了对“Gen.G必胜”叙事的最大挑战，并与**文档5**中关于LYON拥有成熟“胜利公式”的定性分析（##begin_quote## we have the same formula we had last year... Fly Quest reincarnated ##end_quote## [文档 5]）形成合力。然而，**文档5**中关于个体能力差距的论断（##begin_quote## there is nobody on this roster... at the level individually of what GenG is at ##end_quote## [文档 5]）依然是一个无法忽视的结构性约束，它限制了LYON的爆冷概率上限，但并未将其归零。综合来看，LYON已从“潜力挑战者”升级为“具备清晰胜利路径的实质竞争者”，这使得Game 4的胜负远非一边倒。\n\nFINAL PREDICTION: 65.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "LYON wins their first ever LCS title... Finals MVP: Inspired",
+              "doc_index": 7
+            },
+            {
+              "quote": "we have the same formula we had last year... Fly Quest reincarnated",
+              "doc_index": 5
+            },
+            {
+              "quote": "there is nobody on this roster... at the level individually of what GenG is at",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            5,
+            7
+          ]
+        }
+      }
+    }
+  ]
+}

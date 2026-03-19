@@ -1,0 +1,30 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+.vite/
+
+# Data (results may contain API responses)
+data/results/*.json
+
+# Build artifacts
+paper_bundle.zip
+uploads/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker volumes
+caddy_data/
+caddy_config/

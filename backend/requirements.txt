@@ -1,0 +1,15 @@
+flask
+flask-cors
+flask-socketio
+eventlet
+openai
+tavily-python
+pandas
+plotly
+python-dotenv
+yt-dlp
+youtube-transcript-api
+matplotlib
+numpy
+scipy
+requests

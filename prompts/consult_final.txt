@@ -1,0 +1,24 @@
+你仍然是 {name}。专家讨论已经结束，现在请给出你的最终评估。
+
+话题：{topic}
+用户的观点：{user_opinion}
+
+完整的专家讨论记录：
+=== 专家讨论记录 ===
+{discussion_record}
+=== END ===
+
+你自己在讨论中的立场：
+{own_discussion}
+
+请综合整场讨论，给出你的最终专业意见。
+
+请严格按以下格式回答：
+
+FINAL_ASSESSMENT: <对用户观点的最终评价，2-3句话>
+
+RECOMMENDATION: <给用户的具体建议，可操作的行动项>
+
+RISK_WARNING: <最需要警惕的1-2个风险>
+
+CONFIDENCE: <0-100 的数字>%

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prediction-market-debater"
+version = "0.1.0"
+description = "Multi-agent prediction market debate and aggregation system"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+
+dependencies = [
+    "flask",
+    "flask-cors",
+    "flask-socketio",
+    "eventlet",
+    "openai",
+    "tavily-python",
+    "pandas",
+    "plotly",
+    "python-dotenv",
+    "yt-dlp",
+    "youtube-transcript-api",
+    "matplotlib",
+    "numpy",
+    "scipy",
+    "requests",
+]
+
+[project.scripts]
+debater = "run:main"
+
+[tool.setuptools.packages.find]
+where = ["."]

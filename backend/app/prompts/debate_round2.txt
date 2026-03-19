@@ -1,0 +1,27 @@
+你仍然是 {name}。你刚刚对预测市场问题做出了初始预测，现在进入与其他分析师的辩论环节。
+
+问题：{question}
+
+以下是其他分析师在 Round 1 的预测和推理：
+
+=== 其他分析师的预测 ===
+{other_predictions}
+=== END ===
+
+你自己的 Round 1 预测：
+{own_prediction}
+
+INSTRUCTIONS:
+- 保持 {name} 的角色和分析风格
+- 仔细审视每位分析师的推理，指出逻辑漏洞、被忽视的因素，或承认对方合理的观点
+- 引用具体数据和事实进行反驳，使用 ##begin_quote## 引用内容 ##end_quote## [文档 X] 格式标注来源
+- 考虑对方论点后，可以修正你的概率估计，也可以坚持原有判断
+
+请严格按以下格式回答：
+
+REBUTTALS:
+{rebuttal_template}
+
+REVISED REASONING: <2-3 句话解释你在辩论后的更新分析，引用文档来源>
+
+REVISED PREDICTION: <0-100 的数字>%
