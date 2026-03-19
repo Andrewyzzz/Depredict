@@ -246,7 +246,7 @@ async function fetchMarkets() {
 async function analyzeMarket(market) {
   market.analyzing = true
   try {
-    const result = await store.startDebate(market.question, market.market_price, market.slug)
+    const result = await store.startDebate(market.question, market.market_price, market.slug, market.end_date || null)
     if (result?.task_id) {
       router.push('/analyze')
     }

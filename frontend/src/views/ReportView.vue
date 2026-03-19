@@ -143,7 +143,7 @@ const activeSection = ref('')
 
 const renderedMarkdown = computed(() => {
   if (!report.value?.markdown) return ''
-  return marked(report.value.markdown)
+  return marked(cleanCitations(report.value.markdown))
 })
 
 const sections = computed(() => {
@@ -249,6 +249,14 @@ async function fetchReport() {
   }
 }
 
+function cleanCitations(text) {
+  if (!text) return ''
+  return text
+    .replace(/##begin_quote##\s*/g, '"')
+    .replace(/\s*##end_quote##/g, '"')
+    .replace(/\s*\[(?:文档|Document)\s*\d+(?:\s*,\s*\d+)*\]/g, '')
+}
+
 function buildMarkdownFromResult(data) {
   const lines = []
   lines.push(`# ${data.question}\n`)
@@ -287,7 +295,7 @@ function buildMarkdownFromResult(data) {
       const prob = agent.probability != null ? `${agent.probability.toFixed(1)}%` : 'N/A'
       lines.push(`### ${agent.agent_name} (${agent.stance || 'neutral'}) — ${prob}`)
       if (agent.reasoning) {
-        lines.push(agent.reasoning)
+        lines.push(cleanCitations(agent.reasoning))
       }
       lines.push('')
     }

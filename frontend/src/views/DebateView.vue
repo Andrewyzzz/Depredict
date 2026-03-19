@@ -96,6 +96,25 @@
           <span>{{ convictionLabel }}</span>
         </div>
       </div>
+
+      <!-- Market Context -->
+      <div v-if="store.currentMarketPrice != null" class="mt-8 flex items-center justify-center gap-6 flex-wrap">
+        <div class="glass-panel px-5 py-3 rounded-xl text-center">
+          <span class="micro-label block mb-1">Market Price</span>
+          <span class="text-xl font-headline font-bold tabular-nums text-on-surface">{{ (store.currentMarketPrice * 100).toFixed(1) }}%</span>
+        </div>
+        <div class="glass-panel px-5 py-3 rounded-xl text-center">
+          <span class="micro-label block mb-1">Edge</span>
+          <span
+            class="text-xl font-headline font-bold tabular-nums"
+            :class="edge > 0 ? 'text-secondary' : edge < 0 ? 'text-tertiary' : 'text-on-surface-variant'"
+          >{{ edgeFormatted || '--' }}</span>
+        </div>
+        <div v-if="formattedEndDate" class="glass-panel px-5 py-3 rounded-xl text-center">
+          <span class="micro-label block mb-1">Resolves</span>
+          <span class="text-sm font-headline font-bold text-on-surface">{{ formattedEndDate }}</span>
+        </div>
+      </div>
     </section>
 
     <!-- Streaming Agent Cards (during debate or after completion) -->
@@ -128,7 +147,7 @@
                 <span v-if="agent.probability != null" class="text-secondary font-headline font-bold tabular-nums text-lg">{{ agent.probability.toFixed(1) }}%</span>
               </div>
             </div>
-            <p v-if="agent.reasoning" class="text-sm text-on-surface-variant leading-relaxed">{{ agent.reasoning }}</p>
+            <p v-if="agent.reasoning" class="text-sm text-on-surface-variant leading-relaxed">{{ cleanReasoning(agent.reasoning) }}</p>
           </div>
         </div>
 
@@ -158,7 +177,7 @@
                 <span v-if="agent.probability != null" class="text-tertiary font-headline font-bold tabular-nums text-lg">{{ agent.probability.toFixed(1) }}%</span>
               </div>
             </div>
-            <p v-if="agent.reasoning" class="text-sm text-on-surface-variant leading-relaxed">{{ agent.reasoning }}</p>
+            <p v-if="agent.reasoning" class="text-sm text-on-surface-variant leading-relaxed">{{ cleanReasoning(agent.reasoning) }}</p>
           </div>
         </div>
 
@@ -213,7 +232,7 @@
                   {{ entry.probability != null ? entry.probability.toFixed(1) + '%' : 'N/A' }}
                 </span>
               </div>
-              <p class="text-sm text-on-surface-variant leading-relaxed">{{ entry.reasoning }}</p>
+              <p class="text-sm text-on-surface-variant leading-relaxed">{{ cleanReasoning(entry.reasoning) }}</p>
             </div>
           </div>
         </div>
@@ -410,6 +429,24 @@ const convictionColor = computed(() => {
   if (modelProbability.value >= 45) return 'text-on-surface-variant'
   return 'text-tertiary'
 })
+
+const formattedEndDate = computed(() => {
+  const d = store.currentEndDate
+  if (!d) return ''
+  try {
+    const date = new Date(d)
+    if (isNaN(date.getTime())) return ''
+    return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit' })
+  } catch { return '' }
+})
+
+function cleanReasoning(text) {
+  if (!text) return ''
+  return text
+    .replace(/##begin_quote##\s*/g, '"')
+    .replace(/\s*##end_quote##/g, '"')
+    .replace(/\s*\[(?:文档|Document)\s*\d+(?:\s*,\s*\d+)*\]/g, '')
+}
 
 function toggleRound(idx) {
   if (expandedRounds.has(idx)) {

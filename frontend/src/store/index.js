@@ -39,6 +39,7 @@ export const useDebateStore = defineStore('debate', {
     // Preserve question/price so DebateView can display them after navigation
     currentQuestion: '',
     currentMarketPrice: null,
+    currentEndDate: null,
   }),
 
   getters: {
@@ -48,7 +49,7 @@ export const useDebateStore = defineStore('debate', {
   },
 
   actions: {
-    async startDebate(question, marketPrice = null, slug = null) {
+    async startDebate(question, marketPrice = null, slug = null, endDate = null) {
       this.isLoading = true
       this.error = null
       this.agentResults = []
@@ -57,6 +58,7 @@ export const useDebateStore = defineStore('debate', {
       this.progress = { stage: 'initializing', percent: 0, message: 'Starting...' }
       this.currentQuestion = question
       this.currentMarketPrice = marketPrice
+      this.currentEndDate = endDate
 
       try {
         const response = await api.post('/api/debate/start', {
