@@ -249,6 +249,47 @@ class PolymarketClient:
 
         return matched
 
+    def get_price_history(
+        self,
+        clob_token_id: str,
+        interval: str = "1w",
+        fidelity: int = 60,
+    ) -> list[dict]:
+        """Fetch price history from Polymarket CLOB API.
+
+        Args:
+            clob_token_id: The CLOB token ID (YES outcome).
+            interval: Time range - "1d", "1w", "1m", "all".
+            fidelity: Data point interval in minutes.
+
+        Returns:
+            List of {t: unix_timestamp, p: price} dicts.
+        """
+        try:
+            url = "https://clob.polymarket.com/prices-history"
+            params = {
+                "market": clob_token_id,
+                "interval": interval,
+                "fidelity": fidelity,
+            }
+            now = time.monotonic()
+            elapsed = now - self._last_request_time
+            if elapsed < self._min_request_interval:
+                time.sleep(self._min_request_interval - elapsed)
+
+            response = self._session.get(url, params=params, timeout=self._timeout)
+            self._last_request_time = time.monotonic()
+            response.raise_for_status()
+            data = response.json()
+            if isinstance(data, dict) and "history" in data:
+                return data["history"]
+            if isinstance(data, list):
+                return data
+            return []
+        except Exception:
+            logger.exception("Failed to fetch price history for token %s", clob_token_id)
+            return []
+
     # ------------------------------------------------------------------
     # Category classification
     # ------------------------------------------------------------------
@@ -404,6 +445,18 @@ class PolymarketClient:
                 raw.get("description", ""),
             )
 
+        # Parse clobTokenIds for price history lookups
+        clob_raw = raw.get("clobTokenIds", "[]")
+        if isinstance(clob_raw, str):
+            try:
+                clob_token_ids = json.loads(clob_raw)
+            except (json.JSONDecodeError, ValueError):
+                clob_token_ids = []
+        elif isinstance(clob_raw, list):
+            clob_token_ids = clob_raw
+        else:
+            clob_token_ids = []
+
         return {
             "condition_id": raw.get("condition_id", ""),
             "slug": raw.get("slug", ""),
@@ -417,6 +470,7 @@ class PolymarketClient:
             "image": raw.get("image", ""),
             "outcomes": outcomes,
             "outcome_prices": outcome_prices,
+            "clob_token_ids": clob_token_ids,
         }
 
     def _request(self, endpoint: str, params: Optional[dict] = None):

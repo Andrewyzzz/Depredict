@@ -128,13 +128,13 @@
               </p>
             </div>
           </div>
-          <button
-            class="w-full py-2.5 rounded-lg border border-primary-container/30 text-primary hover:bg-primary-container/10 transition-all font-headline text-xs font-bold uppercase tracking-widest disabled:opacity-50 disabled:cursor-not-allowed"
-            @click="analyzeMarket(market)"
-            :disabled="market.analyzing"
+          <router-link
+            :to="`/market/${market.slug}`"
+            class="w-full py-2.5 rounded-lg border border-primary-container/30 text-primary hover:bg-primary-container/10 transition-all font-headline text-xs font-bold uppercase tracking-widest flex items-center justify-center gap-2"
           >
-            {{ market.analyzing ? 'Analyzing...' : 'Analyze' }}
-          </button>
+            <span class="material-symbols-outlined text-sm">open_in_new</span>
+            Details
+          </router-link>
         </div>
       </div>
     </div>
@@ -166,12 +166,7 @@
 
 <script setup>
 import { ref, computed, onMounted } from 'vue'
-import { useRouter } from 'vue-router'
 import api from '../api/client'
-import { useDebateStore } from '../store/index'
-
-const router = useRouter()
-const store = useDebateStore()
 const markets = ref([])
 const loading = ref(false)
 const error = ref(null)
@@ -232,26 +227,11 @@ async function fetchMarkets() {
   error.value = null
   try {
     const response = await api.get('/api/market/scan')
-    markets.value = (response.data.markets || []).map((m) => ({
-      ...m,
-      analyzing: false,
-    }))
+    markets.value = response.data.markets || []
   } catch (err) {
     error.value = err.response?.data?.error || 'Failed to fetch markets'
   } finally {
     loading.value = false
-  }
-}
-
-async function analyzeMarket(market) {
-  market.analyzing = true
-  try {
-    const result = await store.startDebate(market.question, market.market_price, market.slug, market.end_date || null)
-    if (result?.task_id) {
-      router.push('/analyze')
-    }
-  } catch {
-    market.analyzing = false
   }
 }
 

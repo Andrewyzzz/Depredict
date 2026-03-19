@@ -5,6 +5,7 @@ import AnalyzeView from '../views/DebateView.vue'
 import MarketScanView from '../views/MarketScanView.vue'
 import HistoryView from '../views/HistoryView.vue'
 import ReportView from '../views/ReportView.vue'
+import MarketDetailView from '../views/MarketDetailView.vue'
 
 const routes = [
   {
@@ -26,6 +27,11 @@ const routes = [
     path: '/history',
     name: 'History',
     component: HistoryView,
+  },
+  {
+    path: '/market/:slug',
+    name: 'MarketDetail',
+    component: MarketDetailView,
   },
   {
     path: '/report/:taskId',

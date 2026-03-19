@@ -246,6 +246,53 @@ def scan_edges():
     return jsonify(response_data)
 
 
+@market_bp.route("/<slug>/history", methods=["GET"])
+def get_price_history(slug: str):
+    """
+    Get price history for a market by slug.
+
+    Query params:
+        interval (optional): "1d", "1w", "1m", "all" (default "1w")
+        fidelity (optional): Data point interval in minutes (default 60)
+
+    Returns: { history: [{t, p}, ...], slug: str }
+    """
+    interval = request.args.get("interval", "1w")
+    fidelity = request.args.get("fidelity", 60, type=int)
+
+    # First get the market to find its clob_token_id
+    cache_key = f"slug:{slug}"
+    market = _get_cached(cache_key)
+    if market is None:
+        market = _polymarket_client.get_market_by_slug(slug)
+        if market:
+            _set_cached(cache_key, market)
+
+    if market is None:
+        return jsonify({"error": f"market '{slug}' not found"}), 404
+
+    clob_ids = market.get("clob_token_ids", [])
+    if not clob_ids:
+        return jsonify({"error": "no clob token IDs for this market"}), 404
+
+    # Use first token (YES outcome)
+    hist_cache_key = f"hist:{slug}:{interval}:{fidelity}"
+    cached = _get_cached(hist_cache_key)
+    if cached is not None:
+        return jsonify(cached)
+
+    history = _polymarket_client.get_price_history(clob_ids[0], interval=interval, fidelity=fidelity)
+
+    response_data = {
+        "history": history,
+        "slug": slug,
+        "interval": interval,
+    }
+    _set_cached(hist_cache_key, response_data)
+
+    return jsonify(response_data)
+
+
 @market_bp.route("/edge", methods=["POST"])
 def compute_edge():
     """
