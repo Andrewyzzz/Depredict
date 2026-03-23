@@ -1,0 +1,2406 @@
+{
+  "question": "Will \"Project Hail Mary\" Opening Weekend Box Office be between 75m and 80m?",
+  "market_price": 0.075,
+  "timestamp": "2026-03-23T03:38:03.599356",
+  "rag_sources": [
+    {
+      "title": "[News] Project Hail Mary Projected To Be Biggest Opening Of The Year So ...",
+      "url": "https://www.youtube.com/watch?v=a9rSae7p2Cc",
+      "source": "tavily"
+    },
+    {
+      "title": "[News] Box Office Weekend Forecast: Andy Weir's PROJECT HAIL MARY",
+      "url": "https://boxofficetheory.substack.com/p/box-office-weekend-forecast-andy-weir-project-hail-mary-tracking-breakout-launch-potential-amazon-mgm-record-career-best-debuts-gosling-lord-miller",
+      "source": "tavily"
+    },
+    {
+      "title": "[News] Box Office Weekend Forecast: Andy Weir's PROJECT HAIL MARY ...",
+      "url": "https://boxofficetheory.com/box-office-weekend-forecast-andy-weir-project-hail-mary-tracking-breakout-launch-potential-amazon-mgm-record-career-best-debuts-gosling-lord-miller/",
+      "source": "tavily"
+    },
+    {
+      "title": "[News] Box Office: 'Project Hail Mary' Opening to $80M U.S. - Deadline",
+      "url": "https://deadline.com/2026/03/box-office-project-hail-mary-ready-or-not-2-1236761181/",
+      "source": "tavily"
+    },
+    {
+      "title": "[Reddit] Work ethics will be back very soon in corporate",
+      "url": "https://www.reddit.com/r/jobsearchhacks/comments/1rsr1xg/work_ethics_will_be_back_very_soon_in_corporate/",
+      "source": "reddit"
+    },
+    {
+      "title": "[DuckDuckGo] Ryan Gosling&#x27;s Project Hail Mary Eyes $80M US Opening, To Follow ...",
+      "url": "https://www.timesnownews.com/entertainment-news/hollywood/ryan-goslings-project-hail-mary-eyes-80m-us-opening-to-follow-oppenheimers-lead-in-this-feat-report-article-153893739",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "[DuckDuckGo] &#x27;Project Hail Mary&#x27; blasts off with $80.5 million at box office",
+      "url": "https://www.boston.com/culture/entertainment/2026/03/22/box-office-project-hail-mary-blasts-off-with-80-5-million-a-best-for-amazon-mgm-and-the-year/",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "[DuckDuckGo] Box Office: Ryan Gosling&#x27;s &#x27;Project Hail Mary&#x27; Scores ... - Variety",
+      "url": "https://variety.com/2026/film/box-office/project-hail-mary-box-office-biggest-debut-2026-amazon-mgm-record-1236696247/",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "[DuckDuckGo] &#x27;Project Hail Mary&#x27; blasts off with $80.5 million, a ... - NBC News",
+      "url": "https://www.nbcnews.com/news/us-news/project-hail-mary-box-office-rcna264619",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "[DuckDuckGo] &#x27;Project Hail Mary&#x27; Blasts Off to Huge $81M Box Office Opening",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/project-hail-mary-box-office-blasts-off-to-huge-opening-1236543804/",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "[DuckDuckGo] &#x27;Project Hail Mary&#x27; Nearly Matches &#x27;Oppenheimer&#x27; Box Office Opening ...",
+      "url": "https://www.thewrap.com/creative-content/movies/project-hail-mary-80-million-box-office-opening/",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "[DuckDuckGo] Project Hail Mary box office: Ryan Gosling sci-fi epic earns $80.5 ...",
+      "url": "https://apnews.com/article/box-office-project-hail-mary-cff0a22a0a9d4fc1e1642b79f9160dfb",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "[DuckDuckGo] Project Hail Mary Breaks 3 Major Box Office Records As Opening Weekend ...",
+      "url": "https://screenrant.com/project-hail-mary-box-office-records-opening-weekend-total/",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "[DuckDuckGo] Project Hail Mary Opening Weekend Box Office Confirmed - IGN",
+      "url": "https://www.ign.com/articles/project-hail-mary-has-out-of-this-world-start-at-the-box-office-with-140-million-opening-weekend",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "[Reddit] Blumenthal: \"It looks more and more likely there will be boots on the ground and we have no idea what the goals of this war are.\"",
+      "url": "https://www.reddit.com/r/UnderReportedNews/comments/1rk6o88/blumenthal_it_looks_more_and_more_likely_there/",
+      "source": "reddit"
+    }
+  ],
+  "document_count": 15,
+  "rounds": {
+    "round1": [
+      {
+        "agent_name": "乐观分析师",
+        "stance": "bull",
+        "probability": 65.0,
+        "reasoning": "首先评估文档相关性：\n- 文档1、2、3、4、6、7均直接讨论《Project Hail Mary》的票房预测和早期表现，相关性极高（9-10分）。\n- 文档5讨论工作伦理，与票房预测完全无关，相关性为0分，是干扰信息，将忽略。\n- 知识图谱摘要提供了实体和关系，相关性高（8分）。\n\n**1. 支持（YES）的论据**\n- **权威预测区间明确覆盖目标范围**：多个权威票房预测机构给出的范围上限达到或接近80M。Boxoffice Pro的预测是##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]，而Box Office Theory (BOT)的预测范围是##begin_quote## $60 — 78 million ##end_quote## [文档 2, 文档 3]。78M是预测区间的上限，表明75-80M区间是预测中可能达到的高端结果。\n- **强劲的预售和早期表现超越预期**：影片的最终预售趋势强劲，已超过早期行业跟踪数据。##begin_quote## It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates, those being around $55 million for the domestic opening. ##end_quote## [文档 2]。更重要的是，其周四提前场票房表现创下纪录，##begin_quote## ‘Project Hail Mary’ Blasts Off To $11M+ In Previews, Best YTD ##end_quote## [文档 4]，这为高开画周末奠定了坚实基础，并暗示其走势可能类比《奥本海默》。\n- **极高的口碑与观影需求**：影片获得了##begin_quote## stellar 95% Rotten Tomatoes score ##end_quote## [文档 1]，并且对优质格式（如IMAX和70mm）的需求旺盛，导致##begin_quote## sold-out shows on the biggest and best screens this weekend ##end_quote## [文档 2]。这种“必须观看”的效应和格式溢价通常会推高平均票价和总票房，有助于冲击预测区间的高端。\n\n**2. 反对（NO）的论据**\n- **预测区间中值低于目标范围**：尽管预测上限为78M，但多数预测的中值或焦点在70M左右。例如，Boxoffice Pro的区间是70-78M，传统片厂跟踪数据为##begin_quote## $55 million+ ##end_quote## [文档 2]。要达到75M以上，需要表现远超中值预期，接近或达到区间上限。\n- **目标范围（75-80M）是一个狭窄的区间**：预测票房精确落在一个仅5M宽的区间内本身具有挑战性。即使影片表现强劲，也可能以略高于78M（如80-82M）或略低于75M（如72-74M）的成绩落在该区间之外。有分析将其与##begin_quote## Oppenheimer ($82.4M) ##end_quote## [文档 4]比较，但《奥本海默》的开画成绩略高于此区间上限，表明《Project Hail Mary》存在小幅超越80M的可能性，从而落入NO的范围（>80M）。\n- **市场竞争与观众分流**：虽然本周末《Project Hail Mary》是主导影片，但仍有其他新片如《Dhurandhar: The Revenge》和《Ready or Not 2》上映，它们将瓜分部分市场份额。##begin_quote## This weekend’s top 10 films are tracking to earn a projected **$128 million+**. ##end_quote## [文档 2, 文档 3]。整体市场容量虽大，但竞争可能限制《Project Hail Mary》单部影片的票房上限，使其难以突破至75M以上，或恰好卡在73-74M的水平。\n\n**3. 综合分析**\n乐观地看，支持YES的论据非常有力。影片拥有顶级的口碑（95%烂番茄）、创纪录的提前场表现（11M+）、以及对高端影厅的强劲需求，这些因素共同构成了票房爆发的经典配方。预售趋势“高于早期跟踪”表明动能正在向上修正，朝着预测区间的高端（78M）迈进。与《奥本海默》的比较（其开画82.4M）显示，一部高质量、非IP的科幻电影完全有能力达到甚至超过75-80M的区间。\n\n然而，必须权衡反对论点。达到75-80M这一特定狭窄区间，需要一切条件完美配合。虽然冲击78M是合理预期，但要稳稳落在75-80M之内，既不能低于75，也不能高于80，这需要精准的票房表现。考虑到目前最乐观的官方预测上限为78M（来自Boxoffice Pro和BOT），以及提前场火爆可能预示更高开画（参考《奥本海默》模式），最终结果落在75-78M之间，或略微超过78M但低于80M的可能性是存在的。但基于当前数据，落在75-80M区间内是一个合理且可能实现的乐观情景。\n\n**4. 最终概率估计**\n综合所有因素，影片开画周末票房落在75-80M美元区间具有坚实的积极动因支撑。强劲的早期指标、高口碑和旺盛需求，使其达到预测高端（78M附近）的可能性显著增加。尽管存在落在区间外的可能，但乐观分析倾向于相信正面动力能够推动票房进入这一目标范围。因此，赋予YES较高的概率。",
+        "raw_response": "REASONING:\n首先评估文档相关性：\n- 文档1、2、3、4、6、7均直接讨论《Project Hail Mary》的票房预测和早期表现，相关性极高（9-10分）。\n- 文档5讨论工作伦理，与票房预测完全无关，相关性为0分，是干扰信息，将忽略。\n- 知识图谱摘要提供了实体和关系，相关性高（8分）。\n\n**1. 支持（YES）的论据**\n- **权威预测区间明确覆盖目标范围**：多个权威票房预测机构给出的范围上限达到或接近80M。Boxoffice Pro的预测是##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]，而Box Office Theory (BOT)的预测范围是##begin_quote## $60 — 78 million ##end_quote## [文档 2, 文档 3]。78M是预测区间的上限，表明75-80M区间是预测中可能达到的高端结果。\n- **强劲的预售和早期表现超越预期**：影片的最终预售趋势强劲，已超过早期行业跟踪数据。##begin_quote## It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates, those being around $55 million for the domestic opening. ##end_quote## [文档 2]。更重要的是，其周四提前场票房表现创下纪录，##begin_quote## ‘Project Hail Mary’ Blasts Off To $11M+ In Previews, Best YTD ##end_quote## [文档 4]，这为高开画周末奠定了坚实基础，并暗示其走势可能类比《奥本海默》。\n- **极高的口碑与观影需求**：影片获得了##begin_quote## stellar 95% Rotten Tomatoes score ##end_quote## [文档 1]，并且对优质格式（如IMAX和70mm）的需求旺盛，导致##begin_quote## sold-out shows on the biggest and best screens this weekend ##end_quote## [文档 2]。这种“必须观看”的效应和格式溢价通常会推高平均票价和总票房，有助于冲击预测区间的高端。\n\n**2. 反对（NO）的论据**\n- **预测区间中值低于目标范围**：尽管预测上限为78M，但多数预测的中值或焦点在70M左右。例如，Boxoffice Pro的区间是70-78M，传统片厂跟踪数据为##begin_quote## $55 million+ ##end_quote## [文档 2]。要达到75M以上，需要表现远超中值预期，接近或达到区间上限。\n- **目标范围（75-80M）是一个狭窄的区间**：预测票房精确落在一个仅5M宽的区间内本身具有挑战性。即使影片表现强劲，也可能以略高于78M（如80-82M）或略低于75M（如72-74M）的成绩落在该区间之外。有分析将其与##begin_quote## Oppenheimer ($82.4M) ##end_quote## [文档 4]比较，但《奥本海默》的开画成绩略高于此区间上限，表明《Project Hail Mary》存在小幅超越80M的可能性，从而落入NO的范围（>80M）。\n- **市场竞争与观众分流**：虽然本周末《Project Hail Mary》是主导影片，但仍有其他新片如《Dhurandhar: The Revenge》和《Ready or Not 2》上映，它们将瓜分部分市场份额。##begin_quote## This weekend’s top 10 films are tracking to earn a projected **$128 million+**. ##end_quote## [文档 2, 文档 3]。整体市场容量虽大，但竞争可能限制《Project Hail Mary》单部影片的票房上限，使其难以突破至75M以上，或恰好卡在73-74M的水平。\n\n**3. 综合分析**\n乐观地看，支持YES的论据非常有力。影片拥有顶级的口碑（95%烂番茄）、创纪录的提前场表现（11M+）、以及对高端影厅的强劲需求，这些因素共同构成了票房爆发的经典配方。预售趋势“高于早期跟踪”表明动能正在向上修正，朝着预测区间的高端（78M）迈进。与《奥本海默》的比较（其开画82.4M）显示，一部高质量、非IP的科幻电影完全有能力达到甚至超过75-80M的区间。\n\n然而，必须权衡反对论点。达到75-80M这一特定狭窄区间，需要一切条件完美配合。虽然冲击78M是合理预期，但要稳稳落在75-80M之内，既不能低于75，也不能高于80，这需要精准的票房表现。考虑到目前最乐观的官方预测上限为78M（来自Boxoffice Pro和BOT），以及提前场火爆可能预示更高开画（参考《奥本海默》模式），最终结果落在75-78M之间，或略微超过78M但低于80M的可能性是存在的。但基于当前数据，落在75-80M区间内是一个合理且可能实现的乐观情景。\n\n**4. 最终概率估计**\n综合所有因素，影片开画周末票房落在75-80M美元区间具有坚实的积极动因支撑。强劲的早期指标、高口碑和旺盛需求，使其达到预测高端（78M附近）的可能性显著增加。尽管存在落在区间外的可能，但乐观分析倾向于相信正面动力能够推动票房进入这一目标范围。因此，赋予YES较高的概率。\n\nPREDICTION: 65%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$70M–$78M domestic opening",
+              "doc_index": 1
+            },
+            {
+              "quote": "$60 — 78 million ##end_quote## [文档 2, 文档 3]。78M是预测区间的上限，表明75-80M区间是预测中可能达到的高端结果。\n- **强劲的预售和早期表现超越预期**：影片的最终预售趋势强劲，已超过早期行业跟踪数据。##begin_quote## It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates, those being around $55 million for the domestic opening.",
+              "doc_index": 2
+            },
+            {
+              "quote": "‘Project Hail Mary’ Blasts Off To $11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "stellar 95% Rotten Tomatoes score",
+              "doc_index": 1
+            },
+            {
+              "quote": "sold-out shows on the biggest and best screens this weekend",
+              "doc_index": 2
+            },
+            {
+              "quote": "$55 million+",
+              "doc_index": 2
+            },
+            {
+              "quote": "Oppenheimer ($82.4M)",
+              "doc_index": 4
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "agent_name": "质疑分析师",
+        "stance": "bear",
+        "probability": 32.0,
+        "reasoning": "首先评估文档相关性。文档1、2、3、4、6、7均直接涉及《Project Hail Mary》的票房预测和早期表现，相关性高（8-10分）。文档5讨论工作伦理，与票房预测完全无关，相关性为0分，应忽略。知识图谱摘要提供了实体关系和时间线，有参考价值。\n\n**支持（YES）的论据：**\n1. **权威预测机构给出高位区间**：Boxoffice Pro的预测范围是$70M–$78M，而Box Office Theory（BOT）的预测范围是$60 — 78 million。这意味着预测的上限（78M）非常接近目标区间（75-80M）的下限。##begin_quote## Project Hail Mary could soar to a $70M–$78M domestic opening ##end_quote## [文档 1]；##begin_quote## BOT Domestic Weekend Forecast Range: $60 — 78 million ##end_quote## [文档 2]\n2. **最终预售趋势强劲，超出早期预期**：上映前一周的最终预售数据表明，趋势高于早期跟踪数据，甚至可能高于行业预估。##begin_quote## It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2]\n3. **优质场次售罄可能推高平均票价**：最大最好的屏幕（如IMAX、70mm）场次几乎售罄，观众可能为了获得优质座位而等待，这可能导致周末后期的高票价场次（如IMAX）贡献更多收入，从而推高总票房。##begin_quote## casual moviegoers will be more than happy to wait a day or two ... to get their hands on optimal seats rather than sit on the literal auditorium sidelines for what are becoming largely sold-out shows on the biggest and best screens ##end_quote## [文档 2]\n\n**反对（NO）的论据：**\n1. **预测区间中值偏低，且存在更保守的行业预估**：BOT预测范围（60-78M）的中值是69M，Boxoffice Pro范围（70-78M）的中值是74M，均低于75M。此外，传统制片厂跟踪数据仅为$55 million+，远低于目标区间。##begin_quote## Traditional Studio Tracking: $55 million+ ##end_quote## [文档 2]\n2. **高位预测依赖于最佳情况，存在过度自信偏差**：78M的预测是范围的上限，通常代表最乐观的情景。市场共识（如“~$60-70M+”的标题）表明核心预期在70M左右，达到75M以上需要表现远超预期。历史基准率显示，多数电影的开画票房落在预测区间的中下部而非顶部。\n3. **竞争与市场容量存在不确定性**：本周末前十部电影总票房预计为$128M+，这意味着《Project Hail Mary》一家就要占据近60%的市场份额。如此高的集中度在非续集/非大型IP电影中较为罕见，存在实际市场容量不及预期的尾部风险。##begin_quote## This weekend’s top 10 films are tracking to earn a projected $128 million+ ##end_quote## [文档 3]\n\n**综合分析：**\n支持方的核心论据在于强劲的后期预售趋势和高端预测（78M），这确实将可能性从零提升到了可讨论的范围。然而，反对方的论据更具分量。首先，预测数据本身存在分歧，最权威的公开预测（BOT, Boxoffice Pro）的上限是78M，但中值预测（69M-74M）均低于75M门槛。要达到75M，需要实际表现接近甚至达到预测范围的最顶端，这通常是小概率事件。其次，“传统制片厂跟踪：5500万美元+”这一数据是一个强烈的反面信号，表明行业内部可能持有更谨慎的看法。最后，我们必须警惕媒体和早期报告（如预览票房破纪录）可能引发的过度乐观情绪。预览票房高（如文档4提到的$11M+）并不保证整个周末能维持同样的势头，周六的跌幅可能比预期更大（如文档6提到的与《奥本海默》的比较暗示了这种可能性）。综合来看，虽然存在冲高的动力，但基于基准率和预测区间的分布，落在75-80M这一相对狭窄的区间内的概率应低于市场直观感受。\n\n**最终概率估计：**\n权衡上述因素，我认为市场可能高估了其落在精确高位区间的可能性。考虑到预测上限为78M，要达到75M需要表现达到预测区间的90分位以上。结合行业跟踪数据更为保守，以及存在周末走势不及预期的风险，我将概率定在略高于随机但显著低于50%的水平。",
+        "raw_response": "REASONING:\n首先评估文档相关性。文档1、2、3、4、6、7均直接涉及《Project Hail Mary》的票房预测和早期表现，相关性高（8-10分）。文档5讨论工作伦理，与票房预测完全无关，相关性为0分，应忽略。知识图谱摘要提供了实体关系和时间线，有参考价值。\n\n**支持（YES）的论据：**\n1. **权威预测机构给出高位区间**：Boxoffice Pro的预测范围是$70M–$78M，而Box Office Theory（BOT）的预测范围是$60 — 78 million。这意味着预测的上限（78M）非常接近目标区间（75-80M）的下限。##begin_quote## Project Hail Mary could soar to a $70M–$78M domestic opening ##end_quote## [文档 1]；##begin_quote## BOT Domestic Weekend Forecast Range: $60 — 78 million ##end_quote## [文档 2]\n2. **最终预售趋势强劲，超出早期预期**：上映前一周的最终预售数据表明，趋势高于早期跟踪数据，甚至可能高于行业预估。##begin_quote## It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2]\n3. **优质场次售罄可能推高平均票价**：最大最好的屏幕（如IMAX、70mm）场次几乎售罄，观众可能为了获得优质座位而等待，这可能导致周末后期的高票价场次（如IMAX）贡献更多收入，从而推高总票房。##begin_quote## casual moviegoers will be more than happy to wait a day or two ... to get their hands on optimal seats rather than sit on the literal auditorium sidelines for what are becoming largely sold-out shows on the biggest and best screens ##end_quote## [文档 2]\n\n**反对（NO）的论据：**\n1. **预测区间中值偏低，且存在更保守的行业预估**：BOT预测范围（60-78M）的中值是69M，Boxoffice Pro范围（70-78M）的中值是74M，均低于75M。此外，传统制片厂跟踪数据仅为$55 million+，远低于目标区间。##begin_quote## Traditional Studio Tracking: $55 million+ ##end_quote## [文档 2]\n2. **高位预测依赖于最佳情况，存在过度自信偏差**：78M的预测是范围的上限，通常代表最乐观的情景。市场共识（如“~$60-70M+”的标题）表明核心预期在70M左右，达到75M以上需要表现远超预期。历史基准率显示，多数电影的开画票房落在预测区间的中下部而非顶部。\n3. **竞争与市场容量存在不确定性**：本周末前十部电影总票房预计为$128M+，这意味着《Project Hail Mary》一家就要占据近60%的市场份额。如此高的集中度在非续集/非大型IP电影中较为罕见，存在实际市场容量不及预期的尾部风险。##begin_quote## This weekend’s top 10 films are tracking to earn a projected $128 million+ ##end_quote## [文档 3]\n\n**综合分析：**\n支持方的核心论据在于强劲的后期预售趋势和高端预测（78M），这确实将可能性从零提升到了可讨论的范围。然而，反对方的论据更具分量。首先，预测数据本身存在分歧，最权威的公开预测（BOT, Boxoffice Pro）的上限是78M，但中值预测（69M-74M）均低于75M门槛。要达到75M，需要实际表现接近甚至达到预测范围的最顶端，这通常是小概率事件。其次，“传统制片厂跟踪：5500万美元+”这一数据是一个强烈的反面信号，表明行业内部可能持有更谨慎的看法。最后，我们必须警惕媒体和早期报告（如预览票房破纪录）可能引发的过度乐观情绪。预览票房高（如文档4提到的$11M+）并不保证整个周末能维持同样的势头，周六的跌幅可能比预期更大（如文档6提到的与《奥本海默》的比较暗示了这种可能性）。综合来看，虽然存在冲高的动力，但基于基准率和预测区间的分布，落在75-80M这一相对狭窄的区间内的概率应低于市场直观感受。\n\n**最终概率估计：**\n权衡上述因素，我认为市场可能高估了其落在精确高位区间的可能性。考虑到预测上限为78M，要达到75M需要表现达到预测区间的90分位以上。结合行业跟踪数据更为保守，以及存在周末走势不及预期的风险，我将概率定在略高于随机但显著低于50%的水平。\n\nPREDICTION: 32%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Project Hail Mary could soar to a $70M–$78M domestic opening",
+              "doc_index": 1
+            },
+            {
+              "quote": "BOT Domestic Weekend Forecast Range: $60 — 78 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates",
+              "doc_index": 2
+            },
+            {
+              "quote": "casual moviegoers will be more than happy to wait a day or two ... to get their hands on optimal seats rather than sit on the literal auditorium sidelines for what are becoming largely sold-out shows on the biggest and best screens",
+              "doc_index": 2
+            },
+            {
+              "quote": "Traditional Studio Tracking: $55 million+",
+              "doc_index": 2
+            },
+            {
+              "quote": "This weekend’s top 10 films are tracking to earn a projected $128 million+",
+              "doc_index": 3
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "agent_name": "贝叶斯分析师",
+        "stance": "neutral",
+        "probability": 35.0,
+        "reasoning": "首先评估文档相关性。文档1、2、3、4、6、7均直接讨论《Project Hail Mary》的票房预测或实际表现，相关性高（8-10分）。文档5讨论工作伦理，与票房预测完全无关，相关性为0分，将忽略。知识图谱摘要提供了实体和关系，具有参考价值。\n\n**1. 支持（YES）的论据**\n- **预测区间的高端接近目标范围**：多个权威预测将首周末票房上限定在78M美元，非常接近75-80M区间的下限。##begin_quote## Project Hail Mary Projected To Be Biggest Opening Of The Year So Far ... Ryan Gosling’s sci-fi epic could soar to a $70M–$78M domestic opening ##end_quote## [文档 1]。##begin_quote## BOT Domestic Weekend Forecast Range: **$60 — 78 million** ##end_quote## [文档 2, 3]。这表明预测共识的上沿已触及78M。\n- **最终预售趋势强劲，可能超预期**：上映前一周的最终跟踪数据显示趋势高于早期预测，存在上行潜力。##begin_quote## It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates, those being around $55 million ##end_quote## [文档 2]。这增加了实际表现突破预测区间中值的可能性。\n- **强劲的提前场表现作为领先指标**：电影在周四提前场获得了破纪录的票房，这是一个积极的信号，可能预示着更高的周末总票房。##begin_quote## ‘Project Hail Mary’ Blasts Off To $11M+ In Previews, Best YTD ... reps the best previews ever for an Amazon MGM Studios release ##end_quote## [文档 4]。这为周末爆发提供了动力。\n\n**2. 反对（NO）的论据**\n- **预测区间的中值低于目标范围**：主要预测范围（60-78M）的中值约为69M，显著低于75M的门槛。##begin_quote## BOT Domestic Weekend Forecast Range: **$60 — 78 million** ##end_quote## [文档 2, 3]。这意味着根据基准预测，落在75M以上的概率并非最高。\n- **存在预测上限，且78M是明确边界**：多个来源给出的最高预测就是78M，没有明确预测会超过80M。##begin_quote## could soar to a $70M–$78M domestic opening ##end_quote## [文档 1]。##begin_quote## $60 — 78 million ##end_quote## [文档 2, 3]。要达到75-80M区间，必须至少达到75M并可能超过78M，这与多数预测的峰值存在矛盾。\n- **实际报道的开盘数字略高于预测上限，但可能不稳定**：有报道称实际开画达到80.5M，但这可能包含了一些非常规计算或后续调整。##begin_quote## collecting a stellar $80.5 million in its box office launch ##end_quote## [文档 7]。然而，此数据点与预测文档（发布于上映前）的预测上限存在差异，且文档7未说明是否为最终确认的纯三日票房。根据预测时的信息（上映前），主要依据仍是60-78M的预测区间。\n\n**3. 综合分析**\n基于贝叶斯更新：先验概率可设定为基于预测区间的均匀分布。核心预测区间为60-78M，宽度18M。目标区间75-80M与之有重叠部分（75-78M，宽度3M），但也有一部分（78-80M）超出了核心预测上限。\n支持因素（强劲预售、高口碑、提前场纪录）表明实际分布可能向右（更高票房）偏移，增加了落在75M以上的概率，尤其是可能触及或略微超过78M。反对因素（预测中值低、78M的明确上限）表明落在75M以下或刚好卡在78M（落在区间边缘）的概率也不小。\n权衡后，实际票房落在75-78M这一重叠子区间的可能性是存在的，但鉴于78M被反复强调为预测上限，突破至78-80M的可能性较低。因此，后验概率应反映一个中等偏低的概率。\n\n**4. 最终概率估计**\n考虑到预测区间的高端（78M）已包含在目标区间（75-80M）内，且存在上行潜力，但明确突破78M的预测支持不足。我将75-80M区间的概率主要赋予在75-78M这一段。基于预测区间的校准和证据强度，估计概率为35%。",
+        "raw_response": "REASONING:\n首先评估文档相关性。文档1、2、3、4、6、7均直接讨论《Project Hail Mary》的票房预测或实际表现，相关性高（8-10分）。文档5讨论工作伦理，与票房预测完全无关，相关性为0分，将忽略。知识图谱摘要提供了实体和关系，具有参考价值。\n\n**1. 支持（YES）的论据**\n- **预测区间的高端接近目标范围**：多个权威预测将首周末票房上限定在78M美元，非常接近75-80M区间的下限。##begin_quote## Project Hail Mary Projected To Be Biggest Opening Of The Year So Far ... Ryan Gosling’s sci-fi epic could soar to a $70M–$78M domestic opening ##end_quote## [文档 1]。##begin_quote## BOT Domestic Weekend Forecast Range: **$60 — 78 million** ##end_quote## [文档 2, 3]。这表明预测共识的上沿已触及78M。\n- **最终预售趋势强劲，可能超预期**：上映前一周的最终跟踪数据显示趋势高于早期预测，存在上行潜力。##begin_quote## It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates, those being around $55 million ##end_quote## [文档 2]。这增加了实际表现突破预测区间中值的可能性。\n- **强劲的提前场表现作为领先指标**：电影在周四提前场获得了破纪录的票房，这是一个积极的信号，可能预示着更高的周末总票房。##begin_quote## ‘Project Hail Mary’ Blasts Off To $11M+ In Previews, Best YTD ... reps the best previews ever for an Amazon MGM Studios release ##end_quote## [文档 4]。这为周末爆发提供了动力。\n\n**2. 反对（NO）的论据**\n- **预测区间的中值低于目标范围**：主要预测范围（60-78M）的中值约为69M，显著低于75M的门槛。##begin_quote## BOT Domestic Weekend Forecast Range: **$60 — 78 million** ##end_quote## [文档 2, 3]。这意味着根据基准预测，落在75M以上的概率并非最高。\n- **存在预测上限，且78M是明确边界**：多个来源给出的最高预测就是78M，没有明确预测会超过80M。##begin_quote## could soar to a $70M–$78M domestic opening ##end_quote## [文档 1]。##begin_quote## $60 — 78 million ##end_quote## [文档 2, 3]。要达到75-80M区间，必须至少达到75M并可能超过78M，这与多数预测的峰值存在矛盾。\n- **实际报道的开盘数字略高于预测上限，但可能不稳定**：有报道称实际开画达到80.5M，但这可能包含了一些非常规计算或后续调整。##begin_quote## collecting a stellar $80.5 million in its box office launch ##end_quote## [文档 7]。然而，此数据点与预测文档（发布于上映前）的预测上限存在差异，且文档7未说明是否为最终确认的纯三日票房。根据预测时的信息（上映前），主要依据仍是60-78M的预测区间。\n\n**3. 综合分析**\n基于贝叶斯更新：先验概率可设定为基于预测区间的均匀分布。核心预测区间为60-78M，宽度18M。目标区间75-80M与之有重叠部分（75-78M，宽度3M），但也有一部分（78-80M）超出了核心预测上限。\n支持因素（强劲预售、高口碑、提前场纪录）表明实际分布可能向右（更高票房）偏移，增加了落在75M以上的概率，尤其是可能触及或略微超过78M。反对因素（预测中值低、78M的明确上限）表明落在75M以下或刚好卡在78M（落在区间边缘）的概率也不小。\n权衡后，实际票房落在75-78M这一重叠子区间的可能性是存在的，但鉴于78M被反复强调为预测上限，突破至78-80M的可能性较低。因此，后验概率应反映一个中等偏低的概率。\n\n**4. 最终概率估计**\n考虑到预测区间的高端（78M）已包含在目标区间（75-80M）内，且存在上行潜力，但明确突破78M的预测支持不足。我将75-80M区间的概率主要赋予在75-78M这一段。基于预测区间的校准和证据强度，估计概率为35%。\n\nPREDICTION: 35%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Project Hail Mary Projected To Be Biggest Opening Of The Year So Far ... Ryan Gosling’s sci-fi epic could soar to a $70M–$78M domestic opening",
+              "doc_index": 1
+            },
+            {
+              "quote": "BOT Domestic Weekend Forecast Range: **$60 — 78 million** ##end_quote## [文档 2, 3]。这表明预测共识的上沿已触及78M。\n- **最终预售趋势强劲，可能超预期**：上映前一周的最终跟踪数据显示趋势高于早期预测，存在上行潜力。##begin_quote## It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates, those being around $55 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "‘Project Hail Mary’ Blasts Off To $11M+ In Previews, Best YTD ... reps the best previews ever for an Amazon MGM Studios release",
+              "doc_index": 4
+            },
+            {
+              "quote": "BOT Domestic Weekend Forecast Range: **$60 — 78 million** ##end_quote## [文档 2, 3]。这意味着根据基准预测，落在75M以上的概率并非最高。\n- **存在预测上限，且78M是明确边界**：多个来源给出的最高预测就是78M，没有明确预测会超过80M。##begin_quote## could soar to a $70M–$78M domestic opening",
+              "doc_index": 1
+            },
+            {
+              "quote": "$60 — 78 million ##end_quote## [文档 2, 3]。要达到75-80M区间，必须至少达到75M并可能超过78M，这与多数预测的峰值存在矛盾。\n- **实际报道的开盘数字略高于预测上限，但可能不稳定**：有报道称实际开画达到80.5M，但这可能包含了一些非常规计算或后续调整。##begin_quote## collecting a stellar $80.5 million in its box office launch",
+              "doc_index": 7
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            4,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "历史类比师",
+        "stance": "neutral",
+        "probability": 55.0,
+        "reasoning": "作为历史类比师，我将从电影票房的历史模式中寻找线索。当我们审视《Project Hail Mary》的预测时，这让我想起了《火星救援》和《奥本海默》的轨迹——它们都是基于畅销书的非系列硬核科幻/历史题材电影，凭借口碑和影院体验驱动了超预期的票房。\n\n首先，支持其首周末票房落在7500万至8000万美元区间的论据非常有力：\n1. **强劲的预售与口碑基础**：影片在烂番茄上获得了95%的高分，这通常是强劲开画的领先指标。更重要的是，其周四提前场票房达到了“1100万美元以上”，这是“今年迄今为止最好的”成绩，并且“创下了亚马逊米高梅有史以来最好的提前场纪录”。##begin_quote## ‘Project Hail Mary’ Blasts Off To $11M+ In Previews, Best YTD... best previews ever for an Amazon MGM Studios release ##end_quote## [文档 4]。历史上，像《奥本海默》（提前场1050万美元，首周末8240万美元）这样的影片已经证明，强劲的提前场可以转化为巨大的首周末数字。\n2. **高规格放映需求与供应限制**：影片在IMAX和70毫米银幕上的需求旺盛，导致最佳场次“基本售罄”。##begin_quote## sold-out shows on the biggest and best screens this weekend ##end_quote## [文档 2]。这种情况与《沙丘2》类似，高票价格式的稀缺性会推高单银幕产出，并可能将部分需求挤压到普通场次，从而整体提升周末总收入。行业跟踪数据在最后一周持续上调，表明势头正猛。\n3. **权威预测区间覆盖目标范围**：多个专业票房预测机构给出的范围都包含了75-80百万美元区间。Boxoffice Pro的预测是“7000万–7800万美元”，而Box Office Theory（BOT）的预测范围是“6000万 — 7800万美元”。##begin_quote## Project Hail Mary BOT Domestic Weekend Forecast Range: **$60 — 78 million** ##end_quote## [文档 2]。7800万美元的上限已经触及我们目标范围的下限。考虑到提前场数据公布后（文档4和6的报道时间可能晚于文档2和3的预测），实际开画数字有进一步上调至8000万美元甚至更高的潜力。\n\n然而，历史也告诫我们，过于乐观的预测常因市场饱和或口碑扩散速度而受挫。反对其达到该区间的论据同样值得深思：\n1. **预测区间的宽度与不确定性**：尽管预测上限触及7800万美元，但该范围本身从6000万美元开始，跨度很大。##begin_quote## $60 — 78 million ##end_quote## [文档 2]。这反映了预测模型中的显著不确定性。要达到75-80百万美元，需要表现接近或超过预测范围的最顶端，这并非基准情景。\n2. **周六票房可能出现的疲软**：有报道将其趋势与《奥本海默》比较，后者在强劲周五后“周六略有下跌”。##begin_quote## The film's box office trend is being compared to Oppenheimer, which also had a strong Friday before dipping slightly on Saturday. ##end_quote## [文档 6]。如果《Project Hail Mary》也出现类似的周六环比下跌，那么从极高的提前场和周五数字向整个周末的推算中，可能会削弱最终冲高的动力，使其更可能落在70-75百万美元区间，而非75-80百万美元。\n3. **市场竞争与观众分流**：尽管它是本周末的焦点，但整体市场并非它独享。周末前十名电影总票房预计为“1.28亿美元以上”。##begin_quote## This weekend’s top 10 films are tracking to earn a projected **$128 million+**. ##end_quote## [文档 2]。如果其他电影（如《Dhurandhar: The Revenge》）表现略超预期，可能会在放映场次和观众钱包份额上构成轻微竞争。\n\n**综合分析**：\n权衡这些因素，历史的类比指向一个谨慎乐观的结论。影片拥有所有成功开画的要素：顶级口碑、主演（瑞恩·高斯林）的票房吸引力、高需求的影院体验，以及强劲的早期指标。提前场1100万美元+的数据是一个极强的信号，通常预示着首周末票房能达到提前场收入的7-8倍，即7700万至8800万美元区间。这使其落在75-80百万美元区间成为可能，甚至更高。\n然而，票房预测是一门艺术而非精确科学。目标区间（75-80百万美元）相对狭窄，且靠近多个预测范围的上限。这意味着它需要一切条件近乎完美：极佳的观众口碑（CinemaScore A或A+）、周六跌幅极小、以及高规格放映持续满座。考虑到存在周六疲软的历史先例（如《奥本海默》模式）以及预测本身固有的不确定性，我认为最终数字最有可能落在预测范围的中上部，即7000万至7800万美元之间。落在75-78百万美元的可能性，略高于落在78-80百万美元的可能性。\n\n因此，综合历史先例和当前数据，我认为该事件发生的概率略高于不发生的概率，但优势并不巨大。",
+        "raw_response": "REASONING: 作为历史类比师，我将从电影票房的历史模式中寻找线索。当我们审视《Project Hail Mary》的预测时，这让我想起了《火星救援》和《奥本海默》的轨迹——它们都是基于畅销书的非系列硬核科幻/历史题材电影，凭借口碑和影院体验驱动了超预期的票房。\n\n首先，支持其首周末票房落在7500万至8000万美元区间的论据非常有力：\n1. **强劲的预售与口碑基础**：影片在烂番茄上获得了95%的高分，这通常是强劲开画的领先指标。更重要的是，其周四提前场票房达到了“1100万美元以上”，这是“今年迄今为止最好的”成绩，并且“创下了亚马逊米高梅有史以来最好的提前场纪录”。##begin_quote## ‘Project Hail Mary’ Blasts Off To $11M+ In Previews, Best YTD... best previews ever for an Amazon MGM Studios release ##end_quote## [文档 4]。历史上，像《奥本海默》（提前场1050万美元，首周末8240万美元）这样的影片已经证明，强劲的提前场可以转化为巨大的首周末数字。\n2. **高规格放映需求与供应限制**：影片在IMAX和70毫米银幕上的需求旺盛，导致最佳场次“基本售罄”。##begin_quote## sold-out shows on the biggest and best screens this weekend ##end_quote## [文档 2]。这种情况与《沙丘2》类似，高票价格式的稀缺性会推高单银幕产出，并可能将部分需求挤压到普通场次，从而整体提升周末总收入。行业跟踪数据在最后一周持续上调，表明势头正猛。\n3. **权威预测区间覆盖目标范围**：多个专业票房预测机构给出的范围都包含了75-80百万美元区间。Boxoffice Pro的预测是“7000万–7800万美元”，而Box Office Theory（BOT）的预测范围是“6000万 — 7800万美元”。##begin_quote## Project Hail Mary BOT Domestic Weekend Forecast Range: **$60 — 78 million** ##end_quote## [文档 2]。7800万美元的上限已经触及我们目标范围的下限。考虑到提前场数据公布后（文档4和6的报道时间可能晚于文档2和3的预测），实际开画数字有进一步上调至8000万美元甚至更高的潜力。\n\n然而，历史也告诫我们，过于乐观的预测常因市场饱和或口碑扩散速度而受挫。反对其达到该区间的论据同样值得深思：\n1. **预测区间的宽度与不确定性**：尽管预测上限触及7800万美元，但该范围本身从6000万美元开始，跨度很大。##begin_quote## $60 — 78 million ##end_quote## [文档 2]。这反映了预测模型中的显著不确定性。要达到75-80百万美元，需要表现接近或超过预测范围的最顶端，这并非基准情景。\n2. **周六票房可能出现的疲软**：有报道将其趋势与《奥本海默》比较，后者在强劲周五后“周六略有下跌”。##begin_quote## The film's box office trend is being compared to Oppenheimer, which also had a strong Friday before dipping slightly on Saturday. ##end_quote## [文档 6]。如果《Project Hail Mary》也出现类似的周六环比下跌，那么从极高的提前场和周五数字向整个周末的推算中，可能会削弱最终冲高的动力，使其更可能落在70-75百万美元区间，而非75-80百万美元。\n3. **市场竞争与观众分流**：尽管它是本周末的焦点，但整体市场并非它独享。周末前十名电影总票房预计为“1.28亿美元以上”。##begin_quote## This weekend’s top 10 films are tracking to earn a projected **$128 million+**. ##end_quote## [文档 2]。如果其他电影（如《Dhurandhar: The Revenge》）表现略超预期，可能会在放映场次和观众钱包份额上构成轻微竞争。\n\n**综合分析**：\n权衡这些因素，历史的类比指向一个谨慎乐观的结论。影片拥有所有成功开画的要素：顶级口碑、主演（瑞恩·高斯林）的票房吸引力、高需求的影院体验，以及强劲的早期指标。提前场1100万美元+的数据是一个极强的信号，通常预示着首周末票房能达到提前场收入的7-8倍，即7700万至8800万美元区间。这使其落在75-80百万美元区间成为可能，甚至更高。\n然而，票房预测是一门艺术而非精确科学。目标区间（75-80百万美元）相对狭窄，且靠近多个预测范围的上限。这意味着它需要一切条件近乎完美：极佳的观众口碑（CinemaScore A或A+）、周六跌幅极小、以及高规格放映持续满座。考虑到存在周六疲软的历史先例（如《奥本海默》模式）以及预测本身固有的不确定性，我认为最终数字最有可能落在预测范围的中上部，即7000万至7800万美元之间。落在75-78百万美元的可能性，略高于落在78-80百万美元的可能性。\n\n因此，综合历史先例和当前数据，我认为该事件发生的概率略高于不发生的概率，但优势并不巨大。\n\nPREDICTION: 55%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "‘Project Hail Mary’ Blasts Off To $11M+ In Previews, Best YTD... best previews ever for an Amazon MGM Studios release",
+              "doc_index": 4
+            },
+            {
+              "quote": "sold-out shows on the biggest and best screens this weekend",
+              "doc_index": 2
+            },
+            {
+              "quote": "Project Hail Mary BOT Domestic Weekend Forecast Range: **$60 — 78 million**",
+              "doc_index": 2
+            },
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "The film's box office trend is being compared to Oppenheimer, which also had a strong Friday before dipping slightly on Saturday.",
+              "doc_index": 6
+            },
+            {
+              "quote": "This weekend’s top 10 films are tracking to earn a projected **$128 million+**.",
+              "doc_index": 2
+            }
+          ],
+          "cited_doc_indices": [
+            2,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "agent_name": "数据统计师",
+        "stance": "neutral",
+        "probability": 35.0,
+        "reasoning": "首先评估文档相关性。文档1、2、3、4、6、7均直接涉及《Project Hail Mary》的票房预测或实际表现，相关性评分高（8-10分）。文档5讨论工作伦理，与票房预测无关，相关性评分为0，予以忽略。\n\n**支持（YES）的论据：**\n1. 权威预测机构Boxoffice Pro给出的预测范围明确包含75-80M区间。##begin_quote## Boxoffice Pro, which suggest Ryan Gosling’s sci-fi epic could soar to a $70M–$78M domestic opening ##end_quote## [文档1]。其预测上限78M接近目标区间下限。\n2. 专业票房分析网站Box Office Theory（BOT）的预测范围同样支持该可能性。##begin_quote## BOT Domestic Weekend Forecast Range: **$60 — 78 million** ##end_quote## [文档2, 文档3]。其预测上限78M落在目标区间内。\n3. 影片上映前最终预售趋势强劲，已超过早期跟踪数据。##begin_quote## It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates, those being around $55 million for the domestic opening. ##end_quote## [文档2]。这表明实际表现可能达到或超过预测范围的上半部分。\n\n**反对（NO）的论据：**\n1. 主要预测范围的上限为78M，略低于目标区间下限75M。综合两个主要预测源（Boxoffice Pro的70-78M和BOT的60-78M），其最乐观的预测值（78M）仍低于80M，且未触及75M。统计上，点估计落在区间两端的概率通常较低。\n2. 存在实际票房报告显示其开画成绩可能高于80M，从而落在目标区间之外。##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million ##end_quote## [文档7]。若此数据准确，则结果为NO。\n3. 另一份报告也指出其瞄准80M开画。##begin_quote## Ryan Gosling's Project Hail Mary Eyes $80M US Opening ##end_quote## [文档6]。同时，其周四预览票房达11M+，表现强劲。##begin_quote## ‘Project Hail Mary’ Blasts Off To $11M+ In Previews, Best YTD ##end_quote## [文档4]。高额预览票房可能预示着整体开画数字会更高，增加突破80M的可能性，从而超出目标区间。\n\n**综合分析：**\n基于提供的文档数据，这是一个典型的区间预测问题。支持论据主要基于上映前的预测模型，其范围（60-78M）的上限78M紧贴目标区间（75-80M）。然而，反对论据引入了上映后的实际数据点（80.5M），若该数据为最终确认的官方开画周末票房，则问题有明确答案。从统计预测角度看，在仅依据预测模型时，结果落在预测范围上限（如76-78M）的概率本身低于落在范围中值附近的概率。结合存在实际报告指向80.5M，该数值已超出目标区间。但需注意，不同来源的数据可能存在差异或为早期估算。权衡之下，实际数据（80.5M）的权重应高于前瞻性预测。若以预测模型为基准，落在75-80M区间的概率需基于其预测分布进行估算；若以报道的实际数据为基准，则结果为NO的概率极高。\n\n**最终概率估计：**\n综合预测模型给出的范围上限（78M）与声称的实际数据（80.5M），并考虑预测误差通常存在的波动性，估计最终开画票房落在75-80M这一相对狭窄区间的概率较低。基于数据统计的保守估计，此事件发生的概率为 **35%**。",
+        "raw_response": "REASONING:\n首先评估文档相关性。文档1、2、3、4、6、7均直接涉及《Project Hail Mary》的票房预测或实际表现，相关性评分高（8-10分）。文档5讨论工作伦理，与票房预测无关，相关性评分为0，予以忽略。\n\n**支持（YES）的论据：**\n1. 权威预测机构Boxoffice Pro给出的预测范围明确包含75-80M区间。##begin_quote## Boxoffice Pro, which suggest Ryan Gosling’s sci-fi epic could soar to a $70M–$78M domestic opening ##end_quote## [文档1]。其预测上限78M接近目标区间下限。\n2. 专业票房分析网站Box Office Theory（BOT）的预测范围同样支持该可能性。##begin_quote## BOT Domestic Weekend Forecast Range: **$60 — 78 million** ##end_quote## [文档2, 文档3]。其预测上限78M落在目标区间内。\n3. 影片上映前最终预售趋势强劲，已超过早期跟踪数据。##begin_quote## It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates, those being around $55 million for the domestic opening. ##end_quote## [文档2]。这表明实际表现可能达到或超过预测范围的上半部分。\n\n**反对（NO）的论据：**\n1. 主要预测范围的上限为78M，略低于目标区间下限75M。综合两个主要预测源（Boxoffice Pro的70-78M和BOT的60-78M），其最乐观的预测值（78M）仍低于80M，且未触及75M。统计上，点估计落在区间两端的概率通常较低。\n2. 存在实际票房报告显示其开画成绩可能高于80M，从而落在目标区间之外。##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million ##end_quote## [文档7]。若此数据准确，则结果为NO。\n3. 另一份报告也指出其瞄准80M开画。##begin_quote## Ryan Gosling's Project Hail Mary Eyes $80M US Opening ##end_quote## [文档6]。同时，其周四预览票房达11M+，表现强劲。##begin_quote## ‘Project Hail Mary’ Blasts Off To $11M+ In Previews, Best YTD ##end_quote## [文档4]。高额预览票房可能预示着整体开画数字会更高，增加突破80M的可能性，从而超出目标区间。\n\n**综合分析：**\n基于提供的文档数据，这是一个典型的区间预测问题。支持论据主要基于上映前的预测模型，其范围（60-78M）的上限78M紧贴目标区间（75-80M）。然而，反对论据引入了上映后的实际数据点（80.5M），若该数据为最终确认的官方开画周末票房，则问题有明确答案。从统计预测角度看，在仅依据预测模型时，结果落在预测范围上限（如76-78M）的概率本身低于落在范围中值附近的概率。结合存在实际报告指向80.5M，该数值已超出目标区间。但需注意，不同来源的数据可能存在差异或为早期估算。权衡之下，实际数据（80.5M）的权重应高于前瞻性预测。若以预测模型为基准，落在75-80M区间的概率需基于其预测分布进行估算；若以报道的实际数据为基准，则结果为NO的概率极高。\n\n**最终概率估计：**\n综合预测模型给出的范围上限（78M）与声称的实际数据（80.5M），并考虑预测误差通常存在的波动性，估计最终开画票房落在75-80M这一相对狭窄区间的概率较低。基于数据统计的保守估计，此事件发生的概率为 **35%**。\n\nPREDICTION: 35%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Boxoffice Pro, which suggest Ryan Gosling’s sci-fi epic could soar to a $70M–$78M domestic opening",
+              "doc_index": 1
+            },
+            {
+              "quote": "BOT Domestic Weekend Forecast Range: **$60 — 78 million** ##end_quote## [文档2, 文档3]。其预测上限78M落在目标区间内。\n3. 影片上映前最终预售趋势强劲，已超过早期跟踪数据。##begin_quote## It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates, those being around $55 million for the domestic opening.",
+              "doc_index": 2
+            },
+            {
+              "quote": "‘Project Hail Mary’ blasts off with $80.5 million",
+              "doc_index": 7
+            },
+            {
+              "quote": "Ryan Gosling's Project Hail Mary Eyes $80M US Opening",
+              "doc_index": 6
+            },
+            {
+              "quote": "‘Project Hail Mary’ Blasts Off To $11M+ In Previews, Best YTD",
+              "doc_index": 4
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            4,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "情绪分析师",
+        "stance": "bull",
+        "probability": 68.0,
+        "reasoning": "作为情绪分析师，我关注市场情绪、媒体叙事和公众舆论的动量效应。当前围绕《Project Hail Mary》的叙事极其强劲，呈现出典型的“突破性成功”故事框架，这通常预示着实际表现会达到甚至超越乐观预期。\n\n**1. 支持（YES）的论据**\n- **媒体与行业预测高度一致且乐观**：多个权威来源的预测区间均将75-80M包含在内或作为上限。Boxoffice Pro的预测为 ##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]，而Box Office Theory (BOT)的预测范围是 ##begin_quote## $60 — 78 million ##end_quote## [文档 2, 3]。这表明行业共识的上限已触及78M，为进入75-80M区间提供了坚实基础。\n- **预售势头强劲，超越早期预期**：上映前的最终数据显示出强大的市场动量。有报道指出， ##begin_quote## It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2]。这种“趋势高于早期跟踪”的模式是情绪转向极度乐观的明确信号，往往推动票房冲高。\n- **高质量的正面反馈与稀缺性需求**：影片获得了极高的口碑（ ##begin_quote## stellar 95% Rotten Tomatoes score ##end_quote## [文档 1]），并创造了强烈的优质格式观影需求。 ##begin_quote## the biggest and best screens this weekend ##end_quote## 的场次 ##begin_quote## are becoming largely sold-out ##end_quote## [文档 2]。这种由口碑和格式驱动的高票价、高需求场景，是推动票房突破预测中值、冲向区间上沿的关键情绪催化剂。\n\n**2. 反对（NO）的论据**\n- **预测区间存在下限，且传统跟踪相对保守**：尽管最终趋势向上，但传统工作室的跟踪数据曾显示一个更保守的基准： ##begin_quote## Traditional Studio Tracking: $55 million+ ##end_quote## [文档 2, 3]。BOT的预测下限也仅为60M。这表明在情绪全面高涨前，存在票房落于区间中下部（如70-74M）的可能性，而非必然冲高至75M以上。\n- **市场容量与竞争分流的现实约束**：尽管本周末前十名电影总票房预计超过1.28亿美元[文档 2, 3]，显示市场热度高，但这也意味着存在其他影片（如《Dhurandhar: The Revenge》和《Ready or Not 2》）会分流部分观众。情绪高涨可能集中于核心影迷和优质格式，普通场次的上座率能否完全匹配乐观预期存疑。\n- **“非系列电影”的历史天花板**：报道将本片与《奥本海默》（82.4M）和《我是传奇》（77.2M）等非系列电影的成功相比较[文档 4]。这既是对其潜力的认可，也暗示了此类电影在开画规模上存在一个无形的心理和历史天花板。突破80M将是一个巨大的里程碑，情绪动量需要异常强大才能实现。\n\n**3. 综合分析**\n当前的市场情绪和媒体叙事几乎完全偏向“成功”与“突破”。核心叙事点——从“高于早期跟踪”的预售数据、与《奥本海默》的类比、创纪录的预览票房[文档 4, 6]，到“最大最好的屏幕近乎售罄”——共同构建了一个强大的正向反馈循环。这种情绪动量往往会导致“赢家通吃”效应，即大部分增量观众涌向已被认定为“必看”的热门影片。\n\n反对论据中的保守跟踪数据和市场竞争是合理的现实制约。然而，在强烈的正向叙事驱动下，早期保守数据通常会被实际开画表现大幅超越。关键在于，情绪动量是否足以将票房从78M的普遍预测上限，再向上推高2-3个百万，使其稳定进入75-80M区间，甚至触碰80M。\n\n我认为动量足够强大。与《奥本海默》的类比（其开画82.4M）为市场提供了一个具体的、更高的心理对标点，而不仅仅是满足于70M出头的预测。 ##begin_quote## Ryan Gosling&#x27;s Project Hail Mary Eyes $80M US Opening ##end_quote## [文档 6] 这样的标题正在塑造市场预期。当媒体开始谈论80M时，它会自我实现，吸引更多出于“害怕错过”心理的观众。\n\n**4. 最终概率估计**\n综合考虑：强劲的预售趋势、极高的口碑、优质的格式需求以及爆炸性的媒体叙事，共同形成了强大的上行动量。虽然存在竞争和历史天花板的制约，但当前的情绪浪潮更可能推动票房达到甚至略微超过普遍预测的上限。因此，票房落在75-80M这个“成功区间”上部的可能性较高。",
+        "raw_response": "REASONING:\n作为情绪分析师，我关注市场情绪、媒体叙事和公众舆论的动量效应。当前围绕《Project Hail Mary》的叙事极其强劲，呈现出典型的“突破性成功”故事框架，这通常预示着实际表现会达到甚至超越乐观预期。\n\n**1. 支持（YES）的论据**\n- **媒体与行业预测高度一致且乐观**：多个权威来源的预测区间均将75-80M包含在内或作为上限。Boxoffice Pro的预测为 ##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]，而Box Office Theory (BOT)的预测范围是 ##begin_quote## $60 — 78 million ##end_quote## [文档 2, 3]。这表明行业共识的上限已触及78M，为进入75-80M区间提供了坚实基础。\n- **预售势头强劲，超越早期预期**：上映前的最终数据显示出强大的市场动量。有报道指出， ##begin_quote## It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2]。这种“趋势高于早期跟踪”的模式是情绪转向极度乐观的明确信号，往往推动票房冲高。\n- **高质量的正面反馈与稀缺性需求**：影片获得了极高的口碑（ ##begin_quote## stellar 95% Rotten Tomatoes score ##end_quote## [文档 1]），并创造了强烈的优质格式观影需求。 ##begin_quote## the biggest and best screens this weekend ##end_quote## 的场次 ##begin_quote## are becoming largely sold-out ##end_quote## [文档 2]。这种由口碑和格式驱动的高票价、高需求场景，是推动票房突破预测中值、冲向区间上沿的关键情绪催化剂。\n\n**2. 反对（NO）的论据**\n- **预测区间存在下限，且传统跟踪相对保守**：尽管最终趋势向上，但传统工作室的跟踪数据曾显示一个更保守的基准： ##begin_quote## Traditional Studio Tracking: $55 million+ ##end_quote## [文档 2, 3]。BOT的预测下限也仅为60M。这表明在情绪全面高涨前，存在票房落于区间中下部（如70-74M）的可能性，而非必然冲高至75M以上。\n- **市场容量与竞争分流的现实约束**：尽管本周末前十名电影总票房预计超过1.28亿美元[文档 2, 3]，显示市场热度高，但这也意味着存在其他影片（如《Dhurandhar: The Revenge》和《Ready or Not 2》）会分流部分观众。情绪高涨可能集中于核心影迷和优质格式，普通场次的上座率能否完全匹配乐观预期存疑。\n- **“非系列电影”的历史天花板**：报道将本片与《奥本海默》（82.4M）和《我是传奇》（77.2M）等非系列电影的成功相比较[文档 4]。这既是对其潜力的认可，也暗示了此类电影在开画规模上存在一个无形的心理和历史天花板。突破80M将是一个巨大的里程碑，情绪动量需要异常强大才能实现。\n\n**3. 综合分析**\n当前的市场情绪和媒体叙事几乎完全偏向“成功”与“突破”。核心叙事点——从“高于早期跟踪”的预售数据、与《奥本海默》的类比、创纪录的预览票房[文档 4, 6]，到“最大最好的屏幕近乎售罄”——共同构建了一个强大的正向反馈循环。这种情绪动量往往会导致“赢家通吃”效应，即大部分增量观众涌向已被认定为“必看”的热门影片。\n\n反对论据中的保守跟踪数据和市场竞争是合理的现实制约。然而，在强烈的正向叙事驱动下，早期保守数据通常会被实际开画表现大幅超越。关键在于，情绪动量是否足以将票房从78M的普遍预测上限，再向上推高2-3个百万，使其稳定进入75-80M区间，甚至触碰80M。\n\n我认为动量足够强大。与《奥本海默》的类比（其开画82.4M）为市场提供了一个具体的、更高的心理对标点，而不仅仅是满足于70M出头的预测。 ##begin_quote## Ryan Gosling&#x27;s Project Hail Mary Eyes $80M US Opening ##end_quote## [文档 6] 这样的标题正在塑造市场预期。当媒体开始谈论80M时，它会自我实现，吸引更多出于“害怕错过”心理的观众。\n\n**4. 最终概率估计**\n综合考虑：强劲的预售趋势、极高的口碑、优质的格式需求以及爆炸性的媒体叙事，共同形成了强大的上行动量。虽然存在竞争和历史天花板的制约，但当前的情绪浪潮更可能推动票房达到甚至略微超过普遍预测的上限。因此，票房落在75-80M这个“成功区间”上部的可能性较高。\n\nPREDICTION: 68%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$70M–$78M domestic opening",
+              "doc_index": 1
+            },
+            {
+              "quote": "$60 — 78 million ##end_quote## [文档 2, 3]。这表明行业共识的上限已触及78M，为进入75-80M区间提供了坚实基础。\n- **预售势头强劲，超越早期预期**：上映前的最终数据显示出强大的市场动量。有报道指出， ##begin_quote## It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates",
+              "doc_index": 2
+            },
+            {
+              "quote": "stellar 95% Rotten Tomatoes score",
+              "doc_index": 1
+            },
+            {
+              "quote": "the biggest and best screens this weekend ##end_quote## 的场次 ##begin_quote## are becoming largely sold-out",
+              "doc_index": 2
+            },
+            {
+              "quote": "Traditional Studio Tracking: $55 million+ ##end_quote## [文档 2, 3]。BOT的预测下限也仅为60M。这表明在情绪全面高涨前，存在票房落于区间中下部（如70-74M）的可能性，而非必然冲高至75M以上。\n- **市场容量与竞争分流的现实约束**：尽管本周末前十名电影总票房预计超过1.28亿美元[文档 2, 3]，显示市场热度高，但这也意味着存在其他影片（如《Dhurandhar: The Revenge》和《Ready or Not 2》）会分流部分观众。情绪高涨可能集中于核心影迷和优质格式，普通场次的上座率能否完全匹配乐观预期存疑。\n- **“非系列电影”的历史天花板**：报道将本片与《奥本海默》（82.4M）和《我是传奇》（77.2M）等非系列电影的成功相比较[文档 4]。这既是对其潜力的认可，也暗示了此类电影在开画规模上存在一个无形的心理和历史天花板。突破80M将是一个巨大的里程碑，情绪动量需要异常强大才能实现。\n\n**3. 综合分析**\n当前的市场情绪和媒体叙事几乎完全偏向“成功”与“突破”。核心叙事点——从“高于早期跟踪”的预售数据、与《奥本海默》的类比、创纪录的预览票房[文档 4, 6]，到“最大最好的屏幕近乎售罄”——共同构建了一个强大的正向反馈循环。这种情绪动量往往会导致“赢家通吃”效应，即大部分增量观众涌向已被认定为“必看”的热门影片。\n\n反对论据中的保守跟踪数据和市场竞争是合理的现实制约。然而，在强烈的正向叙事驱动下，早期保守数据通常会被实际开画表现大幅超越。关键在于，情绪动量是否足以将票房从78M的普遍预测上限，再向上推高2-3个百万，使其稳定进入75-80M区间，甚至触碰80M。\n\n我认为动量足够强大。与《奥本海默》的类比（其开画82.4M）为市场提供了一个具体的、更高的心理对标点，而不仅仅是满足于70M出头的预测。 ##begin_quote## Ryan Gosling&#x27;s Project Hail Mary Eyes $80M US Opening",
+              "doc_index": 6
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            6
+          ]
+        }
+      },
+      {
+        "agent_name": "逆向投资者",
+        "stance": "bear",
+        "probability": 38.0,
+        "reasoning": "市场现在对《Project Hail Mary》一片狂热，预测普遍乐观，这正是我需要警惕的时候。共识往往高估短期情绪，低估现实阻力。让我来系统地质疑一下。\n\n**支持（YES）的论据：**\n1. **高规格预测与强劲预售**：权威票房预测机构Boxoffice Pro给出了$70M–$78M的预测范围，而BOT的预测范围更宽，为$60-78M。这表明专业模型已将其置于75m门槛附近。##begin_quote## Project Hail Mary Projected To Be Biggest Opening Of The Year So Far ... latest projections from Boxoffice Pro, which suggest Ryan Gosling’s sci-fi epic could soar to a $70M–$78M domestic opening ##end_quote## [文档 1]\n2. **口碑与需求旺盛**：影片获得95%的烂番茄高分，且对IMAX和70毫米屏幕的需求强劲，这通常支撑更高的单银幕产出和更稳定的周末走势。##begin_quote## its stellar 95% Rotten Tomatoes score and heavy demand for IMAX and 70mm screenings ##end_quote## [文档 1]\n3. **前期表现超预期**：影片的最终预售趋势已高于早期跟踪数据，甚至超过了行业约5500万美元的初步估计，显示动能向上。##begin_quote## It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates, those being around $55 million ##end_quote## [文档 2]\n\n**反对（NO）的论据：**\n1. **预测区间的上沿压力**：最乐观的预测（78M）恰好是目标区间（75-80M）的下限边缘。这意味着要达到区间内，必须触及或突破预测上沿，这在统计学上是小概率事件。市场共识的锚定点在70-78M，而非75-80M。##begin_quote## BOT Domestic Weekend Forecast Range: **$60 — 78 million** ##end_quote## [文档 2]\n2. **非续集电影的天然阻力**：尽管被拿来与《奥本海默》比较，但后者82.4M的开局是非续集电影的顶级表现。市场可能过度外推了《芭比》给高司令带来的“光环效应”，而忽视了原创科幻电影（即使有小说基础）在开画规模上固有的天花板。##begin_quote## The best opening for a non-franchise movie belongs to *Oppenheimer* ($82.4M) ##end_quote## [文档 4]\n3. **饱和预售与均值回归**：报告提到最大最好的屏幕场次“几乎售罄”，这可能导致部分需求被挤压到后续周末，而非全部集中在首周末三天。此外，极高的预售可能提前透支了核心粉丝的消费，使得周六、周日的增长不及预期，出现“周五冲高、周六微跌”的走势（类似《奥本海默》），从而将最终数字拉回至预测区间中下部。##begin_quote## casual moviegoers will be more than happy to wait a day or two (or even a week-plus) to get their hands on optimal seats rather than sit on the literal auditorium sidelines for what are becoming largely sold-out shows ##end_quote## [文档 2] ##begin_quote## The film's box office trend is being compared to Oppenheimer, which also had a strong Friday before dipping slightly on Saturday. ##end_quote## [文档 6]\n\n**综合分析：**\n市场情绪显然偏向乐观，预测集中在70-78M区间。然而，逆向思维要求我关注几个关键偏差：首先，**锚定偏差**：所有讨论都锚定在“年度最佳开局”、“亚马逊MGM纪录”等光环上，这容易让人忽视达到75M以上所需的苛刻条件——它需要几乎完美的兑现所有乐观假设。其次，**过度反应**：高口碑和强劲预售可能已被当前的价格充分反映，甚至过度反映。最后，**均值回归**：票房预测，尤其是对于非IP电影，常有“高估”倾向，最终数字往往落在预测区间的中低位，而非冲击上沿。\n\n目标区间75-80M是一个非常狭窄的窗口，它要求影片表现必须达到或超过当前最乐观预测的顶部（78M）。考虑到非续集电影的开画阻力、可能因售罄导致的周末内增长疲软，以及预测模型本身固有的误差，实际落在这个精确区间的概率并不高。更可能的结果是落在70-75M（略低于区间）或刚好触及78M（区间下限）。市场共识的兴奋点恰恰是我需要谨慎的地方。",
+        "raw_response": "REASONING: 市场现在对《Project Hail Mary》一片狂热，预测普遍乐观，这正是我需要警惕的时候。共识往往高估短期情绪，低估现实阻力。让我来系统地质疑一下。\n\n**支持（YES）的论据：**\n1. **高规格预测与强劲预售**：权威票房预测机构Boxoffice Pro给出了$70M–$78M的预测范围，而BOT的预测范围更宽，为$60-78M。这表明专业模型已将其置于75m门槛附近。##begin_quote## Project Hail Mary Projected To Be Biggest Opening Of The Year So Far ... latest projections from Boxoffice Pro, which suggest Ryan Gosling’s sci-fi epic could soar to a $70M–$78M domestic opening ##end_quote## [文档 1]\n2. **口碑与需求旺盛**：影片获得95%的烂番茄高分，且对IMAX和70毫米屏幕的需求强劲，这通常支撑更高的单银幕产出和更稳定的周末走势。##begin_quote## its stellar 95% Rotten Tomatoes score and heavy demand for IMAX and 70mm screenings ##end_quote## [文档 1]\n3. **前期表现超预期**：影片的最终预售趋势已高于早期跟踪数据，甚至超过了行业约5500万美元的初步估计，显示动能向上。##begin_quote## It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates, those being around $55 million ##end_quote## [文档 2]\n\n**反对（NO）的论据：**\n1. **预测区间的上沿压力**：最乐观的预测（78M）恰好是目标区间（75-80M）的下限边缘。这意味着要达到区间内，必须触及或突破预测上沿，这在统计学上是小概率事件。市场共识的锚定点在70-78M，而非75-80M。##begin_quote## BOT Domestic Weekend Forecast Range: **$60 — 78 million** ##end_quote## [文档 2]\n2. **非续集电影的天然阻力**：尽管被拿来与《奥本海默》比较，但后者82.4M的开局是非续集电影的顶级表现。市场可能过度外推了《芭比》给高司令带来的“光环效应”，而忽视了原创科幻电影（即使有小说基础）在开画规模上固有的天花板。##begin_quote## The best opening for a non-franchise movie belongs to *Oppenheimer* ($82.4M) ##end_quote## [文档 4]\n3. **饱和预售与均值回归**：报告提到最大最好的屏幕场次“几乎售罄”，这可能导致部分需求被挤压到后续周末，而非全部集中在首周末三天。此外，极高的预售可能提前透支了核心粉丝的消费，使得周六、周日的增长不及预期，出现“周五冲高、周六微跌”的走势（类似《奥本海默》），从而将最终数字拉回至预测区间中下部。##begin_quote## casual moviegoers will be more than happy to wait a day or two (or even a week-plus) to get their hands on optimal seats rather than sit on the literal auditorium sidelines for what are becoming largely sold-out shows ##end_quote## [文档 2] ##begin_quote## The film's box office trend is being compared to Oppenheimer, which also had a strong Friday before dipping slightly on Saturday. ##end_quote## [文档 6]\n\n**综合分析：**\n市场情绪显然偏向乐观，预测集中在70-78M区间。然而，逆向思维要求我关注几个关键偏差：首先，**锚定偏差**：所有讨论都锚定在“年度最佳开局”、“亚马逊MGM纪录”等光环上，这容易让人忽视达到75M以上所需的苛刻条件——它需要几乎完美的兑现所有乐观假设。其次，**过度反应**：高口碑和强劲预售可能已被当前的价格充分反映，甚至过度反映。最后，**均值回归**：票房预测，尤其是对于非IP电影，常有“高估”倾向，最终数字往往落在预测区间的中低位，而非冲击上沿。\n\n目标区间75-80M是一个非常狭窄的窗口，它要求影片表现必须达到或超过当前最乐观预测的顶部（78M）。考虑到非续集电影的开画阻力、可能因售罄导致的周末内增长疲软，以及预测模型本身固有的误差，实际落在这个精确区间的概率并不高。更可能的结果是落在70-75M（略低于区间）或刚好触及78M（区间下限）。市场共识的兴奋点恰恰是我需要谨慎的地方。\n\nPREDICTION: 38%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Project Hail Mary Projected To Be Biggest Opening Of The Year So Far ... latest projections from Boxoffice Pro, which suggest Ryan Gosling’s sci-fi epic could soar to a $70M–$78M domestic opening",
+              "doc_index": 1
+            },
+            {
+              "quote": "its stellar 95% Rotten Tomatoes score and heavy demand for IMAX and 70mm screenings",
+              "doc_index": 1
+            },
+            {
+              "quote": "It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates, those being around $55 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "BOT Domestic Weekend Forecast Range: **$60 — 78 million**",
+              "doc_index": 2
+            },
+            {
+              "quote": "The best opening for a non-franchise movie belongs to *Oppenheimer* ($82.4M)",
+              "doc_index": 4
+            },
+            {
+              "quote": "casual moviegoers will be more than happy to wait a day or two (or even a week-plus) to get their hands on optimal seats rather than sit on the literal auditorium sidelines for what are becoming largely sold-out shows",
+              "doc_index": 2
+            },
+            {
+              "quote": "The film's box office trend is being compared to Oppenheimer, which also had a strong Friday before dipping slightly on Saturday.",
+              "doc_index": 6
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "agent_name": "基本面分析师",
+        "stance": "neutral",
+        "probability": 55.0,
+        "reasoning": "作为基本面分析师，我将忽略短期市场噪音，聚焦于决定票房表现的结构性因素：影片质量、市场需求、发行策略和竞争环境。以下分析基于对相关文档的评估，仅引用评分高于5的相关文档（Document 1, 2, 3, 4, 6, 7）。无关文档（如Document 5）已被过滤。\n\n**1. 支持（YES）的论据**\n*   **强劲的预售与早期表现**：影片已展现出强大的市场吸引力。截至上映前，其最终预售趋势已高于早期跟踪数据，##begin_quote## now trending above early tracking and potentially even higher than industry estimates ##end_quote## [Document 2]。更关键的是，其周四提前场票房达到##begin_quote## $11M+ ##end_quote##，不仅是当年最佳，也创下了亚马逊MGM的纪录 ##begin_quote## best previews ever for an Amazon MGM Studios release ##end_quote## [Document 4]。这为高开画奠定了坚实基础。\n*   **高质量与高口碑的支撑**：影片获得了极高的专业评价，##begin_quote## stellar 95% Rotten Tomatoes score ##end_quote## [Document 1]。这不仅是质量的保证，也是驱动非核心观众购票的关键因素。同时，影片被与《火星救援》、《沙丘2》等成功作品相提并论，强化了其市场定位。\n*   **权威预测区间覆盖目标范围**：多个专业票房预测机构给出的区间均包含或接近75-80M美元。Boxoffice Pro的预测为##begin_quote## $70M–$78M domestic opening ##end_quote## [Document 1]，而Box Office Theory (BOT)的预测范围是##begin_quote## $60 — 78 million ##end_quote## [Document 2, 3]。目标范围（75-80M）紧贴这些预测的上限，表明该结果在合理预期之内。\n\n**2. 反对（NO）的论据**\n*   **预测区间存在下限风险**：尽管预测上限触及78M，但主要预测区间的中下部（60-75M）与目标范围（75-80M）存在重叠但更偏向下方。传统片方跟踪数据为##begin_quote## $55 million+ ##end_quote## [Document 2, 3]，这显著低于目标范围。这表明行业内部存在更保守的预期，最终开画数字有低于75M的可能。\n*   **高端格式票房产能限制**：影片需求高度集中于优质屏幕，##begin_quote## heavy demand for IMAX and 70mm screenings ##end_quote## [Document 1] 导致##begin_quote## largely sold-out shows on the biggest and best screens ##end_quote## [Document 2]。这可能导致部分观众因无法获得理想座位而推迟观影，将部分首周末需求分流至后续周末，从而抑制首周末数字冲高。\n*   **市场竞争与比较基准**：虽然预售强劲，但最终开画数字可能遵循特定模式。有分析将其与《奥本海默》比较，指出##begin_quote## which also had a strong Friday before dipping slightly on Saturday ##end_quote## [Document 6]。这种周末走势模式可能阻止其票房在周六、周日持续爆发式增长，从而难以突破预测区间的上限。\n\n**3. 综合分析**\n从基本面看，《Project Hail Mary》具备成功大片的所有要素：顶级主创（Lord & Miller执导、Gosling主演）、优质IP（Andy Weir原著）、卓越口碑（95%烂番茄）以及强烈的市场兴趣（创纪录的提前场）。这些结构性优势支撑其开画表现位于预测区间的高端。\n然而，目标范围（75-80M）是一个非常狭窄的区间，要求实际结果精准地落在高位。反对论据揭示了下行风险：保守的行业跟踪数据、高端影厅的物理容量限制、以及可能出现的周末票房衰减模式。这些因素共同作用，可能将最终数字拉低至78M以下，甚至低于75M。\n权衡之下，影片的基本面质量使其极有可能达到或接近预测上限（78M），但要精确落在75-80M区间内，需要克服上述所有限制因素，存在一定的不确定性。\n\n**4. 最终概率估计**\n基于影片强大的基本面对冲了下行风险，但精确命中狭窄区间难度较高，我认为该结果发生的概率略高于不发生的概率。",
+        "raw_response": "REASONING:\n作为基本面分析师，我将忽略短期市场噪音，聚焦于决定票房表现的结构性因素：影片质量、市场需求、发行策略和竞争环境。以下分析基于对相关文档的评估，仅引用评分高于5的相关文档（Document 1, 2, 3, 4, 6, 7）。无关文档（如Document 5）已被过滤。\n\n**1. 支持（YES）的论据**\n*   **强劲的预售与早期表现**：影片已展现出强大的市场吸引力。截至上映前，其最终预售趋势已高于早期跟踪数据，##begin_quote## now trending above early tracking and potentially even higher than industry estimates ##end_quote## [Document 2]。更关键的是，其周四提前场票房达到##begin_quote## $11M+ ##end_quote##，不仅是当年最佳，也创下了亚马逊MGM的纪录 ##begin_quote## best previews ever for an Amazon MGM Studios release ##end_quote## [Document 4]。这为高开画奠定了坚实基础。\n*   **高质量与高口碑的支撑**：影片获得了极高的专业评价，##begin_quote## stellar 95% Rotten Tomatoes score ##end_quote## [Document 1]。这不仅是质量的保证，也是驱动非核心观众购票的关键因素。同时，影片被与《火星救援》、《沙丘2》等成功作品相提并论，强化了其市场定位。\n*   **权威预测区间覆盖目标范围**：多个专业票房预测机构给出的区间均包含或接近75-80M美元。Boxoffice Pro的预测为##begin_quote## $70M–$78M domestic opening ##end_quote## [Document 1]，而Box Office Theory (BOT)的预测范围是##begin_quote## $60 — 78 million ##end_quote## [Document 2, 3]。目标范围（75-80M）紧贴这些预测的上限，表明该结果在合理预期之内。\n\n**2. 反对（NO）的论据**\n*   **预测区间存在下限风险**：尽管预测上限触及78M，但主要预测区间的中下部（60-75M）与目标范围（75-80M）存在重叠但更偏向下方。传统片方跟踪数据为##begin_quote## $55 million+ ##end_quote## [Document 2, 3]，这显著低于目标范围。这表明行业内部存在更保守的预期，最终开画数字有低于75M的可能。\n*   **高端格式票房产能限制**：影片需求高度集中于优质屏幕，##begin_quote## heavy demand for IMAX and 70mm screenings ##end_quote## [Document 1] 导致##begin_quote## largely sold-out shows on the biggest and best screens ##end_quote## [Document 2]。这可能导致部分观众因无法获得理想座位而推迟观影，将部分首周末需求分流至后续周末，从而抑制首周末数字冲高。\n*   **市场竞争与比较基准**：虽然预售强劲，但最终开画数字可能遵循特定模式。有分析将其与《奥本海默》比较，指出##begin_quote## which also had a strong Friday before dipping slightly on Saturday ##end_quote## [Document 6]。这种周末走势模式可能阻止其票房在周六、周日持续爆发式增长，从而难以突破预测区间的上限。\n\n**3. 综合分析**\n从基本面看，《Project Hail Mary》具备成功大片的所有要素：顶级主创（Lord & Miller执导、Gosling主演）、优质IP（Andy Weir原著）、卓越口碑（95%烂番茄）以及强烈的市场兴趣（创纪录的提前场）。这些结构性优势支撑其开画表现位于预测区间的高端。\n然而，目标范围（75-80M）是一个非常狭窄的区间，要求实际结果精准地落在高位。反对论据揭示了下行风险：保守的行业跟踪数据、高端影厅的物理容量限制、以及可能出现的周末票房衰减模式。这些因素共同作用，可能将最终数字拉低至78M以下，甚至低于75M。\n权衡之下，影片的基本面质量使其极有可能达到或接近预测上限（78M），但要精确落在75-80M区间内，需要克服上述所有限制因素，存在一定的不确定性。\n\n**4. 最终概率估计**\n基于影片强大的基本面对冲了下行风险，但精确命中狭窄区间难度较高，我认为该结果发生的概率略高于不发生的概率。\n\nPREDICTION: 55%",
+        "citations": {
+          "quotes": [],
+          "cited_doc_indices": []
+        }
+      },
+      {
+        "agent_name": "风险评估师",
+        "stance": "bear",
+        "probability": 50.0,
+        "reasoning": "作为风险评估师，我将采用风险矩阵思维，识别推动票房进入75-80M区间的主要风险因素及其概率，并特别关注可能导致结果偏离的尾部风险。\n\n**文档相关性评估**：\n- 文档1 (John Campea视频): 9/10 - 直接提供票房预测范围\n- 文档2 (Box Office Theory预测): 10/10 - 核心预测数据来源\n- 文档3 (重复文档2): 10/10 - 相同核心数据\n- 文档4 (Deadline报道): 8/10 - 提供实际预售数据\n- 文档5 (Reddit职场讨论): 1/10 - 完全无关，干扰信息\n- 文档6 (DuckDuckGo摘要): 7/10 - 提供比较数据\n- 文档7 (Reddit政治讨论): 0/10 - 完全无关，干扰信息\n\n**1. 支持（YES）的论据**\n\na) **权威预测机构给出明确区间**：多个专业票房预测机构的数据显示，该片首周末票房有相当概率落在75-80M区间。Boxoffice Pro的预测为##begin_quote## $70M–$78M domestic opening ##end_quote## [文档1]，而Box Office Theory的预测范围更宽但上限相同：##begin_quote## $60 — 78 million ##end_quote## [文档2]。这意味着78M是多个预测模型认可的上限值。\n\nb) **预售表现强劲且超预期**：实际预售数据已超出早期行业预期，显示上行风险。行业最初估计约为##begin_quote## $55 million for the domestic opening ##end_quote## [文档2]，但最终预售趋势##begin_quote## is now trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档2]。Deadline确认其##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档4]，这是积极信号。\n\nc) **市场条件与口碑支撑**：影片获得了极高的口碑评分（##begin_quote## stellar 95% Rotten Tomatoes score ##end_quote## [文档1]），且对优质格式（IMAX/70mm）的需求旺盛，导致##begin_quote## largely sold-out shows on the biggest and best screens ##end_quote## [文档2]。这种供需紧张可能推高平均票价和总票房。\n\n**2. 反对（NO）的论据**\n\na) **预测区间上限存在明确阻力**：所有公开预测的**最高点均为78M**，没有一家主流预测机构给出80M或更高的预测。这意味着75-80M区间的上半部分（78-80M）缺乏数据支持，属于预测分布的尾部。##begin_quote## $60 — 78 million ##end_quote## [文档2]这个范围本身表明，超过78M是模型外的小概率事件。\n\nb) **观众行为带来的下行风险**：存在因优质场次售罄而导致票房延迟而非增长的风险。文档指出，##begin_quote## casual moviegoers will be more than happy to wait a day or two (or even a week-plus) to get their hands on optimal seats ##end_quote## [文档2]。这意味着部分首周末需求可能被分流至次周，从而抑制首周末数字冲高，特别是当目标区间接近预测上限时。\n\nc) **比较基准暗示突破难度大**：影片被与《奥本海默》比较，后者是近年非续集电影的开画冠军（##begin_quote## $82.4M ##end_quote## [文档4]）。要达到75-80M，意味着要接近这一顶级表现。尽管预售强劲，但《奥本海默》的票房轨迹（##begin_quote## also had a strong Friday before dipping slightly on Saturday ##end_quote## [文档6]）提示周六可能回落，这增加了精确落入狭窄区间的难度。\n\n**3. 综合分析**\n\n这是一个典型的“窄区间命中”风险评估问题。核心矛盾在于：**强劲的基本面（口碑、预售、需求）支持票房冲向预测区间的上沿（~78M），但精确落入75-80M（特别是78-80M部分）需要一系列完美条件，且面临明确的统计阻力**。\n\n- **风险矩阵**：\n  - **高影响、中概率风险**：预售热度完全转化为首周末票房，达到78M峰值。\n  - **中影响、中高概率风险**：因场次售罄导致需求溢出至次周，最终开画落在70-75M区间。\n  - **低概率、高影响（尾部风险）**：口碑效应或社交传播引发远超模型预期的事件，推动票房突破78M甚至80M（YES失败）；或出现未预见的负面因素（如竞争影片分流、外部事件）导致票房低于75M（YES失败）。\n\n- **关键观察**：预测区间75-80M的下限（75M）低于多数预测的中间值，而上限（80M）则高于所有公开预测。这意味着“YES”的结果需要实际数据**同时超越预测中值并突破预测上限**，这是一个双重挑战。\n\n**4. 最终概率估计**\n\n基于风险量化框架：\n- 票房达到或超过75M的概率：中等偏高（约60%）\n- 票房突破78M（预测共识上限）的概率：较低（约30%）\n- 票房恰好落在75-78M之间（即YES且不突破上限）的概率：中等（约40%）\n- 票房落在78-80M之间（突破上限但仍在区间内）的概率：很低（约10%）\n\n因此，综合所有风险因素，票房最终落在75-80M这个狭窄区间的总概率约为 **50%**。这反映了强劲势头与统计阻力、区间狭窄性之间的平衡。风险偏向于实际开画数字略低于预测上限，或因微小波动而落在区间之外。",
+        "raw_response": "REASONING: 作为风险评估师，我将采用风险矩阵思维，识别推动票房进入75-80M区间的主要风险因素及其概率，并特别关注可能导致结果偏离的尾部风险。\n\n**文档相关性评估**：\n- 文档1 (John Campea视频): 9/10 - 直接提供票房预测范围\n- 文档2 (Box Office Theory预测): 10/10 - 核心预测数据来源\n- 文档3 (重复文档2): 10/10 - 相同核心数据\n- 文档4 (Deadline报道): 8/10 - 提供实际预售数据\n- 文档5 (Reddit职场讨论): 1/10 - 完全无关，干扰信息\n- 文档6 (DuckDuckGo摘要): 7/10 - 提供比较数据\n- 文档7 (Reddit政治讨论): 0/10 - 完全无关，干扰信息\n\n**1. 支持（YES）的论据**\n\na) **权威预测机构给出明确区间**：多个专业票房预测机构的数据显示，该片首周末票房有相当概率落在75-80M区间。Boxoffice Pro的预测为##begin_quote## $70M–$78M domestic opening ##end_quote## [文档1]，而Box Office Theory的预测范围更宽但上限相同：##begin_quote## $60 — 78 million ##end_quote## [文档2]。这意味着78M是多个预测模型认可的上限值。\n\nb) **预售表现强劲且超预期**：实际预售数据已超出早期行业预期，显示上行风险。行业最初估计约为##begin_quote## $55 million for the domestic opening ##end_quote## [文档2]，但最终预售趋势##begin_quote## is now trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档2]。Deadline确认其##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档4]，这是积极信号。\n\nc) **市场条件与口碑支撑**：影片获得了极高的口碑评分（##begin_quote## stellar 95% Rotten Tomatoes score ##end_quote## [文档1]），且对优质格式（IMAX/70mm）的需求旺盛，导致##begin_quote## largely sold-out shows on the biggest and best screens ##end_quote## [文档2]。这种供需紧张可能推高平均票价和总票房。\n\n**2. 反对（NO）的论据**\n\na) **预测区间上限存在明确阻力**：所有公开预测的**最高点均为78M**，没有一家主流预测机构给出80M或更高的预测。这意味着75-80M区间的上半部分（78-80M）缺乏数据支持，属于预测分布的尾部。##begin_quote## $60 — 78 million ##end_quote## [文档2]这个范围本身表明，超过78M是模型外的小概率事件。\n\nb) **观众行为带来的下行风险**：存在因优质场次售罄而导致票房延迟而非增长的风险。文档指出，##begin_quote## casual moviegoers will be more than happy to wait a day or two (or even a week-plus) to get their hands on optimal seats ##end_quote## [文档2]。这意味着部分首周末需求可能被分流至次周，从而抑制首周末数字冲高，特别是当目标区间接近预测上限时。\n\nc) **比较基准暗示突破难度大**：影片被与《奥本海默》比较，后者是近年非续集电影的开画冠军（##begin_quote## $82.4M ##end_quote## [文档4]）。要达到75-80M，意味着要接近这一顶级表现。尽管预售强劲，但《奥本海默》的票房轨迹（##begin_quote## also had a strong Friday before dipping slightly on Saturday ##end_quote## [文档6]）提示周六可能回落，这增加了精确落入狭窄区间的难度。\n\n**3. 综合分析**\n\n这是一个典型的“窄区间命中”风险评估问题。核心矛盾在于：**强劲的基本面（口碑、预售、需求）支持票房冲向预测区间的上沿（~78M），但精确落入75-80M（特别是78-80M部分）需要一系列完美条件，且面临明确的统计阻力**。\n\n- **风险矩阵**：\n  - **高影响、中概率风险**：预售热度完全转化为首周末票房，达到78M峰值。\n  - **中影响、中高概率风险**：因场次售罄导致需求溢出至次周，最终开画落在70-75M区间。\n  - **低概率、高影响（尾部风险）**：口碑效应或社交传播引发远超模型预期的事件，推动票房突破78M甚至80M（YES失败）；或出现未预见的负面因素（如竞争影片分流、外部事件）导致票房低于75M（YES失败）。\n\n- **关键观察**：预测区间75-80M的下限（75M）低于多数预测的中间值，而上限（80M）则高于所有公开预测。这意味着“YES”的结果需要实际数据**同时超越预测中值并突破预测上限**，这是一个双重挑战。\n\n**4. 最终概率估计**\n\n基于风险量化框架：\n- 票房达到或超过75M的概率：中等偏高（约60%）\n- 票房突破78M（预测共识上限）的概率：较低（约30%）\n- 票房恰好落在75-78M之间（即YES且不突破上限）的概率：中等（约40%）\n- 票房落在78-80M之间（突破上限但仍在区间内）的概率：很低（约10%）\n\n因此，综合所有风险因素，票房最终落在75-80M这个狭窄区间的总概率约为 **50%**。这反映了强劲势头与统计阻力、区间狭窄性之间的平衡。风险偏向于实际开画数字略低于预测上限，或因微小波动而落在区间之外。\n\nPREDICTION: 50%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$70M–$78M domestic opening",
+              "doc_index": 1
+            },
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "$55 million for the domestic opening",
+              "doc_index": 2
+            },
+            {
+              "quote": "is now trending above early tracking and potentially even higher than industry estimates",
+              "doc_index": 2
+            },
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "stellar 95% Rotten Tomatoes score",
+              "doc_index": 1
+            },
+            {
+              "quote": "largely sold-out shows on the biggest and best screens",
+              "doc_index": 2
+            },
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "casual moviegoers will be more than happy to wait a day or two (or even a week-plus) to get their hands on optimal seats",
+              "doc_index": 2
+            },
+            {
+              "quote": "$82.4M",
+              "doc_index": 4
+            },
+            {
+              "quote": "also had a strong Friday before dipping slightly on Saturday",
+              "doc_index": 6
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "agent_name": "综合策略师",
+        "stance": "neutral",
+        "probability": 58.0,
+        "reasoning": "首先评估文档相关性。文档1、2、3、4、6以及知识图谱摘要均直接涉及《Project Hail Mary》的票房预测、跟踪数据和实际表现，相关性高（8-10分）。文档5讨论工作伦理，与电影票房预测完全无关，相关性为0分，是干扰信息，将不予考虑。\n\n**1. 支持（YES）的论据**\n- **高区间预测与强劲预售**：多个权威票房预测机构给出了涵盖或接近75-80M区间的预测。Boxoffice Pro的预测范围为 ##begin_quote## $70M–$78M ##end_quote## [文档1]，而Box Office Theory（BOT）的预测范围更宽，为 ##begin_quote## $60 — 78 million ##end_quote## [文档2, 文档3]。Deadline的报道则暗示了更高的可能性，指出其表现可媲美《奥本海默》，并提到 ##begin_quote## ‘Project Hail Mary’ Blasts Off To $11M+ In Previews, Best YTD ##end_quote## [文档4]，强劲的提前场票房通常是高开画的领先指标。\n- **口碑与需求旺盛**：电影获得了极佳的口碑（##begin_quote## stellar 95% Rotten Tomatoes score ##end_quote## [文档1]），并且对优质格式的需求强烈，导致 ##begin_quote## largely sold-out shows on the biggest and best screens this weekend ##end_quote## [文档2]。这种供需紧张可能推高平均票价和总票房。\n- **趋势高于预期**：上映前一周的最终数据显示，其走势 ##begin_quote## is now trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档2]。早期行业预估约为5500万美元，而最终预测区间上限已触及7800万美元，表明向上修正的动能。\n\n**2. 反对（NO）的论据**\n- **预测区间上限的阻力**：虽然多个预测的上限是7800万美元，但明确预测达到或超过8000万美元的较少。Deadline虽将其与《奥本海默》（8240万美元）类比，但未给出自身的确切预测数字。BOT和Boxoffice Pro的预测上限均为7800万美元，这构成了75-80M区间的上沿，要突破此上沿需要超预期表现。\n- **市场竞争与分流**：同一周末有其他新片上映，如《Dhurandhar: The Revenge》（预计5天1300-1800万美元）和《Ready or Not 2》（预计700-1100万美元）[文档2, 文档3]。虽然它们体量较小，但仍会分流部分屏幕和观众注意力，可能限制《Project Hail Mary》的票房峰值。\n- **高基数下的增长难度**：提前场1100万美元+的成绩固然亮眼，但将其转化为7500万至8000万美元的首周末票房，需要极高的倍数（约6.8-7.3倍）。虽然大片可以达到，但并非保证。此外， ##begin_quote## casual moviegoers will be more than happy to wait a day or two (or even a week-plus) to get their hands on optimal seats ##end_quote## [文档2]，这种因优质场次售罄导致的观影延迟，可能将部分周末票房平滑到后续周次，略微抑制首周末数字。\n\n**3. 综合分析**\n从元分析视角看，各信息来源的信号存在共振，也揭示了潜在盲点。支持方论据（高预测、强口碑、售罄、向上趋势）构成了强劲的基本面，将首周末票房推向预测区间的高端（即70-78M的上半部分）。反对方论据则指出了精确命中75-80M这一相对狭窄区间的挑战：它要求实际表现必须紧贴甚至略微突破主流预测的上限。\n\n关键权衡点在于“趋势高于预期”的动量能否持续到整个周末，并克服“等待更好座位”的延迟效应。预售火爆和口碑发酵通常对首周末有正面加成，但最终数字对周六、周日的跌幅非常敏感。考虑到这是一部非续集原创科幻片（##begin_quote## A non-franchise movie is making waves ##end_quote## [文档4]），其观众基础虽因好评而扩大，但可能不如成熟IP稳定。\n\n**4. 最终概率估计**\n综合来看，电影达到预测区间高端（如75M以上）的可能性较高，但精确落在75-80M之间（即不低于75M且不高于80M）是一个更具体的事件。考虑到预测上限集中在78M，以及存在轻微的下行风险（竞争分流、延迟观影），实际开画落在75-78M之间的概率，高于落在78-80M（需要突破预测）的概率。然而，强劲的提前场和口碑提供了向上的弹性。因此，我将“是”的概率设定在略高于中性但未到压倒性优势的水平。",
+        "raw_response": "REASONING:\n首先评估文档相关性。文档1、2、3、4、6以及知识图谱摘要均直接涉及《Project Hail Mary》的票房预测、跟踪数据和实际表现，相关性高（8-10分）。文档5讨论工作伦理，与电影票房预测完全无关，相关性为0分，是干扰信息，将不予考虑。\n\n**1. 支持（YES）的论据**\n- **高区间预测与强劲预售**：多个权威票房预测机构给出了涵盖或接近75-80M区间的预测。Boxoffice Pro的预测范围为 ##begin_quote## $70M–$78M ##end_quote## [文档1]，而Box Office Theory（BOT）的预测范围更宽，为 ##begin_quote## $60 — 78 million ##end_quote## [文档2, 文档3]。Deadline的报道则暗示了更高的可能性，指出其表现可媲美《奥本海默》，并提到 ##begin_quote## ‘Project Hail Mary’ Blasts Off To $11M+ In Previews, Best YTD ##end_quote## [文档4]，强劲的提前场票房通常是高开画的领先指标。\n- **口碑与需求旺盛**：电影获得了极佳的口碑（##begin_quote## stellar 95% Rotten Tomatoes score ##end_quote## [文档1]），并且对优质格式的需求强烈，导致 ##begin_quote## largely sold-out shows on the biggest and best screens this weekend ##end_quote## [文档2]。这种供需紧张可能推高平均票价和总票房。\n- **趋势高于预期**：上映前一周的最终数据显示，其走势 ##begin_quote## is now trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档2]。早期行业预估约为5500万美元，而最终预测区间上限已触及7800万美元，表明向上修正的动能。\n\n**2. 反对（NO）的论据**\n- **预测区间上限的阻力**：虽然多个预测的上限是7800万美元，但明确预测达到或超过8000万美元的较少。Deadline虽将其与《奥本海默》（8240万美元）类比，但未给出自身的确切预测数字。BOT和Boxoffice Pro的预测上限均为7800万美元，这构成了75-80M区间的上沿，要突破此上沿需要超预期表现。\n- **市场竞争与分流**：同一周末有其他新片上映，如《Dhurandhar: The Revenge》（预计5天1300-1800万美元）和《Ready or Not 2》（预计700-1100万美元）[文档2, 文档3]。虽然它们体量较小，但仍会分流部分屏幕和观众注意力，可能限制《Project Hail Mary》的票房峰值。\n- **高基数下的增长难度**：提前场1100万美元+的成绩固然亮眼，但将其转化为7500万至8000万美元的首周末票房，需要极高的倍数（约6.8-7.3倍）。虽然大片可以达到，但并非保证。此外， ##begin_quote## casual moviegoers will be more than happy to wait a day or two (or even a week-plus) to get their hands on optimal seats ##end_quote## [文档2]，这种因优质场次售罄导致的观影延迟，可能将部分周末票房平滑到后续周次，略微抑制首周末数字。\n\n**3. 综合分析**\n从元分析视角看，各信息来源的信号存在共振，也揭示了潜在盲点。支持方论据（高预测、强口碑、售罄、向上趋势）构成了强劲的基本面，将首周末票房推向预测区间的高端（即70-78M的上半部分）。反对方论据则指出了精确命中75-80M这一相对狭窄区间的挑战：它要求实际表现必须紧贴甚至略微突破主流预测的上限。\n\n关键权衡点在于“趋势高于预期”的动量能否持续到整个周末，并克服“等待更好座位”的延迟效应。预售火爆和口碑发酵通常对首周末有正面加成，但最终数字对周六、周日的跌幅非常敏感。考虑到这是一部非续集原创科幻片（##begin_quote## A non-franchise movie is making waves ##end_quote## [文档4]），其观众基础虽因好评而扩大，但可能不如成熟IP稳定。\n\n**4. 最终概率估计**\n综合来看，电影达到预测区间高端（如75M以上）的可能性较高，但精确落在75-80M之间（即不低于75M且不高于80M）是一个更具体的事件。考虑到预测上限集中在78M，以及存在轻微的下行风险（竞争分流、延迟观影），实际开画落在75-78M之间的概率，高于落在78-80M（需要突破预测）的概率。然而，强劲的提前场和口碑提供了向上的弹性。因此，我将“是”的概率设定在略高于中性但未到压倒性优势的水平。\n\nPREDICTION: 58%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$70M–$78M",
+              "doc_index": 1
+            },
+            {
+              "quote": "$60 — 78 million ##end_quote## [文档2, 文档3]。Deadline的报道则暗示了更高的可能性，指出其表现可媲美《奥本海默》，并提到 ##begin_quote## ‘Project Hail Mary’ Blasts Off To $11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "stellar 95% Rotten Tomatoes score",
+              "doc_index": 1
+            },
+            {
+              "quote": "largely sold-out shows on the biggest and best screens this weekend",
+              "doc_index": 2
+            },
+            {
+              "quote": "is now trending above early tracking and potentially even higher than industry estimates",
+              "doc_index": 2
+            },
+            {
+              "quote": "casual moviegoers will be more than happy to wait a day or two (or even a week-plus) to get their hands on optimal seats",
+              "doc_index": 2
+            },
+            {
+              "quote": "A non-franchise movie is making waves",
+              "doc_index": 4
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            4
+          ]
+        }
+      }
+    ],
+    "round2": [
+      {
+        "agent_name": "乐观分析师",
+        "stance": "bull",
+        "probability": 70.0,
+        "rebuttals": "Re: 质疑分析师: 你过度依赖“传统制片厂跟踪：5500万美元+”这一早期数据，而完全忽略了后续强劲的预售趋势已使其过时。文档2明确指出，最终预售数据##begin_quote## is now trending above early tracking and potentially even higher than industry estimates, those being around $55 million ##end_quote## [文档 2]。这表明行业内部预期已大幅上调。你提到的“市场容量”担忧也被高规格影厅售罄所反驳，这恰恰证明了需求集中且强劲，足以支撑高单银幕产出，而非市场疲软的信号。\n\nRe: 贝叶斯分析师: 你的分析过于机械地将预测区间视为均匀分布。在存在强劲的正面催化剂（如95%口碑、创纪录提前场、售罄趋势）时，票房分布会明显右偏。你提到“78M是明确边界”，但这只是预测模型的静态输出。动态来看，##begin_quote## trending above early tracking ##end_quote## [文档 2] 和与《奥本海默》的比较##begin_quote## The film's box office trend is being compared to Oppenheimer ##end_quote## [文档 6] 都表明实际表现有突破模型上限的动能。《奥本海默》首周末82.4M就是先例。\n\nRe: 历史类比师: 我基本同意你的乐观基调，但你将“周六可能出现的疲软”作为主要风险点，这被当前数据削弱了。与《奥本海默》的类比是双向的：它不仅提示了可能的周六微跌，更关键的是证明了即使有微跌，凭借极高的周五和提前场，最终开画依然可以突破80M大关。我们的目标区间（75-80M）低于《奥本海默》的82.4M，因此达到的可能性更高。\n\nRe: 数据统计师: 你错误地将文档7中“$80.5 million”的报道作为反对论据的核心。请注意，该报道是上映后的实际数据点，而非预测。如果它准确，那么答案将是明确的YES（因为80.5M在75-80M区间内）。你的分析自相矛盾：一边引用可能支持YES的实际数据，一边却用它来论证NO的概率高。我们的预测应基于上映前的预测和领先指标，这些指标强烈指向区间高端。\n\nRe: 情绪分析师: 我赞同你对市场情绪动量的分析。你正确地指出“当媒体开始谈论80M时，它会自我实现”。这正是乐观分析的关键：正向反馈循环已经形成。你给出的68%概率是合理的，但我认为考虑到更具体的预测区间覆盖和提前场倍数潜力，仍有上调空间。\n\nRe: 逆向投资者: 你犯了典型的“为逆向而逆向”的错误。你指出“共识往往高估短期情绪”，但忽略了共识本身是基于硬数据（预售、口碑评分）形成的，而非空泛的情绪。售罄现象##begin_quote## largely sold-out shows on the biggest and best screens ##end_quote## [文档 2] 是实实在在的供需失衡，不是情绪泡沫。将需求“挤压到后续周末”反而可能因为口碑扩散而扩大总基本盘，对首周末的抑制效应被高估了。\n\nRe: 基本面分析师: 你的分析很平衡，但低估了“高端格式票房产能限制”这一因素的正面解读。售罄不仅可能延迟需求，更重要的信号是**极高的单座收益和强烈的观影紧迫感**。这通常会驱动观众选择价格稍低的普通场次而非等待，从而在首周末就兑现大部分需求。此外，你提到“传统片方跟踪数据为$55 million+”是下行风险，但同样来自文档2的后续信息显示这个数据已被超越，风险已大幅降低。\n\nRe: 风险评估师: 你的风险矩阵分析有框架，但概率赋值过于保守。你认为“票房突破78M（预测共识上限）的概率：较低（约30%）”，这没有充分考虑动态变化。当提前场达到创纪录的##begin_quote## $11M+ ##end_quote## [文档 4]时，根据历史倍数（7-7.5倍），首周末票房区间就在77M-82.5M。这直接将突破78M的概率提升至中等以上，而非“较低”。\n\nRe: 综合策略师: 你正确地识别了关键权衡点，但对“延迟效应”的担忧可能过度。在社交媒体时代，一部热门电影首周末的社交货币价值极高，许多观众不愿等待，以免被剧透或错过讨论。因此，“等待更好座位”流失的首周末观众比例可能小于你的模型假设。强劲的提前场已经证明了观众迫不及待的心态。",
+        "reasoning": "经过辩论，我更加确信正面动力占主导。核心数据点——##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4] 和 ##begin_quote## trending above early tracking ##end_quote## [文档 2]——是比静态预测区间更强的指引。历史类比（《奥本海默》）和市场需求（优质场次售罄）共同支撑票房冲击预测区间顶端。虽然精确落在75-80M有不确定性，但概率应高于我最初的估计。",
+        "raw_response": "REBUTTALS:\nRe: 质疑分析师: 你过度依赖“传统制片厂跟踪：5500万美元+”这一早期数据，而完全忽略了后续强劲的预售趋势已使其过时。文档2明确指出，最终预售数据##begin_quote## is now trending above early tracking and potentially even higher than industry estimates, those being around $55 million ##end_quote## [文档 2]。这表明行业内部预期已大幅上调。你提到的“市场容量”担忧也被高规格影厅售罄所反驳，这恰恰证明了需求集中且强劲，足以支撑高单银幕产出，而非市场疲软的信号。\n\nRe: 贝叶斯分析师: 你的分析过于机械地将预测区间视为均匀分布。在存在强劲的正面催化剂（如95%口碑、创纪录提前场、售罄趋势）时，票房分布会明显右偏。你提到“78M是明确边界”，但这只是预测模型的静态输出。动态来看，##begin_quote## trending above early tracking ##end_quote## [文档 2] 和与《奥本海默》的比较##begin_quote## The film's box office trend is being compared to Oppenheimer ##end_quote## [文档 6] 都表明实际表现有突破模型上限的动能。《奥本海默》首周末82.4M就是先例。\n\nRe: 历史类比师: 我基本同意你的乐观基调，但你将“周六可能出现的疲软”作为主要风险点，这被当前数据削弱了。与《奥本海默》的类比是双向的：它不仅提示了可能的周六微跌，更关键的是证明了即使有微跌，凭借极高的周五和提前场，最终开画依然可以突破80M大关。我们的目标区间（75-80M）低于《奥本海默》的82.4M，因此达到的可能性更高。\n\nRe: 数据统计师: 你错误地将文档7中“$80.5 million”的报道作为反对论据的核心。请注意，该报道是上映后的实际数据点，而非预测。如果它准确，那么答案将是明确的YES（因为80.5M在75-80M区间内）。你的分析自相矛盾：一边引用可能支持YES的实际数据，一边却用它来论证NO的概率高。我们的预测应基于上映前的预测和领先指标，这些指标强烈指向区间高端。\n\nRe: 情绪分析师: 我赞同你对市场情绪动量的分析。你正确地指出“当媒体开始谈论80M时，它会自我实现”。这正是乐观分析的关键：正向反馈循环已经形成。你给出的68%概率是合理的，但我认为考虑到更具体的预测区间覆盖和提前场倍数潜力，仍有上调空间。\n\nRe: 逆向投资者: 你犯了典型的“为逆向而逆向”的错误。你指出“共识往往高估短期情绪”，但忽略了共识本身是基于硬数据（预售、口碑评分）形成的，而非空泛的情绪。售罄现象##begin_quote## largely sold-out shows on the biggest and best screens ##end_quote## [文档 2] 是实实在在的供需失衡，不是情绪泡沫。将需求“挤压到后续周末”反而可能因为口碑扩散而扩大总基本盘，对首周末的抑制效应被高估了。\n\nRe: 基本面分析师: 你的分析很平衡，但低估了“高端格式票房产能限制”这一因素的正面解读。售罄不仅可能延迟需求，更重要的信号是**极高的单座收益和强烈的观影紧迫感**。这通常会驱动观众选择价格稍低的普通场次而非等待，从而在首周末就兑现大部分需求。此外，你提到“传统片方跟踪数据为$55 million+”是下行风险，但同样来自文档2的后续信息显示这个数据已被超越，风险已大幅降低。\n\nRe: 风险评估师: 你的风险矩阵分析有框架，但概率赋值过于保守。你认为“票房突破78M（预测共识上限）的概率：较低（约30%）”，这没有充分考虑动态变化。当提前场达到创纪录的##begin_quote## $11M+ ##end_quote## [文档 4]时，根据历史倍数（7-7.5倍），首周末票房区间就在77M-82.5M。这直接将突破78M的概率提升至中等以上，而非“较低”。\n\nRe: 综合策略师: 你正确地识别了关键权衡点，但对“延迟效应”的担忧可能过度。在社交媒体时代，一部热门电影首周末的社交货币价值极高，许多观众不愿等待，以免被剧透或错过讨论。因此，“等待更好座位”流失的首周末观众比例可能小于你的模型假设。强劲的提前场已经证明了观众迫不及待的心态。\n\nREVISED REASONING: 经过辩论，我更加确信正面动力占主导。核心数据点——##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4] 和 ##begin_quote## trending above early tracking ##end_quote## [文档 2]——是比静态预测区间更强的指引。历史类比（《奥本海默》）和市场需求（优质场次售罄）共同支撑票房冲击预测区间顶端。虽然精确落在75-80M有不确定性，但概率应高于我最初的估计。\n\nREVISED PREDICTION: 70.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "is now trending above early tracking and potentially even higher than industry estimates, those being around $55 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "trending above early tracking",
+              "doc_index": 2
+            },
+            {
+              "quote": "The film's box office trend is being compared to Oppenheimer",
+              "doc_index": 6
+            },
+            {
+              "quote": "largely sold-out shows on the biggest and best screens",
+              "doc_index": 2
+            },
+            {
+              "quote": "$11M+",
+              "doc_index": 4
+            },
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "trending above early tracking",
+              "doc_index": 2
+            }
+          ],
+          "cited_doc_indices": [
+            2,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "agent_name": "质疑分析师",
+        "stance": "bear",
+        "probability": 28.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析过度依赖预测区间的上限，而忽视了基准率。预测范围是$60-78M，这意味着$78M是乐观情景的边界，而非最可能的结果。你引用的“趋势高于早期跟踪”##begin_quote## now trending above early tracking ##end_quote## [文档 2] 确实存在，但早期跟踪的基准是$55M+，向上修正至$78M附近已充分反映了这一利好。要达到$75M+，需要表现落在预测分布的最右端，这在统计上是小概率事件。你提到的“必须观看”效应可能已被高票价和售罄所反映，甚至可能因观众等待而将部分需求推迟至次周，形成反作用力。\n\nRe: 贝叶斯分析师: 你的分析框架合理，但先验分布设定可能过于宽泛。核心预测区间$60-78M并非均匀分布；行业跟踪数据（$55M+）和预测中值（约$69M）表明概率质量更集中于中下部。你正确地指出$78M是明确边界，但低估了“突破预测上限”这一事件的低概率。文档中没有任何权威预测支持$80M，因此目标区间（$75-80M）的上半部分（$78-80M）缺乏任何数据支撑，其概率应接近于零。\n\nRe: 历史类比师: 与《奥本海默》的类比存在关键差异。《奥本海默》开画$82.4M是一个历史性的异常值，直接将其作为对标基准是过度外推。更重要的是，你引用的文档6明确指出其趋势被比作《奥本海默》，“在强劲的周五之后周六略有下跌”##begin_quote## which also had a strong Friday before dipping slightly on Saturday ##end_quote## [文档 6]。这种周末走势模式恰恰是阻碍其冲高至预测区间顶部的关键风险，而不是支撑因素。历史先例在这里提示的是阻力，而非动力。\n\nRe: 数据统计师: 你正确地识别了预测上限（$78M）与目标区间下限（$75M）的紧张关系，并指出点估计落在区间两端的概率较低。然而，你赋予“实际数据$80.5M” [文档 7] 过高的权重。该文档来源不明且与其他权威预测冲突，更可能是一个早期估算或包含了非标准计算（如包含周四预览）。在辩论中，我们应更依赖上映前系统的预测模型（$60-78M），而非单一的事后报道。即便如此，仅基于预测模型，落在$75-78M这一狭窄子区间的概率也应远低于50%。\n\nRe: 情绪分析师: 你准确地捕捉了市场情绪，但犯了将叙事动量等同于实际结果的经典错误。媒体谈论$80M（如文档6标题）是为了吸引眼球，这本身就是情绪过热的体现，而非可靠的预测。情绪的高潮往往对应着预期的峰值，而实际结果常因各种现实约束（如售罄导致的延迟观影##begin_quote## casual moviegoers will be more than happy to wait ##end_quote## [文档 2]）而低于峰值预期。当前强烈的正向叙事恰恰是逆向思维的信号，表明乐观情绪可能已被充分定价。\n\nRe: 逆向投资者: 我赞同你的核心怀疑精神，特别是对“均值回归”和“锚定偏差”的强调。你指出的“饱和预售与均值回归”是关键。售罄固然表明需求旺盛，但也构成了物理上限和需求延迟的机制，这可能阻止首周末数字冲击极限。你的预测（38%）与我的初始观点（32%）方向一致，但或许仍对“趋势向上”的动能给予了过多权重。\n\nRe: 基本面分析师: 你的分析平衡，但结论（55%）与指出的下行风险（保守跟踪、产能限制、周末衰减）似乎不匹配。你承认“目标范围是一个非常狭窄的区间”，且“需要克服上述所有限制因素”，却仍给出了略高于中性的概率。如果结构性优势（高质量、高口碑）已普遍知晓并被纳入$70-78M的预测中，那么要精确命中$75-80M，就需要额外的、未定价的利好，而文档并未提供此类证据。\n\nRe: 风险评估师: 你的风险矩阵分析是严谨的，但最终50%的概率估计在逻辑上存在矛盾。你正确地指出“YES的结果需要实际数据同时超越预测中值并突破预测上限”，并评估“突破78M的概率较低（约30%）”。然而，$75-80M区间包含$78-80M这一“低概率”部分。即使给予$75-78M部分40%的概率，加上$78-80M部分10%的概率，总和50%也高估了。考虑到突破$78M缺乏预测支持，$75-78M部分的概率也应低于40%。\n\nRe: 综合策略师: 你的元分析指出了“共振”与“盲点”，但最终58%的预测过于乐观。你识别了关键阻力：“精确命中75-80M这一相对狭窄区间的挑战：它要求实际表现必须紧贴甚至略微突破主流预测的上限。”既然如此，概率不应显著高于50%。你提到的“向上弹性”已被包含在$78M的上限中。在已知上限的情况下，赋予接近60%的概率意味着你认为实际表现极有可能落在这个狭窄的顶端区间，这与所有预测数据所暗示的分布不符。",
+        "reasoning": "审视辩论后，我更加确信初始分析对基准率和过度自信偏差的强调是合理的。核心矛盾在于：所有权威预测的上限是$78M ##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]，而目标区间要求至少$75M。这意味着市场共识并未赋予$75M+高概率。尽管预售强劲，但“传统制片厂跟踪：$55 million+”##begin_quote## Traditional Studio Tracking: $55 million+ ##end_quote## [文档 2] 这一更保守的内部数据是重要的反面证据。同时，售罄可能导致需求延迟而非即时转化，进一步抑制冲高动能。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析过度依赖预测区间的上限，而忽视了基准率。预测范围是$60-78M，这意味着$78M是乐观情景的边界，而非最可能的结果。你引用的“趋势高于早期跟踪”##begin_quote## now trending above early tracking ##end_quote## [文档 2] 确实存在，但早期跟踪的基准是$55M+，向上修正至$78M附近已充分反映了这一利好。要达到$75M+，需要表现落在预测分布的最右端，这在统计上是小概率事件。你提到的“必须观看”效应可能已被高票价和售罄所反映，甚至可能因观众等待而将部分需求推迟至次周，形成反作用力。\n\nRe: 贝叶斯分析师: 你的分析框架合理，但先验分布设定可能过于宽泛。核心预测区间$60-78M并非均匀分布；行业跟踪数据（$55M+）和预测中值（约$69M）表明概率质量更集中于中下部。你正确地指出$78M是明确边界，但低估了“突破预测上限”这一事件的低概率。文档中没有任何权威预测支持$80M，因此目标区间（$75-80M）的上半部分（$78-80M）缺乏任何数据支撑，其概率应接近于零。\n\nRe: 历史类比师: 与《奥本海默》的类比存在关键差异。《奥本海默》开画$82.4M是一个历史性的异常值，直接将其作为对标基准是过度外推。更重要的是，你引用的文档6明确指出其趋势被比作《奥本海默》，“在强劲的周五之后周六略有下跌”##begin_quote## which also had a strong Friday before dipping slightly on Saturday ##end_quote## [文档 6]。这种周末走势模式恰恰是阻碍其冲高至预测区间顶部的关键风险，而不是支撑因素。历史先例在这里提示的是阻力，而非动力。\n\nRe: 数据统计师: 你正确地识别了预测上限（$78M）与目标区间下限（$75M）的紧张关系，并指出点估计落在区间两端的概率较低。然而，你赋予“实际数据$80.5M” [文档 7] 过高的权重。该文档来源不明且与其他权威预测冲突，更可能是一个早期估算或包含了非标准计算（如包含周四预览）。在辩论中，我们应更依赖上映前系统的预测模型（$60-78M），而非单一的事后报道。即便如此，仅基于预测模型，落在$75-78M这一狭窄子区间的概率也应远低于50%。\n\nRe: 情绪分析师: 你准确地捕捉了市场情绪，但犯了将叙事动量等同于实际结果的经典错误。媒体谈论$80M（如文档6标题）是为了吸引眼球，这本身就是情绪过热的体现，而非可靠的预测。情绪的高潮往往对应着预期的峰值，而实际结果常因各种现实约束（如售罄导致的延迟观影##begin_quote## casual moviegoers will be more than happy to wait ##end_quote## [文档 2]）而低于峰值预期。当前强烈的正向叙事恰恰是逆向思维的信号，表明乐观情绪可能已被充分定价。\n\nRe: 逆向投资者: 我赞同你的核心怀疑精神，特别是对“均值回归”和“锚定偏差”的强调。你指出的“饱和预售与均值回归”是关键。售罄固然表明需求旺盛，但也构成了物理上限和需求延迟的机制，这可能阻止首周末数字冲击极限。你的预测（38%）与我的初始观点（32%）方向一致，但或许仍对“趋势向上”的动能给予了过多权重。\n\nRe: 基本面分析师: 你的分析平衡，但结论（55%）与指出的下行风险（保守跟踪、产能限制、周末衰减）似乎不匹配。你承认“目标范围是一个非常狭窄的区间”，且“需要克服上述所有限制因素”，却仍给出了略高于中性的概率。如果结构性优势（高质量、高口碑）已普遍知晓并被纳入$70-78M的预测中，那么要精确命中$75-80M，就需要额外的、未定价的利好，而文档并未提供此类证据。\n\nRe: 风险评估师: 你的风险矩阵分析是严谨的，但最终50%的概率估计在逻辑上存在矛盾。你正确地指出“YES的结果需要实际数据同时超越预测中值并突破预测上限”，并评估“突破78M的概率较低（约30%）”。然而，$75-80M区间包含$78-80M这一“低概率”部分。即使给予$75-78M部分40%的概率，加上$78-80M部分10%的概率，总和50%也高估了。考虑到突破$78M缺乏预测支持，$75-78M部分的概率也应低于40%。\n\nRe: 综合策略师: 你的元分析指出了“共振”与“盲点”，但最终58%的预测过于乐观。你识别了关键阻力：“精确命中75-80M这一相对狭窄区间的挑战：它要求实际表现必须紧贴甚至略微突破主流预测的上限。”既然如此，概率不应显著高于50%。你提到的“向上弹性”已被包含在$78M的上限中。在已知上限的情况下，赋予接近60%的概率意味着你认为实际表现极有可能落在这个狭窄的顶端区间，这与所有预测数据所暗示的分布不符。\n\nREVISED REASONING: 审视辩论后，我更加确信初始分析对基准率和过度自信偏差的强调是合理的。核心矛盾在于：所有权威预测的上限是$78M ##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]，而目标区间要求至少$75M。这意味着市场共识并未赋予$75M+高概率。尽管预售强劲，但“传统制片厂跟踪：$55 million+”##begin_quote## Traditional Studio Tracking: $55 million+ ##end_quote## [文档 2] 这一更保守的内部数据是重要的反面证据。同时，售罄可能导致需求延迟而非即时转化，进一步抑制冲高动能。\n\nREVISED PREDICTION: 28.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "now trending above early tracking",
+              "doc_index": 2
+            },
+            {
+              "quote": "which also had a strong Friday before dipping slightly on Saturday",
+              "doc_index": 6
+            },
+            {
+              "quote": "casual moviegoers will be more than happy to wait",
+              "doc_index": 2
+            },
+            {
+              "quote": "$70M–$78M domestic opening",
+              "doc_index": 1
+            },
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "Traditional Studio Tracking: $55 million+",
+              "doc_index": 2
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            6
+          ]
+        }
+      },
+      {
+        "agent_name": "贝叶斯分析师",
+        "stance": "neutral",
+        "probability": 42.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析高估了“强劲预售”向“精确区间命中”的转化率。你引用的预售趋势向上（##begin_quote## trending above early tracking ##end_quote## [文档 2]）和提前场纪录（##begin_quote## $11M+ In Previews ##end_quote## [文档 4]）是有效证据，但它们支持的是一个更宽泛的“高开画”结论，而非“落在75-80M”这一狭窄区间。关键漏洞在于，你将预测上限78M视为一个可能被轻松触及甚至略微超越的点，但所有权威预测（Boxoffice Pro, BOT）都将78M明确设定为范围上限，而非中值。这意味着在他们的模型中，超过78M的概率已被显著打折。你赋予65%的概率，相当于认为事件发生的可能性是基准情景的两倍，这与预测区间所隐含的概率分布不一致。\n\nRe: 质疑分析师: 你的核心论点——预测中值偏低和行业跟踪数据保守——是合理的风险考量。然而，你低估了“最终预售趋势高于早期跟踪”这一证据的更新力度。早期行业估计约$55M，而最终预测范围上修至$60-78M，这本身就是一次显著的正向贝叶斯更新。你的预测（32%）可能过度惩罚了下行风险，未能充分将预售动能转化为对区间高端概率的适度上调。不过，你指出“75-80M区间狭窄”和“需要表现达到预测区间90分位以上”是正确的校准点。\n\nRe: 历史类比师: 你进行的《奥本海默》类比具有启发性，但存在一个关键差异被忽略。《奥本海默》提前场$10.5M，开画$82.4M，倍数约7.85倍。若《Project Hail Mary》以$11M+的提前场达到类似倍数，开画将在$86M+，这明显超出目标区间。你提到“周六可能下跌”是重要制约因素，但未量化其影响。你的分析在支持与反对论据间取得了较好平衡，最终55%的概率反映了这种不确定性，但可能对“类比成功”的叙事赋予了稍高的先验权重。\n\nRe: 数据统计师: 你的分析出现了关键的数据混淆。你正确地引用了预测数据（上限78M），但将文档7中声称的$80.5M实际开画数据纳入了“反对论据”。在辩论环节，我们应基于预测时点（上映前）的信息进行推理，这些预测文档（1,2,3,4）均未包含$80.5M这个数字。文档7可能代表事后报告，在预测时不应作为已知条件。若排除文档7，你的反对论据1（预测上限78M低于80M）依然成立，但论据2（实际报告80.5M）不成立。这削弱了你的NO论据强度。\n\nRe: 情绪分析师: 你准确地捕捉到了强烈的市场情绪动量，并指出其可能自我实现。然而，你犯了将“情绪高涨”等同于“结果必然落在狭窄目标区间”的逻辑错误。情绪可以推动票房冲高，但使其精确落在75-80M内，需要动量恰好在此处衰竭，而非继续向上突破80M（如类比《奥本海默》所暗示的潜力）或在78M处止步。你赋予68%的高概率，暗示情绪几乎能精确导向目标，这忽略了结果分布的随机性和区间狭窄性。\n\nRe: 逆向投资者: 你的“均值回归”和“锚定偏差”观点是有效的纠偏思维。你正确地指出，市场兴奋点（78M预测上限）恰恰是统计上的阻力位。你引用##begin_quote## sold-out shows... will be more than happy to wait ##end_quote## [文档 2]来论证需求可能被延迟，这是一个被多数人忽视的重要下行微观机制。然而，你或许低估了高口碑（95%烂番茄）和格式溢价对首周末总收入的提升作用，这可能部分抵消延迟效应。38%的概率是一个谨慎的估计，但可能略低于综合所有证据后的后验概率。\n\nRe: 基本面分析师: 你的分析框架稳健，识别了核心的支持与反对因素。但你在最终合成时，将“略高于不发生的概率”转化为55%，这似乎是一个直觉性的折中，缺乏明确的量化桥梁。从你列举的反对论据看——预测下限风险、产能限制、周末衰减模式——这些因素共同作用可能将概率拉低至50%以下。你的结论与风险评估师类似，但赋予了更少的权重给“区间狭窄性”这一约束条件。\n\nRe: 风险评估师: 你的风险矩阵分析是本次辩论中最严谨的框架。你明确指出“YES的结果需要实际数据同时超越预测中值并突破预测上限”，这是一个双重挑战。你将概率分解为“75-78M”（40%）和“78-80M”（10%）是合理的量化尝试。然而，你最终加总为50%，这可能高估了“75-78M”的概率。考虑到预测区间60-78M，若假设均匀分布，落在75-78M的概率仅为3/18≈16.7%。即使因正面证据将分布右移，要达到40%的概率也需要极强的右偏，这需要比现有证据更强的支持。\n\nRe: 综合策略师: 你的元分析视角有价值，指出了信号共振与盲点。你提到“实际开画落在75-78M之间的概率，高于落在78-80M的概率”是正确的。你的最终概率58%略高于历史类比师和基本面分析师，但你的推理中承认了“预测上限集中在78M”和“存在轻微下行风险”，这两点本应导致一个更接近50%或略低的概率。58%的估计与你的风险陈述存在轻微的不一致。",
+        "reasoning": "辩论后，我维持“区间狭窄性”和“预测上限明确为78M”是核心制约因素的观点。然而，我承认低估了##begin_quote## strong final week of pacing... trending above early tracking ##end_quote## [文档 2]和##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]这两项证据对概率分布的右移影响。它们不支持突破80M，但显著增加了票房落在预测区间高端（如73-78M）的概率，从而提高了落在75-78M这一子区间的可能性。我的初始估计（35%）可能过于惩罚了下行风险。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析高估了“强劲预售”向“精确区间命中”的转化率。你引用的预售趋势向上（##begin_quote## trending above early tracking ##end_quote## [文档 2]）和提前场纪录（##begin_quote## $11M+ In Previews ##end_quote## [文档 4]）是有效证据，但它们支持的是一个更宽泛的“高开画”结论，而非“落在75-80M”这一狭窄区间。关键漏洞在于，你将预测上限78M视为一个可能被轻松触及甚至略微超越的点，但所有权威预测（Boxoffice Pro, BOT）都将78M明确设定为范围上限，而非中值。这意味着在他们的模型中，超过78M的概率已被显著打折。你赋予65%的概率，相当于认为事件发生的可能性是基准情景的两倍，这与预测区间所隐含的概率分布不一致。\n\nRe: 质疑分析师: 你的核心论点——预测中值偏低和行业跟踪数据保守——是合理的风险考量。然而，你低估了“最终预售趋势高于早期跟踪”这一证据的更新力度。早期行业估计约$55M，而最终预测范围上修至$60-78M，这本身就是一次显著的正向贝叶斯更新。你的预测（32%）可能过度惩罚了下行风险，未能充分将预售动能转化为对区间高端概率的适度上调。不过，你指出“75-80M区间狭窄”和“需要表现达到预测区间90分位以上”是正确的校准点。\n\nRe: 历史类比师: 你进行的《奥本海默》类比具有启发性，但存在一个关键差异被忽略。《奥本海默》提前场$10.5M，开画$82.4M，倍数约7.85倍。若《Project Hail Mary》以$11M+的提前场达到类似倍数，开画将在$86M+，这明显超出目标区间。你提到“周六可能下跌”是重要制约因素，但未量化其影响。你的分析在支持与反对论据间取得了较好平衡，最终55%的概率反映了这种不确定性，但可能对“类比成功”的叙事赋予了稍高的先验权重。\n\nRe: 数据统计师: 你的分析出现了关键的数据混淆。你正确地引用了预测数据（上限78M），但将文档7中声称的$80.5M实际开画数据纳入了“反对论据”。在辩论环节，我们应基于预测时点（上映前）的信息进行推理，这些预测文档（1,2,3,4）均未包含$80.5M这个数字。文档7可能代表事后报告，在预测时不应作为已知条件。若排除文档7，你的反对论据1（预测上限78M低于80M）依然成立，但论据2（实际报告80.5M）不成立。这削弱了你的NO论据强度。\n\nRe: 情绪分析师: 你准确地捕捉到了强烈的市场情绪动量，并指出其可能自我实现。然而，你犯了将“情绪高涨”等同于“结果必然落在狭窄目标区间”的逻辑错误。情绪可以推动票房冲高，但使其精确落在75-80M内，需要动量恰好在此处衰竭，而非继续向上突破80M（如类比《奥本海默》所暗示的潜力）或在78M处止步。你赋予68%的高概率，暗示情绪几乎能精确导向目标，这忽略了结果分布的随机性和区间狭窄性。\n\nRe: 逆向投资者: 你的“均值回归”和“锚定偏差”观点是有效的纠偏思维。你正确地指出，市场兴奋点（78M预测上限）恰恰是统计上的阻力位。你引用##begin_quote## sold-out shows... will be more than happy to wait ##end_quote## [文档 2]来论证需求可能被延迟，这是一个被多数人忽视的重要下行微观机制。然而，你或许低估了高口碑（95%烂番茄）和格式溢价对首周末总收入的提升作用，这可能部分抵消延迟效应。38%的概率是一个谨慎的估计，但可能略低于综合所有证据后的后验概率。\n\nRe: 基本面分析师: 你的分析框架稳健，识别了核心的支持与反对因素。但你在最终合成时，将“略高于不发生的概率”转化为55%，这似乎是一个直觉性的折中，缺乏明确的量化桥梁。从你列举的反对论据看——预测下限风险、产能限制、周末衰减模式——这些因素共同作用可能将概率拉低至50%以下。你的结论与风险评估师类似，但赋予了更少的权重给“区间狭窄性”这一约束条件。\n\nRe: 风险评估师: 你的风险矩阵分析是本次辩论中最严谨的框架。你明确指出“YES的结果需要实际数据同时超越预测中值并突破预测上限”，这是一个双重挑战。你将概率分解为“75-78M”（40%）和“78-80M”（10%）是合理的量化尝试。然而，你最终加总为50%，这可能高估了“75-78M”的概率。考虑到预测区间60-78M，若假设均匀分布，落在75-78M的概率仅为3/18≈16.7%。即使因正面证据将分布右移，要达到40%的概率也需要极强的右偏，这需要比现有证据更强的支持。\n\nRe: 综合策略师: 你的元分析视角有价值，指出了信号共振与盲点。你提到“实际开画落在75-78M之间的概率，高于落在78-80M的概率”是正确的。你的最终概率58%略高于历史类比师和基本面分析师，但你的推理中承认了“预测上限集中在78M”和“存在轻微下行风险”，这两点本应导致一个更接近50%或略低的概率。58%的估计与你的风险陈述存在轻微的不一致。\n\nREVISED REASONING: 辩论后，我维持“区间狭窄性”和“预测上限明确为78M”是核心制约因素的观点。然而，我承认低估了##begin_quote## strong final week of pacing... trending above early tracking ##end_quote## [文档 2]和##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]这两项证据对概率分布的右移影响。它们不支持突破80M，但显著增加了票房落在预测区间高端（如73-78M）的概率，从而提高了落在75-78M这一子区间的可能性。我的初始估计（35%）可能过于惩罚了下行风险。\n\nREVISED PREDICTION: 42.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "trending above early tracking",
+              "doc_index": 2
+            },
+            {
+              "quote": "$11M+ In Previews",
+              "doc_index": 4
+            },
+            {
+              "quote": "sold-out shows... will be more than happy to wait",
+              "doc_index": 2
+            },
+            {
+              "quote": "strong final week of pacing... trending above early tracking",
+              "doc_index": 2
+            },
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            }
+          ],
+          "cited_doc_indices": [
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "agent_name": "历史类比师",
+        "stance": "neutral",
+        "probability": 62.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析正确地强调了强劲的预售和口碑，但可能低估了“预测上限”的历史意义。你提到“权威预测区间明确覆盖目标范围”，但请注意，这些预测的上限是78M，而非80M。##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]。在历史上，当权威预测（如Boxoffice Pro）给出一个明确上限时，实际开画突破该上限的概率通常低于20%。你的类比《奥本海默》（82.4M）是正确的，但那是罕见的例外，而非规律。将65%的概率赋予一个需要突破或紧贴预测上限的狭窄区间，可能过于乐观。\n\nRe: 质疑分析师: 你正确地指出了预测中值偏低和行业跟踪保守的风险，但可能过度解读了“传统片厂跟踪：5500万美元+”这一数据。该数据是早期估计，而后续明确提到趋势“高于早期跟踪”。##begin_quote## It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates, those being around $55 million ##end_quote## [文档 2]。在历史案例中（如《沙丘2》），这种上映前一周的强劲上修往往是真实动能的体现，而不仅仅是噪音。因此，将概率压到32%可能忽略了动量修正的力量。\n\nRe: 贝叶斯分析师: 你的框架是合理的，但先验设定可能过于静态。你将核心预测区间视为60-78M的均匀分布，然而，强劲的提前场（11M+）和售罄的优质场次是强有力的新证据，应显著右移（向更高票房）你的概率分布。历史上，类似《奥本海默》的提前场表现（10.5M）导致其开画远超早期预测中值。因此，仅基于原始预测区间计算重叠部分（75-78M）可能会低估实际概率。\n\nRe: 数据统计师: 你敏锐地指出了实际报告数据（80.5M）与预测的矛盾，这是关键点。然而，文档7（IGN）的报道“##begin_quote## Project Hail Mary has launched big at the global box office, bringing in an impressive $140 million during its opening weekend. ##end_quote##”并未明确给出北美首周末的精确数字（80.5M可能来自其他未完全引用的部分）。在辩论中，我们应主要依赖上映前有明确来源的预测数据（文档1-4,6）作为判断依据。过度依赖一个可能不完整或未说明计算口径的数据点（文档7）会引入新的不确定性。\n\nRe: 情绪分析师: 你精准地捕捉到了市场情绪动量，这是历史类比中推动票房超预期的关键因素。然而，情绪可能已经将“达到78M预测上限”充分定价，但要精确落在75-80M，还需要情绪推动实际数字突破这个上限。历史上，情绪驱动的“害怕错过”效应有时会导致首日（周五）爆炸，但若周六出现如文档6所提及的疲软（类比《奥本海默》），则可能将最终数字锚定在78M附近，而非更高。68%的概率或许高估了情绪对最终精确数字的控制力。\n\nRe: 逆向投资者: 你关于“均值回归”和“预测上沿压力”的论点在统计学上是坚实的。但历史也提供了反例：当一部电影同时具备顶级口碑（95% RT）、格式稀缺性（IMAX/70mm售罄）和破纪录的提前场时，它往往能抵御均值回归，并实现“赢家通吃”。你引用的观众等待最优座位的情况##begin_quote## casual moviegoers will be more than happy to wait ##end_quote## [文档 2]，在《沙丘2》等影片中确实存在，但并未阻止其创下惊人的首周末成绩。因此，38%的概率可能过于悲观，忽略了“超级大片”打破常规模式的历史能力。\n\nRe: 基本面分析师: 你的分析非常平衡，指出了高端格式的产能限制这一关键风险。这是历史类比中常被忽视的一点：IMAX银幕数量是固定的，售罄即意味着收入天花板。然而，你也可能低估了高口碑对普通场次上座率的拉动作用。历史上，《火星救援》凭借口碑实现了长线票房，但其开画周末（54M）并未受格式限制太大影响，因为需求扩散到了所有场次。55%的概率是一个合理的折中，但或许略微低估了突破产能限制的潜力。\n\nRe: 风险评估师: 你的风险矩阵分析很有价值，特别是区分了“75-78M”和“78-80M”的概率。这是精确预测的关键。然而，你将“票房突破78M（预测共识上限）的概率”定为约30%，这可能偏低。考虑到##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4] 这一数据，其倍数效应若达到《奥本海默》的约7.8倍，即可达到约86M。即使保守按7倍计算，也有77M。因此，突破78M的概率应高于你的估计，这也会相应提高落在75-80M区间的总概率。你的50%估计可能因低估上行尾部风险而偏保守。\n\nRe: 综合策略师: 你提到了“高基数下的增长难度”和提前场到总票房的倍数，这是专业的考量。然而，历史类比显示，对于拥有极高口碑和事件属性的电影，这个倍数可以非常弹性。《奥本海默》的提前场倍数就接近8倍。此外，你担心竞争分流，但《Dhurandhar》和《Ready or Not 2》的预测体量##begin_quote## $13 — 18 million... $7 — 11 million ##end_quote## [文档 2] 与《Project Hail Mary》不在一个量级，分流效应在历史类似周末（如《奥本海默》与《蓝甲虫》同周）中被证明是微乎其微的。58%的概率是合理的，但推理中对竞争和倍数的担忧可能被略微高估。",
+        "reasoning": "经过辩论，我更加重视两个历史类比信号：1) 破纪录的提前场（11M+）是比任何预测模型都更强的即时指标，它大幅提高了票房落在预测区间高端的可能性；2) 与《奥本海默》的走势比较##begin_quote## which also had a strong Friday before dipping slightly on Saturday ##end_quote## [文档 6] 提示周六可能疲软，这增加了最终数字落在78M附近（而非远超80M）的概率，恰恰使其更可能落入75-80M区间。因此，我上调概率。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析正确地强调了强劲的预售和口碑，但可能低估了“预测上限”的历史意义。你提到“权威预测区间明确覆盖目标范围”，但请注意，这些预测的上限是78M，而非80M。##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]。在历史上，当权威预测（如Boxoffice Pro）给出一个明确上限时，实际开画突破该上限的概率通常低于20%。你的类比《奥本海默》（82.4M）是正确的，但那是罕见的例外，而非规律。将65%的概率赋予一个需要突破或紧贴预测上限的狭窄区间，可能过于乐观。\n\nRe: 质疑分析师: 你正确地指出了预测中值偏低和行业跟踪保守的风险，但可能过度解读了“传统片厂跟踪：5500万美元+”这一数据。该数据是早期估计，而后续明确提到趋势“高于早期跟踪”。##begin_quote## It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates, those being around $55 million ##end_quote## [文档 2]。在历史案例中（如《沙丘2》），这种上映前一周的强劲上修往往是真实动能的体现，而不仅仅是噪音。因此，将概率压到32%可能忽略了动量修正的力量。\n\nRe: 贝叶斯分析师: 你的框架是合理的，但先验设定可能过于静态。你将核心预测区间视为60-78M的均匀分布，然而，强劲的提前场（11M+）和售罄的优质场次是强有力的新证据，应显著右移（向更高票房）你的概率分布。历史上，类似《奥本海默》的提前场表现（10.5M）导致其开画远超早期预测中值。因此，仅基于原始预测区间计算重叠部分（75-78M）可能会低估实际概率。\n\nRe: 数据统计师: 你敏锐地指出了实际报告数据（80.5M）与预测的矛盾，这是关键点。然而，文档7（IGN）的报道“##begin_quote## Project Hail Mary has launched big at the global box office, bringing in an impressive $140 million during its opening weekend. ##end_quote##”并未明确给出北美首周末的精确数字（80.5M可能来自其他未完全引用的部分）。在辩论中，我们应主要依赖上映前有明确来源的预测数据（文档1-4,6）作为判断依据。过度依赖一个可能不完整或未说明计算口径的数据点（文档7）会引入新的不确定性。\n\nRe: 情绪分析师: 你精准地捕捉到了市场情绪动量，这是历史类比中推动票房超预期的关键因素。然而，情绪可能已经将“达到78M预测上限”充分定价，但要精确落在75-80M，还需要情绪推动实际数字突破这个上限。历史上，情绪驱动的“害怕错过”效应有时会导致首日（周五）爆炸，但若周六出现如文档6所提及的疲软（类比《奥本海默》），则可能将最终数字锚定在78M附近，而非更高。68%的概率或许高估了情绪对最终精确数字的控制力。\n\nRe: 逆向投资者: 你关于“均值回归”和“预测上沿压力”的论点在统计学上是坚实的。但历史也提供了反例：当一部电影同时具备顶级口碑（95% RT）、格式稀缺性（IMAX/70mm售罄）和破纪录的提前场时，它往往能抵御均值回归，并实现“赢家通吃”。你引用的观众等待最优座位的情况##begin_quote## casual moviegoers will be more than happy to wait ##end_quote## [文档 2]，在《沙丘2》等影片中确实存在，但并未阻止其创下惊人的首周末成绩。因此，38%的概率可能过于悲观，忽略了“超级大片”打破常规模式的历史能力。\n\nRe: 基本面分析师: 你的分析非常平衡，指出了高端格式的产能限制这一关键风险。这是历史类比中常被忽视的一点：IMAX银幕数量是固定的，售罄即意味着收入天花板。然而，你也可能低估了高口碑对普通场次上座率的拉动作用。历史上，《火星救援》凭借口碑实现了长线票房，但其开画周末（54M）并未受格式限制太大影响，因为需求扩散到了所有场次。55%的概率是一个合理的折中，但或许略微低估了突破产能限制的潜力。\n\nRe: 风险评估师: 你的风险矩阵分析很有价值，特别是区分了“75-78M”和“78-80M”的概率。这是精确预测的关键。然而，你将“票房突破78M（预测共识上限）的概率”定为约30%，这可能偏低。考虑到##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4] 这一数据，其倍数效应若达到《奥本海默》的约7.8倍，即可达到约86M。即使保守按7倍计算，也有77M。因此，突破78M的概率应高于你的估计，这也会相应提高落在75-80M区间的总概率。你的50%估计可能因低估上行尾部风险而偏保守。\n\nRe: 综合策略师: 你提到了“高基数下的增长难度”和提前场到总票房的倍数，这是专业的考量。然而，历史类比显示，对于拥有极高口碑和事件属性的电影，这个倍数可以非常弹性。《奥本海默》的提前场倍数就接近8倍。此外，你担心竞争分流，但《Dhurandhar》和《Ready or Not 2》的预测体量##begin_quote## $13 — 18 million... $7 — 11 million ##end_quote## [文档 2] 与《Project Hail Mary》不在一个量级，分流效应在历史类似周末（如《奥本海默》与《蓝甲虫》同周）中被证明是微乎其微的。58%的概率是合理的，但推理中对竞争和倍数的担忧可能被略微高估。\n\nREVISED REASONING: 经过辩论，我更加重视两个历史类比信号：1) 破纪录的提前场（11M+）是比任何预测模型都更强的即时指标，它大幅提高了票房落在预测区间高端的可能性；2) 与《奥本海默》的走势比较##begin_quote## which also had a strong Friday before dipping slightly on Saturday ##end_quote## [文档 6] 提示周六可能疲软，这增加了最终数字落在78M附近（而非远超80M）的概率，恰恰使其更可能落入75-80M区间。因此，我上调概率。\n\nREVISED PREDICTION: 62.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$70M–$78M domestic opening",
+              "doc_index": 1
+            },
+            {
+              "quote": "It’s been a strong final week of pacing for *Project Hail Mary*, which is now trending above early tracking and potentially even higher than industry estimates, those being around $55 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "Project Hail Mary has launched big at the global box office, bringing in an impressive $140 million during its opening weekend. ##end_quote##”并未明确给出北美首周末的精确数字（80.5M可能来自其他未完全引用的部分）。在辩论中，我们应主要依赖上映前有明确来源的预测数据（文档1-4,6）作为判断依据。过度依赖一个可能不完整或未说明计算口径的数据点（文档7）会引入新的不确定性。\n\nRe: 情绪分析师: 你精准地捕捉到了市场情绪动量，这是历史类比中推动票房超预期的关键因素。然而，情绪可能已经将“达到78M预测上限”充分定价，但要精确落在75-80M，还需要情绪推动实际数字突破这个上限。历史上，情绪驱动的“害怕错过”效应有时会导致首日（周五）爆炸，但若周六出现如文档6所提及的疲软（类比《奥本海默》），则可能将最终数字锚定在78M附近，而非更高。68%的概率或许高估了情绪对最终精确数字的控制力。\n\nRe: 逆向投资者: 你关于“均值回归”和“预测上沿压力”的论点在统计学上是坚实的。但历史也提供了反例：当一部电影同时具备顶级口碑（95% RT）、格式稀缺性（IMAX/70mm售罄）和破纪录的提前场时，它往往能抵御均值回归，并实现“赢家通吃”。你引用的观众等待最优座位的情况##begin_quote## casual moviegoers will be more than happy to wait",
+              "doc_index": 2
+            },
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "$13 — 18 million... $7 — 11 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "which also had a strong Friday before dipping slightly on Saturday",
+              "doc_index": 6
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "agent_name": "数据统计师",
+        "stance": "neutral",
+        "probability": 15.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析高估了预测区间上限的统计权重。虽然预测上限为78M，但这是范围预测，实际结果落在区间顶部的概率分布通常较低。你引用的“强劲预售”##begin_quote## trending above early tracking ##end_quote## [文档 2] 确实存在，但早期行业预估仅为$55M，向上修正至$78M已反映了大部分乐观预期。将概率定为65%意味着你认为结果有近三分之二的可能性会落在预测范围最高的四分之一（75-78M），这缺乏分布依据。同时，你忽略了文档7中已报告的实际开画数字$80.5M，这是一个关键的反向数据点。\n\nRe: 质疑分析师: 你的核心论点（预测中值低、行业跟踪保守）在统计上是合理的。你正确地指出了##begin_quote## Traditional Studio Tracking: $55 million+ ##end_quote## [文档 2]这一保守基准。然而，你赋予32%的概率可能低估了后期预售数据（高于早期跟踪）所带来的分布右移效应。你的分析基于预测发布时的先验分布，但未充分将“趋势高于预期”这一信息量化为对后验分布的调整。不过，你对“狭窄区间”和“预测上限阻力”的强调是准确的。\n\nRe: 贝叶斯分析师: 你的分析框架正确，将先验设定为基于60-78M预测区间的均匀分布是合理的起点。你得出35%的概率，其计算逻辑是：目标区间75-80M与预测区间重叠部分为75-78M（宽度3M），占预测区间总宽度（18M）的16.7%。考虑到分布可能右偏，将概率上调至35%是合理的贝叶斯更新。我最初的35%预测与你的方法论结论一致。\n\nRe: 历史类比师: 你依赖的历史类比（《奥本海默》）存在样本量过小（n=1）的问题，且两部电影上映年份、市场环境不同，直接外推风险高。你提到《奥本海默》提前场$10.5M，首周末$82.4M，倍数约7.85倍。若《Project Hail Mary》提前场为$11M+，按相同倍数推算约为$86M+，这将明确超出目标区间，支持NO而非YES。你的类比实际上削弱了YES的论据。\n\nRe: 情绪分析师: 你的分析将市场情绪作为核心变量，但情绪是滞后或同步指标，而非可靠的前瞻预测指标。媒体标题如##begin_quote## Eyes $80M US Opening ##end_quote## [文档 6] 是叙事，不是数据模型输出。你赋予68%的高概率严重依赖情绪动量，但文档中提供的硬数据——预测模型上限（78M）——构成了统计上的硬约束。情绪可能导致实际突破约束，但概率应显著低于你的估计。\n\nRe: 逆向投资者: 你正确地指出了“锚定偏差”和“均值回归”的风险。你提到的“饱和预售与均值回归”论点有数据支持：##begin_quote## casual moviegoers will be more than happy to wait a day or two... for optimal seats ##end_quote## [文档 2]，这可能导致首周末票房被平滑，抑制冲高动力。然而，你38%的概率与我的初始估计接近，显示我们对统计阻力的看法一致。\n\nRe: 基本面分析师: 你的分析平衡了正反因素，但将概率定为55%略显矛盾。你承认“目标范围是一个非常狭窄的区间”，且“要精确落在75-80M区间内，需要克服上述所有限制因素”，这通常对应较低的概率。然而55%的预测意味着YES比NO更可能，这与“狭窄区间”、“需要克服所有限制”的论述不匹配，在统计上不一致。\n\nRe: 风险评估师: 你的风险矩阵分析是严谨的，将问题分解为“达到75M”和“突破78M”的概率是正确方法。你估计“落在75-78M之间概率约40%”，“落在78-80M之间概率约10%”，总和50%。然而，你的分析忽略了文档7中$80.5M的报告。若该数据可靠，则“突破78M”的概率应大幅上调，而“落在75-78M”的概率应下调，导致总概率低于50%。\n\nRe: 综合策略师: 你的分析提到了关键矛盾：趋势向上 vs. 区间狭窄。你指出“实际开画落在75-78M之间的概率，高于落在78-80M的概率”，这与数据分布形态一致。然而，你最终给出58%的概率，这暗示你认为落在75-78M的概率极高。考虑到预测区间宽度和均匀分布假设，58%的估计过于乐观，未充分量化“精确命中高端狭窄区间”的统计难度。",
+        "reasoning": "辩论后，关键点在于如何权衡预测模型上限（78M）与声称的实际数据（80.5M）。作为数据统计师，我优先采纳可验证的硬数据。文档7报告##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million ##end_quote##，若此为最终官方三日开画票房，则问题有明确答案（NO）。即使考虑预测误差，实际值$80.5M也显著高于预测区间上限$78M，且超出目标区间$80M的上限。因此，基于现有最强数据点，结果落在75-80M区间内的概率极低。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析高估了预测区间上限的统计权重。虽然预测上限为78M，但这是范围预测，实际结果落在区间顶部的概率分布通常较低。你引用的“强劲预售”##begin_quote## trending above early tracking ##end_quote## [文档 2] 确实存在，但早期行业预估仅为$55M，向上修正至$78M已反映了大部分乐观预期。将概率定为65%意味着你认为结果有近三分之二的可能性会落在预测范围最高的四分之一（75-78M），这缺乏分布依据。同时，你忽略了文档7中已报告的实际开画数字$80.5M，这是一个关键的反向数据点。\n\nRe: 质疑分析师: 你的核心论点（预测中值低、行业跟踪保守）在统计上是合理的。你正确地指出了##begin_quote## Traditional Studio Tracking: $55 million+ ##end_quote## [文档 2]这一保守基准。然而，你赋予32%的概率可能低估了后期预售数据（高于早期跟踪）所带来的分布右移效应。你的分析基于预测发布时的先验分布，但未充分将“趋势高于预期”这一信息量化为对后验分布的调整。不过，你对“狭窄区间”和“预测上限阻力”的强调是准确的。\n\nRe: 贝叶斯分析师: 你的分析框架正确，将先验设定为基于60-78M预测区间的均匀分布是合理的起点。你得出35%的概率，其计算逻辑是：目标区间75-80M与预测区间重叠部分为75-78M（宽度3M），占预测区间总宽度（18M）的16.7%。考虑到分布可能右偏，将概率上调至35%是合理的贝叶斯更新。我最初的35%预测与你的方法论结论一致。\n\nRe: 历史类比师: 你依赖的历史类比（《奥本海默》）存在样本量过小（n=1）的问题，且两部电影上映年份、市场环境不同，直接外推风险高。你提到《奥本海默》提前场$10.5M，首周末$82.4M，倍数约7.85倍。若《Project Hail Mary》提前场为$11M+，按相同倍数推算约为$86M+，这将明确超出目标区间，支持NO而非YES。你的类比实际上削弱了YES的论据。\n\nRe: 情绪分析师: 你的分析将市场情绪作为核心变量，但情绪是滞后或同步指标，而非可靠的前瞻预测指标。媒体标题如##begin_quote## Eyes $80M US Opening ##end_quote## [文档 6] 是叙事，不是数据模型输出。你赋予68%的高概率严重依赖情绪动量，但文档中提供的硬数据——预测模型上限（78M）——构成了统计上的硬约束。情绪可能导致实际突破约束，但概率应显著低于你的估计。\n\nRe: 逆向投资者: 你正确地指出了“锚定偏差”和“均值回归”的风险。你提到的“饱和预售与均值回归”论点有数据支持：##begin_quote## casual moviegoers will be more than happy to wait a day or two... for optimal seats ##end_quote## [文档 2]，这可能导致首周末票房被平滑，抑制冲高动力。然而，你38%的概率与我的初始估计接近，显示我们对统计阻力的看法一致。\n\nRe: 基本面分析师: 你的分析平衡了正反因素，但将概率定为55%略显矛盾。你承认“目标范围是一个非常狭窄的区间”，且“要精确落在75-80M区间内，需要克服上述所有限制因素”，这通常对应较低的概率。然而55%的预测意味着YES比NO更可能，这与“狭窄区间”、“需要克服所有限制”的论述不匹配，在统计上不一致。\n\nRe: 风险评估师: 你的风险矩阵分析是严谨的，将问题分解为“达到75M”和“突破78M”的概率是正确方法。你估计“落在75-78M之间概率约40%”，“落在78-80M之间概率约10%”，总和50%。然而，你的分析忽略了文档7中$80.5M的报告。若该数据可靠，则“突破78M”的概率应大幅上调，而“落在75-78M”的概率应下调，导致总概率低于50%。\n\nRe: 综合策略师: 你的分析提到了关键矛盾：趋势向上 vs. 区间狭窄。你指出“实际开画落在75-78M之间的概率，高于落在78-80M的概率”，这与数据分布形态一致。然而，你最终给出58%的概率，这暗示你认为落在75-78M的概率极高。考虑到预测区间宽度和均匀分布假设，58%的估计过于乐观，未充分量化“精确命中高端狭窄区间”的统计难度。\n\nREVISED REASONING: 辩论后，关键点在于如何权衡预测模型上限（78M）与声称的实际数据（80.5M）。作为数据统计师，我优先采纳可验证的硬数据。文档7报告##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million ##end_quote##，若此为最终官方三日开画票房，则问题有明确答案（NO）。即使考虑预测误差，实际值$80.5M也显著高于预测区间上限$78M，且超出目标区间$80M的上限。因此，基于现有最强数据点，结果落在75-80M区间内的概率极低。\n\nREVISED PREDICTION: 15.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "trending above early tracking",
+              "doc_index": 2
+            },
+            {
+              "quote": "Traditional Studio Tracking: $55 million+",
+              "doc_index": 2
+            },
+            {
+              "quote": "Eyes $80M US Opening",
+              "doc_index": 6
+            },
+            {
+              "quote": "casual moviegoers will be more than happy to wait a day or two... for optimal seats",
+              "doc_index": 2
+            }
+          ],
+          "cited_doc_indices": [
+            2,
+            6
+          ]
+        }
+      },
+      {
+        "agent_name": "情绪分析师",
+        "stance": "bull",
+        "probability": 72.0,
+        "rebuttals": "Re: 乐观分析师: 我同意你的乐观基调，但你的概率（65%）可能低估了情绪动量突破预测上限的潜力。你提到“预测上限为78M”，但忽略了媒体叙事正在主动将预期锚定在更高位置。##begin_quote## Ryan Gosling's Project Hail Mary Eyes $80M US Opening ##end_quote## [文档 6]。当“80M”成为标题，它就不再是预测区间的上限，而是市场情绪追逐的新目标。你担忧的“狭窄区间”挑战，在强大的FOMO（害怕错过）情绪和售罄造成的稀缺感面前，会被削弱。\n\nRe: 质疑分析师: 你的核心错误是过于依赖“基准率”和“传统跟踪数据”，而严重低估了叙事转变的威力。你引用的“传统片厂跟踪：$55 million+”是早期数据，但关键信息是趋势已##begin_quote## trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2]。情绪分析关注的是变化的方向和速度，而非静态的锚点。当预览票房创下年度和公司纪录（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）时，旧的基准已经失效，市场正在为新的、更高的基准定价。\n\nRe: 贝叶斯分析师: 你的分析框架是理性的，但先验分布设置可能有误。你基于“核心预测区间60-78M”设定先验，但情绪事件会扭曲分布，使其右偏（向更高数字）。强有力的证据（破纪录的预览票房、与《奥本海默》的类比、售罄的优质场次）应导致对分布尾部的概率进行大幅上调。你认为“突破至78-80M的可能性较低”，但文档6显示市场已经在“Eyes $80M”，这表明尾部风险正在变成市场共识的一部分。\n\nRe: 历史类比师: 你的类比（《奥本海默》）非常精准，这正是情绪动量的核心。但你从类比中得出的概率（55%）略显保守。《奥本海默》的轨迹（强周五后周六微跌）是已知模式，市场已将其纳入预期。关键在于，《Project Hail Mary》的提前场（11M+）比《奥本海默》（10.5M）更强，且处于一个对影院体验渴望更强烈的市场窗口。这为它复制甚至略微超越《奥本海默》的倍数关系提供了情绪基础，使75-80M区间更具可能性。\n\nRe: 数据统计师: 你犯了将预测数据与实际报告数据并列比较的错误。文档7的“$80.5 million”如果是在预测时点后的实际数据，那么它本身就是答案，而非需要权衡的概率输入。在预测框架内，我们应关注预测和领先指标。你正确地指出了预测上限为78M，但情绪分析认为，当所有信号（口碑、预售、格式需求、媒体标题）都指向突破时，统计模型的上限常常被情绪浪潮冲破。你的“35%”是基于静态模型，未纳入动态的情绪超调。\n\nRe: 逆向投资者: 我欣赏你的逆向思维，但这次你可能逆错了方向。你指出的“锚定偏差”和“过度反应”确实存在，但你需要区分“价格反映预期”和“情绪创造新现实”。当##begin_quote## the biggest and best screens ##end_quote## 的场次 ##begin_quote## are becoming largely sold-out ##end_quote## [文档 2]时，这不是过度反应，而是实实在在的供需失衡，这会推高单价并制造社会证明效应，吸引更多观众涌入普通场次。你担心的“均值回归”适用于没有结构性变化的情况，而本片的口碑和事件性（年度最佳开局叙事）构成了结构性变化。\n\nRe: 基本面分析师: 我们的结论相似（看涨），但路径不同。你从“结构性优势”推导，我从“情绪动量”切入。你提到的“高端格式票房产能限制”是关键，但你将其视为抑制因素。从情绪角度看，这恰恰是最大的助推器——稀缺性创造紧迫感和更高价值感知。观众##begin_quote## will be more than happy to wait ##end_quote## [文档 2] 的选项，在“年度必看大片”的狂热叙事下，会被大量转化为“本周末无论如何都要看到”的行动。\n\nRe: 风险评估师: 你的风险矩阵是严谨的，但你对“突破预测上限”的概率赋值（“很低约10%”）可能过于保守。你忽略了情绪的一个关键风险：**共识自我实现的风险**。当所有媒体都在报道“瞄准80M开局”、“对比奥本海默”时，这本身就成为推动票房达到那个区间的力量。你识别了“尾部风险”，但当前情绪表明，这已不再是尾部，而是逐渐成为核心情景之一。你的50%概率是很好的平衡点，但情绪天平正在向上倾斜。\n\nRe: 综合策略师: 你的分析很全面，但结论（58%）可能没有充分赋予“趋势高于预期”这一信号的权重。这不是一个普通的向上修正，而是在上映前关键窗口期的强劲冲刺（##begin_quote## strong final week of pacing ##end_quote## [文档 2]）。在情绪周期中，这种临门一脚的动量往往最具预测性，它表明乐观情绪正在从早期关注者扩散至大众观众，这通常对应着开画数字冲击预测区间最顶端的表现。",
+        "reasoning": "辩论强化了我的观点：反对意见多基于静态模型和历史基准，但当前围绕《Project Hail Mary》的情绪动量是现象级的。核心证据链——从“高于早期跟踪”的预售、创纪录的预览票房（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）、与《奥本海默》的主动类比，到媒体标题直接“瞄准80M”（##begin_quote## Eyes $80M US Opening ##end_quote## [文档 6]）——构成了一个强大的叙事闭环，足以推动票房突破常规预测上限，稳稳落入75-80M的“荣耀区间”。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 我同意你的乐观基调，但你的概率（65%）可能低估了情绪动量突破预测上限的潜力。你提到“预测上限为78M”，但忽略了媒体叙事正在主动将预期锚定在更高位置。##begin_quote## Ryan Gosling's Project Hail Mary Eyes $80M US Opening ##end_quote## [文档 6]。当“80M”成为标题，它就不再是预测区间的上限，而是市场情绪追逐的新目标。你担忧的“狭窄区间”挑战，在强大的FOMO（害怕错过）情绪和售罄造成的稀缺感面前，会被削弱。\n\nRe: 质疑分析师: 你的核心错误是过于依赖“基准率”和“传统跟踪数据”，而严重低估了叙事转变的威力。你引用的“传统片厂跟踪：$55 million+”是早期数据，但关键信息是趋势已##begin_quote## trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2]。情绪分析关注的是变化的方向和速度，而非静态的锚点。当预览票房创下年度和公司纪录（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）时，旧的基准已经失效，市场正在为新的、更高的基准定价。\n\nRe: 贝叶斯分析师: 你的分析框架是理性的，但先验分布设置可能有误。你基于“核心预测区间60-78M”设定先验，但情绪事件会扭曲分布，使其右偏（向更高数字）。强有力的证据（破纪录的预览票房、与《奥本海默》的类比、售罄的优质场次）应导致对分布尾部的概率进行大幅上调。你认为“突破至78-80M的可能性较低”，但文档6显示市场已经在“Eyes $80M”，这表明尾部风险正在变成市场共识的一部分。\n\nRe: 历史类比师: 你的类比（《奥本海默》）非常精准，这正是情绪动量的核心。但你从类比中得出的概率（55%）略显保守。《奥本海默》的轨迹（强周五后周六微跌）是已知模式，市场已将其纳入预期。关键在于，《Project Hail Mary》的提前场（11M+）比《奥本海默》（10.5M）更强，且处于一个对影院体验渴望更强烈的市场窗口。这为它复制甚至略微超越《奥本海默》的倍数关系提供了情绪基础，使75-80M区间更具可能性。\n\nRe: 数据统计师: 你犯了将预测数据与实际报告数据并列比较的错误。文档7的“$80.5 million”如果是在预测时点后的实际数据，那么它本身就是答案，而非需要权衡的概率输入。在预测框架内，我们应关注预测和领先指标。你正确地指出了预测上限为78M，但情绪分析认为，当所有信号（口碑、预售、格式需求、媒体标题）都指向突破时，统计模型的上限常常被情绪浪潮冲破。你的“35%”是基于静态模型，未纳入动态的情绪超调。\n\nRe: 逆向投资者: 我欣赏你的逆向思维，但这次你可能逆错了方向。你指出的“锚定偏差”和“过度反应”确实存在，但你需要区分“价格反映预期”和“情绪创造新现实”。当##begin_quote## the biggest and best screens ##end_quote## 的场次 ##begin_quote## are becoming largely sold-out ##end_quote## [文档 2]时，这不是过度反应，而是实实在在的供需失衡，这会推高单价并制造社会证明效应，吸引更多观众涌入普通场次。你担心的“均值回归”适用于没有结构性变化的情况，而本片的口碑和事件性（年度最佳开局叙事）构成了结构性变化。\n\nRe: 基本面分析师: 我们的结论相似（看涨），但路径不同。你从“结构性优势”推导，我从“情绪动量”切入。你提到的“高端格式票房产能限制”是关键，但你将其视为抑制因素。从情绪角度看，这恰恰是最大的助推器——稀缺性创造紧迫感和更高价值感知。观众##begin_quote## will be more than happy to wait ##end_quote## [文档 2] 的选项，在“年度必看大片”的狂热叙事下，会被大量转化为“本周末无论如何都要看到”的行动。\n\nRe: 风险评估师: 你的风险矩阵是严谨的，但你对“突破预测上限”的概率赋值（“很低约10%”）可能过于保守。你忽略了情绪的一个关键风险：**共识自我实现的风险**。当所有媒体都在报道“瞄准80M开局”、“对比奥本海默”时，这本身就成为推动票房达到那个区间的力量。你识别了“尾部风险”，但当前情绪表明，这已不再是尾部，而是逐渐成为核心情景之一。你的50%概率是很好的平衡点，但情绪天平正在向上倾斜。\n\nRe: 综合策略师: 你的分析很全面，但结论（58%）可能没有充分赋予“趋势高于预期”这一信号的权重。这不是一个普通的向上修正，而是在上映前关键窗口期的强劲冲刺（##begin_quote## strong final week of pacing ##end_quote## [文档 2]）。在情绪周期中，这种临门一脚的动量往往最具预测性，它表明乐观情绪正在从早期关注者扩散至大众观众，这通常对应着开画数字冲击预测区间最顶端的表现。\n\nREVISED REASONING: 辩论强化了我的观点：反对意见多基于静态模型和历史基准，但当前围绕《Project Hail Mary》的情绪动量是现象级的。核心证据链——从“高于早期跟踪”的预售、创纪录的预览票房（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）、与《奥本海默》的主动类比，到媒体标题直接“瞄准80M”（##begin_quote## Eyes $80M US Opening ##end_quote## [文档 6]）——构成了一个强大的叙事闭环，足以推动票房突破常规预测上限，稳稳落入75-80M的“荣耀区间”。\n\nREVISED PREDICTION: 72.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Ryan Gosling's Project Hail Mary Eyes $80M US Opening",
+              "doc_index": 6
+            },
+            {
+              "quote": "trending above early tracking and potentially even higher than industry estimates",
+              "doc_index": 2
+            },
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "the biggest and best screens ##end_quote## 的场次 ##begin_quote## are becoming largely sold-out",
+              "doc_index": 2
+            },
+            {
+              "quote": "will be more than happy to wait",
+              "doc_index": 2
+            },
+            {
+              "quote": "strong final week of pacing",
+              "doc_index": 2
+            },
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "Eyes $80M US Opening",
+              "doc_index": 6
+            }
+          ],
+          "cited_doc_indices": [
+            2,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "agent_name": "逆向投资者",
+        "stance": "bear",
+        "probability": 42.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析被“年度最佳开局”的叙事蒙蔽了双眼。你承认预测中值低于75M，却依然给出65%的高概率，这是典型的“叙事压倒数据”。你引用的预售趋势“高于早期跟踪”##begin_quote## trending above early tracking ##end_quote## [文档 2]，但早期跟踪基数（约55M）极低，向上修正至70M区间是合理的，但修正至75M+则是另一回事。你忽略了最关键的一点：所有预测的**硬顶都是78M**，没有一家主流机构给出80M的预期。这意味着市场共识的“天花板”就是78M，要进入75-80M区间，必须撞到天花板，这本身就是小概率事件。你的乐观缺乏统计基础。\n\nRe: 质疑分析师: 你的框架更接近我的逆向思维，但结论（32%）可能过度悲观。你正确地指出了“传统制片厂跟踪：5500万美元+”##begin_quote## Traditional Studio Tracking: $55 million+ ##end_quote## [文档 2]这一关键的反向信号，以及预测中值低于目标区间的事实。然而，你低估了强劲预售和口碑（95%烂番茄）带来的实际上行动能，这可能将最终数字推至预测区间（60-78M）的上半部分，即70-78M。虽然达到75M+仍需努力，但概率不应被压得过低。你的分析框架是对的，但风险定价可能过于严厉。\n\nRe: 贝叶斯分析师: 你的分析过于机械地依赖预测区间。你将先验基于60-78M的均匀分布，但忽略了预售数据（如11M+提前场##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）和口碑是强烈的正向信号，它们应该显著改变分布形态，使其右偏（即向更高数字移动）。然而，你更新后的后验概率（35%）仍然偏低，因为你没有充分考虑到，即使分布右偏，其“新峰值”可能也只是移动到72-75M附近，而非直接跳到75-80M区间。目标区间过于狭窄，右移的分布可能只是让它的“左尾”覆盖目标区间，而非主体部分。\n\nRe: 历史类比师: 类比《奥本海默》是危险的。你引用了其82.4M的开画，但忽略了一个关键差异：《奥本海默》有诺兰这一强大的、具有稳定开画能力的品牌导演，而Lord & Miller的组合虽然优秀，但在开画规模上并无同等记录。更重要的是，你提到了周六可能疲软的风险##begin_quote## dipping slightly on Saturday ##end_quote## [文档 6]，这正是阻止其冲高的关键。历史类比往往只看到成功的相似性，却忽略了结构性阻力的差异。将概率定为55%是基于“相似性”的直觉，而非对“差异性”的审慎评估。\n\nRe: 数据统计师: 你犯了一个关键错误：将一份声称实际开画80.5M的报道##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million ##end_quote## [文档 7]纳入了预测时的考量。我们进行的是前瞻性预测，应基于预测数据（文档1-4，6）。这份报告如果属实，那问题已有答案，但作为预测，我们不能假设它已是最终确认的官方数据。你的分析因此被一个可能不准确或非常早期的数据点过度影响，导致概率估计（35%）建立在混合了前瞻与后验信息的混乱基础上。\n\nRe: 情绪分析师: 你正是市场过度情绪的化身。你识别了情绪动量，却成了它的俘虏。你提到“当媒体开始谈论80M时，它会自我实现”，这是典型的情绪泡沫逻辑。媒体谈论是基于预测上限78M的推测，而非新的基本面。情绪可以推动数字达到预期上限，但很难系统性突破所有专业模型设定的硬顶。你将概率定为68%，几乎是认为必然达到区间高端，这完全忽视了“售罄导致需求延迟”##begin_quote## wait a day or two ##end_quote## [文档 2]这一实实在在的、抑制首周末数字的物理约束。情绪无法变出更多IMAX影厅。\n\nRe: 基本面分析师: 你的分析很平衡，但结论（55%）仍然偏高。你正确地指出了高端格式的产能限制是下行风险，但似乎没有给予它足够的权重。当最大最好的屏幕“基本售罄”时，它不仅仅意味着高票价，更意味着**首周末的票房增长遇到了物理瓶颈**。部分观众会等待，这部分被延迟的需求不会计入首周末数字。这一因素足以将票房从“冲击78M”拉回到“稳定在73-76M”。基本面优秀保证了不错的开画，但不足以保证精确命中一个狭窄的高位区间。\n\nRe: 风险评估师: 你的风险矩阵思维是出色的，但最终50%的概率意味着“完全不确定”，这更像是一种回避。你指出“YES的结果需要实际数据同时超越预测中值并突破预测上限”，这正是核心矛盾。然而，你认为“票房恰好落在75-78M之间（即YES且不突破上限）的概率：中等（约40%）”可能高估了。考虑到78M是多个模型的上限，实际数字恰好卡在75-78M（尤其是75-76M）的概率，与卡在72-75M的概率，哪一个更高？基于均值回归，后者往往更高。你的框架识别了风险，但最终概率没有充分体现“突破共识上限”的难度。\n\nRe: 综合策略师: 你的元分析视角有价值，指出了“共振与盲点”。你设定58%的概率，是基于“达到预测区间高端可能性较高”的判断。但问题不是“是否达到高端”，而是“是否精确落在75-80M”。这是两个不同的问题。你承认“精确命中75-80M这一相对狭窄区间的挑战”，却仍然给出了显著高于50%的概率，这之间存在逻辑张力。如果挑战很大，概率应接近或低于50%。你的结论与你的风险陈述不一致。",
+        "reasoning": "辩论强化了我的核心观点：市场共识（预测区间70-78M）的上沿（78M）构成了强大的心理和技术阻力位。要达到75-80M，必须有效突破此阻力。虽然强劲预售和口碑提供了动力，但**高端屏幕售罄导致的需求延迟**##begin_quote## casual moviegoers will be more than happy to wait a day or two ##end_quote## [文档 2]和**可能出现的周六环比下跌**##begin_quote## dipping slightly on Saturday ##end_quote## [文档 6]是两个被市场情绪低估的关键下行因素。它们更可能将数字锚定在共识区间中上部（如72-76M），而非其顶端边缘。逆向思考要求我在众人乐观时，更关注这些隐性约束。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析被“年度最佳开局”的叙事蒙蔽了双眼。你承认预测中值低于75M，却依然给出65%的高概率，这是典型的“叙事压倒数据”。你引用的预售趋势“高于早期跟踪”##begin_quote## trending above early tracking ##end_quote## [文档 2]，但早期跟踪基数（约55M）极低，向上修正至70M区间是合理的，但修正至75M+则是另一回事。你忽略了最关键的一点：所有预测的**硬顶都是78M**，没有一家主流机构给出80M的预期。这意味着市场共识的“天花板”就是78M，要进入75-80M区间，必须撞到天花板，这本身就是小概率事件。你的乐观缺乏统计基础。\n\nRe: 质疑分析师: 你的框架更接近我的逆向思维，但结论（32%）可能过度悲观。你正确地指出了“传统制片厂跟踪：5500万美元+”##begin_quote## Traditional Studio Tracking: $55 million+ ##end_quote## [文档 2]这一关键的反向信号，以及预测中值低于目标区间的事实。然而，你低估了强劲预售和口碑（95%烂番茄）带来的实际上行动能，这可能将最终数字推至预测区间（60-78M）的上半部分，即70-78M。虽然达到75M+仍需努力，但概率不应被压得过低。你的分析框架是对的，但风险定价可能过于严厉。\n\nRe: 贝叶斯分析师: 你的分析过于机械地依赖预测区间。你将先验基于60-78M的均匀分布，但忽略了预售数据（如11M+提前场##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）和口碑是强烈的正向信号，它们应该显著改变分布形态，使其右偏（即向更高数字移动）。然而，你更新后的后验概率（35%）仍然偏低，因为你没有充分考虑到，即使分布右偏，其“新峰值”可能也只是移动到72-75M附近，而非直接跳到75-80M区间。目标区间过于狭窄，右移的分布可能只是让它的“左尾”覆盖目标区间，而非主体部分。\n\nRe: 历史类比师: 类比《奥本海默》是危险的。你引用了其82.4M的开画，但忽略了一个关键差异：《奥本海默》有诺兰这一强大的、具有稳定开画能力的品牌导演，而Lord & Miller的组合虽然优秀，但在开画规模上并无同等记录。更重要的是，你提到了周六可能疲软的风险##begin_quote## dipping slightly on Saturday ##end_quote## [文档 6]，这正是阻止其冲高的关键。历史类比往往只看到成功的相似性，却忽略了结构性阻力的差异。将概率定为55%是基于“相似性”的直觉，而非对“差异性”的审慎评估。\n\nRe: 数据统计师: 你犯了一个关键错误：将一份声称实际开画80.5M的报道##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million ##end_quote## [文档 7]纳入了预测时的考量。我们进行的是前瞻性预测，应基于预测数据（文档1-4，6）。这份报告如果属实，那问题已有答案，但作为预测，我们不能假设它已是最终确认的官方数据。你的分析因此被一个可能不准确或非常早期的数据点过度影响，导致概率估计（35%）建立在混合了前瞻与后验信息的混乱基础上。\n\nRe: 情绪分析师: 你正是市场过度情绪的化身。你识别了情绪动量，却成了它的俘虏。你提到“当媒体开始谈论80M时，它会自我实现”，这是典型的情绪泡沫逻辑。媒体谈论是基于预测上限78M的推测，而非新的基本面。情绪可以推动数字达到预期上限，但很难系统性突破所有专业模型设定的硬顶。你将概率定为68%，几乎是认为必然达到区间高端，这完全忽视了“售罄导致需求延迟”##begin_quote## wait a day or two ##end_quote## [文档 2]这一实实在在的、抑制首周末数字的物理约束。情绪无法变出更多IMAX影厅。\n\nRe: 基本面分析师: 你的分析很平衡，但结论（55%）仍然偏高。你正确地指出了高端格式的产能限制是下行风险，但似乎没有给予它足够的权重。当最大最好的屏幕“基本售罄”时，它不仅仅意味着高票价，更意味着**首周末的票房增长遇到了物理瓶颈**。部分观众会等待，这部分被延迟的需求不会计入首周末数字。这一因素足以将票房从“冲击78M”拉回到“稳定在73-76M”。基本面优秀保证了不错的开画，但不足以保证精确命中一个狭窄的高位区间。\n\nRe: 风险评估师: 你的风险矩阵思维是出色的，但最终50%的概率意味着“完全不确定”，这更像是一种回避。你指出“YES的结果需要实际数据同时超越预测中值并突破预测上限”，这正是核心矛盾。然而，你认为“票房恰好落在75-78M之间（即YES且不突破上限）的概率：中等（约40%）”可能高估了。考虑到78M是多个模型的上限，实际数字恰好卡在75-78M（尤其是75-76M）的概率，与卡在72-75M的概率，哪一个更高？基于均值回归，后者往往更高。你的框架识别了风险，但最终概率没有充分体现“突破共识上限”的难度。\n\nRe: 综合策略师: 你的元分析视角有价值，指出了“共振与盲点”。你设定58%的概率，是基于“达到预测区间高端可能性较高”的判断。但问题不是“是否达到高端”，而是“是否精确落在75-80M”。这是两个不同的问题。你承认“精确命中75-80M这一相对狭窄区间的挑战”，却仍然给出了显著高于50%的概率，这之间存在逻辑张力。如果挑战很大，概率应接近或低于50%。你的结论与你的风险陈述不一致。\n\nREVISED REASONING: 辩论强化了我的核心观点：市场共识（预测区间70-78M）的上沿（78M）构成了强大的心理和技术阻力位。要达到75-80M，必须有效突破此阻力。虽然强劲预售和口碑提供了动力，但**高端屏幕售罄导致的需求延迟**##begin_quote## casual moviegoers will be more than happy to wait a day or two ##end_quote## [文档 2]和**可能出现的周六环比下跌**##begin_quote## dipping slightly on Saturday ##end_quote## [文档 6]是两个被市场情绪低估的关键下行因素。它们更可能将数字锚定在共识区间中上部（如72-76M），而非其顶端边缘。逆向思考要求我在众人乐观时，更关注这些隐性约束。\n\nREVISED PREDICTION: 42.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "trending above early tracking",
+              "doc_index": 2
+            },
+            {
+              "quote": "Traditional Studio Tracking: $55 million+",
+              "doc_index": 2
+            },
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "dipping slightly on Saturday",
+              "doc_index": 6
+            },
+            {
+              "quote": "‘Project Hail Mary’ blasts off with $80.5 million",
+              "doc_index": 7
+            },
+            {
+              "quote": "wait a day or two",
+              "doc_index": 2
+            },
+            {
+              "quote": "casual moviegoers will be more than happy to wait a day or two",
+              "doc_index": 2
+            },
+            {
+              "quote": "dipping slightly on Saturday",
+              "doc_index": 6
+            }
+          ],
+          "cited_doc_indices": [
+            2,
+            4,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "基本面分析师",
+        "stance": "neutral",
+        "probability": 50.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析高估了“强劲预售”向“精确高位区间”的转化率。你引用的预售趋势和提前场数据确实强劲，但这更多是影片达到预测区间**中上部**（如70-75M）的保障，而非精准命中75-80M的确定性。你忽略了高端格式售罄（##begin_quote## sold-out shows on the biggest and best screens ##end_quote## [文档 2]）可能导致的需求延迟效应，这部分被挤压的需求可能不会全部计入首周末，从而限制了冲击预测绝对上限（78M）的动能。将概率定为65%过于乐观，未充分考虑区间狭窄性带来的执行风险。\n\nRe: 质疑分析师: 你的核心论据（预测中值偏低、行业跟踪保守）是合理的风险提示，但可能过度解读了早期跟踪数据（55M+）的权重。最终预测区间（60-78M）已显著上修，且##begin_quote## trending above early tracking ##end_quote## [文档 2]表明动态模型已纳入新的积极信息。你的分析低估了95%口碑和创纪录提前场（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）对扩大观众基本盘、推动票房超越中值的结构性作用。32%的概率可能过于悲观，未能充分反映基本面的强劲程度。\n\nRe: 贝叶斯分析师: 你的分析框架严谨，但先验分布（基于60-78M均匀分布）可能低估了正面证据导致分布右偏的程度。你正确地指出78M是预测上限，但“突破至78-80M的可能性较低”这一判断忽略了实际报道中已出现##begin_quote## $80.5 million ##end_quote## [文档 7]的数据点。虽然该数据点需要谨慎对待（可能非最终确认），但它表明突破预测上限并非小概率事件。你的分析在“预测模型”与“实际数据”间更侧重前者，而对后者带来的概率更新不足。\n\nRe: 历史类比师: 你的历史类比（《奥本海默》、《火星救援》）提供了有价值的参考框架，但可能忽略了本次案例的特殊性。你指出《奥本海默》有“周六微跌”模式（##begin_quote## dipping slightly on Saturday ##end_quote## [文档 6]），这确实是制约因素。然而，《Project Hail Mary》的提前场（11M+）相对于其预测中值（~74M）的比率，与《奥本海默》（10.5M vs 82.4M）不同，其周末倍数可能面临更大压力。你的概率（55%）合理，但应更强调这种倍数压力可能将最终数字压制在75M边缘而非稳稳落入区间。\n\nRe: 数据统计师: 你敏锐地抓住了核心矛盾：预测上限（78M）vs. 实际报道（80.5M）。但你的处理方式是将两者简单权衡，得出低概率结论。从基本面看，更应探究80.5M这个数据点的性质和权重。如果它来自早期估算且可能调整，那么预测模型（78M上限）的参考价值更高。你正确地指出“落在区间两端的概率通常较低”，但未充分考虑当分布因强劲基本面而右偏时，落在高端区域的概率会相应提升。35%的概率未充分反映这种分布偏移。\n\nRe: 情绪分析师: 你准确地捕捉了市场情绪动量，但可能将情绪效应过度外推至具体的数字区间。情绪可以推动票房超越保守预期（如从55M到70M），但要精确命中75-80M，更需要**结构性产能**（影厅排片、座位数）和**观众行为**（是否愿意接受非优质座位）的配合。你引用的“售罄”现象（##begin_quote## largely sold-out shows ##end_quote## [文档 2]）本身是一把双刃剑，它推高票价但也可能导致部分观众##begin_quote## wait a day or two ##end_quote## [文档 2]。68%的概率过度依赖情绪叙事，低估了物理限制和观众延迟消费的现实约束。\n\nRe: 逆向投资者: 你提出的“锚定偏差”和“均值回归”是有效的批判性思维。然而，你关于“非续集电影天然阻力”的论点被影片的实际表现部分削弱。它虽然是非续集，但拥有强大的IP基础（畅销书）、顶级主创和爆炸性口碑，这些因素共同构成了新的“准IP”效应。你提到的“饱和预售可能导致增长不及预期”是合理风险，但影片95%的烂番茄评分可能驱动更多的即时性、非计划观影，部分对冲这一风险。38%的概率可能低估了影片基本面的质量足以打破部分历史模式的可能性。\n\nRe: 风险评估师: 你的风险矩阵分析是出色的结构化思考。你正确识别了“精确落入狭窄区间需要完美条件”这一核心风险。然而，在概率估算时，你将“票房达到或超过75M的概率”设为约60%，而“落在75-78M之间的概率”设为约40%，这之间存在逻辑张力。如果达到75M以上的概率有60%，那么落在紧接着的75-78M子区间的概率不应低于40%。你最终50%的预测是合理的折中，但内部估算逻辑可以更一致。\n\nRe: 综合策略师: 你的元分析视角平衡了多方因素。你指出的“高基数下的增长难度”（提前场转化倍数）和“等待更好座位的延迟效应”是关键的下行风险点，这些是我在初始分析中同意并强调的。你的概率（58%）与我的初始预测（55%）接近，显示我们对基本面支撑与执行风险之间的平衡有相似判断。这是一个合理的综合评估。",
+        "reasoning": "辩论后，我维持核心判断：影片强大的基本面（口碑、IP、主创、需求）使其开画稳居预测区间高端，但75-80M的狭窄区间要求极高精度。我更加重视**两个被多位分析师提及的关键下行风险**：1) 高端场次售罄导致的##begin_quote## wait a day or two ##end_quote## [文档 2] 需求延迟效应；2) 与《奥本海默》类似的##begin_quote## strong Friday before dipping slightly on Saturday ##end_quote## [文档 6] 周末走势可能抑制冲高动能。这些因素增加了最终数字落在73-77M区间（略低于或刚好触及目标）的可能性，而非稳稳落入75-80M。尽管有报道称开画##begin_quote## $80.5 million ##end_quote## [文档 7]，但在缺乏最终官方确认前，我仍以预测区间和结构性因素为主要依据。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析高估了“强劲预售”向“精确高位区间”的转化率。你引用的预售趋势和提前场数据确实强劲，但这更多是影片达到预测区间**中上部**（如70-75M）的保障，而非精准命中75-80M的确定性。你忽略了高端格式售罄（##begin_quote## sold-out shows on the biggest and best screens ##end_quote## [文档 2]）可能导致的需求延迟效应，这部分被挤压的需求可能不会全部计入首周末，从而限制了冲击预测绝对上限（78M）的动能。将概率定为65%过于乐观，未充分考虑区间狭窄性带来的执行风险。\n\nRe: 质疑分析师: 你的核心论据（预测中值偏低、行业跟踪保守）是合理的风险提示，但可能过度解读了早期跟踪数据（55M+）的权重。最终预测区间（60-78M）已显著上修，且##begin_quote## trending above early tracking ##end_quote## [文档 2]表明动态模型已纳入新的积极信息。你的分析低估了95%口碑和创纪录提前场（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）对扩大观众基本盘、推动票房超越中值的结构性作用。32%的概率可能过于悲观，未能充分反映基本面的强劲程度。\n\nRe: 贝叶斯分析师: 你的分析框架严谨，但先验分布（基于60-78M均匀分布）可能低估了正面证据导致分布右偏的程度。你正确地指出78M是预测上限，但“突破至78-80M的可能性较低”这一判断忽略了实际报道中已出现##begin_quote## $80.5 million ##end_quote## [文档 7]的数据点。虽然该数据点需要谨慎对待（可能非最终确认），但它表明突破预测上限并非小概率事件。你的分析在“预测模型”与“实际数据”间更侧重前者，而对后者带来的概率更新不足。\n\nRe: 历史类比师: 你的历史类比（《奥本海默》、《火星救援》）提供了有价值的参考框架，但可能忽略了本次案例的特殊性。你指出《奥本海默》有“周六微跌”模式（##begin_quote## dipping slightly on Saturday ##end_quote## [文档 6]），这确实是制约因素。然而，《Project Hail Mary》的提前场（11M+）相对于其预测中值（~74M）的比率，与《奥本海默》（10.5M vs 82.4M）不同，其周末倍数可能面临更大压力。你的概率（55%）合理，但应更强调这种倍数压力可能将最终数字压制在75M边缘而非稳稳落入区间。\n\nRe: 数据统计师: 你敏锐地抓住了核心矛盾：预测上限（78M）vs. 实际报道（80.5M）。但你的处理方式是将两者简单权衡，得出低概率结论。从基本面看，更应探究80.5M这个数据点的性质和权重。如果它来自早期估算且可能调整，那么预测模型（78M上限）的参考价值更高。你正确地指出“落在区间两端的概率通常较低”，但未充分考虑当分布因强劲基本面而右偏时，落在高端区域的概率会相应提升。35%的概率未充分反映这种分布偏移。\n\nRe: 情绪分析师: 你准确地捕捉了市场情绪动量，但可能将情绪效应过度外推至具体的数字区间。情绪可以推动票房超越保守预期（如从55M到70M），但要精确命中75-80M，更需要**结构性产能**（影厅排片、座位数）和**观众行为**（是否愿意接受非优质座位）的配合。你引用的“售罄”现象（##begin_quote## largely sold-out shows ##end_quote## [文档 2]）本身是一把双刃剑，它推高票价但也可能导致部分观众##begin_quote## wait a day or two ##end_quote## [文档 2]。68%的概率过度依赖情绪叙事，低估了物理限制和观众延迟消费的现实约束。\n\nRe: 逆向投资者: 你提出的“锚定偏差”和“均值回归”是有效的批判性思维。然而，你关于“非续集电影天然阻力”的论点被影片的实际表现部分削弱。它虽然是非续集，但拥有强大的IP基础（畅销书）、顶级主创和爆炸性口碑，这些因素共同构成了新的“准IP”效应。你提到的“饱和预售可能导致增长不及预期”是合理风险，但影片95%的烂番茄评分可能驱动更多的即时性、非计划观影，部分对冲这一风险。38%的概率可能低估了影片基本面的质量足以打破部分历史模式的可能性。\n\nRe: 风险评估师: 你的风险矩阵分析是出色的结构化思考。你正确识别了“精确落入狭窄区间需要完美条件”这一核心风险。然而，在概率估算时，你将“票房达到或超过75M的概率”设为约60%，而“落在75-78M之间的概率”设为约40%，这之间存在逻辑张力。如果达到75M以上的概率有60%，那么落在紧接着的75-78M子区间的概率不应低于40%。你最终50%的预测是合理的折中，但内部估算逻辑可以更一致。\n\nRe: 综合策略师: 你的元分析视角平衡了多方因素。你指出的“高基数下的增长难度”（提前场转化倍数）和“等待更好座位的延迟效应”是关键的下行风险点，这些是我在初始分析中同意并强调的。你的概率（58%）与我的初始预测（55%）接近，显示我们对基本面支撑与执行风险之间的平衡有相似判断。这是一个合理的综合评估。\n\nREVISED REASONING: 辩论后，我维持核心判断：影片强大的基本面（口碑、IP、主创、需求）使其开画稳居预测区间高端，但75-80M的狭窄区间要求极高精度。我更加重视**两个被多位分析师提及的关键下行风险**：1) 高端场次售罄导致的##begin_quote## wait a day or two ##end_quote## [文档 2] 需求延迟效应；2) 与《奥本海默》类似的##begin_quote## strong Friday before dipping slightly on Saturday ##end_quote## [文档 6] 周末走势可能抑制冲高动能。这些因素增加了最终数字落在73-77M区间（略低于或刚好触及目标）的可能性，而非稳稳落入75-80M。尽管有报道称开画##begin_quote## $80.5 million ##end_quote## [文档 7]，但在缺乏最终官方确认前，我仍以预测区间和结构性因素为主要依据。\n\nREVISED PREDICTION: 50.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "sold-out shows on the biggest and best screens",
+              "doc_index": 2
+            },
+            {
+              "quote": "trending above early tracking",
+              "doc_index": 2
+            },
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "$80.5 million",
+              "doc_index": 7
+            },
+            {
+              "quote": "dipping slightly on Saturday",
+              "doc_index": 6
+            },
+            {
+              "quote": "largely sold-out shows",
+              "doc_index": 2
+            },
+            {
+              "quote": "wait a day or two",
+              "doc_index": 2
+            },
+            {
+              "quote": "wait a day or two",
+              "doc_index": 2
+            },
+            {
+              "quote": "strong Friday before dipping slightly on Saturday",
+              "doc_index": 6
+            },
+            {
+              "quote": "$80.5 million",
+              "doc_index": 7
+            }
+          ],
+          "cited_doc_indices": [
+            2,
+            4,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "风险评估师",
+        "stance": "bear",
+        "probability": 45.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析过度依赖上行潜力，但低估了“窄区间命中”的统计难度。你承认预测中值在70M左右，要达到75M以上需要“表现远超中值预期”，这本身就是一个小概率事件。更重要的是，你引用的预测上限##begin_quote## $70M–$78M ##end_quote## [文档 1]和##begin_quote## $60 — 78 million ##end_quote## [文档 2]明确将78M设为天花板。将65%的概率赋予一个需要触及甚至突破模型上限的狭窄结果，是典型的乐观偏差，忽视了预测分布中尾部概率的自然衰减。\n\nRe: 质疑分析师: 你的核心论点（预测中值低、行业跟踪保守）是合理的风险考量，但你的概率（32%）可能过度悲观，忽略了强劲预售（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）和口碑（95% RT）带来的实质性向上修正动力。这些因素足以将概率从纯统计基准（如基于60-78M均匀分布的~16.7%）显著提升。你的分析正确指出了阻力，但低估了正面证据的权重。\n\nRe: 贝叶斯分析师: 你的框架（基于预测区间先验）是严谨的，但你的后验概率（35%）可能未充分纳入“趋势高于早期跟踪”这一强证据。##begin_quote## now trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2] 这不是噪音，而是系统性的信息更新，表明先验分布（基于早期跟踪）已经右移。忽略这一点会导致低估落在区间高端的后验概率。\n\nRe: 历史类比师: 你正确地指出了与《奥本海默》的类比及其预示的潜力，但可能忽视了关键差异：《奥本海默》开画为82.4M，这本身就**高于**我们的目标区间上限80M。##begin_quote## The best opening for a non-franchise movie belongs to *Oppenheimer* ($82.4M) ##end_quote## [文档 4]。这种类比实际上支持了“突破80M”（即NO）的尾部风险，而非稳稳落在75-80M之内。历史先例在此是一把双刃剑。\n\nRe: 数据统计师: 你敏锐地抓住了核心矛盾：预测上限（78M）vs. 实际报道数据（80.5M）。然而，依赖##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million ##end_quote## [文档 7]这一单一、未明确为最终官方三日票房的报道作为主要反对论据，风险很高。在预测时，我们更应依赖系统的预测模型（60-78M）和领先指标（预售11M+），而非可能不完整或夸大的早期报道。你的分析将过多权重分配给了可能存在噪声的数据点。\n\nRe: 情绪分析师: 你准确地捕捉了市场情绪的狂热，并将其作为支撑高概率（68%）的理由。这正是风险评估师需要警惕的。情绪动量可以推高票房，但也极易导致“买预期，卖事实”的结果和实际数字不及狂热预期的风险。当所有人都谈论80M时，任何低于此数字的微小差距（如78.5M）都会被视为“不及预期”，而情绪驱动的预测往往高估了持续冲高的能力，忽视了技术性阻力（如周六跌幅）。\n\nRe: 逆向投资者: 我赞同你的核心洞察——市场共识可能过度乐观，且78M的预测上限构成了强阻力。你提到的“饱和预售与均值回归”风险非常关键：##begin_quote## casual moviegoers will be more than happy to wait a day or two... for optimal seats ##end_quote## [文档 2]。这直接削弱了首周末票房冲顶的确定性。你的概率（38%）更接近风险调整后的观点，但我认为你或许低估了强劲预售本身所包含的、已实现的部分上行风险。\n\nRe: 基本面分析师: 你的分析平衡了正反因素，但将概率定为55%可能略微高估了“精确命中”的可能性。你正确指出了“高端格式票房产能限制”这一下行风险，但未将其充分量化。当最大最好的屏幕##begin_quote## largely sold-out ##end_quote## [文档 2]时，它不仅仅分流需求，更可能**封顶**了首周末基于高票价格式的收入上限，这是一个硬性约束，使突破78M变得尤为困难。\n\nRe: 综合策略师: 你的分析全面，但58%的最终概率似乎试图在乐观与谨慎间取中值，却忽略了风险的不对称性。你指出“实际开画落在75-78M之间的概率，高于落在78-80M的概率”，这很准确。然而，75-78M这个子区间的宽度只有3M，在18M的预测范围（60-78M）中只占约16.7%。即使分布右移，赋予其58%的概率也意味着你认为分布极度集中于顶端，这需要更强的证据支持。",
+        "reasoning": "辩论强化了我的核心判断：关键风险在于**所有权威预测的硬性上限78M**与**目标区间上限80M**之间的差距。正面因素（预售11M+、高口碑）已被充分定价，甚至可能过度反应在乐观情绪中。然而，##begin_quote## sold-out shows on the biggest and best screens ##end_quote## [文档 2]带来的需求延迟效应和物理产能限制，构成了被多数人低估的下行风险。最终结果更可能接近但略低于78M，或小概率突破80M，精准落入75-80M区间的窗口非常狭窄。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析过度依赖上行潜力，但低估了“窄区间命中”的统计难度。你承认预测中值在70M左右，要达到75M以上需要“表现远超中值预期”，这本身就是一个小概率事件。更重要的是，你引用的预测上限##begin_quote## $70M–$78M ##end_quote## [文档 1]和##begin_quote## $60 — 78 million ##end_quote## [文档 2]明确将78M设为天花板。将65%的概率赋予一个需要触及甚至突破模型上限的狭窄结果，是典型的乐观偏差，忽视了预测分布中尾部概率的自然衰减。\n\nRe: 质疑分析师: 你的核心论点（预测中值低、行业跟踪保守）是合理的风险考量，但你的概率（32%）可能过度悲观，忽略了强劲预售（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）和口碑（95% RT）带来的实质性向上修正动力。这些因素足以将概率从纯统计基准（如基于60-78M均匀分布的~16.7%）显著提升。你的分析正确指出了阻力，但低估了正面证据的权重。\n\nRe: 贝叶斯分析师: 你的框架（基于预测区间先验）是严谨的，但你的后验概率（35%）可能未充分纳入“趋势高于早期跟踪”这一强证据。##begin_quote## now trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2] 这不是噪音，而是系统性的信息更新，表明先验分布（基于早期跟踪）已经右移。忽略这一点会导致低估落在区间高端的后验概率。\n\nRe: 历史类比师: 你正确地指出了与《奥本海默》的类比及其预示的潜力，但可能忽视了关键差异：《奥本海默》开画为82.4M，这本身就**高于**我们的目标区间上限80M。##begin_quote## The best opening for a non-franchise movie belongs to *Oppenheimer* ($82.4M) ##end_quote## [文档 4]。这种类比实际上支持了“突破80M”（即NO）的尾部风险，而非稳稳落在75-80M之内。历史先例在此是一把双刃剑。\n\nRe: 数据统计师: 你敏锐地抓住了核心矛盾：预测上限（78M）vs. 实际报道数据（80.5M）。然而，依赖##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million ##end_quote## [文档 7]这一单一、未明确为最终官方三日票房的报道作为主要反对论据，风险很高。在预测时，我们更应依赖系统的预测模型（60-78M）和领先指标（预售11M+），而非可能不完整或夸大的早期报道。你的分析将过多权重分配给了可能存在噪声的数据点。\n\nRe: 情绪分析师: 你准确地捕捉了市场情绪的狂热，并将其作为支撑高概率（68%）的理由。这正是风险评估师需要警惕的。情绪动量可以推高票房，但也极易导致“买预期，卖事实”的结果和实际数字不及狂热预期的风险。当所有人都谈论80M时，任何低于此数字的微小差距（如78.5M）都会被视为“不及预期”，而情绪驱动的预测往往高估了持续冲高的能力，忽视了技术性阻力（如周六跌幅）。\n\nRe: 逆向投资者: 我赞同你的核心洞察——市场共识可能过度乐观，且78M的预测上限构成了强阻力。你提到的“饱和预售与均值回归”风险非常关键：##begin_quote## casual moviegoers will be more than happy to wait a day or two... for optimal seats ##end_quote## [文档 2]。这直接削弱了首周末票房冲顶的确定性。你的概率（38%）更接近风险调整后的观点，但我认为你或许低估了强劲预售本身所包含的、已实现的部分上行风险。\n\nRe: 基本面分析师: 你的分析平衡了正反因素，但将概率定为55%可能略微高估了“精确命中”的可能性。你正确指出了“高端格式票房产能限制”这一下行风险，但未将其充分量化。当最大最好的屏幕##begin_quote## largely sold-out ##end_quote## [文档 2]时，它不仅仅分流需求，更可能**封顶**了首周末基于高票价格式的收入上限，这是一个硬性约束，使突破78M变得尤为困难。\n\nRe: 综合策略师: 你的分析全面，但58%的最终概率似乎试图在乐观与谨慎间取中值，却忽略了风险的不对称性。你指出“实际开画落在75-78M之间的概率，高于落在78-80M的概率”，这很准确。然而，75-78M这个子区间的宽度只有3M，在18M的预测范围（60-78M）中只占约16.7%。即使分布右移，赋予其58%的概率也意味着你认为分布极度集中于顶端，这需要更强的证据支持。\n\nREVISED REASONING: 辩论强化了我的核心判断：关键风险在于**所有权威预测的硬性上限78M**与**目标区间上限80M**之间的差距。正面因素（预售11M+、高口碑）已被充分定价，甚至可能过度反应在乐观情绪中。然而，##begin_quote## sold-out shows on the biggest and best screens ##end_quote## [文档 2]带来的需求延迟效应和物理产能限制，构成了被多数人低估的下行风险。最终结果更可能接近但略低于78M，或小概率突破80M，精准落入75-80M区间的窗口非常狭窄。\n\nREVISED PREDICTION: 45.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$70M–$78M",
+              "doc_index": 1
+            },
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "now trending above early tracking and potentially even higher than industry estimates",
+              "doc_index": 2
+            },
+            {
+              "quote": "The best opening for a non-franchise movie belongs to *Oppenheimer* ($82.4M)",
+              "doc_index": 4
+            },
+            {
+              "quote": "‘Project Hail Mary’ blasts off with $80.5 million",
+              "doc_index": 7
+            },
+            {
+              "quote": "casual moviegoers will be more than happy to wait a day or two... for optimal seats",
+              "doc_index": 2
+            },
+            {
+              "quote": "largely sold-out",
+              "doc_index": 2
+            },
+            {
+              "quote": "sold-out shows on the biggest and best screens",
+              "doc_index": 2
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            4,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "综合策略师",
+        "stance": "neutral",
+        "probability": 62.0,
+        "rebuttals": "Re: 乐观分析师: 你的分析过度依赖预测区间的上限，而忽略了“预测区间中值低于目标范围”这一关键事实。你引用BOT的 ##begin_quote## $60 — 78 million ##end_quote## [文档 2]，但其中值约69M，远低于75M。要达到75M，需要表现超过预测分布的75分位以上，这并非基准情景。你提到的预售强劲是事实，但将其直接等同于“冲击预测区间高端”忽略了周末走势的不确定性，特别是文档6提到的 ##begin_quote## dipping slightly on Saturday ##end_quote## 的风险。你的65%概率过于乐观地线性外推了早期动能。\n\nRe: 质疑分析师: 你的核心论据（预测中值低、行业跟踪保守）是合理的风险提示，但可能过度悲观。你忽略了文档4中一个关键数据点：提前场 ##begin_quote## $11M+ ##end_quote## 是“今年最佳”且“创亚马逊MGM纪录”。历史类比（如《奥本海默》）表明，如此强劲的提前场是首周末冲高的强有力领先指标，足以显著修正基于早期跟踪（$55M+）的保守预期。你的分析将“传统片厂跟踪”这一滞后指标权重过高，而低估了实时预售数据的上行动量。\n\nRe: 贝叶斯分析师: 你的框架（基于预测区间计算重叠概率）是严谨的，但你的先验设定可能有问题。你将预测区间60-78M视为均匀分布，但强劲的预售和口碑（##begin_quote## trending above early tracking ##end_quote## [文档 2] 和 ##begin_quote## 95% Rotten Tomatoes score ##end_quote## [文档 1]）表明实际概率分布应向右（更高票房）偏移。这意味着落在区间中高部的概率应高于均匀分布的假设。因此，你35%的估计可能系统性地低估了YES的概率。\n\nRe: 历史类比师: 你的类比（《奥本海默》）极具洞察力，但结论（55%）可能因过度关注“周六微跌”的风险而略显保守。你正确地引用了 ##begin_quote## The film's box office trend is being compared to Oppenheimer, which also had a strong Friday before dipping slightly on Saturday. ##end_quote## [文档 6]，但《奥本海默》的“微跌”是在其取得$82.4M巨大成功的前提下发生的。类比的核心应是“强劲提前场（$11M+）可支撑$80M级别开画”，而非“周六微跌会阻止其达到$75M”。你的分析未能充分量化这一积极类比对概率的提升作用。\n\nRe: 数据统计师: 你犯了一个关键错误：将文档7中可能为早期估算或包含非周末收入的数字（##begin_quote## $80.5 million ##end_quote##）与预测问题中的“首周末票房”直接等同，并给予了过高权重。预测应基于上映前的预测数据和早期指标（文档1-4,6），而非一个来源不明、可能不精确的后续报道。你基于“预测模型”的分析是合理的，但被一个可能存在噪音的数据点带偏，导致概率（35%）未能准确反映预测模型本身蕴含的可能性。\n\nRe: 情绪分析师: 你敏锐地捕捉到了市场情绪动量，但可能高估了其转化为精确数字的能力。你指出媒体开始谈论 ##begin_quote## Eyes $80M US Opening ##end_quote## [文档 6]，这确实会塑造预期。然而，情绪动量更容易推动票房达到一个“高位区间”（如70-80M），而非精确命中“75-80M”这一狭窄窗口。你的68%概率隐含了情绪能完美控制数字的假设，忽略了实际票房受放映场次、竞争分流（文档2, 3）等硬性约束带来的随机波动。\n\nRe: 逆向投资者: 你正确地指出了市场可能存在的锚定和过度反应偏差，但你的反驳忽略了基本面数据的强度。你认为“达到区间内需要触及或突破预测上沿是小概率事件”，但这一定论建立在静态预测模型上。而文档2明确指出趋势 ##begin_quote## is now trending above early tracking ##end_quote##，这意味着预测模型的上沿本身就在被实际上行数据重新校准。你的“均值回归”论点适用于无新信息的场景，但强劲的预售和口碑是新信息，应驱动预测均值上修，而非简单地回归到旧均值。\n\nRe: 基本面分析师: 你的分析平衡，但将“高端格式票房产能限制”视为核心反对论据可能有误。你引用 ##begin_quote## sold-out shows on the biggest and best screens ##end_quote## [文档 2] 作为限制因素，但同一文档指出，观众等待优质座位可能导致需求被挤压到周末后期的高票价场次，这反而可能 **推高** 首周末后期的平均票价和总收入，而不是简单地将需求分流到次周。这是一个被忽视的、可能支撑票房冲高的微妙机制。\n\nRe: 风险评估师: 你的风险矩阵分析是出色的框架，但你对“票房突破78M的概率”估计（约30%）可能偏低。你正确地指出所有公开预测上限为78M，但忽略了这些预测发布时可能未完全纳入$11M+提前场的数据。这个数据点（文档4）是一个高影响、中高概率的 **上行尾部风险** 驱动因素，它直接提高了突破78M的可能性。因此，你最终将YES概率定为50%，可能低估了上行风险的权重。",
+        "reasoning": "辩论强化了我的认识：核心矛盾在于强劲的领先指标（##begin_quote## $11M+ Previews, Best YTD ##end_quote## [文档 4] 和 ##begin_quote## trending above early tracking ##end_quote## [文档 2]）与狭窄目标区间（75-80M）的精确性要求。多数分析师低估了$11M+提前场对预测模型的冲击力，这并非普通的上行动量，而是预示开画可能对标《奥本海默》级别（>$80M）的强信号。然而，目标区间上沿80M仍是一个心理和技术阻力位。综合来看，实际结果最可能落在78M附近，这使其落入75-80M区间的概率显著提升，但略高于80M（导致NO）的可能性也不容忽视。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的分析过度依赖预测区间的上限，而忽略了“预测区间中值低于目标范围”这一关键事实。你引用BOT的 ##begin_quote## $60 — 78 million ##end_quote## [文档 2]，但其中值约69M，远低于75M。要达到75M，需要表现超过预测分布的75分位以上，这并非基准情景。你提到的预售强劲是事实，但将其直接等同于“冲击预测区间高端”忽略了周末走势的不确定性，特别是文档6提到的 ##begin_quote## dipping slightly on Saturday ##end_quote## 的风险。你的65%概率过于乐观地线性外推了早期动能。\n\nRe: 质疑分析师: 你的核心论据（预测中值低、行业跟踪保守）是合理的风险提示，但可能过度悲观。你忽略了文档4中一个关键数据点：提前场 ##begin_quote## $11M+ ##end_quote## 是“今年最佳”且“创亚马逊MGM纪录”。历史类比（如《奥本海默》）表明，如此强劲的提前场是首周末冲高的强有力领先指标，足以显著修正基于早期跟踪（$55M+）的保守预期。你的分析将“传统片厂跟踪”这一滞后指标权重过高，而低估了实时预售数据的上行动量。\n\nRe: 贝叶斯分析师: 你的框架（基于预测区间计算重叠概率）是严谨的，但你的先验设定可能有问题。你将预测区间60-78M视为均匀分布，但强劲的预售和口碑（##begin_quote## trending above early tracking ##end_quote## [文档 2] 和 ##begin_quote## 95% Rotten Tomatoes score ##end_quote## [文档 1]）表明实际概率分布应向右（更高票房）偏移。这意味着落在区间中高部的概率应高于均匀分布的假设。因此，你35%的估计可能系统性地低估了YES的概率。\n\nRe: 历史类比师: 你的类比（《奥本海默》）极具洞察力，但结论（55%）可能因过度关注“周六微跌”的风险而略显保守。你正确地引用了 ##begin_quote## The film's box office trend is being compared to Oppenheimer, which also had a strong Friday before dipping slightly on Saturday. ##end_quote## [文档 6]，但《奥本海默》的“微跌”是在其取得$82.4M巨大成功的前提下发生的。类比的核心应是“强劲提前场（$11M+）可支撑$80M级别开画”，而非“周六微跌会阻止其达到$75M”。你的分析未能充分量化这一积极类比对概率的提升作用。\n\nRe: 数据统计师: 你犯了一个关键错误：将文档7中可能为早期估算或包含非周末收入的数字（##begin_quote## $80.5 million ##end_quote##）与预测问题中的“首周末票房”直接等同，并给予了过高权重。预测应基于上映前的预测数据和早期指标（文档1-4,6），而非一个来源不明、可能不精确的后续报道。你基于“预测模型”的分析是合理的，但被一个可能存在噪音的数据点带偏，导致概率（35%）未能准确反映预测模型本身蕴含的可能性。\n\nRe: 情绪分析师: 你敏锐地捕捉到了市场情绪动量，但可能高估了其转化为精确数字的能力。你指出媒体开始谈论 ##begin_quote## Eyes $80M US Opening ##end_quote## [文档 6]，这确实会塑造预期。然而，情绪动量更容易推动票房达到一个“高位区间”（如70-80M），而非精确命中“75-80M”这一狭窄窗口。你的68%概率隐含了情绪能完美控制数字的假设，忽略了实际票房受放映场次、竞争分流（文档2, 3）等硬性约束带来的随机波动。\n\nRe: 逆向投资者: 你正确地指出了市场可能存在的锚定和过度反应偏差，但你的反驳忽略了基本面数据的强度。你认为“达到区间内需要触及或突破预测上沿是小概率事件”，但这一定论建立在静态预测模型上。而文档2明确指出趋势 ##begin_quote## is now trending above early tracking ##end_quote##，这意味着预测模型的上沿本身就在被实际上行数据重新校准。你的“均值回归”论点适用于无新信息的场景，但强劲的预售和口碑是新信息，应驱动预测均值上修，而非简单地回归到旧均值。\n\nRe: 基本面分析师: 你的分析平衡，但将“高端格式票房产能限制”视为核心反对论据可能有误。你引用 ##begin_quote## sold-out shows on the biggest and best screens ##end_quote## [文档 2] 作为限制因素，但同一文档指出，观众等待优质座位可能导致需求被挤压到周末后期的高票价场次，这反而可能 **推高** 首周末后期的平均票价和总收入，而不是简单地将需求分流到次周。这是一个被忽视的、可能支撑票房冲高的微妙机制。\n\nRe: 风险评估师: 你的风险矩阵分析是出色的框架，但你对“票房突破78M的概率”估计（约30%）可能偏低。你正确地指出所有公开预测上限为78M，但忽略了这些预测发布时可能未完全纳入$11M+提前场的数据。这个数据点（文档4）是一个高影响、中高概率的 **上行尾部风险** 驱动因素，它直接提高了突破78M的可能性。因此，你最终将YES概率定为50%，可能低估了上行风险的权重。\n\nREVISED REASONING: 辩论强化了我的认识：核心矛盾在于强劲的领先指标（##begin_quote## $11M+ Previews, Best YTD ##end_quote## [文档 4] 和 ##begin_quote## trending above early tracking ##end_quote## [文档 2]）与狭窄目标区间（75-80M）的精确性要求。多数分析师低估了$11M+提前场对预测模型的冲击力，这并非普通的上行动量，而是预示开画可能对标《奥本海默》级别（>$80M）的强信号。然而，目标区间上沿80M仍是一个心理和技术阻力位。综合来看，实际结果最可能落在78M附近，这使其落入75-80M区间的概率显著提升，但略高于80M（导致NO）的可能性也不容忽视。\n\nREVISED PREDICTION: 62.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "dipping slightly on Saturday ##end_quote## 的风险。你的65%概率过于乐观地线性外推了早期动能。\n\nRe: 质疑分析师: 你的核心论据（预测中值低、行业跟踪保守）是合理的风险提示，但可能过度悲观。你忽略了文档4中一个关键数据点：提前场 ##begin_quote## $11M+ ##end_quote## 是“今年最佳”且“创亚马逊MGM纪录”。历史类比（如《奥本海默》）表明，如此强劲的提前场是首周末冲高的强有力领先指标，足以显著修正基于早期跟踪（$55M+）的保守预期。你的分析将“传统片厂跟踪”这一滞后指标权重过高，而低估了实时预售数据的上行动量。\n\nRe: 贝叶斯分析师: 你的框架（基于预测区间计算重叠概率）是严谨的，但你的先验设定可能有问题。你将预测区间60-78M视为均匀分布，但强劲的预售和口碑（##begin_quote## trending above early tracking",
+              "doc_index": 2
+            },
+            {
+              "quote": "95% Rotten Tomatoes score",
+              "doc_index": 1
+            },
+            {
+              "quote": "The film's box office trend is being compared to Oppenheimer, which also had a strong Friday before dipping slightly on Saturday.",
+              "doc_index": 6
+            },
+            {
+              "quote": "$80.5 million ##end_quote##）与预测问题中的“首周末票房”直接等同，并给予了过高权重。预测应基于上映前的预测数据和早期指标（文档1-4,6），而非一个来源不明、可能不精确的后续报道。你基于“预测模型”的分析是合理的，但被一个可能存在噪音的数据点带偏，导致概率（35%）未能准确反映预测模型本身蕴含的可能性。\n\nRe: 情绪分析师: 你敏锐地捕捉到了市场情绪动量，但可能高估了其转化为精确数字的能力。你指出媒体开始谈论 ##begin_quote## Eyes $80M US Opening",
+              "doc_index": 6
+            },
+            {
+              "quote": "is now trending above early tracking ##end_quote##，这意味着预测模型的上沿本身就在被实际上行数据重新校准。你的“均值回归”论点适用于无新信息的场景，但强劲的预售和口碑是新信息，应驱动预测均值上修，而非简单地回归到旧均值。\n\nRe: 基本面分析师: 你的分析平衡，但将“高端格式票房产能限制”视为核心反对论据可能有误。你引用 ##begin_quote## sold-out shows on the biggest and best screens",
+              "doc_index": 2
+            },
+            {
+              "quote": "$11M+ Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "trending above early tracking",
+              "doc_index": 2
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            4,
+            6
+          ]
+        }
+      }
+    ],
+    "round3": [
+      {
+        "agent_name": "乐观分析师",
+        "stance": "bull",
+        "probability": 72.0,
+        "reasoning": "经过完整辩论，核心数据点——##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4] 和 ##begin_quote## trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2]——构成了压倒性的正面动能，它们不仅使早期保守跟踪（$55M+）过时，更将实际表现强力推向预测区间（$60-78M）的顶端。与《奥本海默》的类比##begin_quote## The film's box office trend is being compared to Oppenheimer ##end_quote## [文档 6] 提供了历史先例，证明在强劲提前场和口碑驱动下，突破$78M预测上限并落入$75-80M区间是完全可行的。反对意见所依赖的“需求延迟”和“周六疲软”风险，在如此强烈的即时需求和社交紧迫感面前已被大幅削弱。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，核心数据点——##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4] 和 ##begin_quote## trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2]——构成了压倒性的正面动能，它们不仅使早期保守跟踪（$55M+）过时，更将实际表现强力推向预测区间（$60-78M）的顶端。与《奥本海默》的类比##begin_quote## The film's box office trend is being compared to Oppenheimer ##end_quote## [文档 6] 提供了历史先例，证明在强劲提前场和口碑驱动下，突破$78M预测上限并落入$75-80M区间是完全可行的。反对意见所依赖的“需求延迟”和“周六疲软”风险，在如此强烈的即时需求和社交紧迫感面前已被大幅削弱。\n\nFINAL PREDICTION: 72.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "trending above early tracking and potentially even higher than industry estimates",
+              "doc_index": 2
+            },
+            {
+              "quote": "The film's box office trend is being compared to Oppenheimer",
+              "doc_index": 6
+            }
+          ],
+          "cited_doc_indices": [
+            2,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "agent_name": "质疑分析师",
+        "stance": "bear",
+        "probability": 30.0,
+        "reasoning": "经过完整辩论，核心矛盾更加清晰：所有权威预测（Boxoffice Pro, BOT）的上限均锚定在$78M ##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]，而目标区间（$75-80M）要求至少触及此上限。尽管预售动能强劲，但“传统制片厂跟踪：$55 million+”##begin_quote## Traditional Studio Tracking: $55 million+ ##end_quote## [文档 2] 这一保守基准和售罄导致的延迟观影效应 ##begin_quote## casual moviegoers will be more than happy to wait ##end_quote## [文档 2] 构成了被市场情绪低估的关键下行风险。乐观情绪已将“达到预测区间高端”充分定价，但要精确命中$75-78M这一狭窄子区间，需要表现落在预测分布的最右端，这在统计上是小概率事件，且没有任何权威预测支持$80M。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，核心矛盾更加清晰：所有权威预测（Boxoffice Pro, BOT）的上限均锚定在$78M ##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]，而目标区间（$75-80M）要求至少触及此上限。尽管预售动能强劲，但“传统制片厂跟踪：$55 million+”##begin_quote## Traditional Studio Tracking: $55 million+ ##end_quote## [文档 2] 这一保守基准和售罄导致的延迟观影效应 ##begin_quote## casual moviegoers will be more than happy to wait ##end_quote## [文档 2] 构成了被市场情绪低估的关键下行风险。乐观情绪已将“达到预测区间高端”充分定价，但要精确命中$75-78M这一狭窄子区间，需要表现落在预测分布的最右端，这在统计上是小概率事件，且没有任何权威预测支持$80M。\n\nFINAL PREDICTION: 30.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$70M–$78M domestic opening",
+              "doc_index": 1
+            },
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "Traditional Studio Tracking: $55 million+",
+              "doc_index": 2
+            },
+            {
+              "quote": "casual moviegoers will be more than happy to wait",
+              "doc_index": 2
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2
+          ]
+        }
+      },
+      {
+        "agent_name": "贝叶斯分析师",
+        "stance": "neutral",
+        "probability": 45.0,
+        "reasoning": "综合辩论，核心矛盾在于强劲的预售证据（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4] 和 ##begin_quote## trending above early tracking ##end_quote## [文档 2]）与所有权威预测设定的明确上限（##begin_quote## $70M–$78M ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]）之间的张力。这些证据强烈支持一个右偏的后验分布，使票房落在预测区间高端（如73-78M）的概率显著提升。然而，目标区间75-80M要求结果必须紧贴甚至突破78M这一共识上限，考虑到区间狭窄性和突破模型硬顶的统计阻力，概率虽有上调，但仍受约束。",
+        "raw_response": "FINAL REASONING: 综合辩论，核心矛盾在于强劲的预售证据（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4] 和 ##begin_quote## trending above early tracking ##end_quote## [文档 2]）与所有权威预测设定的明确上限（##begin_quote## $70M–$78M ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]）之间的张力。这些证据强烈支持一个右偏的后验分布，使票房落在预测区间高端（如73-78M）的概率显著提升。然而，目标区间75-80M要求结果必须紧贴甚至突破78M这一共识上限，考虑到区间狭窄性和突破模型硬顶的统计阻力，概率虽有上调，但仍受约束。\n\nFINAL PREDICTION: 45.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "trending above early tracking",
+              "doc_index": 2
+            },
+            {
+              "quote": "$70M–$78M",
+              "doc_index": 1
+            },
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "agent_name": "历史类比师",
+        "stance": "neutral",
+        "probability": 58.0,
+        "reasoning": "纵观整场辩论，历史类比提供了最清晰的指引。核心矛盾在于破纪录的提前场（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）与《奥本海默》的类比，这强烈暗示了冲击80M级别的潜力，但文档6同时指出其周末走势可能复制《奥本海默》“强周五后周六微跌”的模式，这恰恰会将最终数字锚定在78M附近，而非远超80M。结合所有权威预测的上限均设为78M（##begin_quote## $70M–$78M ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]），历史先例表明，实际表现紧贴但不超过预测上限是此类高口碑大片更常见的结果，这使其落入75-80M区间的可能性显著。",
+        "raw_response": "FINAL REASONING: 纵观整场辩论，历史类比提供了最清晰的指引。核心矛盾在于破纪录的提前场（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）与《奥本海默》的类比，这强烈暗示了冲击80M级别的潜力，但文档6同时指出其周末走势可能复制《奥本海默》“强周五后周六微跌”的模式，这恰恰会将最终数字锚定在78M附近，而非远超80M。结合所有权威预测的上限均设为78M（##begin_quote## $70M–$78M ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]），历史先例表明，实际表现紧贴但不超过预测上限是此类高口碑大片更常见的结果，这使其落入75-80M区间的可能性显著。\n\nFINAL PREDICTION: 58%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "$70M–$78M",
+              "doc_index": 1
+            },
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "agent_name": "数据统计师",
+        "stance": "neutral",
+        "probability": 22.0,
+        "reasoning": "综合辩论，核心矛盾在于预测模型上限（##begin_quote## $70M–$78M ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]）与单一事后报告（##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million ##end_quote## [文档 7]）的冲突。作为数据统计师，我优先采纳系统性预测模型和样本量更大的历史基准。预测区间上限78M构成统计硬约束，落在其顶部四分之一（75-78M）的概率分布上天然较低。强劲预售（##begin_quote## trending above early tracking ##end_quote## [文档 2]）和提前场（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）已推动预测上修，但精确命中75-80M这一狭窄区间（宽度仅5M，且需紧贴或突破78M）仍属小概率事件。文档7的80.5M若为噪声或估算值，不影响基于预测分布的判断；若为实际值，则直接证否。基于前者，概率应接近预测区间高端子区间的统计权重。",
+        "raw_response": "FINAL REASONING: 综合辩论，核心矛盾在于预测模型上限（##begin_quote## $70M–$78M ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]）与单一事后报告（##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million ##end_quote## [文档 7]）的冲突。作为数据统计师，我优先采纳系统性预测模型和样本量更大的历史基准。预测区间上限78M构成统计硬约束，落在其顶部四分之一（75-78M）的概率分布上天然较低。强劲预售（##begin_quote## trending above early tracking ##end_quote## [文档 2]）和提前场（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）已推动预测上修，但精确命中75-80M这一狭窄区间（宽度仅5M，且需紧贴或突破78M）仍属小概率事件。文档7的80.5M若为噪声或估算值，不影响基于预测分布的判断；若为实际值，则直接证否。基于前者，概率应接近预测区间高端子区间的统计权重。\n\nFINAL PREDICTION: 22.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$70M–$78M",
+              "doc_index": 1
+            },
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "‘Project Hail Mary’ blasts off with $80.5 million",
+              "doc_index": 7
+            },
+            {
+              "quote": "trending above early tracking",
+              "doc_index": 2
+            },
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            4,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "情绪分析师",
+        "stance": "bull",
+        "probability": 75.0,
+        "reasoning": "经过完整辩论，我更加确信情绪动量已形成压倒性优势。核心证据链——从创纪录的预览票房（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）、强劲的最终预售趋势（##begin_quote## trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2]），到媒体叙事主动锚定更高目标（##begin_quote## Eyes $80M US Opening ##end_quote## [文档 6]）——构成了一个自我实现的预言闭环。反对意见所依赖的静态模型上限（78M）和“需求延迟”风险，在“年度必看事件”的狂热情绪和稀缺性驱动的紧迫感面前已被瓦解，票房稳稳落入75-80M“荣耀区间”是当前情绪周期最可能的结果。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，我更加确信情绪动量已形成压倒性优势。核心证据链——从创纪录的预览票房（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）、强劲的最终预售趋势（##begin_quote## trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2]），到媒体叙事主动锚定更高目标（##begin_quote## Eyes $80M US Opening ##end_quote## [文档 6]）——构成了一个自我实现的预言闭环。反对意见所依赖的静态模型上限（78M）和“需求延迟”风险，在“年度必看事件”的狂热情绪和稀缺性驱动的紧迫感面前已被瓦解，票房稳稳落入75-80M“荣耀区间”是当前情绪周期最可能的结果。\n\nFINAL PREDICTION: 75%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "trending above early tracking and potentially even higher than industry estimates",
+              "doc_index": 2
+            },
+            {
+              "quote": "Eyes $80M US Opening",
+              "doc_index": 6
+            }
+          ],
+          "cited_doc_indices": [
+            2,
+            4,
+            6
+          ]
+        }
+      },
+      {
+        "agent_name": "逆向投资者",
+        "stance": "bear",
+        "probability": 38.0,
+        "reasoning": "经过完整辩论，我更加确信市场共识已过度定价乐观情绪。所有权威预测的硬顶均为78M（##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]），而目标区间要求至少75M，这意味着必须触及甚至突破这一共识天花板。尽管预售强劲，但两个被忽视的微观下行机制——高端场次售罄导致的需求延迟（##begin_quote## casual moviegoers will be more than happy to wait a day or two ##end_quote## [文档 2]）和类比《奥本海默》所暗示的周六环比下跌风险（##begin_quote## dipping slightly on Saturday ##end_quote## [文档 6]）——将更可能把最终数字锚定在72-77M区域，而非精确命中75-80M这一狭窄区间。均值回归的力量将在狂热情绪退潮后显现。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，我更加确信市场共识已过度定价乐观情绪。所有权威预测的硬顶均为78M（##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]），而目标区间要求至少75M，这意味着必须触及甚至突破这一共识天花板。尽管预售强劲，但两个被忽视的微观下行机制——高端场次售罄导致的需求延迟（##begin_quote## casual moviegoers will be more than happy to wait a day or two ##end_quote## [文档 2]）和类比《奥本海默》所暗示的周六环比下跌风险（##begin_quote## dipping slightly on Saturday ##end_quote## [文档 6]）——将更可能把最终数字锚定在72-77M区域，而非精确命中75-80M这一狭窄区间。均值回归的力量将在狂热情绪退潮后显现。\n\nFINAL PREDICTION: 38%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$70M–$78M domestic opening",
+              "doc_index": 1
+            },
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "casual moviegoers will be more than happy to wait a day or two",
+              "doc_index": 2
+            },
+            {
+              "quote": "dipping slightly on Saturday",
+              "doc_index": 6
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            6
+          ]
+        }
+      },
+      {
+        "agent_name": "基本面分析师",
+        "stance": "neutral",
+        "probability": 48.0,
+        "reasoning": "经过完整辩论，我维持基于结构性因素的分析框架。支持75-80M区间的核心动力是影片卓越的基本面：##begin_quote## 95% Rotten Tomatoes score ##end_quote## [文档 1]、##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]的创纪录提前场，以及##begin_quote## trending above early tracking ##end_quote## [文档 2]的强劲最终预售，这共同构成了强大的观众基本盘和事件属性。然而，精确命中狭窄高位的两大结构性阻力被辩论强化：1) 高端格式售罄导致的##begin_quote## casual moviegoers will be more than happy to wait a day or two ##end_quote## [文档 2]需求延迟效应，构成物理收入上限；2) 与《奥本海默》类似的##begin_quote## strong Friday before dipping slightly on Saturday ##end_quote## [文档 6]周末衰减模式，抑制冲高动能。这些因素更可能将数字锚定在73-78M区间的高端，而非稳稳落入75-80M。尽管有##begin_quote## $80.5 million ##end_quote## [文档 7]的报道，但在其官方性质确认前，我仍认为基本面优势与执行风险基本平衡。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，我维持基于结构性因素的分析框架。支持75-80M区间的核心动力是影片卓越的基本面：##begin_quote## 95% Rotten Tomatoes score ##end_quote## [文档 1]、##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]的创纪录提前场，以及##begin_quote## trending above early tracking ##end_quote## [文档 2]的强劲最终预售，这共同构成了强大的观众基本盘和事件属性。然而，精确命中狭窄高位的两大结构性阻力被辩论强化：1) 高端格式售罄导致的##begin_quote## casual moviegoers will be more than happy to wait a day or two ##end_quote## [文档 2]需求延迟效应，构成物理收入上限；2) 与《奥本海默》类似的##begin_quote## strong Friday before dipping slightly on Saturday ##end_quote## [文档 6]周末衰减模式，抑制冲高动能。这些因素更可能将数字锚定在73-78M区间的高端，而非稳稳落入75-80M。尽管有##begin_quote## $80.5 million ##end_quote## [文档 7]的报道，但在其官方性质确认前，我仍认为基本面优势与执行风险基本平衡。\n\nFINAL PREDICTION: 48.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "95% Rotten Tomatoes score",
+              "doc_index": 1
+            },
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "trending above early tracking",
+              "doc_index": 2
+            },
+            {
+              "quote": "casual moviegoers will be more than happy to wait a day or two",
+              "doc_index": 2
+            },
+            {
+              "quote": "strong Friday before dipping slightly on Saturday",
+              "doc_index": 6
+            },
+            {
+              "quote": "$80.5 million",
+              "doc_index": 7
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            4,
+            6,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "风险评估师",
+        "stance": "bear",
+        "probability": 40.0,
+        "reasoning": "经过整场辩论，核心风险结构更加清晰。所有权威预测（Boxoffice Pro, BOT）的硬性上限为78M ##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]; ##begin_quote## $60 — 78 million ##end_quote## [文档 2]，而目标区间要求至少75M。这意味着YES的结果必须紧贴甚至突破模型设定的天花板。尽管提前场强劲（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）提供了上行尾部风险，但高端场次售罄带来的需求延迟（##begin_quote## casual moviegoers will be more than happy to wait a day or two... for optimal seats ##end_quote## [文档 2]）构成了被市场情绪低估的物理瓶颈和下行风险，更可能将最终数字锚定在73-77M区间。突破78M进入75-80M的概率存在，但窗口狭窄，风险高于机会。",
+        "raw_response": "FINAL REASONING: 经过整场辩论，核心风险结构更加清晰。所有权威预测（Boxoffice Pro, BOT）的硬性上限为78M ##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]; ##begin_quote## $60 — 78 million ##end_quote## [文档 2]，而目标区间要求至少75M。这意味着YES的结果必须紧贴甚至突破模型设定的天花板。尽管提前场强劲（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）提供了上行尾部风险，但高端场次售罄带来的需求延迟（##begin_quote## casual moviegoers will be more than happy to wait a day or two... for optimal seats ##end_quote## [文档 2]）构成了被市场情绪低估的物理瓶颈和下行风险，更可能将最终数字锚定在73-77M区间。突破78M进入75-80M的概率存在，但窗口狭窄，风险高于机会。\n\nFINAL PREDICTION: 40%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$70M–$78M domestic opening",
+              "doc_index": 1
+            },
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "casual moviegoers will be more than happy to wait a day or two... for optimal seats",
+              "doc_index": 2
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            4
+          ]
+        }
+      },
+      {
+        "agent_name": "综合策略师",
+        "stance": "neutral",
+        "probability": 58.0,
+        "reasoning": "综合整场辩论，最有力的共振信号是破纪录的提前场（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）和上映前一周的强劲预售趋势（##begin_quote## now trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2]），这构成了对早期保守跟踪（$55M+）的实质性超越，并显著右移了票房分布。然而，目标区间（75-80M）的狭窄性、预测模型的上限锚定（78M）以及类比《奥本海默》所暗示的潜在周六微跌风险（##begin_quote## dipping slightly on Saturday ##end_quote## [文档 6]），共同构成了精确命中的主要阻力。权衡之下，实际开画最可能落在78M附近，这使其落入目标区间的概率高于纯统计基准，但突破80M导致NO的尾部风险限制了概率的进一步上行。",
+        "raw_response": "FINAL REASONING: 综合整场辩论，最有力的共振信号是破纪录的提前场（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）和上映前一周的强劲预售趋势（##begin_quote## now trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2]），这构成了对早期保守跟踪（$55M+）的实质性超越，并显著右移了票房分布。然而，目标区间（75-80M）的狭窄性、预测模型的上限锚定（78M）以及类比《奥本海默》所暗示的潜在周六微跌风险（##begin_quote## dipping slightly on Saturday ##end_quote## [文档 6]），共同构成了精确命中的主要阻力。权衡之下，实际开画最可能落在78M附近，这使其落入目标区间的概率高于纯统计基准，但突破80M导致NO的尾部风险限制了概率的进一步上行。\n\nFINAL PREDICTION: 58%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "now trending above early tracking and potentially even higher than industry estimates",
+              "doc_index": 2
+            },
+            {
+              "quote": "dipping slightly on Saturday",
+              "doc_index": 6
+            }
+          ],
+          "cited_doc_indices": [
+            2,
+            4,
+            6
+          ]
+        }
+      }
+    ]
+  },
+  "meta_predictions": {
+    "质疑分析师": 50.0,
+    "乐观分析师": 65.5,
+    "贝叶斯分析师": 52.0,
+    "历史类比师": 62.5,
+    "情绪分析师": 72.5,
+    "数据统计师": 35.0,
+    "风险评估师": 55.0,
+    "逆向投资者": 55.0,
+    "基本面分析师": 58.0,
+    "综合策略师": 54.5
+  },
+  "round1_average": 49.1,
+  "aggregated_probability": 48.6,
+  "aggregation_mechanisms": {
+    "simple_average": {
+      "probability": 48.6,
+      "details": {
+        "n_agents": 10
+      }
+    },
+    "median": {
+      "probability": 46.5,
+      "details": {
+        "n_agents": 10
+      }
+    },
+    "trimmed_mean": {
+      "probability": 48.62,
+      "details": {
+        "n_original": 10,
+        "n_trimmed": 8,
+        "trim_frac": 0.1
+      }
+    },
+    "logit_average": {
+      "probability": 48.5,
+      "details": {
+        "avg_log_odds": -0.06,
+        "n_agents": 10
+      }
+    },
+    "extremized": {
+      "probability": 46.5,
+      "details": {
+        "raw_average": 48.6,
+        "extremization_d": 2.5
+      }
+    },
+    "reputation_weighted": {
+      "probability": 48.6,
+      "details": {
+        "乐观分析师": {
+          "prediction": 72.0,
+          "weight": 0.1
+        },
+        "质疑分析师": {
+          "prediction": 30.0,
+          "weight": 0.1
+        },
+        "贝叶斯分析师": {
+          "prediction": 45.0,
+          "weight": 0.1
+        },
+        "历史类比师": {
+          "prediction": 58.0,
+          "weight": 0.1
+        },
+        "数据统计师": {
+          "prediction": 22.0,
+          "weight": 0.1
+        },
+        "情绪分析师": {
+          "prediction": 75.0,
+          "weight": 0.1
+        },
+        "逆向投资者": {
+          "prediction": 38.0,
+          "weight": 0.1
+        },
+        "基本面分析师": {
+          "prediction": 48.0,
+          "weight": 0.1
+        },
+        "风险评估师": {
+          "prediction": 40.0,
+          "weight": 0.1
+        },
+        "综合策略师": {
+          "prediction": 58.0,
+          "weight": 0.1
+        }
+      }
+    },
+    "lmsr_market": {
+      "probability": 51.9,
+      "details": {
+        "liquidity": 100.0,
+        "trade_history": [
+          {
+            "agent_name": "乐观分析师",
+            "action": "buy_yes",
+            "belief": 0.72,
+            "shares": 48.8281,
+            "cost": 26.4029,
+            "price_before": 0.48,
+            "price_after": 0.6007,
+            "edge": 0.24
+          },
+          {
+            "agent_name": "质疑分析师",
+            "action": "buy_no",
+            "belief": 0.3,
+            "shares": 68.3899,
+            "cost": 33.0729,
+            "price_before": 0.6007,
+            "price_after": 0.4315,
+            "edge": -0.3007
+          },
+          {
+            "agent_name": "贝叶斯分析师",
+            "action": "buy_yes",
+            "belief": 0.45,
+            "shares": 4.6387,
+            "cost": 2.0281,
+            "price_before": 0.4315,
+            "price_after": 0.4429,
+            "edge": 0.0185
+          },
+          {
+            "agent_name": "历史类比师",
+            "action": "buy_yes",
+            "belief": 0.58,
+            "shares": 31.2805,
+            "cost": 15.0718,
+            "price_before": 0.4429,
+            "price_after": 0.5209,
+            "edge": 0.1371
+          },
+          {
+            "agent_name": "数据统计师",
+            "action": "buy_no",
+            "belief": 0.22,
+            "shares": 59.8145,
+            "cost": 33.0945,
+            "price_before": 0.5209,
+            "price_after": 0.3741,
+            "edge": -0.3009
+          },
+          {
+            "agent_name": "情绪分析师",
+            "action": "buy_yes",
+            "belief": 0.75,
+            "shares": 86.2427,
+            "cost": 41.3515,
+            "price_before": 0.3741,
+            "price_after": 0.5861,
+            "edge": 0.3759
+          },
+          {
+            "agent_name": "逆向投资者",
+            "action": "buy_no",
+            "belief": 0.38,
+            "shares": 47.9126,
+            "cost": 22.6671,
+            "price_before": 0.5861,
+            "price_after": 0.4672,
+            "edge": -0.2061
+          },
+          {
+            "agent_name": "基本面分析师",
+            "action": "buy_yes",
+            "belief": 0.48,
+            "shares": 2.9907,
+            "cost": 1.4085,
+            "price_before": 0.4672,
+            "price_after": 0.4747,
+            "edge": 0.0128
+          },
+          {
+            "agent_name": "风险评估师",
+            "action": "buy_no",
+            "belief": 0.4,
+            "shares": 15.1062,
+            "cost": 8.2193,
+            "price_before": 0.4747,
+            "price_after": 0.4372,
+            "edge": -0.0747
+          },
+          {
+            "agent_name": "综合策略师",
+            "action": "buy_yes",
+            "belief": 0.58,
+            "shares": 32.8674,
+            "cost": 15.7117,
+            "price_before": 0.4372,
+            "price_after": 0.519,
+            "edge": 0.1428
+          }
+        ],
+        "initial_price": 50.0,
+        "final_price": 51.9043
+      }
+    },
+    "peer_prediction": {
+      "probability": 53.81,
+      "details": {
+        "actual_average": 48.6,
+        "agent_scores": {
+          "乐观分析师": {
+            "prediction": 0.72,
+            "meta_prediction": 0.655,
+            "surprisingness": 0.5061,
+            "information_score": 0.831,
+            "bts_score": 1.3371,
+            "weight": 0.1455
+          },
+          "质疑分析师": {
+            "prediction": 0.3,
+            "meta_prediction": 0.5,
+            "surprisingness": -0.4666,
+            "information_score": 0.986,
+            "bts_score": 0.5194,
+            "weight": 0.0642
+          },
+          "贝叶斯分析师": {
+            "prediction": 0.45,
+            "meta_prediction": 0.52,
+            "surprisingness": -0.0161,
+            "information_score": 0.966,
+            "bts_score": 0.9499,
+            "weight": 0.0988
+          },
+          "历史类比师": {
+            "prediction": 0.58,
+            "meta_prediction": 0.625,
+            "surprisingness": 0.2659,
+            "information_score": 0.861,
+            "bts_score": 1.1269,
+            "weight": 0.1179
+          },
+          "数据统计师": {
+            "prediction": 0.22,
+            "meta_prediction": 0.35,
+            "surprisingness": -0.8112,
+            "information_score": 0.864,
+            "bts_score": 0.0528,
+            "weight": 0.0403
+          },
+          "情绪分析师": {
+            "prediction": 0.75,
+            "meta_prediction": 0.725,
+            "surprisingness": 0.5515,
+            "information_score": 0.761,
+            "bts_score": 1.3125,
+            "weight": 0.142
+          },
+          "逆向投资者": {
+            "prediction": 0.38,
+            "meta_prediction": 0.55,
+            "surprisingness": -0.204,
+            "information_score": 0.936,
+            "bts_score": 0.732,
+            "weight": 0.0795
+          },
+          "基本面分析师": {
+            "prediction": 0.48,
+            "meta_prediction": 0.58,
+            "surprisingness": 0.0556,
+            "information_score": 0.906,
+            "bts_score": 0.9616,
+            "weight": 0.1
+          },
+          "风险评估师": {
+            "prediction": 0.4,
+            "meta_prediction": 0.55,
+            "surprisingness": -0.147,
+            "information_score": 0.936,
+            "bts_score": 0.789,
+            "weight": 0.0841
+          },
+          "综合策略师": {
+            "prediction": 0.58,
+            "meta_prediction": 0.545,
+            "surprisingness": 0.2659,
+            "information_score": 0.941,
+            "bts_score": 1.2069,
+            "weight": 0.1277
+          }
+        }
+      }
+    },
+    "hybrid": {
+      "probability": 51.48,
+      "details": {
+        "components": {
+          "reputation_weighted": 48.6,
+          "lmsr_market": 51.9,
+          "peer_prediction": 53.81
+        },
+        "lambdas": {
+          "market": 0.4,
+          "reputation": 0.3,
+          "bts": 0.3
+        },
+        "m1_details": {
+          "乐观分析师": {
+            "prediction": 72.0,
+            "weight": 0.1
+          },
+          "质疑分析师": {
+            "prediction": 30.0,
+            "weight": 0.1
+          },
+          "贝叶斯分析师": {
+            "prediction": 45.0,
+            "weight": 0.1
+          },
+          "历史类比师": {
+            "prediction": 58.0,
+            "weight": 0.1
+          },
+          "数据统计师": {
+            "prediction": 22.0,
+            "weight": 0.1
+          },
+          "情绪分析师": {
+            "prediction": 75.0,
+            "weight": 0.1
+          },
+          "逆向投资者": {
+            "prediction": 38.0,
+            "weight": 0.1
+          },
+          "基本面分析师": {
+            "prediction": 48.0,
+            "weight": 0.1
+          },
+          "风险评估师": {
+            "prediction": 40.0,
+            "weight": 0.1
+          },
+          "综合策略师": {
+            "prediction": 58.0,
+            "weight": 0.1
+          }
+        },
+        "m2_details": {
+          "liquidity": 100.0,
+          "trade_history": [
+            {
+              "agent_name": "乐观分析师",
+              "action": "buy_yes",
+              "belief": 0.72,
+              "shares": 48.8281,
+              "cost": 26.4029,
+              "price_before": 0.48,
+              "price_after": 0.6007,
+              "edge": 0.24
+            },
+            {
+              "agent_name": "质疑分析师",
+              "action": "buy_no",
+              "belief": 0.3,
+              "shares": 68.3899,
+              "cost": 33.0729,
+              "price_before": 0.6007,
+              "price_after": 0.4315,
+              "edge": -0.3007
+            },
+            {
+              "agent_name": "贝叶斯分析师",
+              "action": "buy_yes",
+              "belief": 0.45,
+              "shares": 4.6387,
+              "cost": 2.0281,
+              "price_before": 0.4315,
+              "price_after": 0.4429,
+              "edge": 0.0185
+            },
+            {
+              "agent_name": "历史类比师",
+              "action": "buy_yes",
+              "belief": 0.58,
+              "shares": 31.2805,
+              "cost": 15.0718,
+              "price_before": 0.4429,
+              "price_after": 0.5209,
+              "edge": 0.1371
+            },
+            {
+              "agent_name": "数据统计师",
+              "action": "buy_no",
+              "belief": 0.22,
+              "shares": 59.8145,
+              "cost": 33.0945,
+              "price_before": 0.5209,
+              "price_after": 0.3741,
+              "edge": -0.3009
+            },
+            {
+              "agent_name": "情绪分析师",
+              "action": "buy_yes",
+              "belief": 0.75,
+              "shares": 86.2427,
+              "cost": 41.3515,
+              "price_before": 0.3741,
+              "price_after": 0.5861,
+              "edge": 0.3759
+            },
+            {
+              "agent_name": "逆向投资者",
+              "action": "buy_no",
+              "belief": 0.38,
+              "shares": 47.9126,
+              "cost": 22.6671,
+              "price_before": 0.5861,
+              "price_after": 0.4672,
+              "edge": -0.2061
+            },
+            {
+              "agent_name": "基本面分析师",
+              "action": "buy_yes",
+              "belief": 0.48,
+              "shares": 2.9907,
+              "cost": 1.4085,
+              "price_before": 0.4672,
+              "price_after": 0.4747,
+              "edge": 0.0128
+            },
+            {
+              "agent_name": "风险评估师",
+              "action": "buy_no",
+              "belief": 0.4,
+              "shares": 15.1062,
+              "cost": 8.2193,
+              "price_before": 0.4747,
+              "price_after": 0.4372,
+              "edge": -0.0747
+            },
+            {
+              "agent_name": "综合策略师",
+              "action": "buy_yes",
+              "belief": 0.58,
+              "shares": 32.8674,
+              "cost": 15.7117,
+              "price_before": 0.4372,
+              "price_after": 0.519,
+              "edge": 0.1428
+            }
+          ],
+          "initial_price": 50.0,
+          "final_price": 51.9043
+        },
+        "m3_details": {
+          "actual_average": 48.6,
+          "agent_scores": {
+            "乐观分析师": {
+              "prediction": 0.72,
+              "meta_prediction": 0.655,
+              "surprisingness": 0.5061,
+              "information_score": 0.831,
+              "bts_score": 1.3371,
+              "weight": 0.1455
+            },
+            "质疑分析师": {
+              "prediction": 0.3,
+              "meta_prediction": 0.5,
+              "surprisingness": -0.4666,
+              "information_score": 0.986,
+              "bts_score": 0.5194,
+              "weight": 0.0642
+            },
+            "贝叶斯分析师": {
+              "prediction": 0.45,
+              "meta_prediction": 0.52,
+              "surprisingness": -0.0161,
+              "information_score": 0.966,
+              "bts_score": 0.9499,
+              "weight": 0.0988
+            },
+            "历史类比师": {
+              "prediction": 0.58,
+              "meta_prediction": 0.625,
+              "surprisingness": 0.2659,
+              "information_score": 0.861,
+              "bts_score": 1.1269,
+              "weight": 0.1179
+            },
+            "数据统计师": {
+              "prediction": 0.22,
+              "meta_prediction": 0.35,
+              "surprisingness": -0.8112,
+              "information_score": 0.864,
+              "bts_score": 0.0528,
+              "weight": 0.0403
+            },
+            "情绪分析师": {
+              "prediction": 0.75,
+              "meta_prediction": 0.725,
+              "surprisingness": 0.5515,
+              "information_score": 0.761,
+              "bts_score": 1.3125,
+              "weight": 0.142
+            },
+            "逆向投资者": {
+              "prediction": 0.38,
+              "meta_prediction": 0.55,
+              "surprisingness": -0.204,
+              "information_score": 0.936,
+              "bts_score": 0.732,
+              "weight": 0.0795
+            },
+            "基本面分析师": {
+              "prediction": 0.48,
+              "meta_prediction": 0.58,
+              "surprisingness": 0.0556,
+              "information_score": 0.906,
+              "bts_score": 0.9616,
+              "weight": 0.1
+            },
+            "风险评估师": {
+              "prediction": 0.4,
+              "meta_prediction": 0.55,
+              "surprisingness": -0.147,
+              "information_score": 0.936,
+              "bts_score": 0.789,
+              "weight": 0.0841
+            },
+            "综合策略师": {
+              "prediction": 0.58,
+              "meta_prediction": 0.545,
+              "surprisingness": 0.2659,
+              "information_score": 0.941,
+              "bts_score": 1.2069,
+              "weight": 0.1277
+            }
+          }
+        }
+      }
+    }
+  },
+  "entity_graph": {
+    "entities": [
+      {
+        "name": "Project Hail Mary",
+        "type": "event",
+        "description": "即将上映的科幻电影",
+        "attributes": {}
+      },
+      {
+        "name": "Ryan Gosling",
+        "type": "person",
+        "description": "电影《Project Hail Mary》的主演",
+        "attributes": {}
+      },
+      {
+        "name": "Andy Weir",
+        "type": "person",
+        "description": "《Project Hail Mary》原著小说的作者",
+        "attributes": {}
+      },
+      {
+        "name": "Phil Lord",
+        "type": "person",
+        "description": "电影《Project Hail Mary》的导演之一",
+        "attributes": {}
+      },
+      {
+        "name": "Chris Miller",
+        "type": "person",
+        "description": "电影《Project Hail Mary》的导演之一",
+        "attributes": {}
+      },
+      {
+        "name": "John Campea",
+        "type": "person",
+        "description": "电影评论节目的主持人",
+        "attributes": {}
+      },
+      {
+        "name": "Boxoffice Pro",
+        "type": "org",
+        "description": "提供票房预测数据的机构",
+        "attributes": {}
+      },
+      {
+        "name": "Amazon MGM",
+        "type": "org",
+        "description": "电影《Project Hail Mary》的制作发行公司",
+        "attributes": {}
+      },
+      {
+        "name": "Rotten Tomatoes",
+        "type": "org",
+        "description": "电影评分网站",
+        "attributes": {}
+      },
+      {
+        "name": "The Super Mario Galaxy Movie",
+        "type": "event",
+        "description": "即将上映的竞争电影",
+        "attributes": {}
+      },
+      {
+        "name": "70M–78M",
+        "type": "metric",
+        "description": "Boxoffice Pro对《Project Hail Mary》首周末票房的预测范围",
+        "attributes": {}
+      },
+      {
+        "name": "60 — 78 million",
+        "type": "metric",
+        "description": "BOT对《Project Hail Mary》国内首周末票房的预测范围",
+        "attributes": {}
+      },
+      {
+        "name": "95%",
+        "type": "metric",
+        "description": "《Project Hail Mary》在Rotten Tomatoes上的评分",
+        "attributes": {}
+      },
+      {
+        "name": "19 Mar 2026",
+        "type": "date",
+        "description": "John Campea节目发布的日期",
+        "attributes": {}
+      },
+      {
+        "name": "2026",
+        "type": "date",
+        "description": "电影上映年份",
+        "attributes": {}
+      }
+    ],
+    "relations": [
+      {
+        "source": "Project Hail Mary",
+        "target": "Ryan Gosling",
+        "relation_type": "主演",
+        "context": "Ryan Gosling是这部电影的主演"
+      },
+      {
+        "source": "Project Hail Mary",
+        "target": "Andy Weir",
+        "relation_type": "基于作品",
+        "context": "电影改编自Andy Weir的小说"
+      },
+      {
+        "source": "Project Hail Mary",
+        "target": "Phil Lord",
+        "relation_type": "导演",
+        "context": "Phil Lord是电影的联合导演"
+      },
+      {
+        "source": "Project Hail Mary",
+        "target": "Chris Miller",
+        "relation_type": "导演",
+        "context": "Chris Miller是电影的联合导演"
+      },
+      {
+        "source": "Project Hail Mary",
+        "target": "Amazon MGM",
+        "relation_type": "制作发行",
+        "context": "Amazon MGM是这部电影的制作和发行方"
+      },
+      {
+        "source": "Project Hail Mary",
+        "target": "70M–78M",
+        "relation_type": "票房预测",
+        "context": "Boxoffice Pro预测其首周末票房在此范围"
+      },
+      {
+        "source": "Project Hail Mary",
+        "target": "60 — 78 million",
+        "relation_type": "票房预测",
+        "context": "BOT预测其国内首周末票房在此范围"
+      },
+      {
+        "source": "Project Hail Mary",
+        "target": "95%",
+        "relation_type": "获得评分",
+        "context": "在Rotten Tomatoes上获得95%的评分"
+      },
+      {
+        "source": "Project Hail Mary",
+        "target": "The Super Mario Galaxy Movie",
+        "relation_type": "竞争",
+        "context": "两者是票房竞争关系"
+      },
+      {
+        "source": "John Campea",
+        "target": "Project Hail Mary",
+        "relation_type": "讨论",
+        "context": "在他的节目中讨论了这部电影的票房潜力"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026",
+        "event": "《Project Hail Mary》计划上映的年份"
+      },
+      {
+        "date": "19 Mar 2026",
+        "event": "John Campea发布视频讨论《Project Hail Mary》的票房预测"
+      },
+      {
+        "date": "上映前一周",
+        "event": "《Project Hail Mary》最终预售趋势高于早期跟踪数据"
+      },
+      {
+        "date": "上映周末",
+        "event": "《Project Hail Mary》首周末上映，预测票房$60-78M"
+      },
+      {
+        "date": "上映周末",
+        "event": "最大最好的屏幕场次几乎售罄"
+      },
+      {
+        "date": "上映周末",
+        "event": "本周末前十部电影预计总收入超过1.28亿美元"
+      },
+      {
+        "date": "上映后",
+        "event": "电影可能创下Amazon MGM的记录"
+      },
+      {
+        "date": "上映后",
+        "event": "电影可能成为Ryan Gosling、Phil Lord和Chris Miller职业生涯最佳首映"
+      }
+    ]
+  },
+  "reputation_snapshot": {
+    "乐观分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "质疑分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "贝叶斯分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "历史类比师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "数据统计师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "情绪分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "逆向投资者": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "基本面分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "风险评估师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "综合策略师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    }
+  },
+  "agents": [
+    {
+      "name": "乐观分析师",
+      "stance": "bull",
+      "final": {
+        "agent_name": "乐观分析师",
+        "stance": "bull",
+        "probability": 72.0,
+        "reasoning": "经过完整辩论，核心数据点——##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4] 和 ##begin_quote## trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2]——构成了压倒性的正面动能，它们不仅使早期保守跟踪（$55M+）过时，更将实际表现强力推向预测区间（$60-78M）的顶端。与《奥本海默》的类比##begin_quote## The film's box office trend is being compared to Oppenheimer ##end_quote## [文档 6] 提供了历史先例，证明在强劲提前场和口碑驱动下，突破$78M预测上限并落入$75-80M区间是完全可行的。反对意见所依赖的“需求延迟”和“周六疲软”风险，在如此强烈的即时需求和社交紧迫感面前已被大幅削弱。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，核心数据点——##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4] 和 ##begin_quote## trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2]——构成了压倒性的正面动能，它们不仅使早期保守跟踪（$55M+）过时，更将实际表现强力推向预测区间（$60-78M）的顶端。与《奥本海默》的类比##begin_quote## The film's box office trend is being compared to Oppenheimer ##end_quote## [文档 6] 提供了历史先例，证明在强劲提前场和口碑驱动下，突破$78M预测上限并落入$75-80M区间是完全可行的。反对意见所依赖的“需求延迟”和“周六疲软”风险，在如此强烈的即时需求和社交紧迫感面前已被大幅削弱。\n\nFINAL PREDICTION: 72.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "trending above early tracking and potentially even higher than industry estimates",
+              "doc_index": 2
+            },
+            {
+              "quote": "The film's box office trend is being compared to Oppenheimer",
+              "doc_index": 6
+            }
+          ],
+          "cited_doc_indices": [
+            2,
+            4,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "name": "质疑分析师",
+      "stance": "bear",
+      "final": {
+        "agent_name": "质疑分析师",
+        "stance": "bear",
+        "probability": 30.0,
+        "reasoning": "经过完整辩论，核心矛盾更加清晰：所有权威预测（Boxoffice Pro, BOT）的上限均锚定在$78M ##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]，而目标区间（$75-80M）要求至少触及此上限。尽管预售动能强劲，但“传统制片厂跟踪：$55 million+”##begin_quote## Traditional Studio Tracking: $55 million+ ##end_quote## [文档 2] 这一保守基准和售罄导致的延迟观影效应 ##begin_quote## casual moviegoers will be more than happy to wait ##end_quote## [文档 2] 构成了被市场情绪低估的关键下行风险。乐观情绪已将“达到预测区间高端”充分定价，但要精确命中$75-78M这一狭窄子区间，需要表现落在预测分布的最右端，这在统计上是小概率事件，且没有任何权威预测支持$80M。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，核心矛盾更加清晰：所有权威预测（Boxoffice Pro, BOT）的上限均锚定在$78M ##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]，而目标区间（$75-80M）要求至少触及此上限。尽管预售动能强劲，但“传统制片厂跟踪：$55 million+”##begin_quote## Traditional Studio Tracking: $55 million+ ##end_quote## [文档 2] 这一保守基准和售罄导致的延迟观影效应 ##begin_quote## casual moviegoers will be more than happy to wait ##end_quote## [文档 2] 构成了被市场情绪低估的关键下行风险。乐观情绪已将“达到预测区间高端”充分定价，但要精确命中$75-78M这一狭窄子区间，需要表现落在预测分布的最右端，这在统计上是小概率事件，且没有任何权威预测支持$80M。\n\nFINAL PREDICTION: 30.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$70M–$78M domestic opening",
+              "doc_index": 1
+            },
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "Traditional Studio Tracking: $55 million+",
+              "doc_index": 2
+            },
+            {
+              "quote": "casual moviegoers will be more than happy to wait",
+              "doc_index": 2
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "name": "贝叶斯分析师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "贝叶斯分析师",
+        "stance": "neutral",
+        "probability": 45.0,
+        "reasoning": "综合辩论，核心矛盾在于强劲的预售证据（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4] 和 ##begin_quote## trending above early tracking ##end_quote## [文档 2]）与所有权威预测设定的明确上限（##begin_quote## $70M–$78M ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]）之间的张力。这些证据强烈支持一个右偏的后验分布，使票房落在预测区间高端（如73-78M）的概率显著提升。然而，目标区间75-80M要求结果必须紧贴甚至突破78M这一共识上限，考虑到区间狭窄性和突破模型硬顶的统计阻力，概率虽有上调，但仍受约束。",
+        "raw_response": "FINAL REASONING: 综合辩论，核心矛盾在于强劲的预售证据（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4] 和 ##begin_quote## trending above early tracking ##end_quote## [文档 2]）与所有权威预测设定的明确上限（##begin_quote## $70M–$78M ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]）之间的张力。这些证据强烈支持一个右偏的后验分布，使票房落在预测区间高端（如73-78M）的概率显著提升。然而，目标区间75-80M要求结果必须紧贴甚至突破78M这一共识上限，考虑到区间狭窄性和突破模型硬顶的统计阻力，概率虽有上调，但仍受约束。\n\nFINAL PREDICTION: 45.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "trending above early tracking",
+              "doc_index": 2
+            },
+            {
+              "quote": "$70M–$78M",
+              "doc_index": 1
+            },
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "name": "历史类比师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "历史类比师",
+        "stance": "neutral",
+        "probability": 58.0,
+        "reasoning": "纵观整场辩论，历史类比提供了最清晰的指引。核心矛盾在于破纪录的提前场（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）与《奥本海默》的类比，这强烈暗示了冲击80M级别的潜力，但文档6同时指出其周末走势可能复制《奥本海默》“强周五后周六微跌”的模式，这恰恰会将最终数字锚定在78M附近，而非远超80M。结合所有权威预测的上限均设为78M（##begin_quote## $70M–$78M ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]），历史先例表明，实际表现紧贴但不超过预测上限是此类高口碑大片更常见的结果，这使其落入75-80M区间的可能性显著。",
+        "raw_response": "FINAL REASONING: 纵观整场辩论，历史类比提供了最清晰的指引。核心矛盾在于破纪录的提前场（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）与《奥本海默》的类比，这强烈暗示了冲击80M级别的潜力，但文档6同时指出其周末走势可能复制《奥本海默》“强周五后周六微跌”的模式，这恰恰会将最终数字锚定在78M附近，而非远超80M。结合所有权威预测的上限均设为78M（##begin_quote## $70M–$78M ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]），历史先例表明，实际表现紧贴但不超过预测上限是此类高口碑大片更常见的结果，这使其落入75-80M区间的可能性显著。\n\nFINAL PREDICTION: 58%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "$70M–$78M",
+              "doc_index": 1
+            },
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "name": "数据统计师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "数据统计师",
+        "stance": "neutral",
+        "probability": 22.0,
+        "reasoning": "综合辩论，核心矛盾在于预测模型上限（##begin_quote## $70M–$78M ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]）与单一事后报告（##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million ##end_quote## [文档 7]）的冲突。作为数据统计师，我优先采纳系统性预测模型和样本量更大的历史基准。预测区间上限78M构成统计硬约束，落在其顶部四分之一（75-78M）的概率分布上天然较低。强劲预售（##begin_quote## trending above early tracking ##end_quote## [文档 2]）和提前场（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）已推动预测上修，但精确命中75-80M这一狭窄区间（宽度仅5M，且需紧贴或突破78M）仍属小概率事件。文档7的80.5M若为噪声或估算值，不影响基于预测分布的判断；若为实际值，则直接证否。基于前者，概率应接近预测区间高端子区间的统计权重。",
+        "raw_response": "FINAL REASONING: 综合辩论，核心矛盾在于预测模型上限（##begin_quote## $70M–$78M ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]）与单一事后报告（##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million ##end_quote## [文档 7]）的冲突。作为数据统计师，我优先采纳系统性预测模型和样本量更大的历史基准。预测区间上限78M构成统计硬约束，落在其顶部四分之一（75-78M）的概率分布上天然较低。强劲预售（##begin_quote## trending above early tracking ##end_quote## [文档 2]）和提前场（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）已推动预测上修，但精确命中75-80M这一狭窄区间（宽度仅5M，且需紧贴或突破78M）仍属小概率事件。文档7的80.5M若为噪声或估算值，不影响基于预测分布的判断；若为实际值，则直接证否。基于前者，概率应接近预测区间高端子区间的统计权重。\n\nFINAL PREDICTION: 22.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$70M–$78M",
+              "doc_index": 1
+            },
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "‘Project Hail Mary’ blasts off with $80.5 million",
+              "doc_index": 7
+            },
+            {
+              "quote": "trending above early tracking",
+              "doc_index": 2
+            },
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            4,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "name": "情绪分析师",
+      "stance": "bull",
+      "final": {
+        "agent_name": "情绪分析师",
+        "stance": "bull",
+        "probability": 75.0,
+        "reasoning": "经过完整辩论，我更加确信情绪动量已形成压倒性优势。核心证据链——从创纪录的预览票房（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）、强劲的最终预售趋势（##begin_quote## trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2]），到媒体叙事主动锚定更高目标（##begin_quote## Eyes $80M US Opening ##end_quote## [文档 6]）——构成了一个自我实现的预言闭环。反对意见所依赖的静态模型上限（78M）和“需求延迟”风险，在“年度必看事件”的狂热情绪和稀缺性驱动的紧迫感面前已被瓦解，票房稳稳落入75-80M“荣耀区间”是当前情绪周期最可能的结果。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，我更加确信情绪动量已形成压倒性优势。核心证据链——从创纪录的预览票房（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）、强劲的最终预售趋势（##begin_quote## trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2]），到媒体叙事主动锚定更高目标（##begin_quote## Eyes $80M US Opening ##end_quote## [文档 6]）——构成了一个自我实现的预言闭环。反对意见所依赖的静态模型上限（78M）和“需求延迟”风险，在“年度必看事件”的狂热情绪和稀缺性驱动的紧迫感面前已被瓦解，票房稳稳落入75-80M“荣耀区间”是当前情绪周期最可能的结果。\n\nFINAL PREDICTION: 75%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "trending above early tracking and potentially even higher than industry estimates",
+              "doc_index": 2
+            },
+            {
+              "quote": "Eyes $80M US Opening",
+              "doc_index": 6
+            }
+          ],
+          "cited_doc_indices": [
+            2,
+            4,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "name": "逆向投资者",
+      "stance": "bear",
+      "final": {
+        "agent_name": "逆向投资者",
+        "stance": "bear",
+        "probability": 38.0,
+        "reasoning": "经过完整辩论，我更加确信市场共识已过度定价乐观情绪。所有权威预测的硬顶均为78M（##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]），而目标区间要求至少75M，这意味着必须触及甚至突破这一共识天花板。尽管预售强劲，但两个被忽视的微观下行机制——高端场次售罄导致的需求延迟（##begin_quote## casual moviegoers will be more than happy to wait a day or two ##end_quote## [文档 2]）和类比《奥本海默》所暗示的周六环比下跌风险（##begin_quote## dipping slightly on Saturday ##end_quote## [文档 6]）——将更可能把最终数字锚定在72-77M区域，而非精确命中75-80M这一狭窄区间。均值回归的力量将在狂热情绪退潮后显现。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，我更加确信市场共识已过度定价乐观情绪。所有权威预测的硬顶均为78M（##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]；##begin_quote## $60 — 78 million ##end_quote## [文档 2]），而目标区间要求至少75M，这意味着必须触及甚至突破这一共识天花板。尽管预售强劲，但两个被忽视的微观下行机制——高端场次售罄导致的需求延迟（##begin_quote## casual moviegoers will be more than happy to wait a day or two ##end_quote## [文档 2]）和类比《奥本海默》所暗示的周六环比下跌风险（##begin_quote## dipping slightly on Saturday ##end_quote## [文档 6]）——将更可能把最终数字锚定在72-77M区域，而非精确命中75-80M这一狭窄区间。均值回归的力量将在狂热情绪退潮后显现。\n\nFINAL PREDICTION: 38%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$70M–$78M domestic opening",
+              "doc_index": 1
+            },
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "casual moviegoers will be more than happy to wait a day or two",
+              "doc_index": 2
+            },
+            {
+              "quote": "dipping slightly on Saturday",
+              "doc_index": 6
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "name": "基本面分析师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "基本面分析师",
+        "stance": "neutral",
+        "probability": 48.0,
+        "reasoning": "经过完整辩论，我维持基于结构性因素的分析框架。支持75-80M区间的核心动力是影片卓越的基本面：##begin_quote## 95% Rotten Tomatoes score ##end_quote## [文档 1]、##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]的创纪录提前场，以及##begin_quote## trending above early tracking ##end_quote## [文档 2]的强劲最终预售，这共同构成了强大的观众基本盘和事件属性。然而，精确命中狭窄高位的两大结构性阻力被辩论强化：1) 高端格式售罄导致的##begin_quote## casual moviegoers will be more than happy to wait a day or two ##end_quote## [文档 2]需求延迟效应，构成物理收入上限；2) 与《奥本海默》类似的##begin_quote## strong Friday before dipping slightly on Saturday ##end_quote## [文档 6]周末衰减模式，抑制冲高动能。这些因素更可能将数字锚定在73-78M区间的高端，而非稳稳落入75-80M。尽管有##begin_quote## $80.5 million ##end_quote## [文档 7]的报道，但在其官方性质确认前，我仍认为基本面优势与执行风险基本平衡。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，我维持基于结构性因素的分析框架。支持75-80M区间的核心动力是影片卓越的基本面：##begin_quote## 95% Rotten Tomatoes score ##end_quote## [文档 1]、##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]的创纪录提前场，以及##begin_quote## trending above early tracking ##end_quote## [文档 2]的强劲最终预售，这共同构成了强大的观众基本盘和事件属性。然而，精确命中狭窄高位的两大结构性阻力被辩论强化：1) 高端格式售罄导致的##begin_quote## casual moviegoers will be more than happy to wait a day or two ##end_quote## [文档 2]需求延迟效应，构成物理收入上限；2) 与《奥本海默》类似的##begin_quote## strong Friday before dipping slightly on Saturday ##end_quote## [文档 6]周末衰减模式，抑制冲高动能。这些因素更可能将数字锚定在73-78M区间的高端，而非稳稳落入75-80M。尽管有##begin_quote## $80.5 million ##end_quote## [文档 7]的报道，但在其官方性质确认前，我仍认为基本面优势与执行风险基本平衡。\n\nFINAL PREDICTION: 48.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "95% Rotten Tomatoes score",
+              "doc_index": 1
+            },
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "trending above early tracking",
+              "doc_index": 2
+            },
+            {
+              "quote": "casual moviegoers will be more than happy to wait a day or two",
+              "doc_index": 2
+            },
+            {
+              "quote": "strong Friday before dipping slightly on Saturday",
+              "doc_index": 6
+            },
+            {
+              "quote": "$80.5 million",
+              "doc_index": 7
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            4,
+            6,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "name": "风险评估师",
+      "stance": "bear",
+      "final": {
+        "agent_name": "风险评估师",
+        "stance": "bear",
+        "probability": 40.0,
+        "reasoning": "经过整场辩论，核心风险结构更加清晰。所有权威预测（Boxoffice Pro, BOT）的硬性上限为78M ##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]; ##begin_quote## $60 — 78 million ##end_quote## [文档 2]，而目标区间要求至少75M。这意味着YES的结果必须紧贴甚至突破模型设定的天花板。尽管提前场强劲（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）提供了上行尾部风险，但高端场次售罄带来的需求延迟（##begin_quote## casual moviegoers will be more than happy to wait a day or two... for optimal seats ##end_quote## [文档 2]）构成了被市场情绪低估的物理瓶颈和下行风险，更可能将最终数字锚定在73-77M区间。突破78M进入75-80M的概率存在，但窗口狭窄，风险高于机会。",
+        "raw_response": "FINAL REASONING: 经过整场辩论，核心风险结构更加清晰。所有权威预测（Boxoffice Pro, BOT）的硬性上限为78M ##begin_quote## $70M–$78M domestic opening ##end_quote## [文档 1]; ##begin_quote## $60 — 78 million ##end_quote## [文档 2]，而目标区间要求至少75M。这意味着YES的结果必须紧贴甚至突破模型设定的天花板。尽管提前场强劲（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）提供了上行尾部风险，但高端场次售罄带来的需求延迟（##begin_quote## casual moviegoers will be more than happy to wait a day or two... for optimal seats ##end_quote## [文档 2]）构成了被市场情绪低估的物理瓶颈和下行风险，更可能将最终数字锚定在73-77M区间。突破78M进入75-80M的概率存在，但窗口狭窄，风险高于机会。\n\nFINAL PREDICTION: 40%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$70M–$78M domestic opening",
+              "doc_index": 1
+            },
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "casual moviegoers will be more than happy to wait a day or two... for optimal seats",
+              "doc_index": 2
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "name": "综合策略师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "综合策略师",
+        "stance": "neutral",
+        "probability": 58.0,
+        "reasoning": "综合整场辩论，最有力的共振信号是破纪录的提前场（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）和上映前一周的强劲预售趋势（##begin_quote## now trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2]），这构成了对早期保守跟踪（$55M+）的实质性超越，并显著右移了票房分布。然而，目标区间（75-80M）的狭窄性、预测模型的上限锚定（78M）以及类比《奥本海默》所暗示的潜在周六微跌风险（##begin_quote## dipping slightly on Saturday ##end_quote## [文档 6]），共同构成了精确命中的主要阻力。权衡之下，实际开画最可能落在78M附近，这使其落入目标区间的概率高于纯统计基准，但突破80M导致NO的尾部风险限制了概率的进一步上行。",
+        "raw_response": "FINAL REASONING: 综合整场辩论，最有力的共振信号是破纪录的提前场（##begin_quote## $11M+ In Previews, Best YTD ##end_quote## [文档 4]）和上映前一周的强劲预售趋势（##begin_quote## now trending above early tracking and potentially even higher than industry estimates ##end_quote## [文档 2]），这构成了对早期保守跟踪（$55M+）的实质性超越，并显著右移了票房分布。然而，目标区间（75-80M）的狭窄性、预测模型的上限锚定（78M）以及类比《奥本海默》所暗示的潜在周六微跌风险（##begin_quote## dipping slightly on Saturday ##end_quote## [文档 6]），共同构成了精确命中的主要阻力。权衡之下，实际开画最可能落在78M附近，这使其落入目标区间的概率高于纯统计基准，但突破80M导致NO的尾部风险限制了概率的进一步上行。\n\nFINAL PREDICTION: 58%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$11M+ In Previews, Best YTD",
+              "doc_index": 4
+            },
+            {
+              "quote": "now trending above early tracking and potentially even higher than industry estimates",
+              "doc_index": 2
+            },
+            {
+              "quote": "dipping slightly on Saturday",
+              "doc_index": 6
+            }
+          ],
+          "cited_doc_indices": [
+            2,
+            4,
+            6
+          ]
+        }
+      }
+    }
+  ]
+}

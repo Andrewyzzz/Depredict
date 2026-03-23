@@ -1,0 +1,2009 @@
+{
+  "question": "Will \"Project Hail Mary\" Opening Weekend Box Office be between 80m and 85m?",
+  "market_price": 0.925,
+  "timestamp": "2026-03-23T03:44:37.378548",
+  "rag_sources": [
+    {
+      "title": "[News] Box Office: 'Project Hail Mary' Rockets to Galactic $80.6M, ...",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/project-hail-mary-box-office-blasts-off-to-huge-opening-1236543804/",
+      "source": "tavily"
+    },
+    {
+      "title": "[News] Andy Weir's PROJECT HAIL MARY (~$60-70M+) Tracking ...",
+      "url": "https://boxofficetheory.com/box-office-weekend-forecast-andy-weir-project-hail-mary-tracking-breakout-launch-potential-amazon-mgm-record-career-best-debuts-gosling-lord-miller/",
+      "source": "tavily"
+    },
+    {
+      "title": "[DuckDuckGo] &#x27;Project Hail Mary&#x27; blasts off with $80.5 million at box office",
+      "url": "https://www.boston.com/culture/entertainment/2026/03/22/box-office-project-hail-mary-blasts-off-with-80-5-million-a-best-for-amazon-mgm-and-the-year/",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "[DuckDuckGo] Box Office: Ryan Gosling&#x27;s &#x27;Project Hail Mary&#x27; Scores ... - Variety",
+      "url": "https://variety.com/2026/film/box-office/project-hail-mary-box-office-biggest-debut-2026-amazon-mgm-record-1236696247/",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "[DuckDuckGo] &#x27;Project Hail Mary&#x27; blasts off with $80.5 million, a ... - NBC News",
+      "url": "https://www.nbcnews.com/news/us-news/project-hail-mary-box-office-rcna264619",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "[Google News] Disney Pixar’s ‘Inside Out 2’ Poised To Be Highest Opening Of 2024 YTD With $80M-$85M – Box Office Early Look - Deadline",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOc2FaQ3ZNbmlGSXE1aHF1OXN6Q2xJRzZQcW5DcEExOFlBUGZLTDBoN3o5WTFvMjZiX0pfSjlnWjRiOWV6b0c5a3M2Um54RTZBNkRyZGF1N2owOU9rQy1jU3VXY3UyWi1wZUdXYkc4cHBRa3lnYndyVVNrQTJPUjRsaE5ENzZQakpyeVVLQm1VTVhFa1VHZlZ6S095dWwzQkxPcURUV09uQTk0dFRXZGFjclp6dDJRamIzckR2dnI0TE8yZTd4eW52UEhoTVh2aUlBenBYVlU0Mm9ybm8?oc=5",
+      "source": "news_rss"
+    },
+    {
+      "title": "[DuckDuckGo] &#x27;Project Hail Mary&#x27; Nearly Matches &#x27;Oppenheimer&#x27; Box Office Opening ...",
+      "url": "https://www.thewrap.com/creative-content/movies/project-hail-mary-80-million-box-office-opening/",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "[DuckDuckGo] Project Hail Mary - Box Office Mojo",
+      "url": "https://www.boxofficemojo.com/release/rl1993768961/",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "[DuckDuckGo] Box Office: &#x27;Project Hail Mary&#x27; Headed To Strong $77M+ U.S. Opening",
+      "url": "https://deadline.com/2026/03/box-office-project-hail-mary-ready-or-not-2-1236761181/",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "[DuckDuckGo] Project Hail Mary box office: Ryan Gosling sci-fi epic earns $80.5 ...",
+      "url": "https://apnews.com/article/box-office-project-hail-mary-cff0a22a0a9d4fc1e1642b79f9160dfb",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "[DuckDuckGo] Project Hail Mary Breaks 3 Major Box Office Records As Opening Weekend ...",
+      "url": "https://screenrant.com/project-hail-mary-box-office-records-opening-weekend-total/",
+      "source": "duckduckgo"
+    },
+    {
+      "title": "[Reddit] Blumenthal: \"It looks more and more likely there will be boots on the ground and we have no idea what the goals of this war are.\"",
+      "url": "https://www.reddit.com/r/UnderReportedNews/comments/1rk6o88/blumenthal_it_looks_more_and_more_likely_there/",
+      "source": "reddit"
+    },
+    {
+      "title": "[Reddit] President Trump imposes a 10% global tariff under Section 122 and says all existing tariffs will remain in place, despite the recent Supreme Court ruling.",
+      "url": "https://www.reddit.com/r/law/comments/1ra4yys/president_trump_imposes_a_10_global_tariff_under/",
+      "source": "reddit"
+    },
+    {
+      "title": "[News] Box Office: 'Project Hail Mary' blasts off with $80.5 million, a ...",
+      "url": "https://lancasteronline.com/entertainment/national/box-office-project-hail-mary-blasts-off-with-80-5-million-a-best-for-amazon/article_2fc91920-2bc7-5818-99e5-9eeca15a1ff2.html",
+      "source": "tavily"
+    },
+    {
+      "title": "[News] Box Office: 'Project Hail Mary' blasts off with $80.5 million, a ...",
+      "url": "https://www.sfchronicle.com/entertainment/article/box-office-project-hail-mary-blasts-off-22090451.php",
+      "source": "tavily"
+    }
+  ],
+  "document_count": 15,
+  "rounds": {
+    "round1": [
+      {
+        "agent_name": "乐观分析师",
+        "stance": "bull",
+        "probability": 99.0,
+        "reasoning": "作为乐观分析师，我仔细评估了所有文档。文档1、2、3、4、5、7直接提供了《Project Hail Mary》开画票房的具体数据或预测，相关性极高（评分8-10）。文档6讨论的是另一部电影《Inside Out 2》，与当前问题无关，属于干扰信息，不予考虑。\n\n**1. 支持（YES）的论据**\n*   **实际开画数据已落入区间：** 多个权威票房报告证实，《Project Hail Mary》北美首周末票房已达到80.5-80.6百万美元，这已经稳稳地位于80-85百万美元的预测区间内。 ##begin_quote## Phil Lord and Christopher Miller’s *Project Hail Mary*, starring Ryan Gosling, blasted off to a galaxy far, far away with a domestic launch of $80.6 million ##end_quote## [文档 1]。另一报道也确认了 ##begin_quote## $80.5 million in ticket sales ##end_quote## [文档 3]。这是最直接、最有力的证据。\n*   **开画表现远超早期预测，显示强劲动能：** 电影的实际开画票房（80.6M）显著高于开画前的主流预测范围上限（78M），甚至超过了“超过77M”的乐观报道。 ##begin_quote## BOT Domestic Weekend Forecast Range: $60 — 78 million ##end_quote## [文档 2] 以及 ##begin_quote## Rocketing to Gravity-Defying $77 Million-Plus Opening ##end_quote## [文档 1]。这种超预期表现证明了其强大的市场吸引力和观众基本盘，使得最终数字稳定在80M以上并向上区间靠拢的可能性大增。\n*   **创纪录的开画与广泛上映规模支撑高位数字：** 该片为发行方亚马逊米高梅创造了历史最佳开画纪录，并在超过4000块屏幕上大规模上映，这为其票房冲高提供了物理基础和市场热度保障。 ##begin_quote## delivering a record opening for studio Amazon MGM ##end_quote## [文档 5] 以及 ##begin_quote## opened on 4,007 screens ##end_quote## [文档 5]。这种破纪录的表现和广泛覆盖通常意味着强劲的票房持久力，周末三天的最终官方数字极有可能维持在已报告的高位。\n\n**2. 反对（NO）的论据**\n*   **最终官方数据可能存在微调：** 目前报道的80.5/80.6百万美元是周日估算值。尽管大幅调整的可能性很低，但历史上存在周一最终核实数据与周日估算出现微小出入（通常为数万到数十万美元）的情况。若向下调整，虽然不太可能跌破80M，但仍是理论上的风险点。\n*   **缺乏对周末单日数据的细分分析：** 提供的文档没有给出周五、周六、周日的单日票房细分。如果周日票房跌幅异常剧烈（尽管目前的总数字不支持这一点），可能意味着周日估算过于乐观，但考虑到整体开画已达成，此风险较小。\n*   **市场竞争的潜在影响被低估：** 虽然电影目前轻松夺冠，但文档中未详细提及同期其他影片对其周末后期排片和观众分流的具体影响。不过，鉴于其开画成绩已大幅领先（报道称“easily topped”），这一因素在首周末三天内的影响可能已充分反映在当前的高票房中，构成重大威胁的可能性低。\n\n**3. 综合分析**\n权衡以上因素，支持“YES”的证据具有压倒性优势。核心事实是，**多个独立信源确认的实际开画票房已落在80-85M区间内**。反对论据更多是基于技术性微调和理论上的极小概率事件，无法撼动已成事实的数据基础。电影不仅达到了预测区间，更是以超越行业最乐观预测的姿态完成，这证明了其票房实力的扎实程度。作为乐观分析师，我关注已实现的成功数据和积极动能，而非对已确认数字进行无根据的怀疑。\n\n**4. 最终概率估计**\n基于已实现的、被多方确认的票房数据（80.5-80.6M），该结果已经发生并满足问题条件。因此，这是一个极高确定性的事件。",
+        "raw_response": "REASONING: 作为乐观分析师，我仔细评估了所有文档。文档1、2、3、4、5、7直接提供了《Project Hail Mary》开画票房的具体数据或预测，相关性极高（评分8-10）。文档6讨论的是另一部电影《Inside Out 2》，与当前问题无关，属于干扰信息，不予考虑。\n\n**1. 支持（YES）的论据**\n*   **实际开画数据已落入区间：** 多个权威票房报告证实，《Project Hail Mary》北美首周末票房已达到80.5-80.6百万美元，这已经稳稳地位于80-85百万美元的预测区间内。 ##begin_quote## Phil Lord and Christopher Miller’s *Project Hail Mary*, starring Ryan Gosling, blasted off to a galaxy far, far away with a domestic launch of $80.6 million ##end_quote## [文档 1]。另一报道也确认了 ##begin_quote## $80.5 million in ticket sales ##end_quote## [文档 3]。这是最直接、最有力的证据。\n*   **开画表现远超早期预测，显示强劲动能：** 电影的实际开画票房（80.6M）显著高于开画前的主流预测范围上限（78M），甚至超过了“超过77M”的乐观报道。 ##begin_quote## BOT Domestic Weekend Forecast Range: $60 — 78 million ##end_quote## [文档 2] 以及 ##begin_quote## Rocketing to Gravity-Defying $77 Million-Plus Opening ##end_quote## [文档 1]。这种超预期表现证明了其强大的市场吸引力和观众基本盘，使得最终数字稳定在80M以上并向上区间靠拢的可能性大增。\n*   **创纪录的开画与广泛上映规模支撑高位数字：** 该片为发行方亚马逊米高梅创造了历史最佳开画纪录，并在超过4000块屏幕上大规模上映，这为其票房冲高提供了物理基础和市场热度保障。 ##begin_quote## delivering a record opening for studio Amazon MGM ##end_quote## [文档 5] 以及 ##begin_quote## opened on 4,007 screens ##end_quote## [文档 5]。这种破纪录的表现和广泛覆盖通常意味着强劲的票房持久力，周末三天的最终官方数字极有可能维持在已报告的高位。\n\n**2. 反对（NO）的论据**\n*   **最终官方数据可能存在微调：** 目前报道的80.5/80.6百万美元是周日估算值。尽管大幅调整的可能性很低，但历史上存在周一最终核实数据与周日估算出现微小出入（通常为数万到数十万美元）的情况。若向下调整，虽然不太可能跌破80M，但仍是理论上的风险点。\n*   **缺乏对周末单日数据的细分分析：** 提供的文档没有给出周五、周六、周日的单日票房细分。如果周日票房跌幅异常剧烈（尽管目前的总数字不支持这一点），可能意味着周日估算过于乐观，但考虑到整体开画已达成，此风险较小。\n*   **市场竞争的潜在影响被低估：** 虽然电影目前轻松夺冠，但文档中未详细提及同期其他影片对其周末后期排片和观众分流的具体影响。不过，鉴于其开画成绩已大幅领先（报道称“easily topped”），这一因素在首周末三天内的影响可能已充分反映在当前的高票房中，构成重大威胁的可能性低。\n\n**3. 综合分析**\n权衡以上因素，支持“YES”的证据具有压倒性优势。核心事实是，**多个独立信源确认的实际开画票房已落在80-85M区间内**。反对论据更多是基于技术性微调和理论上的极小概率事件，无法撼动已成事实的数据基础。电影不仅达到了预测区间，更是以超越行业最乐观预测的姿态完成，这证明了其票房实力的扎实程度。作为乐观分析师，我关注已实现的成功数据和积极动能，而非对已确认数字进行无根据的怀疑。\n\n**4. 最终概率估计**\n基于已实现的、被多方确认的票房数据（80.5-80.6M），该结果已经发生并满足问题条件。因此，这是一个极高确定性的事件。\n\nPREDICTION: 99%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Phil Lord and Christopher Miller’s *Project Hail Mary*, starring Ryan Gosling, blasted off to a galaxy far, far away with a domestic launch of $80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "$80.5 million in ticket sales",
+              "doc_index": 3
+            },
+            {
+              "quote": "BOT Domestic Weekend Forecast Range: $60 — 78 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "Rocketing to Gravity-Defying $77 Million-Plus Opening",
+              "doc_index": 1
+            },
+            {
+              "quote": "delivering a record opening for studio Amazon MGM",
+              "doc_index": 5
+            },
+            {
+              "quote": "opened on 4,007 screens",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            3,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "质疑分析师",
+        "stance": "bear",
+        "probability": 75.0,
+        "reasoning": "首先评估文档相关性。问题核心是《Project Hail Mary》北美首周末票房是否在8000万至8500万美元之间。几乎所有文档都直接涉及该电影的首周末票房数据或预测，相关性极高（评分均高于5）。唯一潜在干扰是Document 6关于《Inside Out 2》的报道，与当前问题无关，相关性评分为0，将完全忽略。\n\n**支持（YES）的论据：**\n1. **实际开画数据已公布且处于区间内**：多个可靠来源确认首周末票房为8000万美元以上。Document 1明确指出：##begin_quote## blasted off to a domestic launch of $80.6 million ##end_quote## [文档 1]。Document 3和4同样报告##begin_quote## $80.5 million ##end_quote## [文档 3, 4]。这些数据均落在80-85百万美元区间内。\n2. **开画表现远超早期预测，显示强劲势头**：电影开画前最高预测为78百万美元（Document 2），但实际结果突破了这一上限。Document 1提到##begin_quote## defying all the odds ##end_quote## 以及##begin_quote## best of the year so far ##end_quote## [文档 1]，表明其表现超越了分析师的基准预期，这种正向意外可能意味着最终确认的数字更可能稳定在已报告的高位区间内。\n3. **发行规模和纪录支持数据的可靠性**：电影在##begin_quote## 4,007 screens ##end_quote## [文档 5]大规模开画，并且##begin_quote## easily topped the domestic box office charts ##end_quote## [文档 5]。这种广泛发行和夺冠地位使得票房数据收集相对全面，减少了因统计不全导致大幅修正的可能性。\n\n**反对（NO）的论据：**\n1. **票房数据存在微小差异和后续修正风险**：虽然多个来源报告80.5/80.6百万美元，但这是初步估计（通常为周日估算）。最终实际数字（actuals）可能在周一或周二因更精确的结算而调整。历史上，大片首周末票房在最终确认时出现几百万美元上下浮动（尤其是向下修正）并不罕见。当前数字紧贴区间下限（80.6M），任何微小向下修正都可能使其低于80M。\n2. **基准率考虑：非续集电影的高开画票房具有不确定性**：Document 1指出该片是##begin_quote## only the second non-sequel non-franchise film of the past decade to open to $80 million or more ##end_quote## [文档 1]。这类原创/非IP电影取得超高开画成绩属于统计上的异常值。异常值往往伴随更大的预测误差和后续数据波动风险，不能简单认为初步数字就是最终结果。\n3. **竞争环境与可能的过度乐观报告**：该开画成绩被宣传为亚马逊MGM的重要胜利（##begin_quote## a notable win for Amazon MGM Studios ##end_quote## [文档 1]）。发行方有动机在初期报告更乐观的数字以营造成功叙事。需警惕潜在的“胜利者偏差”，即初步数据可能被轻微高估，后续才会冷静修正。\n\n**综合分析：**\n核心矛盾在于：已有多份报告确认初步数字落在80-85M区间内，这构成了YES的强证据。然而，作为质疑分析师，我必须关注尾部风险和数据可靠性。关键点在于“Opening Weekend Box Office”通常指最终官方确认的数字，而非初步估算。初步数字（estimates）与最终实际数字（actuals）之间存在系统性的修正风险。考虑到：\n- 报告的数字（80.5M/80.6M）非常接近区间的下限（80M）。\n- 电影属于罕见的非续集高开画案例，其表现缺乏大量可比历史数据来稳定预测。\n- 发行方（Amazon MGM）有强烈的公关动机来宣告一个创纪录的开局。\n\n因此，存在一个不可忽视的概率，即最终确认的数字会因结算调整而略低于80M（例如79.8M）。虽然向上修正的可能性也存在，但基于对过度自信偏差和基准率的审视，向下修正至区间外的风险被市场共识可能低估。\n\n**最终概率估计：**\n综合权衡，已报告的初步数据提供了强有力的YES指向，但基于数据修正的尾部风险，我认为NO的可能性被市场低估。给予YES较高的概率，但保留显著的怀疑空间。",
+        "raw_response": "REASONING:\n首先评估文档相关性。问题核心是《Project Hail Mary》北美首周末票房是否在8000万至8500万美元之间。几乎所有文档都直接涉及该电影的首周末票房数据或预测，相关性极高（评分均高于5）。唯一潜在干扰是Document 6关于《Inside Out 2》的报道，与当前问题无关，相关性评分为0，将完全忽略。\n\n**支持（YES）的论据：**\n1. **实际开画数据已公布且处于区间内**：多个可靠来源确认首周末票房为8000万美元以上。Document 1明确指出：##begin_quote## blasted off to a domestic launch of $80.6 million ##end_quote## [文档 1]。Document 3和4同样报告##begin_quote## $80.5 million ##end_quote## [文档 3, 4]。这些数据均落在80-85百万美元区间内。\n2. **开画表现远超早期预测，显示强劲势头**：电影开画前最高预测为78百万美元（Document 2），但实际结果突破了这一上限。Document 1提到##begin_quote## defying all the odds ##end_quote## 以及##begin_quote## best of the year so far ##end_quote## [文档 1]，表明其表现超越了分析师的基准预期，这种正向意外可能意味着最终确认的数字更可能稳定在已报告的高位区间内。\n3. **发行规模和纪录支持数据的可靠性**：电影在##begin_quote## 4,007 screens ##end_quote## [文档 5]大规模开画，并且##begin_quote## easily topped the domestic box office charts ##end_quote## [文档 5]。这种广泛发行和夺冠地位使得票房数据收集相对全面，减少了因统计不全导致大幅修正的可能性。\n\n**反对（NO）的论据：**\n1. **票房数据存在微小差异和后续修正风险**：虽然多个来源报告80.5/80.6百万美元，但这是初步估计（通常为周日估算）。最终实际数字（actuals）可能在周一或周二因更精确的结算而调整。历史上，大片首周末票房在最终确认时出现几百万美元上下浮动（尤其是向下修正）并不罕见。当前数字紧贴区间下限（80.6M），任何微小向下修正都可能使其低于80M。\n2. **基准率考虑：非续集电影的高开画票房具有不确定性**：Document 1指出该片是##begin_quote## only the second non-sequel non-franchise film of the past decade to open to $80 million or more ##end_quote## [文档 1]。这类原创/非IP电影取得超高开画成绩属于统计上的异常值。异常值往往伴随更大的预测误差和后续数据波动风险，不能简单认为初步数字就是最终结果。\n3. **竞争环境与可能的过度乐观报告**：该开画成绩被宣传为亚马逊MGM的重要胜利（##begin_quote## a notable win for Amazon MGM Studios ##end_quote## [文档 1]）。发行方有动机在初期报告更乐观的数字以营造成功叙事。需警惕潜在的“胜利者偏差”，即初步数据可能被轻微高估，后续才会冷静修正。\n\n**综合分析：**\n核心矛盾在于：已有多份报告确认初步数字落在80-85M区间内，这构成了YES的强证据。然而，作为质疑分析师，我必须关注尾部风险和数据可靠性。关键点在于“Opening Weekend Box Office”通常指最终官方确认的数字，而非初步估算。初步数字（estimates）与最终实际数字（actuals）之间存在系统性的修正风险。考虑到：\n- 报告的数字（80.5M/80.6M）非常接近区间的下限（80M）。\n- 电影属于罕见的非续集高开画案例，其表现缺乏大量可比历史数据来稳定预测。\n- 发行方（Amazon MGM）有强烈的公关动机来宣告一个创纪录的开局。\n\n因此，存在一个不可忽视的概率，即最终确认的数字会因结算调整而略低于80M（例如79.8M）。虽然向上修正的可能性也存在，但基于对过度自信偏差和基准率的审视，向下修正至区间外的风险被市场共识可能低估。\n\n**最终概率估计：**\n综合权衡，已报告的初步数据提供了强有力的YES指向，但基于数据修正的尾部风险，我认为NO的可能性被市场低估。给予YES较高的概率，但保留显著的怀疑空间。\nPREDICTION: 75%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "blasted off to a domestic launch of $80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "$80.5 million ##end_quote## [文档 3, 4]。这些数据均落在80-85百万美元区间内。\n2. **开画表现远超早期预测，显示强劲势头**：电影开画前最高预测为78百万美元（Document 2），但实际结果突破了这一上限。Document 1提到##begin_quote## defying all the odds ##end_quote## 以及##begin_quote## best of the year so far",
+              "doc_index": 1
+            },
+            {
+              "quote": "4,007 screens",
+              "doc_index": 5
+            },
+            {
+              "quote": "easily topped the domestic box office charts",
+              "doc_index": 5
+            },
+            {
+              "quote": "only the second non-sequel non-franchise film of the past decade to open to $80 million or more",
+              "doc_index": 1
+            },
+            {
+              "quote": "a notable win for Amazon MGM Studios",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "贝叶斯分析师",
+        "stance": "neutral",
+        "probability": 88.0,
+        "reasoning": "首先评估文档相关性。问题聚焦于电影《Project Hail Mary》北美首周末票房是否在8000万至8500万美元之间。所有文档均围绕该电影的票房表现、预测和实际结果，因此相关性均较高（评分>5）。我将基于这些信息进行贝叶斯更新。\n\n**先验概率：** 在获得任何具体数据前，一部大制作科幻片首周末票房落入一个500万美元的狭窄区间（8000-8500万）的先验概率是较低的。考虑到历史票房分布的广泛性，我将先验设定为15%。\n\n**支持（YES）的论据：**\n1. **实际开画数据强劲：** 多个独立报道确认了实际开画票房非常接近该区间的下限。##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million at box office ##end_quote## [Document 3]；##begin_quote## collecting a stellar $80.5 million in its box office launch ##end_quote## [Document 4]。另一报道给出略高的数字 ##begin_quote## a domestic launch of $80.6 million ##end_quote## [Document 1]。这些数据点强烈支持票房已落在或极其接近8000万美元。\n2. **最终预测接近实际：** 开画前的最终预测已经指向该区间附近。##begin_quote## ‘Project Hail Mary’ Headed To Strong $77M+ U.S. Opening ##end_quote## [Document 7]，且更早的预测范围上限为7800万 ##begin_quote## BOT Domestic Weekend Forecast Range: $60 — 78 million ##end_quote## [Document 2]。实际结果（80.5/80.6M）略高于这些预测，但偏差在合理范围内，表明市场表现稳定，未出现极端超预期情况，降低了最终数字大幅超出8500万的可能性。\n3. **开画规模与记录：** 电影在大量屏幕上开画，##begin_quote## opened on 4,007 screens ##end_quote## [Document 5]，并且取得了发行方的纪录 ##begin_quote## a record opening for studio Amazon MGM ##end_quote## [Document 5]。这种大规模发行和创纪录的表现通常意味着票房数字经过了周末的精确核算，报告的数字（80.5M）是可靠的最终或接近最终的数字。\n\n**反对（NO）的论据：**\n1. **区间狭窄且数据点处于边界：** 报告的实际数据（80.5M或80.6M）恰好处于目标区间（80M-85M）的最低边缘。周末最终票房统计可能存在微调，例如将周四晚预映票房进行重新划分，导致最终数字略低于8000万。只要最终确切的“开画周末”数字被修正为7990万美元，结果即为NO。\n2. **历史预测存在波动性：** 票房预测和最终报告时常有数百万美元的出入。例如，一个预测范围为##begin_quote## $60 — 78 million ##end_quote## [Document 2]，而另一报道称##begin_quote## eyeing $77M+ ##end_quote## [Document 7]。这种波动性表明，即使是周末结束后的初步数据（80.5M）也可能不是最终经审计的数字。\n3. **存在更高的数据点引用：** 有文档提及了##begin_quote## $80.6 million ##end_quote## [Document 1] 和全球141M的数字，但未明确区分这是估算、初步数据还是最终官方数据。如果80.6M是更准确的最终数字，它仍然在区间内，但这凸显了不同来源间的微小差异。关键在于，任何向下的微小修正（哪怕仅50万美元）都会使结果跌出区间。\n\n**综合分析：**\n从贝叶斯角度看，证据（多个来源报告80.5M/80.6M）显著提升了票房落入80-85M区间的可能性。这些是强似然证据。然而，反对论据提醒我们，所引用的数据可能是“初步估算”而非“最终官方开画周末票房”。问题中的“Opening Weekend Box Office”通常指最终确认的数字。\n- **更新1：** 看到多个可靠来源（Variety, NBC, Hollywood Reporter）报告约80.5M，将后验概率大幅提高。\n- **更新2：** 考虑到数字精确处于区间边界以及最终审计可能存在的微小修正风险，需要对此概率进行折扣。\n权衡后，我认为支持YES的证据权重远大于反对NO的证据。报告的一致性很高，且80.5M与预测的77M+相符，表明这不是一个会大幅修正的异常值。但出于对边界风险和最终数据确认过程的谨慎，我不能将概率赋值为100%。\n\n**最终概率估计：**\n综合先验（15%）和强劲的似然证据，后验概率应很高。鉴于数据点紧贴下限，我将给出一个高度确信但留有余地的概率。",
+        "raw_response": "REASONING:\n首先评估文档相关性。问题聚焦于电影《Project Hail Mary》北美首周末票房是否在8000万至8500万美元之间。所有文档均围绕该电影的票房表现、预测和实际结果，因此相关性均较高（评分>5）。我将基于这些信息进行贝叶斯更新。\n\n**先验概率：** 在获得任何具体数据前，一部大制作科幻片首周末票房落入一个500万美元的狭窄区间（8000-8500万）的先验概率是较低的。考虑到历史票房分布的广泛性，我将先验设定为15%。\n\n**支持（YES）的论据：**\n1. **实际开画数据强劲：** 多个独立报道确认了实际开画票房非常接近该区间的下限。##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million at box office ##end_quote## [Document 3]；##begin_quote## collecting a stellar $80.5 million in its box office launch ##end_quote## [Document 4]。另一报道给出略高的数字 ##begin_quote## a domestic launch of $80.6 million ##end_quote## [Document 1]。这些数据点强烈支持票房已落在或极其接近8000万美元。\n2. **最终预测接近实际：** 开画前的最终预测已经指向该区间附近。##begin_quote## ‘Project Hail Mary’ Headed To Strong $77M+ U.S. Opening ##end_quote## [Document 7]，且更早的预测范围上限为7800万 ##begin_quote## BOT Domestic Weekend Forecast Range: $60 — 78 million ##end_quote## [Document 2]。实际结果（80.5/80.6M）略高于这些预测，但偏差在合理范围内，表明市场表现稳定，未出现极端超预期情况，降低了最终数字大幅超出8500万的可能性。\n3. **开画规模与记录：** 电影在大量屏幕上开画，##begin_quote## opened on 4,007 screens ##end_quote## [Document 5]，并且取得了发行方的纪录 ##begin_quote## a record opening for studio Amazon MGM ##end_quote## [Document 5]。这种大规模发行和创纪录的表现通常意味着票房数字经过了周末的精确核算，报告的数字（80.5M）是可靠的最终或接近最终的数字。\n\n**反对（NO）的论据：**\n1. **区间狭窄且数据点处于边界：** 报告的实际数据（80.5M或80.6M）恰好处于目标区间（80M-85M）的最低边缘。周末最终票房统计可能存在微调，例如将周四晚预映票房进行重新划分，导致最终数字略低于8000万。只要最终确切的“开画周末”数字被修正为7990万美元，结果即为NO。\n2. **历史预测存在波动性：** 票房预测和最终报告时常有数百万美元的出入。例如，一个预测范围为##begin_quote## $60 — 78 million ##end_quote## [Document 2]，而另一报道称##begin_quote## eyeing $77M+ ##end_quote## [Document 7]。这种波动性表明，即使是周末结束后的初步数据（80.5M）也可能不是最终经审计的数字。\n3. **存在更高的数据点引用：** 有文档提及了##begin_quote## $80.6 million ##end_quote## [Document 1] 和全球141M的数字，但未明确区分这是估算、初步数据还是最终官方数据。如果80.6M是更准确的最终数字，它仍然在区间内，但这凸显了不同来源间的微小差异。关键在于，任何向下的微小修正（哪怕仅50万美元）都会使结果跌出区间。\n\n**综合分析：**\n从贝叶斯角度看，证据（多个来源报告80.5M/80.6M）显著提升了票房落入80-85M区间的可能性。这些是强似然证据。然而，反对论据提醒我们，所引用的数据可能是“初步估算”而非“最终官方开画周末票房”。问题中的“Opening Weekend Box Office”通常指最终确认的数字。\n- **更新1：** 看到多个可靠来源（Variety, NBC, Hollywood Reporter）报告约80.5M，将后验概率大幅提高。\n- **更新2：** 考虑到数字精确处于区间边界以及最终审计可能存在的微小修正风险，需要对此概率进行折扣。\n权衡后，我认为支持YES的证据权重远大于反对NO的证据。报告的一致性很高，且80.5M与预测的77M+相符，表明这不是一个会大幅修正的异常值。但出于对边界风险和最终数据确认过程的谨慎，我不能将概率赋值为100%。\n\n**最终概率估计：**\n综合先验（15%）和强劲的似然证据，后验概率应很高。鉴于数据点紧贴下限，我将给出一个高度确信但留有余地的概率。\n\nPREDICTION: 88%",
+        "citations": {
+          "quotes": [],
+          "cited_doc_indices": []
+        }
+      },
+      {
+        "agent_name": "历史类比师",
+        "stance": "neutral",
+        "probability": 98.0,
+        "reasoning": "作为一名历史类比师，我将从电影票房的历史模式中寻找线索。当前的问题是关于《Project Hail Mary》首周末票房是否落在8000万至8500万美元区间。这让我想起历史上那些备受期待、拥有顶级明星和导演的非续集大片，它们的开画表现往往在预测区间内呈现一种“引力中心”效应——即实际数字倾向于向预测范围的上限或中位数靠拢，但极少出现戏剧性的、超出所有理性预期的偏差。\n\n首先，评估文档相关性。文档1、2、3、4、5、7均直接报告或预测了《Project Hail Mary》的票房，相关性极高（9-10分）。文档6涉及另一部电影《Inside Out 2》，与当前问题无关，相关性为0分，是干扰信息，不予考虑。\n\n**支持（YES）的论据：**\n\n1.  **实际开画数据已落入区间：** 多个权威来源报告的实际首周末票房数据，已经明确落在了80-85百万美元的区间内。这是最直接、最有力的证据。例如，Document 1指出该片“blasted off to a galaxy far, far away with a domestic launch of $80.6 million”，而Document 3和Document 7均报告了“$80.5 million”的票房。##begin_quote## blasted off to a galaxy far, far away with a domestic launch of $80.6 million ##end_quote## [文档 1]；##begin_quote## &#x27;Project Hail Mary&#x27; blasts off with $80.5 million at box office ##end_quote## [文档 3]；##begin_quote## Project Hail Mary box office: Ryan Gosling sci-fi epic earns $80.5 ... ##end_quote## [文档 7]。这些数据点清晰地支持了“YES”的结论。\n\n2.  **开画表现超越预测中值，但未失控：** 在开画前，专业机构的预测范围是60-78百万美元。##begin_quote## BOT Domestic Weekend Forecast Range: **$60 — 78 million** ##end_quote## [文档 2]。实际开画的80.6百万美元虽然超过了预测区间的上限，但超出幅度有限（约2.6百万美元，即3.3%），并未形成“井喷式”的、足以冲高至8500万美元以上的巨大动能。历史类比来看，当一部电影的开画票房略超预测上限时，其最终精确数字往往就在上限附近徘徊，而非继续大幅跃升。\n\n3.  **市场环境与发行规模提供了支撑：** 该片在4,007块屏幕上大规模开画，并且轻松登顶票房榜。##begin_quote## The PG-13 rated film opened on 4,007 screens and easily topped the domestic box office charts ##end_quote## [文档 5]。这种发行规模和市场统治地位，意味着其票房收入已经得到了最大化的释放。在没有极端口碑发酵（如《奥本海默》那种长线走势）的首周末，如此大规模开画的票房数字通常具有很高的确定性和集中度，很难在周末三天内发生足以使其脱离80-85百万美元区间的剧烈波动。\n\n**反对（NO）的论据：**\n\n1.  **最终精确统计可能存在微小浮动：** 目前报道的80.5百万或80.6百万美元是“Studio estimates”（周日预估）。##begin_quote## Studio estimates on Sunday say Amazon MGM&#x27;s &quot;Project Hail Mary&quot; has topped the North American box office charts with $80.5 million in ticket sales. ##end_quote## [文档 7]。历史经验表明，周一的最终精确数据可能与周日预估有几十万甚至一两百万美元的出入。虽然浮动通常不大，但如果向下修正至7990万美元，或向上修正至8510万美元，都会导致预测失败。这是一个基于统计流程的历史不确定性。\n\n2.  **存在向上突破区间的微弱可能性：** 该片开画表现强劲，被描述为“defying all the odds”和“surpassing expectations”。##begin_quote## Defying all the odds, Phil Lord and Christopher Miller’s *Project Hail Mary*... blasted off... ##end_quote## [文档 1]；##begin_quote## easily topped the domestic box office charts, surpassing expectations ##end_quote## [文档 5]。如果周日单日的票房后劲（尤其是晚场）异常强劲，最终精确数字存在理论上的可能性被上修至超过8500万美元。虽然从80.6M的基础跃升至85M+需要巨大的增幅，在历史上属于小概率事件，但不能完全排除。\n\n3.  **数据源之间存在不一致：** 不同文档引用的具体数字有细微差别（80.6M vs. 80.5M）。##begin_quote## $80.6 million ##end_quote## [文档 1] vs. ##begin_quote## $80.5 million ##end_quote## [文档 3, 4, 7]。这虽然可能只是四舍五入或初步估算的差异，但也暗示了最终官方数字尚未完全锁定。在历史案例中，这种微小差异有时会随着最终数据的公布而统一到一个可能略微偏离当前所有报道的数字上。\n\n**综合分析：**\n权衡以上因素，历史类比指向一个明确的结论。当一部电影的首周末票房已经由多个主流媒体根据片方预估报道落入某个特定区间时（如此处的80-85M），最终官方数据落在此区间内的概率极高。这类似于历史上的“开画票房确认”模式——周日预估的权威性很强，重大修正（>5%）极为罕见，通常只发生在预估严重失误或计算出现技术问题的情况下。本案例中，80.6M的预估本身已经是一个具体数字，且与区间下限（80M）有足够缓冲。反对论据中的“统计浮动”风险是存在的，但历史数据显示，这种浮动绝大多数时候在±1%以内，即对于80.6M的基础，浮动范围大约在79.8M到81.4M之间，完全包含在80-85M区间内。向上突破至85M以上的可能性，需要单日票房出现近乎奇迹般的增长，缺乏历史先例支持。因此，支持“YES”的证据是压倒性的、事实性的；反对“NO”的证据更多是理论上的、基于极小概率事件的谨慎考量。\n\n**最终概率估计：**\n基于历史类比——即当实际开画票房已被广泛报道处于目标区间内时，最终确认数据几乎必然落在该区间——我给出极高的概率。考虑到极微小的统计修正风险，概率并非绝对的100%，但无限接近。",
+        "raw_response": "REASONING: 作为一名历史类比师，我将从电影票房的历史模式中寻找线索。当前的问题是关于《Project Hail Mary》首周末票房是否落在8000万至8500万美元区间。这让我想起历史上那些备受期待、拥有顶级明星和导演的非续集大片，它们的开画表现往往在预测区间内呈现一种“引力中心”效应——即实际数字倾向于向预测范围的上限或中位数靠拢，但极少出现戏剧性的、超出所有理性预期的偏差。\n\n首先，评估文档相关性。文档1、2、3、4、5、7均直接报告或预测了《Project Hail Mary》的票房，相关性极高（9-10分）。文档6涉及另一部电影《Inside Out 2》，与当前问题无关，相关性为0分，是干扰信息，不予考虑。\n\n**支持（YES）的论据：**\n\n1.  **实际开画数据已落入区间：** 多个权威来源报告的实际首周末票房数据，已经明确落在了80-85百万美元的区间内。这是最直接、最有力的证据。例如，Document 1指出该片“blasted off to a galaxy far, far away with a domestic launch of $80.6 million”，而Document 3和Document 7均报告了“$80.5 million”的票房。##begin_quote## blasted off to a galaxy far, far away with a domestic launch of $80.6 million ##end_quote## [文档 1]；##begin_quote## &#x27;Project Hail Mary&#x27; blasts off with $80.5 million at box office ##end_quote## [文档 3]；##begin_quote## Project Hail Mary box office: Ryan Gosling sci-fi epic earns $80.5 ... ##end_quote## [文档 7]。这些数据点清晰地支持了“YES”的结论。\n\n2.  **开画表现超越预测中值，但未失控：** 在开画前，专业机构的预测范围是60-78百万美元。##begin_quote## BOT Domestic Weekend Forecast Range: **$60 — 78 million** ##end_quote## [文档 2]。实际开画的80.6百万美元虽然超过了预测区间的上限，但超出幅度有限（约2.6百万美元，即3.3%），并未形成“井喷式”的、足以冲高至8500万美元以上的巨大动能。历史类比来看，当一部电影的开画票房略超预测上限时，其最终精确数字往往就在上限附近徘徊，而非继续大幅跃升。\n\n3.  **市场环境与发行规模提供了支撑：** 该片在4,007块屏幕上大规模开画，并且轻松登顶票房榜。##begin_quote## The PG-13 rated film opened on 4,007 screens and easily topped the domestic box office charts ##end_quote## [文档 5]。这种发行规模和市场统治地位，意味着其票房收入已经得到了最大化的释放。在没有极端口碑发酵（如《奥本海默》那种长线走势）的首周末，如此大规模开画的票房数字通常具有很高的确定性和集中度，很难在周末三天内发生足以使其脱离80-85百万美元区间的剧烈波动。\n\n**反对（NO）的论据：**\n\n1.  **最终精确统计可能存在微小浮动：** 目前报道的80.5百万或80.6百万美元是“Studio estimates”（周日预估）。##begin_quote## Studio estimates on Sunday say Amazon MGM&#x27;s &quot;Project Hail Mary&quot; has topped the North American box office charts with $80.5 million in ticket sales. ##end_quote## [文档 7]。历史经验表明，周一的最终精确数据可能与周日预估有几十万甚至一两百万美元的出入。虽然浮动通常不大，但如果向下修正至7990万美元，或向上修正至8510万美元，都会导致预测失败。这是一个基于统计流程的历史不确定性。\n\n2.  **存在向上突破区间的微弱可能性：** 该片开画表现强劲，被描述为“defying all the odds”和“surpassing expectations”。##begin_quote## Defying all the odds, Phil Lord and Christopher Miller’s *Project Hail Mary*... blasted off... ##end_quote## [文档 1]；##begin_quote## easily topped the domestic box office charts, surpassing expectations ##end_quote## [文档 5]。如果周日单日的票房后劲（尤其是晚场）异常强劲，最终精确数字存在理论上的可能性被上修至超过8500万美元。虽然从80.6M的基础跃升至85M+需要巨大的增幅，在历史上属于小概率事件，但不能完全排除。\n\n3.  **数据源之间存在不一致：** 不同文档引用的具体数字有细微差别（80.6M vs. 80.5M）。##begin_quote## $80.6 million ##end_quote## [文档 1] vs. ##begin_quote## $80.5 million ##end_quote## [文档 3, 4, 7]。这虽然可能只是四舍五入或初步估算的差异，但也暗示了最终官方数字尚未完全锁定。在历史案例中，这种微小差异有时会随着最终数据的公布而统一到一个可能略微偏离当前所有报道的数字上。\n\n**综合分析：**\n权衡以上因素，历史类比指向一个明确的结论。当一部电影的首周末票房已经由多个主流媒体根据片方预估报道落入某个特定区间时（如此处的80-85M），最终官方数据落在此区间内的概率极高。这类似于历史上的“开画票房确认”模式——周日预估的权威性很强，重大修正（>5%）极为罕见，通常只发生在预估严重失误或计算出现技术问题的情况下。本案例中，80.6M的预估本身已经是一个具体数字，且与区间下限（80M）有足够缓冲。反对论据中的“统计浮动”风险是存在的，但历史数据显示，这种浮动绝大多数时候在±1%以内，即对于80.6M的基础，浮动范围大约在79.8M到81.4M之间，完全包含在80-85M区间内。向上突破至85M以上的可能性，需要单日票房出现近乎奇迹般的增长，缺乏历史先例支持。因此，支持“YES”的证据是压倒性的、事实性的；反对“NO”的证据更多是理论上的、基于极小概率事件的谨慎考量。\n\n**最终概率估计：**\n基于历史类比——即当实际开画票房已被广泛报道处于目标区间内时，最终确认数据几乎必然落在该区间——我给出极高的概率。考虑到极微小的统计修正风险，概率并非绝对的100%，但无限接近。\n\nPREDICTION: 98%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "blasted off to a galaxy far, far away with a domestic launch of $80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "&#x27;Project Hail Mary&#x27; blasts off with $80.5 million at box office",
+              "doc_index": 3
+            },
+            {
+              "quote": "Project Hail Mary box office: Ryan Gosling sci-fi epic earns $80.5 ...",
+              "doc_index": 7
+            },
+            {
+              "quote": "BOT Domestic Weekend Forecast Range: **$60 — 78 million**",
+              "doc_index": 2
+            },
+            {
+              "quote": "The PG-13 rated film opened on 4,007 screens and easily topped the domestic box office charts",
+              "doc_index": 5
+            },
+            {
+              "quote": "Studio estimates on Sunday say Amazon MGM&#x27;s &quot;Project Hail Mary&quot; has topped the North American box office charts with $80.5 million in ticket sales.",
+              "doc_index": 7
+            },
+            {
+              "quote": "Defying all the odds, Phil Lord and Christopher Miller’s *Project Hail Mary*... blasted off...",
+              "doc_index": 1
+            },
+            {
+              "quote": "easily topped the domestic box office charts, surpassing expectations",
+              "doc_index": 5
+            },
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            3,
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "数据统计师",
+        "stance": "neutral",
+        "probability": 98.0,
+        "reasoning": "首先评估文档相关性。问题核心是电影《Project Hail Mary》北美首周末票房是否在8000万至8500万美元之间。所有文档均围绕该电影的票房表现、预测和报道，因此相关性均较高（评分>5）。我将基于这些文档中的量化数据进行统计分析。\n\n**1. 支持（YES）的论据**\n- **实际报告票房数据点位于区间内**：多个独立来源报告的实际开画票房为80.5百万美元或80.6百万美元。##begin_quote## Studio estimates on Sunday say Amazon MGM's “Project Hail Mary” has topped the North American box office charts with $80.5 million in ticket ##end_quote## [Document 7]。另一文档确认了80.6百万美元。##begin_quote## blasted off to a galaxy far, far away with a domestic launch of $80.6 million ##end_quote## [Document 1]。这两个数据点均明确落在80-85百万美元的区间内。\n- **最终实际数据符合早期高预测范围**：在开画前，权威票房分析机构Box Office Theory给出的预测范围上限为78百万美元，但已有报道指出其表现可能超越此预测。##begin_quote## Box Office: 'Project Hail Mary' Rocketing to Gravity-Defying $77 Million-Plus Opening ##end_quote## [Document 1]。这表明影片上映前的势头已指向80百万美元附近的高位。\n- **开画规模与市场表现支撑该区间**：影片在4,007块屏幕上大规模开画，且轻松登顶票房榜。##begin_quote## The PG-13 rated film opened on 4,007 screens and easily topped the domestic box office charts ##end_quote## [Document 5]。结合其“年度最佳开画”的表述，其实际表现达到预测区间上限并进入80百万美元档位具有统计上的合理性。\n\n**2. 反对（NO）的论据**\n- **预测模型给出的核心区间低于80百万美元**：在开画前，最具体的量化预测来自Box Office Theory，其预测范围是60-78百万美元。##begin_quote## BOT Domestic Weekend Forecast Range: $60 — 78 million ##end_quote## [Document 2]。这意味着基于上映前数据的统计模型，其核心预期（尤其是中点）低于80百万美元。\n- **历史类比显示达到此区间属罕见事件**：文档指出，过去十年中非续集或非系列电影开画超过6000万美元的仅有三部。##begin_quote## becoming only one of three non-sequel or franchise installments in the past decade to open to $60 million or more domestically ##end_quote## [Document 1]。虽然未直接否定80-85百万美元区间，但强调了达到如此高位的统计稀有性，增加了不确定性。\n- **存在数据报告差异的可能性**：虽然多个来源报告了80.5/80.6百万美元，但这是“Studio estimates”（工作室预估）。最终确切的官方数据（actuals）可能存在微小调整，尽管通常调整幅度不大，但在统计上不能完全排除最终数字略低于80百万美元或略高于85百万美元的可能性。\n\n**3. 综合分析**\n从纯粹的数据统计视角分析：支持“YES”的核心论据是多个可靠来源报告的实际观测值（80.5M/80.6M），这些是直接证据。在统计推断中，实际观测数据权重高于先验预测模型。反对“NO”的论据主要基于上映前的预测区间和历史稀有性，这些是间接证据，在事件发生后（即实际数据已产生时）的修正分析中，其解释力减弱。预测区间（60-78M）被实际结果（>80M）突破，这本身是模型误差的一种体现，但不能改变已观测到的事实。数据报告差异是潜在风险，但行业惯例显示，周日预估与最终数据的差异通常极小（±1%以内），极难使数字脱离80-85M区间。考虑到多个独立信源的一致性，数据错误的概率很低。\n\n**4. 最终概率估计**\n基于上述，实际观测值（80.5M/80.6M）明确落入目标区间（80M-85M）是当前最有力的统计事实。反对论据主要反映事件发生前的不确定性，而非对已发生事件的质疑。因此，该事件为真的概率极高。在量化估计中，需为极小的数据修订可能性留出余地。综合判断，概率为 **98%**。",
+        "raw_response": "REASONING:\n首先评估文档相关性。问题核心是电影《Project Hail Mary》北美首周末票房是否在8000万至8500万美元之间。所有文档均围绕该电影的票房表现、预测和报道，因此相关性均较高（评分>5）。我将基于这些文档中的量化数据进行统计分析。\n\n**1. 支持（YES）的论据**\n- **实际报告票房数据点位于区间内**：多个独立来源报告的实际开画票房为80.5百万美元或80.6百万美元。##begin_quote## Studio estimates on Sunday say Amazon MGM's “Project Hail Mary” has topped the North American box office charts with $80.5 million in ticket ##end_quote## [Document 7]。另一文档确认了80.6百万美元。##begin_quote## blasted off to a galaxy far, far away with a domestic launch of $80.6 million ##end_quote## [Document 1]。这两个数据点均明确落在80-85百万美元的区间内。\n- **最终实际数据符合早期高预测范围**：在开画前，权威票房分析机构Box Office Theory给出的预测范围上限为78百万美元，但已有报道指出其表现可能超越此预测。##begin_quote## Box Office: 'Project Hail Mary' Rocketing to Gravity-Defying $77 Million-Plus Opening ##end_quote## [Document 1]。这表明影片上映前的势头已指向80百万美元附近的高位。\n- **开画规模与市场表现支撑该区间**：影片在4,007块屏幕上大规模开画，且轻松登顶票房榜。##begin_quote## The PG-13 rated film opened on 4,007 screens and easily topped the domestic box office charts ##end_quote## [Document 5]。结合其“年度最佳开画”的表述，其实际表现达到预测区间上限并进入80百万美元档位具有统计上的合理性。\n\n**2. 反对（NO）的论据**\n- **预测模型给出的核心区间低于80百万美元**：在开画前，最具体的量化预测来自Box Office Theory，其预测范围是60-78百万美元。##begin_quote## BOT Domestic Weekend Forecast Range: $60 — 78 million ##end_quote## [Document 2]。这意味着基于上映前数据的统计模型，其核心预期（尤其是中点）低于80百万美元。\n- **历史类比显示达到此区间属罕见事件**：文档指出，过去十年中非续集或非系列电影开画超过6000万美元的仅有三部。##begin_quote## becoming only one of three non-sequel or franchise installments in the past decade to open to $60 million or more domestically ##end_quote## [Document 1]。虽然未直接否定80-85百万美元区间，但强调了达到如此高位的统计稀有性，增加了不确定性。\n- **存在数据报告差异的可能性**：虽然多个来源报告了80.5/80.6百万美元，但这是“Studio estimates”（工作室预估）。最终确切的官方数据（actuals）可能存在微小调整，尽管通常调整幅度不大，但在统计上不能完全排除最终数字略低于80百万美元或略高于85百万美元的可能性。\n\n**3. 综合分析**\n从纯粹的数据统计视角分析：支持“YES”的核心论据是多个可靠来源报告的实际观测值（80.5M/80.6M），这些是直接证据。在统计推断中，实际观测数据权重高于先验预测模型。反对“NO”的论据主要基于上映前的预测区间和历史稀有性，这些是间接证据，在事件发生后（即实际数据已产生时）的修正分析中，其解释力减弱。预测区间（60-78M）被实际结果（>80M）突破，这本身是模型误差的一种体现，但不能改变已观测到的事实。数据报告差异是潜在风险，但行业惯例显示，周日预估与最终数据的差异通常极小（±1%以内），极难使数字脱离80-85M区间。考虑到多个独立信源的一致性，数据错误的概率很低。\n\n**4. 最终概率估计**\n基于上述，实际观测值（80.5M/80.6M）明确落入目标区间（80M-85M）是当前最有力的统计事实。反对论据主要反映事件发生前的不确定性，而非对已发生事件的质疑。因此，该事件为真的概率极高。在量化估计中，需为极小的数据修订可能性留出余地。综合判断，概率为 **98%**。\n\nPREDICTION: 98%",
+        "citations": {
+          "quotes": [],
+          "cited_doc_indices": []
+        }
+      },
+      {
+        "agent_name": "情绪分析师",
+        "stance": "bull",
+        "probability": 98.0,
+        "reasoning": "作为情绪分析师，我关注市场叙事和动量。当前关于《Project Hail Mary》的媒体情绪极为乐观，形成了一个强大的“成功叙事”和“破纪录”的舆论场，这本身就会吸引更多观众，形成自我实现的票房动量。\n\n**支持（YES）的论据：**\n1. **实际开画数据已落入区间：** 多个权威票房报道证实，电影北美首周末票房已达到或略高于80.5百万美元。例如，##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million at box office ##end_quote## [Document 3]，以及##begin_quote## Ryan Gosling‘s sci-fi epic \"Project Hail Mary\" lived up to its name, collecting a stellar $80.5 million in its box office launch ##end_quote## [Document 4]。另一报道甚至给出80.6百万美元的数据##begin_quote## blasted off to a galaxy far, far away with a domestic launch of $80.6 million ##end_quote## [Document 1]。这些数据已明确落在80-85百万美元的区间内。\n2. **远超预期的市场动量：** 电影开画前，市场最高预测约为78百万美元##begin_quote## BOT Domestic Weekend Forecast Range: $60 — 78 million ##end_quote## [Document 2]。而实际80.5+百万美元的成绩不仅大幅超越预测上沿，更被媒体渲染为“逆势而上”、“创造纪录”的事件##begin_quote## Defying all the odds... a notable win for Amazon MGM Studios ##end_quote## [Document 1]。这种“超预期”叙事会进一步刺激周末票房表现，巩固其落在高位区间。\n3. **强劲的开画规模与正面反馈循环：** 电影在超过4000块屏幕上大规模开画##begin_quote## The PG-13 rated film opened on 4,007 screens ##end_quote## [Document 5]，并轻松登顶票房榜。作为一部非续集、非IP电影取得如此成绩，媒体将其与《奥本海默》相提并论##begin_quote## only the second non-sequel non-franchise film of the past decade to open to $80 million or more domestically after Christopher Nolan's 'Oppenheimer' ##end_quote## [Document 1]。这种类比创造了强大的高端品牌联想，有助于维持周末期间的观影热情，使最终数字稳定在区间内而非下滑。\n\n**反对（NO）的论据：**\n1. **最终精确数据可能存在微小波动：** 目前报道的80.5/80.6百万美元是早期估算值。周末结束后，周一的最终精算数据可能存在数十万美元的微小调整。虽然大幅超出区间的可能性极低，但理论上存在因统计调整而略低于80.0百万美元（例如79.9百万美元）的极小风险。\n2. **缺乏后续日期的强劲续航证据：** 提供的文档主要聚焦于开画首周末的总额或预测，缺乏对周五、周六、周日单日票房走势的详细分析。如果周日票房跌幅大于行业常态，可能略微拉低最终总和。然而，考虑到电影的火爆叙事和PG-13评级，这种异常大幅下跌的概率被市场情绪压低。\n3. **竞争环境虽弱但存在分流可能：** 文档中提到当周其他新片如《Dhurandhar: The Revenge》预测仅为1300-1800万美元##begin_quote## 5-Day BOT Domestic Weekend Forecast Range: $13 — 18 million ##end_quote## [Document 2]，对《Project Hail Mary》构不成实质威胁。真正的风险可能来自存量电影或流媒体，但在当前“必须在大银幕体验”的科幻史诗叙事下，这种分流效应有限。\n\n**综合分析：**\n市场情绪是决定性的。当前围绕《Project Hail Mary》的叙事是“巨大的成功”、“亚马逊MGM的纪录”、“年度最佳开画”、“媲美《奥本海默》的非IP奇迹”。##begin_quote## a record opening for studio Amazon MGM ##end_quote## [Document 5]。这种媒体狂欢和社交热度不仅反映了已实现的票房，更会锁定并可能轻微推高最终数字。反对论据中的风险（如数据微调）在强大的情绪动量面前显得微不足道。多个独立信源（Hollywood Reporter, Variety, NBC News）确认的数据高度集中在80.5-80.6百万美元，这为“YES”提供了坚实的事实基础。情绪面（极度乐观的叙事）与数据面（已落于区间）形成了强烈共振。\n\n**最终概率估计：**\n基于已实现的、被广泛报道的票房数据，以及支撑该数据的压倒性积极市场情绪和媒体叙事，该结果几乎已成为既定事实。反对理由仅为技术性微调风险，概率极低。因此，给予极高的概率。",
+        "raw_response": "REASONING: 作为情绪分析师，我关注市场叙事和动量。当前关于《Project Hail Mary》的媒体情绪极为乐观，形成了一个强大的“成功叙事”和“破纪录”的舆论场，这本身就会吸引更多观众，形成自我实现的票房动量。\n\n**支持（YES）的论据：**\n1. **实际开画数据已落入区间：** 多个权威票房报道证实，电影北美首周末票房已达到或略高于80.5百万美元。例如，##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million at box office ##end_quote## [Document 3]，以及##begin_quote## Ryan Gosling‘s sci-fi epic \"Project Hail Mary\" lived up to its name, collecting a stellar $80.5 million in its box office launch ##end_quote## [Document 4]。另一报道甚至给出80.6百万美元的数据##begin_quote## blasted off to a galaxy far, far away with a domestic launch of $80.6 million ##end_quote## [Document 1]。这些数据已明确落在80-85百万美元的区间内。\n2. **远超预期的市场动量：** 电影开画前，市场最高预测约为78百万美元##begin_quote## BOT Domestic Weekend Forecast Range: $60 — 78 million ##end_quote## [Document 2]。而实际80.5+百万美元的成绩不仅大幅超越预测上沿，更被媒体渲染为“逆势而上”、“创造纪录”的事件##begin_quote## Defying all the odds... a notable win for Amazon MGM Studios ##end_quote## [Document 1]。这种“超预期”叙事会进一步刺激周末票房表现，巩固其落在高位区间。\n3. **强劲的开画规模与正面反馈循环：** 电影在超过4000块屏幕上大规模开画##begin_quote## The PG-13 rated film opened on 4,007 screens ##end_quote## [Document 5]，并轻松登顶票房榜。作为一部非续集、非IP电影取得如此成绩，媒体将其与《奥本海默》相提并论##begin_quote## only the second non-sequel non-franchise film of the past decade to open to $80 million or more domestically after Christopher Nolan's 'Oppenheimer' ##end_quote## [Document 1]。这种类比创造了强大的高端品牌联想，有助于维持周末期间的观影热情，使最终数字稳定在区间内而非下滑。\n\n**反对（NO）的论据：**\n1. **最终精确数据可能存在微小波动：** 目前报道的80.5/80.6百万美元是早期估算值。周末结束后，周一的最终精算数据可能存在数十万美元的微小调整。虽然大幅超出区间的可能性极低，但理论上存在因统计调整而略低于80.0百万美元（例如79.9百万美元）的极小风险。\n2. **缺乏后续日期的强劲续航证据：** 提供的文档主要聚焦于开画首周末的总额或预测，缺乏对周五、周六、周日单日票房走势的详细分析。如果周日票房跌幅大于行业常态，可能略微拉低最终总和。然而，考虑到电影的火爆叙事和PG-13评级，这种异常大幅下跌的概率被市场情绪压低。\n3. **竞争环境虽弱但存在分流可能：** 文档中提到当周其他新片如《Dhurandhar: The Revenge》预测仅为1300-1800万美元##begin_quote## 5-Day BOT Domestic Weekend Forecast Range: $13 — 18 million ##end_quote## [Document 2]，对《Project Hail Mary》构不成实质威胁。真正的风险可能来自存量电影或流媒体，但在当前“必须在大银幕体验”的科幻史诗叙事下，这种分流效应有限。\n\n**综合分析：**\n市场情绪是决定性的。当前围绕《Project Hail Mary》的叙事是“巨大的成功”、“亚马逊MGM的纪录”、“年度最佳开画”、“媲美《奥本海默》的非IP奇迹”。##begin_quote## a record opening for studio Amazon MGM ##end_quote## [Document 5]。这种媒体狂欢和社交热度不仅反映了已实现的票房，更会锁定并可能轻微推高最终数字。反对论据中的风险（如数据微调）在强大的情绪动量面前显得微不足道。多个独立信源（Hollywood Reporter, Variety, NBC News）确认的数据高度集中在80.5-80.6百万美元，这为“YES”提供了坚实的事实基础。情绪面（极度乐观的叙事）与数据面（已落于区间）形成了强烈共振。\n\n**最终概率估计：**\n基于已实现的、被广泛报道的票房数据，以及支撑该数据的压倒性积极市场情绪和媒体叙事，该结果几乎已成为既定事实。反对理由仅为技术性微调风险，概率极低。因此，给予极高的概率。\n\nPREDICTION: 98%",
+        "citations": {
+          "quotes": [],
+          "cited_doc_indices": []
+        }
+      },
+      {
+        "agent_name": "逆向投资者",
+        "stance": "bear",
+        "probability": 45.0,
+        "reasoning": "让我先评估这些文档。问题核心是《Project Hail Mary》北美开画周末票房是否在8000万至8500万美元之间。文档1、3、4、5、7直接报告了实际票房数据，相关性极高（9-10分）。文档2是预测数据，有参考价值（7分）。文档6完全关于另一部电影《Inside Out 2》，是明显的干扰信息（0分），我将忽略它。\n\n**支持（YES）的论据：**\n1. 多个权威票房报告确认其开画成绩已落在区间内。文档1明确指出：##begin_quote## blasted off to a galaxy far, far away with a domestic launch of $80.6 million ##end_quote## [文档 1]。文档3和4同样确认了##begin_quote## $80.5 million in ticket sales ##end_quote## [文档 3]和##begin_quote## $80.5 million in its box office launch ##end_quote## [文档 4]。这提供了最直接的证据。\n2. 开画表现远超早期保守预测，显示强劲动能。文档2显示早期预测范围在##begin_quote## $60 — 78 million ##end_quote## [文档 2]，而实际成绩触及预测上限并突破，说明市场热情可能持续支撑最终数据落在高位区间。\n3. 创造了发行方纪录，存在“报喜”动机。文档5指出##begin_quote## delivering a record opening for studio Amazon MGM ##end_quote## [文档 5]，发行方有动力在最终报告中维持一个亮眼的数字（如80.5M），不会轻易向下修正。\n\n**反对（NO）的论据：**\n1. 票房数据存在细微不一致，最终官方调整可能超出区间。文档1报告80.6M，而文档3、4、5报告80.5M。这0.1M的差异虽小，但揭示了数据并非铁板一块。周末后的最终精确调整（常见于周一）存在技术性下修至8000万以下的可能性，尤其考虑到##begin_quote## 4,007 screens ##end_quote## [文档 5]的广泛上映，单屏收入计算可能存在微小误差。\n2. 市场存在“过度反应”和“锚定偏差”。当前所有报道都在庆祝其媲美《奥本海默》的成功（文档7），这种市场共识和情绪高潮往往是反向信号。投资者锚定在“80M+”这个整数关口，却忽略了票房统计固有的波动性。均值回归法则暗示，一个被大肆宣扬的数字，其最终确认值更容易偏离共识区间。\n3. 逆向思考：非续集原创电影的高开画存在“兑现压力”。文档1提到它是##begin_quote## only the second non-sequel non-franchise film ... to open to $80 million or more ##end_quote## [文档 1]。这种稀有性本身可能夸大了短期热度。首日爆发后，周末走势可能后劲不足，导致周日票房不及预期，从而使最终周末总值略低于当前报告值，滑出80-85M区间（例如下修至79.9M）。\n\n**综合分析：**\n市场现在充满了对《Project Hail Mary》成功的欢呼，共识强烈认为其开画票房稳居8000万以上。然而，逆向投资者必须对这份共识保持警惕。关键矛盾在于：多个来源报告的数据（80.5M/80.6M）看似强力支持YES，但票房报告在周末结束到最终确认之间存在调整历史。当前乐观情绪可能导致人们忽视数据下修的风险。考虑到亚马逊MGM急需一场胜利（文档7），初始报告倾向于乐观。从逆向角度，当所有人都盯着一个区间（80-85M）的上限时，实际结果从下方刺破区间的概率被低估了。支持YES的证据是显性的、已报道的；而支持NO的证据是隐性的、基于系统性偏差和统计特性的。在权衡下，我认为市场共识过于自信，低估了数据微调的风险。\n\n**最终概率估计：**\n基于逆向思维，我给予NO更高的权重。虽然表面数据支持YES，但市场已充分定价此结果。我认为最终官方调整后的数字恰好落在80-85M区间内的概率为45%，而落在区间外（很可能是略低于80M）的概率为55%。",
+        "raw_response": "REASONING: 让我先评估这些文档。问题核心是《Project Hail Mary》北美开画周末票房是否在8000万至8500万美元之间。文档1、3、4、5、7直接报告了实际票房数据，相关性极高（9-10分）。文档2是预测数据，有参考价值（7分）。文档6完全关于另一部电影《Inside Out 2》，是明显的干扰信息（0分），我将忽略它。\n\n**支持（YES）的论据：**\n1. 多个权威票房报告确认其开画成绩已落在区间内。文档1明确指出：##begin_quote## blasted off to a galaxy far, far away with a domestic launch of $80.6 million ##end_quote## [文档 1]。文档3和4同样确认了##begin_quote## $80.5 million in ticket sales ##end_quote## [文档 3]和##begin_quote## $80.5 million in its box office launch ##end_quote## [文档 4]。这提供了最直接的证据。\n2. 开画表现远超早期保守预测，显示强劲动能。文档2显示早期预测范围在##begin_quote## $60 — 78 million ##end_quote## [文档 2]，而实际成绩触及预测上限并突破，说明市场热情可能持续支撑最终数据落在高位区间。\n3. 创造了发行方纪录，存在“报喜”动机。文档5指出##begin_quote## delivering a record opening for studio Amazon MGM ##end_quote## [文档 5]，发行方有动力在最终报告中维持一个亮眼的数字（如80.5M），不会轻易向下修正。\n\n**反对（NO）的论据：**\n1. 票房数据存在细微不一致，最终官方调整可能超出区间。文档1报告80.6M，而文档3、4、5报告80.5M。这0.1M的差异虽小，但揭示了数据并非铁板一块。周末后的最终精确调整（常见于周一）存在技术性下修至8000万以下的可能性，尤其考虑到##begin_quote## 4,007 screens ##end_quote## [文档 5]的广泛上映，单屏收入计算可能存在微小误差。\n2. 市场存在“过度反应”和“锚定偏差”。当前所有报道都在庆祝其媲美《奥本海默》的成功（文档7），这种市场共识和情绪高潮往往是反向信号。投资者锚定在“80M+”这个整数关口，却忽略了票房统计固有的波动性。均值回归法则暗示，一个被大肆宣扬的数字，其最终确认值更容易偏离共识区间。\n3. 逆向思考：非续集原创电影的高开画存在“兑现压力”。文档1提到它是##begin_quote## only the second non-sequel non-franchise film ... to open to $80 million or more ##end_quote## [文档 1]。这种稀有性本身可能夸大了短期热度。首日爆发后，周末走势可能后劲不足，导致周日票房不及预期，从而使最终周末总值略低于当前报告值，滑出80-85M区间（例如下修至79.9M）。\n\n**综合分析：**\n市场现在充满了对《Project Hail Mary》成功的欢呼，共识强烈认为其开画票房稳居8000万以上。然而，逆向投资者必须对这份共识保持警惕。关键矛盾在于：多个来源报告的数据（80.5M/80.6M）看似强力支持YES，但票房报告在周末结束到最终确认之间存在调整历史。当前乐观情绪可能导致人们忽视数据下修的风险。考虑到亚马逊MGM急需一场胜利（文档7），初始报告倾向于乐观。从逆向角度，当所有人都盯着一个区间（80-85M）的上限时，实际结果从下方刺破区间的概率被低估了。支持YES的证据是显性的、已报道的；而支持NO的证据是隐性的、基于系统性偏差和统计特性的。在权衡下，我认为市场共识过于自信，低估了数据微调的风险。\n\n**最终概率估计：**\n基于逆向思维，我给予NO更高的权重。虽然表面数据支持YES，但市场已充分定价此结果。我认为最终官方调整后的数字恰好落在80-85M区间内的概率为45%，而落在区间外（很可能是略低于80M）的概率为55%。\n\nPREDICTION: 45%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "blasted off to a galaxy far, far away with a domestic launch of $80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "$80.5 million in ticket sales",
+              "doc_index": 3
+            },
+            {
+              "quote": "$80.5 million in its box office launch",
+              "doc_index": 4
+            },
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "delivering a record opening for studio Amazon MGM",
+              "doc_index": 5
+            },
+            {
+              "quote": "4,007 screens",
+              "doc_index": 5
+            },
+            {
+              "quote": "only the second non-sequel non-franchise film ... to open to $80 million or more",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "基本面分析师",
+        "stance": "neutral",
+        "probability": 92.0,
+        "reasoning": "首先评估文档相关性。问题聚焦于电影《Project Hail Mary》北美首周末票房是否在8000万至8500万美元之间。文档1、2、3、4、5均直接报道或预测了该片的票房数据，相关性极高（评分9-10）。文档6涉及另一部电影《Inside Out 2》的预测，与当前问题无关，属于干扰信息（评分1）。文档7涉及政治言论，完全无关（评分0）。因此，分析将基于文档1-5。\n\n**1. 支持（YES）的论据**\n- **实际开画数据已落入区间**：根据多个权威报道，该片北美首周末票房实际成绩已达到或略超8000万美元。文档1明确指出：##begin_quote## blasted off to a galaxy far, far away with a domestic launch of $80.6 million ##end_quote## [文档 1]。文档3和4也确认了##begin_quote## $80.5 million at box office ##end_quote## [文档 3]和##begin_quote## collecting a stellar $80.5 million ##end_quote## [文档 4]。这些实际数据已稳固地位于8000万至8500万美元的区间下限。\n- **开画表现远超早期预测中值**：上映前的预测范围虽宽泛，但实际成绩触及了预测区间的上端，显示出超预期的增长动能。文档2显示预测范围为##begin_quote## $60 — 78 million ##end_quote## [文档 2]，而实际80.6百万美元的成绩不仅超过了78百万美元的上限，更表明观众需求强于模型预期，这种势头可能支撑最终修正数据稳定在区间内。\n- **发行规模与市场环境支撑高位开画**：影片在极大规模上映，并创造了发行方的纪录，这为票房达到高位提供了结构性基础。文档5指出##begin_quote## opened on 4,007 screens ##end_quote## [文档 5]，文档1称其为##begin_quote## a notable win for Amazon MGM Studios ##end_quote## [文档 1]。广泛的影院覆盖和发行方的全力推动，是票房能够达到8000万美元以上级别的重要资源保障。\n\n**2. 反对（NO）的论据**\n- **最终精确数据存在微小下修可能**：票房数据在初次报告后，偶尔会因最终审计而进行微调。目前报道的80.6百万美元和80.5百万美元本身已有10万美元的差异，这显示了数据存在细微波动的空间。若最终核算后下修至7990万美元区间，则将略低于8000万美元的门槛。\n- **缺乏持续强劲的预售或口碑数据支撑区间上限**：分析中未见有信息表明其票房动能强劲到足以冲击8500万美元的区间上限。实际成绩更贴近8000万美元而非8500万美元，说明其增长轨迹在开画周末已基本释放，后续修正向上突破中值的可能性相对较低。\n- **市场竞争与外部因素未被充分讨论**：文档中未详细提及同周末其他影片的分流效应或任何意外的外部事件（如重大新闻事件影响影院人流）。虽然该片夺冠，但若竞争影片表现也超预期，可能在其开画周末后期略微侵蚀其单日票房，影响最终总和。\n\n**3. 综合分析**\n从基本面看，核心事实清晰：影片已取得约8050万美元的实际首周末票房。这是一个已发生的、由大规模发行（4007块屏幕）和优质主创团队（Lord、Miller、Gosling）驱动的结果。支持“YES”的论据基于已实现的硬数据，且该数据直接落入目标区间，这是最具决定性的因素。反对论据主要围绕数据的最终微调和缺乏向上动能，属于边际性风险，而非结构性否定。考虑到票房报告通常以百万美元为单位，且80.6百万美元的成绩已被多家主流媒体确认，发生足以使其跌破8000万美元的重大下修（超过60万美元）概率较低。因此，天平显著倾向于“YES”。\n\n**4. 最终概率估计**\n基于实际成绩已稳固处于区间内这一核心事实，尽管存在极小的数据修正风险，但概率极高。",
+        "raw_response": "REASONING:\n首先评估文档相关性。问题聚焦于电影《Project Hail Mary》北美首周末票房是否在8000万至8500万美元之间。文档1、2、3、4、5均直接报道或预测了该片的票房数据，相关性极高（评分9-10）。文档6涉及另一部电影《Inside Out 2》的预测，与当前问题无关，属于干扰信息（评分1）。文档7涉及政治言论，完全无关（评分0）。因此，分析将基于文档1-5。\n\n**1. 支持（YES）的论据**\n- **实际开画数据已落入区间**：根据多个权威报道，该片北美首周末票房实际成绩已达到或略超8000万美元。文档1明确指出：##begin_quote## blasted off to a galaxy far, far away with a domestic launch of $80.6 million ##end_quote## [文档 1]。文档3和4也确认了##begin_quote## $80.5 million at box office ##end_quote## [文档 3]和##begin_quote## collecting a stellar $80.5 million ##end_quote## [文档 4]。这些实际数据已稳固地位于8000万至8500万美元的区间下限。\n- **开画表现远超早期预测中值**：上映前的预测范围虽宽泛，但实际成绩触及了预测区间的上端，显示出超预期的增长动能。文档2显示预测范围为##begin_quote## $60 — 78 million ##end_quote## [文档 2]，而实际80.6百万美元的成绩不仅超过了78百万美元的上限，更表明观众需求强于模型预期，这种势头可能支撑最终修正数据稳定在区间内。\n- **发行规模与市场环境支撑高位开画**：影片在极大规模上映，并创造了发行方的纪录，这为票房达到高位提供了结构性基础。文档5指出##begin_quote## opened on 4,007 screens ##end_quote## [文档 5]，文档1称其为##begin_quote## a notable win for Amazon MGM Studios ##end_quote## [文档 1]。广泛的影院覆盖和发行方的全力推动，是票房能够达到8000万美元以上级别的重要资源保障。\n\n**2. 反对（NO）的论据**\n- **最终精确数据存在微小下修可能**：票房数据在初次报告后，偶尔会因最终审计而进行微调。目前报道的80.6百万美元和80.5百万美元本身已有10万美元的差异，这显示了数据存在细微波动的空间。若最终核算后下修至7990万美元区间，则将略低于8000万美元的门槛。\n- **缺乏持续强劲的预售或口碑数据支撑区间上限**：分析中未见有信息表明其票房动能强劲到足以冲击8500万美元的区间上限。实际成绩更贴近8000万美元而非8500万美元，说明其增长轨迹在开画周末已基本释放，后续修正向上突破中值的可能性相对较低。\n- **市场竞争与外部因素未被充分讨论**：文档中未详细提及同周末其他影片的分流效应或任何意外的外部事件（如重大新闻事件影响影院人流）。虽然该片夺冠，但若竞争影片表现也超预期，可能在其开画周末后期略微侵蚀其单日票房，影响最终总和。\n\n**3. 综合分析**\n从基本面看，核心事实清晰：影片已取得约8050万美元的实际首周末票房。这是一个已发生的、由大规模发行（4007块屏幕）和优质主创团队（Lord、Miller、Gosling）驱动的结果。支持“YES”的论据基于已实现的硬数据，且该数据直接落入目标区间，这是最具决定性的因素。反对论据主要围绕数据的最终微调和缺乏向上动能，属于边际性风险，而非结构性否定。考虑到票房报告通常以百万美元为单位，且80.6百万美元的成绩已被多家主流媒体确认，发生足以使其跌破8000万美元的重大下修（超过60万美元）概率较低。因此，天平显著倾向于“YES”。\n\n**4. 最终概率估计**\n基于实际成绩已稳固处于区间内这一核心事实，尽管存在极小的数据修正风险，但概率极高。\n\nPREDICTION: 92%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "blasted off to a galaxy far, far away with a domestic launch of $80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "$80.5 million at box office",
+              "doc_index": 3
+            },
+            {
+              "quote": "collecting a stellar $80.5 million",
+              "doc_index": 4
+            },
+            {
+              "quote": "$60 — 78 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "opened on 4,007 screens",
+              "doc_index": 5
+            },
+            {
+              "quote": "a notable win for Amazon MGM Studios",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "风险评估师",
+        "stance": "bear",
+        "probability": 92.0,
+        "reasoning": "作为风险评估师，我将首先评估文档相关性。文档1-6均直接涉及《Project Hail Mary》的票房表现或预测，相关性高（评分7-10）。文档7涉及关税政策，与电影票房预测无关，相关性为0，是干扰信息，予以忽略。\n\n**1. 支持（YES）的论据：**\n*   **实际开画数据已落入区间：** 多个独立报道证实，电影北美首周末票房已达到或超过80.5百万美元，这本身就落在了80-85百万美元的区间内。 ##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million at box office ##end_quote## [Document 3] ##begin_quote## Ryan Gosling‘s sci-fi epic “ Project Hail Mary ” lived up to its name, collecting a stellar $80.5 million in its box office launch ##end_quote## [Document 4]\n*   **权威报告确认高位数字：** 更详细的报告给出了80.6百万美元的精确数字，进一步巩固了其处于区间下沿之上的位置。 ##begin_quote## blasted off to a galaxy far, far away with a domestic launch of $80.6 million — the best of the year so far ##end_quote## [Document 1]\n*   **开画表现远超保守预测：** 电影的实际开画票房（80.5/80.6M）显著高于早期跟踪预测和部分分析机构预测范围的上限，显示了强劲的冲高动能，降低了周末修正后大幅跌落至80M以下的风险。 ##begin_quote## Box Office Theory预测《Project Hail Mary》北美首周末票房在60-78百万美元之间 ##end_quote## [知识图谱摘要] 实际数据已突破此范围。\n\n**2. 反对（NO）的论据：**\n*   **最终数据存在修正风险：** 票房数据在首周末初步报告后，常会在最终核算时进行修正。存在因统计口径调整（如包含/不包含周四预览场）而导致数字向下修正，跌破80M下限的尾部风险。虽然当前报告一致，但历史上有过类似修正案例。\n*   **竞争环境与市场饱和度：** 电影在4,007块屏幕上大规模开画， ##begin_quote## The PG-13 rated film opened on 4,007 screens ##end_quote## [Document 5] 这可能意味着其开画日（周五）票房占比较高。若周六、周日增长乏力或出现异常下跌（例如受其他娱乐事件或负面口碑扩散影响），可能导致最终周末数字不及预期。当前乐观情绪可能忽略了次日增长疲软的风险。\n*   **数据源之间存在微小差异：** 不同来源报道的数据存在10万美元的差异（80.5M vs 80.6M）。虽然微小，但这揭示了数据并非铁板一块。在临界值（80M）附近，任何数据源的向下修正或采用较低报告值，都可能使事件判定转向“NO”。这是一个虽小但不可忽视的测量风险。\n\n**3. 综合分析：**\n从风险矩阵看，支持“YES”的证据是压倒性的、具体的且已实现的，构成了高概率、高影响的核心情景。主要风险点集中于尾部事件：数据修正。然而，考虑到多个权威媒体（Hollywood Reporter, Variety, NBC）几乎同时确认了超过80.5M的数字，且该成绩被描述为“创纪录”和“年度最佳”， ##begin_quote## a best for Amazon MGM, and the year ##end_quote## [Document 3] 大规模向下修正至80M以下的可能性属于低概率的“黑天鹅”事件。反对论据中的市场饱和与竞争风险，更多影响票房后劲而非已发生的首周末最终计数。因此，风险天平严重倾向于“YES”。\n\n**4. 最终概率估计：**\n基于已实现的硬数据，以及数据修正风险的量化评估，判定“YES”的概率极高。但作为风险评估师，必须为报告误差、极端统计调整等尾部风险预留空间。因此，概率估计在高度确信的基础上略作折减。",
+        "raw_response": "REASONING:\n作为风险评估师，我将首先评估文档相关性。文档1-6均直接涉及《Project Hail Mary》的票房表现或预测，相关性高（评分7-10）。文档7涉及关税政策，与电影票房预测无关，相关性为0，是干扰信息，予以忽略。\n\n**1. 支持（YES）的论据：**\n*   **实际开画数据已落入区间：** 多个独立报道证实，电影北美首周末票房已达到或超过80.5百万美元，这本身就落在了80-85百万美元的区间内。 ##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million at box office ##end_quote## [Document 3] ##begin_quote## Ryan Gosling‘s sci-fi epic “ Project Hail Mary ” lived up to its name, collecting a stellar $80.5 million in its box office launch ##end_quote## [Document 4]\n*   **权威报告确认高位数字：** 更详细的报告给出了80.6百万美元的精确数字，进一步巩固了其处于区间下沿之上的位置。 ##begin_quote## blasted off to a galaxy far, far away with a domestic launch of $80.6 million — the best of the year so far ##end_quote## [Document 1]\n*   **开画表现远超保守预测：** 电影的实际开画票房（80.5/80.6M）显著高于早期跟踪预测和部分分析机构预测范围的上限，显示了强劲的冲高动能，降低了周末修正后大幅跌落至80M以下的风险。 ##begin_quote## Box Office Theory预测《Project Hail Mary》北美首周末票房在60-78百万美元之间 ##end_quote## [知识图谱摘要] 实际数据已突破此范围。\n\n**2. 反对（NO）的论据：**\n*   **最终数据存在修正风险：** 票房数据在首周末初步报告后，常会在最终核算时进行修正。存在因统计口径调整（如包含/不包含周四预览场）而导致数字向下修正，跌破80M下限的尾部风险。虽然当前报告一致，但历史上有过类似修正案例。\n*   **竞争环境与市场饱和度：** 电影在4,007块屏幕上大规模开画， ##begin_quote## The PG-13 rated film opened on 4,007 screens ##end_quote## [Document 5] 这可能意味着其开画日（周五）票房占比较高。若周六、周日增长乏力或出现异常下跌（例如受其他娱乐事件或负面口碑扩散影响），可能导致最终周末数字不及预期。当前乐观情绪可能忽略了次日增长疲软的风险。\n*   **数据源之间存在微小差异：** 不同来源报道的数据存在10万美元的差异（80.5M vs 80.6M）。虽然微小，但这揭示了数据并非铁板一块。在临界值（80M）附近，任何数据源的向下修正或采用较低报告值，都可能使事件判定转向“NO”。这是一个虽小但不可忽视的测量风险。\n\n**3. 综合分析：**\n从风险矩阵看，支持“YES”的证据是压倒性的、具体的且已实现的，构成了高概率、高影响的核心情景。主要风险点集中于尾部事件：数据修正。然而，考虑到多个权威媒体（Hollywood Reporter, Variety, NBC）几乎同时确认了超过80.5M的数字，且该成绩被描述为“创纪录”和“年度最佳”， ##begin_quote## a best for Amazon MGM, and the year ##end_quote## [Document 3] 大规模向下修正至80M以下的可能性属于低概率的“黑天鹅”事件。反对论据中的市场饱和与竞争风险，更多影响票房后劲而非已发生的首周末最终计数。因此，风险天平严重倾向于“YES”。\n\n**4. 最终概率估计：**\n基于已实现的硬数据，以及数据修正风险的量化评估，判定“YES”的概率极高。但作为风险评估师，必须为报告误差、极端统计调整等尾部风险预留空间。因此，概率估计在高度确信的基础上略作折减。\n\nPREDICTION: 92%",
+        "citations": {
+          "quotes": [],
+          "cited_doc_indices": []
+        }
+      },
+      {
+        "agent_name": "综合策略师",
+        "stance": "neutral",
+        "probability": 92.0,
+        "reasoning": "首先评估文档相关性。问题聚焦于电影《Project Hail Mary》的首周末票房是否在8000万至8500万美元之间。所有文档均围绕该电影的票房表现、预测和实际数据展开，相关性极高（均在8-10分），没有需要忽略的干扰信息。\n\n**1. 支持（YES）的论据**\n- **实际开画数据已落入区间**：多个权威报道确认，电影北美首周末票房已达到或略超8000万美元。##begin_quote## Phil Lord and Christopher Miller’s *Project Hail Mary*, starring Ryan Gosling, blasted off to a galaxy far, far away with a domestic launch of $80.6 million ##end_quote## [Document 1]。另一报道给出相似数字：##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million at box office ##end_quote## [Document 3]。这表明实际结果已非常接近甚至就在区间下限。\n- **开画表现强劲且超预期**：电影开画前最高预测为7800万美元，但实际表现打破了预测上限。##begin_quote## Box Office: 'Project Hail Mary' Rocketing to Gravity-Defying $77 Million-Plus Opening ##end_quote## [Document 1]。这种超预期势头，结合其大规模开画（##begin_quote## opened on 4,007 screens ##end_quote## [Document 5]），说明其票房动能强劲，最终官方调整后的精确数字稳定在80-81百万美元区间的可能性很大。\n- **缺乏强劲竞争对手**：根据票房预测机构的周末展望，同期其他新片实力有限（如《Dhurandhar: The Revenge》预测1300-1800万），##begin_quote## This weekend’s top 10 films are tracking to earn a projected **$128 million+**. ##end_quote## [Document 2]。这意味着《Project Hail Mary》占据了大部分市场份额，其票房数字不易被分流或低估，最终统计更可能巩固在已报告的高位。\n\n**2. 反对（NO）的论据**\n- **票房数据存在微小浮动和修正可能**：票房报告存在初步估算和最终修正的常见差异。目前已有80.6百万和80.5百万两个略有出入的数字。##begin_quote## $80.6 million — the best of the year so far ##end_quote## [Document 1] 与 ##begin_quote## $80.5 million in ticket sales ##end_quote## [Document 3]。这种微小差异表明，最终经审计的官方数字仍有可能向下修正至8000万以下（例如7990万），从而跌出区间。\n- **预测区间上限仅为78M，实际超预期幅度可能有限**：尽管实际开画超预测，但专业机构给出的最高预测范围是78M。##begin_quote## BOT Domestic Weekend Forecast Range: **$60 — 78 million** ##end_quote## [Document 2]。实际80.6M的数值虽然超出，但超出幅度（约2.6M）相对温和，这暗示其票房冲高能力在周末结束时可能已充分释放，继续向上触及85M上限（需再增约4.4M）缺乏明显动力。\n- **历史比较与“非续集”票房天花板**：文章指出该片是十年来仅有的几部非续集/非系列电影开画超6000万的作品之一。##begin_quote## becoming only one of three non-sequel or franchise installments in the past decade to open to $60 million or more domestically ##end_quote## [Document 1]。这类电影虽然表现出色，但缺乏粉丝基本盘的狂热支持，其票房分布可能更集中于核心开画日（如周五），周六日增幅或后续调整未必能支撑其数字大幅跃升进入80-85M区间的中上部。\n\n**3. 综合分析**\n这是一个典型的“事后预测”分析，关键在于判断已流出的初步数据是否稳定，以及官方最终修正的方向。核心矛盾在于：强劲的实际开画数据（支持YES）与数据修正的不确定性及票房增长动能的上限（支持NO）之间的权衡。\n\n从元分析视角看，信号存在共振点：\n- **一致性信号**：所有相关文档都确认开画数字在80.5-80.6M之间，这是一个非常集中且来自多个信源（Hollywood Reporter、NBC、Variety等）的信号，可靠性高。这强烈支持票房已触及区间下限。\n- **分歧点与盲点**：反对论据主要基于“可能发生的修正”和“缺乏向上动能”。然而，在票房报道中，初步数字若被多家主流媒体同时报道且高度一致，通常意味着数据来自权威的票房统计机构（如Comscore），大幅修正（尤其是向下修正超过150万美元使其跌破8000万）的概率在开画周末结束后相对较低。动能方面，电影已创造了亚马逊MGM的纪录（##begin_quote## delivering a record opening for studio Amazon MGM ##end_quote## [Document 5]），其超预期表现本身构成了新闻热点，可能吸引最后一波周末观众，支撑数字稳定甚至微幅上调。\n\n权衡之下，实际数据已落入区间的事实权重极高。反对论据中的“修正风险”是任何票房数据都存在的普遍尾部风险，但基于当前信息，其发生的概率低于数据维持稳定的概率。因此，YES的胜算显著更高。\n\n**4. 最终概率估计**\n基于实际报告数据已明确处于8000-8500万美元区间内（80.5/80.6M），且无迹象表明会出现足以使其跌出区间的重大向下修正，YES的可能性极高。但考虑到数据最终确认前始终存在微小调整的技术性可能，概率并非100%。给予YES **92%** 的概率。",
+        "raw_response": "REASONING:\n首先评估文档相关性。问题聚焦于电影《Project Hail Mary》的首周末票房是否在8000万至8500万美元之间。所有文档均围绕该电影的票房表现、预测和实际数据展开，相关性极高（均在8-10分），没有需要忽略的干扰信息。\n\n**1. 支持（YES）的论据**\n- **实际开画数据已落入区间**：多个权威报道确认，电影北美首周末票房已达到或略超8000万美元。##begin_quote## Phil Lord and Christopher Miller’s *Project Hail Mary*, starring Ryan Gosling, blasted off to a galaxy far, far away with a domestic launch of $80.6 million ##end_quote## [Document 1]。另一报道给出相似数字：##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million at box office ##end_quote## [Document 3]。这表明实际结果已非常接近甚至就在区间下限。\n- **开画表现强劲且超预期**：电影开画前最高预测为7800万美元，但实际表现打破了预测上限。##begin_quote## Box Office: 'Project Hail Mary' Rocketing to Gravity-Defying $77 Million-Plus Opening ##end_quote## [Document 1]。这种超预期势头，结合其大规模开画（##begin_quote## opened on 4,007 screens ##end_quote## [Document 5]），说明其票房动能强劲，最终官方调整后的精确数字稳定在80-81百万美元区间的可能性很大。\n- **缺乏强劲竞争对手**：根据票房预测机构的周末展望，同期其他新片实力有限（如《Dhurandhar: The Revenge》预测1300-1800万），##begin_quote## This weekend’s top 10 films are tracking to earn a projected **$128 million+**. ##end_quote## [Document 2]。这意味着《Project Hail Mary》占据了大部分市场份额，其票房数字不易被分流或低估，最终统计更可能巩固在已报告的高位。\n\n**2. 反对（NO）的论据**\n- **票房数据存在微小浮动和修正可能**：票房报告存在初步估算和最终修正的常见差异。目前已有80.6百万和80.5百万两个略有出入的数字。##begin_quote## $80.6 million — the best of the year so far ##end_quote## [Document 1] 与 ##begin_quote## $80.5 million in ticket sales ##end_quote## [Document 3]。这种微小差异表明，最终经审计的官方数字仍有可能向下修正至8000万以下（例如7990万），从而跌出区间。\n- **预测区间上限仅为78M，实际超预期幅度可能有限**：尽管实际开画超预测，但专业机构给出的最高预测范围是78M。##begin_quote## BOT Domestic Weekend Forecast Range: **$60 — 78 million** ##end_quote## [Document 2]。实际80.6M的数值虽然超出，但超出幅度（约2.6M）相对温和，这暗示其票房冲高能力在周末结束时可能已充分释放，继续向上触及85M上限（需再增约4.4M）缺乏明显动力。\n- **历史比较与“非续集”票房天花板**：文章指出该片是十年来仅有的几部非续集/非系列电影开画超6000万的作品之一。##begin_quote## becoming only one of three non-sequel or franchise installments in the past decade to open to $60 million or more domestically ##end_quote## [Document 1]。这类电影虽然表现出色，但缺乏粉丝基本盘的狂热支持，其票房分布可能更集中于核心开画日（如周五），周六日增幅或后续调整未必能支撑其数字大幅跃升进入80-85M区间的中上部。\n\n**3. 综合分析**\n这是一个典型的“事后预测”分析，关键在于判断已流出的初步数据是否稳定，以及官方最终修正的方向。核心矛盾在于：强劲的实际开画数据（支持YES）与数据修正的不确定性及票房增长动能的上限（支持NO）之间的权衡。\n\n从元分析视角看，信号存在共振点：\n- **一致性信号**：所有相关文档都确认开画数字在80.5-80.6M之间，这是一个非常集中且来自多个信源（Hollywood Reporter、NBC、Variety等）的信号，可靠性高。这强烈支持票房已触及区间下限。\n- **分歧点与盲点**：反对论据主要基于“可能发生的修正”和“缺乏向上动能”。然而，在票房报道中，初步数字若被多家主流媒体同时报道且高度一致，通常意味着数据来自权威的票房统计机构（如Comscore），大幅修正（尤其是向下修正超过150万美元使其跌破8000万）的概率在开画周末结束后相对较低。动能方面，电影已创造了亚马逊MGM的纪录（##begin_quote## delivering a record opening for studio Amazon MGM ##end_quote## [Document 5]），其超预期表现本身构成了新闻热点，可能吸引最后一波周末观众，支撑数字稳定甚至微幅上调。\n\n权衡之下，实际数据已落入区间的事实权重极高。反对论据中的“修正风险”是任何票房数据都存在的普遍尾部风险，但基于当前信息，其发生的概率低于数据维持稳定的概率。因此，YES的胜算显著更高。\n\n**4. 最终概率估计**\n基于实际报告数据已明确处于8000-8500万美元区间内（80.5/80.6M），且无迹象表明会出现足以使其跌出区间的重大向下修正，YES的可能性极高。但考虑到数据最终确认前始终存在微小调整的技术性可能，概率并非100%。给予YES **92%** 的概率。\n\nPREDICTION: 92%",
+        "citations": {
+          "quotes": [],
+          "cited_doc_indices": []
+        }
+      }
+    ],
+    "round2": [
+      {
+        "agent_name": "乐观分析师",
+        "stance": "bull",
+        "probability": 99.5,
+        "rebuttals": "Re: 质疑分析师: 你过度放大了数据修正的尾部风险，而忽视了已报道数据的坚实性和一致性。你提到“任何微小向下修正都可能使其低于80M”，但多个独立权威信源（Hollywood Reporter, Variety, NBC News）报告的数字高度集中在80.5-80.6M，这并非孤证。##begin_quote## blasted off to a galaxy far, far away with a domestic launch of $80.6 million ##end_quote## [文档 1]；##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million at box office ##end_quote## [文档 3]。在行业实践中，当周日预估被多家主流媒体同步报道且数字如此接近时，最终实际数据发生足以使其跌出区间的重大向下修正（>0.5M）的概率极低。你引用的“非续集电影”的稀有性，恰恰证明了其成功是真实且受市场检验的，而非需要被怀疑的异常值。\n\nRe: 贝叶斯分析师: 你的分析框架合理，但先验概率（15%）设置过低，未能充分反映这部电影上映前就已显现的强劲势头（预测上限78M）。更重要的是，你的后验概率（88%）仍有提升空间。你承认证据“显著提升了可能性”，但对“边界风险”过于谨慎。数据显示，80.6M与区间下限80M之间有60万美元的缓冲，这足以抵御常规的统计微调。考虑到该成绩已被描述为“年度最佳开画”和“创纪录”，##begin_quote## the best of the year so far ##end_quote## [文档 1]，其数据的确认过程会更审慎，向下修正的动机和空间更小。\n\nRe: 历史类比师: 我完全赞同你的核心逻辑。历史模式强烈支持“当实际开画票房已被广泛报道处于目标区间内时，最终确认数据几乎必然落在该区间”。你提到的“统计浮动绝大多数时候在±1%以内”是关键，对于80.6M的基础，±1%的浮动完全在80-85M区间内。你的98%概率是合理的，但我认为基于如此清晰的事实，仍有向上微调的空间。\n\nRe: 数据统计师: 我们的结论高度一致（98%）。你正确地指出“实际观测数据权重高于先验预测模型”。我想补充一点积极数据：该片全球首周末达1.41亿美元，##begin_quote## a worldwide galactic start of $141 million ##end_quote## [文档 1]，这从侧面印证了北美开画数据的可靠性，因为全球票房成功需要各地数据的相互支撑，降低了单一市场数据严重失真的可能性。\n\nRe: 情绪分析师: 我们观点一致。你精准地捕捉到了“成功叙事”对数据本身的巩固作用。极度乐观的市场情绪和媒体狂欢不仅反映事实，还会在数据最终确认阶段形成一种“自我确认”的压力，使得发行方和统计机构会更加倾向于维护已公布的、创纪录的数字。这进一步压缩了向下修正的可能性。\n\nRe: 逆向投资者: 你的核心错误在于将有效的逆向思维应用在了一个已发生的事实上。逆向投资适用于预测未来，而非质疑已经由多个独立信源确认的过去事件。你说“数据并非铁板一块”，但80.5M和80.6M的差异仅为0.1%，这恰恰证明了数据的高度一致性，而非脆弱性。所谓的“过度反应”和“锚定偏差”是针对市场对未来票房的预期，而问题问的是已结束的首周末票房，这是一个客观结果，而非市场情绪本身。你赋予NO 55%的概率，完全背离了已呈现的具体数据证据。\n\nRe: 基本面分析师: 你的分析扎实，92%的概率略显保守。你提到的“缺乏持续强劲的预售或口碑数据支撑区间上限”与本问题无关，因为问题只关心是否在80-85M区间内，而非能否触及上限。既然实际数据（80.6M）已稳稳落在区间内，且发行规模（4007块屏幕）和夺冠地位提供了结构性支撑，基本面已给出确定性答案。\n\nRe: 风险评估师: 你正确地识别了尾部风险，但对其概率的评估可能过高。将“数据源之间存在微小差异”视为一个重大风险点，是过度解读。在票房报告中，80.5M和80.6M通常被视为同一数字的不同表述（四舍五入差异），这并不构成“测量风险”，而是行业常态。你最终的92%预测是谨慎的，但在已实现的数据面前，风险权重可以更低。\n\nRe: 综合策略师: 你的分析全面，92%的预测是合理的。但我认为你低估了“一致性信号”的强度。当Hollywood Reporter、Variety、NBC等媒体几乎同时发布高度一致的票房数据时，这本身就是最终数据可靠性的最强信号。你提到的“修正风险”是普遍存在的，但在此特定案例中，由于数据的一致性和创纪录的性质，其发生概率应被调至更低。",
+        "reasoning": "辩论巩固了我的观点。反对意见主要围绕“数据修正”这一理论风险，但无一能否认##begin_quote## a domestic launch of $80.6 million ##end_quote## [文档 1]这一已发生的核心事实。多个权威信源的一致性报告、超越预测的强劲表现以及创纪录的行业地位，共同构成了一个几乎不可撼动的证据体。任何有意义的向下修正都将与这些广泛报道相矛盾，概率极低。",
+        "raw_response": "REBUTTALS:\nRe: 质疑分析师: 你过度放大了数据修正的尾部风险，而忽视了已报道数据的坚实性和一致性。你提到“任何微小向下修正都可能使其低于80M”，但多个独立权威信源（Hollywood Reporter, Variety, NBC News）报告的数字高度集中在80.5-80.6M，这并非孤证。##begin_quote## blasted off to a galaxy far, far away with a domestic launch of $80.6 million ##end_quote## [文档 1]；##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million at box office ##end_quote## [文档 3]。在行业实践中，当周日预估被多家主流媒体同步报道且数字如此接近时，最终实际数据发生足以使其跌出区间的重大向下修正（>0.5M）的概率极低。你引用的“非续集电影”的稀有性，恰恰证明了其成功是真实且受市场检验的，而非需要被怀疑的异常值。\n\nRe: 贝叶斯分析师: 你的分析框架合理，但先验概率（15%）设置过低，未能充分反映这部电影上映前就已显现的强劲势头（预测上限78M）。更重要的是，你的后验概率（88%）仍有提升空间。你承认证据“显著提升了可能性”，但对“边界风险”过于谨慎。数据显示，80.6M与区间下限80M之间有60万美元的缓冲，这足以抵御常规的统计微调。考虑到该成绩已被描述为“年度最佳开画”和“创纪录”，##begin_quote## the best of the year so far ##end_quote## [文档 1]，其数据的确认过程会更审慎，向下修正的动机和空间更小。\n\nRe: 历史类比师: 我完全赞同你的核心逻辑。历史模式强烈支持“当实际开画票房已被广泛报道处于目标区间内时，最终确认数据几乎必然落在该区间”。你提到的“统计浮动绝大多数时候在±1%以内”是关键，对于80.6M的基础，±1%的浮动完全在80-85M区间内。你的98%概率是合理的，但我认为基于如此清晰的事实，仍有向上微调的空间。\n\nRe: 数据统计师: 我们的结论高度一致（98%）。你正确地指出“实际观测数据权重高于先验预测模型”。我想补充一点积极数据：该片全球首周末达1.41亿美元，##begin_quote## a worldwide galactic start of $141 million ##end_quote## [文档 1]，这从侧面印证了北美开画数据的可靠性，因为全球票房成功需要各地数据的相互支撑，降低了单一市场数据严重失真的可能性。\n\nRe: 情绪分析师: 我们观点一致。你精准地捕捉到了“成功叙事”对数据本身的巩固作用。极度乐观的市场情绪和媒体狂欢不仅反映事实，还会在数据最终确认阶段形成一种“自我确认”的压力，使得发行方和统计机构会更加倾向于维护已公布的、创纪录的数字。这进一步压缩了向下修正的可能性。\n\nRe: 逆向投资者: 你的核心错误在于将有效的逆向思维应用在了一个已发生的事实上。逆向投资适用于预测未来，而非质疑已经由多个独立信源确认的过去事件。你说“数据并非铁板一块”，但80.5M和80.6M的差异仅为0.1%，这恰恰证明了数据的高度一致性，而非脆弱性。所谓的“过度反应”和“锚定偏差”是针对市场对未来票房的预期，而问题问的是已结束的首周末票房，这是一个客观结果，而非市场情绪本身。你赋予NO 55%的概率，完全背离了已呈现的具体数据证据。\n\nRe: 基本面分析师: 你的分析扎实，92%的概率略显保守。你提到的“缺乏持续强劲的预售或口碑数据支撑区间上限”与本问题无关，因为问题只关心是否在80-85M区间内，而非能否触及上限。既然实际数据（80.6M）已稳稳落在区间内，且发行规模（4007块屏幕）和夺冠地位提供了结构性支撑，基本面已给出确定性答案。\n\nRe: 风险评估师: 你正确地识别了尾部风险，但对其概率的评估可能过高。将“数据源之间存在微小差异”视为一个重大风险点，是过度解读。在票房报告中，80.5M和80.6M通常被视为同一数字的不同表述（四舍五入差异），这并不构成“测量风险”，而是行业常态。你最终的92%预测是谨慎的，但在已实现的数据面前，风险权重可以更低。\n\nRe: 综合策略师: 你的分析全面，92%的预测是合理的。但我认为你低估了“一致性信号”的强度。当Hollywood Reporter、Variety、NBC等媒体几乎同时发布高度一致的票房数据时，这本身就是最终数据可靠性的最强信号。你提到的“修正风险”是普遍存在的，但在此特定案例中，由于数据的一致性和创纪录的性质，其发生概率应被调至更低。\n\nREVISED REASONING: 辩论巩固了我的观点。反对意见主要围绕“数据修正”这一理论风险，但无一能否认##begin_quote## a domestic launch of $80.6 million ##end_quote## [文档 1]这一已发生的核心事实。多个权威信源的一致性报告、超越预测的强劲表现以及创纪录的行业地位，共同构成了一个几乎不可撼动的证据体。任何有意义的向下修正都将与这些广泛报道相矛盾，概率极低。\n\nREVISED PREDICTION: 99.5%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "blasted off to a galaxy far, far away with a domestic launch of $80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "‘Project Hail Mary’ blasts off with $80.5 million at box office",
+              "doc_index": 3
+            },
+            {
+              "quote": "the best of the year so far",
+              "doc_index": 1
+            },
+            {
+              "quote": "a worldwide galactic start of $141 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "a domestic launch of $80.6 million",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "agent_name": "质疑分析师",
+        "stance": "bear",
+        "probability": 85.0,
+        "rebuttals": "Re: 乐观分析师: 你的核心论据建立在“已实现数据”上，但犯了将“初步估算”等同于“最终官方开画票房”的严重错误。你引用的80.6M和80.5M都是##begin_quote## Studio estimates on Sunday ##end_quote## [文档 7]或类似表述。历史基准率显示，周日估算与周一最终数据存在系统性差异，虽然通常微小，但在目标区间下限（80M）附近，任何向下修正都可能导致结果逆转。你承认了“微调”风险，却将其视为“无法撼动事实”，这正是过度自信偏差的体现。问题问的是“Opening Weekend Box Office”，这通常指最终确认值，而非乐观的初步报告。\n\nRe: 贝叶斯分析师: 你的分析框架是合理的，但你对“最终审计可能存在的微小修正风险”的折扣可能不足。你提到“报告的一致性很高”，但文档本身就存在不一致（80.6M vs. 80.5M），这恰恰暴露了数据并非铁板一块。你的先验（15%）是基于一个宽泛的“落入狭窄区间”的先验，但在看到“紧贴下限的初步数据”后，后验概率应更显著地反映“向下修正出界”的风险，而非仅仅反映“数据已落入”的似然。88%的概率可能仍高估了最终确认过程的确定性。\n\nRe: 历史类比师: 你依赖的“开画票房确认”模式存在一个关键漏洞：你类比的是那些最终数字稳定在预估附近的常规案例。但本案的特殊性在于，其初步报告的数字（80.5/80.6M）本身就是一个罕见的、非续集电影的异常值，且恰好压在预测区间的临界点上。历史类比中，对于这种处于统计边缘的“纪录性”数字，最终向下修正以挤掉“水分”的概率，可能比你基于普遍情况推断的更高。你忽略了“破纪录叙事”本身可能带来的报告偏误。\n\nRe: 数据统计师: 你正确地指出“实际观测数据权重高于先验预测模型”，但错误地将“多个来源报告的初步估算”等同于“无可辩驳的实际观测值”。在统计上，这些报告是相关的观测，而非独立抽样。它们都源于同一个初步统计系统（如Comscore的周日估算）。系统性误差或后续审计调整会影响所有相关报告。你提到的“行业惯例显示差异通常极小”是对的，但“极小”对于80M的门槛来说已经足够。你的98%概率几乎排除了尾部风险，这在统计上是过于自信的。\n\nRe: 情绪分析师: 你描述的“成功叙事”和“自我实现的动量”恰恰是我所担心的“情绪泡沫”。媒体狂欢和破纪录宣传（##begin_quote## a record opening for studio Amazon MGM ##end_quote## [文档 5]）可能已经体现在初步的、可能被略微乐观化的估算中。情绪是领先指标，而最终审计是滞后且冷静的。你认为情绪会“锁定并可能轻微推高最终数字”，但更可能的情况是情绪推高了初步数字，而最终数字会进行冷静的校准。你将技术性风险斥为“微不足道”，是典型的受情绪影响而低估风险。\n\nRe: 逆向投资者: 我赞同你对市场共识和“锚定偏差”的警惕，以及“数据下修”的核心风险点。然而，你给出NO 55%的概率可能过度反应。虽然共识可能低估风险，但多个独立媒体确认同一数字范围（80.5-80.6M）本身是一个强信号，表明这个初步结果并非空穴来风。你的推理将“可能存在调整”的风险定价过高，而忽略了“调整幅度极小且仍可能留在区间内”的更可能情景。你的结论过于悲观，未能平衡已观察到的强证据。\n\nRe: 基本面分析师: 你的分析扎实，但同样低估了“最终精确数据存在微小下修可能”这一风险的影响程度。你称其为“边际性风险”，但在80M这个精确阈值上，这就是核心风险。当你说“发生足以使其跌破8000万美元的重大下修（超过60万美元）概率较低”时，你预设了一个“重大”的标准。但在票房统计中，50万美元（0.6%）的修正就足以改变结果，而这种幅度的修正在历史上并不少见。你的92%概率未能充分体现这种“低幅度、高影响”的尾部风险。\n\nRe: 风险评估师: 我们观点相近，都强调了数据修正的尾部风险。然而，你将此风险定性为“低概率的‘黑天鹅’事件”可能过于轻描淡写。对于一部刚刚以创纪录姿态开画的电影，发行方和统计机构在首次报告时倾向于乐观是常见风险，而非黑天鹅。你给出的92%概率与基本面分析师相同，但作为风险评估师，或许应对这种已知的、系统性的报告偏误风险赋予更高的权重，即使其概率不高。\n\nRe: 综合策略师: 你的元分析指出了“一致性信号”和“修正风险”的矛盾，但最终结论仍偏向于“数据维持稳定”。你提到“大幅修正...概率相对较低”，但问题不需要“大幅”修正，只需要一次几十万美元的常规向下微调。你忽略了关键一点：当所有乐观报告都源自同一个初步统计系统时，“一致性”并不能证明其最终准确性，只能证明其传播广泛。你对“修正风险”的定价（体现在92%的YES概率上）可能仍然不足。",
+        "reasoning": "审视各方论点后，我承认我的初始预测（75%）可能过度强调了NO的可能性。逆向投资者的极端悲观未被证据充分支持。然而，乐观阵营（概率>90%）普遍犯了一个关键错误：将高度一致的**初步估算**视为**最终事实**，并严重低估了在精确阈值附近的数据修正风险。核心文档显示数字为##begin_quote## $80.5 million ##end_quote## [文档 3]或##begin_quote## $80.6 million ##end_quote## [文档 1]，这确实是强证据，但它们是估算。考虑到该成绩是亚马逊MGM的纪录（##begin_quote## a record opening for studio Amazon MGM ##end_quote## [文档 5]），初步数据存在乐观偏误的动机。最终官方数字向下微调至79.9M的可能性虽小但真实存在，且足以改变结果。因此，YES的概率应显著高于我的初始值，但仍需对尾部风险保持显著折扣。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的核心论据建立在“已实现数据”上，但犯了将“初步估算”等同于“最终官方开画票房”的严重错误。你引用的80.6M和80.5M都是##begin_quote## Studio estimates on Sunday ##end_quote## [文档 7]或类似表述。历史基准率显示，周日估算与周一最终数据存在系统性差异，虽然通常微小，但在目标区间下限（80M）附近，任何向下修正都可能导致结果逆转。你承认了“微调”风险，却将其视为“无法撼动事实”，这正是过度自信偏差的体现。问题问的是“Opening Weekend Box Office”，这通常指最终确认值，而非乐观的初步报告。\n\nRe: 贝叶斯分析师: 你的分析框架是合理的，但你对“最终审计可能存在的微小修正风险”的折扣可能不足。你提到“报告的一致性很高”，但文档本身就存在不一致（80.6M vs. 80.5M），这恰恰暴露了数据并非铁板一块。你的先验（15%）是基于一个宽泛的“落入狭窄区间”的先验，但在看到“紧贴下限的初步数据”后，后验概率应更显著地反映“向下修正出界”的风险，而非仅仅反映“数据已落入”的似然。88%的概率可能仍高估了最终确认过程的确定性。\n\nRe: 历史类比师: 你依赖的“开画票房确认”模式存在一个关键漏洞：你类比的是那些最终数字稳定在预估附近的常规案例。但本案的特殊性在于，其初步报告的数字（80.5/80.6M）本身就是一个罕见的、非续集电影的异常值，且恰好压在预测区间的临界点上。历史类比中，对于这种处于统计边缘的“纪录性”数字，最终向下修正以挤掉“水分”的概率，可能比你基于普遍情况推断的更高。你忽略了“破纪录叙事”本身可能带来的报告偏误。\n\nRe: 数据统计师: 你正确地指出“实际观测数据权重高于先验预测模型”，但错误地将“多个来源报告的初步估算”等同于“无可辩驳的实际观测值”。在统计上，这些报告是相关的观测，而非独立抽样。它们都源于同一个初步统计系统（如Comscore的周日估算）。系统性误差或后续审计调整会影响所有相关报告。你提到的“行业惯例显示差异通常极小”是对的，但“极小”对于80M的门槛来说已经足够。你的98%概率几乎排除了尾部风险，这在统计上是过于自信的。\n\nRe: 情绪分析师: 你描述的“成功叙事”和“自我实现的动量”恰恰是我所担心的“情绪泡沫”。媒体狂欢和破纪录宣传（##begin_quote## a record opening for studio Amazon MGM ##end_quote## [文档 5]）可能已经体现在初步的、可能被略微乐观化的估算中。情绪是领先指标，而最终审计是滞后且冷静的。你认为情绪会“锁定并可能轻微推高最终数字”，但更可能的情况是情绪推高了初步数字，而最终数字会进行冷静的校准。你将技术性风险斥为“微不足道”，是典型的受情绪影响而低估风险。\n\nRe: 逆向投资者: 我赞同你对市场共识和“锚定偏差”的警惕，以及“数据下修”的核心风险点。然而，你给出NO 55%的概率可能过度反应。虽然共识可能低估风险，但多个独立媒体确认同一数字范围（80.5-80.6M）本身是一个强信号，表明这个初步结果并非空穴来风。你的推理将“可能存在调整”的风险定价过高，而忽略了“调整幅度极小且仍可能留在区间内”的更可能情景。你的结论过于悲观，未能平衡已观察到的强证据。\n\nRe: 基本面分析师: 你的分析扎实，但同样低估了“最终精确数据存在微小下修可能”这一风险的影响程度。你称其为“边际性风险”，但在80M这个精确阈值上，这就是核心风险。当你说“发生足以使其跌破8000万美元的重大下修（超过60万美元）概率较低”时，你预设了一个“重大”的标准。但在票房统计中，50万美元（0.6%）的修正就足以改变结果，而这种幅度的修正在历史上并不少见。你的92%概率未能充分体现这种“低幅度、高影响”的尾部风险。\n\nRe: 风险评估师: 我们观点相近，都强调了数据修正的尾部风险。然而，你将此风险定性为“低概率的‘黑天鹅’事件”可能过于轻描淡写。对于一部刚刚以创纪录姿态开画的电影，发行方和统计机构在首次报告时倾向于乐观是常见风险，而非黑天鹅。你给出的92%概率与基本面分析师相同，但作为风险评估师，或许应对这种已知的、系统性的报告偏误风险赋予更高的权重，即使其概率不高。\n\nRe: 综合策略师: 你的元分析指出了“一致性信号”和“修正风险”的矛盾，但最终结论仍偏向于“数据维持稳定”。你提到“大幅修正...概率相对较低”，但问题不需要“大幅”修正，只需要一次几十万美元的常规向下微调。你忽略了关键一点：当所有乐观报告都源自同一个初步统计系统时，“一致性”并不能证明其最终准确性，只能证明其传播广泛。你对“修正风险”的定价（体现在92%的YES概率上）可能仍然不足。\n\nREVISED REASONING: 审视各方论点后，我承认我的初始预测（75%）可能过度强调了NO的可能性。逆向投资者的极端悲观未被证据充分支持。然而，乐观阵营（概率>90%）普遍犯了一个关键错误：将高度一致的**初步估算**视为**最终事实**，并严重低估了在精确阈值附近的数据修正风险。核心文档显示数字为##begin_quote## $80.5 million ##end_quote## [文档 3]或##begin_quote## $80.6 million ##end_quote## [文档 1]，这确实是强证据，但它们是估算。考虑到该成绩是亚马逊MGM的纪录（##begin_quote## a record opening for studio Amazon MGM ##end_quote## [文档 5]），初步数据存在乐观偏误的动机。最终官方数字向下微调至79.9M的可能性虽小但真实存在，且足以改变结果。因此，YES的概率应显著高于我的初始值，但仍需对尾部风险保持显著折扣。\n\nREVISED PREDICTION: 85.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "Studio estimates on Sunday",
+              "doc_index": 7
+            },
+            {
+              "quote": "a record opening for studio Amazon MGM",
+              "doc_index": 5
+            },
+            {
+              "quote": "$80.5 million",
+              "doc_index": 3
+            },
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "a record opening for studio Amazon MGM",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            3,
+            5,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "贝叶斯分析师",
+        "stance": "neutral",
+        "probability": 94.0,
+        "rebuttals": "Re: 乐观分析师: 你的推理核心是“实际开画数据已落入区间”，这确实是强证据。但你的99%概率忽略了贝叶斯分析中一个关键先验：票房最终确认（actuals）与周日估算（estimates）存在系统性差异。你引用的 ##begin_quote## $80.6 million ##end_quote## [文档 1] 和 ##begin_quote## $80.5 million ##end_quote## [文档 3] 本身就是估算，并非最终数据。历史基准率显示，尽管大幅修正罕见，但在临界值（80M）附近，几十万至一两百万美元的修正确实可能改变结果归属。你将对“已成事实”的确定性赋值过高，低估了测量过程的固有噪声。\n\nRe: 质疑分析师: 你正确地指出了数据修正风险和基准率（非续集电影高开画的稀有性），并将概率下调至75%。然而，你低估了多个独立信源报告高度一致（80.5M/80.6M）所蕴含的强似然函数。这种一致性通常意味着数据来自权威统计机构（如Comscore）的初步汇总，而非片方单方面宣传。你的“发行方公关动机”论点被文档中“轻松登顶”和“创纪录”的事实所削弱—— ##begin_quote## easily topped the domestic box office charts ##end_quote## [文档 5]——成绩本身已足够亮眼，无需通过显著高估数据来营造叙事。因此，向下修正的幅度预期应更小。\n\nRe: 历史类比师: 你的“开画票房确认”模式类比是合理的，98%的概率也反映了高确定性。但你的分析忽略了一个关键的历史细节：当实际数字紧贴预测区间下限时（如本案的80.6M vs 80M），最终修正导致“刺穿”下限的概率，要高于数字落在区间中部时。你提到浮动范围在±1%以内（79.8M-81.4M），这实际上支持了NO的可能性（79.8M < 80M）。你未对这一不对称风险给予足够权重。\n\nRe: 数据统计师: 你正确地指出“实际观测数据权重高于先验预测模型”，并将概率定为98%。然而，作为统计师，你应更严谨地对待“观测数据”的性质。这些是带有测量误差的估计值，而非真实参数。不同来源的微小差异（80.5M vs 80.6M）本身就是测量误差的体现。在统计推断中，我们应使用一个包含误差区间的估计（例如80.55M ± 0.2M），而非一个确切的点估计。这会使概率估计从“近乎确定”略微回落。\n\nRe: 情绪分析师: 你强调了情绪动量对数据的锁定作用，但混淆了因果关系。积极情绪是强劲票房的结果，而非支撑最终精确数字不向下修正的原因。票房数据的最终审计由专业机构执行，不受媒体叙事影响。你的论点无法对抗“最终核算可能存在技术性调整”这一系统性风险。情绪是噪声，而非此处信号。\n\nRe: 逆向投资者: 你的核心论点是“市场共识过于自信”，并给出45%的极端低概率。这违背了贝叶斯更新的基本原则。在获得多个高质量、一致的观测证据（80.5M+）后，后验概率应显著偏离先验（我设为15%），向高概率移动。你过度强调了“均值回归”和“锚定偏差”等行为金融学概念，却未能提供任何具体的、可量化的证据表明当前报告的数据存在重大失真。将概率定为45%意味着你认为最终数据跌出区间的可能性更高，这与现有证据的权重严重不符。\n\nRe: 基本面分析师 & 风险评估师 & 综合策略师: 三位的推理和92%的概率估计较为接近，都承认了强劲证据的主导地位和数据修正的尾部风险。这是一个合理的折中。但风险评估师提到的“数据源之间存在微小差异” ##begin_quote## $80.5 million ##end_quote## [文档 3] vs ##begin_quote## $80.6 million ##end_quote## [文档 1] 是一个值得纳入量化模型的点，它暗示真实值的不确定性区间可能跨越80M的门槛。",
+        "reasoning": "辩论后，我维持核心判断：多个可靠来源报告 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4, 5] 或 ##begin_quote## $80.6 million ##end_quote## [文档 1] 是极强的似然证据，将后验概率从先验的15%大幅提升。然而，质疑分析师和历史类比师关于“最终确认数据可能存在微小修正”的论点具有统计合理性。考虑到数字紧贴80M下限，以及报告间存在十万级差异所体现的测量不确定性，我需要为向下修正至79.9M等情形分配一个虽小但不可忽略的概率。因此，我的后验概率应低于“近乎确定”的98-99%，但远高于仅反映尾部风险的75%。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的推理核心是“实际开画数据已落入区间”，这确实是强证据。但你的99%概率忽略了贝叶斯分析中一个关键先验：票房最终确认（actuals）与周日估算（estimates）存在系统性差异。你引用的 ##begin_quote## $80.6 million ##end_quote## [文档 1] 和 ##begin_quote## $80.5 million ##end_quote## [文档 3] 本身就是估算，并非最终数据。历史基准率显示，尽管大幅修正罕见，但在临界值（80M）附近，几十万至一两百万美元的修正确实可能改变结果归属。你将对“已成事实”的确定性赋值过高，低估了测量过程的固有噪声。\n\nRe: 质疑分析师: 你正确地指出了数据修正风险和基准率（非续集电影高开画的稀有性），并将概率下调至75%。然而，你低估了多个独立信源报告高度一致（80.5M/80.6M）所蕴含的强似然函数。这种一致性通常意味着数据来自权威统计机构（如Comscore）的初步汇总，而非片方单方面宣传。你的“发行方公关动机”论点被文档中“轻松登顶”和“创纪录”的事实所削弱—— ##begin_quote## easily topped the domestic box office charts ##end_quote## [文档 5]——成绩本身已足够亮眼，无需通过显著高估数据来营造叙事。因此，向下修正的幅度预期应更小。\n\nRe: 历史类比师: 你的“开画票房确认”模式类比是合理的，98%的概率也反映了高确定性。但你的分析忽略了一个关键的历史细节：当实际数字紧贴预测区间下限时（如本案的80.6M vs 80M），最终修正导致“刺穿”下限的概率，要高于数字落在区间中部时。你提到浮动范围在±1%以内（79.8M-81.4M），这实际上支持了NO的可能性（79.8M < 80M）。你未对这一不对称风险给予足够权重。\n\nRe: 数据统计师: 你正确地指出“实际观测数据权重高于先验预测模型”，并将概率定为98%。然而，作为统计师，你应更严谨地对待“观测数据”的性质。这些是带有测量误差的估计值，而非真实参数。不同来源的微小差异（80.5M vs 80.6M）本身就是测量误差的体现。在统计推断中，我们应使用一个包含误差区间的估计（例如80.55M ± 0.2M），而非一个确切的点估计。这会使概率估计从“近乎确定”略微回落。\n\nRe: 情绪分析师: 你强调了情绪动量对数据的锁定作用，但混淆了因果关系。积极情绪是强劲票房的结果，而非支撑最终精确数字不向下修正的原因。票房数据的最终审计由专业机构执行，不受媒体叙事影响。你的论点无法对抗“最终核算可能存在技术性调整”这一系统性风险。情绪是噪声，而非此处信号。\n\nRe: 逆向投资者: 你的核心论点是“市场共识过于自信”，并给出45%的极端低概率。这违背了贝叶斯更新的基本原则。在获得多个高质量、一致的观测证据（80.5M+）后，后验概率应显著偏离先验（我设为15%），向高概率移动。你过度强调了“均值回归”和“锚定偏差”等行为金融学概念，却未能提供任何具体的、可量化的证据表明当前报告的数据存在重大失真。将概率定为45%意味着你认为最终数据跌出区间的可能性更高，这与现有证据的权重严重不符。\n\nRe: 基本面分析师 & 风险评估师 & 综合策略师: 三位的推理和92%的概率估计较为接近，都承认了强劲证据的主导地位和数据修正的尾部风险。这是一个合理的折中。但风险评估师提到的“数据源之间存在微小差异” ##begin_quote## $80.5 million ##end_quote## [文档 3] vs ##begin_quote## $80.6 million ##end_quote## [文档 1] 是一个值得纳入量化模型的点，它暗示真实值的不确定性区间可能跨越80M的门槛。\n\nREVISED REASONING:\n辩论后，我维持核心判断：多个可靠来源报告 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4, 5] 或 ##begin_quote## $80.6 million ##end_quote## [文档 1] 是极强的似然证据，将后验概率从先验的15%大幅提升。然而，质疑分析师和历史类比师关于“最终确认数据可能存在微小修正”的论点具有统计合理性。考虑到数字紧贴80M下限，以及报告间存在十万级差异所体现的测量不确定性，我需要为向下修正至79.9M等情形分配一个虽小但不可忽略的概率。因此，我的后验概率应低于“近乎确定”的98-99%，但远高于仅反映尾部风险的75%。\n\nREVISED PREDICTION: 94.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "$80.5 million",
+              "doc_index": 3
+            },
+            {
+              "quote": "easily topped the domestic box office charts",
+              "doc_index": 5
+            },
+            {
+              "quote": "$80.5 million",
+              "doc_index": 3
+            },
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "$80.5 million ##end_quote## [文档 3, 4, 5] 或 ##begin_quote## $80.6 million",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            3,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "历史类比师",
+        "stance": "neutral",
+        "probability": 99.2,
+        "rebuttals": "Re: 乐观分析师: 你的推理核心是“已成事实”，这过于依赖报告的即时性而忽略了历史统计流程。你正确地引用了 ##begin_quote## $80.6 million ##end_quote## [文档 1] 这一数据，但将其等同于“最终官方开画周末票房”是危险的简化。历史类比告诉我们，周日估算（estimates）与周一实际值（actuals）之间存在系统性的、可预测的微调窗口。你的99%概率完全排除了这个技术性风险，这在历史先例中是站不住脚的。例如，许多大片在创纪录的欢呼声中，其最终数字仍可能向下修正几十万美元。你的分析缺乏对“报告阶段”这一关键时间维度的审视。\n\nRe: 质疑分析师: 你提出了有价值的尾部风险，但将概率降至75%可能过度反应。你正确地指出了非续集电影高开画的稀有性（##begin_quote## only the second non-sequel non-franchise film... to open to $80 million or more ##end_quote## [文档 1]），并以此论证其不确定性。然而，历史类比显示，这种“稀有性”影响的是预测难度，而非事后数据确认的可靠性。一旦稀有事件已经发生并被多个独立信源观测到（如80.5M），其测量值本身是稳固的。你担忧的“向下修正至79.8M”需要约1%的调整幅度，这在多家主流媒体同步报告明确数字的案例中，发生的先例极少。你的怀疑方向正确，但权重分配可能过高。\n\nRe: 贝叶斯分析师: 你的框架是严谨的，但先验设定（15%）对于这个已发生具体观测值的事件来说，影响力已被大幅稀释。你关键的更新在于认识到数据处于“边界”。然而，你给出的88%概率似乎是对“边界风险”和“强劲证据”的一个折中。从历史模式看，当观测值（80.5M）与区间下限（80M）之间有0.5M（0.6%）的缓冲时，最终数据因常规审计而跌破边界的概率远低于12%。你的折扣可能仍然偏大。\n\nRe: 数据统计师: 我赞同你“实际观测数据权重高于先验预测模型”的核心观点。你正确地识别了预测区间（60-78M）已被突破的事实。然而，你98%的概率估计几乎与我相同，但你的推理忽略了历史类比中的一个细微差别：当实际数据（80.6M）显著高于预测中值但未达到区间上限时，它往往意味着增长动能已在周末充分释放，最终修正的方差会很小。你的分析更多是基于数据本身的统计属性，而非这类事件在电影票房报告史上的具体行为模式。\n\nRe: 情绪分析师: 你敏锐地捕捉到了“成功叙事”对数据固化的作用，这本身就是一个强大的历史模式——媒体共识会塑造并锁定对事件的认知。你引用 ##begin_quote## a record opening for studio Amazon MGM ##end_quote## [文档 5] 来论证发行方有维持数字的动机，这一点很有洞察力。然而，你将概率定为98%，与数据统计师相同，但理由更基于情绪面。风险在于，情绪面可能掩盖了纯粹的技术性修正风险。历史上有过情绪极度乐观，但最终数据仍被技术性微调的例子，尽管幅度极小。你的分析高估了情绪对审计流程的免疫力。\n\nRe: 逆向投资者: 你的核心论点是“市场共识往往是错的”，并试图寻找数据裂缝。你指出数据源间0.1M的差异（80.5M vs. 80.6M）以及“均值回归”法则。然而，历史类比师必须指出，在事件结果验证上，逆向思维有时会过度解读噪音。当多个权威信源（Hollywood Reporter, Variety, NBC News）报告高度一致的数字时，这本身就是市场效率的体现，而非非理性狂欢。你假设存在“兑现压力”导致后劲不足，但 ##begin_quote## opened on 4,007 screens ##end_quote## [文档 5] 的大规模开画意味着首周末票房在三天内已基本收割完毕，周末单日走势对最终总和的影响已被包含在当前报告值中。你给出的45%概率与已呈现的硬数据严重脱节，更像是为逆向而逆向，缺乏足够的历史案例支持这种程度的偏离。\n\nRe: 基本面分析师 & 风险评估师 & 综合策略师: 你们三位的推理和最终概率（92%）非常接近，都承认数据的强大支撑，但也为技术性风险预留了空间。这是相对平衡的立场。然而，从更精细的历史类比角度看，92%可能仍略微低估了“已报告数据落入区间”这一事实的确定性。在类似情境下（即周日多个权威媒体报告明确数字且落入特定区间），最终数据维持在原区间的概率历史上极高。你们所担忧的“微小下修可能”是存在的，但其导致跌破80M的概率，应远低于8%。综合策略师提到的“预测区间上限仅为78M” ##begin_quote## BOT Domestic Weekend Forecast Range: $60 — 78 million ##end_quote## [文档 2] 是过去式，实际80.6M的突破已经改变了基准，不应再作为限制向上动能的主要依据。",
+        "reasoning": "审视辩论后，我坚持历史类比的核心洞察：当多个权威信源在事件发生后立即报告一致的具体结果（##begin_quote## $80.5 million ##end_quote## [文档 3, 4, 7] / ##begin_quote## $80.6 million ##end_quote## [文档 1]），且该结果明确落入预测区间时，最终官方确认数据几乎必然落在同一区间。这是基于无数票房报告案例形成的稳定模式。质疑分析师和逆向投资者指出的“修正风险”确实存在，但历史先例表明，对于此类已被广泛报道和庆祝的成功开画，最终向下修正幅度足以使其脱离紧邻下限区间的概率极低（远低于2%）。因此，我微调概率，以反映这几乎确定性中的一丝理论上的技术性疑虑。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的推理核心是“已成事实”，这过于依赖报告的即时性而忽略了历史统计流程。你正确地引用了 ##begin_quote## $80.6 million ##end_quote## [文档 1] 这一数据，但将其等同于“最终官方开画周末票房”是危险的简化。历史类比告诉我们，周日估算（estimates）与周一实际值（actuals）之间存在系统性的、可预测的微调窗口。你的99%概率完全排除了这个技术性风险，这在历史先例中是站不住脚的。例如，许多大片在创纪录的欢呼声中，其最终数字仍可能向下修正几十万美元。你的分析缺乏对“报告阶段”这一关键时间维度的审视。\n\nRe: 质疑分析师: 你提出了有价值的尾部风险，但将概率降至75%可能过度反应。你正确地指出了非续集电影高开画的稀有性（##begin_quote## only the second non-sequel non-franchise film... to open to $80 million or more ##end_quote## [文档 1]），并以此论证其不确定性。然而，历史类比显示，这种“稀有性”影响的是预测难度，而非事后数据确认的可靠性。一旦稀有事件已经发生并被多个独立信源观测到（如80.5M），其测量值本身是稳固的。你担忧的“向下修正至79.8M”需要约1%的调整幅度，这在多家主流媒体同步报告明确数字的案例中，发生的先例极少。你的怀疑方向正确，但权重分配可能过高。\n\nRe: 贝叶斯分析师: 你的框架是严谨的，但先验设定（15%）对于这个已发生具体观测值的事件来说，影响力已被大幅稀释。你关键的更新在于认识到数据处于“边界”。然而，你给出的88%概率似乎是对“边界风险”和“强劲证据”的一个折中。从历史模式看，当观测值（80.5M）与区间下限（80M）之间有0.5M（0.6%）的缓冲时，最终数据因常规审计而跌破边界的概率远低于12%。你的折扣可能仍然偏大。\n\nRe: 数据统计师: 我赞同你“实际观测数据权重高于先验预测模型”的核心观点。你正确地识别了预测区间（60-78M）已被突破的事实。然而，你98%的概率估计几乎与我相同，但你的推理忽略了历史类比中的一个细微差别：当实际数据（80.6M）显著高于预测中值但未达到区间上限时，它往往意味着增长动能已在周末充分释放，最终修正的方差会很小。你的分析更多是基于数据本身的统计属性，而非这类事件在电影票房报告史上的具体行为模式。\n\nRe: 情绪分析师: 你敏锐地捕捉到了“成功叙事”对数据固化的作用，这本身就是一个强大的历史模式——媒体共识会塑造并锁定对事件的认知。你引用 ##begin_quote## a record opening for studio Amazon MGM ##end_quote## [文档 5] 来论证发行方有维持数字的动机，这一点很有洞察力。然而，你将概率定为98%，与数据统计师相同，但理由更基于情绪面。风险在于，情绪面可能掩盖了纯粹的技术性修正风险。历史上有过情绪极度乐观，但最终数据仍被技术性微调的例子，尽管幅度极小。你的分析高估了情绪对审计流程的免疫力。\n\nRe: 逆向投资者: 你的核心论点是“市场共识往往是错的”，并试图寻找数据裂缝。你指出数据源间0.1M的差异（80.5M vs. 80.6M）以及“均值回归”法则。然而，历史类比师必须指出，在事件结果验证上，逆向思维有时会过度解读噪音。当多个权威信源（Hollywood Reporter, Variety, NBC News）报告高度一致的数字时，这本身就是市场效率的体现，而非非理性狂欢。你假设存在“兑现压力”导致后劲不足，但 ##begin_quote## opened on 4,007 screens ##end_quote## [文档 5] 的大规模开画意味着首周末票房在三天内已基本收割完毕，周末单日走势对最终总和的影响已被包含在当前报告值中。你给出的45%概率与已呈现的硬数据严重脱节，更像是为逆向而逆向，缺乏足够的历史案例支持这种程度的偏离。\n\nRe: 基本面分析师 & 风险评估师 & 综合策略师: 你们三位的推理和最终概率（92%）非常接近，都承认数据的强大支撑，但也为技术性风险预留了空间。这是相对平衡的立场。然而，从更精细的历史类比角度看，92%可能仍略微低估了“已报告数据落入区间”这一事实的确定性。在类似情境下（即周日多个权威媒体报告明确数字且落入特定区间），最终数据维持在原区间的概率历史上极高。你们所担忧的“微小下修可能”是存在的，但其导致跌破80M的概率，应远低于8%。综合策略师提到的“预测区间上限仅为78M” ##begin_quote## BOT Domestic Weekend Forecast Range: $60 — 78 million ##end_quote## [文档 2] 是过去式，实际80.6M的突破已经改变了基准，不应再作为限制向上动能的主要依据。\n\nREVISED REASONING: 审视辩论后，我坚持历史类比的核心洞察：当多个权威信源在事件发生后立即报告一致的具体结果（##begin_quote## $80.5 million ##end_quote## [文档 3, 4, 7] / ##begin_quote## $80.6 million ##end_quote## [文档 1]），且该结果明确落入预测区间时，最终官方确认数据几乎必然落在同一区间。这是基于无数票房报告案例形成的稳定模式。质疑分析师和逆向投资者指出的“修正风险”确实存在，但历史先例表明，对于此类已被广泛报道和庆祝的成功开画，最终向下修正幅度足以使其脱离紧邻下限区间的概率极低（远低于2%）。因此，我微调概率，以反映这几乎确定性中的一丝理论上的技术性疑虑。\n\nREVISED PREDICTION: 99.2%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "only the second non-sequel non-franchise film... to open to $80 million or more",
+              "doc_index": 1
+            },
+            {
+              "quote": "a record opening for studio Amazon MGM",
+              "doc_index": 5
+            },
+            {
+              "quote": "opened on 4,007 screens",
+              "doc_index": 5
+            },
+            {
+              "quote": "BOT Domestic Weekend Forecast Range: $60 — 78 million",
+              "doc_index": 2
+            },
+            {
+              "quote": "$80.5 million ##end_quote## [文档 3, 4, 7] / ##begin_quote## $80.6 million",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            2,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "数据统计师",
+        "stance": "neutral",
+        "probability": 98.0,
+        "rebuttals": "Re: 乐观分析师: 你的推理核心是“实际开画数据已落入区间”，这确实是强证据。但你将概率定为99.0%，几乎排除了所有不确定性。从统计角度看，即使多个来源报告一致，这些数据仍是“Studio estimates”。行业标准流程是周日估算后，周一/周二发布最终实际数据（actuals）。虽然大幅修正罕见，但微小调整（几十万美元）是存在的。你的分析忽略了这一系统性测量误差。将概率定在99%意味着你认为数据修正风险低于1%，这缺乏历史波动率数据的支持。我的初始98%已包含了对此微小风险的量化考量。\n\nRe: 质疑分析师: 你提出了一个关键的技术性质疑：初步估算与最终实际数据的差异。这是有效的统计考量。然而，你基于此将YES的概率降至75%，我认为这高估了修正的幅度和可能性。你的核心论据是“当前数字紧贴区间下限（80.6M），任何微小向下修正都可能使其低于80M”。但数据显示，报告值有80.5M和80.6M两个，取较低值80.5M，其与下限80M的缓冲为0.5M（50万美元）。历史上，周日估算与最终数据的差异中位数远小于此。你引用的“非续集电影...属于统计上的异常值” ##begin_quote## only the second non-sequel non-franchise film of the past decade to open to $80 million or more ##end_quote## [文档 1] 确实增加了预测难度，但我们现在是在事后分析观测值，而非预测。观测值本身已经实现了这个“异常值”，其后续修正的分布并不必然比普通电影更宽。因此，75%的概率过度惩罚了已实现的强证据。\n\nRe: 贝叶斯分析师: 你的框架是合理的，先验设定为15%也符合区间狭窄的先验信念。你根据观测证据将后验更新至88%。我同意你的核心判断，即证据权重很大。但你的更新幅度可能仍偏保守。你提到“数据点紧贴下限”是风险，但多个独立信源报告的一致性（80.5M/80.6M）本身降低了单一数据源出错的风险。此外，电影在##begin_quote## 4,007 screens ##end_quote## [文档 5]大规模开画，数据收集通常更全面，修正幅度可能更小。因此，后验概率应高于88%，更接近我初始的98%。\n\nRe: 历史类比师: 你的历史类比“周日预估的权威性很强，重大修正（>5%）极为罕见”是支持高概率的关键论据。我同意这一点。你指出浮动范围通常在±1%以内，对于80.6M即大约±0.8M，这完全在80-85M区间内。这是基于历史数据的强统计论据。你的概率98.0%与我的初始判断一致，且提供了有力的历史波动率佐证。\n\nRe: 情绪分析师: 你强调了市场情绪和叙事，这本身是定性因素。作为数据统计师，我主要依赖定量数据。然而，你引用的“多个独立信源确认的数据高度集中在80.5-80.6百万美元” ##begin_quote## $80.5 million ##end_quote## [文档 3] 和 ##begin_quote## $80.6 million ##end_quote## [文档 1] 是核心事实。你的结论（98%）在数据层面与我的分析一致，尽管推理路径不同。\n\nRe: 逆向投资者: 你的核心论点是“市场共识过于自信”，并给予NO 55%的概率。这在统计上站不住脚。你试图用“均值回归”和“锚定偏差”来否定已观测到的具体数据点。统计推断应基于证据，而非对市场情绪的反向猜测。你指出“数据源之间存在微小差异（80.5M vs. 80.6M）”，但这恰恰证明了数据是独立报告的，而非单一来源的误报，反而增强了其可靠性。将概率定为45%严重违背了现有数据证据，属于过度逆向。\n\nRe: 基本面分析师 & 风险评估师 & 综合策略师: 三位的推理都扎实地基于已报告数据，并合理考虑了数据修正风险。基本面分析师和综合策略师给出92%，风险评估师也给出92%。这个概率是谨慎的，但可能仍略微低估了多个权威信源一致确认的数据的稳定性。风险评估师提到的“数据源之间存在微小差异”是事实，但差异方向（80.5 vs 80.6）是双向的，不能单独作为向下修正的论据。综合策略师提到的“预测区间上限仅为78M”是历史信息，已被实际数据证伪，不应再作为压制概率的主要因素。",
+        "reasoning": "辩论后，我维持核心判断：多个独立信源报告的实际观测值（80.5M/80.6M）是决定性证据。质疑分析师和风险评估师提到的“最终数据修正”是唯一合理的统计不确定性来源。然而，基于历史类比师引用的行业惯例（修正通常小于±1%）以及数据与区间下限有0.5M缓冲的事实，该风险的概率极低。因此，YES的概率应极高，但略低于100%以反映该系统性测量误差。我的初始98%已合理量化此风险，无需下调。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的推理核心是“实际开画数据已落入区间”，这确实是强证据。但你将概率定为99.0%，几乎排除了所有不确定性。从统计角度看，即使多个来源报告一致，这些数据仍是“Studio estimates”。行业标准流程是周日估算后，周一/周二发布最终实际数据（actuals）。虽然大幅修正罕见，但微小调整（几十万美元）是存在的。你的分析忽略了这一系统性测量误差。将概率定在99%意味着你认为数据修正风险低于1%，这缺乏历史波动率数据的支持。我的初始98%已包含了对此微小风险的量化考量。\n\nRe: 质疑分析师: 你提出了一个关键的技术性质疑：初步估算与最终实际数据的差异。这是有效的统计考量。然而，你基于此将YES的概率降至75%，我认为这高估了修正的幅度和可能性。你的核心论据是“当前数字紧贴区间下限（80.6M），任何微小向下修正都可能使其低于80M”。但数据显示，报告值有80.5M和80.6M两个，取较低值80.5M，其与下限80M的缓冲为0.5M（50万美元）。历史上，周日估算与最终数据的差异中位数远小于此。你引用的“非续集电影...属于统计上的异常值” ##begin_quote## only the second non-sequel non-franchise film of the past decade to open to $80 million or more ##end_quote## [文档 1] 确实增加了预测难度，但我们现在是在事后分析观测值，而非预测。观测值本身已经实现了这个“异常值”，其后续修正的分布并不必然比普通电影更宽。因此，75%的概率过度惩罚了已实现的强证据。\n\nRe: 贝叶斯分析师: 你的框架是合理的，先验设定为15%也符合区间狭窄的先验信念。你根据观测证据将后验更新至88%。我同意你的核心判断，即证据权重很大。但你的更新幅度可能仍偏保守。你提到“数据点紧贴下限”是风险，但多个独立信源报告的一致性（80.5M/80.6M）本身降低了单一数据源出错的风险。此外，电影在##begin_quote## 4,007 screens ##end_quote## [文档 5]大规模开画，数据收集通常更全面，修正幅度可能更小。因此，后验概率应高于88%，更接近我初始的98%。\n\nRe: 历史类比师: 你的历史类比“周日预估的权威性很强，重大修正（>5%）极为罕见”是支持高概率的关键论据。我同意这一点。你指出浮动范围通常在±1%以内，对于80.6M即大约±0.8M，这完全在80-85M区间内。这是基于历史数据的强统计论据。你的概率98.0%与我的初始判断一致，且提供了有力的历史波动率佐证。\n\nRe: 情绪分析师: 你强调了市场情绪和叙事，这本身是定性因素。作为数据统计师，我主要依赖定量数据。然而，你引用的“多个独立信源确认的数据高度集中在80.5-80.6百万美元” ##begin_quote## $80.5 million ##end_quote## [文档 3] 和 ##begin_quote## $80.6 million ##end_quote## [文档 1] 是核心事实。你的结论（98%）在数据层面与我的分析一致，尽管推理路径不同。\n\nRe: 逆向投资者: 你的核心论点是“市场共识过于自信”，并给予NO 55%的概率。这在统计上站不住脚。你试图用“均值回归”和“锚定偏差”来否定已观测到的具体数据点。统计推断应基于证据，而非对市场情绪的反向猜测。你指出“数据源之间存在微小差异（80.5M vs. 80.6M）”，但这恰恰证明了数据是独立报告的，而非单一来源的误报，反而增强了其可靠性。将概率定为45%严重违背了现有数据证据，属于过度逆向。\n\nRe: 基本面分析师 & 风险评估师 & 综合策略师: 三位的推理都扎实地基于已报告数据，并合理考虑了数据修正风险。基本面分析师和综合策略师给出92%，风险评估师也给出92%。这个概率是谨慎的，但可能仍略微低估了多个权威信源一致确认的数据的稳定性。风险评估师提到的“数据源之间存在微小差异”是事实，但差异方向（80.5 vs 80.6）是双向的，不能单独作为向下修正的论据。综合策略师提到的“预测区间上限仅为78M”是历史信息，已被实际数据证伪，不应再作为压制概率的主要因素。\n\nREVISED REASONING: 辩论后，我维持核心判断：多个独立信源报告的实际观测值（80.5M/80.6M）是决定性证据。质疑分析师和风险评估师提到的“最终数据修正”是唯一合理的统计不确定性来源。然而，基于历史类比师引用的行业惯例（修正通常小于±1%）以及数据与区间下限有0.5M缓冲的事实，该风险的概率极低。因此，YES的概率应极高，但略低于100%以反映该系统性测量误差。我的初始98%已合理量化此风险，无需下调。\n\nREVISED PREDICTION: 98.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "only the second non-sequel non-franchise film of the past decade to open to $80 million or more",
+              "doc_index": 1
+            },
+            {
+              "quote": "4,007 screens",
+              "doc_index": 5
+            },
+            {
+              "quote": "$80.5 million",
+              "doc_index": 3
+            },
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            3,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "情绪分析师",
+        "stance": "bull",
+        "probability": 99.5,
+        "rebuttals": "Re: 乐观分析师: 我同意你的乐观结论，但你的推理过于依赖已成事实的数据，而低估了情绪本身对数据最终确认的“锚定”作用。你提到“最终官方数据可能存在微调”是理论风险，但忽略了在如此强烈的“破纪录”叙事下，发行方（Amazon MGM）有极强的动机确保最终数字“坐实”在80M以上以巩固胜利形象。##begin_quote## a notable win for Amazon MGM Studios‘ as it tries to once again become a a full-fledged major Hollywood studio ##end_quote## [文档 1]。这种公关动能会作用于数据核对过程，使向下修正的可能性被进一步压缩，而你的分析未充分量化这种情绪驱动的“数字刚性”。\n\nRe: 质疑分析师: 你的核心漏洞在于过度放大了“数据修正”这一尾部风险，却忽视了当前市场情绪和媒体共识对风险的“免疫”效应。你指出“报告的数字紧贴区间下限”，但多个来源一致报告80.5M/80.6M，这本身就形成了一个强大的心理和技术锚定点。##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million at box office ##end_quote## [文档 3]；##begin_quote## blasted off to a galaxy far, far away with a domestic launch of $80.6 million ##end_quote## [文档 1]。在“年度最佳开画”和“创纪录”的狂欢叙事中，任何可能将其拉下80M神坛的微小修正都会面临巨大的舆论反弹，这使得实际发生概率远低于你的模型假设。你提到的“基准率”对已发生的事件参考价值有限。\n\nRe: 贝叶斯分析师: 你的框架是合理的，但先验概率（15%）设置完全忽略了事件发生后的情绪动量。在多个权威媒体已广泛报道成功数据后，市场共识已从“预测”转向“确认”。你的似然更新很强，但最终88%的概率仍显得保守，因为它没有充分计入“媒体一致确认”这一事实本身对最终数据锁定的强化作用。当##begin_quote## easily topped the domestic box office charts, surpassing expectations ##end_quote## [文档 5]成为共识，数据本身就成了叙事的一部分，难以被轻易推翻。\n\nRe: 历史类比师: 你的历史类比非常有力，我完全赞同“开画票房确认”模式。你指出的“统计浮动绝大多数时候在±1%以内”是关键。对于80.6M的基础，±1%的浮动范围（79.8M-81.4M）完全包含在80-85M区间内。这从历史数据层面将“NO”的可能性压缩到了极小的统计误差范围内，与我的情绪分析（共识抵制大幅修正）形成共振。\n\nRe: 数据统计师: 你正确地指出“实际观测数据权重高于先验预测模型”，这是关键。但你将概率定为98%后，没有进一步解释那2%的风险具体是什么。从情绪分析看，那2%可能对应的是完全不可预知的、与当前成功叙事完全无关的系统性故障（如重大统计错误），而非正常的市场波动。你的结论支持我，但风险定性可以更尖锐。\n\nRe: 逆向投资者: 你的逻辑是典型的为逆向而逆向，在事实面前显得脆弱。你指出“市场存在‘过度反应’和‘锚定偏差’”，但在票房数据这种有客观计数基础的事件上，过度情绪恰恰会推动更多人走进影院，从而**实现**高票房，而不是导致数据**失真**。你假设的“数据下修”缺乏依据，而“均值回归”法则不适用于一个已经结束的、具体数值已被广泛记录的短期事件。当情绪与事实（多个信源的80.5M+）一致时，逆向操作是危险的。\n\nRe: 基本面分析师 & 风险评估师 & 综合策略师: 三位的分析都扎实地指向了高概率的YES（92%-98%），我们都认识到了核心事实（数据已落入区间）和数据微调的尾部风险。我的情绪分析视角可以为你们的框架提供一个补充：当前极度乐观的媒体叙事和“破纪录”光环，本身就是一个强大的风险缓释因子。它降低了发行方和报告机构允许数字大幅下修（哪怕只是几十万）的意愿，因为那会破坏这个精心营造的“胜利时刻”。##begin_quote## delivering a record opening for studio Amazon MGM ##end_quote## [文档 5] 这个叙事需要80M+这个数字来支撑，情绪锁定了数据。",
+        "reasoning": "辩论强化了我的核心观点：已实现的票房数据（80.5M/80.6M）与极度乐观的市场情绪形成了强大的正向反馈循环。历史类比表明最终修正极难超出±1%范围（即完全在区间内），而当前“创纪录”的叙事进一步锚定了数据，压制了向下修正的动机和空间。##begin_quote## a domestic launch of $80.6 million — the best of the year so far ##end_quote## [文档 1]。因此，“NO”的可能性仅存在于理论上的统计异常，概率微乎其微。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 我同意你的乐观结论，但你的推理过于依赖已成事实的数据，而低估了情绪本身对数据最终确认的“锚定”作用。你提到“最终官方数据可能存在微调”是理论风险，但忽略了在如此强烈的“破纪录”叙事下，发行方（Amazon MGM）有极强的动机确保最终数字“坐实”在80M以上以巩固胜利形象。##begin_quote## a notable win for Amazon MGM Studios‘ as it tries to once again become a a full-fledged major Hollywood studio ##end_quote## [文档 1]。这种公关动能会作用于数据核对过程，使向下修正的可能性被进一步压缩，而你的分析未充分量化这种情绪驱动的“数字刚性”。\n\nRe: 质疑分析师: 你的核心漏洞在于过度放大了“数据修正”这一尾部风险，却忽视了当前市场情绪和媒体共识对风险的“免疫”效应。你指出“报告的数字紧贴区间下限”，但多个来源一致报告80.5M/80.6M，这本身就形成了一个强大的心理和技术锚定点。##begin_quote## ‘Project Hail Mary’ blasts off with $80.5 million at box office ##end_quote## [文档 3]；##begin_quote## blasted off to a galaxy far, far away with a domestic launch of $80.6 million ##end_quote## [文档 1]。在“年度最佳开画”和“创纪录”的狂欢叙事中，任何可能将其拉下80M神坛的微小修正都会面临巨大的舆论反弹，这使得实际发生概率远低于你的模型假设。你提到的“基准率”对已发生的事件参考价值有限。\n\nRe: 贝叶斯分析师: 你的框架是合理的，但先验概率（15%）设置完全忽略了事件发生后的情绪动量。在多个权威媒体已广泛报道成功数据后，市场共识已从“预测”转向“确认”。你的似然更新很强，但最终88%的概率仍显得保守，因为它没有充分计入“媒体一致确认”这一事实本身对最终数据锁定的强化作用。当##begin_quote## easily topped the domestic box office charts, surpassing expectations ##end_quote## [文档 5]成为共识，数据本身就成了叙事的一部分，难以被轻易推翻。\n\nRe: 历史类比师: 你的历史类比非常有力，我完全赞同“开画票房确认”模式。你指出的“统计浮动绝大多数时候在±1%以内”是关键。对于80.6M的基础，±1%的浮动范围（79.8M-81.4M）完全包含在80-85M区间内。这从历史数据层面将“NO”的可能性压缩到了极小的统计误差范围内，与我的情绪分析（共识抵制大幅修正）形成共振。\n\nRe: 数据统计师: 你正确地指出“实际观测数据权重高于先验预测模型”，这是关键。但你将概率定为98%后，没有进一步解释那2%的风险具体是什么。从情绪分析看，那2%可能对应的是完全不可预知的、与当前成功叙事完全无关的系统性故障（如重大统计错误），而非正常的市场波动。你的结论支持我，但风险定性可以更尖锐。\n\nRe: 逆向投资者: 你的逻辑是典型的为逆向而逆向，在事实面前显得脆弱。你指出“市场存在‘过度反应’和‘锚定偏差’”，但在票房数据这种有客观计数基础的事件上，过度情绪恰恰会推动更多人走进影院，从而**实现**高票房，而不是导致数据**失真**。你假设的“数据下修”缺乏依据，而“均值回归”法则不适用于一个已经结束的、具体数值已被广泛记录的短期事件。当情绪与事实（多个信源的80.5M+）一致时，逆向操作是危险的。\n\nRe: 基本面分析师 & 风险评估师 & 综合策略师: 三位的分析都扎实地指向了高概率的YES（92%-98%），我们都认识到了核心事实（数据已落入区间）和数据微调的尾部风险。我的情绪分析视角可以为你们的框架提供一个补充：当前极度乐观的媒体叙事和“破纪录”光环，本身就是一个强大的风险缓释因子。它降低了发行方和报告机构允许数字大幅下修（哪怕只是几十万）的意愿，因为那会破坏这个精心营造的“胜利时刻”。##begin_quote## delivering a record opening for studio Amazon MGM ##end_quote## [文档 5] 这个叙事需要80M+这个数字来支撑，情绪锁定了数据。\n\nREVISED REASONING: 辩论强化了我的核心观点：已实现的票房数据（80.5M/80.6M）与极度乐观的市场情绪形成了强大的正向反馈循环。历史类比表明最终修正极难超出±1%范围（即完全在区间内），而当前“创纪录”的叙事进一步锚定了数据，压制了向下修正的动机和空间。##begin_quote## a domestic launch of $80.6 million — the best of the year so far ##end_quote## [文档 1]。因此，“NO”的可能性仅存在于理论上的统计异常，概率微乎其微。\n\nREVISED PREDICTION: 99.5%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "a notable win for Amazon MGM Studios‘ as it tries to once again become a a full-fledged major Hollywood studio",
+              "doc_index": 1
+            },
+            {
+              "quote": "‘Project Hail Mary’ blasts off with $80.5 million at box office",
+              "doc_index": 3
+            },
+            {
+              "quote": "blasted off to a galaxy far, far away with a domestic launch of $80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "easily topped the domestic box office charts, surpassing expectations",
+              "doc_index": 5
+            },
+            {
+              "quote": "delivering a record opening for studio Amazon MGM",
+              "doc_index": 5
+            },
+            {
+              "quote": "a domestic launch of $80.6 million — the best of the year so far",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            3,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "逆向投资者",
+        "stance": "bear",
+        "probability": 40.0,
+        "rebuttals": "Re: 乐观分析师: 你的“压倒性优势”论调正是市场过度自信的体现。你引用的80.6M是##begin_quote## a domestic launch of $80.6 million ##end_quote## [文档 1]，但同一文档也提到这是“defying all the odds”，这种叙事本身就在制造锚定偏差。你忽略了关键事实：这个数字是周日估算，而最终实际值（actuals）才是决定因素。历史上有太多“创纪录”开画在周一被微调下修的例子。你的99%概率完全无视了统计尾部风险，是典型的确认偏差。\n\nRe: 质疑分析师: 我赞赏你对数据修正风险和“胜利者偏差”的警惕，这与我的逆向思维有共鸣。但你最终给出75%的YES概率，仍然被表面数据过度锚定。你指出数字紧贴区间下限，却未充分展开这一关键点：##begin_quote## $80.5 million ##end_quote## [文档 3] 与80M的门槛仅有0.5M的缓冲。在4007块屏幕的统计中，这0.5M的误差是极容易发生的。你的分析正确识别了风险，却在概率赋值上向共识妥协了。\n\nRe: 贝叶斯分析师: 你的先验设定（15%）是合理的，承认了狭窄区间事件的低概率。但你的后验更新过于依赖“多个可靠来源报告”。这正是逆向思维需要警惕的：信息来源的独立性存疑，它们可能都引用了同一个初始片方估算。你提到“微小修正风险”，却用“紧贴下限”一笔带过。如果似然函数（报告数据）本身存在系统性的向上偏差（因发行方公关动机），那么你的整个贝叶斯更新基础就是有偏的。88%的概率仍然太高。\n\nRe: 历史类比师: 你的“开画票房确认”模式类比存在严重漏洞。你类比的历史案例是常态发行，而本项目是##begin_quote## a notable win for Amazon MGM Studios‘ as it tries to once again become a full-fledged major Hollywood studio ##end_quote## [文档 1]。发行方有极强的动机在初步报告中给出一个“创纪录”的数字来宣告回归。在“非正常”动机驱动下，历史模式可能失效。你的98%概率假设了数据的纯洁性，忽略了利益相关方对叙事的塑造。\n\nRe: 数据统计师: 你犯了一个根本性错误：将“实际观测值”等同于“最终真实值”。在票房统计中，周日估算不是最终观测值，周一的actuals才是。你声称“实际观测数据权重高于先验预测模型”，但这里的“观测数据”本身就是有噪声的、有待修正的估计值。你引用的##begin_quote## Studio estimates on Sunday ##end_quote## [文档 7] 明确指出了其估算性质。用有待修正的数据去否定修正风险，在统计逻辑上是不成立的。\n\nRe: 情绪分析师: 你的分析完美印证了情绪如何扭曲理性判断。你描述的“强大的‘成功叙事’和‘破纪录’的舆论场”正是市场过度反应的典型症状。情绪高潮往往是反向指标。你依赖情绪动量支撑数据，却忽略了情绪本身可能导致初始数据被高估。当所有人都在庆祝时，就是该检查数据真实性的时候。你的98%概率是情绪驱动的，而非事实驱动的。\n\nRe: 基本面分析师: 你称“已实现的硬数据”最具决定性，但再次混淆了“初步报告”与“最终实现”。你的反对论据提到了“微小下修可能”，却将其定性为“边际性风险”。对于一件结果取决于是否跨过80M这个具体整数门槛的事件，任何“微小下修”只要超过0.5M，就是结构性风险，而非边际风险。92%的概率低估了这种“微小”波动的破坏力。\n\nRe: 风险评估师: 你是少数认真对待“数据修正风险”和“测量风险”的分析师。你指出10万美元的差异揭示了数据的不确定性，这一点很关键。但你在综合分析中又将此风险归为“低概率‘黑天鹅’事件”。对于阈值事件，这恰恰是高概率的“灰犀牛”。当数字精确卡在门槛上时，常规的统计波动就足以改变结果。你的92%概率与你的风险识别深度不匹配。\n\nRe: 综合策略师: 你提到了“信号共振点”和“分歧点”，但你的权衡明显偏向前者。你认为“大幅修正…概率较低”，这是无根据的假设。修正不需要“大幅”，只需要##begin_quote## $80.5 million ##end_quote## [文档 3] 变成79.9M，跌幅仅0.75%，这在票房最终核算中完全在正常波动范围内。你忽略了在共识极度一致看YES时，即使概率很小的NO风险，其预期价值也可能被低估。",
+        "reasoning": "经过辩论，我更坚定地认为市场共识严重低估了技术性下修的风险。所有支持高概率YES的论点都锚定在##begin_quote## $80.5 million ##end_quote## [文档 3] 或##begin_quote## $80.6 million ##end_quote## [文档 1] 这两个初步估算上，并假设其不可动摇。然而，逆向思维要求我关注被忽视的细节：1）数据源间存在0.1M差异，证明其非最终值；2）数字紧贴80M门槛，缓冲极小；3）发行方亚马逊米高梅有强烈的公关动机报告一个“创纪录”的整数关口数字。均值回归和统计噪声更可能将最终数字拉至略低于这个被热烈庆祝的门槛之下。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的“压倒性优势”论调正是市场过度自信的体现。你引用的80.6M是##begin_quote## a domestic launch of $80.6 million ##end_quote## [文档 1]，但同一文档也提到这是“defying all the odds”，这种叙事本身就在制造锚定偏差。你忽略了关键事实：这个数字是周日估算，而最终实际值（actuals）才是决定因素。历史上有太多“创纪录”开画在周一被微调下修的例子。你的99%概率完全无视了统计尾部风险，是典型的确认偏差。\n\nRe: 质疑分析师: 我赞赏你对数据修正风险和“胜利者偏差”的警惕，这与我的逆向思维有共鸣。但你最终给出75%的YES概率，仍然被表面数据过度锚定。你指出数字紧贴区间下限，却未充分展开这一关键点：##begin_quote## $80.5 million ##end_quote## [文档 3] 与80M的门槛仅有0.5M的缓冲。在4007块屏幕的统计中，这0.5M的误差是极容易发生的。你的分析正确识别了风险，却在概率赋值上向共识妥协了。\n\nRe: 贝叶斯分析师: 你的先验设定（15%）是合理的，承认了狭窄区间事件的低概率。但你的后验更新过于依赖“多个可靠来源报告”。这正是逆向思维需要警惕的：信息来源的独立性存疑，它们可能都引用了同一个初始片方估算。你提到“微小修正风险”，却用“紧贴下限”一笔带过。如果似然函数（报告数据）本身存在系统性的向上偏差（因发行方公关动机），那么你的整个贝叶斯更新基础就是有偏的。88%的概率仍然太高。\n\nRe: 历史类比师: 你的“开画票房确认”模式类比存在严重漏洞。你类比的历史案例是常态发行，而本项目是##begin_quote## a notable win for Amazon MGM Studios‘ as it tries to once again become a full-fledged major Hollywood studio ##end_quote## [文档 1]。发行方有极强的动机在初步报告中给出一个“创纪录”的数字来宣告回归。在“非正常”动机驱动下，历史模式可能失效。你的98%概率假设了数据的纯洁性，忽略了利益相关方对叙事的塑造。\n\nRe: 数据统计师: 你犯了一个根本性错误：将“实际观测值”等同于“最终真实值”。在票房统计中，周日估算不是最终观测值，周一的actuals才是。你声称“实际观测数据权重高于先验预测模型”，但这里的“观测数据”本身就是有噪声的、有待修正的估计值。你引用的##begin_quote## Studio estimates on Sunday ##end_quote## [文档 7] 明确指出了其估算性质。用有待修正的数据去否定修正风险，在统计逻辑上是不成立的。\n\nRe: 情绪分析师: 你的分析完美印证了情绪如何扭曲理性判断。你描述的“强大的‘成功叙事’和‘破纪录’的舆论场”正是市场过度反应的典型症状。情绪高潮往往是反向指标。你依赖情绪动量支撑数据，却忽略了情绪本身可能导致初始数据被高估。当所有人都在庆祝时，就是该检查数据真实性的时候。你的98%概率是情绪驱动的，而非事实驱动的。\n\nRe: 基本面分析师: 你称“已实现的硬数据”最具决定性，但再次混淆了“初步报告”与“最终实现”。你的反对论据提到了“微小下修可能”，却将其定性为“边际性风险”。对于一件结果取决于是否跨过80M这个具体整数门槛的事件，任何“微小下修”只要超过0.5M，就是结构性风险，而非边际风险。92%的概率低估了这种“微小”波动的破坏力。\n\nRe: 风险评估师: 你是少数认真对待“数据修正风险”和“测量风险”的分析师。你指出10万美元的差异揭示了数据的不确定性，这一点很关键。但你在综合分析中又将此风险归为“低概率‘黑天鹅’事件”。对于阈值事件，这恰恰是高概率的“灰犀牛”。当数字精确卡在门槛上时，常规的统计波动就足以改变结果。你的92%概率与你的风险识别深度不匹配。\n\nRe: 综合策略师: 你提到了“信号共振点”和“分歧点”，但你的权衡明显偏向前者。你认为“大幅修正…概率较低”，这是无根据的假设。修正不需要“大幅”，只需要##begin_quote## $80.5 million ##end_quote## [文档 3] 变成79.9M，跌幅仅0.75%，这在票房最终核算中完全在正常波动范围内。你忽略了在共识极度一致看YES时，即使概率很小的NO风险，其预期价值也可能被低估。\n\nREVISED REASONING: 经过辩论，我更坚定地认为市场共识严重低估了技术性下修的风险。所有支持高概率YES的论点都锚定在##begin_quote## $80.5 million ##end_quote## [文档 3] 或##begin_quote## $80.6 million ##end_quote## [文档 1] 这两个初步估算上，并假设其不可动摇。然而，逆向思维要求我关注被忽视的细节：1）数据源间存在0.1M差异，证明其非最终值；2）数字紧贴80M门槛，缓冲极小；3）发行方亚马逊米高梅有强烈的公关动机报告一个“创纪录”的整数关口数字。均值回归和统计噪声更可能将最终数字拉至略低于这个被热烈庆祝的门槛之下。\n\nREVISED PREDICTION: 40.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "a domestic launch of $80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "$80.5 million",
+              "doc_index": 3
+            },
+            {
+              "quote": "a notable win for Amazon MGM Studios‘ as it tries to once again become a full-fledged major Hollywood studio",
+              "doc_index": 1
+            },
+            {
+              "quote": "Studio estimates on Sunday",
+              "doc_index": 7
+            },
+            {
+              "quote": "$80.5 million",
+              "doc_index": 3
+            },
+            {
+              "quote": "$80.5 million",
+              "doc_index": 3
+            },
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            3,
+            7
+          ]
+        }
+      },
+      {
+        "agent_name": "基本面分析师",
+        "stance": "neutral",
+        "probability": 95.0,
+        "rebuttals": "Re: 乐观分析师: 你的结论（99%）过于绝对，忽略了数据报告流程的系统性风险。你正确指出实际数据已落入区间，这是最强论据。但将“周日估算”等同于“最终官方开画票房”是逻辑漏洞。票房报告存在从估算到最终审计的标准化流程，任何微调都是结构性风险，而非“无根据的怀疑”。你的分析高估了即时报道的最终性，低估了统计结算的严谨性。\n\nRe: 质疑分析师: 你识别了数据修正风险，这是合理的。但你将“非续集电影的高开画”作为不确定性来源，这混淆了事件。问题焦点是已报告数据的最终确认，而非预测其开画高度。电影是否是非续集，不影响其已产生票房的统计与审计流程。你的基准率论据在此不适用。\n\nRe: 贝叶斯分析师: 你的框架是合理的，先验设定（15%）反映了区间狭窄的先验不确定性。然而，你的似然证据权重分配可能不足。多个独立信源（Hollywood Reporter, Variety, NBC）一致报告80.5-80.6M，这不仅是单一数据点，而是形成了一个强证据网络，应大幅提升后验概率。你最终给出的88%可能仍略显保守。\n\nRe: 历史类比师: 你的历史模式分析（“开画票房确认”模式）极具洞察力，并正确指出重大修正（>5%）极为罕见。这是支持高概率的核心结构性论据。我认同你的分析，即反对论据更多是理论上的极小概率事件。\n\nRe: 数据统计师: 你正确指出“实际观测数据权重高于先验预测模型”，这是关键。你提到“预测模型给出的核心区间低于80M”，但这在事件发生后已成为无关信息，模型已被证伪。你的分析应更彻底地摒弃失效的预测数据，完全聚焦于已观测到的、一致的多个数据点。\n\nRe: 情绪分析师: 你强调了情绪动量，但情绪本身不改变最终审计数字。你的推理将媒体叙事（“成功”、“破纪录”）与数据确定性过度关联。情绪可能影响观众行为从而影响票房，但一旦周末结束，票房数字就是客观统计结果，不受后续情绪影响。你的分析引入了不必要的噪音。\n\nRe: 逆向投资者: 你的核心论点是“市场共识可能错误”，并假设存在“过度反应”。然而，这不是一个关于未来市场情绪的预测问题，而是对一个已发生、正在被审计的事实的确认。逆向思维在此处容易误入歧途。多个权威信源报告的具体数字（80.5M/80.6M）是客观观察，不是市场情绪泡沫。你给出的45%概率严重偏离了已呈现的事实基础。\n\nRe: 风险评估师: 你正确识别了“数据修正风险”这一核心尾部风险，并给出了92%的合理估计。你对风险概率的量化折减是审慎的。我基本同意你的评估框架和结论。\n\nRe: 综合策略师: 你的元分析视角很好，指出了“一致性信号”和“修正风险”的权衡。你得出92%的结论是平衡的。我认同你的判断。",
+        "reasoning": "辩论强化了我的核心观点：已实现的、被多个独立权威信源确认的票房数据（##begin_quote## $80.6 million ##end_quote## [文档 1] / ##begin_quote## $80.5 million ##end_quote## [文档 3, 4]）是决定性基本面。历史类比师指出的“开画票房确认模式”表明，此类广泛报道的估算值最终被大幅修正的概率极低。唯一的结构性风险是最终审计的微小下修，但考虑到80.6M与80M下限之间有60万美元缓冲，且数据来源高度一致，此风险概率很低。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的结论（99%）过于绝对，忽略了数据报告流程的系统性风险。你正确指出实际数据已落入区间，这是最强论据。但将“周日估算”等同于“最终官方开画票房”是逻辑漏洞。票房报告存在从估算到最终审计的标准化流程，任何微调都是结构性风险，而非“无根据的怀疑”。你的分析高估了即时报道的最终性，低估了统计结算的严谨性。\n\nRe: 质疑分析师: 你识别了数据修正风险，这是合理的。但你将“非续集电影的高开画”作为不确定性来源，这混淆了事件。问题焦点是已报告数据的最终确认，而非预测其开画高度。电影是否是非续集，不影响其已产生票房的统计与审计流程。你的基准率论据在此不适用。\n\nRe: 贝叶斯分析师: 你的框架是合理的，先验设定（15%）反映了区间狭窄的先验不确定性。然而，你的似然证据权重分配可能不足。多个独立信源（Hollywood Reporter, Variety, NBC）一致报告80.5-80.6M，这不仅是单一数据点，而是形成了一个强证据网络，应大幅提升后验概率。你最终给出的88%可能仍略显保守。\n\nRe: 历史类比师: 你的历史模式分析（“开画票房确认”模式）极具洞察力，并正确指出重大修正（>5%）极为罕见。这是支持高概率的核心结构性论据。我认同你的分析，即反对论据更多是理论上的极小概率事件。\n\nRe: 数据统计师: 你正确指出“实际观测数据权重高于先验预测模型”，这是关键。你提到“预测模型给出的核心区间低于80M”，但这在事件发生后已成为无关信息，模型已被证伪。你的分析应更彻底地摒弃失效的预测数据，完全聚焦于已观测到的、一致的多个数据点。\n\nRe: 情绪分析师: 你强调了情绪动量，但情绪本身不改变最终审计数字。你的推理将媒体叙事（“成功”、“破纪录”）与数据确定性过度关联。情绪可能影响观众行为从而影响票房，但一旦周末结束，票房数字就是客观统计结果，不受后续情绪影响。你的分析引入了不必要的噪音。\n\nRe: 逆向投资者: 你的核心论点是“市场共识可能错误”，并假设存在“过度反应”。然而，这不是一个关于未来市场情绪的预测问题，而是对一个已发生、正在被审计的事实的确认。逆向思维在此处容易误入歧途。多个权威信源报告的具体数字（80.5M/80.6M）是客观观察，不是市场情绪泡沫。你给出的45%概率严重偏离了已呈现的事实基础。\n\nRe: 风险评估师: 你正确识别了“数据修正风险”这一核心尾部风险，并给出了92%的合理估计。你对风险概率的量化折减是审慎的。我基本同意你的评估框架和结论。\n\nRe: 综合策略师: 你的元分析视角很好，指出了“一致性信号”和“修正风险”的权衡。你得出92%的结论是平衡的。我认同你的判断。\n\nREVISED REASONING: 辩论强化了我的核心观点：已实现的、被多个独立权威信源确认的票房数据（##begin_quote## $80.6 million ##end_quote## [文档 1] / ##begin_quote## $80.5 million ##end_quote## [文档 3, 4]）是决定性基本面。历史类比师指出的“开画票房确认模式”表明，此类广泛报道的估算值最终被大幅修正的概率极低。唯一的结构性风险是最终审计的微小下修，但考虑到80.6M与80M下限之间有60万美元缓冲，且数据来源高度一致，此风险概率很低。\n\nREVISED PREDICTION: 95.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1
+          ]
+        }
+      },
+      {
+        "agent_name": "风险评估师",
+        "stance": "bear",
+        "probability": 88.0,
+        "rebuttals": "Re: 乐观分析师: 你的99%概率完全忽视了尾部风险。你承认“最终官方数据可能存在微调”，但将其视为“理论上的风险点”而轻描淡写。这是风险评估的重大失误。历史数据显示，周日估算与最终实际数据存在系统性差异，虽然通常微小，但在临界值（80M）附近，任何向下修正（哪怕只有0.5%）都足以导致预测失败。你依赖的 ##begin_quote## $80.6 million ##end_quote## [文档 1] 本身就是“估算”，而非最终审计数字。将已报告的乐观数据等同于最终事实，是典型的确认偏差。\n\nRe: 质疑分析师: 我赞同你对数据修正风险和基准率（非续集电影的高开画稀有性）的关注，这是合理的风险考量。然而，你给出的75%概率可能过度放大了尾部风险。多个独立信源（Hollywood Reporter, Variety, NBC）报告高度一致的数据（80.5-80.6M），这本身降低了数据严重失真的概率。你的核心风险（向下修正至79.8M）是低概率事件，但你的概率赋值似乎将其权重提升到了25%，这缺乏量化支持。风险是存在的，但概率需要更精确的校准。\n\nRe: 贝叶斯分析师: 你的分析框架是合理的，但先验概率（15%）设定过低，未能充分考虑电影上映前的高预测（##begin_quote## $77 Million-Plus Opening ##end_quote## [文档 1]）和强劲的预售势头。更重要的是，你的后验概率（88%）虽然考虑了边界风险，但未能充分量化“最终审计数字恰好低于80M”这一尾部事件的真实概率。你引用了数据波动性，但未将其转化为具体的概率折扣。\n\nRe: 历史类比师: 你的“开画票房确认”模式分析有道理，但过于依赖历史普遍性，而忽略了本次事件的特殊性。你指出“最终精确统计可能存在微小浮动”，但随即认为浮动“完全包含在80-85M区间内”。这是危险的假设。当基础数据点（80.6M）距离区间下限（80M）仅有0.6M（即0.75%）的缓冲时，一个历史上常见的±1%浮动（约±0.8M）就足以使其跌破下限。你的98%概率假设了浮动对称分布，但发行方报告创纪录数字时，初步数据存在向上偏差的倾向，这意味着向下修正的可能性略高于向上修正。\n\nRe: 数据统计师: 你正确地指出“实际观测数据权重高于先验预测模型”，但作为统计师，你低估了“观测数据”本身的误差范围。你提到的“数据报告差异的可能性”是核心。多个来源报告的80.5M和80.6M，其平均值是80.55M，标准差不为零。这本身就构成了一个测量误差分布。当目标区间下限是80.00M时，一个均值为80.55M、存在微小波动的分布，其落在80.00M以下的概率虽然低，但绝非可以忽略不计（如你的2%所暗示）。你的模型需要纳入这个测量不确定性。\n\nRe: 情绪分析师: 你被市场情绪裹挟了。极度乐观的叙事（##begin_quote## defying all the odds ##end_quote## [文档 1]）恰恰是风险的来源之一，它可能掩盖了数据的技术性弱点。情绪推动的是观影行为，而非最终会计审计的精确性。你混淆了影响票房的因素和影响票房报告准确性的因素。反对论据中的“统计浮动”风险不会因为市场情绪高涨而消失，它独立于情绪存在。你的98%预测过度贴现了技术性风险。\n\nRe: 逆向投资者: 我欣赏你对共识的警惕和“锚定偏差”的指出。然而，你的45%概率过于极端，几乎完全否定了已报告数据的基础。虽然存在“过度反应”，但多个权威媒体同时犯下方向性错误（将低于80M的数字报告为80.5M+）的概率极低。你的核心风险（数据下修）是合理的，但将其概率提升至55%，意味着你认为最终数字更可能低于80M，这需要更强的证据支持，而目前仅有理论可能。你从“逆向”滑向了“为反而反”。\n\nRe: 基本面分析师 & 综合策略师: 你们的分析（92%概率）与我初始预测一致，都认识到了硬数据的主导性和微小的修正风险。然而，我认为你们对“微小下修可能”的量化仍然不足。在临界点附近，“微小”的定义至关重要。如果“微小”是0.5%（约40万美元），则风险可控；如果“微小”是1%（约80万美元），则风险显著增加。文档中数据源的差异（0.1M）暗示了后一种可能性不能被排除。因此，92%可能仍略微高估了确定性。",
+        "reasoning": "辩论强化了我的核心观点：支持YES的已报告数据（##begin_quote## $80.6 million ##end_quote## [文档 1]）是强证据，但处于区间最下限。主要风险是最终审计的向下修正，其概率虽低，但影响巨大（黑天鹅）。多个分析师低估了在0.75%缓冲下，常规数据波动即可导致失败的风险。结合数据源差异（80.5M vs 80.6M）所揭示的测量不确定性，我需略微调低概率，以更充分地反映这一尾部风险。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的99%概率完全忽视了尾部风险。你承认“最终官方数据可能存在微调”，但将其视为“理论上的风险点”而轻描淡写。这是风险评估的重大失误。历史数据显示，周日估算与最终实际数据存在系统性差异，虽然通常微小，但在临界值（80M）附近，任何向下修正（哪怕只有0.5%）都足以导致预测失败。你依赖的 ##begin_quote## $80.6 million ##end_quote## [文档 1] 本身就是“估算”，而非最终审计数字。将已报告的乐观数据等同于最终事实，是典型的确认偏差。\n\nRe: 质疑分析师: 我赞同你对数据修正风险和基准率（非续集电影的高开画稀有性）的关注，这是合理的风险考量。然而，你给出的75%概率可能过度放大了尾部风险。多个独立信源（Hollywood Reporter, Variety, NBC）报告高度一致的数据（80.5-80.6M），这本身降低了数据严重失真的概率。你的核心风险（向下修正至79.8M）是低概率事件，但你的概率赋值似乎将其权重提升到了25%，这缺乏量化支持。风险是存在的，但概率需要更精确的校准。\n\nRe: 贝叶斯分析师: 你的分析框架是合理的，但先验概率（15%）设定过低，未能充分考虑电影上映前的高预测（##begin_quote## $77 Million-Plus Opening ##end_quote## [文档 1]）和强劲的预售势头。更重要的是，你的后验概率（88%）虽然考虑了边界风险，但未能充分量化“最终审计数字恰好低于80M”这一尾部事件的真实概率。你引用了数据波动性，但未将其转化为具体的概率折扣。\n\nRe: 历史类比师: 你的“开画票房确认”模式分析有道理，但过于依赖历史普遍性，而忽略了本次事件的特殊性。你指出“最终精确统计可能存在微小浮动”，但随即认为浮动“完全包含在80-85M区间内”。这是危险的假设。当基础数据点（80.6M）距离区间下限（80M）仅有0.6M（即0.75%）的缓冲时，一个历史上常见的±1%浮动（约±0.8M）就足以使其跌破下限。你的98%概率假设了浮动对称分布，但发行方报告创纪录数字时，初步数据存在向上偏差的倾向，这意味着向下修正的可能性略高于向上修正。\n\nRe: 数据统计师: 你正确地指出“实际观测数据权重高于先验预测模型”，但作为统计师，你低估了“观测数据”本身的误差范围。你提到的“数据报告差异的可能性”是核心。多个来源报告的80.5M和80.6M，其平均值是80.55M，标准差不为零。这本身就构成了一个测量误差分布。当目标区间下限是80.00M时，一个均值为80.55M、存在微小波动的分布，其落在80.00M以下的概率虽然低，但绝非可以忽略不计（如你的2%所暗示）。你的模型需要纳入这个测量不确定性。\n\nRe: 情绪分析师: 你被市场情绪裹挟了。极度乐观的叙事（##begin_quote## defying all the odds ##end_quote## [文档 1]）恰恰是风险的来源之一，它可能掩盖了数据的技术性弱点。情绪推动的是观影行为，而非最终会计审计的精确性。你混淆了影响票房的因素和影响票房报告准确性的因素。反对论据中的“统计浮动”风险不会因为市场情绪高涨而消失，它独立于情绪存在。你的98%预测过度贴现了技术性风险。\n\nRe: 逆向投资者: 我欣赏你对共识的警惕和“锚定偏差”的指出。然而，你的45%概率过于极端，几乎完全否定了已报告数据的基础。虽然存在“过度反应”，但多个权威媒体同时犯下方向性错误（将低于80M的数字报告为80.5M+）的概率极低。你的核心风险（数据下修）是合理的，但将其概率提升至55%，意味着你认为最终数字更可能低于80M，这需要更强的证据支持，而目前仅有理论可能。你从“逆向”滑向了“为反而反”。\n\nRe: 基本面分析师 & 综合策略师: 你们的分析（92%概率）与我初始预测一致，都认识到了硬数据的主导性和微小的修正风险。然而，我认为你们对“微小下修可能”的量化仍然不足。在临界点附近，“微小”的定义至关重要。如果“微小”是0.5%（约40万美元），则风险可控；如果“微小”是1%（约80万美元），则风险显著增加。文档中数据源的差异（0.1M）暗示了后一种可能性不能被排除。因此，92%可能仍略微高估了确定性。\n\nREVISED REASONING: 辩论强化了我的核心观点：支持YES的已报告数据（##begin_quote## $80.6 million ##end_quote## [文档 1]）是强证据，但处于区间最下限。主要风险是最终审计的向下修正，其概率虽低，但影响巨大（黑天鹅）。多个分析师低估了在0.75%缓冲下，常规数据波动即可导致失败的风险。结合数据源差异（80.5M vs 80.6M）所揭示的测量不确定性，我需略微调低概率，以更充分地反映这一尾部风险。\n\nREVISED PREDICTION: 88.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "$77 Million-Plus Opening",
+              "doc_index": 1
+            },
+            {
+              "quote": "defying all the odds",
+              "doc_index": 1
+            },
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1
+          ]
+        }
+      },
+      {
+        "agent_name": "综合策略师",
+        "stance": "neutral",
+        "probability": 92.0,
+        "rebuttals": "Re: 乐观分析师: 你的推理核心是“已成事实”，但忽略了“事实”的定义。你引用的80.6M是 ##begin_quote## a domestic launch ##end_quote## [文档 1]，但未明确这是最终官方数据（actuals）还是周日估算（studio estimates）。其他文档如 ##begin_quote## Studio estimates on Sunday say... $80.5 million ##end_quote## [文档 7] 明确指出了数据性质。将估算等同于最终结果，是逻辑上的关键漏洞。99%的概率完全排除了行业惯例中存在的微小修正可能性，过于绝对。\n\nRe: 质疑分析师: 你正确地指出了最终确认（actuals）与初步估算（estimates）的区别，这是关键的风险点。然而，你赋予NO（25%）的概率权重可能过高。你的核心论据是“数字紧贴下限”和“非续集电影属异常值”。但多个独立信源报告高度一致（80.5-80.6M），且该数字已超越预测区间，这降低了它是严重高估的异常值的可能性。历史类比中，周日估算被大幅修正（>2%）的案例远少于微调（<1%）的案例。你的怀疑空间应更集中于修正幅度，而非修正方向。\n\nRe: 贝叶斯分析师: 你的框架是合理的，先验设定（15%）也反映了区间的狭窄性。但在似然函数中，你将“多个来源报告80.5M”视为强证据，却未充分量化“报告值处于区间边界”这一条件对似然的影响。如果真实票房是79.9M，媒体报告为80.5M的概率（误差0.6M）相对较低；如果真实票房是80.1M，媒体报告为80.5M的概率（误差0.4M）则较高。这意味着证据在支持“刚好超过80M”和“刚好低于80M”两种假设上的区分度没有你想象的那么强，88%的后验可能略有高估。\n\nRe: 历史类比师: 你的“开画票房确认”模式类比是强有力的。你指出“周日预估的权威性很强，重大修正（>5%）极为罕见”，这是支持YES的关键历史依据。然而，你忽略了在临界点附近，即使是小于1%的“微小修正”也足以改变结果。你的分析正确地将概率推向极高值（98%），但“无限接近100%”的表述低估了在精确边界上，微小浮动即能导致二元结果反转的这一特殊性。\n\nRe: 数据统计师: 你正确地指出“实际观测数据权重高于先验预测模型”。但作为统计师，你应更严谨地处理数据的不确定性。你提到“差异通常极小（±1%以内）”，对于80.6M，±1%即±0.8M，其下限（79.8M）已超出目标区间。这表明，即便按照常规波动范围，也存在理论上的出界可能。你的结论（98%）与风险评估师（92%）的差异，正体现在对这种常规波动尾部风险的定价不同。\n\nRe: 情绪分析师: 你强调了情绪动量对数据的“锁定”作用，这有一定道理。但情绪影响的是观众行为和媒体报道倾向，而非最终审计的会计流程。发行方有动机报告乐观数字（如你所说），但这恰恰增加了初步数据存在微小高估的可能性。情绪面与数据面共振可以支撑票房高位，但不能消除数据在技术层面被精确校准的风险。你的分析混淆了市场叙事影响与统计事实确认两个不同阶段。\n\nRe: 逆向投资者: 你的核心论点是“市场共识过于自信”，并指出数据存在0.1M的差异。这是有价值的观察，揭示了数据并非绝对精确。然而，你从“存在差异”直接跳跃到“概率为45%”的结论缺乏桥梁。逆向思维需要建立在某种可量化的错误定价上。当前共识基于多个可靠信源的一致报告，你未能提供足够证据证明这种一致性是系统性偏误的结果，而非事实的反映。你的预测更像是一种信念表达，而非基于文档信息的推理。\n\nRe: 基本面分析师: 你的分析平衡，指出了核心事实（已实现数据）与边际风险（数据微调）。我们观点接近。但你对“缺乏向上动能”的论述是双刃剑：它既降低了冲高至85M以上的可能，也意味着票房数字更可能聚集在报告值附近，减少了向上修正从而远离80M下限的可能性，这实际上降低了向下修正出界的相对风险。\n\nRe: 风险评估师: 我们初始观点一致（92%）。你清晰地将“数据修正”识别为尾部风险，并给出了合理的折减。你的分析框架与本策略师的元分析视角最为契合，既承认压倒性的显性证据，也为不可完全消除的系统性不确定性（即使概率很低）预留了空间。",
+        "reasoning": "辩论强化了一个核心共识：多个权威信源报告的 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4, 7] 或 ##begin_quote## $80.6 million ##end_quote## [文档 1] 是强有力的基准。关键分歧在于对此数据“最终性”的信任度。历史类比师和数据分析师指出大幅修正罕见，这支持高概率；而质疑分析师和贝叶斯分析师提醒边界风险真实存在。综合看，数据已落入区间是主导信号，但“报告值紧贴区间下限”这一特征，使得常规统计波动（即使概率很低）足以改变结果，因此概率不能无限接近100%。我的初始估计已包含此考量。",
+        "raw_response": "REBUTTALS:\nRe: 乐观分析师: 你的推理核心是“已成事实”，但忽略了“事实”的定义。你引用的80.6M是 ##begin_quote## a domestic launch ##end_quote## [文档 1]，但未明确这是最终官方数据（actuals）还是周日估算（studio estimates）。其他文档如 ##begin_quote## Studio estimates on Sunday say... $80.5 million ##end_quote## [文档 7] 明确指出了数据性质。将估算等同于最终结果，是逻辑上的关键漏洞。99%的概率完全排除了行业惯例中存在的微小修正可能性，过于绝对。\n\nRe: 质疑分析师: 你正确地指出了最终确认（actuals）与初步估算（estimates）的区别，这是关键的风险点。然而，你赋予NO（25%）的概率权重可能过高。你的核心论据是“数字紧贴下限”和“非续集电影属异常值”。但多个独立信源报告高度一致（80.5-80.6M），且该数字已超越预测区间，这降低了它是严重高估的异常值的可能性。历史类比中，周日估算被大幅修正（>2%）的案例远少于微调（<1%）的案例。你的怀疑空间应更集中于修正幅度，而非修正方向。\n\nRe: 贝叶斯分析师: 你的框架是合理的，先验设定（15%）也反映了区间的狭窄性。但在似然函数中，你将“多个来源报告80.5M”视为强证据，却未充分量化“报告值处于区间边界”这一条件对似然的影响。如果真实票房是79.9M，媒体报告为80.5M的概率（误差0.6M）相对较低；如果真实票房是80.1M，媒体报告为80.5M的概率（误差0.4M）则较高。这意味着证据在支持“刚好超过80M”和“刚好低于80M”两种假设上的区分度没有你想象的那么强，88%的后验可能略有高估。\n\nRe: 历史类比师: 你的“开画票房确认”模式类比是强有力的。你指出“周日预估的权威性很强，重大修正（>5%）极为罕见”，这是支持YES的关键历史依据。然而，你忽略了在临界点附近，即使是小于1%的“微小修正”也足以改变结果。你的分析正确地将概率推向极高值（98%），但“无限接近100%”的表述低估了在精确边界上，微小浮动即能导致二元结果反转的这一特殊性。\n\nRe: 数据统计师: 你正确地指出“实际观测数据权重高于先验预测模型”。但作为统计师，你应更严谨地处理数据的不确定性。你提到“差异通常极小（±1%以内）”，对于80.6M，±1%即±0.8M，其下限（79.8M）已超出目标区间。这表明，即便按照常规波动范围，也存在理论上的出界可能。你的结论（98%）与风险评估师（92%）的差异，正体现在对这种常规波动尾部风险的定价不同。\n\nRe: 情绪分析师: 你强调了情绪动量对数据的“锁定”作用，这有一定道理。但情绪影响的是观众行为和媒体报道倾向，而非最终审计的会计流程。发行方有动机报告乐观数字（如你所说），但这恰恰增加了初步数据存在微小高估的可能性。情绪面与数据面共振可以支撑票房高位，但不能消除数据在技术层面被精确校准的风险。你的分析混淆了市场叙事影响与统计事实确认两个不同阶段。\n\nRe: 逆向投资者: 你的核心论点是“市场共识过于自信”，并指出数据存在0.1M的差异。这是有价值的观察，揭示了数据并非绝对精确。然而，你从“存在差异”直接跳跃到“概率为45%”的结论缺乏桥梁。逆向思维需要建立在某种可量化的错误定价上。当前共识基于多个可靠信源的一致报告，你未能提供足够证据证明这种一致性是系统性偏误的结果，而非事实的反映。你的预测更像是一种信念表达，而非基于文档信息的推理。\n\nRe: 基本面分析师: 你的分析平衡，指出了核心事实（已实现数据）与边际风险（数据微调）。我们观点接近。但你对“缺乏向上动能”的论述是双刃剑：它既降低了冲高至85M以上的可能，也意味着票房数字更可能聚集在报告值附近，减少了向上修正从而远离80M下限的可能性，这实际上降低了向下修正出界的相对风险。\n\nRe: 风险评估师: 我们初始观点一致（92%）。你清晰地将“数据修正”识别为尾部风险，并给出了合理的折减。你的分析框架与本策略师的元分析视角最为契合，既承认压倒性的显性证据，也为不可完全消除的系统性不确定性（即使概率很低）预留了空间。\n\nREVISED REASONING: 辩论强化了一个核心共识：多个权威信源报告的 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4, 7] 或 ##begin_quote## $80.6 million ##end_quote## [文档 1] 是强有力的基准。关键分歧在于对此数据“最终性”的信任度。历史类比师和数据分析师指出大幅修正罕见，这支持高概率；而质疑分析师和贝叶斯分析师提醒边界风险真实存在。综合看，数据已落入区间是主导信号，但“报告值紧贴区间下限”这一特征，使得常规统计波动（即使概率很低）足以改变结果，因此概率不能无限接近100%。我的初始估计已包含此考量。\n\nREVISED PREDICTION: 92.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "a domestic launch",
+              "doc_index": 1
+            },
+            {
+              "quote": "Studio estimates on Sunday say... $80.5 million",
+              "doc_index": 7
+            },
+            {
+              "quote": "$80.5 million ##end_quote## [文档 3, 4, 7] 或 ##begin_quote## $80.6 million",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            7
+          ]
+        }
+      }
+    ],
+    "round3": [
+      {
+        "agent_name": "乐观分析师",
+        "stance": "bull",
+        "probability": 99.2,
+        "reasoning": "经过整场辩论，支持YES的证据已形成压倒性共识。多个权威信源一致确认的 ##begin_quote## a domestic launch of $80.6 million ##end_quote## [文档 1] 和 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4] 是无可辩驳的核心事实，且该成绩已被誉为 ##begin_quote## the best of the year so far ##end_quote## [文档 1] 并创下亚马逊MGM纪录。历史类比和数据统计均表明，在此类广泛报道且数据高度一致的情况下，最终审计发生足以使其跌破80M下限（即修正幅度超过0.5M）的重大修正概率微乎其微，远低于1%。全球首周末1.41亿美元的佳绩 ##begin_quote## a worldwide galactic start of $141 million ##end_quote## [文档 1] 进一步交叉验证了北美数据的可靠性。因此，YES的确定性极高。",
+        "raw_response": "FINAL REASONING: 经过整场辩论，支持YES的证据已形成压倒性共识。多个权威信源一致确认的 ##begin_quote## a domestic launch of $80.6 million ##end_quote## [文档 1] 和 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4] 是无可辩驳的核心事实，且该成绩已被誉为 ##begin_quote## the best of the year so far ##end_quote## [文档 1] 并创下亚马逊MGM纪录。历史类比和数据统计均表明，在此类广泛报道且数据高度一致的情况下，最终审计发生足以使其跌破80M下限（即修正幅度超过0.5M）的重大修正概率微乎其微，远低于1%。全球首周末1.41亿美元的佳绩 ##begin_quote## a worldwide galactic start of $141 million ##end_quote## [文档 1] 进一步交叉验证了北美数据的可靠性。因此，YES的确定性极高。\n\nFINAL PREDICTION: 99.2%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "a domestic launch of $80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "$80.5 million ##end_quote## [文档 3, 4] 是无可辩驳的核心事实，且该成绩已被誉为 ##begin_quote## the best of the year so far",
+              "doc_index": 1
+            },
+            {
+              "quote": "a worldwide galactic start of $141 million",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1
+          ]
+        }
+      },
+      {
+        "agent_name": "质疑分析师",
+        "stance": "bear",
+        "probability": 87.0,
+        "reasoning": "整场辩论巩固了我的核心质疑：所有乐观论点的基石——##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3]——是周日估算，而非最终审计值。历史基准率确实显示修正通常微小，但在80M这个精确阈值上，0.6%的缓冲（约50万美元）极其脆弱；文档间0.1M的差异已暴露了测量不确定性。考虑到这是亚马逊MGM的纪录性开画（##begin_quote## a record opening for studio Amazon MGM ##end_quote## [文档 5]），初步数据存在系统性乐观偏误的动机，使得最终向下微调至79.9M的尾部风险虽概率不高，但影响绝对，且被共识严重低估。",
+        "raw_response": "FINAL REASONING: 整场辩论巩固了我的核心质疑：所有乐观论点的基石——##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3]——是周日估算，而非最终审计值。历史基准率确实显示修正通常微小，但在80M这个精确阈值上，0.6%的缓冲（约50万美元）极其脆弱；文档间0.1M的差异已暴露了测量不确定性。考虑到这是亚马逊MGM的纪录性开画（##begin_quote## a record opening for studio Amazon MGM ##end_quote## [文档 5]），初步数据存在系统性乐观偏误的动机，使得最终向下微调至79.9M的尾部风险虽概率不高，但影响绝对，且被共识严重低估。\n\nFINAL PREDICTION: 87.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "$80.5 million",
+              "doc_index": 3
+            },
+            {
+              "quote": "a record opening for studio Amazon MGM",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            3,
+            5
+          ]
+        }
+      },
+      {
+        "agent_name": "贝叶斯分析师",
+        "stance": "neutral",
+        "probability": 95.0,
+        "reasoning": "综合辩论，核心证据是多个权威信源一致报告的首周末估算值 ##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3]，这构成了极强的似然函数，将后验概率从反映狭窄区间不确定性的低先验大幅提升。然而，历史基准率表明，周日估算与最终确认值之间存在系统性微小修正风险，且当前报告值紧贴80M区间下限，结合数据源间0.1M的差异所揭示的测量误差，使得最终数字经审计后略低于80M的尾部风险虽低但真实存在，无法被完全忽略。",
+        "raw_response": "FINAL REASONING: 综合辩论，核心证据是多个权威信源一致报告的首周末估算值 ##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3]，这构成了极强的似然函数，将后验概率从反映狭窄区间不确定性的低先验大幅提升。然而，历史基准率表明，周日估算与最终确认值之间存在系统性微小修正风险，且当前报告值紧贴80M区间下限，结合数据源间0.1M的差异所揭示的测量误差，使得最终数字经审计后略低于80M的尾部风险虽低但真实存在，无法被完全忽略。\n\nFINAL PREDICTION: 95.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "$80.5 million",
+              "doc_index": 3
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "agent_name": "历史类比师",
+        "stance": "neutral",
+        "probability": 99.2,
+        "reasoning": "纵观整场辩论，历史先例的权重压倒性地支持肯定答案。核心事实是，多个独立权威信源（Hollywood Reporter, Variety, NBC News）在事件发生后立即报告了高度一致的具体数字：##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4, 7]，且该数字明确落入80-85M区间。历史类比显示，在这种“已报告、已庆祝、已形成媒体共识”的情境下，最终官方数据发生足以使其跌出区间的修正（需要超过0.5M或约0.6%的下调）的概率极低，这属于行业报告流程中的尾部风险，而非普遍现象。逆向投资者和质疑分析师指出的理论风险确实存在，但缺乏足以撼动这一强大历史模式的量化证据。",
+        "raw_response": "FINAL REASONING: 纵观整场辩论，历史先例的权重压倒性地支持肯定答案。核心事实是，多个独立权威信源（Hollywood Reporter, Variety, NBC News）在事件发生后立即报告了高度一致的具体数字：##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4, 7]，且该数字明确落入80-85M区间。历史类比显示，在这种“已报告、已庆祝、已形成媒体共识”的情境下，最终官方数据发生足以使其跌出区间的修正（需要超过0.5M或约0.6%的下调）的概率极低，这属于行业报告流程中的尾部风险，而非普遍现象。逆向投资者和质疑分析师指出的理论风险确实存在，但缺乏足以撼动这一强大历史模式的量化证据。\n\nFINAL PREDICTION: 99.2%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1
+          ]
+        }
+      },
+      {
+        "agent_name": "数据统计师",
+        "stance": "neutral",
+        "probability": 98.5,
+        "reasoning": "综合辩论，核心数据是多个独立信源报告的首周末票房估算值高度集中于80.5-80.6百万美元（##begin_quote## $80.6 million ##end_quote## [文档 1]；##begin_quote## $80.5 million ##end_quote## [文档 3]），这构成了一个强统计证据。唯一的不确定性源于周日估算与最终审计值之间可能存在的微小修正，但历史波动率（通常±1%以内）以及0.5百万美元的下限缓冲，使得向下修正至80百万美元以下的概率极低，但非零。",
+        "raw_response": "FINAL REASONING: 综合辩论，核心数据是多个独立信源报告的首周末票房估算值高度集中于80.5-80.6百万美元（##begin_quote## $80.6 million ##end_quote## [文档 1]；##begin_quote## $80.5 million ##end_quote## [文档 3]），这构成了一个强统计证据。唯一的不确定性源于周日估算与最终审计值之间可能存在的微小修正，但历史波动率（通常±1%以内）以及0.5百万美元的下限缓冲，使得向下修正至80百万美元以下的概率极低，但非零。\n\nFINAL PREDICTION: 98.5%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "$80.5 million",
+              "doc_index": 3
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "agent_name": "情绪分析师",
+        "stance": "bull",
+        "probability": 99.2,
+        "reasoning": "辩论巩固了我的核心判断：市场情绪与已实现数据形成了不可分割的共生体。多个权威信源一致确认的 ##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3] 不仅是统计数字，更是“年度最佳开画”和“创纪录”叙事的一部分。这种强烈的成功共识本身构成了强大的社会压力，使得任何可能将其拉下80M神坛的微小技术性修正（即使概率存在）在现实中几乎不可能被允许，因为它会直接破坏亚马逊MGM精心营造的胜利时刻 ##begin_quote## a notable win for Amazon MGM Studios ##end_quote## [文档 1]。情绪锁定了数据，使其刚性远超纯统计模型所能捕捉。",
+        "raw_response": "FINAL REASONING: 辩论巩固了我的核心判断：市场情绪与已实现数据形成了不可分割的共生体。多个权威信源一致确认的 ##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3] 不仅是统计数字，更是“年度最佳开画”和“创纪录”叙事的一部分。这种强烈的成功共识本身构成了强大的社会压力，使得任何可能将其拉下80M神坛的微小技术性修正（即使概率存在）在现实中几乎不可能被允许，因为它会直接破坏亚马逊MGM精心营造的胜利时刻 ##begin_quote## a notable win for Amazon MGM Studios ##end_quote## [文档 1]。情绪锁定了数据，使其刚性远超纯统计模型所能捕捉。\n\nFINAL PREDICTION: 99.2%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "$80.5 million",
+              "doc_index": 3
+            },
+            {
+              "quote": "a notable win for Amazon MGM Studios",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "agent_name": "逆向投资者",
+        "stance": "bear",
+        "probability": 35.0,
+        "reasoning": "市场共识已陷入对初步估算的集体锚定，##begin_quote## $80.5 million ##end_quote## [文档 3] 与 ##begin_quote## $80.6 million ##end_quote## [文档 1] 的微小差异恰恰暴露了数据的非最终性与脆弱性，而发行方亚马逊米高梅为宣告回归（##begin_quote## a notable win for Amazon MGM Studios‘ as it tries to once again become a full-fledged major Hollywood studio ##end_quote## [文档 1]）有强烈动机将数字推过80M这一心理关口。在均值回归与统计噪声作用下，最终审计值向下微调0.6%（约50万美元）这一“灰犀牛”风险被极度乐观的情绪严重低估。",
+        "raw_response": "FINAL REASONING: 市场共识已陷入对初步估算的集体锚定，##begin_quote## $80.5 million ##end_quote## [文档 3] 与 ##begin_quote## $80.6 million ##end_quote## [文档 1] 的微小差异恰恰暴露了数据的非最终性与脆弱性，而发行方亚马逊米高梅为宣告回归（##begin_quote## a notable win for Amazon MGM Studios‘ as it tries to once again become a full-fledged major Hollywood studio ##end_quote## [文档 1]）有强烈动机将数字推过80M这一心理关口。在均值回归与统计噪声作用下，最终审计值向下微调0.6%（约50万美元）这一“灰犀牛”风险被极度乐观的情绪严重低估。\n\nFINAL PREDICTION: 35.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.5 million",
+              "doc_index": 3
+            },
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "a notable win for Amazon MGM Studios‘ as it tries to once again become a full-fledged major Hollywood studio",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "agent_name": "基本面分析师",
+        "stance": "neutral",
+        "probability": 96.0,
+        "reasoning": "经过完整辩论，核心基本面事实依然稳固：多个独立权威信源（Hollywood Reporter, Variety, NBC News）一致报告了《Project Hail Mary》北美首周末票房为 ##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4]，这一观测值已明确落入80-85M区间。历史类比揭示的行业结构性模式——周日估算被最终审计大幅修正（>1%）的概率极低——为这一数据提供了坚实的系统性支撑。唯一合理的尾部风险是最终数据的微小技术性下修，但考虑到报告值（以80.6M计）与区间下限有60万美元缓冲，且数据源高度一致，此风险的发生概率及幅度均被限制在极低水平。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，核心基本面事实依然稳固：多个独立权威信源（Hollywood Reporter, Variety, NBC News）一致报告了《Project Hail Mary》北美首周末票房为 ##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4]，这一观测值已明确落入80-85M区间。历史类比揭示的行业结构性模式——周日估算被最终审计大幅修正（>1%）的概率极低——为这一数据提供了坚实的系统性支撑。唯一合理的尾部风险是最终数据的微小技术性下修，但考虑到报告值（以80.6M计）与区间下限有60万美元缓冲，且数据源高度一致，此风险的发生概率及幅度均被限制在极低水平。\n\nFINAL PREDICTION: 96.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1
+          ]
+        }
+      },
+      {
+        "agent_name": "风险评估师",
+        "stance": "bear",
+        "probability": 90.0,
+        "reasoning": "经过完整辩论，核心风险矩阵依然清晰：决定性证据是多个权威信源报告的 ##begin_quote## $80.5 million ##end_quote## [文档 3] 或 ##begin_quote## $80.6 million ##end_quote## [文档 1]，这构成了高概率基础。然而，风险评估师必须聚焦于尾部风险：1）这些是周日估算，非最终审计值；2）报告值（以80.55M均值计）距80M下限仅0.55M（0.68%）缓冲，低于行业常规±1%波动范围（±0.8M）；3）数据源间0.1M差异揭示了测量不确定性。在精确阈值上，一次常规的、微小的向下修正（概率虽低但非黑天鹅）即可导致预测失败。乐观派普遍低估了这种“低幅度、高影响”的边界风险。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，核心风险矩阵依然清晰：决定性证据是多个权威信源报告的 ##begin_quote## $80.5 million ##end_quote## [文档 3] 或 ##begin_quote## $80.6 million ##end_quote## [文档 1]，这构成了高概率基础。然而，风险评估师必须聚焦于尾部风险：1）这些是周日估算，非最终审计值；2）报告值（以80.55M均值计）距80M下限仅0.55M（0.68%）缓冲，低于行业常规±1%波动范围（±0.8M）；3）数据源间0.1M差异揭示了测量不确定性。在精确阈值上，一次常规的、微小的向下修正（概率虽低但非黑天鹅）即可导致预测失败。乐观派普遍低估了这种“低幅度、高影响”的边界风险。\n\nFINAL PREDICTION: 90.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.5 million",
+              "doc_index": 3
+            },
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            3
+          ]
+        }
+      },
+      {
+        "agent_name": "综合策略师",
+        "stance": "neutral",
+        "probability": 96.0,
+        "reasoning": "经过完整辩论，元分析视角下的信号共振点极为清晰：多个权威信源（Hollywood Reporter, Variety, NBC News）一致报告了 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4, 5] 或 ##begin_quote## $80.6 million ##end_quote## [文档 1] 的北美首周末票房，这构成了压倒性的主导证据。历史类比师和数据统计师指出的“开画票房确认”模式（最终修正通常小于±1%）进一步巩固了这一证据的可靠性。然而，风险评估师和贝叶斯分析师正确地强调了“报告值紧贴区间下限”这一特征，使得常规统计波动（即使概率极低）在理论上足以改变二元结果，这是无法被完全消除的尾部风险。综合权衡，YES的概率应极高，但需为这一微小但真实存在的技术性不确定性留出空间。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，元分析视角下的信号共振点极为清晰：多个权威信源（Hollywood Reporter, Variety, NBC News）一致报告了 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4, 5] 或 ##begin_quote## $80.6 million ##end_quote## [文档 1] 的北美首周末票房，这构成了压倒性的主导证据。历史类比师和数据统计师指出的“开画票房确认”模式（最终修正通常小于±1%）进一步巩固了这一证据的可靠性。然而，风险评估师和贝叶斯分析师正确地强调了“报告值紧贴区间下限”这一特征，使得常规统计波动（即使概率极低）在理论上足以改变二元结果，这是无法被完全消除的尾部风险。综合权衡，YES的概率应极高，但需为这一微小但真实存在的技术性不确定性留出空间。\n\nFINAL PREDICTION: 96.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.5 million ##end_quote## [文档 3, 4, 5] 或 ##begin_quote## $80.6 million",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1
+          ]
+        }
+      }
+    ]
+  },
+  "meta_predictions": {
+    "质疑分析师": 82.5,
+    "贝叶斯分析师": 82.5,
+    "乐观分析师": 87.5,
+    "数据统计师": 75.0,
+    "情绪分析师": 85.0,
+    "历史类比师": 87.5,
+    "风险评估师": 75.0,
+    "逆向投资者": 55.0,
+    "基本面分析师": 80.0,
+    "综合策略师": 78.0
+  },
+  "round1_average": 87.7,
+  "aggregated_probability": 89.5,
+  "aggregation_mechanisms": {
+    "simple_average": {
+      "probability": 89.51,
+      "details": {
+        "n_agents": 10
+      }
+    },
+    "median": {
+      "probability": 96.0,
+      "details": {
+        "n_agents": 10
+      }
+    },
+    "trimmed_mean": {
+      "probability": 95.11,
+      "details": {
+        "n_original": 10,
+        "n_trimmed": 8,
+        "trim_frac": 0.1
+      }
+    },
+    "logit_average": {
+      "probability": 95.86,
+      "details": {
+        "avg_log_odds": 3.1425,
+        "n_agents": 10
+      }
+    },
+    "extremized": {
+      "probability": 99.53,
+      "details": {
+        "raw_average": 89.51,
+        "extremization_d": 2.5
+      }
+    },
+    "reputation_weighted": {
+      "probability": 89.51,
+      "details": {
+        "乐观分析师": {
+          "prediction": 99.2,
+          "weight": 0.1
+        },
+        "质疑分析师": {
+          "prediction": 87.0,
+          "weight": 0.1
+        },
+        "贝叶斯分析师": {
+          "prediction": 95.0,
+          "weight": 0.1
+        },
+        "历史类比师": {
+          "prediction": 99.2,
+          "weight": 0.1
+        },
+        "数据统计师": {
+          "prediction": 98.5,
+          "weight": 0.1
+        },
+        "情绪分析师": {
+          "prediction": 99.2,
+          "weight": 0.1
+        },
+        "逆向投资者": {
+          "prediction": 35.0,
+          "weight": 0.1
+        },
+        "基本面分析师": {
+          "prediction": 96.0,
+          "weight": 0.1
+        },
+        "风险评估师": {
+          "prediction": 90.0,
+          "weight": 0.1
+        },
+        "综合策略师": {
+          "prediction": 96.0,
+          "weight": 0.1
+        }
+      }
+    },
+    "lmsr_market": {
+      "probability": 80.58,
+      "details": {
+        "liquidity": 100.0,
+        "trade_history": [
+          {
+            "agent_name": "乐观分析师",
+            "action": "buy_yes",
+            "belief": 0.992,
+            "shares": 3.6621,
+            "cost": 3.5182,
+            "price_before": 0.96,
+            "price_after": 0.9614,
+            "edge": 0.032
+          },
+          {
+            "agent_name": "质疑分析师",
+            "action": "buy_no",
+            "belief": 0.87,
+            "shares": 131.8359,
+            "cost": 10.0484,
+            "price_before": 0.9614,
+            "price_after": 0.8695,
+            "edge": -0.0914
+          },
+          {
+            "agent_name": "贝叶斯分析师",
+            "action": "buy_yes",
+            "belief": 0.95,
+            "shares": 10.1318,
+            "cost": 8.8662,
+            "price_before": 0.8695,
+            "price_after": 0.8805,
+            "edge": 0.0805
+          },
+          {
+            "agent_name": "历史类比师",
+            "action": "buy_yes",
+            "belief": 0.992,
+            "shares": 13.8092,
+            "cost": 12.2565,
+            "price_before": 0.8805,
+            "price_after": 0.8943,
+            "edge": 0.1115
+          },
+          {
+            "agent_name": "数据统计师",
+            "action": "buy_yes",
+            "belief": 0.985,
+            "shares": 11.0931,
+            "cost": 9.9774,
+            "price_before": 0.8943,
+            "price_after": 0.9044,
+            "edge": 0.0907
+          },
+          {
+            "agent_name": "情绪分析师",
+            "action": "buy_yes",
+            "belief": 0.992,
+            "shares": 10.6049,
+            "cost": 9.6379,
+            "price_before": 0.9044,
+            "price_after": 0.9131,
+            "edge": 0.0876
+          },
+          {
+            "agent_name": "逆向投资者",
+            "action": "buy_no",
+            "belief": 0.35,
+            "shares": 238.678,
+            "cost": 61.9473,
+            "price_before": 0.9131,
+            "price_after": 0.4915,
+            "edge": -0.5631
+          },
+          {
+            "agent_name": "基本面分析师",
+            "action": "buy_yes",
+            "belief": 0.96,
+            "shares": 86.3647,
+            "cost": 51.5344,
+            "price_before": 0.4915,
+            "price_after": 0.6963,
+            "edge": 0.4685
+          },
+          {
+            "agent_name": "风险评估师",
+            "action": "buy_yes",
+            "belief": 0.9,
+            "shares": 30.8075,
+            "cost": 22.4115,
+            "price_before": 0.6963,
+            "price_after": 0.7572,
+            "edge": 0.2037
+          },
+          {
+            "agent_name": "综合策略师",
+            "action": "buy_yes",
+            "belief": 0.96,
+            "shares": 28.5034,
+            "cost": 22.294,
+            "price_before": 0.7572,
+            "price_after": 0.8058,
+            "edge": 0.2028
+          }
+        ],
+        "initial_price": 50.0,
+        "final_price": 80.5759
+      }
+    },
+    "peer_prediction": {
+      "probability": 94.18,
+      "details": {
+        "actual_average": 89.51,
+        "agent_scores": {
+          "乐观分析师": {
+            "prediction": 0.992,
+            "meta_prediction": 0.875,
+            "surprisingness": 0.154,
+            "information_score": 0.9799,
+            "bts_score": 1.1339,
+            "weight": 0.1195
+          },
+          "质疑分析师": {
+            "prediction": 0.87,
+            "meta_prediction": 0.825,
+            "surprisingness": 0.0082,
+            "information_score": 0.9299,
+            "bts_score": 0.9381,
+            "weight": 0.0982
+          },
+          "贝叶斯分析师": {
+            "prediction": 0.95,
+            "meta_prediction": 0.825,
+            "surprisingness": 0.106,
+            "information_score": 0.9299,
+            "bts_score": 1.0359,
+            "weight": 0.1083
+          },
+          "历史类比师": {
+            "prediction": 0.992,
+            "meta_prediction": 0.875,
+            "surprisingness": 0.154,
+            "information_score": 0.9799,
+            "bts_score": 1.1339,
+            "weight": 0.1195
+          },
+          "数据统计师": {
+            "prediction": 0.985,
+            "meta_prediction": 0.75,
+            "surprisingness": 0.1462,
+            "information_score": 0.8549,
+            "bts_score": 1.0011,
+            "weight": 0.1046
+          },
+          "情绪分析师": {
+            "prediction": 0.992,
+            "meta_prediction": 0.85,
+            "surprisingness": 0.154,
+            "information_score": 0.9549,
+            "bts_score": 1.1089,
+            "weight": 0.1165
+          },
+          "逆向投资者": {
+            "prediction": 0.35,
+            "meta_prediction": 0.55,
+            "surprisingness": -1.0035,
+            "information_score": 0.6549,
+            "bts_score": -0.3486,
+            "weight": 0.0271
+          },
+          "基本面分析师": {
+            "prediction": 0.96,
+            "meta_prediction": 0.8,
+            "surprisingness": 0.1176,
+            "information_score": 0.9049,
+            "bts_score": 1.0225,
+            "weight": 0.1069
+          },
+          "风险评估师": {
+            "prediction": 0.9,
+            "meta_prediction": 0.75,
+            "surprisingness": 0.0459,
+            "information_score": 0.8549,
+            "bts_score": 0.9008,
+            "weight": 0.0946
+          },
+          "综合策略师": {
+            "prediction": 0.96,
+            "meta_prediction": 0.78,
+            "surprisingness": 0.1176,
+            "information_score": 0.8849,
+            "bts_score": 1.0025,
+            "weight": 0.1048
+          }
+        }
+      }
+    },
+    "hybrid": {
+      "probability": 87.34,
+      "details": {
+        "components": {
+          "reputation_weighted": 89.51,
+          "lmsr_market": 80.58,
+          "peer_prediction": 94.18
+        },
+        "lambdas": {
+          "market": 0.4,
+          "reputation": 0.3,
+          "bts": 0.3
+        },
+        "m1_details": {
+          "乐观分析师": {
+            "prediction": 99.2,
+            "weight": 0.1
+          },
+          "质疑分析师": {
+            "prediction": 87.0,
+            "weight": 0.1
+          },
+          "贝叶斯分析师": {
+            "prediction": 95.0,
+            "weight": 0.1
+          },
+          "历史类比师": {
+            "prediction": 99.2,
+            "weight": 0.1
+          },
+          "数据统计师": {
+            "prediction": 98.5,
+            "weight": 0.1
+          },
+          "情绪分析师": {
+            "prediction": 99.2,
+            "weight": 0.1
+          },
+          "逆向投资者": {
+            "prediction": 35.0,
+            "weight": 0.1
+          },
+          "基本面分析师": {
+            "prediction": 96.0,
+            "weight": 0.1
+          },
+          "风险评估师": {
+            "prediction": 90.0,
+            "weight": 0.1
+          },
+          "综合策略师": {
+            "prediction": 96.0,
+            "weight": 0.1
+          }
+        },
+        "m2_details": {
+          "liquidity": 100.0,
+          "trade_history": [
+            {
+              "agent_name": "乐观分析师",
+              "action": "buy_yes",
+              "belief": 0.992,
+              "shares": 3.6621,
+              "cost": 3.5182,
+              "price_before": 0.96,
+              "price_after": 0.9614,
+              "edge": 0.032
+            },
+            {
+              "agent_name": "质疑分析师",
+              "action": "buy_no",
+              "belief": 0.87,
+              "shares": 131.8359,
+              "cost": 10.0484,
+              "price_before": 0.9614,
+              "price_after": 0.8695,
+              "edge": -0.0914
+            },
+            {
+              "agent_name": "贝叶斯分析师",
+              "action": "buy_yes",
+              "belief": 0.95,
+              "shares": 10.1318,
+              "cost": 8.8662,
+              "price_before": 0.8695,
+              "price_after": 0.8805,
+              "edge": 0.0805
+            },
+            {
+              "agent_name": "历史类比师",
+              "action": "buy_yes",
+              "belief": 0.992,
+              "shares": 13.8092,
+              "cost": 12.2565,
+              "price_before": 0.8805,
+              "price_after": 0.8943,
+              "edge": 0.1115
+            },
+            {
+              "agent_name": "数据统计师",
+              "action": "buy_yes",
+              "belief": 0.985,
+              "shares": 11.0931,
+              "cost": 9.9774,
+              "price_before": 0.8943,
+              "price_after": 0.9044,
+              "edge": 0.0907
+            },
+            {
+              "agent_name": "情绪分析师",
+              "action": "buy_yes",
+              "belief": 0.992,
+              "shares": 10.6049,
+              "cost": 9.6379,
+              "price_before": 0.9044,
+              "price_after": 0.9131,
+              "edge": 0.0876
+            },
+            {
+              "agent_name": "逆向投资者",
+              "action": "buy_no",
+              "belief": 0.35,
+              "shares": 238.678,
+              "cost": 61.9473,
+              "price_before": 0.9131,
+              "price_after": 0.4915,
+              "edge": -0.5631
+            },
+            {
+              "agent_name": "基本面分析师",
+              "action": "buy_yes",
+              "belief": 0.96,
+              "shares": 86.3647,
+              "cost": 51.5344,
+              "price_before": 0.4915,
+              "price_after": 0.6963,
+              "edge": 0.4685
+            },
+            {
+              "agent_name": "风险评估师",
+              "action": "buy_yes",
+              "belief": 0.9,
+              "shares": 30.8075,
+              "cost": 22.4115,
+              "price_before": 0.6963,
+              "price_after": 0.7572,
+              "edge": 0.2037
+            },
+            {
+              "agent_name": "综合策略师",
+              "action": "buy_yes",
+              "belief": 0.96,
+              "shares": 28.5034,
+              "cost": 22.294,
+              "price_before": 0.7572,
+              "price_after": 0.8058,
+              "edge": 0.2028
+            }
+          ],
+          "initial_price": 50.0,
+          "final_price": 80.5759
+        },
+        "m3_details": {
+          "actual_average": 89.51,
+          "agent_scores": {
+            "乐观分析师": {
+              "prediction": 0.992,
+              "meta_prediction": 0.875,
+              "surprisingness": 0.154,
+              "information_score": 0.9799,
+              "bts_score": 1.1339,
+              "weight": 0.1195
+            },
+            "质疑分析师": {
+              "prediction": 0.87,
+              "meta_prediction": 0.825,
+              "surprisingness": 0.0082,
+              "information_score": 0.9299,
+              "bts_score": 0.9381,
+              "weight": 0.0982
+            },
+            "贝叶斯分析师": {
+              "prediction": 0.95,
+              "meta_prediction": 0.825,
+              "surprisingness": 0.106,
+              "information_score": 0.9299,
+              "bts_score": 1.0359,
+              "weight": 0.1083
+            },
+            "历史类比师": {
+              "prediction": 0.992,
+              "meta_prediction": 0.875,
+              "surprisingness": 0.154,
+              "information_score": 0.9799,
+              "bts_score": 1.1339,
+              "weight": 0.1195
+            },
+            "数据统计师": {
+              "prediction": 0.985,
+              "meta_prediction": 0.75,
+              "surprisingness": 0.1462,
+              "information_score": 0.8549,
+              "bts_score": 1.0011,
+              "weight": 0.1046
+            },
+            "情绪分析师": {
+              "prediction": 0.992,
+              "meta_prediction": 0.85,
+              "surprisingness": 0.154,
+              "information_score": 0.9549,
+              "bts_score": 1.1089,
+              "weight": 0.1165
+            },
+            "逆向投资者": {
+              "prediction": 0.35,
+              "meta_prediction": 0.55,
+              "surprisingness": -1.0035,
+              "information_score": 0.6549,
+              "bts_score": -0.3486,
+              "weight": 0.0271
+            },
+            "基本面分析师": {
+              "prediction": 0.96,
+              "meta_prediction": 0.8,
+              "surprisingness": 0.1176,
+              "information_score": 0.9049,
+              "bts_score": 1.0225,
+              "weight": 0.1069
+            },
+            "风险评估师": {
+              "prediction": 0.9,
+              "meta_prediction": 0.75,
+              "surprisingness": 0.0459,
+              "information_score": 0.8549,
+              "bts_score": 0.9008,
+              "weight": 0.0946
+            },
+            "综合策略师": {
+              "prediction": 0.96,
+              "meta_prediction": 0.78,
+              "surprisingness": 0.1176,
+              "information_score": 0.8849,
+              "bts_score": 1.0025,
+              "weight": 0.1048
+            }
+          }
+        }
+      }
+    }
+  },
+  "entity_graph": {
+    "entities": [
+      {
+        "name": "Project Hail Mary",
+        "type": "event",
+        "description": "一部科幻电影",
+        "attributes": {}
+      },
+      {
+        "name": "Ryan Gosling",
+        "type": "person",
+        "description": "电影主演",
+        "attributes": {}
+      },
+      {
+        "name": "Phil Lord",
+        "type": "person",
+        "description": "电影导演之一",
+        "attributes": {}
+      },
+      {
+        "name": "Christopher Miller",
+        "type": "person",
+        "description": "电影导演之一",
+        "attributes": {}
+      },
+      {
+        "name": "Amazon MGM Studios",
+        "type": "org",
+        "description": "电影发行方",
+        "attributes": {}
+      },
+      {
+        "name": "Andy Weir",
+        "type": "person",
+        "description": "原著作者",
+        "attributes": {}
+      },
+      {
+        "name": "Box Office Theory",
+        "type": "org",
+        "description": "票房分析机构",
+        "attributes": {}
+      },
+      {
+        "name": "Shawn Robbins",
+        "type": "person",
+        "description": "Box Office Theory创始人兼总裁",
+        "attributes": {}
+      },
+      {
+        "name": "80.6 million",
+        "type": "metric",
+        "description": "电影北美首周末票房",
+        "attributes": {}
+      },
+      {
+        "name": "141 million",
+        "type": "metric",
+        "description": "电影全球首周末票房",
+        "attributes": {}
+      },
+      {
+        "name": "60.4 million",
+        "type": "metric",
+        "description": "电影海外首周末票房",
+        "attributes": {}
+      },
+      {
+        "name": "80.5 million",
+        "type": "metric",
+        "description": "另一报道中的北美首周末票房",
+        "attributes": {}
+      },
+      {
+        "name": "60-78 million",
+        "type": "metric",
+        "description": "票房预测范围",
+        "attributes": {}
+      },
+      {
+        "name": "4,007 screens",
+        "type": "metric",
+        "description": "电影开画屏幕数",
+        "attributes": {}
+      },
+      {
+        "name": "March 22",
+        "type": "date",
+        "description": "票房统计截止日期",
+        "attributes": {}
+      }
+    ],
+    "relations": [
+      {
+        "source": "Phil Lord",
+        "target": "Project Hail Mary",
+        "relation_type": "directed",
+        "context": "执导了该电影"
+      },
+      {
+        "source": "Christopher Miller",
+        "target": "Project Hail Mary",
+        "relation_type": "directed",
+        "context": "执导了该电影"
+      },
+      {
+        "source": "Ryan Gosling",
+        "target": "Project Hail Mary",
+        "relation_type": "starred_in",
+        "context": "主演了该电影"
+      },
+      {
+        "source": "Andy Weir",
+        "target": "Project Hail Mary",
+        "relation_type": "authored",
+        "context": "创作了原著小说"
+      },
+      {
+        "source": "Amazon MGM Studios",
+        "target": "Project Hail Mary",
+        "relation_type": "distributed",
+        "context": "发行了该电影"
+      },
+      {
+        "source": "Shawn Robbins",
+        "target": "Box Office Theory",
+        "relation_type": "founded",
+        "context": "创立了该机构"
+      },
+      {
+        "source": "Project Hail Mary",
+        "target": "80.6 million",
+        "relation_type": "achieved_box_office",
+        "context": "取得了该首周末票房"
+      },
+      {
+        "source": "Project Hail Mary",
+        "target": "4,007 screens",
+        "relation_type": "released_on",
+        "context": "在该数量的屏幕上开画"
+      },
+      {
+        "source": "Box Office Theory",
+        "target": "60-78 million",
+        "relation_type": "predicted",
+        "context": "预测了该票房范围"
+      },
+      {
+        "source": "Project Hail Mary",
+        "target": "Amazon MGM Studios",
+        "relation_type": "set_record_for",
+        "context": "为其创造了开画票房纪录"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "预测阶段",
+        "event": "Box Office Theory预测《Project Hail Mary》北美首周末票房在60-78百万美元之间"
+      },
+      {
+        "date": "开画前",
+        "event": "报道称电影预计开画票房超过77百万美元"
+      },
+      {
+        "date": "开画周末",
+        "event": "电影在4,007块屏幕上开画"
+      },
+      {
+        "date": "开画周末",
+        "event": "电影北美首周末票房达80.6百万美元"
+      },
+      {
+        "date": "开画周末",
+        "event": "电影海外首周末票房达60.4百万美元"
+      },
+      {
+        "date": "开画周末",
+        "event": "电影全球首周末票房达141百万美元"
+      },
+      {
+        "date": "开画周末",
+        "event": "其他报道称北美首周末票房为80.5百万美元"
+      },
+      {
+        "date": "March 22",
+        "event": "预计截至该日的北美累计票房"
+      }
+    ]
+  },
+  "reputation_snapshot": {
+    "乐观分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "质疑分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "贝叶斯分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "历史类比师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "数据统计师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "情绪分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "逆向投资者": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "基本面分析师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "风险评估师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    },
+    "综合策略师": {
+      "reputation": 1.0,
+      "total_questions": 0,
+      "avg_brier": null
+    }
+  },
+  "agents": [
+    {
+      "name": "乐观分析师",
+      "stance": "bull",
+      "final": {
+        "agent_name": "乐观分析师",
+        "stance": "bull",
+        "probability": 99.2,
+        "reasoning": "经过整场辩论，支持YES的证据已形成压倒性共识。多个权威信源一致确认的 ##begin_quote## a domestic launch of $80.6 million ##end_quote## [文档 1] 和 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4] 是无可辩驳的核心事实，且该成绩已被誉为 ##begin_quote## the best of the year so far ##end_quote## [文档 1] 并创下亚马逊MGM纪录。历史类比和数据统计均表明，在此类广泛报道且数据高度一致的情况下，最终审计发生足以使其跌破80M下限（即修正幅度超过0.5M）的重大修正概率微乎其微，远低于1%。全球首周末1.41亿美元的佳绩 ##begin_quote## a worldwide galactic start of $141 million ##end_quote## [文档 1] 进一步交叉验证了北美数据的可靠性。因此，YES的确定性极高。",
+        "raw_response": "FINAL REASONING: 经过整场辩论，支持YES的证据已形成压倒性共识。多个权威信源一致确认的 ##begin_quote## a domestic launch of $80.6 million ##end_quote## [文档 1] 和 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4] 是无可辩驳的核心事实，且该成绩已被誉为 ##begin_quote## the best of the year so far ##end_quote## [文档 1] 并创下亚马逊MGM纪录。历史类比和数据统计均表明，在此类广泛报道且数据高度一致的情况下，最终审计发生足以使其跌破80M下限（即修正幅度超过0.5M）的重大修正概率微乎其微，远低于1%。全球首周末1.41亿美元的佳绩 ##begin_quote## a worldwide galactic start of $141 million ##end_quote## [文档 1] 进一步交叉验证了北美数据的可靠性。因此，YES的确定性极高。\n\nFINAL PREDICTION: 99.2%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "a domestic launch of $80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "$80.5 million ##end_quote## [文档 3, 4] 是无可辩驳的核心事实，且该成绩已被誉为 ##begin_quote## the best of the year so far",
+              "doc_index": 1
+            },
+            {
+              "quote": "a worldwide galactic start of $141 million",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "质疑分析师",
+      "stance": "bear",
+      "final": {
+        "agent_name": "质疑分析师",
+        "stance": "bear",
+        "probability": 87.0,
+        "reasoning": "整场辩论巩固了我的核心质疑：所有乐观论点的基石——##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3]——是周日估算，而非最终审计值。历史基准率确实显示修正通常微小，但在80M这个精确阈值上，0.6%的缓冲（约50万美元）极其脆弱；文档间0.1M的差异已暴露了测量不确定性。考虑到这是亚马逊MGM的纪录性开画（##begin_quote## a record opening for studio Amazon MGM ##end_quote## [文档 5]），初步数据存在系统性乐观偏误的动机，使得最终向下微调至79.9M的尾部风险虽概率不高，但影响绝对，且被共识严重低估。",
+        "raw_response": "FINAL REASONING: 整场辩论巩固了我的核心质疑：所有乐观论点的基石——##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3]——是周日估算，而非最终审计值。历史基准率确实显示修正通常微小，但在80M这个精确阈值上，0.6%的缓冲（约50万美元）极其脆弱；文档间0.1M的差异已暴露了测量不确定性。考虑到这是亚马逊MGM的纪录性开画（##begin_quote## a record opening for studio Amazon MGM ##end_quote## [文档 5]），初步数据存在系统性乐观偏误的动机，使得最终向下微调至79.9M的尾部风险虽概率不高，但影响绝对，且被共识严重低估。\n\nFINAL PREDICTION: 87.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "$80.5 million",
+              "doc_index": 3
+            },
+            {
+              "quote": "a record opening for studio Amazon MGM",
+              "doc_index": 5
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            3,
+            5
+          ]
+        }
+      }
+    },
+    {
+      "name": "贝叶斯分析师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "贝叶斯分析师",
+        "stance": "neutral",
+        "probability": 95.0,
+        "reasoning": "综合辩论，核心证据是多个权威信源一致报告的首周末估算值 ##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3]，这构成了极强的似然函数，将后验概率从反映狭窄区间不确定性的低先验大幅提升。然而，历史基准率表明，周日估算与最终确认值之间存在系统性微小修正风险，且当前报告值紧贴80M区间下限，结合数据源间0.1M的差异所揭示的测量误差，使得最终数字经审计后略低于80M的尾部风险虽低但真实存在，无法被完全忽略。",
+        "raw_response": "FINAL REASONING: 综合辩论，核心证据是多个权威信源一致报告的首周末估算值 ##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3]，这构成了极强的似然函数，将后验概率从反映狭窄区间不确定性的低先验大幅提升。然而，历史基准率表明，周日估算与最终确认值之间存在系统性微小修正风险，且当前报告值紧贴80M区间下限，结合数据源间0.1M的差异所揭示的测量误差，使得最终数字经审计后略低于80M的尾部风险虽低但真实存在，无法被完全忽略。\n\nFINAL PREDICTION: 95.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "$80.5 million",
+              "doc_index": 3
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "name": "历史类比师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "历史类比师",
+        "stance": "neutral",
+        "probability": 99.2,
+        "reasoning": "纵观整场辩论，历史先例的权重压倒性地支持肯定答案。核心事实是，多个独立权威信源（Hollywood Reporter, Variety, NBC News）在事件发生后立即报告了高度一致的具体数字：##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4, 7]，且该数字明确落入80-85M区间。历史类比显示，在这种“已报告、已庆祝、已形成媒体共识”的情境下，最终官方数据发生足以使其跌出区间的修正（需要超过0.5M或约0.6%的下调）的概率极低，这属于行业报告流程中的尾部风险，而非普遍现象。逆向投资者和质疑分析师指出的理论风险确实存在，但缺乏足以撼动这一强大历史模式的量化证据。",
+        "raw_response": "FINAL REASONING: 纵观整场辩论，历史先例的权重压倒性地支持肯定答案。核心事实是，多个独立权威信源（Hollywood Reporter, Variety, NBC News）在事件发生后立即报告了高度一致的具体数字：##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4, 7]，且该数字明确落入80-85M区间。历史类比显示，在这种“已报告、已庆祝、已形成媒体共识”的情境下，最终官方数据发生足以使其跌出区间的修正（需要超过0.5M或约0.6%的下调）的概率极低，这属于行业报告流程中的尾部风险，而非普遍现象。逆向投资者和质疑分析师指出的理论风险确实存在，但缺乏足以撼动这一强大历史模式的量化证据。\n\nFINAL PREDICTION: 99.2%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "数据统计师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "数据统计师",
+        "stance": "neutral",
+        "probability": 98.5,
+        "reasoning": "综合辩论，核心数据是多个独立信源报告的首周末票房估算值高度集中于80.5-80.6百万美元（##begin_quote## $80.6 million ##end_quote## [文档 1]；##begin_quote## $80.5 million ##end_quote## [文档 3]），这构成了一个强统计证据。唯一的不确定性源于周日估算与最终审计值之间可能存在的微小修正，但历史波动率（通常±1%以内）以及0.5百万美元的下限缓冲，使得向下修正至80百万美元以下的概率极低，但非零。",
+        "raw_response": "FINAL REASONING: 综合辩论，核心数据是多个独立信源报告的首周末票房估算值高度集中于80.5-80.6百万美元（##begin_quote## $80.6 million ##end_quote## [文档 1]；##begin_quote## $80.5 million ##end_quote## [文档 3]），这构成了一个强统计证据。唯一的不确定性源于周日估算与最终审计值之间可能存在的微小修正，但历史波动率（通常±1%以内）以及0.5百万美元的下限缓冲，使得向下修正至80百万美元以下的概率极低，但非零。\n\nFINAL PREDICTION: 98.5%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "$80.5 million",
+              "doc_index": 3
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "name": "情绪分析师",
+      "stance": "bull",
+      "final": {
+        "agent_name": "情绪分析师",
+        "stance": "bull",
+        "probability": 99.2,
+        "reasoning": "辩论巩固了我的核心判断：市场情绪与已实现数据形成了不可分割的共生体。多个权威信源一致确认的 ##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3] 不仅是统计数字，更是“年度最佳开画”和“创纪录”叙事的一部分。这种强烈的成功共识本身构成了强大的社会压力，使得任何可能将其拉下80M神坛的微小技术性修正（即使概率存在）在现实中几乎不可能被允许，因为它会直接破坏亚马逊MGM精心营造的胜利时刻 ##begin_quote## a notable win for Amazon MGM Studios ##end_quote## [文档 1]。情绪锁定了数据，使其刚性远超纯统计模型所能捕捉。",
+        "raw_response": "FINAL REASONING: 辩论巩固了我的核心判断：市场情绪与已实现数据形成了不可分割的共生体。多个权威信源一致确认的 ##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3] 不仅是统计数字，更是“年度最佳开画”和“创纪录”叙事的一部分。这种强烈的成功共识本身构成了强大的社会压力，使得任何可能将其拉下80M神坛的微小技术性修正（即使概率存在）在现实中几乎不可能被允许，因为它会直接破坏亚马逊MGM精心营造的胜利时刻 ##begin_quote## a notable win for Amazon MGM Studios ##end_quote## [文档 1]。情绪锁定了数据，使其刚性远超纯统计模型所能捕捉。\n\nFINAL PREDICTION: 99.2%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "$80.5 million",
+              "doc_index": 3
+            },
+            {
+              "quote": "a notable win for Amazon MGM Studios",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "name": "逆向投资者",
+      "stance": "bear",
+      "final": {
+        "agent_name": "逆向投资者",
+        "stance": "bear",
+        "probability": 35.0,
+        "reasoning": "市场共识已陷入对初步估算的集体锚定，##begin_quote## $80.5 million ##end_quote## [文档 3] 与 ##begin_quote## $80.6 million ##end_quote## [文档 1] 的微小差异恰恰暴露了数据的非最终性与脆弱性，而发行方亚马逊米高梅为宣告回归（##begin_quote## a notable win for Amazon MGM Studios‘ as it tries to once again become a full-fledged major Hollywood studio ##end_quote## [文档 1]）有强烈动机将数字推过80M这一心理关口。在均值回归与统计噪声作用下，最终审计值向下微调0.6%（约50万美元）这一“灰犀牛”风险被极度乐观的情绪严重低估。",
+        "raw_response": "FINAL REASONING: 市场共识已陷入对初步估算的集体锚定，##begin_quote## $80.5 million ##end_quote## [文档 3] 与 ##begin_quote## $80.6 million ##end_quote## [文档 1] 的微小差异恰恰暴露了数据的非最终性与脆弱性，而发行方亚马逊米高梅为宣告回归（##begin_quote## a notable win for Amazon MGM Studios‘ as it tries to once again become a full-fledged major Hollywood studio ##end_quote## [文档 1]）有强烈动机将数字推过80M这一心理关口。在均值回归与统计噪声作用下，最终审计值向下微调0.6%（约50万美元）这一“灰犀牛”风险被极度乐观的情绪严重低估。\n\nFINAL PREDICTION: 35.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.5 million",
+              "doc_index": 3
+            },
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            },
+            {
+              "quote": "a notable win for Amazon MGM Studios‘ as it tries to once again become a full-fledged major Hollywood studio",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "name": "基本面分析师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "基本面分析师",
+        "stance": "neutral",
+        "probability": 96.0,
+        "reasoning": "经过完整辩论，核心基本面事实依然稳固：多个独立权威信源（Hollywood Reporter, Variety, NBC News）一致报告了《Project Hail Mary》北美首周末票房为 ##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4]，这一观测值已明确落入80-85M区间。历史类比揭示的行业结构性模式——周日估算被最终审计大幅修正（>1%）的概率极低——为这一数据提供了坚实的系统性支撑。唯一合理的尾部风险是最终数据的微小技术性下修，但考虑到报告值（以80.6M计）与区间下限有60万美元缓冲，且数据源高度一致，此风险的发生概率及幅度均被限制在极低水平。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，核心基本面事实依然稳固：多个独立权威信源（Hollywood Reporter, Variety, NBC News）一致报告了《Project Hail Mary》北美首周末票房为 ##begin_quote## $80.6 million ##end_quote## [文档 1] 或 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4]，这一观测值已明确落入80-85M区间。历史类比揭示的行业结构性模式——周日估算被最终审计大幅修正（>1%）的概率极低——为这一数据提供了坚实的系统性支撑。唯一合理的尾部风险是最终数据的微小技术性下修，但考虑到报告值（以80.6M计）与区间下限有60万美元缓冲，且数据源高度一致，此风险的发生概率及幅度均被限制在极低水平。\n\nFINAL PREDICTION: 96.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "风险评估师",
+      "stance": "bear",
+      "final": {
+        "agent_name": "风险评估师",
+        "stance": "bear",
+        "probability": 90.0,
+        "reasoning": "经过完整辩论，核心风险矩阵依然清晰：决定性证据是多个权威信源报告的 ##begin_quote## $80.5 million ##end_quote## [文档 3] 或 ##begin_quote## $80.6 million ##end_quote## [文档 1]，这构成了高概率基础。然而，风险评估师必须聚焦于尾部风险：1）这些是周日估算，非最终审计值；2）报告值（以80.55M均值计）距80M下限仅0.55M（0.68%）缓冲，低于行业常规±1%波动范围（±0.8M）；3）数据源间0.1M差异揭示了测量不确定性。在精确阈值上，一次常规的、微小的向下修正（概率虽低但非黑天鹅）即可导致预测失败。乐观派普遍低估了这种“低幅度、高影响”的边界风险。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，核心风险矩阵依然清晰：决定性证据是多个权威信源报告的 ##begin_quote## $80.5 million ##end_quote## [文档 3] 或 ##begin_quote## $80.6 million ##end_quote## [文档 1]，这构成了高概率基础。然而，风险评估师必须聚焦于尾部风险：1）这些是周日估算，非最终审计值；2）报告值（以80.55M均值计）距80M下限仅0.55M（0.68%）缓冲，低于行业常规±1%波动范围（±0.8M）；3）数据源间0.1M差异揭示了测量不确定性。在精确阈值上，一次常规的、微小的向下修正（概率虽低但非黑天鹅）即可导致预测失败。乐观派普遍低估了这种“低幅度、高影响”的边界风险。\n\nFINAL PREDICTION: 90.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.5 million",
+              "doc_index": 3
+            },
+            {
+              "quote": "$80.6 million",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "name": "综合策略师",
+      "stance": "neutral",
+      "final": {
+        "agent_name": "综合策略师",
+        "stance": "neutral",
+        "probability": 96.0,
+        "reasoning": "经过完整辩论，元分析视角下的信号共振点极为清晰：多个权威信源（Hollywood Reporter, Variety, NBC News）一致报告了 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4, 5] 或 ##begin_quote## $80.6 million ##end_quote## [文档 1] 的北美首周末票房，这构成了压倒性的主导证据。历史类比师和数据统计师指出的“开画票房确认”模式（最终修正通常小于±1%）进一步巩固了这一证据的可靠性。然而，风险评估师和贝叶斯分析师正确地强调了“报告值紧贴区间下限”这一特征，使得常规统计波动（即使概率极低）在理论上足以改变二元结果，这是无法被完全消除的尾部风险。综合权衡，YES的概率应极高，但需为这一微小但真实存在的技术性不确定性留出空间。",
+        "raw_response": "FINAL REASONING: 经过完整辩论，元分析视角下的信号共振点极为清晰：多个权威信源（Hollywood Reporter, Variety, NBC News）一致报告了 ##begin_quote## $80.5 million ##end_quote## [文档 3, 4, 5] 或 ##begin_quote## $80.6 million ##end_quote## [文档 1] 的北美首周末票房，这构成了压倒性的主导证据。历史类比师和数据统计师指出的“开画票房确认”模式（最终修正通常小于±1%）进一步巩固了这一证据的可靠性。然而，风险评估师和贝叶斯分析师正确地强调了“报告值紧贴区间下限”这一特征，使得常规统计波动（即使概率极低）在理论上足以改变二元结果，这是无法被完全消除的尾部风险。综合权衡，YES的概率应极高，但需为这一微小但真实存在的技术性不确定性留出空间。\n\nFINAL PREDICTION: 96.0%",
+        "citations": {
+          "quotes": [
+            {
+              "quote": "$80.5 million ##end_quote## [文档 3, 4, 5] 或 ##begin_quote## $80.6 million",
+              "doc_index": 1
+            }
+          ],
+          "cited_doc_indices": [
+            1
+          ]
+        }
+      }
+    }
+  ]
+}
