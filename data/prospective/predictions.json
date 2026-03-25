@@ -541,7 +541,7 @@
   },
   {
     "id": "pred_1773896303",
-    "question": "Will Manchester City win the 2025\u201326 English Premier League?",
+    "question": "Will Manchester City win the 2025–26 English Premier League?",
     "slug": "will-manchester-city-win-the-202526-english-premier-league",
     "market_price_at_prediction": 0.085,
     "model_probability": 46.4,
@@ -641,11 +641,11 @@
     },
     "predicted_at": "2026-03-23T03:38:03.603666+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:02.606891+00:00",
+    "resolution": false,
+    "model_brier": 0.236196,
+    "market_brier": 0.005625
   },
   {
     "id": "pred_1774237477",
@@ -668,16 +668,16 @@
     },
     "predicted_at": "2026-03-23T03:44:37.382794+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:03.200223+00:00",
+    "resolution": true,
+    "model_brier": 0.011025,
+    "market_brier": 0.005625
   },
   {
     "id": "pred_1774237875",
     "task_id": "8c1057c5-76f5-4eef-a689-229edfb6a9c8",
-    "question": "Will the highest temperature in Seoul be 16\u00b0C or higher on March 23?",
+    "question": "Will the highest temperature in Seoul be 16°C or higher on March 23?",
     "slug": "highest-temperature-in-seoul-on-march-23-2026-16corhigher",
     "market_price_at_prediction": 0.528,
     "model_probability": 43.9,
@@ -695,11 +695,11 @@
     },
     "predicted_at": "2026-03-23T03:51:15.578881+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:03.807422+00:00",
+    "resolution": false,
+    "model_brier": 0.192721,
+    "market_brier": 0.278784
   },
   {
     "id": "pred_1774238352",
@@ -722,11 +722,11 @@
     },
     "predicted_at": "2026-03-23T03:59:12.353485+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:04.379567+00:00",
+    "resolution": true,
+    "model_brier": 0.265225,
+    "market_brier": 0.0099
   },
   {
     "id": "pred_1774238736",
@@ -749,11 +749,11 @@
     },
     "predicted_at": "2026-03-23T04:05:36.337183+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:04.974979+00:00",
+    "resolution": false,
+    "model_brier": 0.051076,
+    "market_brier": 0.126025
   },
   {
     "id": "pred_1774239101",
@@ -776,11 +776,11 @@
     },
     "predicted_at": "2026-03-23T04:11:41.374971+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:05.575674+00:00",
+    "resolution": true,
+    "model_brier": 0.690561,
+    "market_brier": 0.180625
   },
   {
     "id": "pred_1774239509",
@@ -803,11 +803,11 @@
     },
     "predicted_at": "2026-03-23T04:18:29.328124+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:06.183501+00:00",
+    "resolution": true,
+    "model_brier": 0.3136,
+    "market_brier": 0.189225
   },
   {
     "id": "pred_1774239894",
@@ -830,11 +830,11 @@
     },
     "predicted_at": "2026-03-23T04:24:54.215479+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:06.767718+00:00",
+    "resolution": true,
+    "model_brier": 0.266256,
+    "market_brier": 0.034225
   },
   {
     "id": "pred_1774241140",
@@ -857,11 +857,11 @@
     },
     "predicted_at": "2026-03-23T04:45:40.879948+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:07.375516+00:00",
+    "resolution": true,
+    "model_brier": 0.207936,
+    "market_brier": 0.5776
   },
   {
     "id": "pred_1774241345",
@@ -884,11 +884,11 @@
     },
     "predicted_at": "2026-03-23T04:49:05.739639+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:08.050214+00:00",
+    "resolution": false,
+    "model_brier": 0.431649,
+    "market_brier": 0.308025
   },
   {
     "id": "pred_1774241527",
@@ -911,11 +911,11 @@
     },
     "predicted_at": "2026-03-23T04:52:07.122996+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:08.639121+00:00",
+    "resolution": false,
+    "model_brier": 0.306916,
+    "market_brier": 0.265225
   },
   {
     "id": "pred_1774241944",
@@ -938,11 +938,11 @@
     },
     "predicted_at": "2026-03-23T04:59:04.590353+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:09.234795+00:00",
+    "resolution": true,
+    "model_brier": 0.277729,
+    "market_brier": 0.133225
   },
   {
     "id": "pred_1774243070",
@@ -965,11 +965,11 @@
     },
     "predicted_at": "2026-03-23T05:17:50.524000+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:09.933545+00:00",
+    "resolution": false,
+    "model_brier": 0.244036,
+    "market_brier": 0.297025
   },
   {
     "id": "pred_1774244243",
@@ -992,11 +992,11 @@
     },
     "predicted_at": "2026-03-23T05:37:23.433989+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:10.566593+00:00",
+    "resolution": true,
+    "model_brier": 0.143641,
+    "market_brier": 0.198025
   },
   {
     "id": "pred_1774244344",
@@ -1019,11 +1019,11 @@
     },
     "predicted_at": "2026-03-23T05:39:04.642632+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:11.183525+00:00",
+    "resolution": false,
+    "model_brier": 0.011664,
+    "market_brier": 0.049952
   },
   {
     "id": "pred_1774244570",
@@ -1046,11 +1046,11 @@
     },
     "predicted_at": "2026-03-23T05:42:50.853765+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:11.855682+00:00",
+    "resolution": false,
+    "model_brier": 0.021904,
+    "market_brier": 0.068906
   },
   {
     "id": "pred_1774244991",
@@ -1073,11 +1073,11 @@
     },
     "predicted_at": "2026-03-23T05:49:51.530748+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:12.437687+00:00",
+    "resolution": true,
+    "model_brier": 0.2304,
+    "market_brier": 0.035344
   },
   {
     "id": "pred_1774245507",
@@ -1100,11 +1100,11 @@
     },
     "predicted_at": "2026-03-23T05:58:27.504039+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:13.044928+00:00",
+    "resolution": true,
+    "model_brier": 0.0961,
+    "market_brier": 0.0036
   },
   {
     "id": "pred_1774253180",
@@ -1127,11 +1127,11 @@
     },
     "predicted_at": "2026-03-23T08:06:20.461711+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:13.622308+00:00",
+    "resolution": false,
+    "model_brier": 0.200704,
+    "market_brier": 0.2401
   },
   {
     "id": "pred_1774254158",
@@ -1154,11 +1154,11 @@
     },
     "predicted_at": "2026-03-23T08:22:38.494668+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:14.196174+00:00",
+    "resolution": false,
+    "model_brier": 0.126736,
+    "market_brier": 0.2304
   },
   {
     "id": "pred_1774255149",
@@ -1181,11 +1181,11 @@
     },
     "predicted_at": "2026-03-23T08:39:09.488905+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:14.786518+00:00",
+    "resolution": true,
+    "model_brier": 0.261121,
+    "market_brier": 0.25
   },
   {
     "id": "pred_1774255622",
@@ -1208,11 +1208,11 @@
     },
     "predicted_at": "2026-03-23T08:47:02.466961+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:15.382487+00:00",
+    "resolution": true,
+    "model_brier": 0.214369,
+    "market_brier": 0.2304
   },
   {
     "id": "pred_1774256097",
@@ -1235,11 +1235,11 @@
     },
     "predicted_at": "2026-03-23T08:54:57.692667+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:15.963038+00:00",
+    "resolution": true,
+    "model_brier": 0.239121,
+    "market_brier": 0.2704
   },
   {
     "id": "pred_1773912556",
@@ -1424,10 +1424,10 @@
     },
     "predicted_at": "2026-03-22T17:31:04.529806+00:00",
     "source": "prospective",
-    "status": "pending",
-    "resolved_at": null,
-    "resolution": null,
-    "model_brier": null,
-    "market_brier": null
+    "status": "resolved",
+    "resolved_at": "2026-03-25T15:11:16.559792+00:00",
+    "resolution": false,
+    "model_brier": 0.312481,
+    "market_brier": 0.255025
   }
 ]
