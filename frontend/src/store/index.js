@@ -1,6 +1,8 @@
 import { defineStore } from 'pinia'
 import api from '../api/client'
 
+export { useAuthStore } from './auth'
+
 export const useThemeStore = defineStore('theme', {
   state: () => ({
     theme: localStorage.getItem('depredict-theme') || 'dark',

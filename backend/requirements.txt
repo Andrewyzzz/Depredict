@@ -13,3 +13,7 @@ matplotlib
 numpy
 scipy
 requests
+sqlalchemy
+bcrypt
+pyjwt
+stripe

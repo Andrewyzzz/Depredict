@@ -10,12 +10,14 @@ import logging
 import queue
 import threading
 import traceback
-from flask import Blueprint, request, jsonify, Response
+from flask import Blueprint, request, jsonify, Response, g
 
 logger = logging.getLogger(__name__)
 
 from ..services.task_manager import TaskManager, DebateStatus
 from ..services.prospective_tracker import ProspectiveTracker
+from ..utils.auth import login_required, check_prediction_limit
+from ..models import Session
 
 debate_bp = Blueprint("debate", __name__, url_prefix="/api/debate")
 
@@ -66,6 +68,7 @@ def _sse_format(data: dict) -> str:
 
 
 @debate_bp.route("/start", methods=["POST"])
+@login_required
 def start_debate():
     """
     Start a new debate pipeline in the background.
@@ -73,6 +76,14 @@ def start_debate():
     Body: { "question": str, "market_price": float|null }
     Returns: { "task_id": str, "status": "created" }
     """
+    # Check prediction limit
+    if not check_prediction_limit(g.user):
+        return jsonify({
+            "error": "Monthly prediction limit reached. Upgrade to premium for unlimited predictions.",
+            "predictions_this_month": g.user.predictions_this_month,
+            "limit": 3,
+        }), 403
+
     data = request.get_json(force=True)
     question = data.get("question")
     if not question:
@@ -80,6 +91,10 @@ def start_debate():
 
     market_price = data.get("market_price")
     slug = data.get("slug")
+
+    # Increment prediction count
+    g.user.predictions_this_month += 1
+    Session.commit()
 
     # Create task via TaskManager
     task_state = task_manager.create_task(question, market_price=market_price)

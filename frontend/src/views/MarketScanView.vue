@@ -1,7 +1,22 @@
 <template>
   <div class="flex flex-col gap-6 p-6">
+    <!-- Premium Gate Overlay -->
+    <div v-if="!authStore.isPremium" class="glass-card rounded-2xl p-12 text-center space-y-6 mb-8">
+      <span class="material-symbols-outlined text-5xl text-primary">lock</span>
+      <h2 class="font-headline font-bold text-on-surface text-2xl">Scanner Requires Premium</h2>
+      <p class="text-on-surface-variant max-w-md mx-auto">
+        The Market Scanner is available exclusively for Premium subscribers. Upgrade to scan thousands of prediction markets for mispriced opportunities.
+      </p>
+      <router-link
+        to="/pricing"
+        class="inline-block bg-primary-container text-on-primary-container px-8 py-3 rounded-xl font-bold font-headline uppercase tracking-[0.08em] hover:scale-[1.02] active:scale-95 transition-all shadow-[0_0_20px_rgba(77,142,255,0.3)]"
+      >
+        Upgrade to Premium
+      </router-link>
+    </div>
+
     <!-- Page Header -->
-    <div class="flex justify-between items-start gap-4 flex-wrap">
+    <div v-if="authStore.isPremium" class="flex justify-between items-start gap-4 flex-wrap">
       <div>
         <h1 class="text-2xl font-headline font-bold text-on-surface tracking-tight">Polymarket Scanner</h1>
         <p class="mt-1 text-sm text-on-surface-variant">Find mispriced Polymarket contracts</p>
@@ -17,7 +32,7 @@
     </div>
 
     <!-- Search + Category Filter Pills -->
-    <div class="flex flex-col gap-4">
+    <div v-if="authStore.isPremium" class="flex flex-col gap-4">
       <div class="relative max-w-sm">
         <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-lg pointer-events-none">search</span>
         <input
@@ -43,12 +58,12 @@
     </div>
 
     <!-- Error State -->
-    <div v-if="error" class="px-4 py-3 rounded-lg bg-error-container/20 border border-error/30 text-error text-sm font-body">
+    <div v-if="error && authStore.isPremium" class="px-4 py-3 rounded-lg bg-error-container/20 border border-error/30 text-error text-sm font-body">
       {{ error }}
     </div>
 
     <!-- Loading State: Skeleton Cards -->
-    <div v-if="loading" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div v-if="loading && authStore.isPremium" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <div
         v-for="i in 6"
         :key="'skel-' + i"
@@ -79,7 +94,7 @@
     </div>
 
     <!-- Market Cards Grid -->
-    <div v-else-if="filteredMarkets.length" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div v-else-if="filteredMarkets.length && authStore.isPremium" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <div
         v-for="market in filteredMarkets"
         :key="market.id"
@@ -140,7 +155,7 @@
     </div>
 
     <!-- Empty State -->
-    <div v-else-if="!loading" class="flex flex-col items-center py-16 text-center">
+    <div v-else-if="!loading && authStore.isPremium" class="flex flex-col items-center py-16 text-center">
       <span class="material-symbols-outlined text-5xl text-on-surface-variant/40 mb-4">search_off</span>
       <p class="text-base font-headline font-semibold text-on-surface mb-1">No markets found</p>
       <p class="text-sm text-on-surface-variant max-w-xs">
@@ -149,7 +164,7 @@
     </div>
 
     <!-- Footer Meta -->
-    <div v-if="!loading && filteredMarkets.length" class="mt-6 pt-6 border-t border-outline-variant/10 flex flex-col md:flex-row justify-between items-center gap-4 text-on-surface-variant">
+    <div v-if="!loading && filteredMarkets.length && authStore.isPremium" class="mt-6 pt-6 border-t border-outline-variant/10 flex flex-col md:flex-row justify-between items-center gap-4 text-on-surface-variant">
       <div class="flex items-center gap-6">
         <div class="flex items-center gap-2">
           <span class="w-2 h-2 rounded-full bg-secondary shadow-[0_0_8px_rgba(74,225,118,0.5)]"></span>
@@ -167,6 +182,9 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import api from '../api/client'
+import { useAuthStore } from '../store/auth'
+
+const authStore = useAuthStore()
 const markets = ref([])
 const loading = ref(false)
 const error = ref(null)
@@ -235,5 +253,9 @@ async function fetchMarkets() {
   }
 }
 
-onMounted(fetchMarkets)
+onMounted(() => {
+  if (authStore.isPremium) {
+    fetchMarkets()
+  }
+})
 </script>

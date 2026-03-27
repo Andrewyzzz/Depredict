@@ -12,6 +12,7 @@ from flask import Blueprint, request, jsonify
 
 from ..services.polymarket_client import PolymarketClient
 from ..services.edge_detector import EdgeDetector
+from ..utils.auth import login_required, premium_required
 
 logger = logging.getLogger(__name__)
 
@@ -144,6 +145,8 @@ def get_market_by_id(condition_id: str):
 
 
 @market_bp.route("/scan", methods=["GET"])
+@login_required
+@premium_required
 def scan_edges():
     """
     Return active markets ensuring every category has representation.

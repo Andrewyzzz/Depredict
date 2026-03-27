@@ -10,7 +10,9 @@
           <router-link to="/history" class="micro-label text-on-surface-variant hover:text-on-surface transition-colors font-headline">Predictions</router-link>
         </div>
         <div class="flex items-center gap-4">
-          <router-link to="/analyze" class="bg-primary-container text-on-primary-container px-6 py-2 rounded-xl font-bold text-sm hover:shadow-[0_0_20px_rgba(77,142,255,0.4)] transition-all active:scale-95">
+          <router-link v-if="!authStore.isLoggedIn" to="/login" class="micro-label text-on-surface-variant hover:text-on-surface transition-colors font-headline">Sign In</router-link>
+          <router-link v-if="!authStore.isLoggedIn" to="/pricing" class="micro-label text-primary hover:text-on-surface transition-colors font-headline">Pricing</router-link>
+          <router-link :to="authStore.isLoggedIn ? '/analyze' : '/login?redirect=/analyze'" class="bg-primary-container text-on-primary-container px-6 py-2 rounded-xl font-bold text-sm hover:shadow-[0_0_20px_rgba(77,142,255,0.4)] transition-all active:scale-95">
             Launch Terminal
           </router-link>
         </div>
@@ -30,7 +32,7 @@
             Harness high-frequency AI multi-agent debates and 9 proprietary aggregation methods to identify market inefficiencies with institutional precision.
           </p>
           <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-            <router-link to="/analyze" class="bg-primary-container text-on-primary-container px-8 py-4 rounded-xl font-bold text-md w-full sm:w-auto hover:shadow-[0_0_30px_rgba(77,142,255,0.5)] transition-all text-center">
+            <router-link :to="authStore.isLoggedIn ? '/analyze' : '/login?redirect=/analyze'" class="bg-primary-container text-on-primary-container px-8 py-4 rounded-xl font-bold text-md w-full sm:w-auto hover:shadow-[0_0_30px_rgba(77,142,255,0.5)] transition-all text-center">
               Start Analysis
             </router-link>
             <router-link to="/history" class="border border-outline-variant text-on-surface px-8 py-4 rounded-xl font-bold text-md w-full sm:w-auto hover:bg-white/5 transition-all text-center">
@@ -183,7 +185,7 @@
         <div class="max-w-4xl mx-auto glass-panel p-16 rounded-[2rem] text-center relative overflow-hidden">
           <div class="absolute inset-0 bg-primary/5 -z-10 blur-3xl rounded-full translate-y-12"></div>
           <h2 class="font-headline text-4xl md:text-5xl font-bold tracking-tight mb-8">Ready to out-calculate the market?</h2>
-          <router-link to="/scan" class="inline-flex items-center gap-3 bg-primary-container text-on-primary-container px-10 py-5 rounded-xl font-bold text-lg hover:shadow-[0_0_40px_rgba(77,142,255,0.4)] transition-all">
+          <router-link :to="authStore.isLoggedIn ? '/scan' : '/login?redirect=/scan'" class="inline-flex items-center gap-3 bg-primary-container text-on-primary-container px-10 py-5 rounded-xl font-bold text-lg hover:shadow-[0_0_40px_rgba(77,142,255,0.4)] transition-all">
             Find Mispriced Markets
             <span class="material-symbols-outlined">search</span>
           </router-link>
@@ -212,8 +214,10 @@
 import { ref, computed, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import api from '../api/client'
+import { useAuthStore } from '../store/auth'
 
 const router = useRouter()
+const authStore = useAuthStore()
 const predictions = ref([])
 const stats = ref({})
 

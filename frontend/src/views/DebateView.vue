@@ -7,8 +7,49 @@
       <p class="text-on-surface-variant font-label text-sm uppercase tracking-[0.1em]">Synthesize Real-Time Market Sentiment</p>
     </section>
 
+    <!-- Free tier banner -->
+    <section v-if="authStore.isLoggedIn && !authStore.isPremium" class="max-w-3xl mx-auto mb-6">
+      <div class="flex items-center gap-3 px-5 py-3 rounded-xl bg-primary/5 border border-primary/20 text-sm">
+        <span class="material-symbols-outlined text-primary text-lg">info</span>
+        <span class="text-on-surface-variant">
+          You have <strong class="text-on-surface">{{ authStore.predictionsRemaining }}/3</strong> free predictions remaining this month.
+          <router-link to="/pricing" class="text-primary hover:underline ml-1">Upgrade for unlimited</router-link>
+        </span>
+      </div>
+    </section>
+
+    <!-- Upgrade prompt (shown on 403) -->
+    <section v-if="upgradePrompt" class="max-w-2xl mx-auto mb-8">
+      <div class="glass-card rounded-xl p-8 text-center space-y-4">
+        <span class="material-symbols-outlined text-4xl text-primary">lock</span>
+        <h3 class="font-headline font-bold text-on-surface text-lg">Prediction Limit Reached</h3>
+        <p class="text-sm text-on-surface-variant">You have used all your free predictions for this month. Upgrade to Premium for unlimited access.</p>
+        <router-link
+          to="/pricing"
+          class="inline-block bg-primary-container text-on-primary-container px-8 py-3 rounded-xl font-bold font-headline uppercase tracking-[0.08em] hover:scale-[1.02] active:scale-95 transition-all shadow-[0_0_20px_rgba(77,142,255,0.3)]"
+        >
+          Upgrade to Premium
+        </router-link>
+      </div>
+    </section>
+
+    <!-- Login prompt (defensive) -->
+    <section v-if="!authStore.isLoggedIn" class="max-w-2xl mx-auto mb-8">
+      <div class="glass-card rounded-xl p-8 text-center space-y-4">
+        <span class="material-symbols-outlined text-4xl text-primary">login</span>
+        <h3 class="font-headline font-bold text-on-surface text-lg">Sign In Required</h3>
+        <p class="text-sm text-on-surface-variant">Please sign in to run predictions.</p>
+        <router-link
+          to="/login?redirect=/analyze"
+          class="inline-block bg-primary-container text-on-primary-container px-8 py-3 rounded-xl font-bold font-headline uppercase tracking-[0.08em] hover:scale-[1.02] active:scale-95 transition-all shadow-[0_0_20px_rgba(77,142,255,0.3)]"
+        >
+          Sign In
+        </router-link>
+      </div>
+    </section>
+
     <!-- Input Form (visible when not running and not complete) -->
-    <section v-if="!store.isRunning && !store.isComplete" class="max-w-3xl mx-auto space-y-6 mb-16">
+    <section v-if="!store.isRunning && !store.isComplete && authStore.isLoggedIn && !upgradePrompt" class="max-w-3xl mx-auto space-y-6 mb-16">
       <form @submit.prevent="handleSubmit" class="space-y-5">
         <!-- Question Input -->
         <div class="relative group">
@@ -275,8 +316,11 @@
 <script setup>
 import { ref, reactive, computed, onMounted, onUnmounted } from 'vue'
 import { useDebateStore } from '../store/index'
+import { useAuthStore } from '../store/auth'
 
 const store = useDebateStore()
+const authStore = useAuthStore()
+const upgradePrompt = ref(false)
 const question = ref('')
 const marketPrice = ref(null)
 const expandedRounds = reactive(new Set())
@@ -478,10 +522,15 @@ function resetToInput() {
 
 async function handleSubmit() {
   if (!question.value.trim()) return
+  upgradePrompt.value = false
   try {
     await store.startDebate(question.value.trim(), marketPrice.value || null)
-  } catch {
-    // error already in store
+  } catch (err) {
+    if (err.response?.status === 403) {
+      upgradePrompt.value = true
+      store.error = null
+    }
+    // other errors already in store
   }
 }
 

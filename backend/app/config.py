@@ -46,6 +46,14 @@ class Config:
 
     POLYMARKET_API_KEY = os.getenv("POLYMARKET_API_KEY", "")
 
+    # ── Auth & Billing ──────────────────────────────────────────────
+    JWT_SECRET = os.getenv("JWT_SECRET", SECRET_KEY)
+    JWT_EXPIRY_HOURS = int(os.getenv("JWT_EXPIRY_HOURS", "24"))
+    STRIPE_SECRET_KEY = os.getenv("STRIPE_SECRET_KEY", "")
+    STRIPE_WEBHOOK_SECRET = os.getenv("STRIPE_WEBHOOK_SECRET", "")
+    STRIPE_PRICE_ID = os.getenv("STRIPE_PRICE_ID", "")
+    FREE_PREDICTIONS_PER_MONTH = 3
+
     # ── Debate parameters ──────────────────────────────────────────
     PREDICTION_SAMPLES = int(os.getenv("PREDICTION_SAMPLES", "1"))
     DEBATE_ROUNDS = int(os.getenv("DEBATE_ROUNDS", "3"))

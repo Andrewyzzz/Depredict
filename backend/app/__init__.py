@@ -45,6 +45,14 @@ def create_app():
     # SocketIO for real-time progress updates
     socketio.init_app(app, cors_allowed_origins="*", async_mode="threading")
 
+    # Initialize database
+    from .models import init_db, Session as DbSession
+    init_db()
+
+    @app.teardown_appcontext
+    def remove_db_session(exception=None):
+        DbSession.remove()
+
     # Register blueprints
     _register_blueprints(app)
 
@@ -76,3 +84,15 @@ def _register_blueprints(app):
         app.register_blueprint(history_bp)
     except Exception as e:
         print(f"  Skipping history_bp: {e}")
+
+    try:
+        from .api.auth import auth_bp
+        app.register_blueprint(auth_bp)
+    except Exception as e:
+        print(f"  Skipping auth_bp: {e}")
+
+    try:
+        from .api.stripe_webhook import stripe_bp
+        app.register_blueprint(stripe_bp)
+    except Exception as e:
+        print(f"  Skipping stripe_bp: {e}")

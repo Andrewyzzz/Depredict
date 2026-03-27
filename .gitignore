@@ -16,6 +16,7 @@ frontend/.vite/
 
 # Data (results may contain API responses)
 data/results/*.json
+*.db
 
 # Build artifacts
 paper_bundle.zip
