@@ -13,6 +13,19 @@
           </p>
         </div>
 
+        <!-- Test Mode Banner: credentials are pre-filled with a shared
+             premium demo account so visitors can try Premium features
+             during the testing phase. Remove before public launch. -->
+        <div v-if="!isRegister" class="flex items-start gap-3 px-4 py-3 rounded-xl bg-primary-container/15 border border-primary/30 text-on-surface text-sm">
+          <span class="material-symbols-outlined text-base text-primary mt-0.5">science</span>
+          <div class="space-y-1">
+            <div class="font-semibold text-primary">Test Mode</div>
+            <div class="text-xs text-on-surface-variant leading-relaxed">
+              A shared Premium demo account has been pre-filled. Just click <strong class="text-on-surface">Sign In</strong> to try every feature for free.
+            </div>
+          </div>
+        </div>
+
         <!-- Error -->
         <div v-if="error" class="flex items-center gap-3 px-4 py-3 rounded-xl bg-error-container/20 border border-error/20 text-error text-sm">
           <span class="material-symbols-outlined text-lg">error</span>
@@ -91,9 +104,16 @@ const router = useRouter()
 const route = useRoute()
 const authStore = useAuthStore()
 
+// Test-mode shared Premium demo account. While the site is in the testing
+// phase we pre-fill these credentials so any visitor can sign in with one
+// click and exercise Premium features. Remove or gate behind an env flag
+// before public launch.
+const DEMO_EMAIL = 'demo@depredict.net'
+const DEMO_PASSWORD = 'demo1234'
+
 const mode = ref('login')
-const email = ref('')
-const password = ref('')
+const email = ref(DEMO_EMAIL)
+const password = ref(DEMO_PASSWORD)
 const confirmPassword = ref('')
 const error = ref(null)
 const loading = ref(false)
