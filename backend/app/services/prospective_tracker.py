@@ -59,10 +59,6 @@ class ProspectiveTracker:
         now = datetime.now(timezone.utc)
         pred_id = f"pred_{int(now.timestamp())}"
 
-        # Persist the full debate result for later report viewing
-        if task_id:
-            self._save_debate_result(task_id, debate_result, question, market_price)
-
         # Extract aggregation data
         aggregated_prob = debate_result.get("aggregated_probability")
         mechanisms = debate_result.get("aggregation_mechanisms", {})
@@ -82,6 +78,21 @@ class ProspectiveTracker:
         if aggregated_prob is not None:
             p_cal = calibrate(aggregated_prob / 100.0, market_price, cal_params)
             calibrated_prob = round(p_cal * 100.0, 2)
+
+        # Persist the full debate result for later report viewing, enriched
+        # with calibrated probability so the report view can show both raw
+        # and calibrated forecasts side-by-side.
+        if task_id:
+            enriched_result = dict(debate_result)
+            if calibrated_prob is not None:
+                enriched_result["calibrated_probability"] = calibrated_prob
+                if not cal_params.is_identity():
+                    enriched_result["calibration"] = {
+                        "alpha": cal_params.alpha,
+                        "delta": cal_params.delta,
+                        "fitted_at": cal_params.fitted_at,
+                    }
+            self._save_debate_result(task_id, enriched_result, question, market_price)
 
         prediction = {
             "id": pred_id,

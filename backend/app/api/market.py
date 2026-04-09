@@ -20,7 +20,10 @@ market_bp = Blueprint("market", __name__, url_prefix="/api/market")
 
 # Shared client instances
 _polymarket_client = PolymarketClient()
-_edge_detector = EdgeDetector(_polymarket_client, min_edge=0.05, min_volume=10000)
+# min_edge lowered to 0.03 because the calibrated edge is bounded by δ
+# (currently 0.06), so a 0.05 threshold would only fire on the upper half
+# of the achievable range. 0.03 still requires a clearly positive signal.
+_edge_detector = EdgeDetector(_polymarket_client, min_edge=0.03, min_volume=10000)
 
 # Simple in-memory cache: key -> (timestamp, data)
 _cache: dict[str, tuple[float, object]] = {}

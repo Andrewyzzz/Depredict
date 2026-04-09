@@ -276,11 +276,26 @@ function buildMarkdownFromResult(data) {
   const hybrid = data.aggregation_mechanisms?.hybrid?.probability
   if (hybrid != null) {
     lines.push(`## Summary`)
-    lines.push(`**Model Prediction:** ${hybrid.toFixed(1)}%`)
+    lines.push(`**Model Prediction (raw):** ${hybrid.toFixed(1)}%`)
+    // Calibrated forecast (combined predictor + clipping toward market).
+    // Only present when post-aggregation calibration has been fit and the
+    // prediction was saved through the prospective tracker.
+    const calibrated = data.calibrated_probability
+    if (calibrated != null) {
+      lines.push(`**Calibrated Forecast:** ${calibrated.toFixed(1)}%`)
+    }
     if (data.market_price != null) {
       lines.push(`**Market Price:** ${(data.market_price * 100).toFixed(1)}%`)
-      const edge = (hybrid / 100 - data.market_price) * 100
-      lines.push(`**Edge:** ${edge > 0 ? '+' : ''}${edge.toFixed(1)}%`)
+      // Edge is computed from the calibrated forecast when available, since
+      // that is the quantity validated to beat market out-of-sample.
+      const probForEdge = calibrated != null ? calibrated : hybrid
+      const edge = (probForEdge / 100 - data.market_price) * 100
+      const edgeLabel = calibrated != null ? 'Edge (calibrated)' : 'Edge'
+      lines.push(`**${edgeLabel}:** ${edge > 0 ? '+' : ''}${edge.toFixed(1)}%`)
+    }
+    if (data.calibration) {
+      const c = data.calibration
+      lines.push(`*(calibration: α=${c.alpha.toFixed(2)}, δ=${c.delta.toFixed(2)})*`)
     }
     lines.push('')
   }
