@@ -15,6 +15,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
+from ..core.calibration import calibrate, load_params
+
 logger = logging.getLogger(__name__)
 
 # Default path: backend/app/services/../../.. = project root -> data/prospective/
@@ -72,6 +74,15 @@ class ProspectiveTracker:
         # Determine which aggregation method was used (hybrid if available)
         aggregation_method = "hybrid" if "hybrid" in mechanisms else "simple_average"
 
+        # Apply post-aggregation calibration (combined predictor + clipping
+        # toward market price). Falls back to identity (no-op) if no fitted
+        # parameters exist on disk yet.
+        cal_params = load_params()
+        calibrated_prob = None
+        if aggregated_prob is not None:
+            p_cal = calibrate(aggregated_prob / 100.0, market_price, cal_params)
+            calibrated_prob = round(p_cal * 100.0, 2)
+
         prediction = {
             "id": pred_id,
             "task_id": task_id,
@@ -79,14 +90,21 @@ class ProspectiveTracker:
             "slug": slug,
             "market_price_at_prediction": round(market_price, 4),
             "model_probability": aggregated_prob,
+            "model_probability_calibrated": calibrated_prob,
             "aggregation_method": aggregation_method,
             "all_mechanisms": all_mechanisms,
+            "calibration": {
+                "alpha": cal_params.alpha,
+                "delta": cal_params.delta,
+                "fitted_at": cal_params.fitted_at,
+            } if not cal_params.is_identity() else None,
             "predicted_at": now.isoformat(),
             "source": "prospective",
             "status": "pending",
             "resolved_at": None,
             "resolution": None,
             "model_brier": None,
+            "model_brier_calibrated": None,
             "market_brier": None,
         }
 
@@ -156,14 +174,20 @@ class ProspectiveTracker:
 
             # Compute Brier scores
             model_prob = pred.get("model_probability")
+            calibrated_prob = pred.get("model_probability_calibrated")
             market_price = pred.get("market_price_at_prediction")
 
             model_brier = None
+            calibrated_brier = None
             market_brier = None
 
             if model_prob is not None:
                 p = model_prob / 100.0  # model_probability is 0-100 scale
                 model_brier = round((p - outcome) ** 2, 6)
+
+            if calibrated_prob is not None:
+                p = calibrated_prob / 100.0
+                calibrated_brier = round((p - outcome) ** 2, 6)
 
             if market_price is not None:
                 market_brier = round((market_price - outcome) ** 2, 6)
@@ -172,6 +196,7 @@ class ProspectiveTracker:
             pred["resolved_at"] = now
             pred["resolution"] = resolution
             pred["model_brier"] = model_brier
+            pred["model_brier_calibrated"] = calibrated_brier
             pred["market_brier"] = market_brier
 
             newly_resolved += 1
@@ -207,12 +232,19 @@ class ProspectiveTracker:
             p["model_brier"] for p in predictions
             if p.get("status") == "resolved" and p.get("model_brier") is not None
         ]
+        calibrated_briers = [
+            p["model_brier_calibrated"] for p in predictions
+            if p.get("status") == "resolved" and p.get("model_brier_calibrated") is not None
+        ]
         market_briers = [
             p["market_brier"] for p in predictions
             if p.get("status") == "resolved" and p.get("market_brier") is not None
         ]
 
         avg_model_brier = round(statistics.mean(model_briers), 6) if model_briers else None
+        avg_calibrated_brier = (
+            round(statistics.mean(calibrated_briers), 6) if calibrated_briers else None
+        )
         avg_market_brier = round(statistics.mean(market_briers), 6) if market_briers else None
 
         return {
@@ -220,10 +252,16 @@ class ProspectiveTracker:
             "pending": pending,
             "resolved": resolved,
             "avg_model_brier": avg_model_brier,
+            "avg_calibrated_brier": avg_calibrated_brier,
             "avg_market_brier": avg_market_brier,
             "model_beats_market": (
                 avg_model_brier < avg_market_brier
                 if avg_model_brier is not None and avg_market_brier is not None
+                else None
+            ),
+            "calibrated_beats_market": (
+                avg_calibrated_brier < avg_market_brier
+                if avg_calibrated_brier is not None and avg_market_brier is not None
                 else None
             ),
         }

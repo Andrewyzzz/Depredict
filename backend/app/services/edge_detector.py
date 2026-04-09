@@ -10,20 +10,30 @@ import math
 from dataclasses import dataclass, field
 from typing import Optional
 
+from ..core.calibration import calibrate, load_params
+
 logger = logging.getLogger(__name__)
 
 
 @dataclass
 class Edge:
-    """Represents a detected edge between model probability and market price."""
+    """Represents a detected edge between model probability and market price.
+
+    `model_probability` is the raw hybrid output. `model_probability_calibrated`
+    is the post-aggregation calibrated probability (combined predictor + clip
+    toward market). `edge` is computed from the calibrated probability when
+    available, since calibration is what achieves out-of-sample significance
+    versus the market baseline.
+    """
 
     condition_id: str
     slug: str
     question: str
     category: str
     market_price: float        # Polymarket price (0-1)
-    model_probability: float   # Our model's probability (0-1)
-    edge: float               # model - market (positive = market underprices YES)
+    model_probability: float   # Raw model probability (0-1)
+    model_probability_calibrated: float  # Calibrated probability used for edge (0-1)
+    edge: float               # calibrated - market (positive = market underprices YES)
     abs_edge: float
     confidence: str           # "high", "medium", "low" based on mechanism agreement
     mechanisms: dict           # {method_name: probability} from aggregation
@@ -39,6 +49,7 @@ class Edge:
             "category": self.category,
             "market_price": round(self.market_price, 4),
             "model_probability": round(self.model_probability, 4),
+            "model_probability_calibrated": round(self.model_probability_calibrated, 4),
             "edge": round(self.edge, 4),
             "abs_edge": round(self.abs_edge, 4),
             "direction": "underpriced" if self.edge > 0 else "overpriced",
@@ -82,6 +93,16 @@ class EdgeDetector:
         self.polymarket_client = polymarket_client
         self.min_edge = min_edge
         self.min_volume = min_volume
+        # Loaded once per detector instance; re-created when the detector is.
+        # Re-fit by running scripts/fit_calibration.py and restarting the backend.
+        self._calibration_params = load_params()
+        if not self._calibration_params.is_identity():
+            logger.info(
+                "EdgeDetector loaded calibration: alpha=%.3f delta=%.3f (fitted %s)",
+                self._calibration_params.alpha,
+                self._calibration_params.delta,
+                self._calibration_params.fitted_at,
+            )
 
     def scan_category(
         self,
@@ -202,8 +223,17 @@ class EdgeDetector:
         model_probability = float(hybrid_prob_100) / 100.0
         model_probability = max(0.0, min(1.0, model_probability))  # clamp
 
-        # Compute edge
-        edge_value = model_probability - market_price
+        # Apply post-aggregation calibration. With identity params this is a
+        # no-op; once fit_calibration.py has run, the result is the combined
+        # predictor + clipping toward market.
+        calibrated_probability = calibrate(
+            model_probability, market_price, self._calibration_params
+        )
+
+        # Edge is computed from the calibrated probability — that is the
+        # quantity validated to beat market out-of-sample. With δ=0.06,
+        # |edge| is bounded above by ~0.06.
+        edge_value = calibrated_probability - market_price
 
         # Check minimum edge threshold
         if abs(edge_value) < self.min_edge:
@@ -217,7 +247,9 @@ class EdgeDetector:
             if prob is not None:
                 mechanism_probs[name] = float(prob) / 100.0
 
-        # Determine confidence based on mechanism agreement
+        # Determine confidence based on mechanism agreement (uses raw signal,
+        # since agreement is a property of the underlying experts, not the
+        # post-processing layer).
         confidence = self._compute_confidence(mechanism_probs, model_probability)
 
         return Edge(
@@ -227,6 +259,7 @@ class EdgeDetector:
             category=category,
             market_price=round(market_price, 4),
             model_probability=round(model_probability, 4),
+            model_probability_calibrated=round(calibrated_probability, 4),
             edge=round(edge_value, 4),
             abs_edge=round(abs(edge_value), 4),
             confidence=confidence,
